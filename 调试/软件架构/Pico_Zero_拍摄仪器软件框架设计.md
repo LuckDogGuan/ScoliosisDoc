@@ -1,1009 +1,477 @@
 # Luckfox Pico Zero 拍摄仪器软件框架设计
 
-> 目标平台：Luckfox Pico Zero（RV1106G3）  
-> 目标功能：1080P / 30fps / H.265 / 每轮约 5 秒拍摄 / Wi‑Fi 上传到电脑端  
-> 操作方式：3 个实体按键 + 专用 AP/路由器 + 电脑有线接入同一局域网  
-> 设计原则：**稳定优先、尽量复用成熟开源组件、方便调试、避免误操作、后续方便硬件重画板。**
+> 2026-09-28 产品方向已调整为单设备、四页面、手动下一位；V1 请先核对[新方案](单设备筛查V1产品方案_待确认.md)。本文件保留旧版技术记录，其中一对多和 VLC 预览安排不再作为 V1 需求。
+
+> 核对日期：2026-09-27  
+> 平台：Luckfox Pico Zero（RV1106G3）+ ISG1321  
+> 正式功能：触发后在仪器上录满 10 秒 H.265，再把这一个文件上传到旁边的电脑  
+> 推流：只看摆放和焦距。正式这 10 秒不推流  
+> 屏幕：无  
+> 电脑：Flutter Windows，`D:\code\Scoliosis\ScoliosisFlutter`  
+> 下位机：C，源码在 Ubuntu 22.04 的 `/home/guanjx/luckfox/Scoliosis`。编译器是 uClibc 的 gcc，不用 C++，不用 Python  
+> 使用对象：中小学。名单在电脑上，仪器只负责拍和传  
+> 这 10 秒不边拍边看。先录完，再上传，电脑再播文件
+
+事实以 [设备](../基础信息/设备.md)、[Wi-Fi](../基础信息/WiFi.md)、[推流参数](../基础信息/推流参数.md) 为准。
 
 ---
 
-## 1. 为什么选择这套软件结构
+## 0. 现在固定的安排
 
-Pico Zero 本身已经具备本项目需要的核心硬件：RV1106G3、256MB DDR3L、8GB eMMC、4-lane MIPI CSI、板载 2.4GHz Wi‑Fi 6，并提供官方 Buildroot 和 SDK。
 
-本项目不建议从零自己写摄像头驱动、H.265 编码器、Wi‑Fi 协议或 GPIO 轮询。优先复用 Linux 和 Luckfox / Rockchip 已经提供的能力：
+| 项   | 安排                                        |
+| --- | ----------------------------------------- |
+| Wi-Fi | 开机自动连接 [Wi-Fi](../基础信息/WiFi.md) 里的固定热点。密码只在板端配置里，电脑不输入、不显示、不修改 |
+| 配对 | 一台电脑对多台仪器。列表里看基础信息，老师再点「配对」。连上 Wi-Fi 不等于已配对。掉线再连上不用重新配对 |
+| 拍摄  | 已配对的那一台才录。触发后固定 10 秒，录完再上传。按键未到时，点这张仪器卡片上的「拍摄」 |
+| 推流  | 测试项。看机位和焦距。当前实验数字以推流参数页为准                 |
+| 总开关 | 外接物理断电、上电。软件不读、不联动                          |
+| 按键  | 外接左、中、右。只有中键带灯，左右无灯。板载 BOOT / RESET 不用。GPIO 后定 |
+| 灯   | 模式只显示在中键上。板载 `work` 只留作系统心跳，软件不动 |
+| 名单  | 放在电脑。Excel 导入。视频按「这次筛查 + 学生」挂上            |
+| 喇叭  | 音量暂设 10，后续可调整。10 秒录完、文件写好之后再说话。WAV 在 [声音](../声音/) |
+| 电池  | 未买。低电慢闪先留着，现在不会进入                         |
+| 路由器 | 未买。开发用测试热点 `ChinaNet-7HrK`                |
 
-- 摄像头、ISP、H.265：使用 Luckfox SDK / Rockchip RK MPI 现成接口。
-- Wi‑Fi：使用 `wpa_supplicant + udhcpc`。
-- 按键：使用 Linux `gpio-keys`，按键事件统一进入 `/dev/input/eventX`。
-- HTTP 控制：使用 `libmicrohttpd`。
-- H.265 文件上传：使用 `libcurl`。
-- JSON：使用 `nlohmann/json`。
-- 日志：优先 `spdlog`；如果希望依赖最少，可以退回 libc `syslog()`。
-- 服务自动启动：使用 Buildroot / BusyBox 的 init 脚本；量产版增加 watchdog / respawn。
-
-这样做的原因很简单：**最难、最容易出问题的底层部分尽量不自己写，自己的 C++ 代码只负责业务状态机。**
 
 ---
 
-# 2. 整体系统结构
+
+
+# 1. 外接四颗：左、中、右，再加总开关
+
+板子上的 BOOT、RESET 和 `work` 灯先不动。产品按键全部外接，以后画新板时再把这几颗脚做进去。
 
 ```text
-                         专用 AP / 路由器
-                     ┌─────────────────┐
-                     │  固定 SSID/密码 │
-                     │   DHCP 分配 IP  │
-                     └───────┬─────────┘
-                             │
-                 Wi‑Fi       │       网线
-                             │
-          ┌──────────────────┴──────────────────┐
-          │                                     │
-          ▼                                     ▼
-┌──────────────────┐                   ┌──────────────────┐
-│   Pico Zero 仪器  │                   │     Windows PC   │
-│                  │                   │                  │
-│  Camera          │                   │  Flutter 上位机  │
-│      ↓           │                   │       ↓          │
-│  H.265 硬编码     │                   │  接收 H.265      │
-│      ↓           │                   │       ↓          │
-│  eMMC 临时保存    │ ─── Wi‑Fi ───▶   │  FFmpeg 抽帧     │
-│      ↓           │                   │       ↓          │
-│  上传队列         │ ◀── 控制/确认 ── │  图片/数据保存   │
-└──────────────────┘                   └──────────────────┘
+总开关     串在电源上。断电、上电。软件看不到
+左键       电脑切到上一位学生
+中键       按下后录满 10 秒，然后上传。松手不提前停。键没到货时由电脑上的「拍摄」代替
+右键       电脑切到下一位学生
 ```
 
-### 为什么电脑建议用网线接 AP
+三颗都是外接自复位键。灯只做在中键上，和按键是同一个零件，样子类似 Xbox 那种带光圈的圆键。左键和右键不带灯。
 
-- 避免 Windows USB Wi‑Fi 热点和驱动兼容性问题。
-- PC 与路由器连接稳定，设备只需要处理自己这一侧的 Wi‑Fi。
-- 多台仪器可以同时连接同一个 AP。
-- 后续调试时可以直接在电脑抓包、Ping、HTTP 调试。
+中键消抖大约 20–30 ms。按下后马上开录，录满 10 秒再停。不按住，也不靠松开结束。
 
-> 路由器需要关闭 `AP Isolation / Client Isolation`，否则无线仪器可能无法访问电脑。
+总开关在录像中途被关掉时，这一段没写完的文件作废。已经写完、还没传到电脑的文件，下次上电后继续传。
 
----
-
-# 3. Pico Zero 设备端软件分层
-
-建议只运行一个核心业务进程：`instrument_app`。
-
-```text
-instrument_app
-│
-├── AppController             # 总状态机
-│
-├── ButtonManager             # 三按键、组合键、长按识别
-│
-├── CameraManager             # Camera / ISP 生命周期
-│
-├── EncoderManager            # H.265 编码
-│
-├── CaptureManager            # 一轮 5 秒拍摄流程
-│
-├── WifiManager               # Wi‑Fi连接/断开/配对状态
-│
-├── DiscoveryService          # 局域网设备发现
-│
-├── ControlServer             # HTTP 控制服务
-│
-├── UploadManager             # H.265 上传 / 重试 / ACK
-│
-├── StorageManager            # eMMC文件和待上传队列
-│
-├── ConfigManager             # 配置文件
-│
-└── Logger                    # 日志
-```
-
-业务模块与硬件接口分开以后，将来从 Pico Zero 换成 RV1106 自研板，主要修改 `CameraManager / GPIO配置 / WiFi配置`，上层状态机基本不用重写。
+配对在电脑上点，中键的灯快闪。断线以后再考虑，不做到按键上。
 
 ---
 
-# 4. 三个按键的定义
+# 2. 买什么样的键
 
-暂定：
+板载 `work` 灯继续做系统心跳，触发器保持 `activity`，软件不写它。模式灯只在中键上。
+
+买两样，都是松手就断开的自复位，不要自锁：
+
+| 位置 | 数量 | 买什么 |
+| --- | --- | --- |
+| 中 | 1 | 12 mm 轻触自复键。点一下接通、松手断开。操作力约 1.5 N。中心标志透光，红绿双色，灯电压 5 V |
+| 左、右 | 2 | 16 mm 金属自复键，无灯 |
+
+按下表买。厂家编码里 **F 是自复**（松手断开），**Z 是自锁**（按下保持）。三颗键都要 F。
+
+现在是点一下就开始这 10 秒，不需要手指按住。仍然要自复，不要自锁。自锁是按一下保持、再按一下才断开，容易连着再触发。
+
+上一只弘崧金属键手感重，按住几秒手指要一直用力顶着。中键改成轻触款。
+
+| 位置 | 数量 | 下单写法 | 页面 |
+| --- | --- | --- | --- |
+| 中 | 1 | 德崧 PBM-12 **轻触**款。自复 `(ON)-OFF`，操作力约 1.5 N，行程约 0.3 mm。中心图案透光做成 X，红绿双色，灯电压 5 V。按住期间触点保持 | [PBM-12 轻触](http://www.desong168.com/html/ProductShowDetail_2212.html) |
+| 左、右 | 2 | 弘崧 `HS16A-P11F/N`，16 mm，自复，无灯 | [16 mm 无灯](https://www.hosong.cn/product/16mm-self-locking-reset-unlit-metal-button-switch) |
+| 灯驱动 | 2 | S8050（TO-92），基极各串 1 kΩ | 点中键的红、绿 |
+| 总开关 | 1 | 两脚自锁船型开关，例如 KCD1，额定至少 3 A | 串在 5 V 进线上 |
+
+付款前让卖家确认是轻触款，不是按压力 3 N 以上的金属重手感款。图案是透光的 X；红、绿可以分开亮；5 V 电阻做在键里；公共端是正极。若是共阴，灯的接法要反过来。
+
+这颗 X 是外观，不做 Xbox 联名。灯的 5 V 从板子 USB 供电取，排针脚位对照官方引脚图，这里不写死针号。
+
+接法，现在飞线、以后画板都一样：
 
 ```text
-[ 左键 L ]   [ 中键 M ]   [ 右键 R ]
+左、中、右的开关    各用 1 个 GPIO。一端接 GND，按下为低，上拉。共 3 个 GPIO
+中键灯的正极        接 5 V（按键上标的灯电压）
+中键绿灯负极        经一个三极管，1 个 GPIO
+中键红灯负极        经另一个三极管，1 个 GPIO
+左、右              没有灯线
 ```
 
-## 4.1 按键功能
+灯的电流不要直接灌进 RV1106 的 GPIO。GPIO 只驱动三极管。一共 5 个 GPIO：左、中、右、绿、红。具体编号等画板时再定，不要用 GPIO123（外置天线，保持 0）。
 
-| 操作 | 时间 | 功能 |
-|---|---:|---|
-| 左 + 右 | 同时按住 1 秒 | 准备并启动一轮拍摄 |
-| 中 + 左 | 同时按住 3 秒 | 进入 Wi‑Fi 配对模式 |
-| 中 + 右 | 同时按住 3 秒 | 主动断开 Wi‑Fi |
-| 单独按任意一个键 | - | 第一版不执行功能 |
-
-### 为什么不让单键直接拍摄
-
-拍摄属于核心操作，使用 `左 + 右` 两键组合可以明显减少误触。
-
-1 秒长按又能过滤掉碰撞、搬运、手指快速划过造成的误触，同时又不会让用户感觉等待过久。
-
-Wi‑Fi 配对和断网属于低频、影响系统连接的操作，因此使用 `中键 + 左/右` 并要求持续 3 秒，避免用户误操作。
+| 模式 | 中键的灯 |
+| --- | --- |
+| 正常 | 中心标志绿灯常亮 |
+| 配对 | 中心标志绿灯快闪 |
+| 低电 | 中心标志红灯慢闪。电池未买，现在不会进入 |
 
 ---
 
-# 5. 按键识别规则
 
-## 5.1 不推荐用户态轮询 GPIO
 
-不建议 C++ 每 10ms 去读取三个 GPIO。
+# 3. 拍摄和上传
 
-建议硬件同事把三个按键配置进 Linux Device Tree 的 `gpio-keys`：
+画质、传输和速度拆开，不在同一次里面又推高清又传文件。
 
 ```text
-GPIO
- ↓
-gpio-keys 内核驱动
- ↓
-/dev/input/eventX
- ↓
-ButtonManager
- ↓
-组合键状态机
-```
-
-这样 Linux 内核处理 GPIO 中断和基础消抖，应用程序只处理逻辑，稳定性比自己轮询高，也方便通过 `evtest` 直接调试。
-
-## 5.2 推荐参数
-
-```text
-软件/内核消抖：      20~30 ms
-组合键允许时间差：    <= 150 ms
-L + R 长按：          1000 ms
-M + L 长按：          3000 ms
-M + R 长按：          3000 ms
-```
-
-例如用户先按左键，100ms 后按右键，仍然视为同时按下。
-
-如果两个键中任何一个在时间达到之前松开，则本次组合操作取消。
-
----
-
-# 6. 推荐的按键硬件要求
-
-按键型号现在不用急着确定，先告诉硬件同事满足这些条件即可：
-
-- 普通瞬时按键（Momentary）。
-- 常开 NO（Normally Open）。
-- 按下接 GND，GPIO 使用上拉，形成 Active-Low。
-- 推荐外置约 10kΩ 上拉，提高抗干扰能力。
-- 软件/内核消抖为主；是否增加小 RC 由硬件工程师决定。
-- 如果按键通过长线连接到面板，需要考虑 ESD 和干扰。
-- 不要占用摄像头、Wi‑Fi、系统启动、调试 UART 等关键复用脚。
-
-### 强烈建议增加一个状态指示
-
-如果硬件成本允许，建议至少增加：
-
-- 1 个 RGB LED，或
-- 1 个普通双色 LED，或
-- 1 个蜂鸣器。
-
-因为“按住 1 秒 / 3 秒”的操作如果完全没有反馈，用户不知道系统是否已经识别。
-
-例如：
-
-```text
-正常待机       LED 常绿
-准备拍摄       蓝灯闪一下
-拍摄中         蓝灯常亮
-上传中         蓝灯慢闪
-配对模式       蓝灯快速闪
-Wi‑Fi断开      黄灯
-错误           红灯
-```
-
-这里只是软件状态定义，最终颜色可根据硬件实际调整。
-
----
-
-# 7. 拍摄状态机
-
-按你的需求，我建议 `左 + 右 1秒` 后不要在手还压着按键时立刻记录第一帧。
-
-推荐流程：
-
-```text
-IDLE
- │
- │ L + R 持续 1 秒
+摆放（可选）
+ │  现有低码率 RTSP，只看机位和焦距
+ │  看完关掉。正式录像开始前，这一路停掉
  ▼
-PREPARE
- │
- │ 初始化/唤醒 Camera
- │ 检查 eMMC 空间
- │ 检查编码器
- │ 给用户反馈
- │
- │ 两键释放后等待约 300~500ms
+触发
+ │  现在：Flutter 点「拍摄」
+ │  以后：中键按下，同一条路径
  ▼
-CAPTURE
- │
- │ 1080P / 30fps
- │ H.265
- │ 连续 5 秒
+本地录像 10 秒
+ │  1280×1080，30 fps（60/2），H.265，4000 kb/s
+ │  只写仪器里的文件，这 10 秒不推流
+ │  喇叭不说话
  ▼
-FINALIZE
- │
- │ 完成文件
- │ .tmp → .h265 原子重命名
+收尾
+ │  .tmp 改成 .mp4
+ │  喇叭：「拍摄完成」
  ▼
-UPLOAD_QUEUE
- │
- ├── Wi‑Fi/PC在线 → 上传
- │
- └── 不在线 → 保留本地
-
-上传成功 + PC ACK
- │
- ▼
-DELETE / ARCHIVE
- │
- ▼
-IDLE
+上传这一个文件
+ │  大约 5 MB
+ ├── 电脑收下 → 「已传到电脑」，仪器删掉这份
+ └── 这次没传上 → 留在仪器里，「已保存在仪器里」
 ```
 
-### 为什么按键释放后再等约 300~500ms
+10 秒、4000 kb/s 的 H.265 大约 5 MB。人站着不动，这个码率留给背部细节；文件又小，传完就结束，不会像持续高码率推流那样把热点打满。之前 2048 kb/s 的实时推流一两秒就让网关 ping 失败，所以高画质不走实时流。
 
-用户按实体按键时可能会让仪器产生轻微晃动。
+电脑直接播这个 H.265。Windows 安装 HEVC 视频扩展（微软商店里的 HEVC Video Extensions，设备制造商那一版也可以）。装好后由系统解码，不在仪器上转成 H.264，也不在电脑上先转码再看。
 
-让用户松手后再延迟一小段时间开始拍摄，可以减少按键动作对画面的影响。具体延迟以后通过实机测试调整，不必写死为 500ms。
+断线之后怎么重试，以后再做。现在只保证：录完传一次；没传上的文件还在。
+
+推流参数仍见 [推流参数](../基础信息/推流参数.md)，只给摆放用，不抄进这 10 秒文件。
 
 ---
 
-# 8. 摄像头和 H.265：不要从零写
 
-Pico Zero 官方 SDK 已经包含 Rockchip Multimedia / RK MPI 相关组件，并且官方 RKIPC 示例已经有 H.265 编码逻辑。
 
-建议从官方示例中抽出最小链路：
+# 4. 名单和视频怎么挂在一起
+
+仪器没有屏幕，不存学生名单。老师在电脑上导名单、看当前是谁、收视频。
+
+## 4.1 导入一张表
+
+Excel（`.xlsx`）或 UTF-8 的 CSV，一行一个学生。列名必须是这五个字，多出来的列忽略：
+
+
+| 学校   | 年级  | 班级  | 学号       | 姓名  |
+| ---- | --- | --- | -------- | --- |
+| 第一小学 | 五年级 | 1班  | 20240101 | 张三  |
+
+
+同一所学校里，用「年级 + 班级 + 学号」认出一个学生。姓名可以重名，不拿来做编号。若某校学号全校唯一，班级可以空着。
+
+年级、班级按表里的文字保存，不改成代码。老师导出教务表后，列名对上就能导入。多所学校可以在同一张表里，电脑先选学校，再只显示这所学校的学生。
+
+拍摄顺序跟导入表里的行序走，软件不另按年级名称排序（「一年级」按文字排会乱）。老师在表里按班排好再导入。
+
+模板在 [名单模板.csv](名单模板.csv)。Flutter 用 Dart 的 `excel` 读 xlsx，用 `csv` 读 csv。
+
+## 4.2 一次筛查，屏幕上怎么排
+
+一次到校拍摄是一场筛查：日期、学校、以及老师配上的一组仪器。名单从导入表里取出这一所学校。全场共用一个当前学生。
+
+Flutter 窗口就这一屏，字要大，老师站着也能看清：
 
 ```text
-Sensor
-  ↓
-VI / ISP
-  ↓
-RK_MPI_VENC
-  ↓
-H.265 Stream
-  ↓
-文件
+顶栏    日期    学校（多所时可选）
+仪器    每台一张卡片，可以同时多台。详见第 8.2 节
+        仪器号、IP、Wi-Fi 名称、信号、剩余存储、摄像头、电池、最近报到
+        [配对] 或 [解除配对]    [拍摄]（只有这张卡已配对才能点）
+中部    五年级    1班    20240101    张三          ← 全场共用当前这一位
+按钮    上一位    下一位    停在当前
+下部    这一位最新一条视频。列表里标出是哪台仪器拍的
+底栏    未归属（有才显示）
 ```
 
-核心原则：
+上一位、下一位现在做在这个窗口上。左键、右键到货后做同一件事，不另写一套名单。
 
-- 不要自己写 H.265 编码器。
-- 不要使用 CPU 软件编码。
-- 直接调用 RV1106 的硬件编码单元。
-- 第一阶段先跑通官方 Camera / RKIPC demo，再把代码封装进 `CameraManager` 和 `EncoderManager`。
-
-建议第一版编码参数：
+## 4.3 拍摄时怎么对上
 
 ```text
-分辨率：1920 × 1080
-帧率：30 fps
-编码：H.265 / HEVC
-时长：5 秒
-码率：先从 3~5 Mbps 测试
-GOP：30 左右起步测试
+电脑正在显示：五年级 1班 20240101 张三
+        │
+触发（点这台仪器卡片上的「拍摄」；以后是这台仪器的中键）
+        │
+仪器生成 capture_id，并 POST「开始了」
+        │
+电脑把这个 capture_id 锁在张三身上，时间用电脑本地时间
+        │
+仪器录满 10 秒，上传同一个 capture_id 的 mp4
+        │
+电脑把视频挂到张三这场筛查下；当前学生在收到「开始了」时已经跳到下一位
 ```
 
-最终码率需要根据实际拍摄内容和接收端图片质量确定。
+触发之后才在电脑上改当前学生，这份视频仍然属于触发那一刻的人。
+
+还没选学生就触发：视频照样上传，电脑放进「未归属」，老师点一下学生再挂上。不把这种视频扔掉。
+
+重拍：正常拍摄在收到「开始了」并锁定学生后自动下一位。要重拍，先用「上一位」回到该学生，打开「停在当前」，再触发一次。新视频也挂在这个学生下，旧的留着，电脑默认显示最新一条。同一学生正在拍摄时不接受第二台仪器的开始请求。
+
+仪器上的文件只带 capture_id、分辨率、时长。学生姓名不写进仪器。板上的时钟以前差过，档案里的时间以电脑收到「开始了」的本地时间为准。capture_id 用仪器号加一段随机字符，不拿板上的日期来编。
+
+## 4.4 电脑上的文件
+
+放在 Flutter 工程旁边的数据目录，不进 git 仓库的源码树。建议：
+
+```text
+D:\code\Scoliosis\ScoliosisFlutter\data\筛查\20260927_第一小学\
+├── 名单.csv
+├── 记录.csv
+└── 视频\
+    └── 五年级_1班_20240101_160501.mp4
+```
+
+`记录.csv` 的列：`capture_id,学校,年级,班级,学号,姓名,文件名,时间,设备号`。未归属时学校到姓名留空。
+
+文件名里的时间是电脑时间。第一版不上传到公网。
 
 ---
 
-# 9. Wi‑Fi 的设计：区分“联网”和“配对”
 
-这里建议不要把两个概念混在一起。
 
-## 9.1 Wi‑Fi 联网
+# 5. 喇叭
 
-仪器连接专用 AP / 路由器：
+音量当前暂设 10，声卡 `rv1106-acodec`，`aplay -q -D plughw:0,0`；后续可通过配置调整。
 
-```text
-Pico Zero
-   │
-   │ wpa_supplicant
-   ▼
-专用 AP
-   │
-   │ DHCP
-   ▼
-获取局域网 IP
-```
+句子用电脑中文语音合成（Microsoft Huihui），不是人声录音。格式和以前听清的那两条一样：16-bit PCM，单声道，22050 Hz。
 
-使用 Pico Zero 官方已经支持的：
+源文件在 `调试/声音/`。下位机工程里有一份：`/home/guanjx/luckfox/Scoliosis/sounds/`。板上播放目录仍是 `/userdata/sounds/`，编码时再拷上去。
 
-```text
-wpa_supplicant
-udhcpc
-```
 
-不要自己写 Wi‑Fi 连接协议。
+| 文件 | 何时 | 说什么 |
+| --- | --- | --- |
+| `capture_done.wav` | 10 秒录完，`.tmp` 已改成 `.mp4` | 拍摄完成 |
+| `uploaded.wav` | 电脑已收下 | 已传到电脑 |
+| `saved_on_device.wav` | 这次没传上 | 已保存在仪器里 |
+| `storage_low.wav` | 空间不够，拒绝开录 | 存储空间不足 |
+| `capture_failed.wav` | 摄像头或写盘失败 | 拍摄失败 |
+| `please_connect.wav` | 以后进入配对时再用 | 请在电脑上连接 |
+| `wifi_connected.wav` | 先不自动播 | 已有试听 |
+| `wifi_disconnected.wav` | 先不自动播 | 已有试听 |
 
-专用 AP 的 SSID / 密码建议在生产或安装阶段写入：
 
-```text
-/etc/wpa_supplicant.conf
-```
+触发开录时不先播「开始拍摄」，否则要等话说完才有画面。这 10 秒喇叭保持安静。开机不播欢迎词。
 
-## 9.2 “配对模式”建议定义成应用层配对
-
-因为电脑通过网线、仪器通过 Wi‑Fi，本来就在同一个专用局域网内，因此第一版没有必要让仪器临时再开一个热点。
-
-推荐把：
-
-```text
-中键 + 左键 3 秒
-```
-
-定义为：
-
-> **允许这台仪器在未来 60 秒内被上位机发现并绑定。**
-
-流程：
-
-```text
-M + L 3秒
-   ↓
-Wi‑Fi如果关闭 → 重新启用
-   ↓
-连接已配置的专用 AP
-   ↓
-进入 PAIRING 状态 60 秒
-   ↓
-允许响应电脑的设备发现请求
-   ↓
-电脑显示：发现新仪器 CAM-000123
-   ↓
-用户点击“配对”
-   ↓
-PC POST /api/v1/pair
-   ↓
-仪器保存 PC-ID / 配对信息
-   ↓
-PAIRING → IDLE
-```
-
-### 为什么推荐这样，而不是仪器自己开热点
-
-- 不需要在 STA / AP 模式之间反复切换。
-- 不需要第一版引入 hostapd / dnsmasq。
-- PC 本来就在同一个路由器下面。
-- 多台仪器也能同时使用。
-- 调试更简单。
-- Wi‑Fi 工作状态更少，问题更容易定位。
-
-如果将来设备需要在“没有专用路由器”的环境首次配置 SSID/密码，再增加临时 AP 配网模式即可，不建议第一版就增加复杂度。
+联网、断网的两句先不自动播，等断线策略以后再接。30 秒内同一句不重复。
 
 ---
 
-# 10. “中 + 右 3 秒”断开 Wi‑Fi
 
-推荐语义：
 
-```text
-M + R 持续 3秒
-       ↓
-设置 wifi_enabled = false
-       ↓
-停止新的上传任务
-       ↓
-等待当前文件写盘完成
-       ↓
-wpa_cli disconnect / 停止连接
-       ↓
-WIFI_OFF
-```
+# 6. 软件分层
 
-### 建议不要删除 SSID / 密码
-
-“断开 Wi‑Fi”与“清除 Wi‑Fi 配置”应该是两个不同动作。
-
-中 + 右只断开，并保留网络配置，避免用户误操作后必须返厂重新写 Wi‑Fi 信息。
-
-当再次执行：
+仪器上一个进程 `instrument_app`：
 
 ```text
-M + L 3秒
+AppController       状态机
+ButtonManager       按键未到。到货前不读 GPIO。左/右/中的行为先由 Flutter 按钮触发
+LightManager        灯未到。不碰板载 work 灯
+AudioManager        10 秒写完文件之后的短句
+CameraManager       ISG1321，编码仍交给板上的 rkipc
+CaptureManager      触发后录满 10 秒
+WifiManager         连接测试热点
+UploadManager       录完上传一次
+StorageManager      没传走的文件
+BatteryManager      现在固定「未安装」
 ```
 
-系统可以重新打开 Wi‑Fi、连接专用 AP 并进入配对模式。
+电脑端是 Flutter Windows（Dart），工程在 `D:\code\Scoliosis\ScoliosisFlutter`。下位机只用 C，放在 Ubuntu 22.04 的 `/home/guanjx/luckfox/Scoliosis`，用 [编译环境](../基础信息/编译环境.md) 里的 `arm-rockchip830-linux-uclibcgnueabihf-gcc`。板上虽然有 `libstdc++` 和 Python 3.11，业务程序不靠它们。库见 [开源库核对](Pico_Zero_开源库核对.md)。
 
-如果以后确实需要“恢复出厂 / 清空 Wi‑Fi”，建议放在电脑端管理界面，或者再定义一个更长时间（例如 10 秒）的明确恢复操作，但第一版不增加。
+摆放预览可以先用已经在用的 VLC 打开 RTSP。正式成片在 Flutter 里播，系统装好 HEVC 扩展即可。
+
+学生库、筛查、导入都在电脑。仪器不跑数据库。
 
 ---
 
-# 11. 网络通信建议
 
-第一版只保留：
 
-```text
-UDP + HTTP
-```
-
-暂时不加入 MQTT、WebSocket、mDNS。
-
-原因：需求目前比较明确，协议越少，设备越容易稳定和调试。
-
-## 11.1 UDP：设备发现
-
-电脑点击“搜索设备”：
+# 7. 摄像头
 
 ```text
-PC → UDP Broadcast → DISCOVER_INSTRUMENT
+ISG1321 / 内核 MIA1321(mis0400)
+黑白、全局快门、1280×1080
+镜头约 95.5°
 ```
 
-处于允许发现状态的仪器回复：
+录像文件：
+
+```text
+分辨率：1280 × 1080（不缩放）
+保存帧率：30 fps，分数 60/2
+编码：H.265
+容器：MP4
+时长：固定 10 秒
+码率：4000 kb/s
+GOP：30
+大小：大约 5 MB
+```
+
+推流测试继续用 [推流参数](../基础信息/推流参数.md) 里的当前档，不把 640 kb/s 抄进录像文件。
+
+---
+
+
+
+# 8. 网络、电池、存储
+
+开发热点是 [Wi-Fi](../基础信息/WiFi.md) 的 `ChinaNet-7HrK`。账号密码已经写在板端 `wpa_supplicant.conf`，开机由系统自动连接，软件不再配一次网，也不把密码发到电脑。专用路由器未买。仪器不开自己的热点。掉线后只做重新关联，配对关系保留，不用老师再输密码。
+
+电脑听 `http://192.168.0.20:8080`。一台电脑同时接待多台仪器。仪器只做客户端：短 JSON 请求可用板上的 BusyBox `wget`，MP4 必须由 C 程序以二进制安全的 HTTP POST 发送（实板 `wget --post-file` 对 MP4 发送了 0 字节）。不在板上再开一个 HTTP 服务。MQTT、WebSocket 不加。
+
+Wi-Fi 连接和配对是两件事。连上热点只说明仪器进了同一个局域网。老师在电脑上点「配对」之后，这台仪器才算这场筛查的拍摄设备。
+
+## 8.1 自动连接
+
+上电后 `wpa_supplicant` 用已有配置关联热点，`udhcpc` 拿到地址。业务程序看到 `wlan0` 已有地址，才开始向电脑报到。没有地址就等待，不在程序里写 SSID 或密码。
+
+空闲时每台仪器每 3 秒报到一次，带上基础信息，不带密码：
+
+```text
+POST /api/v1/hello
+{
+  "device_id": "CAM-000123",
+  "ip": "192.168.0.66",
+  "ssid": "ChinaNet-7HrK",
+  "rssi_dbm": -52,
+  "storage_free_mb": 220,
+  "camera": "ISG1321",
+  "battery": "absent"
+}
+```
+
+电脑给每台仪器单独回答：
+
+```text
+{"ok": true, "paired": true}
+```
+
+`paired` 表示老师已经把这台选进当前这场筛查。10 秒内没再报到的仪器，卡片改成「未连接」，配对勾选还留着。这 10 秒录像期间该仪器暂停报到，录完再发。别的仪器照常报到。
+
+## 8.2 配对
+
+电脑上的仪器列表可以同时出现多台。每张卡片展示 hello 里的那些基础信息，以及电脑自己记的「最近一次报到时间」。
+
+| 状态 | 含义 | 老师能做的 |
+| --- | --- | --- |
+| 已发现 | 10 秒内有报到，还没选进这场筛查 | 点「配对」 |
+| 已配对 | 已经选进这场筛查，并且还在报到 | 点「解除配对」，或点这张卡片上的「拍摄」 |
+| 未连接 | 曾经配过或见过，现在没有报到 | 等它自动连回。不用重新填 Wi-Fi |
+
+配对结果存在这场筛查里，是一组仪器号，不是只能有一个。解除配对只取消这台和筛查的关系，不断它的 Wi-Fi。
+
+还没配对就传上来的视频仍然收，放进「未归属」，不挂到当前学生，也不扔掉。
+
+`please_connect.wav` 先放着，等灯和配对提示一起接上再播。按键灯还没到，配对状态只显示在电脑上。
+
+## 8.3 拍摄命令
+
+按键未到时，老师点某一张已配对卡片上的「拍摄」。电脑只给这台仪器记下一条一次性命令。每台仪器空闲时每秒来取自己的命令，头里带自己的仪器号：
+
+```text
+GET /api/v1/pending-command
+Device-ID: CAM-000123
+```
+
+返回 `{"command":"capture"}` 就取走，电脑随即清掉这一台的命令，避免录两次。返回 `{"command":"none"}` 就继续等。未配对的仪器永远拿到 `none`。
+
+中键到货后，按下直接走进下面同一条，不再等这个轮询。
+
+## 8.4 开始和上传
+
+仪器先停掉摆放用的 RTSP，再：
+
+```text
+POST /api/v1/capture/start
+{"device_id":"CAM-000123","capture_id":"CAM-000123-a1b2c3d4"}
+```
+
+这台仪器已配对时，电脑把当前学生锁到这个 `capture_id` 上，然后自动跳到下一位，除非开了「停在当前」。两台几乎同时开始时，按电脑收到 `capture/start` 的先后各锁一位，不会锁成同一个学生。「停在当前」只用于显式重拍；同一学生已有一台仪器正在拍摄时，另一台的开始请求返回冲突，避免重复占用。未配对的仪器不锁学生，文件进「未归属」。然后仪器录满 10 秒，写成 `.mp4`。
+
+上传是文件本体，不是 JSON：
+
+```text
+POST /api/v1/capture/file
+Device-ID: CAM-000123
+Capture-ID: CAM-000123-a1b2c3d4
+Width: 1280
+Height: 1080
+Fps: 30
+Duration-Ms: 10000
+Codec: h265
+Container: mp4
+```
+
+正文就是这一个 mp4。电脑回答 `200` 且 `{"ok":true}`，仪器才删本地文件并播「已传到电脑」。别的结果都留在仪器里，播「已保存在仪器里」。
+
+断线重试以后再做。现在只传一次。
+
+主电池未买。`BatteryManager` 返回 `present: false`。低电慢闪先不启用。RTC 纽扣电池只维持时钟，不算电量。
+
+内存按 256MB 守，存储按 8GB 整卡。编码进程只留 `rkipc` 一个。视频只放 `/userdata`，大约 228 MB。剩余不足 16 MB 就拒绝开录，并说「存储空间不足」。未收下的视频不自动删。10 秒一片大约 5 MB，这个分区大约能堆四十段没传走的文件。库怎么选见 [开源库核对](Pico_Zero_开源库核对.md)。
+
+```text
+/userdata/capture/pending/      待传
+/userdata/capture/uploading/
+```
+
+先写 `.tmp`，停录后再改成 `.mp4`。旁边一个同名 `.json`，只有 capture_id、分辨率和时长，没有学生姓名。`rkipc` 自带的 `[storage] enable` 先不要打开：里面的 `free_size_del_min = 500` 单位还没核对，打开可能按空闲不足去删文件。10 秒这一段由我们自己的程序起停，不用它的按分钟循环录像。
+
+---
+
+
+
+# 9. 配置
 
 ```json
 {
   "device_id": "CAM-000123",
-  "model": "PICOZERO-CAM",
-  "ip": "192.168.50.21",
-  "state": "idle",
-  "pairing": true,
-  "version": "1.0.0"
-}
-```
-
-不建议设备每秒主动广播。
-
-这样平时几乎没有发现流量，省电也更容易抓包调试。
-
-> AIC8800DC 的局域网广播行为要在实机阶段验证。如果广播受驱动/路由器设置影响，可保留“路由器 DHCP 列表扫描 / 指定网段探测”作为上位机 fallback。
-
-## 11.2 HTTP：控制
-
-例如：
-
-```text
-GET  /api/v1/status
-POST /api/v1/capture
-POST /api/v1/pair
-POST /api/v1/wifi/disconnect
-GET  /api/v1/storage
-```
-
-返回统一 JSON：
-
-```json
-{
-  "code": 0,
-  "message": "ok",
-  "data": {}
-}
-```
-
-## 11.3 HTTP：上传 H.265
-
-拍摄完成后仪器主动上传到电脑：
-
-```text
-POST http://PC_IP:PORT/api/v1/upload
-```
-
-建议 Header / metadata 包含：
-
-```text
-Device-ID
-Capture-ID
-Timestamp
-Width
-Height
-FPS
-Codec
-Duration
-File-Size
-SHA256（可选，量产建议）
-```
-
-电脑完整保存后返回 ACK：
-
-```json
-{
-  "code": 0,
-  "capture_id": "CAM000123-20260927-00125",
-  "received": true
-}
-```
-
-只有收到明确 ACK 后，仪器才允许删除本地待上传文件。
-
----
-
-# 12. 推荐的开源 / 官方组件
-
-| 模块 | 推荐组件 | 用途 | 为什么 |
-|---|---|---|---|
-| 系统 | Luckfox Pico SDK / Buildroot | Linux系统 | 官方适配 Pico Zero |
-| Camera / ISP / H.265 | Rockchip RK MPI / RKIPC 示例 | 摄像、硬编码 | 不重复造底层轮子 |
-| Wi‑Fi | wpa_supplicant | STA连接 | Linux成熟标准组件 |
-| DHCP | BusyBox `udhcpc` | 获取IP | Buildroot常用、轻量 |
-| 按键 | Linux `gpio-keys` | GPIO按键事件 | 内核中断/消抖，稳定 |
-| 按键用户态 | evdev / libevdev | 读取按键 | Linux标准输入体系 |
-| HTTP Server | GNU libmicrohttpd | 接收PC控制 | 小型、成熟的 HTTP/1.1 Server |
-| HTTP Client | libcurl | 上传视频 | 非常成熟，重试/超时/trace方便 |
-| JSON | nlohmann/json | 控制消息 | C++接口简单、MIT |
-| 日志 | spdlog | 文件/控制台日志 | 易读、支持滚动日志、MIT |
-| PC 视频处理 | FFmpeg | H.265解码/抽帧 | 行业标准开源工具 |
-
-## 为什么第一版不推荐 cpp-httplib
-
-Pico Zero 的 Cortex-A7 是 32 位 ARM。
-
-当前 cpp-httplib 上游明确说明 32 位平台不受支持，仅做基本编译检查，并提示可能存在 32 位整数截断等问题。
-
-因此本项目不优先采用它作为量产设备网络核心。
-
----
-
-# 13. 上传队列：断网也不能丢数据
-
-本地目录建议：
-
-```text
-/data/capture/
-├── pending/
-├── uploading/
-├── failed/
-└── logs/
-```
-
-一次拍摄：
-
-```text
-CAM000123_20260927_160501.tmp
-              ↓
-拍摄完整结束
-              ↓
-CAM000123_20260927_160501.h265
-```
-
-同时创建一个小 metadata：
-
-```text
-CAM000123_20260927_160501.json
-```
-
-如果上传失败：
-
-```text
-保留本地
- ↓
-5秒后重试
- ↓
-15秒
- ↓
-60秒
- ↓
-5分钟
-```
-
-不要 100ms / 1秒无限快速重试，否则断网时只会耗电和刷日志。
-
-设备重启后，`StorageManager` 扫描 `pending/`，自动恢复未完成上传任务。
-
-这样即使应用崩溃或设备突然重启，也不会依赖一块复杂数据库才能找回待上传数据。
-
----
-
-# 14. 存储安全策略
-
-建议：
-
-```text
-剩余 > 1GB        正常
-剩余 512MB~1GB    警告上位机
-剩余 < 512MB       禁止开始新的拍摄
-```
-
-第一版不要自动删除“尚未上传成功”的视频。
-
-只删除：
-
-```text
-PC已经明确 ACK 的文件
-```
-
-这样数据安全优先。
-
-后续如果确实存在长期断网需求，再定义“最旧未上传文件淘汰策略”。
-
----
-
-# 15. 省电策略
-
-功耗的大头不是 HTTP/UDP，而是：
-
-```text
-Camera Sensor
-ISP
-H.265 Encoder
-Wi‑Fi RF
-CPU
-```
-
-所以主要控制硬件模块生命周期。
-
-## IDLE
-
-```text
-Camera      OFF / Standby
-ISP         OFF
-VENC        OFF
-CPU         正常 idle / DVFS
-Wi‑Fi       根据模式决定
-```
-
-## PREPARE / CAPTURE
-
-```text
-Camera ON
-ISP ON
-VENC ON
-```
-
-## 拍摄完成
-
-```text
-立即关闭 Camera / ISP / VENC
-只保留文件上传任务
-```
-
-## 网络建议提供两个配置模式
-
-```text
-network_mode = always_on
-```
-
-开发阶段推荐：Wi‑Fi一直连着 AP，上位机随时可以搜索和控制。
-
-```text
-network_mode = upload_only
-```
-
-未来如果设备靠电池、极端关注功耗：拍摄/上传时才联网，上传完成断开。
-
-第一版建议 `always_on`，因为更方便调试。
-
-Wi‑Fi Power Save 可以后续在 AIC8800DC 实机验证通过后打开，不要在软件未稳定前同时优化太多变量。
-
----
-
-# 16. 应用总状态机
-
-```text
-                     ┌────────────┐
-                     │    BOOT    │
-                     └─────┬──────┘
-                           ▼
-                     ┌────────────┐
-             ┌──────▶│    IDLE    │◀──────────────┐
-             │       └────┬───┬───┘               │
-             │            │   │                   │
-             │   L+R 1s   │   │ M+L 3s           │
-             │            │   │                   │
-             │            ▼   ▼                   │
-             │      ┌────────┐ ┌─────────────┐    │
-             │      │PREPARE │ │   PAIRING   │────┘
-             │      └───┬────┘ │   60 sec    │
-             │          ▼      └─────────────┘
-             │      ┌────────┐
-             │      │CAPTURE │  5 秒 H.265
-             │      └───┬────┘
-             │          ▼
-             │      ┌────────┐
-             │      │FINALIZE│
-             │      └───┬────┘
-             │          ▼
-             │      ┌────────┐
-             │      │UPLOAD  │
-             │      └───┬────┘
-             │          │ ACK / 排队
-             └──────────┘
-
-IDLE -- M+R 3s --> WIFI_OFF
-WIFI_OFF -- M+L 3s --> WiFi ON --> PAIRING
-```
-
-### 状态优先级
-
-建议组合键只在 `IDLE / WIFI_OFF` 识别。
-
-拍摄过程中不要让新的配对或断网操作立刻破坏当前文件。
-
-如果拍摄时检测到 `M + R`，第一版可以忽略并记录日志；后续如果确实需要，可以设计成“本轮拍摄结束后断网”。
-
----
-
-# 17. 推荐线程模型
-
-不要每个功能都创建很多线程。
-
-256MB RAM 下保持结构简单：
-
-```text
-主线程
- └── AppController / 状态机
-
-Button线程
- └── 阻塞读取 /dev/input/eventX
-
-Camera/VENC线程
- └── 拍摄期间存在
-
-Network线程
- └── HTTP Server / Discovery
-
-Upload线程
- └── 有文件时工作
-```
-
-大部分线程平时阻塞等待，不要做 `while(true) + usleep(10ms)` 的高频轮询。
-
----
-
-# 18. 配置文件建议
-
-```json
-{
-  "device_id": "CAM-000123",
-  "device_name": "Instrument-01",
-  "wifi_enabled": true,
-  "wifi_ssid": "Instrument_AP",
-  "network_mode": "always_on",
+  "wifi_ssid": "ChinaNet-7HrK",
+  "pc_base_url": "http://192.168.0.20:8080",
+  "audio": { "volume": 10 },
   "capture": {
-    "width": 1920,
+    "width": 1280,
     "height": 1080,
-    "fps": 30,
-    "duration_ms": 5000,
+    "fps_fraction": "60/2",
     "codec": "h265",
-    "bitrate_kbps": 4000
+    "container": "mp4",
+    "bitrate_kbps": 4000,
+    "duration_ms": 10000
   },
-  "pair": {
-    "paired": false,
-    "pc_id": ""
-  }
+  "battery": { "present": false }
 }
 ```
 
-Wi‑Fi 密码不要直接写进业务 JSON，继续交给 `wpa_supplicant.conf` 管理。
-
 ---
 
-# 19. 日志设计
 
-建议日志格式：
 
-```text
-2026-09-27 16:10:31.251 [INFO]  [BUTTON] L+R long press accepted
-2026-09-27 16:10:31.752 [INFO]  [CAMERA] sensor ready
-2026-09-27 16:10:31.811 [INFO]  [VENC] H265 1920x1080 30fps started
-2026-09-27 16:10:36.823 [INFO]  [CAPTURE] complete, 2.61 MB
-2026-09-27 16:10:37.100 [INFO]  [UPLOAD] start capture_id=...
-2026-09-27 16:10:37.920 [INFO]  [UPLOAD] ACK received
-```
-
-日志至少分：
+# 10. 结论
 
 ```text
-BUTTON
-CAMERA
-VENC
-WIFI
-DISCOVERY
-HTTP
-UPLOAD
-STORAGE
-SYSTEM
-```
-
-现场出现问题时可以很快判断是：按键没触发、Camera失败、编码失败、Wi‑Fi掉线还是上传失败。
-
-量产版对日志做滚动，例如只保留 10~30MB，防止日志写满 eMMC。
-
----
-
-# 20. PC 上位机第一版建议
-
-第一版不必引入 Rust，也不必一开始做 C++ DLL。
-
-推荐：
-
-```text
-Flutter Windows
-│
-├── UDP 设备搜索
-├── HTTP 控制
-├── HTTP 文件接收服务
-├── 设备列表
-├── 拍摄记录
-└── 调用 FFmpeg.exe
-       ↓
-     H.265 解码
-       ↓
-     抽帧 / 裁剪
-```
-
-Flutter 负责 UI 和普通网络业务；FFmpeg 负责视频，不自己写 H.265 解码。
-
-如果以后增加 OpenCV、复杂算法或高性能批处理，再增加 C++ DLL，通过 Dart FFI 调用。
-
-这样第一阶段开发量最小。
-
----
-
-# 21. 第一阶段建议开发顺序
-
-不要一上来全部一起开发。
-
-## Phase 1：硬件基础
-
-1. Pico Zero 官方 Buildroot 启动。
-2. UART 调试稳定。
-3. Wi‑Fi 能稳定连接专用 AP。
-4. 三个 GPIO 按键可以在 Linux input 事件中看到。
-
-## Phase 2：视频
-
-1. 跑通官方 Camera 示例。
-2. 跑通官方 H.265 示例。
-3. 保存 1080P30 / 5 秒 `.h265`。
-4. PC 用 FFmpeg 验证视频和抽帧质量。
-
-## Phase 3：业务程序
-
-1. ButtonManager。
-2. 状态机。
-3. 文件队列。
-4. Wi‑Fi Manager。
-
-## Phase 4：网络
-
-1. UDP 搜索。
-2. HTTP status。
-3. HTTP pair。
-4. H.265 上传。
-5. ACK 后删除。
-
-## Phase 5：异常测试
-
-必须测试：
-
-- 拍摄途中拔电。
-- 上传途中拔电。
-- AP 突然断电。
-- PC突然关闭。
-- eMMC接近满。
-- Wi‑Fi信号弱。
-- 快速反复按键。
-- 三键同时乱按。
-- 连续拍摄 500 轮。
-- 运行 24~72 小时稳定性。
-
----
-
-# 22. 项目目录建议
-
-```text
-instrument-firmware/
-│
-├── app/
-│   ├── main.cpp
-│   ├── AppController.cpp
-│   └── AppController.h
-│
-├── input/
-│   ├── ButtonManager.cpp
-│   └── ButtonManager.h
-│
-├── media/
-│   ├── CameraManager.cpp
-│   ├── EncoderManager.cpp
-│   └── CaptureManager.cpp
-│
-├── network/
-│   ├── WifiManager.cpp
-│   ├── DiscoveryService.cpp
-│   ├── ControlServer.cpp
-│   └── UploadManager.cpp
-│
-├── storage/
-│   ├── StorageManager.cpp
-│   └── UploadQueue.cpp
-│
-├── config/
-│   └── ConfigManager.cpp
-│
-├── common/
-│   ├── Logger.cpp
-│   ├── ErrorCode.h
-│   └── Utils.cpp
-│
-├── third_party/
-│   └── README.md
-│
-├── tests/
-│
-├── CMakeLists.txt
-└── README.md
+总开关：物理通断，软件不管
+拍摄：已配对的仪器才录。固定 10 秒 H.265 MP4，大约 5 MB，录完再传
+配对：一台电脑对多台。Wi-Fi 自动连接，配对在电脑上选，卡片上有基础信息
+画质：本地 4000 kb/s。摆放仍用低码率 RTSP，这 10 秒关掉
+播放：Windows 装 HEVC 视频扩展，Flutter 直接播，不转码
+左 / 右：现在是窗口上的上一位 / 下一位。键到了再接同一件事
+中键：未买。行为是「拍摄」，不是松开即停
+名单：xlsx 或 UTF-8 CSV，五列。屏幕只突出当前一位
+声音：调试/声音/ 已放好。板上目录 /userdata/sounds/ 编码时再拷
 ```
 
 ---
 
-# 23. 当前方案最终结论
 
-第一版推荐固定为：
 
-```text
-硬件：Luckfox Pico Zero / RV1106G3
-系统：官方 Buildroot
-开发：C++17（若官方交叉工具链限制则降到 C++14/11）
+## 参考
 
-Camera / H265：Luckfox / Rockchip RK MPI
-按键：Linux gpio-keys + evdev
-Wi‑Fi：wpa_supplicant + udhcpc
-发现：UDP Broadcast
-控制服务：libmicrohttpd
-上传：libcurl
-JSON：nlohmann/json
-日志：spdlog（或 syslog）
-PC：Flutter + FFmpeg
-```
-
-核心原则只有四条：
-
-1. **底层驱动不重复造轮子。**
-2. **按键、拍摄、Wi‑Fi全部进入明确状态机，不写成散乱回调。**
-3. **视频先落 eMMC，上传成功收到 ACK 后再删除，断网不丢数据。**
-4. **第一版只使用 UDP + HTTP，把协议数量压到最低。**
-
----
-
-# 24. 主要参考项目 / 文档
-
-- Luckfox Pico Zero 官方资料  
-  https://wiki.luckfox.com/Luckfox-Pico-Zero/
-
-- Luckfox Pico Zero Wi‑Fi / Bluetooth  
-  https://wiki.luckfox.com/Luckfox-Pico-Zero/WiFi-BT/
-
-- Luckfox Pico SDK  
-  https://github.com/LuckfoxTECH/luckfox-pico
-
-- Luckfox RK MPI Examples  
-  https://github.com/LuckfoxTECH/luckfox_pico_rkmpi_example
-
-- libcurl  
-  https://github.com/curl/curl
-
-- GNU libmicrohttpd  
-  https://www.gnu.org/software/libmicrohttpd/
-
-- nlohmann/json  
-  https://github.com/nlohmann/json
-
-- spdlog  
-  https://github.com/gabime/spdlog
-
-- FFmpeg  
-  https://ffmpeg.org/
-
----
-
-## 需要硬件同事下一步确认的内容
-
-1. 三个按键最终使用的 Pico Zero / RV1106 GPIO。
-2. 是否增加 LED / 蜂鸣器作为长按和状态反馈。
-3. Camera Sensor 最终型号及 MIPI 接口定义。
-4. Camera 是否有独立 Power Enable / Reset GPIO，方便待机省电。
-5. 专用 AP 的 SSID / 密码是否固定在出厂配置。
-6. 自研板上 Wi‑Fi 天线形式及天线净空。
-
-以上 6 项确认后，软件层可以直接进入接口冻结和编码阶段。
+- [Luckfox Pico Zero](https://wiki.luckfox.com/Luckfox-Pico-Zero/)
+- [ISG1321](https://wiki.luckfox.com/ISG1321-Camera)
+- 本机灯：`/sys/class/leds/work`，2026-09-27 实板只有这一颗
+- [德崧 PBM-12 轻触](http://www.desong168.com/html/ProductShowDetail_2212.html)
+- [弘崧 16 mm 无灯](https://www.hosong.cn/product/16mm-self-locking-reset-unlit-metal-button-switch)
