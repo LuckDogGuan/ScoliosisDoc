@@ -240,7 +240,7 @@ D:\code\Scoliosis\ScoliosisFlutter\data\筛查\20260927_第一小学\
 
 句子用电脑中文语音合成（Microsoft Huihui），不是人声录音。格式和以前听清的那两条一样：16-bit PCM，单声道，22050 Hz。
 
-源文件在 `调试/声音/`。下位机工程里有一份：`/home/guanjx/luckfox/Scoliosis/sounds/`。板上播放目录仍是 `/userdata/sounds/`，编码时再拷上去。
+源文件现集中在 `调试/声音/现行/`（试听和草稿在同目录的 `试听/`、`gemini草稿/`）。下位机工程里有一份：`/home/guanjx/luckfox/Scoliosis/sounds/`。板上优先播放 `/opt/instrument/sounds/`，没有文件时回退 `/userdata/sounds/`。
 
 
 | 文件 | 何时 | 说什么 |
@@ -461,7 +461,7 @@ Container: mp4
 左 / 右：现在是窗口上的上一位 / 下一位。键到了再接同一件事
 中键：未买。行为是「拍摄」，不是松开即停
 名单：xlsx 或 UTF-8 CSV，五列。屏幕只突出当前一位
-声音：调试/声音/ 已放好。板上目录 /userdata/sounds/ 编码时再拷
+声音：调试/声音/现行/ 。板上优先 /opt/instrument/sounds/ ，没有再回退 /userdata/sounds/
 ```
 
 ---

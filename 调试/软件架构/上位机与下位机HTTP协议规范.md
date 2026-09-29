@@ -1,6 +1,6 @@
 # 上位机与下位机全量 HTTP 请求与响应规范
 
-> 路径表仍是 `/api/v1`。和当前代码不一致、对接口时以代码为准的有：`event-ack` 的 `kind` 是 `paired` / `unpaired`；视频上传 `Content-Type` 是 `video/mp4`；hello 会带 `volume`，电脑可在响应里下发音量；在线超时是 15 秒；容量字段对应待传目录所在文件系统，不是 `/userdata` 分区。
+> 路径表仍是 `/api/v1`。哪些能力算已经做完，见 [架构说明](说明.md)。和当前代码不一致、对接口时以代码为准的有：`event-ack` 的 `kind` 是 `paired` / `unpaired`；视频上传 `Content-Type` 是 `video/mp4`；hello 会带 `volume`，电脑可在响应里下发音量；在线超时是 15 秒；容量字段对应待传目录所在文件系统，不是 `/userdata` 分区。
 
 > **规范版本**：V1.0  
 > **适用范围**：上位机（Flutter Windows 桌面客户端）与下位机（Luckfox Pico Zero 拍摄仪器）之间的局域网网络通信  

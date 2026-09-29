@@ -1,5 +1,7 @@
 # Luckfox Pico Zero 开源库核对
 
+> **【部分过时】** 2026-09-27 的库清单仍可用来查板上有什么。这几条已被后来的程序替换，细节和原因在 [架构说明](说明.md)：视频待传在 `/opt/instrument/capture/pending`，不再只放 `/userdata`；MP4 由 C 程序以 `video/mp4` 上传，不用 `wget --post-file` 传整文件；JSON 用了 cJSON；音量由 hello 下发。
+
 > 核对日期：2026-09-27  
 > 板子：Luckfox Pico Zero，出厂 Buildroot，ADB `3253c006806f5194`  
 > 预算：内存 **256MB**，存储 **8GB**。库尽量用板上已经有的，少装新的。  
