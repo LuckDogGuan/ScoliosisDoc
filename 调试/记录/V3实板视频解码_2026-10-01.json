@@ -1,0 +1,205 @@
+{
+  "decoder": "OpenCV 4.13.0",
+  "videos": [
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824554542924-1169558819.mp4",
+      "bytes": 650271,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.361702127659573,
+      "decoded_frames": 46,
+      "reported_frames": 46,
+      "duration_from_frames_s": 1.5666666666666667
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824562713455-2687036306.mp4",
+      "bytes": 493456,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.2,
+      "decoded_frames": 73,
+      "reported_frames": 73,
+      "duration_from_frames_s": 2.5
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824569054904-3166285933.mp4",
+      "bytes": 793384,
+      "width": 1280,
+      "height": 1080,
+      "fps": 30.20408163265306,
+      "decoded_frames": 74,
+      "reported_frames": 74,
+      "duration_from_frames_s": 2.45
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824577432093-3119456353.mp4",
+      "bytes": 666308,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.589041095890412,
+      "decoded_frames": 72,
+      "reported_frames": 72,
+      "duration_from_frames_s": 2.433333333333333
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824583754350-2689368922.mp4",
+      "bytes": 640122,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.2,
+      "decoded_frames": 73,
+      "reported_frames": 73,
+      "duration_from_frames_s": 2.5
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824591690296-2375921977.mp4",
+      "bytes": 574087,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.00662251655629,
+      "decoded_frames": 73,
+      "reported_frames": 73,
+      "duration_from_frames_s": 2.5166666666666666
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824599667530-2950052394.mp4",
+      "bytes": 660814,
+      "width": 1280,
+      "height": 1080,
+      "fps": 30.0,
+      "decoded_frames": 84,
+      "reported_frames": 84,
+      "duration_from_frames_s": 2.8
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824610572696-4029896368.mp4",
+      "bytes": 590367,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.22077922077922,
+      "decoded_frames": 75,
+      "reported_frames": 75,
+      "duration_from_frames_s": 2.5666666666666664
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824621800793-3316656993.mp4",
+      "bytes": 564959,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.387755102040817,
+      "decoded_frames": 72,
+      "reported_frames": 72,
+      "duration_from_frames_s": 2.4499999999999997
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824629551367-2901173343.mp4",
+      "bytes": 858089,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.79591836734694,
+      "decoded_frames": 73,
+      "reported_frames": 73,
+      "duration_from_frames_s": 2.45
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824635902602-2243524293.mp4",
+      "bytes": 204973,
+      "width": 1280,
+      "height": 1080,
+      "fps": 28.979591836734695,
+      "decoded_frames": 71,
+      "reported_frames": 71,
+      "duration_from_frames_s": 2.4499999999999997
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824643807335-1814161726.mp4",
+      "bytes": 218052,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.801324503311257,
+      "decoded_frames": 75,
+      "reported_frames": 75,
+      "duration_from_frames_s": 2.5166666666666666
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824651618341-4006841494.mp4",
+      "bytes": 198198,
+      "width": 1280,
+      "height": 1080,
+      "fps": 28.8,
+      "decoded_frames": 72,
+      "reported_frames": 72,
+      "duration_from_frames_s": 2.5
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824658031048-1921725833.mp4",
+      "bytes": 143842,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.302325581395348,
+      "decoded_frames": 42,
+      "reported_frames": 42,
+      "duration_from_frames_s": 1.4333333333333333
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824665976157-3517328762.mp4",
+      "bytes": 206034,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.387755102040817,
+      "decoded_frames": 72,
+      "reported_frames": 72,
+      "duration_from_frames_s": 2.4499999999999997
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824673522990-3538635529.mp4",
+      "bytes": 135892,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.347826086956523,
+      "decoded_frames": 45,
+      "reported_frames": 45,
+      "duration_from_frames_s": 1.5333333333333332
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824679915665-632878060.mp4",
+      "bytes": 194230,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.387755102040817,
+      "decoded_frames": 72,
+      "reported_frames": 72,
+      "duration_from_frames_s": 2.4499999999999997
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824687862116-4232755770.mp4",
+      "bytes": 150037,
+      "width": 1280,
+      "height": 1080,
+      "fps": 28.8,
+      "decoded_frames": 72,
+      "reported_frames": 72,
+      "duration_from_frames_s": 2.5
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824695517874-862695970.mp4",
+      "bytes": 111778,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.403973509933774,
+      "decoded_frames": 74,
+      "reported_frames": 74,
+      "duration_from_frames_s": 2.5166666666666666
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-board-1790824535098\\筛查\\20261001_V3实板验收\\视频\\CAM-000123-v3-1790824701872389-3611837529.mp4",
+      "bytes": 85810,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.387755102040817,
+      "decoded_frames": 72,
+      "reported_frames": 72,
+      "duration_from_frames_s": 2.4499999999999997
+    }
+  ]
+}

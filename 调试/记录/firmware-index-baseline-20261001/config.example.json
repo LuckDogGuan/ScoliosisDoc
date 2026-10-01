@@ -1,0 +1,16 @@
+{
+  "device_id": "CAM-000123",
+  "wifi_ssid": "ChinaNet-7HrK",
+  "pc_base_url": "http://192.168.0.20:8080",
+  "audio": {"volume": 10},
+  "capture": {
+    "width": 1280,
+    "height": 1080,
+    "fps_fraction": "60/2",
+    "codec": "h265",
+    "container": "mp4",
+    "bitrate_kbps": 4000,
+    "duration_ms": 10000
+  },
+  "battery": {"present": false}
+}

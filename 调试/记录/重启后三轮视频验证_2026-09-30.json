@@ -1,0 +1,26 @@
+[
+  {
+    "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\router-board-1790754011395\\筛查\\20260930_路由器联调\\视频\\CAM-000123-29dab6e5.mp4",
+    "bytes": 2966982,
+    "decoded_frames": 294,
+    "fps": 29.4,
+    "duration_s": 10.0,
+    "sha256": "7343a9795fee30a71dd39eca50cba32ec24684b783216810e6e5990e47839066"
+  },
+  {
+    "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\router-board-1790754011395\\筛查\\20260930_路由器联调\\视频\\CAM-000123-5a39e214.mp4",
+    "bytes": 4851798,
+    "decoded_frames": 293,
+    "fps": 29.3,
+    "duration_s": 10.0,
+    "sha256": "32092b4c63c7b14f7cc0cf6e8e3286e53a62b24c61d6bb27f950a352e1819536"
+  },
+  {
+    "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\router-board-1790754011395\\筛查\\20260930_路由器联调\\视频\\CAM-000123-b09b3303.mp4",
+    "bytes": 2364477,
+    "decoded_frames": 294,
+    "fps": 29.4,
+    "duration_s": 10.0,
+    "sha256": "75f1a59e8bbe502019798b72616dd3706a5d0cc2ef6674fdae0d6a0e0f55d904"
+  }
+]
