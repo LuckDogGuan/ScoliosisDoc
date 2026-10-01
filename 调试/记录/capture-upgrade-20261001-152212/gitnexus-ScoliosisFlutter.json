@@ -1,0 +1,484 @@
+{
+  "summary": {
+    "changed_count": 36,
+    "affected_count": 21,
+    "changed_files": 13,
+    "risk_level": "critical"
+  },
+  "changed_symbols": [
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._uploadRetryAt",
+      "name": "_uploadRetryAt",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._connectedUploadDevices",
+      "name": "_connectedUploadDevices",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._runMode",
+      "name": "_runMode",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._runOrder",
+      "name": "_runOrder",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._startingCapture",
+      "name": "_startingCapture",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController.recordingBusy",
+      "name": "recordingBusy",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController.preparedStudent",
+      "name": "preparedStudent",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._controls",
+      "name": "_controls",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/app/app_controller.dart:AppController",
+      "name": "AppController",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.uploadsPaused#1",
+      "name": "uploadsPaused",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.setUploadsPaused#2",
+      "name": "setUploadsPaused",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController._deviceAudio#3",
+      "name": "_deviceAudio",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.inspectImport#1",
+      "name": "inspectImport",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/app/error_log.dart:ErrorLog",
+      "name": "ErrorLog",
+      "filePath": "lib/app/error_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/device/device_book.dart:DeviceBook",
+      "name": "DeviceBook",
+      "filePath": "lib/device/device_book.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/main.dart:_Sidebar",
+      "name": "_Sidebar",
+      "filePath": "lib/main.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/net/instrument_server.dart:InstrumentServer",
+      "name": "InstrumentServer",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:lib/net/udp_discover.dart:discoverPort",
+      "name": "discoverPort",
+      "filePath": "lib/net/udp_discover.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/net/udp_discover.dart:UdpHere",
+      "name": "UdpHere",
+      "filePath": "lib/net/udp_discover.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:lib/net/udp_discover.dart:recoverPairedOnLan",
+      "name": "recoverPairedOnLan",
+      "filePath": "lib/net/udp_discover.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/survey/survey.dart:DeviceInfo.uploadingCaptureId",
+      "name": "uploadingCaptureId",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/survey/survey.dart:DeviceInfo.bootId",
+      "name": "bootId",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/survey/survey.dart:VideoRecord.unassigned",
+      "name": "unassigned",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/survey/survey.dart:DeviceInfo",
+      "name": "DeviceInfo",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/survey/survey.dart:VideoRecord",
+      "name": "VideoRecord",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/survey/survey.dart:SurveySession",
+      "name": "SurveySession",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/survey/survey.dart:VideoRecord.VideoRecord#8",
+      "name": "VideoRecord",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:lib/survey/survey.dart:recordHeaders",
+      "name": "recordHeaders",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_CapturePageState",
+      "name": "_CapturePageState",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_Sequence",
+      "name": "_Sequence",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_Single",
+      "name": "_Single",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/device_page.dart:_CompactMetadataGrid",
+      "name": "_CompactMetadataGrid",
+      "filePath": "lib/ui/pages/device_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/device_page.dart:_History",
+      "name": "_History",
+      "filePath": "lib/ui/pages/device_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/device_page.dart:_Discovered",
+      "name": "_Discovered",
+      "filePath": "lib/ui/pages/device_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/volume_dialog.dart:VolumeDialog",
+      "name": "VolumeDialog",
+      "filePath": "lib/ui/volume_dialog.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/volume_dialog.dart:_VolumeDialogState",
+      "name": "_VolumeDialogState",
+      "filePath": "lib/ui/volume_dialog.dart",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_20_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_30_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_33_build",
+      "name": "Build → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_42_build",
+      "name": "Build → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_45_initstate",
+      "name": "InitState → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_58_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_70_build",
+      "name": "Build → GrantUpload",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_71_build",
+      "name": "Build → RevokeUpload",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_72_build",
+      "name": "Build → Write",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_73_build",
+      "name": "Build → UploadsPaused",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        },
+        {
+          "symbol": "uploadsPaused",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_78_build",
+      "name": "Build → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_80_build",
+      "name": "Build → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_82_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_102_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_105_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_112_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_137_inspectimport",
+      "name": "InspectImport → _dataSheet",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "inspectImport",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_138_inspectimport",
+      "name": "InspectImport → _cellText",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "inspectImport",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_171_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_174_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_180_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 3
+        }
+      ]
+    }
+  ]
+}

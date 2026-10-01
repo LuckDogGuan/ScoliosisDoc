@@ -1,0 +1,17 @@
+{
+  "scope": "debounced board state to RPC request; physical switch and ADC latency excluded",
+  "samples": [
+    {
+      "capture_id": "CAM-000123-v3-1790844063024962-2575079398",
+      "recognized_release_to_rpc_ms": 0
+    },
+    {
+      "capture_id": "CAM-000123-v3-1790844246798674-332168728",
+      "recognized_release_to_rpc_ms": 1
+    },
+    {
+      "capture_id": "CAM-000123-v3-1790844257291155-4019687340",
+      "recognized_release_to_rpc_ms": 1
+    }
+  ]
+}

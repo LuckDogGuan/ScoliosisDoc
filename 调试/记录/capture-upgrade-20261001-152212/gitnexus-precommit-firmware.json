@@ -1,0 +1,2018 @@
+{
+  "summary": {
+    "changed_count": 217,
+    "affected_count": 38,
+    "changed_files": 39,
+    "risk_level": "critical"
+  },
+  "changed_symbols": [
+    {
+      "id": "Section:AGENTS.md:L1:下位机工程工作规则",
+      "name": "下位机工程工作规则",
+      "filePath": "AGENTS.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:README.md:L1:Pico Zero instrument_app",
+      "name": "Pico Zero instrument_app",
+      "filePath": "README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:README.md:L3:当前版本：2026-10-01 / 3.1.0",
+      "name": "当前版本：2026-10-01 / 3.1.0",
+      "filePath": "README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:README.md:L94:已有实板结果",
+      "name": "已有实板结果",
+      "filePath": "README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:README.md:L101:WSL2 版本归档",
+      "name": "WSL2 版本归档",
+      "filePath": "README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:image/README.md:L1:下位机编译版本",
+      "name": "下位机编译版本",
+      "filePath": "image/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:deploy/README.md:L1:当前 Luckfox 板部署文件",
+      "name": "当前 Luckfox 板部署文件",
+      "filePath": "deploy/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:deploy/README.md:L1:当前 Luckfox 板部署文件",
+      "name": "当前 Luckfox 板部署文件",
+      "filePath": "deploy/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:image/README.md:L1:下位机编译版本",
+      "name": "下位机编译版本",
+      "filePath": "image/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:INSTRUMENT_VERSION",
+      "name": "INSTRUMENT_VERSION",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:INSTRUMENT_ROOT",
+      "name": "INSTRUMENT_ROOT",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:STATE_DIR",
+      "name": "STATE_DIR",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:VIDEO_DIR",
+      "name": "VIDEO_DIR",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:DISCOVER_PORT",
+      "name": "DISCOVER_PORT",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/app.h:audio_get_volume",
+      "name": "audio_get_volume",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/app.h:http_hello~shape:Config:none:pointer:1|char:const:pointer:1|char:const:pointer:1|int:none:pointer:1|char:none:pointer:1|size_t:none:value:0|char:none:pointer:1|size_t:none:value:0",
+      "name": "http_hello",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:camera_get_settings~shape:CameraSettings:none:pointer:1",
+      "name": "camera_get_settings",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:camera_set_settings~shape:CameraSettings:const:pointer:1",
+      "name": "camera_set_settings",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:camera_capture_settings~shape:int:none:value:0|int:none:value:0|int:none:value:0|CameraSettings:none:pointer:1",
+      "name": "camera_capture_settings",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:camera_start",
+      "name": "camera_start",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:camera_stop",
+      "name": "camera_stop",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:camera_status",
+      "name": "camera_status",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:platform_button_raw",
+      "name": "platform_button_raw",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:instrument_trace_protocol",
+      "name": "instrument_trace_protocol",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/platform.h:instrument_trace",
+      "name": "instrument_trace",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/platform.h:INSTRUMENT_PLATFORM_H",
+      "name": "INSTRUMENT_PLATFORM_H",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:include/platform.h:bitrate",
+      "name": "bitrate",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:include/platform.h:gop",
+      "name": "gop",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:include/platform.h:CameraSettings",
+      "name": "CameraSettings",
+      "filePath": "include/platform.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/policy.h:instrument_discoverable",
+      "name": "instrument_discoverable",
+      "filePath": "include/policy.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/policy.h:instrument_can_start",
+      "name": "instrument_can_start",
+      "filePath": "include/policy.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/policy.h:INSTRUMENT_POLICY_H",
+      "name": "INSTRUMENT_POLICY_H",
+      "filePath": "include/policy.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:v3_now",
+      "name": "v3_now",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:wall_ms",
+      "name": "wall_ms",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:runtime_run~shape:Config:none:pointer:1",
+      "name": "runtime_run",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:buttons_snapshot",
+      "name": "buttons_snapshot",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:buttons_feed",
+      "name": "buttons_feed",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:capture_controlled~shape:Config:const:pointer:1|char:const:pointer:1|int:none:value:0|int:none:pointer:1|int:none:pointer:1",
+      "name": "capture_controlled",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:http_v3_start~shape:Config:const:pointer:1|char:const:pointer:1|char:const:pointer:1|char:const:pointer:1",
+      "name": "http_v3_start",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:http_v3_status~shape:Config:const:pointer:1|cJSON:const:pointer:1",
+      "name": "http_v3_status",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:v3_save_json",
+      "name": "v3_save_json",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:v3_read_json",
+      "name": "v3_read_json",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/v3.h:INSTRUMENT_V3_H",
+      "name": "INSTRUMENT_V3_H",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/app_controller.c:main",
+      "name": "main",
+      "filePath": "src/app/app_controller.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/policy.c:instrument_discoverable",
+      "name": "instrument_discoverable",
+      "filePath": "src/app/policy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/policy.c:instrument_can_start",
+      "name": "instrument_can_start",
+      "filePath": "src/app/policy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:Item",
+      "name": "Item",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:WorkerResult",
+      "name": "WorkerResult",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:Worker",
+      "name": "Worker",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:Runtime",
+      "name": "Runtime",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:stat",
+      "name": "stat",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:dirent",
+      "name": "dirent",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:sockaddr_in",
+      "name": "sockaddr_in",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:sockaddr",
+      "name": "sockaddr",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:pollfd",
+      "name": "pollfd",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:active",
+      "name": "active",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:result",
+      "name": "result",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:revoking",
+      "name": "revoking",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:pid",
+      "name": "pid",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:count",
+      "name": "count",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:size",
+      "name": "size",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:type",
+      "name": "type",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:next",
+      "name": "next",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:remote_size",
+      "name": "remote_size",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:volume",
+      "name": "volume",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:sequence",
+      "name": "sequence",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:limit",
+      "name": "limit",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:copy_text",
+      "name": "copy_text",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:halt",
+      "name": "halt",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:str",
+      "name": "str",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:num",
+      "name": "num",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:safe_id",
+      "name": "safe_id",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:request_unpair",
+      "name": "request_unpair",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:begin_audio",
+      "name": "begin_audio",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:audio_messages",
+      "name": "audio_messages",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:queue_sound~shape:Runtime:none:pointer:1|char:const:pointer:1",
+      "name": "queue_sound",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:save_pair~shape:Runtime:none:pointer:1",
+      "name": "save_pair",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:disable_gate~shape:Runtime:none:pointer:1",
+      "name": "disable_gate",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:local_unpair~shape:Runtime:none:pointer:1",
+      "name": "local_unpair",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:make_worker~shape:Worker:none:pointer:1|int:none:pointer:1",
+      "name": "make_worker",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:child_isolate~shape:Runtime:none:pointer:1|int:none:value:0",
+      "name": "child_isolate",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:finish_worker~shape:Worker:none:pointer:1",
+      "name": "finish_worker",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:digest",
+      "name": "digest",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:pending_items~shape:int:none:value:0|int:none:value:0|Item:none:value:0|int:none:pointer:1",
+      "name": "pending_items",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:next_event~shape:Runtime:none:pointer:1|char:none:value:0",
+      "name": "next_event",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:acknowledge_completion~shape:Runtime:none:pointer:1|WorkerResult:const:pointer:1",
+      "name": "acknowledge_completion",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:immediate_completion~shape:Runtime:none:pointer:1|cJSON:const:pointer:1",
+      "name": "immediate_completion",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:notifier_messages~shape:Runtime:none:pointer:1",
+      "name": "notifier_messages",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:start_record~shape:Runtime:none:pointer:1",
+      "name": "start_record",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:completed~shape:Runtime:none:pointer:1|WorkerResult:const:pointer:1",
+      "name": "completed",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:record_messages~shape:Runtime:none:pointer:1",
+      "name": "record_messages",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:maintenance~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+      "name": "maintenance",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:begin_upload~shape:Runtime:none:pointer:1|cJSON:const:pointer:1|cJSON:none:pointer:1",
+      "name": "begin_upload",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:upload_messages~shape:Runtime:none:pointer:1",
+      "name": "upload_messages",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:request_unpair~shape:Runtime:none:pointer:1",
+      "name": "request_unpair",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:begin_audio~shape:Runtime:none:pointer:1|cJSON:const:pointer:1|int:none:value:0",
+      "name": "begin_audio",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:audio_messages~shape:Runtime:none:pointer:1",
+      "name": "audio_messages",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:base_reply~shape:Runtime:none:pointer:1|cJSON:const:pointer:1",
+      "name": "base_reply",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:hello_reply~shape:Runtime:none:pointer:1|cJSON:none:pointer:1|uint64_t:none:value:0",
+      "name": "hello_reply",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:receive_udp~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+      "name": "receive_udp",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:runtime_run~shape:Config:none:pointer:1",
+      "name": "runtime_run",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/app/runtime_v3.c:EVENTS_DIR",
+      "name": "EVENTS_DIR",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/app/runtime_v3.c:PACKET_SIZE",
+      "name": "PACKET_SIZE",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/app/runtime_v3.c:ID_SIZE",
+      "name": "ID_SIZE",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/app/runtime_v3.c:MAX_ITEMS",
+      "name": "MAX_ITEMS",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/app/runtime_v3.c:COPY",
+      "name": "COPY",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/config/config.c:config_save_volume",
+      "name": "config_save_volume",
+      "filePath": "src/config/config.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/buttons.c:valid",
+      "name": "valid",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/buttons.c:changed",
+      "name": "changed",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/buttons.c:buttons_feed",
+      "name": "buttons_feed",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/buttons.c:buttons_snapshot",
+      "name": "buttons_snapshot",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/capture.c:dirent",
+      "name": "dirent",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/capture.c:tm",
+      "name": "tm",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/capture.c:stat",
+      "name": "stat",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/capture.c:pollfd",
+      "name": "pollfd",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/capture.c:timespec",
+      "name": "timespec",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/capture.c:moov",
+      "name": "moov",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/capture.c:mdat",
+      "name": "mdat",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/capture.c:ok",
+      "name": "ok",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/capture.c:is_mp4",
+      "name": "is_mp4",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/capture.c:snapshot",
+      "name": "snapshot",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/capture.c:collision_near_now",
+      "name": "collision_near_now",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/capture.c:find_new",
+      "name": "find_new",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/capture.c:valid_mp4",
+      "name": "valid_mp4",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/capture.c:record_impl~shape:Config:const:pointer:1|char:const:pointer:1|int:none:value:0|int:none:pointer:1|int:none:pointer:1",
+      "name": "record_impl",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/capture.c:capture_record~shape:Config:const:pointer:1|char:const:pointer:1",
+      "name": "capture_record",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/capture.c:capture_controlled~shape:Config:const:pointer:1|char:const:pointer:1|int:none:value:0|int:none:pointer:1|int:none:pointer:1",
+      "name": "capture_controlled",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/middleware/capture.c:MAX_EXISTING",
+      "name": "MAX_EXISTING",
+      "filePath": "src/middleware/capture.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/discover.c:sockaddr_in",
+      "name": "sockaddr_in",
+      "filePath": "src/middleware/discover.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/discover.c:sockaddr",
+      "name": "sockaddr",
+      "filePath": "src/middleware/discover.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/discover.c:discover_fd",
+      "name": "discover_fd",
+      "filePath": "src/middleware/discover.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/discover.c:discover_open",
+      "name": "discover_open",
+      "filePath": "src/middleware/discover.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/discover.c:nonce_ok",
+      "name": "nonce_ok",
+      "filePath": "src/middleware/discover.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/discover.c:discover_poll~shape:Config:none:pointer:1",
+      "name": "discover_poll",
+      "filePath": "src/middleware/discover.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:stop",
+      "name": "stop",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:persist",
+      "name": "persist",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:clear_command",
+      "name": "clear_command",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:capture_pending",
+      "name": "capture_pending",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:file_digest",
+      "name": "file_digest",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:has_writing_file",
+      "name": "has_writing_file",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:remove_capture_files",
+      "name": "remove_capture_files",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:upload_and_remove~shape:Config:const:pointer:1|char:const:pointer:1|char:const:pointer:1",
+      "name": "upload_and_remove",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:spawn_upload~shape:Config:const:pointer:1|char:const:pointer:1|char:const:pointer:1",
+      "name": "spawn_upload",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:retry_one_pending~shape:Config:const:pointer:1",
+      "name": "retry_one_pending",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:reap_upload",
+      "name": "reap_upload",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:refuse_if_low_space~shape:Config:const:pointer:1",
+      "name": "refuse_if_low_space",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:after_record~shape:Config:const:pointer:1|char:const:pointer:1|int:none:value:0",
+      "name": "after_record",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:ack_current~shape:Config:const:pointer:1|char:none:pointer:1|char:none:pointer:1|int:none:pointer:1",
+      "name": "ack_current",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:accept_seen~shape:Config:const:pointer:1|char:none:pointer:1|char:none:pointer:1|int:none:pointer:1",
+      "name": "accept_seen",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:apply_receipt~shape:Config:const:pointer:1|char:none:pointer:1|size_t:none:value:0|char:none:pointer:1|int:none:pointer:1",
+      "name": "apply_receipt",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:start_and_record~shape:Config:const:pointer:1|char:none:pointer:1|char:none:pointer:1|size_t:none:value:0|int:none:pointer:1|time_t:none:pointer:1",
+      "name": "start_and_record",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:handle_local_capture~shape:Config:const:pointer:1|int:none:value:0|time_t:none:pointer:1",
+      "name": "handle_local_capture",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:handle_legacy_capture~shape:Config:const:pointer:1|time_t:none:pointer:1",
+      "name": "handle_legacy_capture",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/legacy.c:legacy_run",
+      "name": "legacy_run",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/legacy.c:stat",
+      "name": "stat",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/legacy.c:dirent",
+      "name": "dirent",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/legacy.c:timespec",
+      "name": "timespec",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/legacy.c:running",
+      "name": "running",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/legacy.c:upload_pid",
+      "name": "upload_pid",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/legacy.c:retry_upload_after",
+      "name": "retry_upload_after",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/legacy.c:acked",
+      "name": "acked",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/legacy.c:started",
+      "name": "started",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/legacy.c:wifi_up",
+      "name": "wifi_up",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/legacy.c:hello_seen",
+      "name": "hello_seen",
+      "filePath": "src/middleware/legacy.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/middleware/persistence.c:PACKET_SIZE",
+      "name": "PACKET_SIZE",
+      "filePath": "src/middleware/persistence.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/persistence.c:v3_save_json",
+      "name": "v3_save_json",
+      "filePath": "src/middleware/persistence.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/persistence.c:v3_read_json",
+      "name": "v3_read_json",
+      "filePath": "src/middleware/persistence.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/persistence.c:at",
+      "name": "at",
+      "filePath": "src/middleware/persistence.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/upload.c:http_upload~shape:Config:const:pointer:1|char:const:pointer:1|char:const:pointer:1",
+      "name": "http_upload",
+      "filePath": "src/middleware/upload.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/upload.c:http_v3_start~shape:Config:const:pointer:1|char:const:pointer:1|char:const:pointer:1|char:const:pointer:1",
+      "name": "http_v3_start",
+      "filePath": "src/middleware/upload.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/upload.c:http_v3_status~shape:Config:const:pointer:1|cJSON:const:pointer:1",
+      "name": "http_v3_status",
+      "filePath": "src/middleware/upload.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/clock.c:v3_now",
+      "name": "v3_now",
+      "filePath": "src/platform/clock.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/clock.c:wall_ms",
+      "name": "wall_ms",
+      "filePath": "src/platform/clock.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/clock.c:timespec",
+      "name": "timespec",
+      "filePath": "src/platform/clock.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/luckfox_audio.c:timespec",
+      "name": "timespec",
+      "filePath": "src/platform/luckfox_audio.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_audio.c:audio_set_volume",
+      "name": "audio_set_volume",
+      "filePath": "src/platform/luckfox_audio.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_audio.c:audio_play",
+      "name": "audio_play",
+      "filePath": "src/platform/luckfox_audio.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_audio.c:audio_get_volume",
+      "name": "audio_get_volume",
+      "filePath": "src/platform/luckfox_audio.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/luckfox_camera.c:timeval",
+      "name": "timeval",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/luckfox_camera.c:sockaddr_un",
+      "name": "sockaddr_un",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/luckfox_camera.c:sockaddr",
+      "name": "sockaddr",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:read_all",
+      "name": "read_all",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:write_all",
+      "name": "write_all",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:rpc_open",
+      "name": "rpc_open",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:rpc_simple",
+      "name": "rpc_simple",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:rpc_status",
+      "name": "rpc_status",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:rpc_int",
+      "name": "rpc_int",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:rpc_rate",
+      "name": "rpc_rate",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:camera_get_settings~shape:CameraSettings:none:pointer:1",
+      "name": "camera_get_settings",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:camera_set_settings~shape:CameraSettings:const:pointer:1",
+      "name": "camera_set_settings",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:camera_start",
+      "name": "camera_start",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:camera_stop",
+      "name": "camera_stop",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:camera_status",
+      "name": "camera_status",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_camera.c:camera_capture_settings~shape:int:none:value:0|int:none:value:0|int:none:value:0|CameraSettings:none:pointer:1",
+      "name": "camera_capture_settings",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/platform/luckfox_camera.c:MAX_EXISTING",
+      "name": "MAX_EXISTING",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/platform/luckfox_camera.c:length",
+      "name": "length",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/platform/luckfox_camera.c:number",
+      "name": "number",
+      "filePath": "src/platform/luckfox_camera.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/platform/luckfox_gpio.c:valid",
+      "name": "valid",
+      "filePath": "src/platform/luckfox_gpio.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_gpio.c:platform_button_raw",
+      "name": "platform_button_raw",
+      "filePath": "src/platform/luckfox_gpio.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:src/platform/luckfox_mux_adapter.c:_GNU_SOURCE",
+      "name": "_GNU_SOURCE",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/luckfox_mux_adapter.c:timespec",
+      "name": "timespec",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/luckfox_mux_adapter.c:stat",
+      "name": "stat",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_mux_adapter.c:clock_ms",
+      "name": "clock_ms",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_mux_adapter.c:trace",
+      "name": "trace",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_mux_adapter.c:rkmuxer_init",
+      "name": "rkmuxer_init",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_mux_adapter.c:rkmuxer_write_video_frame",
+      "name": "rkmuxer_write_video_frame",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_mux_adapter.c:rkmuxer_deinit",
+      "name": "rkmuxer_deinit",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/platform/luckfox_mux_adapter.c:lock",
+      "name": "lock",
+      "filePath": "src/platform/luckfox_mux_adapter.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/process.c:run_command",
+      "name": "run_command",
+      "filePath": "src/platform/process.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/trace.c:flock",
+      "name": "flock",
+      "filePath": "src/platform/trace.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/trace.c:stat",
+      "name": "stat",
+      "filePath": "src/platform/trace.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/trace.c:timespec",
+      "name": "timespec",
+      "filePath": "src/platform/trace.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/trace.c:instrument_trace",
+      "name": "instrument_trace",
+      "filePath": "src/platform/trace.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/trace.c:instrument_trace_protocol",
+      "name": "instrument_trace_protocol",
+      "filePath": "src/platform/trace.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tests/test_buttons.c:sample",
+      "name": "sample",
+      "filePath": "tests/test_buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tests/test_buttons.c:main",
+      "name": "main",
+      "filePath": "tests/test_buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tests/test_pending_upload.py:source_files",
+      "name": "source_files",
+      "filePath": "tests/test_pending_upload.py",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_0_apply_receipt",
+      "name": "Apply_receipt → Run_command",
+      "process_type": "cross_community",
+      "step_count": 7,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 7
+        },
+        {
+          "symbol": "apply_receipt",
+          "step": 1
+        },
+        {
+          "symbol": "accept_seen",
+          "step": 2
+        },
+        {
+          "symbol": "ack_current",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_1_apply_receipt",
+      "name": "Apply_receipt → Phase_name",
+      "process_type": "intra_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "apply_receipt",
+          "step": 1
+        },
+        {
+          "symbol": "accept_seen",
+          "step": 2
+        },
+        {
+          "symbol": "ack_current",
+          "step": 3
+        },
+        {
+          "symbol": "persist",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_2_start_and_record",
+      "name": "Start_and_record → Run_command",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 5
+        },
+        {
+          "symbol": "start_and_record",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_3_handle_local_capture",
+      "name": "Handle_local_capture → Run_command",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 5
+        },
+        {
+          "symbol": "handle_local_capture",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_4_handle_legacy_captur",
+      "name": "Handle_legacy_capture → Run_command",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 5
+        },
+        {
+          "symbol": "handle_legacy_capture",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_5_record_impl",
+      "name": "Record_impl → Read_all",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "camera_get_settings",
+          "step": 2
+        },
+        {
+          "symbol": "rpc_rate",
+          "step": 3
+        },
+        {
+          "symbol": "rpc_open",
+          "step": 4
+        },
+        {
+          "symbol": "read_all",
+          "step": 5
+        },
+        {
+          "symbol": "record_impl",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_6_record_impl",
+      "name": "Record_impl → Write_all",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "camera_get_settings",
+          "step": 2
+        },
+        {
+          "symbol": "rpc_rate",
+          "step": 3
+        },
+        {
+          "symbol": "rpc_open",
+          "step": 4
+        },
+        {
+          "symbol": "write_all",
+          "step": 5
+        },
+        {
+          "symbol": "record_impl",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_7_upload_and_remove",
+      "name": "Upload_and_remove → Run_command",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 5
+        },
+        {
+          "symbol": "upload_and_remove",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_8_immediate_completion",
+      "name": "Immediate_completion → Run_command",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 5
+        },
+        {
+          "symbol": "http_v3_status",
+          "step": 2
+        },
+        {
+          "symbol": "immediate_completion",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_9_legacy_run",
+      "name": "Legacy_run → Run_command",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 4
+        },
+        {
+          "symbol": "audio_play",
+          "step": 3
+        },
+        {
+          "symbol": "legacy_run",
+          "step": 1
+        },
+        {
+          "symbol": "reap_upload",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_10_start_and_record",
+      "name": "Start_and_record → Phase_name",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "start_and_record",
+          "step": 1
+        },
+        {
+          "symbol": "persist",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_11_camera_set_settings",
+      "name": "Camera_set_settings → Write_all",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "camera_set_settings",
+          "step": 1
+        },
+        {
+          "symbol": "camera_get_settings",
+          "step": 2
+        },
+        {
+          "symbol": "rpc_rate",
+          "step": 3
+        },
+        {
+          "symbol": "write_all",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_12_camera_set_settings",
+      "name": "Camera_set_settings → Read_all",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "camera_set_settings",
+          "step": 1
+        },
+        {
+          "symbol": "camera_get_settings",
+          "step": 2
+        },
+        {
+          "symbol": "rpc_rate",
+          "step": 3
+        },
+        {
+          "symbol": "read_all",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_13_http_v3_start",
+      "name": "Http_v3_start → Run_command",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 4
+        },
+        {
+          "symbol": "http_v3_start",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_14_camera_start",
+      "name": "Camera_start → Read_all",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "camera_start",
+          "step": 1
+        },
+        {
+          "symbol": "rpc_simple",
+          "step": 2
+        },
+        {
+          "symbol": "rpc_open",
+          "step": 3
+        },
+        {
+          "symbol": "read_all",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_15_camera_start",
+      "name": "Camera_start → Write_all",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "camera_start",
+          "step": 1
+        },
+        {
+          "symbol": "rpc_simple",
+          "step": 2
+        },
+        {
+          "symbol": "rpc_open",
+          "step": 3
+        },
+        {
+          "symbol": "write_all",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_16_camera_stop",
+      "name": "Camera_stop → Read_all",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "camera_stop",
+          "step": 1
+        },
+        {
+          "symbol": "rpc_simple",
+          "step": 2
+        },
+        {
+          "symbol": "rpc_open",
+          "step": 3
+        },
+        {
+          "symbol": "read_all",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_17_camera_stop",
+      "name": "Camera_stop → Write_all",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "camera_stop",
+          "step": 1
+        },
+        {
+          "symbol": "rpc_simple",
+          "step": 2
+        },
+        {
+          "symbol": "rpc_open",
+          "step": 3
+        },
+        {
+          "symbol": "write_all",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_18_request_unpair",
+      "name": "Request_unpair → V3_save_json",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "v3_save_json",
+          "step": 4
+        },
+        {
+          "symbol": "request_unpair",
+          "step": 1
+        },
+        {
+          "symbol": "local_unpair",
+          "step": 2
+        },
+        {
+          "symbol": "save_pair",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_19_request_unpair",
+      "name": "Request_unpair → Queue_sound",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "request_unpair",
+          "step": 1
+        },
+        {
+          "symbol": "local_unpair",
+          "step": 2
+        },
+        {
+          "symbol": "disable_gate",
+          "step": 3
+        },
+        {
+          "symbol": "queue_sound",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_20_legacy_run",
+      "name": "Legacy_run → Phase_value",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "legacy_run",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_21_main",
+      "name": "Main → String_field",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_22_main",
+      "name": "Main → Number_field",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_23_main",
+      "name": "Main → Wifi_rssi",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_24_main",
+      "name": "Main → Storage_free_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_25_main",
+      "name": "Main → Storage_total_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_26_main",
+      "name": "Main → Storage_memory_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_27_start_and_record",
+      "name": "Start_and_record → Storage_free_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "start_and_record",
+          "step": 1
+        },
+        {
+          "symbol": "refuse_if_low_space",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_28_handle_local_capture",
+      "name": "Handle_local_capture → Storage_free_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "handle_local_capture",
+          "step": 1
+        },
+        {
+          "symbol": "refuse_if_low_space",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_29_handle_legacy_captur",
+      "name": "Handle_legacy_capture → Storage_free_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "handle_legacy_capture",
+          "step": 1
+        },
+        {
+          "symbol": "refuse_if_low_space",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_30_record_impl",
+      "name": "Record_impl → Is_mp4",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "record_impl",
+          "step": 1
+        },
+        {
+          "symbol": "snapshot",
+          "step": 2
+        },
+        {
+          "symbol": "is_mp4",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_31_completed",
+      "name": "Completed → Queue_sound",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "completed",
+          "step": 1
+        },
+        {
+          "symbol": "disable_gate",
+          "step": 2
+        },
+        {
+          "symbol": "queue_sound",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_32_http_poll",
+      "name": "Http_poll → Run_command",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "run_command",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_33_rkmuxer_init",
+      "name": "Rkmuxer_init → Clock_ms",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "rkmuxer_init",
+          "step": 1
+        },
+        {
+          "symbol": "trace",
+          "step": 2
+        },
+        {
+          "symbol": "clock_ms",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_34_upload_and_remove",
+      "name": "Upload_and_remove → Device_header",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "upload_and_remove",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_35_upload_and_remove",
+      "name": "Upload_and_remove → Connect_pc",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "http_upload",
+          "step": 2
+        },
+        {
+          "symbol": "upload_and_remove",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_36_upload_and_remove",
+      "name": "Upload_and_remove → V3_read_json",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "http_upload",
+          "step": 2
+        },
+        {
+          "symbol": "v3_read_json",
+          "step": 3
+        },
+        {
+          "symbol": "upload_and_remove",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_37_upload_and_remove",
+      "name": "Upload_and_remove → Send_all",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "http_upload",
+          "step": 2
+        },
+        {
+          "symbol": "upload_and_remove",
+          "step": 1
+        }
+      ]
+    }
+  ]
+}

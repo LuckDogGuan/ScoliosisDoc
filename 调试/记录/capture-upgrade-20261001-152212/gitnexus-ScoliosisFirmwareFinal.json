@@ -1,0 +1,156 @@
+{
+  "summary": {
+    "changed_count": 12,
+    "affected_count": 6,
+    "changed_files": 8,
+    "risk_level": "high"
+  },
+  "changed_symbols": [
+    {
+      "id": "Section:README.md:L1:Pico Zero instrument_app",
+      "name": "Pico Zero instrument_app",
+      "filePath": "README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:README.md:L3:当前版本：2026-10-01 / 3.1.0",
+      "name": "当前版本：2026-10-01 / 3.1.0",
+      "filePath": "README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/app.h:audio_get_volume",
+      "name": "audio_get_volume",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/app.h:http_hello~shape:Config:none:pointer:1|char:const:pointer:1|char:const:pointer:1|int:none:pointer:1|char:none:pointer:1|size_t:none:value:0|char:none:pointer:1|size_t:none:value:0",
+      "name": "http_hello",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:INSTRUMENT_VERSION",
+      "name": "INSTRUMENT_VERSION",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:INSTRUMENT_ROOT",
+      "name": "INSTRUMENT_ROOT",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:STATE_DIR",
+      "name": "STATE_DIR",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:VIDEO_DIR",
+      "name": "VIDEO_DIR",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:include/app.h:DISCOVER_PORT",
+      "name": "DISCOVER_PORT",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/app_controller.c:main",
+      "name": "main",
+      "filePath": "src/app/app_controller.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/config/config.c:config_save_volume",
+      "name": "config_save_volume",
+      "filePath": "src/config/config.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tests/test_pending_upload.py:source_files",
+      "name": "source_files",
+      "filePath": "tests/test_pending_upload.py",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_21_main",
+      "name": "Main → String_field",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_22_main",
+      "name": "Main → Number_field",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_23_main",
+      "name": "Main → Wifi_rssi",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_24_main",
+      "name": "Main → Storage_free_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_25_main",
+      "name": "Main → Storage_total_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_26_main",
+      "name": "Main → Storage_memory_mb",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    }
+  ]
+}

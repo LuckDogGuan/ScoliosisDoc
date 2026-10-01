@@ -1,0 +1,12 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        app=/opt/instrument/bin/instrument_app
+        config=/opt/instrument/config.json
+        [ -x "$app" ] && [ -f "$config" ] || exit 0
+        if ! pidof instrument_app >/dev/null 2>&1; then
+            "$app" "$config" </dev/null >/dev/null 2>&1 &
+        fi
+        ;;
+esac

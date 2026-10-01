@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"summary\": {\n    \"changed_count\": 3,\n    \"affected_count\": 0,\n    \"changed_files\": 3,\n    \"risk_level\": \"low\"\n  },\n  \"changed_symbols\": [\n    {\n      \"id\": \"Section:GLOSSARY.md:L1:仪器与电脑连接领域术语\",\n      \"name\": \"仪器与电脑连接领域术语\",\n      \"filePath\": \"GLOSSARY.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:GLOSSARY.md:L5:术语\",\n      \"name\": \"术语\",\n      \"filePath\": \"GLOSSARY.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:docs/adr/0001-linux-platform-boundary.md:L1:单一拍摄状态机与 Linux 平台适配\",\n      \"name\": \"单一拍摄状态机与 Linux 平台适配\",\n      \"filePath\": \"docs/adr/0001-linux-platform-boundary.md\",\n      \"change_type\": \"touched\"\n    }\n  ],\n  \"affected_processes\": []\n}\n\n---\n**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/Luckfox/process/{name} for full execution traces."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "file": "config.example.json",
+    "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98"
+  },
+  {
+    "file": "Makefile",
+    "sha256": "d2df5ba9664d36af566be46dcbebc650a83461c7c11754be9deaa4998f0cc710"
+  },
+  {
+    "file": "README.md",
+    "sha256": "3d32487d23ea48eb12840aa6f79f691ff004a2bbee2e08aef9d9b64f93f8bc5c"
+  },
+  {
+    "file": "include\\app.h",
+    "sha256": "aae382fc1bf91057c24a0186270a252471e52330476a439f278789125ea09a08"
+  },
+  {
+    "file": "include\\config.h",
+    "sha256": "83a715a02846b9c68e3373290b8f6f220dca1038b65b10a1d7d739f80a385981"
+  },
+  {
+    "file": "include\\v3.h",
+    "sha256": "e88da0d5068fda3853a162e2156be6658d3d7b88b8f415d8e8ce20d73c301190"
+  },
+  {
+    "file": "tests\\.baseline_app",
+    "sha256": "1d04e8bb35027b569caa809cd63dfd4df344a47616ddf7e8d6c5e48e5431b57c"
+  },
+  {
+    "file": "tests\\.buttons_check",
+    "sha256": "f09a0da7589eed07c7cef6a91c3a2598918f3ca7568ea86fbae0bcb02cbf2658"
+  },
+  {
+    "file": "tests\\.struct_sizes.o",
+    "sha256": "29dd35c941ddd2c4ac857e0d01bffe9eee48a8aeec317a0f77548a3fb7675cae"
+  },
+  {
+    "file": "tests\\pending_harness.c",
+    "sha256": "75225d9a4793e8c537b6d76d10c44a59fb9fb42a708ba75299df1b2174ae6db3"
+  },
+  {
+    "file": "tests\\struct_sizes.c",
+    "sha256": "018297e688a0a946bb95c43de2ddc2d9da458b14b2d40c5e4265c04dd1ed57ee"
+  },
+  {
+    "file": "tests\\test_buttons.c",
+    "sha256": "cc4f56756848a2bd05289eec7ca0c25cb80f6650f340a12490a6c5354609959f"
+  },
+  {
+    "file": "tests\\test_pending_upload.py",
+    "sha256": "ac95898685a76f51c8a081be3140b0b8a894ac115e9f93104ecab1b4e2d17380"
+  },
+  {
+    "file": "tests\\test_upload.py",
+    "sha256": "dc9d84544428320ad34dfc757c2b091c844525068e9191734622126f7878a9ac"
+  },
+  {
+    "file": "src\\app\\app_controller.c",
+    "sha256": "8bd1a8027705abdad6a895ff187f84e2a8840f198dfe548682e35386f87db17c"
+  },
+  {
+    "file": "src\\app\\runtime_v3.c",
+    "sha256": "7b0b8644b674a5d29916605afa32eb6622fe3b6db4213f385304a000be18a40f"
+  },
+  {
+    "file": "src\\audio\\audio.c",
+    "sha256": "b586d4cd3f0bbbf0bd2015f44ad54cc4e0e8694f7e1f1918e950e713e534f241"
+  },
+  {
+    "file": "src\\board\\battery.c",
+    "sha256": "8bb5e126ad1c4c2f33f8f853757902ca7b323832220123add168064a8b70f18b"
+  },
+  {
+    "file": "src\\board\\button.c",
+    "sha256": "0950edec403e11bf30fd38c662582c3901b65c0e3a062342282405e6ed817396"
+  },
+  {
+    "file": "src\\board\\buttons_v3.c",
+    "sha256": "1a432e4b19175ce55ac7c35e9d36ef4db37813a80bdbece1f265c41b0fecda4e"
+  },
+  {
+    "file": "src\\board\\light.c",
+    "sha256": "310a743a552a25cc567ae77a91d8ad039d1409368b0cc6cdac5734e37cb344db"
+  },
+  {
+    "file": "src\\capture\\capture.c",
+    "sha256": "7aa5c2ff6e361c2e0d3c338e7c279e0fdd2727b9ee3aafbb099926c9685ba406"
+  },
+  {
+    "file": "src\\config\\config.c",
+    "sha256": "f828b130ae50920a5dcef82f0a143f2c60aa563f8bcc9894bae16822b0ea498d"
+  },
+  {
+    "file": "src\\net\\discover.c",
+    "sha256": "6b66a518773f23399e015b391d0e7aa53b7d52c4eb90f91f428fc86da5c1f1c6"
+  },
+  {
+    "file": "src\\net\\upload.c",
+    "sha256": "c5f507498516167f28cb4aa0b468cb1dd6bdc7a564b8dfc8f565ca0f60822993"
+  },
+  {
+    "file": "src\\net\\wifi.c",
+    "sha256": "d8bb749c7ceff37a462808442818eecc52531c4a4eab01b3f877ba912b8d4f3e"
+  },
+  {
+    "file": "src\\storage\\storage.c",
+    "sha256": "1eff2800f60d399a17eafd8c443254cda5797f3dc16e04d12fa223688cde08d3"
+  },
+  {
+    "file": "third_party\\cjson\\cJSON.c",
+    "sha256": "971822d8c3cbb22c180f16cea9ef66ee5d3e10dcade6c61d4ac9a18f475d8520"
+  },
+  {
+    "file": "third_party\\cjson\\cJSON.h",
+    "sha256": "c25b54ebc98e814eb7b3eeaf12ce899806f87ff5a275b20a3b77dbb3968e5d0b"
+  },
+  {
+    "file": "third_party\\cjson\\LICENSE",
+    "sha256": "a36dda207c36db5818729c54e7ad4e8b0c6fba847491ba64f372c1a2037b6d5c"
+  },
+  {
+    "file": "third_party\\lwbtn\\LICENSE",
+    "sha256": "29d46b8ef3792811c8ab6eb52c8c99eb3e841fb1a9e7a14a9fa2ebf957c01bca"
+  },
+  {
+    "file": "third_party\\lwbtn\\lwbtn.c",
+    "sha256": "56b4f82e0b53bdee0be73c3397e4304b812e44054bbf3b78b62eed6ccb5206f5"
+  },
+  {
+    "file": "third_party\\lwbtn\\include\\lwbtn_opts.h",
+    "sha256": "ebfccc3977f1911060594e77a5e6a9143c18cdac3d06e6f6a69bfc4f0174893c"
+  },
+  {
+    "file": "third_party\\lwbtn\\include\\lwbtn\\lwbtn.h",
+    "sha256": "675105e5cd22e59f27748f1c3badf9e1935ba8d3c0b19979fd1544c16057fc36"
+  },
+  {
+    "file": "third_party\\lwbtn\\include\\lwbtn\\lwbtn_opt.h",
+    "sha256": "c1aa099ea70ff18d085c6ffda64799e68b052075bcb72341e2805bf7695b838e"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "file": "src/app/policy.c",
+    "sha256": "0d2ced0e9676d13af73f09305e576ef08c95a352a108a949c24dcf7fbd46b789"
+  },
+  {
+    "file": "src/app/app_controller.c",
+    "sha256": "2f6d3bee2bf6733745ec6eb28298c307490d3f9fe4821dcd0dd6d1c078ca7cd4"
+  },
+  {
+    "file": "src/app/runtime_v3.c",
+    "sha256": "6066d36cbe47d8ceb0721591ef2fa1e712032339801333f5872775de74340e3c"
+  },
+  {
+    "file": "src/config/config.c",
+    "sha256": "dae6f266016b5af9ff94c9384517605e2dffde07badfe1af476f70c629b3d25a"
+  },
+  {
+    "file": "src/storage/storage.c",
+    "sha256": "1eff2800f60d399a17eafd8c443254cda5797f3dc16e04d12fa223688cde08d3"
+  },
+  {
+    "file": "src/platform/luckfox_mux_adapter.c",
+    "sha256": "aa5c1c69d86b21a8f7c530eea60646412a129db6f122d1426ea4ead5a0fd065d"
+  },
+  {
+    "file": "src/platform/luckfox_battery.c",
+    "sha256": "8bb5e126ad1c4c2f33f8f853757902ca7b323832220123add168064a8b70f18b"
+  },
+  {
+    "file": "src/platform/clock.c",
+    "sha256": "26ff444e87971e1da4b0bfa1572b51d6d23dec3c1d49d166644084b744a3057d"
+  },
+  {
+    "file": "src/platform/luckfox_gpio.c",
+    "sha256": "af89abc4a23c8df00a4b265ac3260b55502270f35173203b1f4ca88365662134"
+  },
+  {
+    "file": "src/platform/luckfox_button.c",
+    "sha256": "0950edec403e11bf30fd38c662582c3901b65c0e3a062342282405e6ed817396"
+  },
+  {
+    "file": "src/platform/process.c",
+    "sha256": "a894b413166ab09b856249ad6044163dc83305eb3305a972c99f64d6a8f60069"
+  },
+  {
+    "file": "src/platform/luckfox_audio.c",
+    "sha256": "491f54ee3a48e19b3fbed953a6641e84064c825cea6818b018796884c68ae86e"
+  },
+  {
+    "file": "src/platform/luckfox_light.c",
+    "sha256": "310a743a552a25cc567ae77a91d8ad039d1409368b0cc6cdac5734e37cb344db"
+  },
+  {
+    "file": "src/platform/luckfox_wifi.c",
+    "sha256": "d8bb749c7ceff37a462808442818eecc52531c4a4eab01b3f877ba912b8d4f3e"
+  },
+  {
+    "file": "src/platform/trace.c",
+    "sha256": "4885954d7ebb71dcb6d785ec908e98940d731ffc7c3d93137ba252f52213269e"
+  },
+  {
+    "file": "src/platform/luckfox_camera.c",
+    "sha256": "a21e8e8e2965e0b45ab6250ee7aa94fe3d8fc3a8186611d4ba445a40529afbfa"
+  },
+  {
+    "file": "src/middleware/capture.c",
+    "sha256": "639a20d6a27a24ae212c69423a267f8d79cff7e9a12b81684c89042e4f5cabf5"
+  },
+  {
+    "file": "src/middleware/legacy.c",
+    "sha256": "c5e85d0a55cbb93da2476f410d3ab3d1339b8a85fb6eeb4b6c7edbceeb1b3491"
+  },
+  {
+    "file": "src/middleware/discover.c",
+    "sha256": "bfa007aa1e3b1e6c90e02e3988db36df0c13a95594f0d8e3b78e510a7a9aa0bb"
+  },
+  {
+    "file": "src/middleware/buttons.c",
+    "sha256": "ad7e4f927a9ed8364ecd1fb4c88a55ee01fea9d6fcb22b2675be10e41b855180"
+  },
+  {
+    "file": "src/middleware/persistence.c",
+    "sha256": "f427e11787f4c80f7f869d190657d8807a6996e27630e5aa03e0f995b2cbae9d"
+  },
+  {
+    "file": "src/middleware/upload.c",
+    "sha256": "c5f507498516167f28cb4aa0b468cb1dd6bdc7a564b8dfc8f565ca0f60822993"
+  },
+  {
+    "file": "include/platform.h",
+    "sha256": "6014388db076fb04cbccfc300c592225946de67dac601c12e0529daf578d89ab"
+  },
+  {
+    "file": "include/app.h",
+    "sha256": "1d694e4cac2ce1518d64bb8219b4708059579bbfa2ba1ed44d1d7a713d1ea4fb"
+  },
+  {
+    "file": "include/policy.h",
+    "sha256": "4fecba82f88f8a2db4454d90ff59d9b59b0656c7fe2585099f22bb4ce7a63a22"
+  },
+  {
+    "file": "include/v3.h",
+    "sha256": "e34f3c0703c0087e652e56e0f162ba693093e0718c486bbb4434bb44ac4e35ea"
+  },
+  {
+    "file": "include/config.h",
+    "sha256": "83a715a02846b9c68e3373290b8f6f220dca1038b65b10a1d7d739f80a385981"
+  },
+  {
+    "file": "tests/struct_sizes.c",
+    "sha256": "018297e688a0a946bb95c43de2ddc2d9da458b14b2d40c5e4265c04dd1ed57ee"
+  },
+  {
+    "file": "tests/test_pending_upload.py",
+    "sha256": "d514c687d3294b2d7636f26b5e6f2a9e546252f9effda29d16555355384deb88"
+  },
+  {
+    "file": "tests/test_buttons.c",
+    "sha256": "cc4f56756848a2bd05289eec7ca0c25cb80f6650f340a12490a6c5354609959f"
+  },
+  {
+    "file": "tests/pending_harness.c",
+    "sha256": "0c606fc3a71c5de0f7145a9ff45b89f376621f3c0165896cf62d1472843068fc"
+  },
+  {
+    "file": "tests/test_upload.py",
+    "sha256": "dc9d84544428320ad34dfc757c2b091c844525068e9191734622126f7878a9ac"
+  },
+  {
+    "file": "third_party/lwbtn/lwbtn.c",
+    "sha256": "56b4f82e0b53bdee0be73c3397e4304b812e44054bbf3b78b62eed6ccb5206f5"
+  },
+  {
+    "file": "third_party/cjson/cJSON.h",
+    "sha256": "c25b54ebc98e814eb7b3eeaf12ce899806f87ff5a275b20a3b77dbb3968e5d0b"
+  },
+  {
+    "file": "third_party/cjson/cJSON.c",
+    "sha256": "971822d8c3cbb22c180f16cea9ef66ee5d3e10dcade6c61d4ac9a18f475d8520"
+  },
+  {
+    "file": "third_party/lwbtn/include/lwbtn_opts.h",
+    "sha256": "ebfccc3977f1911060594e77a5e6a9143c18cdac3d06e6f6a69bfc4f0174893c"
+  },
+  {
+    "file": "third_party/lwbtn/include/lwbtn/lwbtn.h",
+    "sha256": "675105e5cd22e59f27748f1c3badf9e1935ba8d3c0b19979fd1544c16057fc36"
+  },
+  {
+    "file": "third_party/lwbtn/include/lwbtn/lwbtn_opt.h",
+    "sha256": "c1aa099ea70ff18d085c6ffda64799e68b052075bcb72341e2805bf7695b838e"
+  },
+  {
+    "file": "Makefile",
+    "sha256": "0466e19962a64fecaf9b12dc0d95c98b7a76a3b49518483b4a27660be290779a"
+  },
+  {
+    "file": "config.example.json",
+    "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98"
+  },
+  {
+    "file": "README.md",
+    "sha256": "a84a6b541948b27be9c1809dc0403270cef33aaef10889a0a368e173ea431e9f"
+  },
+  {
+    "file": ".gitignore",
+    "sha256": "b72c34f4cd4c4e031c5e33b80aad04ae0f136705972ad20fab13d798a85c756c"
+  }
+]

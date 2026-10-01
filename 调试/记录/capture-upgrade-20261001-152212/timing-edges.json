@@ -1,0 +1,43 @@
+{
+  "videos": [
+    {
+      "media_ms": 2533.3329999999996,
+      "reported_ms": 2521,
+      "difference_ms": 12.332999999999629,
+      "allowed_ms": 100,
+      "passed": true,
+      "first_pts_s": 0.0,
+      "last_pts_s": 2.5,
+      "frames": 75,
+      "fps": 30.00030000299998,
+      "advertised_fps": 60.0,
+      "capture_id": "CAM-000123-v3-1790844063024962-2575079398",
+      "student_id": "edge-2",
+      "result": "success",
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-edges-1790844044814\\筛查\\20261001_边界实板\\视频\\CAM-000123-v3-1790844063024962-2575079398.mp4",
+      "size_bytes": 1212224,
+      "sha256": "8fe79aafb39642eb260000b0ed32cd5f9d52e49340509ddffdf4175b90a47814",
+      "hash_matches": true
+    },
+    {
+      "media_ms": 3283.3329999999996,
+      "reported_ms": 3296,
+      "difference_ms": 12.667000000000371,
+      "allowed_ms": 100,
+      "passed": true,
+      "first_pts_s": 0.0,
+      "last_pts_s": 3.25,
+      "frames": 96,
+      "fps": 30.00030000299998,
+      "advertised_fps": 60.0,
+      "capture_id": "CAM-000123-v3-1790844086343316-3933081352",
+      "student_id": "edge-2",
+      "result": "success",
+      "file": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\capture-v3-edges-1790844044814\\筛查\\20261001_边界实板\\视频\\CAM-000123-v3-1790844086343316-3933081352.mp4",
+      "size_bytes": 1572555,
+      "sha256": "26e794bf43a3dedea844012768d591bead9751e2c21a2f1b27cf644658e21aa9",
+      "hash_matches": true
+    }
+  ],
+  "passed": true
+}

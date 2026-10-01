@@ -1,0 +1,13 @@
+{
+  "firmware": {
+    "instrument_app": {
+      "bytes": 117916,
+      "sha256": "224bc09611aef193b751ad8a3ff3a4c5fd45d939bce859bf78c8863396af9237"
+    },
+    "luckfox_mux_adapter.so": {
+      "bytes": 7572,
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725"
+    }
+  },
+  "flutter_release": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\windows\\x64\\runner\\Release\\scoliosis_flutter.exe"
+}

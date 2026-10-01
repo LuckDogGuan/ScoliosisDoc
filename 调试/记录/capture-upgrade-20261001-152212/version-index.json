@@ -1,0 +1,16 @@
+{
+  "firmware": {
+    "path": "/home/guanjx/luckfox/Scoliosis",
+    "commit": "6170d0726760d5017ca6d40b93b0d314dec30b14",
+    "tag": "instrument-v3.1.0-20261001",
+    "image": "image/v3.1.0-20261001"
+  },
+  "flutter": {
+    "path": "D:\\code\\Scoliosis\\ScoliosisFlutter",
+    "commit": "7457ad88bc29e191b6c92498219e96b15c160338",
+    "tag": "capture-upgrade-20261001"
+  },
+  "records_tag": "capture-upgrade-records-20261001",
+  "python": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\instrument_debug_proxy.py",
+  "remote_push": false
+}

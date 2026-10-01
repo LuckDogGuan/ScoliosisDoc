@@ -1,0 +1,1186 @@
+{
+  "summary": {
+    "changed_count": 77,
+    "affected_count": 57,
+    "changed_files": 20,
+    "risk_level": "critical"
+  },
+  "changed_symbols": [
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.uploadsPaused#1",
+      "name": "uploadsPaused",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.setUploadsPaused#2",
+      "name": "setUploadsPaused",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController._deviceAudio#3",
+      "name": "_deviceAudio",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.inspectImport#1",
+      "name": "inspectImport",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._uploadRetryAt",
+      "name": "_uploadRetryAt",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._connectedUploadDevices",
+      "name": "_connectedUploadDevices",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._runMode",
+      "name": "_runMode",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._runOrder",
+      "name": "_runOrder",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._startingCapture",
+      "name": "_startingCapture",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController.recordingBusy",
+      "name": "recordingBusy",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController.preparedStudent",
+      "name": "preparedStudent",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._controls",
+      "name": "_controls",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/app/app_controller.dart:AppController",
+      "name": "AppController",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/app/error_log.dart:ErrorLog",
+      "name": "ErrorLog",
+      "filePath": "lib/app/error_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/device/device_book.dart:DeviceBook",
+      "name": "DeviceBook",
+      "filePath": "lib/device/device_book.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/main.dart:_Sidebar",
+      "name": "_Sidebar",
+      "filePath": "lib/main.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/debug_bridge.dart:DebugBridge.url",
+      "name": "url",
+      "filePath": "lib/net/debug_bridge.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/debug_bridge.dart:DebugBridge.enabled",
+      "name": "enabled",
+      "filePath": "lib/net/debug_bridge.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/net/debug_bridge.dart:DebugBridge",
+      "name": "DebugBridge",
+      "filePath": "lib/net/debug_bridge.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/net/debug_bridge.dart:DebugBridge.receivingPort#1",
+      "name": "receivingPort",
+      "filePath": "lib/net/debug_bridge.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/net/debug_bridge.dart:DebugBridge.exchange#6",
+      "name": "exchange",
+      "filePath": "lib/net/debug_bridge.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/net/instrument_server.dart:InstrumentServer",
+      "name": "InstrumentServer",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/protocol_log.dart:ProtocolLog.directory",
+      "name": "directory",
+      "filePath": "lib/net/protocol_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/protocol_log.dart:ProtocolLog._clock",
+      "name": "_clock",
+      "filePath": "lib/net/protocol_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/protocol_log.dart:ProtocolLog.Stopwatch",
+      "name": "Stopwatch",
+      "filePath": "lib/net/protocol_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/protocol_log.dart:ProtocolLog._tail",
+      "name": "_tail",
+      "filePath": "lib/net/protocol_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/protocol_log.dart:ProtocolLog.Future",
+      "name": "Future",
+      "filePath": "lib/net/protocol_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/net/protocol_log.dart:ProtocolLog.write#2",
+      "name": "write",
+      "filePath": "lib/net/protocol_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/net/protocol_log.dart:ProtocolLog",
+      "name": "ProtocolLog",
+      "filePath": "lib/net/protocol_log.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:lib/net/udp_discover.dart:recoverPairedOnLan",
+      "name": "recoverPairedOnLan",
+      "filePath": "lib/net/udp_discover.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:lib/net/udp_discover.dart:discoverPort",
+      "name": "discoverPort",
+      "filePath": "lib/net/udp_discover.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/net/udp_discover.dart:UdpHere",
+      "name": "UdpHere",
+      "filePath": "lib/net/udp_discover.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/survey/survey.dart:DeviceInfo",
+      "name": "DeviceInfo",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/survey/survey.dart:VideoRecord",
+      "name": "VideoRecord",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/survey/survey.dart:SurveySession",
+      "name": "SurveySession",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/survey/survey.dart:DeviceInfo.uploadingCaptureId",
+      "name": "uploadingCaptureId",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/survey/survey.dart:DeviceInfo.bootId",
+      "name": "bootId",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/survey/survey.dart:VideoRecord.unassigned",
+      "name": "unassigned",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:lib/survey/survey.dart:recordHeaders",
+      "name": "recordHeaders",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/survey/survey.dart:VideoRecord.VideoRecord#8",
+      "name": "VideoRecord",
+      "filePath": "lib/survey/survey.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_CapturePageState",
+      "name": "_CapturePageState",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_Sequence",
+      "name": "_Sequence",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_Single",
+      "name": "_Single",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/device_page.dart:_CompactMetadataGrid",
+      "name": "_CompactMetadataGrid",
+      "filePath": "lib/ui/pages/device_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/device_page.dart:_History",
+      "name": "_History",
+      "filePath": "lib/ui/pages/device_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/device_page.dart:_Discovered",
+      "name": "_Discovered",
+      "filePath": "lib/ui/pages/device_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/volume_dialog.dart:VolumeDialog",
+      "name": "VolumeDialog",
+      "filePath": "lib/ui/volume_dialog.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/volume_dialog.dart:_VolumeDialogState",
+      "name": "_VolumeDialogState",
+      "filePath": "lib/ui/volume_dialog.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:test/capture_upgrade_test.dart:main",
+      "name": "main",
+      "filePath": "test/capture_upgrade_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:test/capture_upgrade_test.dart:alice",
+      "name": "alice",
+      "filePath": "test/capture_upgrade_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:test/capture_upgrade_test.dart:Student",
+      "name": "Student",
+      "filePath": "test/capture_upgrade_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:test/capture_upgrade_test.dart:bob",
+      "name": "bob",
+      "filePath": "test/capture_upgrade_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:test/volume_upgrade_test.dart:showVolume",
+      "name": "showVolume",
+      "filePath": "test/volume_upgrade_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:test/volume_upgrade_test.dart:main",
+      "name": "main",
+      "filePath": "test/volume_upgrade_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:tool/capture_upgrade_board_test.dart:_SilentSpeaker",
+      "name": "_SilentSpeaker",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/capture_upgrade_board_test.dart:_mask",
+      "name": "_mask",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/capture_upgrade_board_test.dart:_wait",
+      "name": "_wait",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/capture_upgrade_board_test.dart:main",
+      "name": "main",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:tool/capture_upgrade_board_test.dart:_SilentSpeaker.speak#1",
+      "name": "speak",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:tool/capture_upgrade_board_test.dart:_SilentSpeaker.stop#0",
+      "name": "stop",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_board_test.dart:_adb",
+      "name": "_adb",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_board_test.dart:_serial",
+      "name": "_serial",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_board_test.dart:_device",
+      "name": "_device",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_board_test.dart:_address",
+      "name": "_address",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_board_test.dart:InternetAddress",
+      "name": "InternetAddress",
+      "filePath": "tool/capture_upgrade_board_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/capture_upgrade_edges_test.dart:_mask",
+      "name": "_mask",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/capture_upgrade_edges_test.dart:_wait",
+      "name": "_wait",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/capture_upgrade_edges_test.dart:main",
+      "name": "main",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:tool/capture_upgrade_edges_test.dart:_SilentSpeaker",
+      "name": "_SilentSpeaker",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:tool/capture_upgrade_edges_test.dart:_SilentSpeaker.speak#1",
+      "name": "speak",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:tool/capture_upgrade_edges_test.dart:_SilentSpeaker.stop#0",
+      "name": "stop",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_edges_test.dart:_adb",
+      "name": "_adb",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_edges_test.dart:_serial",
+      "name": "_serial",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_edges_test.dart:_device",
+      "name": "_device",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_edges_test.dart:_address",
+      "name": "_address",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tool/capture_upgrade_edges_test.dart:InternetAddress",
+      "name": "InternetAddress",
+      "filePath": "tool/capture_upgrade_edges_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/capture_upgrade_reopen_test.dart:main",
+      "name": "main",
+      "filePath": "tool/capture_upgrade_reopen_test.dart",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_0_build",
+      "name": "Build → Write",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "write",
+          "step": 6
+        }
+      ]
+    },
+    {
+      "id": "proc_1_build",
+      "name": "Build → Exchange",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "exchange",
+          "step": 6
+        }
+      ]
+    },
+    {
+      "id": "proc_3_build",
+      "name": "Build → Write",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "write",
+          "step": 6
+        }
+      ]
+    },
+    {
+      "id": "proc_4_main",
+      "name": "Main → Write",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "write",
+          "step": 6
+        }
+      ]
+    },
+    {
+      "id": "proc_5_main",
+      "name": "Main → Exchange",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "exchange",
+          "step": 6
+        }
+      ]
+    },
+    {
+      "id": "proc_13_main",
+      "name": "Main → _dataSheet",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_17_build",
+      "name": "Build → Write",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "write",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_18_build",
+      "name": "Build → Exchange",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "exchange",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_19_main",
+      "name": "Main → _recover",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_20_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        },
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_26_build",
+      "name": "Build → Exchange",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "exchange",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_27_main",
+      "name": "Main → _atomicWrite",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_28_main",
+      "name": "Main → _recover",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_30_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_33_build",
+      "name": "Build → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_42_build",
+      "name": "Build → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_43_main",
+      "name": "Main → _dataSheet",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_45_initstate",
+      "name": "InitState → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_57_main",
+      "name": "Main → _recover",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_58_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 5
+        },
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_59_main",
+      "name": "Main → _atomicWrite",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_60_main",
+      "name": "Main → _encodeStored",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_61_main",
+      "name": "Main → ParseBirthDate",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_70_build",
+      "name": "Build → GrantUpload",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_71_build",
+      "name": "Build → RevokeUpload",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_72_build",
+      "name": "Build → Write",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_73_build",
+      "name": "Build → UploadsPaused",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        },
+        {
+          "symbol": "uploadsPaused",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_77_main",
+      "name": "Main → SafePart",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_78_build",
+      "name": "Build → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_80_build",
+      "name": "Build → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_82_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        },
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_83_main",
+      "name": "Main → SafePart",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_94_build",
+      "name": "Build → ReceivingPort",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "receivingPort",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_98_main",
+      "name": "Main → _atomicWrite",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_99_main",
+      "name": "Main → _encodeStored",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_100_main",
+      "name": "Main → ParseBirthDate",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_102_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_105_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_112_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_123_main",
+      "name": "Main → SafePart",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_137_inspectimport",
+      "name": "InspectImport → _dataSheet",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "inspectImport",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_138_inspectimport",
+      "name": "InspectImport → _cellText",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "inspectImport",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_147_main",
+      "name": "Main → Write",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_148_main",
+      "name": "Main → NoteHello",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_149_main",
+      "name": "Main → ReceivingPort",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "receivingPort",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_151_main",
+      "name": "Main → NoteHello",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_152_main",
+      "name": "Main → ReceivingPort",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "receivingPort",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_153_main",
+      "name": "Main → Write",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_156_main",
+      "name": "Main → ReceivingPort",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "receivingPort",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_158_build",
+      "name": "Build → ReceivingPort",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "receivingPort",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_171_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 3
+        },
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_172_main",
+      "name": "Main → SafePart",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_173_main",
+      "name": "Main → _recover",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_174_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_180_main",
+      "name": "Main → DeviceInfo",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "DeviceInfo",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_184_main",
+      "name": "Main → ReceivingPort",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "receivingPort",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_197_main",
+      "name": "Main → Write",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    }
+  ]
+}

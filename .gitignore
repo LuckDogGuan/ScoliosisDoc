@@ -7,3 +7,17 @@ flash_ready/
 Luckfox_Pico_Zero_eMMC_260604.zip
 
 调试/工具/测试工具/
+# Local evidence and exact WSL source snapshots
+调试/记录/capture-upgrade-*/firmware-source-*/
+调试/工具/__pycache__/
+
+# Large local acceptance backups/logs remain on disk; reports and manifests are tracked.
+调试/记录/capture-upgrade-*/*.jsonl
+调试/记录/capture-upgrade-*/*.zip
+调试/记录/capture-upgrade-*/*.so
+调试/记录/capture-upgrade-*/*.board-before
+调试/记录/capture-upgrade-*/*.wav
+调试/记录/capture-upgrade-*/*.log
+调试/记录/capture-upgrade-*/*.patch
+调试/记录/capture-upgrade-*/*-git-status.txt
+调试/记录/capture-upgrade-*/instrument_app.before-upgrade
