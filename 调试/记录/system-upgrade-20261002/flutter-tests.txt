@@ -1,0 +1,55 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart: selects frame zero and every fifth decoded frame with original PTS
+00:00 +1: D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart: accepts machine line and legacy reader without inventing failed angle
+00:01 +2: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +3: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +4: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +5: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +6: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +7: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +8: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:02 +9: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:02 +10: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:02 +11: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:02 +12: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:02 +13: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:02 +14: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:02 +15: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:02 +16: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +17: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +18: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +19: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +20: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +21: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +22: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +23: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +24: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +25: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +26: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +27: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +28: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +29: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +30: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +31: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +32: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +33: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +34: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +35: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +36: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +37: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +38: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +39: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:05 +40: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:05 +41: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:05 +42: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:05 +43: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:05 +44: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:06 +45: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:06 +46: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:06 +47: D:/code/Scoliosis/ScoliosisFlutter/test/ui_layout_test.dart: device, roster and capture fit desktop size
+00:06 +48: D:/code/Scoliosis/ScoliosisFlutter/test/ui_layout_test.dart: device, roster and capture fit desktop size
+00:06 +49: D:/code/Scoliosis/ScoliosisFlutter/test/volume_upgrade_test.dart: audio rejection stays in dialog and produces no unhandled exception
+00:06 +50: D:/code/Scoliosis/ScoliosisFlutter/test/window_close_test.dart: close blocks capture, deduplicates requests, cancels and confirms
+00:06 +51: D:/code/Scoliosis/ScoliosisFlutter/test/window_close_test.dart: close blocks capture, deduplicates requests, cancels and confirms
+00:11 +52: All tests passed!

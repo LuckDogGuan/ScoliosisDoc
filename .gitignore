@@ -20,4 +20,8 @@ Luckfox_Pico_Zero_eMMC_260604.zip
 调试/记录/capture-upgrade-*/*.log
 调试/记录/capture-upgrade-*/*.patch
 调试/记录/capture-upgrade-*/*-git-status.txt
+调试/记录/system-upgrade-*/*.jsonl
+调试/记录/system-upgrade-*/*.zip
+调试/记录/system-upgrade-*/*.tar.gz
+调试/工具/仪器测试工具/logs/
 调试/记录/capture-upgrade-*/instrument_app.before-upgrade

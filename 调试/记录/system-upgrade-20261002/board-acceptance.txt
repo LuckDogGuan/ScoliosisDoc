@@ -1,0 +1,21 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/tool/system_upgrade_board_test.dart
+00:00 +0: real board UTC/RTC, diagnostic keys and frames, SQLite capture/upload and close revocation
+Shell: UTC sync PASS; RTC: Fri Oct  2 03:30:57 UTC 2026
+Shell:
+Shell: Fri Oct  2 03:30:57 2026  0.000000 seconds
+Shell:
+Shell:
+Shell: diagnostics keys, JPEG, capture interlock PASS
+Shell: capture, delayed time sync, SQLite receipt PASS
+Shell: close revocation PASS; evidence=D:\code\Scoliosis\ScoliosisFlutter\build/system-board-1790911849235
+Shell: board diagnostic log: numid=24,iface=MIXER,name='DAC LINEOUT Volume'
+Shell:
+Shell:   ; type=INTEGER,access=rw---R--,values=1,min=0,max=30,step=0
+Shell:
+Shell:   : values=25
+Shell:
+Shell:   | dBscale-min=-39.00dB,step=1.50dB,mute=1
+Shell:
+Shell:
+00:30 +1: All tests passed!

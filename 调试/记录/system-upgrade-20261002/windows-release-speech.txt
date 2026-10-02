@@ -1,0 +1,15 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+Launching tool/windows_runtime_smoke.dart on Windows in release mode...
+Building Windows application...                                    13.1s
+√ Built build\windows\x64\runner\Release\scoliosis_flutter.exe
+
+Flutter run key commands.
+h List all available interactive commands.
+c Clear the screen
+q Quit (terminate the application on the device).
+
+scoliosis.process=22264
+WINDOWS_SMOKE first_speech_started
+WINDOWS_SMOKE concurrent_speech_stop
+WINDOWS_SMOKE PASS
+[video_player_win][native] ~VideoPlayerWinPlugin() called

@@ -1,0 +1,22 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+Launching tool/windows_runtime_smoke.dart on Windows in debug mode...
+Building Windows application...                                    18.7s
+√ Built build\windows\x64\runner\Debug\scoliosis_flutter.exe
+scoliosis.process=46796
+WINDOWS_SMOKE first_speech_started
+Syncing files to device Windows...                                  91ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Windows is available at: http://127.0.0.1:60628/n5gsxJYHf-Q=/
+The Flutter DevTools debugger and profiler on Windows is available at: http://127.0.0.1:60628/n5gsxJYHf-Q=/devtools/?uri=ws://127.0.0.1:60628/n5gsxJYHf-Q=/ws
+WINDOWS_SMOKE concurrent_speech_stop
+WINDOWS_SMOKE PASS
+[video_player_win][native] ~VideoPlayerWinPlugin() called
+Lost connection to device.

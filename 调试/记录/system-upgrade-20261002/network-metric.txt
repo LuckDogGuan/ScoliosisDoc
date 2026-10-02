@@ -1,0 +1,5 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/tool/.task_network_metric_test.dart
+00:00 +0: actual Ethernet metric selection and readback
+仪器以太网未联网，接口跃点已设为 60
+00:08 +1: All tests passed!
