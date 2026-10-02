@@ -1,0 +1,54 @@
+[
+  {
+    "sha256": "55C4201A9DF5FB56AF64AAE53942D9257EFA3770ABEABC3F94C234C43483511E",
+    "source": "lib/app/app_controller.dart"
+  },
+  {
+    "sha256": "1DD2598122D063D2401126016ADCA3B278384E049E782A6C151BF31AE643B70E",
+    "source": "lib/app/capture_time.dart"
+  },
+  {
+    "sha256": "C8C08D97B604E38656B7099D8AA872971C4BFCDB53151B3AA7D90D14CE90C928",
+    "source": "lib/main.dart"
+  },
+  {
+    "sha256": "39E69063AED446B738FBD3C148087AE650D15563C7575F70ED1F4640C9DA3647",
+    "source": "lib/net/instrument_server.dart"
+  },
+  {
+    "sha256": "9176CD327437250E4F692201F822649B9BDD0FC77C448FEBE4364C7B5BF501C9",
+    "source": "lib/survey/survey.dart"
+  },
+  {
+    "sha256": "16F7AC6EF95B07EDCB9BE5CDDF80186AB7C347E24B9733FFD875BC379AAE96C8",
+    "source": "lib/ui/pages/capture_page.dart"
+  },
+  {
+    "sha256": "055AD5516DD8D8FEAB67D3D55A14E3C00455180F49AFFA4F212D9E490F1AD4AC",
+    "source": "lib/ui/pages/device_page.dart"
+  },
+  {
+    "sha256": "07B6D3D4797F098CABD574A5900BFE94D361A17EF4AA8FEB1222AD6F2CF36DB9",
+    "source": "lib/ui/pages/records_page.dart"
+  },
+  {
+    "sha256": "171FF276F3FA624696FE2CE5BC1A3A9635B40B3C30D69912E4AF1598396F5097",
+    "source": "lib/ui/pages/roster_page.dart"
+  },
+  {
+    "sha256": "32E7889B3603136644651B4C3BCA2686E93DD34264BCF78288ED5ABF104D4F56",
+    "source": "lib/ui/widgets.dart"
+  },
+  {
+    "sha256": "EC729AC875A5F85F1EAE95D9DAE6A22368030504E4D532929DF3E265CCC28363",
+    "source": "windows/runner/main.cpp"
+  },
+  {
+    "sha256": "E0865BBE920D2DC00E1FDC431BB86D825B31770DA6EAF676DA5F8103E4BE15C5",
+    "source": "test/records_capture_filter_test.dart"
+  },
+  {
+    "sha256": "44889A4145A42A2B1AAC26321D78A264EF21E7E8127F6E6BE38A1E5CA9939057",
+    "source": "tool/records_flow_board_test.dart"
+  }
+]

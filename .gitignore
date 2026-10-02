@@ -25,3 +25,12 @@ Luckfox_Pico_Zero_eMMC_260604.zip
 调试/记录/system-upgrade-*/*.tar.gz
 调试/工具/仪器测试工具/logs/
 调试/记录/capture-upgrade-*/instrument_app.before-upgrade
+
+# Local caches and large acceptance backups; preserve files outside Git
+**/__pycache__/
+调试/记录/records-flow-*/firmware-index/
+调试/记录/records-flow-*/*.zip
+调试/记录/records-flow-*/*.tar.gz
+调试/记录/records-flow-*/*.patch
+调试/记录/records-flow-*/*.txt
+调试/记录/capture-results-*/*.log

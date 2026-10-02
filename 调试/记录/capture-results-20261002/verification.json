@@ -1,0 +1,25 @@
+{
+  "flutter_source_commit": "8e461cd1d61bbed93afcdb904593780ac69e8034",
+  "firmware_source_commit": "bca8774",
+  "firmware_release_commit": "6c899c7",
+  "firmware_latest_commit": "b3ec43e",
+  "flutter_tests": 60,
+  "flutter_analyze": "No issues",
+  "windows_debug_build": "PASS",
+  "windows_release_build": "PASS",
+  "windows_debug_tts_close": "PASS",
+  "windows_release_tts_close": "PASS",
+  "board_upload_discard_gate_retained": "PASS",
+  "board_real_capture_compute_delete": "PASS",
+  "board_binary_sha256": "6555ebcaaae1043acc418509e403387445c012be0abad855456d3027174b1df7",
+  "release_exe_sha256": "f511c21f01eca24b640dc732eb8160a981c1d9ddf64c72338f2d960cbdcdcafb",
+  "native_runtime_files": 70,
+  "windows_archive_crc": "PASS",
+  "mode": "fixed-test-images",
+  "manual_open": [
+    "physical buttons",
+    "board speaker hearing (audio busy observed)",
+    "cold boot",
+    "optical timing"
+  ]
+}
