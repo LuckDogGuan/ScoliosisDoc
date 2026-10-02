@@ -1,0 +1,782 @@
+diff --git a/.vscode/launch.json b/.vscode/launch.json
+index 696ba07..2bb1eac 100644
+--- a/.vscode/launch.json
++++ b/.vscode/launch.json
+@@ -6,13 +6,15 @@
+             "type": "dart",
+             "request": "launch",
+             "program": "lib/main.dart",
+-            "flutterMode": "release"
++            "flutterMode": "release",
++            "customTool": "${workspaceFolder}/tool/flutter_session.cmd"
+         },
+         {
+             "name": "ScoliosisFlutter",
+             "request": "launch",
+             "type": "dart",
+-            "flutterMode": "debug"
++            "flutterMode": "debug",
++            "customTool": "${workspaceFolder}/tool/flutter_session.cmd"
+         }
+     ]
+ }
+diff --git a/AGENTS.md b/AGENTS.md
+index db2b1a6..7b2df27 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -1,7 +1,7 @@
+ <!-- gitnexus:start -->
+ # GitNexus — Code Intelligence
+ 
+-This project is indexed by GitNexus as **ScoliosisFlutter** (2135 symbols, 4751 relationships, 184 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
++This project is indexed by GitNexus as **ScoliosisFlutter** (2367 symbols, 5836 relationships, 204 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+ 
+ > Index stale? Run `node .gitnexus/run.cjs analyze` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? `npx gitnexus analyze` (npm 11 crash → `npm i -g gitnexus`; #1939).
+ 
+diff --git a/CLAUDE.md b/CLAUDE.md
+index db2b1a6..7b2df27 100644
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -1,7 +1,7 @@
+ <!-- gitnexus:start -->
+ # GitNexus — Code Intelligence
+ 
+-This project is indexed by GitNexus as **ScoliosisFlutter** (2135 symbols, 4751 relationships, 184 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
++This project is indexed by GitNexus as **ScoliosisFlutter** (2367 symbols, 5836 relationships, 204 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+ 
+ > Index stale? Run `node .gitnexus/run.cjs analyze` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? `npx gitnexus analyze` (npm 11 crash → `npm i -g gitnexus`; #1939).
+ 
+diff --git a/lib/app/app_controller.dart b/lib/app/app_controller.dart
+index dd176fb..143a579 100644
+--- a/lib/app/app_controller.dart
++++ b/lib/app/app_controller.dart
+@@ -24,6 +24,16 @@ enum AppPage { device, roster, capture, records }
+ 
+ enum CaptureMode { sequence, single }
+ 
++enum CaptureGender {
++  all('全部', null),
++  male('只看男生', '男'),
++  female('只看女生', '女');
++
++  const CaptureGender(this.label, this.gender);
++  final String label;
++  final String? gender;
++}
++
+ enum ShotPhase {
+   idle,
+   waiting,
+@@ -125,6 +135,11 @@ class AppController extends ChangeNotifier {
+   final Set<String> _connectedUploadDevices = {};
+   CaptureMode? _runMode;
+   List<Student> _runOrder = const [];
++  final Set<String> _runSuccess = {};
++  final Set<String> _runSkipped = {};
++  final Map<String, Stopwatch> _recordingClocks = {};
++  bool _disposed = false;
++  Future<void>? _shutdown;
+   bool _startingCapture = false;
+   bool get recordingBusy =>
+       _mockRunning ||
+@@ -173,6 +188,7 @@ class AppController extends ChangeNotifier {
+   String status = '正在启动';
+   AppPage page = AppPage.device;
+   CaptureMode captureMode = CaptureMode.sequence;
++  CaptureGender captureGender = CaptureGender.all;
+   bool announceNextName = true;
+   Duration offlineDrillLength = const Duration(seconds: 10);
+   RosterSort sort = RosterSort.studentNo;
+@@ -312,11 +328,64 @@ class AppController extends ChangeNotifier {
+ 
+   bool isSkipped(String studentId) => skippedStudentIds.contains(studentId);
+ 
++  List<Student> get captureStudents =>
++      classStudents.where(_captureVisible).toList();
++  bool _captureVisible(Student student) =>
++      captureGender.gender == null || student.gender == captureGender.gender;
++
++  void setCaptureGender(CaptureGender value) {
++    captureGender = value;
++    final selected = selectedStudent;
++    if (!captureBusy && (selected == null || !_captureVisible(selected))) {
++      selectedStudentId = captureStudents.firstOrNull?.id;
++    }
++    notifyListeners();
++    unawaited(_saveUi());
++  }
++
++  bool get exitBlocked => capturePermission || recordingBusy;
++
++  List<Map<String, String>> operationsFor(String studentId) =>
++      skipEvents.where((event) => event['studentId'] == studentId).toList();
++
++  Student? _nextInRun(String id) {
++    final index = _runOrder.indexWhere((s) => s.id == id);
++    if (index < 0) return null;
++    return _runOrder
++        .skip(index + 1)
++        .where(
++          (s) => s.profileComplete && savedCount(s) == 0 && !isSkipped(s.id),
++        )
++        .firstOrNull;
++  }
++
+   Future<void> setSkipped(String studentId, bool skipped) async {
++    if (isSkipped(studentId) == skipped) return;
++    final prepared = preparedStudent;
++    final advance = skipped && capturePermission && prepared?.id == studentId;
++    if (skipped && recordingBusy && prepared?.id == studentId) return;
++    if (advance) {
++      final error = await stopCapture();
++      // A start arriving while disable is in flight still owns this student.
++      if (error != null || recordingBusy) return;
++    }
+     if (skipped) {
+       skippedStudentIds.add(studentId);
++      if (advance ||
++          (capturePermission && _runOrder.any((s) => s.id == studentId))) {
++        _runSkipped.add(studentId);
++      }
+     } else {
+       skippedStudentIds.remove(studentId);
++      _runSkipped.remove(studentId);
++      if (capturePermission) {
++        final current = _runOrder.indexWhere((s) => s.id == prepared?.id);
++        final restored = _runOrder.indexWhere((s) => s.id == studentId);
++        if (restored >= 0 && restored < current) {
++          final item = _runOrder[restored];
++          _runOrder = [..._runOrder.where((s) => s.id != studentId), item];
++        }
++      }
+     }
+     skipEvents.add({
+       'studentId': studentId,
+@@ -325,6 +394,16 @@ class AppController extends ChangeNotifier {
+     });
+     notifyListeners();
+     await _saveUi();
++    if (advance) {
++      final next = _nextInRun(studentId);
++      if (next == null) {
++        unawaited(_announceEnd(prepared!));
++      } else {
++        selectedStudentId = next.id;
++        final error = await startCapture(continueRun: true);
++        if (error != null) status = error;
++      }
++    }
+   }
+ 
+   ShotSnapshot get shot {
+@@ -366,11 +445,12 @@ class AppController extends ChangeNotifier {
+       final latest = pending.first;
+       final elapsed = latest.session.captureDurations[latest.id] != null
+           ? latest.session.captureDurations[latest.id]! ~/ 1000
+-          : DateTime.now()
+-                .difference(
+-                  latest.session.actualStarts[latest.id] ?? latest.time,
+-                )
+-                .inSeconds;
++          : latest.session.capturePhases[latest.id] == 'recording'
++          ? (_recordingClocks.putIfAbsent(
++              latest.id,
++              () => Stopwatch()..start(),
++            )).elapsed.inSeconds
++          : (_recordingClocks[latest.id]?.elapsed.inSeconds ?? 0);
+       final phase = switch (latest.session.capturePhases[latest.id]) {
+         'prepared' || 'starting' => ShotPhase.waiting,
+         'finalizing' => ShotPhase.finalizing,
+@@ -425,7 +505,18 @@ class AppController extends ChangeNotifier {
+       _allRecords().where(_recordVisible).toList();
+ 
+   List<RecordRow> historyFor(String studentId) => _allRecords()
+-      .where((row) => row.studentId == studentId && row.studentId.isNotEmpty)
++      .where(
++        (row) =>
++            row.studentId == studentId &&
++            row.studentId.isNotEmpty &&
++            (row.record != null ||
++                const {
++                  'pending_local',
++                  'completed_pending',
++                  'uploading',
++                  'failed',
++                }.contains(row.session?.capturePhases[row.captureId])),
++      )
+       .toList();
+ 
+   List<RecordRow> _allRecords() {
+@@ -676,6 +767,13 @@ class AppController extends ChangeNotifier {
+   void _watch(SurveySession session) {
+     var seen = session.records.length;
+     session.addListener(() {
++      for (final entry in session.capturePhases.entries) {
++        if (entry.value == 'recording') {
++          _recordingClocks.putIfAbsent(entry.key, () => Stopwatch()..start());
++        } else if (entry.value == 'finalizing') {
++          _recordingClocks[entry.key]?.stop();
++        }
++      }
+       if (session.records.length > seen) {
+         final newest = session.records.last;
+         if (newest.student?.id != null &&
+@@ -1140,17 +1238,26 @@ class AppController extends ChangeNotifier {
+     return null;
+   }
+ 
+-  Future<void> _announce(Student student) async {
++  Future<void> _announce(Student student, {String? text}) async {
+     if (!announceNextName) return;
+     final name = student.name.trim();
+     if (name.isEmpty) return;
+     try {
+-      await _speaker.speak('下一位，$name');
++      await _speaker.speak(text ?? '下一位，$name');
+     } catch (error, stack) {
+       await ErrorLog.write('NameSpeaker.speak', error, stack);
+     }
+   }
+ 
++  Future<void> _announceEnd(Student student) => _announce(
++    student,
++    text:
++        '完成${student.grade}${_spokenClass(student)}${_runSuccess.length}人的拍摄，跳过${_runSkipped.length}人',
++  );
++
++  String _spokenClass(Student student) =>
++      student.klass.endsWith('班') ? student.klass : '${student.klass}班';
++
+   void setMode(CaptureMode next) {
+     captureMode = next;
+     notifyListeners();
+@@ -1175,13 +1282,18 @@ class AppController extends ChangeNotifier {
+     final text = query.trim();
+     if (text.isEmpty) return [];
+     return students
+-        .where((s) => s.name.contains(text) || s.studentNo.contains(text))
++        .where(
++          (s) =>
++              _captureVisible(s) &&
++              (s.name.contains(text) || s.studentNo.contains(text)),
++        )
+         .toList();
+   }
+ 
+-  Future<String?> startCapture() async {
++  Future<String?> startCapture({bool continueRun = false}) async {
+     final student = selectedStudent;
+     if (student == null) return '请先选择一位学生';
++    if (!continueRun && !_captureVisible(student)) return '请选择当前性别筛选中的学生';
+     if (!student.profileComplete) return '学生资料缺项，请到名单页修改';
+     if (recordingBusy) {
+       return '这一台设备正在拍摄';
+@@ -1222,8 +1334,12 @@ class AppController extends ChangeNotifier {
+       if (!device.supportsCaptureGate) return '仪器版本不支持按键多轮拍摄，请更新固件或使用旧版回退工具';
+       if (device.pairedHostId != devices.hostId) return '仪器尚未完成与本电脑的新协议配对';
+       final target = await _ensureToday(student.school);
+-      _runMode = captureMode;
+-      _runOrder = List<Student>.unmodifiable(classStudents);
++      if (!continueRun) {
++        _runMode = captureMode;
++        _runOrder = List<Student>.of(captureStudents);
++        _runSuccess.clear();
++        _runSkipped.clear();
++      }
+       final gate = _uniqueId('gate');
+       final id = _uniqueId('$currentId-v3');
+       await target.prepareCapture(currentId, id, gate, student);
+@@ -1260,6 +1376,16 @@ class AppController extends ChangeNotifier {
+           return '仪器未确认本轮准备，请重新开始';
+         }
+         _preparedControlIds.add(id);
++        unawaited(
++          _announce(
++            student,
++            text: continueRun
++                ? null
++                : (_runMode == CaptureMode.sequence
++                      ? '${student.grade}${_spokenClass(student)}，第一位，${student.name}'
++                      : student.name),
++          ),
++        );
+         return null;
+       } catch (_) {
+         if (_gateId == gate) await stopCapture();
+@@ -1417,7 +1543,7 @@ class AppController extends ChangeNotifier {
+       next = original;
+       if (body['result'] == 'success' &&
+           (_runMode ?? captureMode) == CaptureMode.sequence) {
+-        final ordered = _runMode == null ? classStudents : _runOrder;
++        final ordered = _runMode == null ? captureStudents : _runOrder;
+         final start = ordered.indexWhere((s) => s.id == original.id);
+         next = start < 0
+             ? null
+@@ -1455,6 +1581,10 @@ class AppController extends ChangeNotifier {
+       nextCaptureId: nextId,
+     );
+     if (receipt == null) return null;
++    _recordingClocks.remove(captureId)?.stop();
++    if (body['gate_id'] == _gateId && receipt['result'] == 'success') {
++      _runSuccess.add(receipt['studentId'] as String);
++    }
+     if (!_appliedCompletionEvents.contains(eventId)) {
+       final before = selectedStudentId;
+       if (receipt['nextStudentId'] is String) {
+@@ -1497,7 +1627,12 @@ class AppController extends ChangeNotifier {
+     }
+     final nextId = receipt['nextCaptureId'];
+     if (nextId is! String) {
++      final original = session.captureStudents[body['capture_id']];
+       await stopCapture();
++      if (original != null &&
++          (_runMode ?? captureMode) == CaptureMode.sequence) {
++        unawaited(_announceEnd(original));
++      }
+       return;
+     }
+     if (session.capturePhases[nextId] != 'prepared' ||
+@@ -1516,7 +1651,12 @@ class AppController extends ChangeNotifier {
+         return;
+       }
+       final student = session.captureStudents[nextId];
+-      if (student != null) await _announce(student);
++      if (student != null && receipt['result'] != 'success') {
++        unawaited(_announce(student, text: '${student.name}，请重新拍摄'));
++      } else if (student != null &&
++          (_runMode ?? captureMode) == CaptureMode.sequence) {
++        unawaited(_announce(student));
++      }
+     } catch (error, stack) {
+       await ErrorLog.write('prepare next', error, stack);
+       await stopCapture();
+@@ -1773,6 +1913,11 @@ class AppController extends ChangeNotifier {
+       captureMode = state['mode'] == 'single'
+           ? CaptureMode.single
+           : CaptureMode.sequence;
++      captureGender =
++          CaptureGender.values
++              .where((g) => g.name == state['captureGender'])
++              .firstOrNull ??
++          CaptureGender.all;
+       announceNextName = state['announceNextName'] != false;
+       _appliedCompletionEvents
+         ..clear()
+@@ -1825,6 +1970,7 @@ class AppController extends ChangeNotifier {
+         'klass': classFilter,
+         'studentId': selectedStudentId,
+         'mode': captureMode == CaptureMode.single ? 'single' : 'sequence',
++        'captureGender': captureGender.name,
+         'announceNextName': announceNextName,
+         'sort': sort.name,
+         'genderOrder': genderOrder.name,
+@@ -1838,8 +1984,24 @@ class AppController extends ChangeNotifier {
+   @visibleForTesting
+   Future<void> loadUiForTest() => _loadUi();
+ 
++  Future<void> shutdown() => _shutdown ??= _shutdownResources();
++
++  Future<void> _shutdownResources() async {
++    _queryStopped = true;
++    _gateTimer?.cancel();
++    _queryTimer?.cancel();
++    _discoveryRetry?.cancel();
++    await Future.wait([_speaker.stop(), if (server != null) server!.stop()]);
++  }
++
++  @override
++  void notifyListeners() {
++    if (!_disposed) super.notifyListeners();
++  }
++
+   @override
+   void dispose() {
++    _disposed = true;
+     capturePermission = false;
+     _gateTimer?.cancel();
+     _queryStopped = true;
+@@ -1847,10 +2009,14 @@ class AppController extends ChangeNotifier {
+     _mockRunning = false;
+     final completer = _drillCompleter;
+     if (completer != null && !completer.isCompleted) completer.complete();
+-    unawaited(_speaker.stop());
+     _discoveryRetry?.cancel();
+     _queryTimer?.cancel();
+-    unawaited(server?.stop());
++    unawaited(
++      shutdown().catchError(
++        (Object error, StackTrace stack) =>
++            ErrorLog.write('shutdown', error, stack),
++      ),
++    );
+     super.dispose();
+   }
+ }
+diff --git a/lib/audio/name_speaker.dart b/lib/audio/name_speaker.dart
+index 0014496..8b5f5a7 100644
+--- a/lib/audio/name_speaker.dart
++++ b/lib/audio/name_speaker.dart
+@@ -1,3 +1,4 @@
++import 'dart:async';
+ import 'dart:io';
+ 
+ import 'package:flutter/foundation.dart';
+@@ -12,14 +13,31 @@ abstract class NameSpeaker {
+ /// Windows 离线 SAPI。优先 Microsoft Huihui，否则任一中文音色。
+ class WindowsSapiSpeaker implements NameSpeaker {
+   FlutterTts? _tts;
++  Future<void>? _initializing;
++  Future<void> _operations = Future.value();
++  int _generation = 0;
++
++  Future<void> _serial(Future<void> Function() operation) {
++    final result = _operations.then((_) => operation());
++    _operations = result.catchError((Object _) {});
++    return result;
++  }
+ 
+   Future<void> _ensure() async {
+     if (_tts != null) return;
++    return _initializing ??= _initialize().whenComplete(
++      () => _initializing = null,
++    );
++  }
++
++  Future<void> _initialize() async {
+     if (kIsWeb || !Platform.isWindows) {
+       throw UnsupportedError('姓名播报只在 Windows 电脑上播放');
+     }
+     final tts = FlutterTts();
+-    await tts.awaitSpeakCompletion(true);
++    // Windows plugin completion callbacks own a native result pointer. Never
++    // wait for it: first stop and overlapping requests can invalidate it.
++    await tts.awaitSpeakCompletion(false);
+     await tts.setVolume(1);
+     await tts.setSpeechRate(0.5);
+     await tts.setPitch(1);
+@@ -55,17 +73,22 @@ class WindowsSapiSpeaker implements NameSpeaker {
+ 
+   @override
+   Future<void> speak(String text) async {
+-    await _ensure();
+-    final tts = _tts;
+-    if (tts == null) return;
+-    await tts.stop();
+-    await tts.speak(text);
++    final generation = ++_generation;
++    await _serial(() async {
++      await _ensure();
++      if (generation != _generation) return;
++      await _tts!.stop();
++      if (generation != _generation) return;
++      await _tts!.speak(text);
++    });
+   }
+ 
+   @override
+   Future<void> stop() async {
+-    final tts = _tts;
+-    if (tts == null) return;
+-    await tts.stop();
++    ++_generation;
++    await _serial(() async {
++      final tts = _tts;
++      if (tts != null) await tts.stop();
++    });
+   }
+ }
+diff --git a/lib/main.dart b/lib/main.dart
+index 8eed9fb..e9fd703 100644
+--- a/lib/main.dart
++++ b/lib/main.dart
+@@ -3,6 +3,7 @@ import 'dart:io';
+ import 'dart:ui' as ui;
+ 
+ import 'package:flutter/material.dart';
++import 'package:flutter/services.dart';
+ import 'package:flutter_localizations/flutter_localizations.dart';
+ import 'package:path/path.dart' as p;
+ 
+@@ -75,21 +76,77 @@ class HomeShell extends StatefulWidget {
+ class _HomeShellState extends State<HomeShell> {
+   late final AppController controller;
+   Timer? ticker;
++  static const window = MethodChannel('scoliosis/window');
++  bool _closing = false;
+ 
+   @override
+   void initState() {
+     super.initState();
+     controller = AppController(widget.dataRoot)..addListener(_rebuild);
++    window.setMethodCallHandler((call) async {
++      if (call.method == 'requestClose') await _requestClose();
++    });
+     ticker = Timer.periodic(const Duration(seconds: 1), (_) => _rebuild());
+     unawaited(controller.initialize());
+   }
+ 
++  Future<void> _requestClose() async {
++    if (_closing || !mounted) return;
++    _closing = true;
++    try {
++      if (controller.exitBlocked) {
++        await showDialog<void>(
++          context: context,
++          builder: (context) => AlertDialog(
++            title: const Text('请先停止拍摄'),
++            content: const Text('停止拍摄许可后，松开左右键并等待当前视频收尾完成，再关闭应用。'),
++            actions: [
++              TextButton(
++                onPressed: () => Navigator.pop(context),
++                child: const Text('知道了'),
++              ),
++            ],
++          ),
++        );
++        return;
++      }
++      final confirmed = await showDialog<bool>(
++        context: context,
++        builder: (context) => AlertDialog(
++          title: const Text('确认关闭应用？'),
++          content: const Text('尚未传完的视频会保留在仪器，下次连接继续上传。'),
++          actions: [
++            TextButton(
++              onPressed: () => Navigator.pop(context, false),
++              child: const Text('取消'),
++            ),
++            FilledButton(
++              onPressed: () => Navigator.pop(context, true),
++              child: const Text('确认关闭'),
++            ),
++          ],
++        ),
++      );
++      if (confirmed != true || controller.exitBlocked) return;
++      ticker?.cancel();
++      try {
++        await controller.shutdown().timeout(const Duration(seconds: 5));
++      } catch (error, stack) {
++        await ErrorLog.write('close', error, stack);
++      }
++      await window.invokeMethod<void>('approveClose');
++    } finally {
++      _closing = false;
++    }
++  }
++
+   void _rebuild() {
+     if (mounted) setState(() {});
+   }
+ 
+   @override
+   void dispose() {
++    window.setMethodCallHandler(null);
+     ticker?.cancel();
+     controller.removeListener(_rebuild);
+     controller.dispose();
+diff --git a/lib/ui/pages/capture_page.dart b/lib/ui/pages/capture_page.dart
+index 101ce9d..f133210 100644
+--- a/lib/ui/pages/capture_page.dart
++++ b/lib/ui/pages/capture_page.dart
+@@ -36,7 +36,7 @@ class _CapturePageState extends State<CapturePage> {
+     final shot = controller.shot;
+     final ordered = controller.classFilter == null
+         ? <Student>[]
+-        : controller.classStudents;
++        : controller.captureStudents;
+     final sequenceStudent = ordered
+         .where((item) => item.id == student?.id)
+         .firstOrNull;
+@@ -75,6 +75,15 @@ class _CapturePageState extends State<CapturePage> {
+             crossAxisAlignment: WrapCrossAlignment.center,
+             children: [
+               ScopeMenus(controller: controller),
++              SegmentedButton<CaptureGender>(
++                segments: [
++                  for (final gender in CaptureGender.values)
++                    ButtonSegment(value: gender, label: Text(gender.label)),
++                ],
++                selected: {controller.captureGender},
++                onSelectionChanged: (values) =>
++                    controller.setCaptureGender(values.first),
++              ),
+               SegmentedButton<RosterSort>(
+                 segments: [
+                   for (final item in RosterSort.values)
+@@ -310,16 +319,20 @@ class _Sequence extends StatelessWidget {
+                                 label: const Text('下一位'),
+                               ),
+                             OutlinedButton.icon(
+-                              onPressed: controller.captureBusy
++                              onPressed: controller.recordingBusy
+                                   ? null
+                                   : () async {
++                                      final target =
++                                          controller.isSkipped(student!.id)
++                                          ? student!.id
++                                          : controller.capturePermission
++                                          ? controller.preparedStudent?.id ??
++                                                student!.id
++                                          : student!.id;
+                                       await controller.setSkipped(
+-                                        student!.id,
+-                                        !controller.isSkipped(student!.id),
++                                        target,
++                                        !controller.isSkipped(target),
+                                       );
+-                                      if (controller.isSkipped(student!.id)) {
+-                                        await controller.goNext();
+-                                      }
+                                     },
+                               icon: Icon(
+                                 controller.isSkipped(student!.id)
+@@ -336,6 +349,27 @@ class _Sequence extends StatelessWidget {
+                           ],
+                         ),
+                         const SizedBox(height: 16),
++                        if (controller
++                            .operationsFor(student!.id)
++                            .isNotEmpty) ...[
++                          const Text('操作记录', style: AppType.cardTitle),
++                          SizedBox(
++                            height: 62,
++                            child: ListView(
++                              children: [
++                                for (final event
++                                    in controller
++                                        .operationsFor(student!.id)
++                                        .reversed)
++                                  Text(
++                                    '${DateFormat('yyyy-MM-dd HH:mm:ss').format(DateTime.parse(event['time']!))}  ${event['action'] == 'skip' ? '跳过拍摄' : '取消跳过拍摄'}',
++                                    style: AppType.muted,
++                                  ),
++                              ],
++                            ),
++                          ),
++                          const SizedBox(height: 8),
++                        ],
+                         Text(
+                           '历史拍摄（${history.length}）',
+                           style: AppType.cardTitle,
+diff --git a/lib/ui/volume_dialog.dart b/lib/ui/volume_dialog.dart
+index 5896f84..3ab563a 100644
+--- a/lib/ui/volume_dialog.dart
++++ b/lib/ui/volume_dialog.dart
+@@ -68,7 +68,8 @@ class _VolumeDialogState extends State<VolumeDialog> {
+                     min: 0,
+                     max: 30,
+                     divisions: 30,
+-                    label: '$volInt',
++                    semanticFormatterCallback: (value) =>
++                        '${value.round()} / 30',
+                     onChanged: _saving
+                         ? null
+                         : (val) => setState(() => _currentVol = val),
+diff --git a/windows/runner/flutter_window.cpp b/windows/runner/flutter_window.cpp
+index 955ee30..05d9b82 100644
+--- a/windows/runner/flutter_window.cpp
++++ b/windows/runner/flutter_window.cpp
+@@ -1,6 +1,7 @@
+ #include "flutter_window.h"
+ 
+ #include <optional>
++#include <flutter/standard_method_codec.h>
+ 
+ #include "flutter/generated_plugin_registrant.h"
+ 
+@@ -25,6 +26,18 @@ bool FlutterWindow::OnCreate() {
+     return false;
+   }
+   RegisterPlugins(flutter_controller_->engine());
++  close_channel_ = std::make_unique<flutter::MethodChannel<flutter::EncodableValue>>(
++      flutter_controller_->engine()->messenger(), "scoliosis/window",
++      &flutter::StandardMethodCodec::GetInstance());
++  close_channel_->SetMethodCallHandler([this](const auto& call, auto result) {
++    if (call.method_name() == "approveClose") {
++      close_approved_ = true;
++      result->Success();
++      ::PostMessage(GetHandle(), WM_CLOSE, 0, 0);
++    } else {
++      result->NotImplemented();
++    }
++  });
+   SetChildContent(flutter_controller_->view()->GetNativeWindow());
+ 
+   flutter_controller_->engine()->SetNextFrameCallback([&]() {
+@@ -40,6 +53,7 @@ bool FlutterWindow::OnCreate() {
+ }
+ 
+ void FlutterWindow::OnDestroy() {
++  close_channel_.reset();
+   if (flutter_controller_) {
+     flutter_controller_ = nullptr;
+   }
+@@ -51,6 +65,10 @@ LRESULT
+ FlutterWindow::MessageHandler(HWND hwnd, UINT const message,
+                               WPARAM const wparam,
+                               LPARAM const lparam) noexcept {
++  if (message == WM_CLOSE && !close_approved_ && close_channel_) {
++    close_channel_->InvokeMethod("requestClose", nullptr);
++    return 0;
++  }
+   // Give Flutter, including plugins, an opportunity to handle window messages.
+   if (flutter_controller_) {
+     std::optional<LRESULT> result =
+diff --git a/windows/runner/flutter_window.h b/windows/runner/flutter_window.h
+index 6da0652..3a2fa18 100644
+--- a/windows/runner/flutter_window.h
++++ b/windows/runner/flutter_window.h
+@@ -3,6 +3,8 @@
+ 
+ #include <flutter/dart_project.h>
+ #include <flutter/flutter_view_controller.h>
++#include <flutter/method_channel.h>
++#include <flutter/encodable_value.h>
+ 
+ #include <memory>
+ 
+@@ -28,6 +30,8 @@ class FlutterWindow : public Win32Window {
+ 
+   // The Flutter instance hosted by this window.
+   std::unique_ptr<flutter::FlutterViewController> flutter_controller_;
++  std::unique_ptr<flutter::MethodChannel<flutter::EncodableValue>> close_channel_;
++  bool close_approved_ = false;
+ };
+ 
+ #endif  // RUNNER_FLUTTER_WINDOW_H_
+diff --git a/windows/runner/main.cpp b/windows/runner/main.cpp
+index ce06b6e..d48093e 100644
+--- a/windows/runner/main.cpp
++++ b/windows/runner/main.cpp
+@@ -1,12 +1,18 @@
+ #include <flutter/dart_project.h>
+ #include <flutter/flutter_view_controller.h>
+ #include <windows.h>
++#include <iostream>
+ 
+ #include "flutter_window.h"
+ #include "utils.h"
+ 
+ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
+                       _In_ wchar_t *command_line, _In_ int show_command) {
++  // Report this launch even if initialization or the single-instance check fails.
++  if (!::AttachConsole(ATTACH_PARENT_PROCESS) && ::IsDebuggerPresent()) {
++    CreateAndAttachConsole();
++  }
++  std::cout << "scoliosis.process=" << ::GetCurrentProcessId() << std::endl;
+   // Keep this handle alive for the whole process lifetime.
+   HANDLE single_instance = ::CreateMutexW(
+       nullptr, FALSE, L"Local\\ScoliosisFlutter_8C884687_18C6_4A5D_AA54_86F82B98B457");
+@@ -21,11 +27,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
+     ::CloseHandle(single_instance);
+     return EXIT_SUCCESS;
+   }
+-  // Attach to console when present (e.g., 'flutter run') or create a
+-  // new console when running with a debugger.
+-  if (!::AttachConsole(ATTACH_PARENT_PROCESS) && ::IsDebuggerPresent()) {
+-    CreateAndAttachConsole();
+-  }
+ 
+   // Initialize COM, so that it is available for use in the library and/or
+   // plugins.

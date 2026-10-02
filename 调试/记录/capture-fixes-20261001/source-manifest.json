@@ -1,0 +1,100 @@
+{
+  "baseline": "7457ad88bc29e191b6c92498219e96b15c160338",
+  "files": [
+    {
+      "path": ".vscode/launch.json",
+      "sha256": "9f501605e6f9a83072267a0a9946aff0f71ad2ecd80c18d477b63a793db25f2c",
+      "new": false
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "8889e24b7f988cc7b77b38aeec87e0f3f1d7b14fe3d327d3c1d346517a0f3de7",
+      "new": false
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "8889e24b7f988cc7b77b38aeec87e0f3f1d7b14fe3d327d3c1d346517a0f3de7",
+      "new": false
+    },
+    {
+      "path": "lib/app/app_controller.dart",
+      "sha256": "df011c44d7b24afa6e079a99600453d13f8193610389b690af85da281f74b5ba",
+      "new": false
+    },
+    {
+      "path": "lib/audio/name_speaker.dart",
+      "sha256": "59f4d0415f046ecf5f82096df3054674d90ad333e0a5dacc5f2261d207600a3f",
+      "new": false
+    },
+    {
+      "path": "lib/main.dart",
+      "sha256": "b1ac512de8c31918d27997442039a76b6d44031c16ca421190d2c557535d4e57",
+      "new": false
+    },
+    {
+      "path": "lib/ui/pages/capture_page.dart",
+      "sha256": "6c7a92ab57ad40f67b7e283c09e73b7753b0c7ffaf3bbbbad96047c3de7ccb85",
+      "new": false
+    },
+    {
+      "path": "lib/ui/volume_dialog.dart",
+      "sha256": "38ba50eb3f5ea3e2ca4298f91dfcbce98ceb4142546d5e0561ca7533f6dade4f",
+      "new": false
+    },
+    {
+      "path": "test/capture_fixes_test.dart",
+      "sha256": "4f9b814358ef7b8060f61353a2907f8e0da2e0750f77abdfcad8ebcee5d08ac1",
+      "new": true
+    },
+    {
+      "path": "test/window_close_test.dart",
+      "sha256": "f5cfc0155377fca17c2133cf215887b438fdd82dc4dfe9f90fad326f324eecf1",
+      "new": true
+    },
+    {
+      "path": "tool/capture_fixes_board_test.dart",
+      "sha256": "a458e685008c9ad990b7a31ce1ed560877cf9a4fae096a56a87657a6c0d78524",
+      "new": true
+    },
+    {
+      "path": "tool/flutter_session.cjs",
+      "sha256": "8a449a2b41fa6aa71f5dbb89d51065f7107ba173a4f6b880dcf0e9a248efd86f",
+      "new": true
+    },
+    {
+      "path": "tool/flutter_session.cmd",
+      "sha256": "b997b0c762b2bd67982cdd07947a0c92aa97079dfce0e03fe7980937d1272d15",
+      "new": true
+    },
+    {
+      "path": "tool/windows_runtime_smoke.dart",
+      "sha256": "1c8f08e03ab58ae7729aa5fb845d64785221e663ee39862559d67897d7b1fab3",
+      "new": true
+    },
+    {
+      "path": "windows/runner/flutter_window.cpp",
+      "sha256": "452f019e33ab107c1f10e6d3cad25f4cd6ca294b64b0843b8536291d114bb0dd",
+      "new": false
+    },
+    {
+      "path": "windows/runner/flutter_window.h",
+      "sha256": "ed41279563f2ce5d981ea4a79b3f02752abb0822723aa453afc07247123cbcc6",
+      "new": false
+    },
+    {
+      "path": "windows/runner/main.cpp",
+      "sha256": "7d4a5dda8852ceb8a951af253ec1f38d2f84637a135b9cfadf1f19b05525f92d",
+      "new": false
+    }
+  ],
+  "executables": [
+    {
+      "path": "build/windows/x64/runner/Debug/scoliosis_flutter.exe",
+      "sha256": "bd02a8048142d58459dd96ef9547a411effefee81f4fa59994b02fe2b9830936"
+    },
+    {
+      "path": "build/windows/x64/runner/Release/scoliosis_flutter.exe",
+      "sha256": "20ca1237e27f2ac8b5f44bd009e1aa4094907656e942b322ca331ca31eef86a3"
+    }
+  ]
+}
