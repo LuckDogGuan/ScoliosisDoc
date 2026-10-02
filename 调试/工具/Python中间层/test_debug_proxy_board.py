@@ -10,8 +10,8 @@ import threading
 
 import instrument_debug_proxy as proxy
 
-flutter_root = Path(__file__).resolve().parents[3] / 'ScoliosisFlutter'
-evidence = Path(__file__).resolve().parents[1] / '记录/capture-upgrade-20261001-152212'
+flutter_root = Path(__file__).resolve().parents[4] / 'ScoliosisFlutter'
+evidence = Path(__file__).resolve().parents[2] / '记录/capture-upgrade-20261001-152212'
 log_file = evidence / 'proxy-real-board.jsonl'
 proxy.LOG.setLevel(logging.INFO)
 proxy.LOG.addHandler(logging.handlers.RotatingFileHandler(

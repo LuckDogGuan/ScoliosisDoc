@@ -1,0 +1,17 @@
+[
+  {
+    "local_time": "2026-10-02T15:41:57.655185+08:00",
+    "device_id": "CAM-000123",
+    "address": "192.168.101.3",
+    "port": 22,
+    "user": "root",
+    "first_use_trust": "live paired discovery; fingerprint recorded",
+    "host_key_type": "ssh-ed25519",
+    "host_key_sha256": "SHA256:QLjOSdI3DrGRFdzX72pAcNRo4l6QPngLFHBNr6SYKgk",
+    "command": "id; hostname; uname -a; cat /etc/os-release; ip -4 addr show; cat /opt/instrument/version; cat /proc/device-tree/serial-number",
+    "stdout": "uid=0(root) gid=0(root) groups=0(root),10(wheel)\nluckfox\nLinux luckfox 5.10.160 #1 Tue Jul 29 19:01:31 CST 2025 armv7l GNU/Linux\nNAME=Buildroot\nVERSION=-ge2b0ffa22-dirty\nID=buildroot\nVERSION_ID=2023.02.6\nPRETTY_NAME=\"Buildroot 2023.02.6\"\n1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000\n    inet 127.0.0.1/8 scope host lo\n       valid_lft forever preferred_lft forever\n2: usb0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000\n    inet 172.32.0.93/16 brd 172.32.255.255 scope global usb0\n       valid_lft forever preferred_lft forever\n3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq qlen 1000\n    inet 192.168.101.3/24 brd 192.168.101.255 scope global wlan0\n       valid_lft forever preferred_lft forever\n3253c006806f5194\u0000",
+    "stderr": "cat: can't open '/opt/instrument/version': No such file or directory\n",
+    "exit_status": 0,
+    "authenticated": true
+  }
+]

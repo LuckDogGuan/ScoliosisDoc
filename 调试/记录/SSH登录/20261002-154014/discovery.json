@@ -1,0 +1,32 @@
+[
+  {
+    "local_time": "2026-10-02T15:40:15.164835+08:00",
+    "bind": "192.168.101.2",
+    "target": "255.255.255.255",
+    "http_status": 200,
+    "replies": [
+      {
+        "address": "192.168.101.3",
+        "matched": false,
+        "packet": {
+          "version": 3,
+          "op": "paired_discover_reply",
+          "device_id": "CAM-000123",
+          "host_id": "2ffe727742e6ce577bd6aa7e72268a0e",
+          "boot_id": "CAM-000123-a6acce80",
+          "sequence": 0,
+          "nonce": "1b88c5aa6cec8ca84fcf88286e3aa2f7",
+          "ok": false,
+          "error": "boot_mismatch"
+        }
+      }
+    ]
+  },
+  {
+    "local_time": "2026-10-02T15:40:15.982314+08:00",
+    "bind": "192.168.0.20",
+    "target": "255.255.255.255",
+    "http_status": 200,
+    "replies": []
+  }
+]
