@@ -1,0 +1,74 @@
+{
+  "source_head": "b3ec43e856321243c4567b541ab3ac3a6fd54cab",
+  "bundle_path": "/home/guanjx/luckfox/Scoliosis/bundles/v3.3.0-20261002-results-bundle1/instrument-v3.3.0-20261002-results-bundle1.tar.gz",
+  "bundle_sha256": "d6eff1c88504d12a951c40b30adea719d9deb1dac714de9a9ee1cea996fbbdbf",
+  "bundle_bytes": 1220053,
+  "payload_file_count": 36,
+  "application_sha256": "6555ebcaaae1043acc418509e403387445c012be0abad855456d3027174b1df7",
+  "checks": [
+    {
+      "command": [
+        "bash",
+        "-n",
+        "scripts/package_bundle.sh"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "command": [
+        "sh",
+        "-n",
+        "deploy/install_bundle.sh"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "command": [
+        "busybox",
+        "sh",
+        "deploy/install_bundle.sh",
+        "--check"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "command": [
+        "sha256sum",
+        "-c",
+        "SHA256SUMS"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "command": [
+        "bash",
+        "scripts/package_bundle.sh",
+        "v3.3.0-20261002-results"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2
+    },
+    {
+      "command": [
+        "python3",
+        "tests/test_bundle.py",
+        "/home/guanjx/luckfox/Scoliosis/bundles/v3.3.0-20261002-results-bundle1/instrument-v3.3.0-20261002-results-bundle1.tar.gz"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    }
+  ],
+  "new_source_files": {
+    "deploy/install_bundle.sh": "cdb6f0d6a854c79db677a2ceb2d72fa9a9f22cea0d06f532676f5c6b6e1ca77a",
+    "deploy/button_inputs.sh": "55595f64cc7235185662ecf7ce795d215b16e8d8121859cbb7832a0ec91adf97",
+    "deploy/S79buttons": "e7273c4ecea115737b42af36e94174b6805f3a4f337a58d0192376eb6c8550b7",
+    "scripts/package_bundle.sh": "932c7b5b98e2008b5512aebfdaaa695f97dc3b56f3e091fd257661fdd98303d8",
+    "tests/test_bundle.py": "2a247a3871927a1374653b6f86bcf38885ff095502821648000645549c51b19e"
+  },
+  "board_install_verified": false,
+  "board_transport_verified": false
+}

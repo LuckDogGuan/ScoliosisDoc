@@ -1,0 +1,1 @@
+{"utc": "2026-10-04T08:25:49.362516+00:00", "monotonic_ns": 2108578000000, "direction": "pc_to_board", "endpoint": ["255.255.255.255", 37020], "version": 3, "op": "hello_query", "host_id": "2ffe727742e6ce577bd6aa7e72268a0e", "device_id": "CAM-000123", "sequence": 0, "nonce": "67418f8e4f5b6f3b2f6e2c5f64c26cad"}

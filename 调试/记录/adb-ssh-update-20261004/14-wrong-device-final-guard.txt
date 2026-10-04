@@ -1,0 +1,5 @@
+{"command": "cat /proc/device-tree/serial-number", "stdout": "3253c006806f5194\u0000", "stderr": "", "exit_code": 0, "local_time": "2026-10-04T16:38:00.839822+08:00"}
+Traceback (most recent call last):
+  File "D:\code\Scoliosis\Luckfox\调试\记录\adb-ssh-update-20261004\ssh_network_update.py", line 66, in <module>
+    raise RuntimeError('WRONG DEVICE: serial mismatch; no write performed')
+RuntimeError: WRONG DEVICE: serial mismatch; no write performed

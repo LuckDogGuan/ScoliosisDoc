@@ -1,0 +1,67 @@
+173
+
+38.15 30.80
+
+{"monotonic_ms":2148,"utc_ms":1609848553473,"event":"buttons","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-46e2094f","detail":"{\"key_mask\":0}","key_mask":0}
+
+{"monotonic_ms":2201,"utc_ms":1609848553526,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-46e2094f","detail":"gateway=0 wifi=0 failures=1 state=unknown initial=1"}
+
+{"monotonic_ms":12231,"utc_ms":1609848563555,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-46e2094f","detail":"gateway=0 wifi=0 failures=2 state=unknown initial=1"}
+
+{"monotonic_ms":22236,"utc_ms":1609848573561,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-46e2094f","detail":"gateway=0 wifi=0 failures=3 state=unknown initial=1"}
+
+{"monotonic_ms":32256,"utc_ms":1609848583581,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-46e2094f","detail":"gateway=0 wifi=0 failures=4 state=unknown initial=1"}
+
+{"monotonic_ms":2131,"utc_ms":1609848602456,"event":"buttons","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-3f5fcd6a","detail":"{\"key_mask\":0}","key_mask":0}
+
+{"monotonic_ms":2208,"utc_ms":1609848602533,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-3f5fcd6a","detail":"gateway=0 wifi=0 failures=1 state=unknown initial=1"}
+
+{"monotonic_ms":12217,"utc_ms":1609848612543,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-3f5fcd6a","detail":"gateway=0 wifi=0 failures=2 state=unknown initial=1"}
+
+{"monotonic_ms":22223,"utc_ms":1609848622549,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-3f5fcd6a","detail":"gateway=0 wifi=0 failures=3 state=unknown initial=1"}
+
+{"monotonic_ms":32233,"utc_ms":1609848632559,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-3f5fcd6a","detail":"gateway=0 wifi=0 failures=4 state=unknown initial=1"}
+
+1
+
+1
+
+1
+
+[1;35m/dev/video0[m   [1;35m/dev/video13[m  [1;35m/dev/video18[m  [1;35m/dev/video4[m   [1;35m/dev/video9[m
+
+[1;35m/dev/video1[m   [1;35m/dev/video14[m  [1;35m/dev/video19[m  [1;35m/dev/video5[m
+
+[1;35m/dev/video10[m  [1;35m/dev/video15[m  [1;35m/dev/video2[m   [1;35m/dev/video6[m
+
+[1;35m/dev/video11[m  [1;35m/dev/video16[m  [1;35m/dev/video20[m  [1;35m/dev/video7[m
+
+[1;35m/dev/video12[m  [1;35m/dev/video17[m  [1;35m/dev/video3[m   [1;35m/dev/video8[m
+
+[    2.363829] rockchip-csi2-dphy-hw ff3e8000.csi2-dphy-hw: csi2 dphy hw probe successfully!
+
+[    2.381774] rockchip-csi2-dphy csi2-dphy0: csi2 dphy0 probe successfully!
+
+[    2.822912] rkcif-mipi-lvds: rkcif_update_sensor_info: stream[0] get remote terminal sensor failed!
+
+[    2.822959] rkcif-mipi-lvds: rkcif_update_sensor_info: stream[0] get remote terminal sensor failed!
+
+[    2.823470] rkcif-mipi-lvds: rkcif_update_sensor_info: stream[0] get remote terminal sensor failed!
+
+[    2.844524] rga: rga2 probe successfully
+
+[    2.903259] mpp_service mpp-srv: probe start
+
+[    2.909434] mpp_vepu_pp ffa60000.rkvenc-pp: probe device
+
+[    2.911033] mpp_service mpp-srv: probe success
+
+[    3.045707] rve: probe successfully
+
+[    3.916897] aicbsp: aicbsp_sdio_probe:1 vid:0xC8A1  did:0xC08D
+
+[    3.917041] aicbsp: aicbsp_sdio_probe:2 vid:0xC8A1  did:0xC18D
+
+[    3.917054] aicbsp: aicbsp_sdio_probe after replace:1
+
+[    4.221321] patch_tbl:  40030008  40908

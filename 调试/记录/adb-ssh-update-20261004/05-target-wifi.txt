@@ -1,0 +1,14 @@
+bssid=c2:f3:70:e1:f0:75
+freq=2462
+ssid=MinMax-test
+id=0
+mode=station
+pairwise_cipher=CCMP
+group_cipher=CCMP
+key_mgmt=WPA2-PSK
+wpa_state=COMPLETED
+ip_address=192.168.101.4
+address=84:93:ec:6d:d6:e2
+2: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq qlen 1000
+    inet 192.168.101.4/24 brd 192.168.101.255 scope global wlan0
+       valid_lft forever preferred_lft forever

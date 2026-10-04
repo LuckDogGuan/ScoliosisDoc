@@ -1,0 +1,29 @@
+Tue Jan  5 12:23:48 UTC 2021
+3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq qlen 1000
+    inet 192.168.101.4/24 brd 192.168.101.255 scope global wlan0
+       valid_lft forever preferred_lft forever
+bssid=c2:f3:70:e1:f0:75
+freq=2462
+ssid=MinMax-test
+id=0
+mode=station
+pairwise_cipher=CCMP
+group_cipher=CCMP
+key_mgmt=WPA2-PSK
+wpa_state=COMPLETED
+ip_address=192.168.101.4
+address=84:93:ec:6d:d6:e2
+cf66c1c9c9c57d204e448e45df22ded84dbbe83086f13736a18d68ff2846ee04  /etc/wpa_supplicant.conf
+cf66c1c9c9c57d204e448e45df22ded84dbbe83086f13736a18d68ff2846ee04  /userdata/wpa_supplicant.conf
+174
+{"monotonic_ms":22216,"utc_ms":1609849384541,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-fc33b12c","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+{"monotonic_ms":32244,"utc_ms":1609849394570,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-fc33b12c","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+{"monotonic_ms":42282,"utc_ms":1609849404607,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-fc33b12c","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+{"monotonic_ms":52297,"utc_ms":1609849414622,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-fc33b12c","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+{"monotonic_ms":62317,"utc_ms":1609849424642,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-41eda5f2c5b00de1-fc33b12c","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+AUDIO_EXIT=0
+numid=24,iface=MIXER,name='DAC LINEOUT Volume'
+  ; type=INTEGER,access=rw---R--,values=1,min=0,max=30,step=0
+  : values=20
+  | dBscale-min=-39.00dB,step=1.50dB,mute=1
+RKIPC_NOT_RUNNING

@@ -1,0 +1,9 @@
+1894
+
+numid=24,iface=MIXER,name='DAC LINEOUT Volume'
+
+  ; type=INTEGER,access=rw---R--,values=1,min=0,max=30,step=0
+
+  : values=20
+
+  | dBscale-min=-39.00dB,step=1.50dB,mute=1

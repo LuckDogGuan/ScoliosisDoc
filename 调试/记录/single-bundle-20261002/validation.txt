@@ -1,0 +1,111 @@
+['bash', '-n', 'scripts/package_bundle.sh']
+
+['sh', '-n', 'deploy/install_bundle.sh']
+
+['busybox', 'sh', 'deploy/install_bundle.sh', '--check']
+./BUILD.txt: OK
+./BUNDLE.txt: OK
+./CHANGELOG.md: OK
+./README.txt: OK
+./SOURCE_SHA256SUMS: OK
+./VERSION: OK
+./config.example.json: OK
+./deploy/README.md: OK
+./deploy/RkLunch.sh: OK
+./deploy/S79buttons: OK
+./deploy/S80instrument: OK
+./deploy/button_inputs.sh: OK
+./deploy/install_bundle.sh: OK
+./instrument_app: OK
+./luckfox_mux_adapter.so: OK
+./sounds/capture_disabled.wav: OK
+./sounds/capture_done.wav: OK
+./sounds/capture_enabled.wav: OK
+./sounds/capture_failed.wav: OK
+./sounds/capture_short.wav: OK
+./sounds/capture_start.wav: OK
+./sounds/pair_disconnected.wav: OK
+./sounds/pair_failed.wav: OK
+./sounds/pair_success.wav: OK
+./sounds/pair_window.wav: OK
+./sounds/please_connect.wav: OK
+./sounds/saved_on_device.wav: OK
+./sounds/storage_low.wav: OK
+./sounds/uploaded.wav: OK
+./sounds/volume_test.wav: OK
+./sounds/wifi_attention.wav: OK
+./sounds/wifi_connected.wav: OK
+./sounds/wifi_disconnected.wav: OK
+./sounds/wifi_recovering.wav: OK
+./sounds/wifi_restored.wav: OK
+CHECK_OK: bundle integrity only; no installation or service restart.
+
+['sha256sum', '-c', 'SHA256SUMS']
+./BUILD.txt: OK
+./CHANGELOG.md: OK
+./README.txt: OK
+./VERSION: OK
+./config.example.json: OK
+./deploy/README.md: OK
+./deploy/RkLunch.sh: OK
+./deploy/S80instrument: OK
+./instrument_app: OK
+./luckfox_mux_adapter.so: OK
+./sounds/capture_disabled.wav: OK
+./sounds/capture_done.wav: OK
+./sounds/capture_enabled.wav: OK
+./sounds/capture_failed.wav: OK
+./sounds/capture_short.wav: OK
+./sounds/capture_start.wav: OK
+./sounds/pair_disconnected.wav: OK
+./sounds/pair_failed.wav: OK
+./sounds/pair_success.wav: OK
+./sounds/pair_window.wav: OK
+./sounds/please_connect.wav: OK
+./sounds/saved_on_device.wav: OK
+./sounds/storage_low.wav: OK
+./sounds/uploaded.wav: OK
+./sounds/volume_test.wav: OK
+./sounds/wifi_attention.wav: OK
+./sounds/wifi_connected.wav: OK
+./sounds/wifi_disconnected.wav: OK
+./sounds/wifi_recovering.wav: OK
+./sounds/wifi_restored.wav: OK
+
+['bash', 'scripts/package_bundle.sh', 'v3.3.0-20261002-results']
+./BUILD.txt: OK
+./CHANGELOG.md: OK
+./README.txt: OK
+./VERSION: OK
+./config.example.json: OK
+./deploy/README.md: OK
+./deploy/RkLunch.sh: OK
+./deploy/S80instrument: OK
+./instrument_app: OK
+./luckfox_mux_adapter.so: OK
+./sounds/capture_disabled.wav: OK
+./sounds/capture_done.wav: OK
+./sounds/capture_enabled.wav: OK
+./sounds/capture_failed.wav: OK
+./sounds/capture_short.wav: OK
+./sounds/capture_start.wav: OK
+./sounds/pair_disconnected.wav: OK
+./sounds/pair_failed.wav: OK
+./sounds/pair_success.wav: OK
+./sounds/pair_window.wav: OK
+./sounds/please_connect.wav: OK
+./sounds/saved_on_device.wav: OK
+./sounds/storage_low.wav: OK
+./sounds/uploaded.wav: OK
+./sounds/volume_test.wav: OK
+./sounds/wifi_attention.wav: OK
+./sounds/wifi_connected.wav: OK
+./sounds/wifi_disconnected.wav: OK
+./sounds/wifi_recovering.wav: OK
+./sounds/wifi_restored.wav: OK
+Bundle already exists: bundles/v3.3.0-20261002-results-bundle1
+
+['python3', 'tests/test_bundle.py', '/home/guanjx/luckfox/Scoliosis/bundles/v3.3.0-20261002-results-bundle1/instrument-v3.3.0-20261002-results-bundle1.tar.gz']
+PASS: safe archive layout, complete manifest, pristine payload, idle guard, invalid mode, tampered audio rejection.
+archive_sha256=d6eff1c88504d12a951c40b30adea719d9deb1dac714de9a9ee1cea996fbbdbf
+fixture=/home/guanjx/luckfox/Scoliosis/validation/bundle-selfcheck-1790943445713138736

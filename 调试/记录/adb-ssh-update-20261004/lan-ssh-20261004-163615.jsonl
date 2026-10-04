@@ -1,0 +1,1 @@
+{"command": "cat /proc/device-tree/serial-number", "stdout": "3253c006806f5194\u0000", "stderr": "", "exit_code": 0, "local_time": "2026-10-04T16:36:16.075824+08:00"}

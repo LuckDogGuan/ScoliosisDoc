@@ -1,0 +1,20 @@
+{
+  "device_id": "CAM-41eda5f2c5b00de1",
+  "wifi_ssid": "MinMax-test",
+  "pc_base_url": "http://192.168.101.2:8080",
+  "audio": {
+    "volume": 20
+  },
+  "capture": {
+    "width": 1280,
+    "height": 1080,
+    "fps_fraction": "60/2",
+    "codec": "h265",
+    "container": "mp4",
+    "bitrate_kbps": 4000,
+    "duration_ms": 10000
+  },
+  "battery": {
+    "present": false
+  }
+}

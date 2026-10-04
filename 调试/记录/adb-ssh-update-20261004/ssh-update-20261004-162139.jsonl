@@ -1,0 +1,1 @@
+{"transport": "adb", "command": ["forward", "tcp:0", "tcp:22"], "exit_code": 1, "stdout": "", "stderr": "adb.exe: device '41eda5f2c5b00de1' not found\r\n", "local_time": "2026-10-04T16:21:39.569541+08:00"}
