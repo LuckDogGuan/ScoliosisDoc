@@ -34,3 +34,23 @@ Luckfox_Pico_Zero_eMMC_260604.zip
 调试/记录/records-flow-*/*.patch
 调试/记录/records-flow-*/*.txt
 调试/记录/capture-results-*/*.log
+
+# Standalone USB tester build inputs and generated products
+.uvc-build-input/
+调试/工具/仪器测试工具/.build/
+调试/工具/仪器测试工具/release/
+调试/工具/仪器测试工具/payload/rk_mpi_uvc
+调试/工具/仪器测试工具/payload/udp_query
+调试/工具/仪器测试工具/报告/
+调试/记录/usb-uvc-tool-*/*.log
+调试/记录/usb-uvc-tool-*/board-libs/
+调试/记录/usb-uvc-tool-*/portable-smoke/
+
+# Regenerable firmware checks and read-only source indexing caches
+/validation/
+调试/记录/light-test-*/firmware-index/
+调试/记录/light-test-*/*.log
+调试/记录/light-test-*/*.jsonl
+调试/记录/light-test-*/*.sh
+调试/记录/light-test-*/gitnexus*.mjs
+调试/记录/light-test-*/source-SHA256SUMS.txt
