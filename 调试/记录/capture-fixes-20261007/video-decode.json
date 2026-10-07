@@ -1,0 +1,25 @@
+{
+  "decoder": "OpenCV 4.13.0",
+  "videos": [
+    {
+      "file": "D:\\code\\Scoliosis\\Luckfox\\调试\\记录\\capture-fixes-20261007\\diagnostic-2500.mp4",
+      "bytes": 1215920,
+      "width": 1280,
+      "height": 1080,
+      "fps": 29.00662251655629,
+      "decoded_frames": 73,
+      "reported_frames": 73,
+      "duration_from_frames_s": 2.5166666666666666
+    },
+    {
+      "file": "D:\\code\\Scoliosis\\Luckfox\\调试\\记录\\capture-fixes-20261007\\diagnostic-3200.mp4",
+      "bytes": 1683493,
+      "width": 1280,
+      "height": 1080,
+      "fps": 28.762886597938145,
+      "decoded_frames": 93,
+      "reported_frames": 93,
+      "duration_from_frames_s": 3.2333333333333334
+    }
+  ]
+}

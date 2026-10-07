@@ -1,0 +1,92 @@
+[
+  {
+    "percent": 0,
+    "reply": {
+      "version": 3,
+      "op": "diagnostics_backlight_reply",
+      "device_id": "CAM-41eda5f2c5b00de1",
+      "host_id": "82cf4d132682a987d068c18f2bc0004f",
+      "boot_id": "CAM-41eda5f2c5b00de1-bdd3edcb",
+      "sequence": 3018,
+      "nonce": "0581c80959015a79",
+      "ok": true,
+      "brightness": 0
+    },
+    "pwm": ""
+  },
+  {
+    "percent": 25,
+    "reply": {
+      "version": 3,
+      "op": "diagnostics_backlight_reply",
+      "device_id": "CAM-41eda5f2c5b00de1",
+      "host_id": "82cf4d132682a987d068c18f2bc0004f",
+      "boot_id": "CAM-41eda5f2c5b00de1-bdd3edcb",
+      "sequence": 3020,
+      "nonce": "e556f5cabdb0b0fe",
+      "ok": true,
+      "brightness": 25
+    },
+    "pwm": "/sys/class/pwm/pwmchip11\n1000000\n250000\n1"
+  },
+  {
+    "percent": 50,
+    "reply": {
+      "version": 3,
+      "op": "diagnostics_backlight_reply",
+      "device_id": "CAM-41eda5f2c5b00de1",
+      "host_id": "82cf4d132682a987d068c18f2bc0004f",
+      "boot_id": "CAM-41eda5f2c5b00de1-bdd3edcb",
+      "sequence": 3022,
+      "nonce": "1b540990e98c5f67",
+      "ok": true,
+      "brightness": 50
+    },
+    "pwm": "/sys/class/pwm/pwmchip11\n1000000\n500000\n1"
+  },
+  {
+    "percent": 75,
+    "reply": {
+      "version": 3,
+      "op": "diagnostics_backlight_reply",
+      "device_id": "CAM-41eda5f2c5b00de1",
+      "host_id": "82cf4d132682a987d068c18f2bc0004f",
+      "boot_id": "CAM-41eda5f2c5b00de1-bdd3edcb",
+      "sequence": 3024,
+      "nonce": "667b4e9803a65df6",
+      "ok": true,
+      "brightness": 75
+    },
+    "pwm": "/sys/class/pwm/pwmchip11\n1000000\n750000\n1"
+  },
+  {
+    "percent": 100,
+    "reply": {
+      "version": 3,
+      "op": "diagnostics_backlight_reply",
+      "device_id": "CAM-41eda5f2c5b00de1",
+      "host_id": "82cf4d132682a987d068c18f2bc0004f",
+      "boot_id": "CAM-41eda5f2c5b00de1-bdd3edcb",
+      "sequence": 3026,
+      "nonce": "006fb12f5436c3ad",
+      "ok": true,
+      "brightness": 100
+    },
+    "pwm": "/sys/class/pwm/pwmchip11\n1000000\n1000000\n1"
+  },
+  {
+    "end": {
+      "version": 3,
+      "op": "diagnostics_end_reply",
+      "device_id": "CAM-41eda5f2c5b00de1",
+      "host_id": "82cf4d132682a987d068c18f2bc0004f",
+      "boot_id": "CAM-41eda5f2c5b00de1-bdd3edcb",
+      "sequence": 3028,
+      "nonce": "370dff6906747b8b",
+      "ok": true,
+      "brightness": 100,
+      "key_mask": 0,
+      "remaining_ms": 0
+    }
+  }
+]

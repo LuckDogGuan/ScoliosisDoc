@@ -1,0 +1,19 @@
+{
+  "wsl_package": "/home/guanjx/luckfox/Scoliosis/image/uvc-test-v1.0.0-20261002",
+  "sha256sums": [
+    "e64b405cf983bdc7ec88dbf7cdd23cd90d78943bf8564ec5180487f5110058f3  BUILD.json",
+    "d88287a7f16d33185196417a17594756f1169f067e51a86dfe610cf220202aea  README.txt",
+    "77cb761ebca4c21ef47666c3849fe73bbf08b68db286792d34e37f0f3b87c68d  build_uvc.py",
+    "9e51ee6aa8331359183815d32668ca6cc51725a5a5d5676d9b90db4a5d307c50  official_uvc_source.tar.gz",
+    "bc669eac86a8868151cb4c30485979ac9f62f3d0ee3a95364c626a13977a714c  payload/LICENSE.txt",
+    "55595f64cc7235185662ecf7ce795d215b16e8d8121859cbb7832a0ec91adf97  payload/button_inputs.sh",
+    "c241d5e4868195e8bc4bfc9611852159e9daa1a879fd2022745bd7675849fd79  payload/manifest.json",
+    "6f5aada17f6087db82f621d3ccb9ab4f3193d837f51270df2caa58b0ea2f18eb  payload/rk_mpi_uvc",
+    "e7f04b257d6d0aeb734919520416df97d9d892b8fe1e4d70d1bb6d43695476cc  payload/rkuvc.ini",
+    "94dc7dff78c979cc133215a3ca6f2b78f6351587df61be6bc48bda73246ba00f  payload/switch.sh",
+    "6f653c5f0f064c169d4b640e5284674f450a67b7181e6f8e300c8ed7607d35ca  payload/udp_query",
+    "c43cee38eb7a4a2dca98f503cc36748c85fcf3b8bb6cc8d90260ae7b6c730448  payload/usb_config.sh",
+    "5a40e69bfaa6ee0b7ed7a7e0f463290594b4e5eef1d25a7737a24c6105621f12  payload/uvc_mpi_cfg.conf",
+    "03ccc62287700ff502d63f6e0ce37fdc60cd8b4f95bf7cd8fcc1f7a89654bc31  udp_query.c"
+  ]
+}

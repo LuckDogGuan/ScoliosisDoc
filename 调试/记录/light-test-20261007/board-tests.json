@@ -1,0 +1,149 @@
+{
+  "result": "PASS",
+  "host_key_sha256": "SHA256:QLjOSdI3DrGRFdzX72pAcNRo4l6QPngLFHBNr6SYKgk",
+  "identity": "CAM-41eda5f2c5b00de1",
+  "electrical_confirmation": "User replied 核对正确; no measured current/voltage numbers supplied",
+  "visual_acceptance": "PENDING: physical light appearance, smoothness, cold boot and keys pressed",
+  "rows": [
+    {
+      "command": "sha256sum /opt/instrument/bin/instrument_app /opt/instrument/config.json /opt/instrument/state/pair-v3.json; cat /sys/class/gpio/gpio3/value /sys/class/gpio/gpio4/value /sys/class/gpio/gpio0/value",
+      "stdout": "6555ebcaaae1043acc418509e403387445c012be0abad855456d3027174b1df7  /opt/instrument/bin/instrument_app\n42e94530ec6e08b96af60a874e960796e8cdaa61a9e82220895034028f1708ed  /opt/instrument/config.json\n4373b056722ea9cecef0dfafd782785a3e8dbd9db945cf5a03f4cbfc23d7742e  /opt/instrument/state/pair-v3.json\n1\n1\n1\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 0.047
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test center breathe",
+      "stdout": "",
+      "stderr": "GPIO32 return path not verified; center test refused\n",
+      "exit_status": 2,
+      "elapsed": 0.015
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test backlight slow",
+      "stdout": "",
+      "stderr": "Usage: --light-test center off|on|slow|fast|breathe --ground-verified [--seconds 1..300] [--active-low]\n       --light-test backlight off|on [--seconds 1..300] [--active-low]\n",
+      "exit_status": 2,
+      "elapsed": 0.032
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test center off --ground-verified --seconds 3",
+      "stdout": "LIGHT_TEST_START target=center mode=off seconds=3 active_low=0 ground_verified=1\nLIGHT_TEST_END result=0 signal=0 outputs=off\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 3.156
+    },
+    {
+      "command": "test ! -d /sys/kernel/config/device-tree/overlays/instrument-light-test; test ! -d /sys/class/gpio/gpio32",
+      "stdout": "",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 0.016
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test center on --ground-verified --seconds 3",
+      "stdout": "LIGHT_TEST_START target=center mode=on seconds=3 active_low=0 ground_verified=1\nLIGHT_TEST_END result=0 signal=0 outputs=off\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 3.14
+    },
+    {
+      "command": "test ! -d /sys/kernel/config/device-tree/overlays/instrument-light-test; test ! -d /sys/class/gpio/gpio32",
+      "stdout": "",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 0.016
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test center slow --ground-verified --seconds 3",
+      "stdout": "LIGHT_TEST_START target=center mode=slow seconds=3 active_low=0 ground_verified=1\nLIGHT_TEST_END result=0 signal=0 outputs=off\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 3.125
+    },
+    {
+      "command": "test ! -d /sys/kernel/config/device-tree/overlays/instrument-light-test; test ! -d /sys/class/gpio/gpio32",
+      "stdout": "",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 0.015
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test center fast --ground-verified --seconds 3",
+      "stdout": "LIGHT_TEST_START target=center mode=fast seconds=3 active_low=0 ground_verified=1\nLIGHT_TEST_END result=0 signal=0 outputs=off\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 3.125
+    },
+    {
+      "command": "test ! -d /sys/kernel/config/device-tree/overlays/instrument-light-test; test ! -d /sys/class/gpio/gpio32",
+      "stdout": "",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 0.016
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test center breathe --ground-verified --seconds 3",
+      "stdout": "LIGHT_TEST_START target=center mode=breathe seconds=3 active_low=0 ground_verified=1\nLIGHT_TEST_END result=0 signal=0 outputs=off\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 3.141
+    },
+    {
+      "command": "test ! -d /sys/kernel/config/device-tree/overlays/instrument-light-test; test ! -d /sys/class/gpio/gpio32",
+      "stdout": "",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 0.015
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test backlight on --seconds 2",
+      "stdout": "LIGHT_TEST_START target=backlight mode=on seconds=2 active_low=0 ground_verified=0\nLIGHT_TEST_END result=0 signal=0 outputs=off\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 2.032
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test backlight off",
+      "stdout": "LIGHT_TEST_START target=backlight mode=off seconds=30 active_low=0 ground_verified=0\nLIGHT_TEST_END result=0 signal=0 outputs=off\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 30.031
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test center on --ground-verified & p=$!; sleep 1; kill -TERM $p; wait $p",
+      "stdout": "LIGHT_TEST_START target=center mode=on seconds=30 active_low=0 ground_verified=1\nLIGHT_TEST_END result=0 signal=15 outputs=off\n",
+      "stderr": "",
+      "exit_status": 143,
+      "elapsed": 1.031
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test backlight on  & p=$!; sleep 1; kill -TERM $p; wait $p",
+      "stdout": "LIGHT_TEST_START target=backlight mode=on seconds=30 active_low=0 ground_verified=0\nLIGHT_TEST_END result=0 signal=15 outputs=off\n",
+      "stderr": "",
+      "exit_status": 143,
+      "elapsed": 1.031
+    },
+    {
+      "command": "/tmp/instrument-light-test-331/instrument_app --light-test backlight on --seconds 2 & p=$!; sleep 1; /tmp/instrument-light-test-331/instrument_app --light-test backlight off --seconds 1; conflict=$?; wait $p; test $conflict -eq 1",
+      "stdout": "LIGHT_TEST_START target=backlight mode=on seconds=2 active_low=0 ground_verified=0\nLIGHT_TEST_END result=0 signal=0 outputs=off\n",
+      "stderr": "Another light test is running or lock unavailable\n",
+      "exit_status": 0,
+      "elapsed": 2.016
+    },
+    {
+      "command": "sha256sum /opt/instrument/bin/instrument_app /opt/instrument/config.json /opt/instrument/state/pair-v3.json; cat /sys/class/gpio/gpio3/value /sys/class/gpio/gpio4/value /sys/class/gpio/gpio0/value",
+      "stdout": "6555ebcaaae1043acc418509e403387445c012be0abad855456d3027174b1df7  /opt/instrument/bin/instrument_app\n42e94530ec6e08b96af60a874e960796e8cdaa61a9e82220895034028f1708ed  /opt/instrument/config.json\n4373b056722ea9cecef0dfafd782785a3e8dbd9db945cf5a03f4cbfc23d7742e  /opt/instrument/state/pair-v3.json\n1\n1\n1\n",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 0.047
+    },
+    {
+      "command": "cat /sys/firmware/devicetree/base/pwm@ff350020/status; test ! -d /sys/class/pwm/pwmchip2; test ! -d /sys/class/gpio/gpio55",
+      "stdout": "disabled\u0000",
+      "stderr": "",
+      "exit_status": 0,
+      "elapsed": 0.031
+    }
+  ]
+}

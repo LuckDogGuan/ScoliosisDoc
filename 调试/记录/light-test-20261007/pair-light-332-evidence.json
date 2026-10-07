@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-07",
+  "serial": "41eda5f2c5b00de1",
+  "version": "3.3.2",
+  "source_commit": "690329b",
+  "archive_commit": "f39f091",
+  "archive_sha256": "a01b07ee21bf42d2db22cac987652e07310188190ab58d6b4e4046cf0bd2fd82",
+  "backup": "/opt/instrument/backups/bundle-20261007T075757Z-3050",
+  "host_checks": [
+    "45s open/cancel/pair success/timeout once",
+    "business PWM steady/breathe/steady/cleanup",
+    "five diagnostic modes/signals/faults",
+    "existing upload/pending/discard/buttons",
+    "complete bundle integrity/tamper rejection"
+  ],
+  "board_check": [
+    "41eda5f2c5b00de1\u00003.3.2",
+    "",
+    "3647",
+    "",
+    "0",
+    "",
+    "1000000",
+    "",
+    "43333",
+    "",
+    "1",
+    "",
+    "{\"monotonic_ms\":1254296,\"utc_ms\":1791359881623,\"event\":\"status_light\",\"capture_id\":\"\",\"gate_id\":\"\",\"boot_id\":\"CAM-41eda5f2c5b00de1-a0c5a816\",\"detail\":\"steady\"}",
+    "",
+    "{\"monotonic_ms\":1303600,\"utc_ms\":1791359930926,\"event\":\"status_light\",\"capture_id\":\"\",\"gate_id\":\"\",\"boot_id\":\"CAM-41eda5f2c5b00de1-a0c5a816\",\"detail\":\"breathe\"}",
+    "",
+    "wpa_state=SCANNING",
+    "",
+    "address=84:93:ec:6d:d6:e2",
+    ""
+  ],
+  "physical_acceptance": "PENDING user visual/acoustic/cold-power response",
+  "wifi_evidence": "Windows active scan: MinMax-test and MinMax-test_Wi-Fi5 both 5GHz channel157; board exposes 2.4GHz channels only, remains SCANNING without wlan0 IP"
+}

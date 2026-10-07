@@ -1,0 +1,60 @@
+{
+  "serial": "41eda5f2c5b00de1",
+  "board": {
+    "MODEL": "Luckfox Pico Zero",
+    "ARCH": "armv7l",
+    "SENSORS": "m00_b_mia1321 4-0060;",
+    "INSTRUMENT": "",
+    "LIBROCKIT": "3f92f8c41ffe9ad72e407b68750906fcff89ea06758f14a3fc2a3d87061e3d0f",
+    "LIBRKAIQ": "3f8f084df73ce82871012bb1c8e4f06cf04731994eebc5e7d75d0b7822b4d48e",
+    "UVC": "yes",
+    "IQ": "yes",
+    "UDC": "ffb00000.usb",
+    "serial": "41eda5f2c5b00de1",
+    "checked_at": "2026-10-02T20:22:42",
+    "instrument_stopped_for_test": false
+  },
+  "events": [
+    {
+      "at": "20:22:43",
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "tallies": [
+    {
+      "low": false,
+      "presses": 0,
+      "since": 0.0,
+      "hold_ms": 0,
+      "first_press": "",
+      "last_press": "",
+      "releases": 0,
+      "armed": true
+    },
+    {
+      "low": false,
+      "presses": 0,
+      "since": 0.0,
+      "hold_ms": 0,
+      "first_press": "",
+      "last_press": "",
+      "releases": 0,
+      "armed": true
+    },
+    {
+      "low": false,
+      "presses": 0,
+      "since": 0.0,
+      "hold_ms": 0,
+      "first_press": "",
+      "last_press": "",
+      "releases": 0,
+      "armed": true
+    }
+  ],
+  "verdict": "未通过：左键、中键、右键（未完成按下和松开）"
+}

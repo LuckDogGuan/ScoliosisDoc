@@ -4,3 +4,6 @@
 
 # Manifest hashes cover exact runtime input bytes, including vendor config EOF.
 调试/工具/仪器测试工具/payload/* -text whitespace=-blank-at-eof
+
+# Preserve original device transcript bytes; hashes are indexed separately.
+调试/记录/usb-uvc-tool-20261002/board-*.txt -text whitespace=-blank-at-eol,-blank-at-eof

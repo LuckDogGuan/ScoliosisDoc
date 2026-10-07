@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "client": "Independent OpenCV DirectShow process",
+  "camera": {
+    "index": 1,
+    "name": "ISG1321 USB Camera\n",
+    "path": "\\\\?\\usb#vid_2207&pid_0016&mi_00#9&246ea415&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+  },
+  "frames": 292,
+  "seconds": 5.0,
+  "width": 1280,
+  "height": 1080
+}

@@ -1,0 +1,21 @@
+{
+  "started": "2026-10-02T20:08:37.151238",
+  "requested_seconds": 600.0,
+  "status": "failed",
+  "board": {
+    "MODEL": "Luckfox Pico Zero",
+    "ARCH": "armv7l",
+    "SENSORS": "m00_b_mia1321 4-0060;",
+    "INSTRUMENT": "",
+    "LIBROCKIT": "3f92f8c41ffe9ad72e407b68750906fcff89ea06758f14a3fc2a3d87061e3d0f",
+    "LIBRKAIQ": "3f8f084df73ce82871012bb1c8e4f06cf04731994eebc5e7d75d0b7822b4d48e",
+    "UVC": "yes",
+    "IQ": "yes",
+    "UDC": "ffb00000.usb",
+    "serial": "41eda5f2c5b00de1",
+    "checked_at": "2026-10-02T20:08:40",
+    "instrument_stopped_for_test": false
+  },
+  "error": "Windows 未识别目标摄像头",
+  "ended": "2026-10-02T20:09:18.165167"
+}

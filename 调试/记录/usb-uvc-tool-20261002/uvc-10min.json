@@ -1,0 +1,22 @@
+{
+  "started": "2026-10-02T20:10:28.636437",
+  "requested_seconds": 600.0,
+  "status": "passed",
+  "camera": {
+    "index": 1,
+    "name": "ISG1321 USB Camera",
+    "path": "\\\\?\\usb#vid_2207&pid_0016&mi_00#9&246ea415&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+    "serial": "41eda5f2c5b00de1"
+  },
+  "capture": {
+    "kind": "frame",
+    "width": 1280,
+    "height": 1080,
+    "frames": 35137,
+    "seconds": 600.0469999999987,
+    "fps": 58.55541315930265,
+    "at": 39778.203
+  },
+  "elapsed": 600.0,
+  "ended": "2026-10-02T20:20:46.311402"
+}

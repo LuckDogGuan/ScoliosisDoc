@@ -1,0 +1,7 @@
+{
+  "local_time": "2026-10-07T15:37:55+0800",
+  "command": "set -eu; cat /proc/device-tree/serial-number; cat /opt/instrument/installed-version; cat /opt/instrument/state/version; pidof instrument_app; cat /sys/firmware/devicetree/base/pwm@ff350020/status; test ! -d /sys/class/gpio/gpio55; test ! -d /sys/class/gpio/gpio32; cat /sys/class/gpio/gpio3/value /sys/class/gpio/gpio4/value /sys/class/gpio/gpio0/value; sha256sum /opt/instrument/config.json /opt/instrument/state/pair-v3.json; /opt/instrument/bin/instrument_app --light-test backlight off --seconds 1",
+  "exit_status": 0,
+  "stdout": "41eda5f2c5b00de1\u00003.3.1\n\n3.3.1\n\n173\n\ndisabled\u00001\n\n1\n\n1\n\n42e94530ec6e08b96af60a874e960796e8cdaa61a9e82220895034028f1708ed  /opt/instrument/config.json\n\n4373b056722ea9cecef0dfafd782785a3e8dbd9db945cf5a03f4cbfc23d7742e  /opt/instrument/state/pair-v3.json\n\nLIGHT_TEST_START target=backlight mode=off seconds=1 active_low=0 ground_verified=0\n\nLIGHT_TEST_END result=0 signal=0 outputs=off\n\n",
+  "stderr": ""
+}

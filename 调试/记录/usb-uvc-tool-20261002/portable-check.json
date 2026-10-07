@@ -1,0 +1,10 @@
+{
+  "sha256": "35afe9afd0979821463b06f1e5cd680103bc41a66dd4142c0a3d9f6ccf334b51",
+  "exit_code": 0,
+  "isolated_PATH": "C:\\Windows\\System32;C:\\Windows",
+  "initial_files": [
+    "仪器测试工具.exe"
+  ],
+  "stdout": "PASS 7 regression groups: keys, USB filtering, probe args, identity, compatibility, busy guard, UI lifecycle\r\n",
+  "stderr": ""
+}

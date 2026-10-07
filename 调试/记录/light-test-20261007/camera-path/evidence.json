@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-07",
+  "serial": "41eda5f2c5b00de1",
+  "version": "3.3.2",
+  "root_cause": "rkipc writes /userdata/video0 while application VIDEO_DIR is /video0",
+  "fix": "persistent /userdata/rkipc.ini storage.mount_path changed from /userdata to / after graceful camera stop",
+  "backup": "/opt/instrument/backups/camera-path-20261007-081834",
+  "before": "actual capture_record returned -1 with recorded MP4 present in /userdata/video0",
+  "after": "same capture_record returned 0, file finalized to pending",
+  "video": {
+    "codec": "hevc",
+    "width": 1280,
+    "height": 1080,
+    "duration_seconds": 3,
+    "size": 1371310,
+    "full_decode_exit": 0
+  },
+  "business_config_pairing": "SHA256 unchanged",
+  "backlight": "on 15s/off 3s software passed; user confirmed physical light on; off pending",
+  "end_to_end": "PENDING new human left+right capture, upload and UI result"
+}
