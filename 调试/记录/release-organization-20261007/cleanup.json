@@ -1,0 +1,932 @@
+{
+  "removed": [
+    {
+      "path": "调试\\记录\\capture-fixes-20261007\\FirmwareCaptureFix",
+      "project": "Luckfox",
+      "files": null,
+      "bytes": 0,
+      "reason": "Initial pass: 28 source hashes verified before removal; cache/Git size not measured"
+    },
+    {
+      "path": "releases/3.3.0",
+      "project": "Luckfox",
+      "files": 4,
+      "bytes": 1221242,
+      "reason": "Initial pass: all Windows release files compared with WSL before removal"
+    },
+    {
+      "path": "releases/3.3.1",
+      "project": "Luckfox",
+      "files": 4,
+      "bytes": 1235757,
+      "reason": "Initial pass: all Windows release files compared with WSL before removal"
+    },
+    {
+      "path": "releases/3.3.2",
+      "project": "Luckfox",
+      "files": 4,
+      "bytes": 1382069,
+      "reason": "Initial pass: all Windows release files compared with WSL before removal"
+    },
+    {
+      "path": "releases/3.3.3",
+      "project": "Luckfox",
+      "files": 4,
+      "bytes": 1384896,
+      "reason": "Initial pass: all Windows release files compared with WSL before removal"
+    },
+    {
+      "path": "releases/3.3.4",
+      "project": "Luckfox",
+      "files": 4,
+      "bytes": 1390971,
+      "reason": "Initial pass: all Windows release files compared with WSL before removal"
+    },
+    {
+      "path": "build",
+      "project": "ScoliosisFlutter",
+      "files": 4059,
+      "bytes": 1500289004,
+      "reason": "Regenerable build outputs; both complete Release variants and archive moved and verified"
+    },
+    {
+      "path": ".dart_tool",
+      "project": "ScoliosisFlutter",
+      "files": 263,
+      "bytes": 689260540,
+      "reason": "Regenerable Dart cache; tests and analyze already passed"
+    },
+    {
+      "path": "调试\\工具\\仪器测试工具\\.build",
+      "project": "Luckfox",
+      "files": 15,
+      "bytes": 82525647,
+      "reason": "Regenerable PyInstaller build cache; formal EXE kept"
+    },
+    {
+      "path": "调试\\工具\\__pycache__",
+      "project": "Luckfox",
+      "files": 4,
+      "bytes": 17254,
+      "reason": "Regenerable Python bytecode"
+    },
+    {
+      "path": "调试\\工具\\仪器测试工具\\__pycache__",
+      "project": "Luckfox",
+      "files": 4,
+      "bytes": 100697,
+      "reason": "Regenerable Python bytecode"
+    },
+    {
+      "path": "调试\\工具\\Python中间层\\__pycache__",
+      "project": "Luckfox",
+      "files": 2,
+      "bytes": 29298,
+      "reason": "Regenerable Python bytecode"
+    },
+    {
+      "path": "调试/记录/capture-upgrade-20261001-152212/firmware-source-final",
+      "project": "Luckfox",
+      "files": 160,
+      "bytes": 23499763,
+      "reason": "Exact historical files preserved and checked in WSL source audit archive"
+    },
+    {
+      "path": "调试/记录/capture-upgrade-20261001-152212/firmware-source-index",
+      "project": "Luckfox",
+      "files": 43,
+      "bytes": 21145581,
+      "reason": "Exact historical files preserved and checked in WSL source audit archive"
+    },
+    {
+      "path": "调试/记录/firmware-index-baseline-20261001",
+      "project": "Luckfox",
+      "files": 23,
+      "bytes": 15792493,
+      "reason": "All source files recoverable from reachable WSL Git blobs; regenerable indexes removed"
+    },
+    {
+      "path": "调试/记录/records-flow-20261002/firmware-index",
+      "project": "Luckfox",
+      "files": 134,
+      "bytes": 29761076,
+      "reason": "All source files recoverable from reachable WSL Git blobs; regenerable indexes removed"
+    },
+    {
+      "path": "调试/记录/light-test-20261007/firmware-index",
+      "project": "Luckfox",
+      "files": 56,
+      "bytes": 22708077,
+      "reason": "All source files recoverable from reachable WSL Git blobs; regenerable indexes removed"
+    },
+    {
+      "path": "validation/release-index",
+      "project": "Luckfox",
+      "files": 191,
+      "bytes": 95031454,
+      "reason": "Temporary reviewed index mirror or regenerated self-check bytecode"
+    },
+    {
+      "path": "调试/工具/仪器测试工具/__pycache__",
+      "project": "Luckfox",
+      "files": 2,
+      "bytes": 66878,
+      "reason": "Temporary reviewed index mirror or regenerated self-check bytecode"
+    }
+  ],
+  "preserved": [
+    {
+      "path": "D:\\code\\Scoliosis\\ScoliosisFlutter\\rollback",
+      "reason": "Pre-change uncommitted source"
+    },
+    {
+      "path": "D:\\code\\Scoliosis\\ScoliosisFlutter\\data",
+      "reason": "Runtime business data"
+    },
+    {
+      "path": "D:\\code\\Scoliosis\\ScoliosisFlutter\\integration-data",
+      "reason": "Integration evidence/data"
+    },
+    {
+      "path": "D:\\code\\Scoliosis\\Luckfox\\.uvc-build-input",
+      "reason": "Different old build input; dependencies not yet proven redundant"
+    },
+    {
+      "path": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\仪器测试工具\\release",
+      "reason": "Sole formal standalone EXE"
+    },
+    {
+      "path": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\仪器测试工具\\payload",
+      "reason": "Required runtime and PyInstaller input"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "path": "调试\\记录\\capture-fixes-20261007\\FirmwareCaptureFix",
+      "head_before": "3bf240c (recorded pre-cleanup baseline)",
+      "status_before": "Snapshot removed after all 28 hashes matched WSL; pre-cleanup audit retained in firmware-change-audit.json.",
+      "files": {
+        "src/app/policy.c": "0d2ced0e9676d13af73f09305e576ef08c95a352a108a949c24dcf7fbd46b789",
+        "src/app/app_controller.c": "fcbc3b0b56d6a8682a42a19ed240e9995a2604d8c01f54cb32bd3b5b4a337c80",
+        "src/app/runtime_v3.c": "dcbf02080e1d2f222d7ff9c7e0777cc20a6b8e8c63cdf101d742e98630138ad2",
+        "src/config/config.c": "dae6f266016b5af9ff94c9384517605e2dffde07badfe1af476f70c629b3d25a",
+        "src/storage/storage.c": "1eff2800f60d399a17eafd8c443254cda5797f3dc16e04d12fa223688cde08d3",
+        "src/platform/luckfox_mux_adapter.c": "aa5c1c69d86b21a8f7c530eea60646412a129db6f122d1426ea4ead5a0fd065d",
+        "src/platform/luckfox_battery.c": "8bb5e126ad1c4c2f33f8f853757902ca7b323832220123add168064a8b70f18b",
+        "src/platform/clock.c": "26ff444e87971e1da4b0bfa1572b51d6d23dec3c1d49d166644084b744a3057d",
+        "src/platform/luckfox_gpio.c": "20c774cf68dddb34081d582814bc27994854bd78f558ade87cfa4faf38dc3d72",
+        "src/platform/luckfox_button.c": "0950edec403e11bf30fd38c662582c3901b65c0e3a062342282405e6ed817396",
+        "src/platform/light_test.c": "6ea978433a11bbc37345ad947e6cfc175c5f6ce800f60ad8efd0f1f21fa5cd60",
+        "src/platform/process.c": "b898540b8802cb4afc4df1bcfdf547c3605e141f7e4cef5f152609dd5f5b8948",
+        "src/platform/luckfox_audio.c": "60dda4a8ff3fc56fb0878911f84e02de96ad13f46053835aa2eec1e5721e1ee4",
+        "src/platform/luckfox_light.c": "310a743a552a25cc567ae77a91d8ad039d1409368b0cc6cdac5734e37cb344db",
+        "src/platform/luckfox_wifi.c": "d8bb749c7ceff37a462808442818eecc52531c4a4eab01b3f877ba912b8d4f3e",
+        "src/platform/trace.c": "4885954d7ebb71dcb6d785ec908e98940d731ffc7c3d93137ba252f52213269e",
+        "src/platform/luckfox_camera.c": "eb41227931339d03902a49c1a326ce4cc08d1f1cbad773f711eb0a879c0c9fc7",
+        "src/middleware/capture.c": "639a20d6a27a24ae212c69423a267f8d79cff7e9a12b81684c89042e4f5cabf5",
+        "src/middleware/legacy.c": "c5e85d0a55cbb93da2476f410d3ab3d1339b8a85fb6eeb4b6c7edbceeb1b3491",
+        "src/middleware/discover.c": "bfa007aa1e3b1e6c90e02e3988db36df0c13a95594f0d8e3b78e510a7a9aa0bb",
+        "src/middleware/buttons.c": "d9c756170e9aac0a470d11615c480a82c8501c13e0ac8f3019e5064fea3ab570",
+        "src/middleware/persistence.c": "f427e11787f4c80f7f869d190657d8807a6996e27630e5aa03e0f995b2cbae9d",
+        "src/middleware/upload.c": "c509733be052467499b2726636503f4aaccdfaa42629c4b49a2e015b55f3b724",
+        "include/platform.h": "51ecc90ce681a54fc53331b43fc1395babfd3e99408f4e050776c0c1b2584812",
+        "include/app.h": "6baa47ec4200678c219c95e8504e93c754c64496fca3e81618162b27d3416bd1",
+        "include/policy.h": "4fecba82f88f8a2db4454d90ff59d9b59b0656c7fe2585099f22bb4ce7a63a22",
+        "include/v3.h": "7dc07ebccb27393c8bcb593a6e81ce4fa32857b67970945e0a128f8e9c287365",
+        "include/config.h": "83a715a02846b9c68e3373290b8f6f220dca1038b65b10a1d7d739f80a385981"
+      },
+      "canonical_source_commit": "ae9e194b27c60c985e094ac8745e30e6fbff9bfd",
+      "all_current_source_files_identical": true
+    },
+    {
+      "path": "调试/记录/capture-upgrade-20261001-152212/firmware-source-final",
+      "recovery_archive": "WSL releases/baseline-source-audit-20261001/source-audit-20261001.tar.gz",
+      "release_tag": "instrument-baseline-source-audit-20261001",
+      "all_non_cache_files_preserved": true
+    },
+    {
+      "path": "调试/记录/capture-upgrade-20261001-152212/firmware-source-index",
+      "recovery_archive": "WSL releases/baseline-source-audit-20261001/source-audit-20261001.tar.gz",
+      "release_tag": "instrument-baseline-source-audit-20261001",
+      "all_non_cache_files_preserved": true
+    },
+    {
+      "path": "调试/记录/firmware-index-baseline-20261001",
+      "recoverable_files": {
+        "config.example.json": {
+          "git_blob": "a8b47fcc8434736349479da959f1672eb37cbe8c",
+          "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98"
+        },
+        "Makefile": {
+          "git_blob": "8eb12d4895ef4017744ecbc257b85c1b6897a1ab",
+          "sha256": "7eeb9c30bd862d94b125fa72ee3cacaa7ded866ec5bbea8f04066d51fd65487f"
+        },
+        "include/app.h": {
+          "git_blob": "7116d1532cd55f7dba9f314aa3e430b98dd949ef",
+          "sha256": "268479e6a4af0e4f6b25408478cbcb6bb3d03b0f5d07b52d40a6d1ed72e7dfe6"
+        },
+        "include/config.h": {
+          "git_blob": "1943b5cdf0566c25287528acd1382dccdd4b925e",
+          "sha256": "83a715a02846b9c68e3373290b8f6f220dca1038b65b10a1d7d739f80a385981"
+        },
+        "src/app/app_controller.c": {
+          "git_blob": "a48190ea541fb3e227673637a6c1da32ed8d4841",
+          "sha256": "1d34dacbbda8b79add9a0df01ef83ce3169825bb3d0131d0c1899f30b1752d7b"
+        },
+        "src/audio/audio.c": {
+          "git_blob": "2a0575341712b3696f6dcff5f4c9c4029e519c87",
+          "sha256": "ca07262e9c7f25e7e9a7598a0c3e22f2f69256552780f7339e41a1985e9679aa"
+        },
+        "src/board/battery.c": {
+          "git_blob": "98b0432da94f7a60a0da0cc6cc4951364fd9be2d",
+          "sha256": "8bb5e126ad1c4c2f33f8f853757902ca7b323832220123add168064a8b70f18b"
+        },
+        "src/board/button.c": {
+          "git_blob": "c7a3f676b3d4a58ba6460a32240f2fc7ef53ee0c",
+          "sha256": "0950edec403e11bf30fd38c662582c3901b65c0e3a062342282405e6ed817396"
+        },
+        "src/board/light.c": {
+          "git_blob": "fdfc31f66c6d87a8438759223a7eacc5dd720530",
+          "sha256": "310a743a552a25cc567ae77a91d8ad039d1409368b0cc6cdac5734e37cb344db"
+        },
+        "src/capture/capture.c": {
+          "git_blob": "986ec281e2e1a7f5e1e5847bbf577cf8ad85871c",
+          "sha256": "15c581f3446c50df72fe4f9c31b40d1859c5f84bc85d3ef36fcc4d61965358b5"
+        },
+        "src/config/config.c": {
+          "git_blob": "8e5027262a0e6d61aa947f10b5996190f09a9972",
+          "sha256": "f828b130ae50920a5dcef82f0a143f2c60aa563f8bcc9894bae16822b0ea498d"
+        },
+        "src/net/discover.c": {
+          "git_blob": "b70944071a767ca7efd924e7d7de9f0836f415bb",
+          "sha256": "6b66a518773f23399e015b391d0e7aa53b7d52c4eb90f91f428fc86da5c1f1c6"
+        },
+        "src/net/upload.c": {
+          "git_blob": "b3cf24f90a376905ef1daccaa3605eec252e5606",
+          "sha256": "89182b177fe288eb8cb89e80b470b64180de9f03113342f6c6fc56384e5d578b"
+        },
+        "src/net/wifi.c": {
+          "git_blob": "7dabe07f44274c3608a933e748e96e8ef6f0e24b",
+          "sha256": "d8bb749c7ceff37a462808442818eecc52531c4a4eab01b3f877ba912b8d4f3e"
+        },
+        "src/storage/storage.c": {
+          "git_blob": "0d5fe950b63113741fdd370d36d282c4fd2a8a41",
+          "sha256": "1eff2800f60d399a17eafd8c443254cda5797f3dc16e04d12fa223688cde08d3"
+        }
+      },
+      "recovery": "git cat-file blob <git_blob> in WSL; all blobs reachable in existing history",
+      "excluded": "Regenerable .gitnexus/.claude index scaffolding and synthetic snapshot Git metadata"
+    },
+    {
+      "path": "调试/记录/records-flow-20261002/firmware-index",
+      "recoverable_files": {
+        ".gitignore": {
+          "git_blob": "73f3a10f1c2d8d69c3ca5c9d23ae3208755e9916",
+          "sha256": "3f0124a51882dabcd0bd83bb6342973d2a869b4110639ca66163f262e0d3fef6"
+        },
+        "CHANGELOG.md": {
+          "git_blob": "684fd4e7f50d1173c9bfb80d0f009fe0bfc14cf1",
+          "sha256": "c2fa8b73216d4d01da360855c757c9b8f3712348f18012209fb592fc99e6d545"
+        },
+        "config.example.json": {
+          "git_blob": "a8b47fcc8434736349479da959f1672eb37cbe8c",
+          "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98"
+        },
+        "Makefile": {
+          "git_blob": "121919fadadf506b25251362f194c0e2df22c93f",
+          "sha256": "0466e19962a64fecaf9b12dc0d95c98b7a76a3b49518483b4a27660be290779a"
+        },
+        "README.md": {
+          "git_blob": "a4abf0a58d9655ffea97684056b85ffa6fb75f59",
+          "sha256": "192aacb222f52d714884f141d7694f0a3e1ee741a3451212ef401a3957cb8e1e"
+        },
+        "deploy/README.md": {
+          "git_blob": "444e66550c8edd6f9b8d31fee24c99aeeb9404f9",
+          "sha256": "ccfec599a439f3293eba40874ce23df8e826a79eb263b809e6cf68c70e661a1d"
+        },
+        "deploy/RkLunch.sh": {
+          "git_blob": "ccde503563ea9ba84d0b4a48fd90a12f45a7e99b",
+          "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57"
+        },
+        "deploy/S80instrument": {
+          "git_blob": "76536e6ed0a283e39a3654c0f804ed61a64c5667",
+          "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e"
+        },
+        "image/README.md": {
+          "git_blob": "018060ca95b811a9ef8fefd07a5e95f5759be06c",
+          "sha256": "209a18d76c6f1e97501eda5f0ecba9bdc88f62682c63252a47f553af3b822e39"
+        },
+        "include/app.h": {
+          "git_blob": "beb08b01866587e30ed82886dfff4dc267ea9d0d",
+          "sha256": "7aed05de8306d3774e39b3ff95bf980b03d85a9e7a9c66f9c1aaa186baaeb08a"
+        },
+        "include/config.h": {
+          "git_blob": "1943b5cdf0566c25287528acd1382dccdd4b925e",
+          "sha256": "83a715a02846b9c68e3373290b8f6f220dca1038b65b10a1d7d739f80a385981"
+        },
+        "include/platform.h": {
+          "git_blob": "bb82cb74e6592f2f6b1ee13ca4e47760019255f2",
+          "sha256": "6014388db076fb04cbccfc300c592225946de67dac601c12e0529daf578d89ab"
+        },
+        "include/policy.h": {
+          "git_blob": "c8e45534d322d638bf51e6d0cee12dd78a08ebe1",
+          "sha256": "4fecba82f88f8a2db4454d90ff59d9b59b0656c7fe2585099f22bb4ce7a63a22"
+        },
+        "include/v3.h": {
+          "git_blob": "fe54ebc66e186dc1c44dbc0847ec3b8cb5e3d663",
+          "sha256": "092d73155fbf0453d3fd5adffefd6e7a2f05e3bab7e35ca0f974892b973df7c2"
+        },
+        "scripts/package_image.sh": {
+          "git_blob": "5fb872e48a81ec912e2e955370ba9d8c5aef55e9",
+          "sha256": "7cb6ab377ec92223f9a42bed85a89989c224a6d28b94fb47c4f656d44b1c7524"
+        },
+        "tests/pending_harness.c": {
+          "git_blob": "6f68ccfb820b068ffd874102c67f9fd8d9dcef04",
+          "sha256": "0c606fc3a71c5de0f7145a9ff45b89f376621f3c0165896cf62d1472843068fc"
+        },
+        "tests/struct_sizes.c": {
+          "git_blob": "26369a1d169ed1503d8736c1f8c5961b8864174d",
+          "sha256": "5fcb6e3f772c21741ae5b1d7c3740ef01980c1435da1a547b4a1d10b99df9ce5"
+        },
+        "tests/test_buttons.c": {
+          "git_blob": "c406dcebe1304b4edcf597308bfa759c16f5c38e",
+          "sha256": "b9a006d71bb9c634f5c683751ee7781e97299d7ddc7d1af4ab060e2a2d2790c2"
+        },
+        "tests/test_capture_discard.c": {
+          "git_blob": "e4cd36ddb39174730a34abb32303890ac955613b",
+          "sha256": "54c9fb9da8cf8479607dd62053296ace943ad2b6492388ee7f48df5b3d08b12d"
+        },
+        "tests/test_capture_discard.py": {
+          "git_blob": "6393ff69fcd3c405fc4f7a2a6b9cf2032378ddff",
+          "sha256": "a120f9d88ead8990bc9be9c3dd78614b40ad347227332968d29e213e12d4c2dc"
+        },
+        "tests/test_pending_upload.py": {
+          "git_blob": "1c35a6caa051d95aad3e690d8318831664411a87",
+          "sha256": "d514c687d3294b2d7636f26b5e6f2a9e546252f9effda29d16555355384deb88"
+        },
+        "tests/test_upload.py": {
+          "git_blob": "fd75f2a3a71b81544173c04fa663c8fe04ca69f8",
+          "sha256": "dc9d84544428320ad34dfc757c2b091c844525068e9191734622126f7878a9ac"
+        },
+        "image/baseline-20261001/instrument_app": {
+          "git_blob": "f9fd1308f5e7234c278a78289cadaeaae42b7a17",
+          "sha256": "20fb9424a2e714fc49ff1d046e7a979aece924bf55db2d9d3102886f348eee3e"
+        },
+        "image/baseline-20261001/README.md": {
+          "git_blob": "203d6e61a31b5b91c29a202b6c764d7407d51681",
+          "sha256": "472e3740110e6be552404ada4eb0fd4a0d7059be5578af113d89f4d7624a6e6f"
+        },
+        "image/baseline-20261001/RkLunch.sh": {
+          "git_blob": "06395a612c97bf05090d2b8e7e01fee4e77ce455",
+          "sha256": "69f1d694189b9d09d6db243131176589a2fdac05260399d94cc736de6307b66c"
+        },
+        "image/baseline-20261001/SHA256SUMS": {
+          "git_blob": "bbf2f281fb0a486cffec59549d53ca35a5525233",
+          "sha256": "6f067b6de522bc8276498042095aa2dbae28a83398fe414c606ffd19f1f727e3"
+        },
+        "image/baseline-20261001/source-before-upgrade.tar.gz": {
+          "git_blob": "3424b8e46a1f93af52c658e77fdc977250be1b4e",
+          "sha256": "594f295bcb89c0f7e59a6165196bd9c8de6f0f4c2eb2f42705e195489a18912a"
+        },
+        "image/v3.1.0-20261001/BUILD.txt": {
+          "git_blob": "d8992aa30e216945589f821980309f58bd8c2954",
+          "sha256": "50db0444698f1a31d31f9ef5efe3c85709e64ed0d9f1032207e4088e8339201d"
+        },
+        "image/v3.1.0-20261001/CHANGELOG.md": {
+          "git_blob": "f401a9ddd8700bf724c765ce2519f03f023e0520",
+          "sha256": "b5ca259bfce5fa54d2f26e324ad41f6c9bdf24d62279c45960b96c1838c6d540"
+        },
+        "image/v3.1.0-20261001/config.example.json": {
+          "git_blob": "a8b47fcc8434736349479da959f1672eb37cbe8c",
+          "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98"
+        },
+        "image/v3.1.0-20261001/instrument_app": {
+          "git_blob": "492f5878fc5ea15f22f66a139f90d80d88c7bf2a",
+          "sha256": "224bc09611aef193b751ad8a3ff3a4c5fd45d939bce859bf78c8863396af9237"
+        },
+        "image/v3.1.0-20261001/luckfox_mux_adapter.so": {
+          "git_blob": "c2de5ebd07d22ae0babad8d9a55b6a1210417515",
+          "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725"
+        },
+        "image/v3.1.0-20261001/README.txt": {
+          "git_blob": "a0fb9cec4d34ffa41c48e4bc10775ed014cab27a",
+          "sha256": "59e780bab7cdcde17f0de9251eff90935f539d1080a53249d34012c20e81ed9d"
+        },
+        "image/v3.1.0-20261001/SHA256SUMS": {
+          "git_blob": "7a1f20b883c8cff8646bb8d7ef76461fb208455f",
+          "sha256": "182a247eae4ce09e4dbeb87471bf287b334242b0ccd9202dab8584e47960e441"
+        },
+        "image/v3.1.0-20261001/VERSION": {
+          "git_blob": "fd2a01863fdd3035fac5918c59666363544bfe23",
+          "sha256": "b2f44d3b6e29f8b1b73ea4735f006affc4d198e1fd9c7d50e736159b1ef636c6"
+        },
+        "image/v3.2.0-20261002/BUILD.txt": {
+          "git_blob": "65bc59e8d638a5316ed3d26b82f0b0460b9ea8ef",
+          "sha256": "d7ea5c41ec71928fe32ff7d95c8a69ec6218bb0891fc2315ad7ebc00cb7fc87b"
+        },
+        "image/v3.2.0-20261002/CHANGELOG.md": {
+          "git_blob": "684fd4e7f50d1173c9bfb80d0f009fe0bfc14cf1",
+          "sha256": "c2fa8b73216d4d01da360855c757c9b8f3712348f18012209fb592fc99e6d545"
+        },
+        "image/v3.2.0-20261002/config.example.json": {
+          "git_blob": "a8b47fcc8434736349479da959f1672eb37cbe8c",
+          "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98"
+        },
+        "image/v3.2.0-20261002/instrument_app": {
+          "git_blob": "13bd4bbdfec51480c7422217bc89c007b6f75027",
+          "sha256": "10002d657c75f1e0b56e035d4e594e8f0b063ae0e24368f86263fea21752b21b"
+        },
+        "image/v3.2.0-20261002/luckfox_mux_adapter.so": {
+          "git_blob": "c2de5ebd07d22ae0babad8d9a55b6a1210417515",
+          "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725"
+        },
+        "image/v3.2.0-20261002/README.txt": {
+          "git_blob": "ac2c2ab5401dbd5d051769d48feee5d4f1c82efb",
+          "sha256": "93a4cb9994009cd59688a6a6d980f8622da0b093b563b59546eece909afff7bc"
+        },
+        "image/v3.2.0-20261002/SHA256SUMS": {
+          "git_blob": "e8e8bf2990164dc11e1ba522cf9f6d37564a7629",
+          "sha256": "cb2c454d0ef185224ed11a1088ca19215d9776c23e91a17987c26a8d4ece45ec"
+        },
+        "image/v3.2.0-20261002/VERSION": {
+          "git_blob": "944880fa15e85084780c290b929924d3f8b6085f",
+          "sha256": "33bdaf9e2d6bcbde2e4e613e865e403f8fe21fc621078d34c30b0bdc7f68d903"
+        },
+        "image/v3.1.0-20261001/deploy/README.md": {
+          "git_blob": "444e66550c8edd6f9b8d31fee24c99aeeb9404f9",
+          "sha256": "ccfec599a439f3293eba40874ce23df8e826a79eb263b809e6cf68c70e661a1d"
+        },
+        "image/v3.1.0-20261001/deploy/RkLunch.sh": {
+          "git_blob": "af5d2289778057ed7bab9236f048a99f98d8dea0",
+          "sha256": "a27c9f86c1388d8327f117a5c50dc50e197291c79b4e6f1c6936f681feb77d56"
+        },
+        "image/v3.1.0-20261001/deploy/S80instrument": {
+          "git_blob": "76536e6ed0a283e39a3654c0f804ed61a64c5667",
+          "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e"
+        },
+        "image/v3.1.0-20261001/sounds/capture_disabled.wav": {
+          "git_blob": "35442a2cb8f0d3dfcd8ccad0a64e7353aab081b7",
+          "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c"
+        },
+        "image/v3.1.0-20261001/sounds/capture_done.wav": {
+          "git_blob": "38225d38de7330237e63560758edcad1f2140246",
+          "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2"
+        },
+        "image/v3.1.0-20261001/sounds/capture_enabled.wav": {
+          "git_blob": "ab4795fcb9ed350bc96b74f3d274de6cfe9b6ab4",
+          "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852"
+        },
+        "image/v3.1.0-20261001/sounds/capture_failed.wav": {
+          "git_blob": "a5af8244748e7ac269a096bcbae23705b58b3016",
+          "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2"
+        },
+        "image/v3.1.0-20261001/sounds/capture_short.wav": {
+          "git_blob": "81688de82b6f406a5b1338aaf03a91763db14365",
+          "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef"
+        },
+        "image/v3.1.0-20261001/sounds/capture_start.wav": {
+          "git_blob": "7ba569348241d3515e8e544e41f0897e937c944a",
+          "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966"
+        },
+        "image/v3.1.0-20261001/sounds/pair_disconnected.wav": {
+          "git_blob": "51c78cffa27314bbb24127d799662fe329ad7524",
+          "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8"
+        },
+        "image/v3.1.0-20261001/sounds/pair_failed.wav": {
+          "git_blob": "8678a087386901819d6cf4024ec61191b1b137ad",
+          "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f"
+        },
+        "image/v3.1.0-20261001/sounds/pair_success.wav": {
+          "git_blob": "1c1c4f9e9191d8a333c107f59ed32bf681f1accc",
+          "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29"
+        },
+        "image/v3.1.0-20261001/sounds/pair_window.wav": {
+          "git_blob": "8351c7d6e6bdf575b52a43427638a3d0c0cd83a6",
+          "sha256": "77828d4d8614cef5df2eb4720b9200ef2ba2b0d343f6da75d651a8f716d28f30"
+        },
+        "image/v3.1.0-20261001/sounds/please_connect.wav": {
+          "git_blob": "c98fa1a906cccb50fe06f6392bbf192128b4cd40",
+          "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec"
+        },
+        "image/v3.1.0-20261001/sounds/saved_on_device.wav": {
+          "git_blob": "6f69f7ff91ef16e1eadbe8e2c0f87dc7a2f61e4c",
+          "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111"
+        },
+        "image/v3.1.0-20261001/sounds/storage_low.wav": {
+          "git_blob": "e9dd1da4d808aec650fb09d7aee5715ce4d730f6",
+          "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a"
+        },
+        "image/v3.1.0-20261001/sounds/uploaded.wav": {
+          "git_blob": "c515d65fb9a3918b44d2c2f9a7ac20675d724df8",
+          "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960"
+        },
+        "image/v3.1.0-20261001/sounds/volume_test.wav": {
+          "git_blob": "36eead2292f68d14f814e2619796f43d3bfda43b",
+          "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a"
+        },
+        "image/v3.1.0-20261001/sounds/wifi_attention.wav": {
+          "git_blob": "8ffd6f25a7abe38cd2d507126dbe68f4575c5b23",
+          "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d"
+        },
+        "image/v3.1.0-20261001/sounds/wifi_connected.wav": {
+          "git_blob": "0dca9b7c1bcfbefe7c57e7924159cef1d168ab28",
+          "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a"
+        },
+        "image/v3.1.0-20261001/sounds/wifi_disconnected.wav": {
+          "git_blob": "8da9d8a4b0c18be556f2f97da4fc73f66123652d",
+          "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea"
+        },
+        "image/v3.1.0-20261001/sounds/wifi_recovering.wav": {
+          "git_blob": "fe318dd79eb2324ae69f5a8449a4496167213c74",
+          "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156"
+        },
+        "image/v3.1.0-20261001/sounds/wifi_restored.wav": {
+          "git_blob": "7125a215f6bdcbefd90295dc9acc84501f536dfc",
+          "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c"
+        },
+        "image/v3.2.0-20261002/deploy/README.md": {
+          "git_blob": "444e66550c8edd6f9b8d31fee24c99aeeb9404f9",
+          "sha256": "ccfec599a439f3293eba40874ce23df8e826a79eb263b809e6cf68c70e661a1d"
+        },
+        "image/v3.2.0-20261002/deploy/RkLunch.sh": {
+          "git_blob": "ccde503563ea9ba84d0b4a48fd90a12f45a7e99b",
+          "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57"
+        },
+        "image/v3.2.0-20261002/deploy/S80instrument": {
+          "git_blob": "76536e6ed0a283e39a3654c0f804ed61a64c5667",
+          "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e"
+        },
+        "image/v3.2.0-20261002/sounds/capture_disabled.wav": {
+          "git_blob": "35442a2cb8f0d3dfcd8ccad0a64e7353aab081b7",
+          "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c"
+        },
+        "image/v3.2.0-20261002/sounds/capture_done.wav": {
+          "git_blob": "38225d38de7330237e63560758edcad1f2140246",
+          "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2"
+        },
+        "image/v3.2.0-20261002/sounds/capture_enabled.wav": {
+          "git_blob": "ab4795fcb9ed350bc96b74f3d274de6cfe9b6ab4",
+          "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852"
+        },
+        "image/v3.2.0-20261002/sounds/capture_failed.wav": {
+          "git_blob": "a5af8244748e7ac269a096bcbae23705b58b3016",
+          "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2"
+        },
+        "image/v3.2.0-20261002/sounds/capture_short.wav": {
+          "git_blob": "81688de82b6f406a5b1338aaf03a91763db14365",
+          "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef"
+        },
+        "image/v3.2.0-20261002/sounds/capture_start.wav": {
+          "git_blob": "7ba569348241d3515e8e544e41f0897e937c944a",
+          "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966"
+        },
+        "image/v3.2.0-20261002/sounds/pair_disconnected.wav": {
+          "git_blob": "51c78cffa27314bbb24127d799662fe329ad7524",
+          "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8"
+        },
+        "image/v3.2.0-20261002/sounds/pair_failed.wav": {
+          "git_blob": "8678a087386901819d6cf4024ec61191b1b137ad",
+          "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f"
+        },
+        "image/v3.2.0-20261002/sounds/pair_success.wav": {
+          "git_blob": "1c1c4f9e9191d8a333c107f59ed32bf681f1accc",
+          "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29"
+        },
+        "image/v3.2.0-20261002/sounds/pair_window.wav": {
+          "git_blob": "8351c7d6e6bdf575b52a43427638a3d0c0cd83a6",
+          "sha256": "77828d4d8614cef5df2eb4720b9200ef2ba2b0d343f6da75d651a8f716d28f30"
+        },
+        "image/v3.2.0-20261002/sounds/please_connect.wav": {
+          "git_blob": "c98fa1a906cccb50fe06f6392bbf192128b4cd40",
+          "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec"
+        },
+        "image/v3.2.0-20261002/sounds/saved_on_device.wav": {
+          "git_blob": "6f69f7ff91ef16e1eadbe8e2c0f87dc7a2f61e4c",
+          "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111"
+        },
+        "image/v3.2.0-20261002/sounds/storage_low.wav": {
+          "git_blob": "e9dd1da4d808aec650fb09d7aee5715ce4d730f6",
+          "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a"
+        },
+        "image/v3.2.0-20261002/sounds/uploaded.wav": {
+          "git_blob": "c515d65fb9a3918b44d2c2f9a7ac20675d724df8",
+          "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960"
+        },
+        "image/v3.2.0-20261002/sounds/volume_test.wav": {
+          "git_blob": "36eead2292f68d14f814e2619796f43d3bfda43b",
+          "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a"
+        },
+        "image/v3.2.0-20261002/sounds/wifi_attention.wav": {
+          "git_blob": "8ffd6f25a7abe38cd2d507126dbe68f4575c5b23",
+          "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d"
+        },
+        "image/v3.2.0-20261002/sounds/wifi_connected.wav": {
+          "git_blob": "0dca9b7c1bcfbefe7c57e7924159cef1d168ab28",
+          "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a"
+        },
+        "image/v3.2.0-20261002/sounds/wifi_disconnected.wav": {
+          "git_blob": "8da9d8a4b0c18be556f2f97da4fc73f66123652d",
+          "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea"
+        },
+        "image/v3.2.0-20261002/sounds/wifi_recovering.wav": {
+          "git_blob": "fe318dd79eb2324ae69f5a8449a4496167213c74",
+          "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156"
+        },
+        "image/v3.2.0-20261002/sounds/wifi_restored.wav": {
+          "git_blob": "7125a215f6bdcbefd90295dc9acc84501f536dfc",
+          "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c"
+        },
+        "src/app/app_controller.c": {
+          "git_blob": "c2bfc4981f92cf06bbd38ad98eccebee51bfbae0",
+          "sha256": "2f6d3bee2bf6733745ec6eb28298c307490d3f9fe4821dcd0dd6d1c078ca7cd4"
+        },
+        "src/app/policy.c": {
+          "git_blob": "aef9aeff01a7b8f825f287ffe3cf06c89fb197a5",
+          "sha256": "0d2ced0e9676d13af73f09305e576ef08c95a352a108a949c24dcf7fbd46b789"
+        },
+        "src/app/runtime_v3.c": {
+          "git_blob": "af86590f628714a4200cb5ecb03aa8daacc9ad48",
+          "sha256": "7c108b1ba75410bed6b3d218dcea82edf1b06cd443e0e9889f5795350d3b4afe"
+        },
+        "src/config/config.c": {
+          "git_blob": "6c53ed2b29f09cb7a8d3d951ace543b897b65e77",
+          "sha256": "dae6f266016b5af9ff94c9384517605e2dffde07badfe1af476f70c629b3d25a"
+        },
+        "src/middleware/buttons.c": {
+          "git_blob": "f9b1b712678dc981cce2abff29cd6850d190c636",
+          "sha256": "ad7e4f927a9ed8364ecd1fb4c88a55ee01fea9d6fcb22b2675be10e41b855180"
+        },
+        "src/middleware/capture.c": {
+          "git_blob": "0fa5d438bcf183f693020bc0bbb22e738ec97d52",
+          "sha256": "639a20d6a27a24ae212c69423a267f8d79cff7e9a12b81684c89042e4f5cabf5"
+        },
+        "src/middleware/discover.c": {
+          "git_blob": "4aa0fec3a92a8d6d88116cb2e2f494cf33607dc8",
+          "sha256": "bfa007aa1e3b1e6c90e02e3988db36df0c13a95594f0d8e3b78e510a7a9aa0bb"
+        },
+        "src/middleware/legacy.c": {
+          "git_blob": "79f6d0855786f2a4a01a55ba2675cdfe41c47eba",
+          "sha256": "c5e85d0a55cbb93da2476f410d3ab3d1339b8a85fb6eeb4b6c7edbceeb1b3491"
+        },
+        "src/middleware/persistence.c": {
+          "git_blob": "5eb15982a36ea7aea144a5e5ccab43b6ce1ef6e7",
+          "sha256": "f427e11787f4c80f7f869d190657d8807a6996e27630e5aa03e0f995b2cbae9d"
+        },
+        "src/middleware/upload.c": {
+          "git_blob": "aff486dbdd99cdf1a00fcf56c425f68ce2cfe87c",
+          "sha256": "f9a45268eca9f6ff208ca9accc63900456e4fc0034fbfba4507e1614cccd4cc4"
+        },
+        "src/platform/clock.c": {
+          "git_blob": "dc0714203183dbd47df386b0be0c7a7e356148ec",
+          "sha256": "26ff444e87971e1da4b0bfa1572b51d6d23dec3c1d49d166644084b744a3057d"
+        },
+        "src/platform/luckfox_audio.c": {
+          "git_blob": "12dda8760c30653402c445f88b040f6a88d6ea3f",
+          "sha256": "491f54ee3a48e19b3fbed953a6641e84064c825cea6818b018796884c68ae86e"
+        },
+        "src/platform/luckfox_battery.c": {
+          "git_blob": "98b0432da94f7a60a0da0cc6cc4951364fd9be2d",
+          "sha256": "8bb5e126ad1c4c2f33f8f853757902ca7b323832220123add168064a8b70f18b"
+        },
+        "src/platform/luckfox_button.c": {
+          "git_blob": "c7a3f676b3d4a58ba6460a32240f2fc7ef53ee0c",
+          "sha256": "0950edec403e11bf30fd38c662582c3901b65c0e3a062342282405e6ed817396"
+        },
+        "src/platform/luckfox_camera.c": {
+          "git_blob": "87dc2a38eb0a34775df7cbe5ed93ec516b63c24b",
+          "sha256": "716b945e97508a8f479d134b35a6a085187f45bf249bc0467c8e38c15792aa39"
+        },
+        "src/platform/luckfox_gpio.c": {
+          "git_blob": "c0c1e19c692d478f7ac1bd62deac4078b7f89ed3",
+          "sha256": "af89abc4a23c8df00a4b265ac3260b55502270f35173203b1f4ca88365662134"
+        },
+        "src/platform/luckfox_light.c": {
+          "git_blob": "fdfc31f66c6d87a8438759223a7eacc5dd720530",
+          "sha256": "310a743a552a25cc567ae77a91d8ad039d1409368b0cc6cdac5734e37cb344db"
+        },
+        "src/platform/luckfox_mux_adapter.c": {
+          "git_blob": "7b1e110d01ec74b6b36140da2507cf2322cc7298",
+          "sha256": "aa5c1c69d86b21a8f7c530eea60646412a129db6f122d1426ea4ead5a0fd065d"
+        },
+        "src/platform/luckfox_wifi.c": {
+          "git_blob": "7dabe07f44274c3608a933e748e96e8ef6f0e24b",
+          "sha256": "d8bb749c7ceff37a462808442818eecc52531c4a4eab01b3f877ba912b8d4f3e"
+        },
+        "src/platform/process.c": {
+          "git_blob": "e54a9e754509818db36589ba5ae16bf4a03d18c6",
+          "sha256": "b898540b8802cb4afc4df1bcfdf547c3605e141f7e4cef5f152609dd5f5b8948"
+        },
+        "src/platform/trace.c": {
+          "git_blob": "24d582b739a03eb7f5377b8d76cd86dd12610cf3",
+          "sha256": "4885954d7ebb71dcb6d785ec908e98940d731ffc7c3d93137ba252f52213269e"
+        },
+        "src/storage/storage.c": {
+          "git_blob": "0d5fe950b63113741fdd370d36d282c4fd2a8a41",
+          "sha256": "1eff2800f60d399a17eafd8c443254cda5797f3dc16e04d12fa223688cde08d3"
+        },
+        "third_party/cjson/cJSON.c": {
+          "git_blob": "3063f74e9864b29839928800f1cfb0469ee74990",
+          "sha256": "971822d8c3cbb22c180f16cea9ef66ee5d3e10dcade6c61d4ac9a18f475d8520"
+        },
+        "third_party/cjson/cJSON.h": {
+          "git_blob": "92907a2cd38b1e1f2e099e5cbe2f5c557b70b07b",
+          "sha256": "c25b54ebc98e814eb7b3eeaf12ce899806f87ff5a275b20a3b77dbb3968e5d0b"
+        },
+        "third_party/cjson/LICENSE": {
+          "git_blob": "78deb0406d713ab9730e3c2447be1abdbd70b9a2",
+          "sha256": "a36dda207c36db5818729c54e7ad4e8b0c6fba847491ba64f372c1a2037b6d5c"
+        },
+        "third_party/lwbtn/LICENSE": {
+          "git_blob": "1403132539340eef015ebd8ef6e7f060dbc18045",
+          "sha256": "29d46b8ef3792811c8ab6eb52c8c99eb3e841fb1a9e7a14a9fa2ebf957c01bca"
+        },
+        "third_party/lwbtn/lwbtn.c": {
+          "git_blob": "2b8f303a4feab02f18ad20ab62d4ce820909ba6c",
+          "sha256": "56b4f82e0b53bdee0be73c3397e4304b812e44054bbf3b78b62eed6ccb5206f5"
+        },
+        "third_party/lwbtn/include/lwbtn_opts.h": {
+          "git_blob": "c38d5fbbf69e314e0ed2e0a4c5f88979fe95966f",
+          "sha256": "7ffd86ce24922ca9193b9b656998b63fd497cfc26e9a872cc48ed6c6590f9fb5"
+        },
+        "third_party/lwbtn/include/lwbtn/lwbtn.h": {
+          "git_blob": "8c2972e5d738c7633c264c9585aca6ccbec3944b",
+          "sha256": "675105e5cd22e59f27748f1c3badf9e1935ba8d3c0b19979fd1544c16057fc36"
+        },
+        "third_party/lwbtn/include/lwbtn/lwbtn_opt.h": {
+          "git_blob": "297a5f8fca282789b134d14a267b859542b72186",
+          "sha256": "c1aa099ea70ff18d085c6ffda64799e68b052075bcb72341e2805bf7695b838e"
+        }
+      },
+      "recovery": "git cat-file blob <git_blob> in WSL; all blobs reachable in existing history",
+      "excluded": "Regenerable .gitnexus/.claude index scaffolding and synthetic snapshot Git metadata"
+    },
+    {
+      "path": "调试/记录/light-test-20261007/firmware-index",
+      "recoverable_files": {
+        "Makefile": {
+          "git_blob": "9d84cb6559184366a044cf233f7bf06441d3b07f",
+          "sha256": "414c1e593e77c90fd4f3158e6c7ff2cc81a02e83c4ed39acaa38d099d636be2f"
+        },
+        "deploy/button_inputs.sh": {
+          "git_blob": "d6bcc798d7a6cc07275722f959ed3d14cec8bfc9",
+          "sha256": "55595f64cc7235185662ecf7ce795d215b16e8d8121859cbb7832a0ec91adf97"
+        },
+        "deploy/install_bundle.sh": {
+          "git_blob": "e125f9da361eea63bc7ba76ef22169936aac1e25",
+          "sha256": "d4b9b3797207cf4887e3a8e4b2ad0f6844bca25d42024dba9c33085055697bb2"
+        },
+        "deploy/light_pwm.sh": {
+          "git_blob": "12c310badddf947b3e58949afaa270960829c824",
+          "sha256": "9da0cd1371d777a98f3bdcbfa325f515e8081fa5d1041f54fe665fcc06852265"
+        },
+        "deploy/README.md": {
+          "git_blob": "7d12dce703fb15a057eccd2d9f0e1cc8a49e507d",
+          "sha256": "5183630e3e244a80a24ad1ef6da2e1ac08e29cd6d647a6a40d7211ecd8859071"
+        },
+        "deploy/RkLunch.sh": {
+          "git_blob": "ccde503563ea9ba84d0b4a48fd90a12f45a7e99b",
+          "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57"
+        },
+        "deploy/S79buttons": {
+          "git_blob": "895836f07ebff91178b87b6ec69359d5e99fa372",
+          "sha256": "e7273c4ecea115737b42af36e94174b6805f3a4f337a58d0192376eb6c8550b7"
+        },
+        "deploy/S80instrument": {
+          "git_blob": "76536e6ed0a283e39a3654c0f804ed61a64c5667",
+          "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e"
+        },
+        "deploy/wpa_supplicant.default.conf": {
+          "git_blob": "d26579300612786afd8b076919bee6e1db909e05",
+          "sha256": "cf66c1c9c9c57d204e448e45df22ded84dbbe83086f13736a18d68ff2846ee04"
+        },
+        "include/app.h": {
+          "git_blob": "6bd0b899a392b64a501c56593ea980697365730c",
+          "sha256": "77852ff18a4a9e14a4e4b26e3902dbb05fc9a2c2f42cb016f5ee206f7a861071"
+        },
+        "include/config.h": {
+          "git_blob": "1943b5cdf0566c25287528acd1382dccdd4b925e",
+          "sha256": "83a715a02846b9c68e3373290b8f6f220dca1038b65b10a1d7d739f80a385981"
+        },
+        "include/platform.h": {
+          "git_blob": "9822ce91b66483ff706a5740860e8ce06f254d88",
+          "sha256": "bc468075ed94b62fcf6e7a94b0640707e19b9eb9725a539ffd3d11080ece2a04"
+        },
+        "include/policy.h": {
+          "git_blob": "c8e45534d322d638bf51e6d0cee12dd78a08ebe1",
+          "sha256": "4fecba82f88f8a2db4454d90ff59d9b59b0656c7fe2585099f22bb4ce7a63a22"
+        },
+        "include/v3.h": {
+          "git_blob": "a8530182d33d20e43da4cb2147cb2ba05677620b",
+          "sha256": "7dc07ebccb27393c8bcb593a6e81ce4fa32857b67970945e0a128f8e9c287365"
+        },
+        "scripts/gitnexus_wsl_review.mjs": {
+          "git_blob": "6ac93b31befd5759ffdfecf312be09ccf267476a",
+          "sha256": "510eef8fae3c31a9ecb5287e9ccc3ee5220a9397823ffd3c73e138539d77ec33"
+        },
+        "scripts/package_bundle.sh": {
+          "git_blob": "a9b0ae362aa90235da77479a0cd979de0ad22dd8",
+          "sha256": "50369fb8c70449a612078e2a916541d6dbe2b08500472ee84fddfd2568766989"
+        },
+        "scripts/package_image.sh": {
+          "git_blob": "8ad198fd553a24728584da61499f6cbd41866965",
+          "sha256": "82187ff4c6d695a688c7fa9e7ce5d50eb99782f7f1e9d9135e370fcce697612e"
+        },
+        "src/app/app_controller.c": {
+          "git_blob": "d43ec3456cb3f6bf82083a0c7a87edd7708d465f",
+          "sha256": "32b4b217fa5f8930ede5aee6383744b688cb6c9883c4571442e72a08164bc350"
+        },
+        "src/app/policy.c": {
+          "git_blob": "aef9aeff01a7b8f825f287ffe3cf06c89fb197a5",
+          "sha256": "0d2ced0e9676d13af73f09305e576ef08c95a352a108a949c24dcf7fbd46b789"
+        },
+        "src/app/runtime_v3.c": {
+          "git_blob": "2bd7163c286cc698bef46232b928c734e1a2d544",
+          "sha256": "a251232dd38044eecb6c5df225cbef8ee84299489402f00b5b1eb6652c3d526f"
+        },
+        "src/config/config.c": {
+          "git_blob": "6c53ed2b29f09cb7a8d3d951ace543b897b65e77",
+          "sha256": "dae6f266016b5af9ff94c9384517605e2dffde07badfe1af476f70c629b3d25a"
+        },
+        "src/middleware/buttons.c": {
+          "git_blob": "7d006eee1ce2c7bf76e8a0df5d21f4cc0d9eadcd",
+          "sha256": "d9c756170e9aac0a470d11615c480a82c8501c13e0ac8f3019e5064fea3ab570"
+        },
+        "src/middleware/capture.c": {
+          "git_blob": "0fa5d438bcf183f693020bc0bbb22e738ec97d52",
+          "sha256": "639a20d6a27a24ae212c69423a267f8d79cff7e9a12b81684c89042e4f5cabf5"
+        },
+        "src/middleware/discover.c": {
+          "git_blob": "4aa0fec3a92a8d6d88116cb2e2f494cf33607dc8",
+          "sha256": "bfa007aa1e3b1e6c90e02e3988db36df0c13a95594f0d8e3b78e510a7a9aa0bb"
+        },
+        "src/middleware/legacy.c": {
+          "git_blob": "79f6d0855786f2a4a01a55ba2675cdfe41c47eba",
+          "sha256": "c5e85d0a55cbb93da2476f410d3ab3d1339b8a85fb6eeb4b6c7edbceeb1b3491"
+        },
+        "src/middleware/persistence.c": {
+          "git_blob": "5eb15982a36ea7aea144a5e5ccab43b6ce1ef6e7",
+          "sha256": "f427e11787f4c80f7f869d190657d8807a6996e27630e5aa03e0f995b2cbae9d"
+        },
+        "src/middleware/upload.c": {
+          "git_blob": "aff486dbdd99cdf1a00fcf56c425f68ce2cfe87c",
+          "sha256": "f9a45268eca9f6ff208ca9accc63900456e4fc0034fbfba4507e1614cccd4cc4"
+        },
+        "src/platform/clock.c": {
+          "git_blob": "dc0714203183dbd47df386b0be0c7a7e356148ec",
+          "sha256": "26ff444e87971e1da4b0bfa1572b51d6d23dec3c1d49d166644084b744a3057d"
+        },
+        "src/platform/light_test.c": {
+          "git_blob": "3347dc555046914af161e16fbc53bfd0b3e4a4b9",
+          "sha256": "08c559c46a7957400f25138d12fbaddf2e0bd9e3127c29b6fdafdd8e4f57cfbb"
+        },
+        "src/platform/luckfox_audio.c": {
+          "git_blob": "5fbf0ceadd3d79666b912f81b54864b43c1716c8",
+          "sha256": "60dda4a8ff3fc56fb0878911f84e02de96ad13f46053835aa2eec1e5721e1ee4"
+        },
+        "src/platform/luckfox_battery.c": {
+          "git_blob": "98b0432da94f7a60a0da0cc6cc4951364fd9be2d",
+          "sha256": "8bb5e126ad1c4c2f33f8f853757902ca7b323832220123add168064a8b70f18b"
+        },
+        "src/platform/luckfox_button.c": {
+          "git_blob": "c7a3f676b3d4a58ba6460a32240f2fc7ef53ee0c",
+          "sha256": "0950edec403e11bf30fd38c662582c3901b65c0e3a062342282405e6ed817396"
+        },
+        "src/platform/luckfox_camera.c": {
+          "git_blob": "87dc2a38eb0a34775df7cbe5ed93ec516b63c24b",
+          "sha256": "716b945e97508a8f479d134b35a6a085187f45bf249bc0467c8e38c15792aa39"
+        },
+        "src/platform/luckfox_gpio.c": {
+          "git_blob": "414b0706d29dadc6b4a85039697a11bd37cd44ab",
+          "sha256": "20c774cf68dddb34081d582814bc27994854bd78f558ade87cfa4faf38dc3d72"
+        },
+        "src/platform/luckfox_light.c": {
+          "git_blob": "fdfc31f66c6d87a8438759223a7eacc5dd720530",
+          "sha256": "310a743a552a25cc567ae77a91d8ad039d1409368b0cc6cdac5734e37cb344db"
+        },
+        "src/platform/luckfox_mux_adapter.c": {
+          "git_blob": "7b1e110d01ec74b6b36140da2507cf2322cc7298",
+          "sha256": "aa5c1c69d86b21a8f7c530eea60646412a129db6f122d1426ea4ead5a0fd065d"
+        },
+        "src/platform/luckfox_wifi.c": {
+          "git_blob": "7dabe07f44274c3608a933e748e96e8ef6f0e24b",
+          "sha256": "d8bb749c7ceff37a462808442818eecc52531c4a4eab01b3f877ba912b8d4f3e"
+        },
+        "src/platform/process.c": {
+          "git_blob": "e54a9e754509818db36589ba5ae16bf4a03d18c6",
+          "sha256": "b898540b8802cb4afc4df1bcfdf547c3605e141f7e4cef5f152609dd5f5b8948"
+        },
+        "src/platform/trace.c": {
+          "git_blob": "24d582b739a03eb7f5377b8d76cd86dd12610cf3",
+          "sha256": "4885954d7ebb71dcb6d785ec908e98940d731ffc7c3d93137ba252f52213269e"
+        },
+        "src/storage/storage.c": {
+          "git_blob": "0d5fe950b63113741fdd370d36d282c4fd2a8a41",
+          "sha256": "1eff2800f60d399a17eafd8c443254cda5797f3dc16e04d12fa223688cde08d3"
+        }
+      },
+      "recovery": "git cat-file blob <git_blob> in WSL; all blobs reachable in existing history",
+      "excluded": "Regenerable .gitnexus/.claude index scaffolding and synthetic snapshot Git metadata"
+    }
+  ],
+  "windows_metadata_notes": []
+}

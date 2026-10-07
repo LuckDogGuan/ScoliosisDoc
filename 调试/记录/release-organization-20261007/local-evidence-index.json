@@ -1,0 +1,112 @@
+[
+  {
+    "path": "调试/记录/capture-fixes-20261007/device-backup.txt",
+    "bytes": 59,
+    "sha256": "d1e70543311506fd9318501aff5ae23356284c5df94ada2d1c8c05687b11e30d"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/diagnostic-2500.mp4",
+    "bytes": 1215920,
+    "sha256": "e3df67f375feb48a592ddcbe8960e1da9d87da383a1f990123285e7658ada1fd"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/diagnostic-3200.mp4",
+    "bytes": 1683493,
+    "sha256": "e42b9bc2f20428765995571e1ab3d03596bc52dd2f6c1b07b131997678aa61b6"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/diagnostic-quality95.jpg",
+    "bytes": 342726,
+    "sha256": "582b138e275bcd81f67e06b42cce1ea81d3960e263879f216d1335b11e77fcce"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/final-device.txt",
+    "bytes": 381,
+    "sha256": "5a53e4fb93b56d137282c6f396eddb63545fb56e09e4bf1fd038b98dd92a2697"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/install-device-log.txt",
+    "bytes": 1364,
+    "sha256": "959649d7f41a7d5d69ab97c247f1b1921ba42fbaca124e9873f2e3e842c60e02"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/install.txt",
+    "bytes": 1123,
+    "sha256": "b2338730d3efff3731e3162b0ebe7e8e7d69a0051d8e76dacf89e9554f0cd415"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/rkipc.reference",
+    "bytes": 461648,
+    "sha256": "24db28a7152492a7064d59e7d43be5638f5cefceb23366ecc0074264227ef53f"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/RkLunch.before.sh",
+    "bytes": 3900,
+    "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57"
+  },
+  {
+    "path": "调试/记录/capture-fixes-20261007/timezone-camera-after.txt",
+    "bytes": 261,
+    "sha256": "2281445ffc0fd3eadb0882c729c3664469aa76943a2996ffaa2b4594d634fb35"
+  },
+  {
+    "path": "调试/记录/light-test-20261007/final-package-install.log",
+    "bytes": 1590,
+    "sha256": "66807b607888a32efc01c696d388e5a4821c98d45089d7fb0c29274dfaa9936c"
+  },
+  {
+    "path": "调试/记录/light-test-20261007/install-rollback-check.log",
+    "bytes": 6177,
+    "sha256": "3f4fd24bce5b66cd4e18fab0781b42a187ee030cadad94ecac16c6c394d2218e"
+  },
+  {
+    "path": "调试/记录/light-test-20261007/source-SHA256SUMS.txt",
+    "bytes": 2706,
+    "sha256": "35f2be6a6eb80f49f59a4d5a8dacf2eaaf1cdf4e75ed55b9ea5ef1d748da119e"
+  },
+  {
+    "path": "调试/记录/light-test-20261007/camera-path/diagnostic.mp4",
+    "bytes": 1371310,
+    "sha256": "b7e5945439105829bbb43f26fc45a78ea54e797ce21b0bb2b399eb733667d4dd"
+  },
+  {
+    "path": "调试/记录/usb-uvc-tool-20261002/board-after.txt",
+    "bytes": 305,
+    "sha256": "9d39483e85dc6f18e1f5f0268bdf059a8785ded374b8c85d7a09cc6f970e0c06"
+  },
+  {
+    "path": "调试/记录/usb-uvc-tool-20261002/board-before.txt",
+    "bytes": 282,
+    "sha256": "79ed142910c92fddb141e1a1ce5f5a3b2dfa00e39b1c7ee031af0cbe13517e48"
+  },
+  {
+    "path": "调试/记录/usb-uvc-tool-20261002/build-final.log",
+    "bytes": 10561,
+    "sha256": "51124f73151bda88b8ee954410cc52dbd12e2d12d054cde1b2f87030ea143e4a"
+  },
+  {
+    "path": "调试/记录/usb-uvc-tool-20261002/build-release.log",
+    "bytes": 10649,
+    "sha256": "40e5ae4effb43ce72a3058e95077f8e320f570880028d646b04efbaf4fd37167"
+  },
+  {
+    "path": "调试/记录/usb-uvc-tool-20261002/build.log",
+    "bytes": 22396,
+    "sha256": "7a7b6ee3e6683747915b2205afd7c668c9ea4fced672d380cbe7dc637819fc6d"
+  },
+  {
+    "path": "调试/记录/usb-uvc-tool-20261002/gui-preview.png",
+    "bytes": 1811,
+    "sha256": "2dd0a155900259a488d6881d2b4aa0a2fb238e492ec2e6d9f2c2635a190e5b73"
+  },
+  {
+    "path": "调试/记录/usb-uvc-tool-20261002/portable-smoke/仪器测试工具.exe",
+    "bytes": 74272444,
+    "sha256": "35afe9afd0979821463b06f1e5cd680103bc41a66dd4142c0a3d9f6ccf334b51"
+  },
+  {
+    "path": "调试/记录/usb-uvc-tool-20261002/portable-smoke/logs/仪器测试.log",
+    "bytes": 70,
+    "sha256": "c86d3c5cc41700184fc49d251da7dc81e8e94e6e182a5e5b3195398278a8a61c"
+  }
+]

@@ -42,3 +42,6 @@ This project is indexed by GitNexus as **Luckfox** (587 symbols, 1528 relationsh
 | Index, status, clean, wiki CLI commands | `.claude/skills/gitnexus/gitnexus-cli/SKILL.md` |
 
 <!-- gitnexus:end -->
+## 三仓库所有权与发布
+
+下位机源码、构建、Git 写操作和正式包唯一在 WSL `/home/guanjx/luckfox/Scoliosis`；本仓库只跟踪 Windows 调试工具、文档、证据和发布索引，不添加下位机源码镜像、包副本、缓存或嵌套 Git。工具、验收记录、发布整理分别明确暂存并提交。发布/tag 核对与清理依据见 `调试/记录/release-organization-20261007/README.md`；改发布流程或整理历史文件前先读。

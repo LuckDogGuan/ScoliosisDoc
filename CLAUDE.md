@@ -42,3 +42,4 @@ This project is indexed by GitNexus as **Luckfox** (587 symbols, 1528 relationsh
 | Index, status, clean, wiki CLI commands | `.claude/skills/gitnexus/gitnexus-cli/SKILL.md` |
 
 <!-- gitnexus:end -->
+发布所有权、Git 分组及源码唯一保存规则以本仓库 `AGENTS.md` 的“三仓库所有权与发布”为准。

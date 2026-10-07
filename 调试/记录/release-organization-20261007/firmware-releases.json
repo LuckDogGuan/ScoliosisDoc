@@ -1,0 +1,1783 @@
+{
+  "versions": [
+    {
+      "version": "3.1.0",
+      "archive": "instrument-v3.1.0.tar.gz",
+      "sha256": "b11e3318617f9de9f1e83f8db46e5b9c5936b862e8470893fa85ec0ddef20922",
+      "source_commit": "82e16b4ca6e7ef7a24cbae82477cfbd3da79543e",
+      "source_kind": "source_base_commit",
+      "release_tag": "instrument-v3.1.0-20261001",
+      "tag_commit_before": "6170d0726760d5017ca6d40b93b0d314dec30b14",
+      "created_archive": true,
+      "payload_verified": true,
+      "tag_commit": "6170d0726760d5017ca6d40b93b0d314dec30b14"
+    },
+    {
+      "version": "3.2.0",
+      "archive": "instrument-v3.2.0.tar.gz",
+      "sha256": "a3a73d6bbe5631687309108cf808921af5a1ac2acebc14a0612bde81c7962649",
+      "source_commit": "d2a18f9c9727704fb5a873354acf343681ce9fa5",
+      "source_kind": "source_base_commit",
+      "release_tag": "instrument-v3.2.0-20261002",
+      "tag_commit_before": "3a3ac121a8dc455271b8b08bad7c3cc998a3bbdd",
+      "created_archive": true,
+      "payload_verified": true,
+      "tag_commit": "3a3ac121a8dc455271b8b08bad7c3cc998a3bbdd"
+    },
+    {
+      "version": "3.2.1",
+      "archive": "instrument-v3.2.1.tar.gz",
+      "sha256": "55288f5309f31c287a65313767a7570e37c795e49b1e2b9efe5764e60d003f5f",
+      "source_commit": "3a3ac121a8dc455271b8b08bad7c3cc998a3bbdd",
+      "source_kind": "source_base_commit",
+      "release_tag": "instrument-v3.2.1-20261002-records",
+      "tag_commit_before": null,
+      "created_archive": true,
+      "payload_verified": true,
+      "tag_commit": "cf03f384f91ccf28e5fa0f75926fe9b861557dbc"
+    },
+    {
+      "version": "3.2.2",
+      "archive": "instrument-v3.2.2.tar.gz",
+      "sha256": "d279130290ad1d0a03375872f4b44a8583c74314bd7cab9328bbf0a1803e5072",
+      "source_commit": "3a3ac121a8dc455271b8b08bad7c3cc998a3bbdd",
+      "source_kind": "source_base_commit",
+      "release_tag": "instrument-v3.2.2-20261002-records",
+      "tag_commit_before": null,
+      "created_archive": true,
+      "payload_verified": true,
+      "tag_commit": "cf03f384f91ccf28e5fa0f75926fe9b861557dbc"
+    },
+    {
+      "version": "3.3.0",
+      "archive": "instrument-v3.3.0.tar.gz",
+      "sha256": "b4cf975d1c3a4076f42ae366c578d4f14727e7ea82d20ee3fda8b22740e94b71",
+      "source_commit": "b3ec43e856321243c4567b541ab3ac3a6fd54cab",
+      "source_kind": "source_base_commit",
+      "release_tag": "instrument-v3.3.0-20261004-minmax-volume20",
+      "tag_commit_before": "19bba16afaa0dac43be27978c221aa4070eacdd8",
+      "created_archive": false,
+      "payload_verified": true,
+      "tag_commit": "19bba16afaa0dac43be27978c221aa4070eacdd8"
+    },
+    {
+      "version": "3.3.1",
+      "archive": "instrument-v3.3.1.tar.gz",
+      "sha256": "8780eeec1541db89924eef45b03b3c019bf3672f9c8fda481ed9832c275ddc8b",
+      "source_commit": "1f45fd2167d94a69e280515ae3804300a679fa94",
+      "source_kind": "source_commit",
+      "release_tag": "instrument-v3.3.1",
+      "tag_commit_before": "1f45fd2167d94a69e280515ae3804300a679fa94",
+      "created_archive": false,
+      "payload_verified": true,
+      "tag_commit": "1f45fd2167d94a69e280515ae3804300a679fa94"
+    },
+    {
+      "version": "3.3.2",
+      "archive": "instrument-v3.3.2.tar.gz",
+      "sha256": "a01b07ee21bf42d2db22cac987652e07310188190ab58d6b4e4046cf0bd2fd82",
+      "source_commit": "690329be7749cbc5b4f5b4a84b14431555b8e78c",
+      "source_kind": "source_commit",
+      "release_tag": "instrument-v3.3.2",
+      "tag_commit_before": "690329be7749cbc5b4f5b4a84b14431555b8e78c",
+      "created_archive": false,
+      "payload_verified": true,
+      "tag_commit": "690329be7749cbc5b4f5b4a84b14431555b8e78c"
+    },
+    {
+      "version": "3.3.3",
+      "archive": "instrument-v3.3.3.tar.gz",
+      "sha256": "ff7caea750bbb134bd5d897ac26aba0164606842ef8cbb1434e4376122eec947",
+      "source_commit": "935ca063e2fefd35d1ef8f153186fda008d7b0a9",
+      "source_kind": "source_commit",
+      "release_tag": "instrument-v3.3.3",
+      "tag_commit_before": "4542e1ba50b79689d81dc9b6ba95b337b5275369",
+      "created_archive": false,
+      "payload_verified": true,
+      "tag_commit": "4542e1ba50b79689d81dc9b6ba95b337b5275369"
+    },
+    {
+      "version": "3.3.4",
+      "archive": "instrument-v3.3.4.tar.gz",
+      "sha256": "a19337728116c1f9da408feb2ed04d9e7ec3757c150e8330b63b8f6f7eb38462",
+      "source_commit": "ae9e194b27c60c985e094ac8745e30e6fbff9bfd",
+      "source_kind": "source_commit",
+      "release_tag": "instrument-v3.3.4",
+      "tag_commit_before": "f56e6322dbcae612e3ae21d7e7e6c82464306921",
+      "created_archive": false,
+      "payload_verified": true,
+      "tag_commit": "f56e6322dbcae612e3ae21d7e7e6c82464306921"
+    }
+  ],
+  "deleted": [
+    {
+      "path": "releases/3.1.0/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/pair_window.wav",
+      "sha256": "77828d4d8614cef5df2eb4720b9200ef2ba2b0d343f6da75d651a8f716d28f30",
+      "bytes": 160046
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.1.0/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.1.0/payload/deploy/README.md",
+      "sha256": "ccfec599a439f3293eba40874ce23df8e826a79eb263b809e6cf68c70e661a1d",
+      "bytes": 983
+    },
+    {
+      "path": "releases/3.1.0/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.1.0/payload/deploy/RkLunch.sh",
+      "sha256": "a27c9f86c1388d8327f117a5c50dc50e197291c79b4e6f1c6936f681feb77d56",
+      "bytes": 3659
+    },
+    {
+      "path": "releases/3.1.0/payload/BUILD.txt",
+      "sha256": "50db0444698f1a31d31f9ef5efe3c85709e64ed0d9f1032207e4088e8339201d",
+      "bytes": 113
+    },
+    {
+      "path": "releases/3.1.0/payload/VERSION",
+      "sha256": "b2f44d3b6e29f8b1b73ea4735f006affc4d198e1fd9c7d50e736159b1ef636c6",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.1.0/payload/config.example.json",
+      "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98",
+      "bytes": 352
+    },
+    {
+      "path": "releases/3.1.0/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.1.0/payload/README.txt",
+      "sha256": "59e780bab7cdcde17f0de9251eff90935f539d1080a53249d34012c20e81ed9d",
+      "bytes": 153
+    },
+    {
+      "path": "releases/3.1.0/payload/SHA256SUMS",
+      "sha256": "182a247eae4ce09e4dbeb87471bf287b334242b0ccd9202dab8584e47960e441",
+      "bytes": 2702
+    },
+    {
+      "path": "releases/3.1.0/payload/instrument_app",
+      "sha256": "224bc09611aef193b751ad8a3ff3a4c5fd45d939bce859bf78c8863396af9237",
+      "bytes": 117916
+    },
+    {
+      "path": "releases/3.1.0/payload/CHANGELOG.md",
+      "sha256": "b5ca259bfce5fa54d2f26e324ad41f6c9bdf24d62279c45960b96c1838c6d540",
+      "bytes": 2024
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/pair_window.wav",
+      "sha256": "77828d4d8614cef5df2eb4720b9200ef2ba2b0d343f6da75d651a8f716d28f30",
+      "bytes": 160046
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.2.0/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.0/payload/deploy/README.md",
+      "sha256": "ccfec599a439f3293eba40874ce23df8e826a79eb263b809e6cf68c70e661a1d",
+      "bytes": 983
+    },
+    {
+      "path": "releases/3.2.0/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.2.0/payload/deploy/RkLunch.sh",
+      "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57",
+      "bytes": 3900
+    },
+    {
+      "path": "releases/3.2.0/payload/BUILD.txt",
+      "sha256": "d7ea5c41ec71928fe32ff7d95c8a69ec6218bb0891fc2315ad7ebc00cb7fc87b",
+      "bytes": 113
+    },
+    {
+      "path": "releases/3.2.0/payload/VERSION",
+      "sha256": "33bdaf9e2d6bcbde2e4e613e865e403f8fe21fc621078d34c30b0bdc7f68d903",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.2.0/payload/config.example.json",
+      "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98",
+      "bytes": 352
+    },
+    {
+      "path": "releases/3.2.0/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.2.0/payload/README.txt",
+      "sha256": "93a4cb9994009cd59688a6a6d980f8622da0b093b563b59546eece909afff7bc",
+      "bytes": 153
+    },
+    {
+      "path": "releases/3.2.0/payload/SHA256SUMS",
+      "sha256": "cb2c454d0ef185224ed11a1088ca19215d9776c23e91a17987c26a8d4ece45ec",
+      "bytes": 2702
+    },
+    {
+      "path": "releases/3.2.0/payload/instrument_app",
+      "sha256": "10002d657c75f1e0b56e035d4e594e8f0b063ae0e24368f86263fea21752b21b",
+      "bytes": 126332
+    },
+    {
+      "path": "releases/3.2.0/payload/CHANGELOG.md",
+      "sha256": "c2fa8b73216d4d01da360855c757c9b8f3712348f18012209fb592fc99e6d545",
+      "bytes": 2695
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/pair_window.wav",
+      "sha256": "77828d4d8614cef5df2eb4720b9200ef2ba2b0d343f6da75d651a8f716d28f30",
+      "bytes": 160046
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.2.1/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.1/payload/deploy/README.md",
+      "sha256": "ccfec599a439f3293eba40874ce23df8e826a79eb263b809e6cf68c70e661a1d",
+      "bytes": 983
+    },
+    {
+      "path": "releases/3.2.1/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.2.1/payload/deploy/RkLunch.sh",
+      "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57",
+      "bytes": 3900
+    },
+    {
+      "path": "releases/3.2.1/payload/BUILD.txt",
+      "sha256": "539664f77640618b295662c090a0d7fbfa80d3fc42a904e8989af6a2c7e9f859",
+      "bytes": 121
+    },
+    {
+      "path": "releases/3.2.1/payload/VERSION",
+      "sha256": "3822728783049fc2f22a56d1ee74d62352c49fbf81c6b54b50830d6f61c3af22",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.2.1/payload/config.example.json",
+      "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98",
+      "bytes": 352
+    },
+    {
+      "path": "releases/3.2.1/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.2.1/payload/README.txt",
+      "sha256": "f16f9f9898620df5a2c3111c6088108a4fc239ab7439fc751aa5502443a0acfe",
+      "bytes": 161
+    },
+    {
+      "path": "releases/3.2.1/payload/SHA256SUMS",
+      "sha256": "228c77ddfd985edbbdc5fca73691f0a1aa673fe70747cc46385fb2268b3bc967",
+      "bytes": 2702
+    },
+    {
+      "path": "releases/3.2.1/payload/instrument_app",
+      "sha256": "35686dc507803b38f7086bd7d40a4be9ce2bd0ac53d9d075783e18631950679f",
+      "bytes": 126356
+    },
+    {
+      "path": "releases/3.2.1/payload/CHANGELOG.md",
+      "sha256": "f99af84a50c2a5bbb7aa99ba9c4c650cf895c5ddf516ce95758210d703af0ea8",
+      "bytes": 3222
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/pair_window.wav",
+      "sha256": "77828d4d8614cef5df2eb4720b9200ef2ba2b0d343f6da75d651a8f716d28f30",
+      "bytes": 160046
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.2.2/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.2.2/payload/deploy/README.md",
+      "sha256": "ccfec599a439f3293eba40874ce23df8e826a79eb263b809e6cf68c70e661a1d",
+      "bytes": 983
+    },
+    {
+      "path": "releases/3.2.2/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.2.2/payload/deploy/RkLunch.sh",
+      "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57",
+      "bytes": 3900
+    },
+    {
+      "path": "releases/3.2.2/payload/BUILD.txt",
+      "sha256": "998fe3827f9d1282a531c998decf25d848f5dbd3b74c568baa5405a73870756e",
+      "bytes": 121
+    },
+    {
+      "path": "releases/3.2.2/payload/VERSION",
+      "sha256": "79b9fb49a71869140833837e3a27ae1722a41faf59746519fde5e1346f9dd5b8",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.2.2/payload/config.example.json",
+      "sha256": "6076e41a8e32fd83d570d98d50392f0e8a2f54a1f201de1163583a3750671f98",
+      "bytes": 352
+    },
+    {
+      "path": "releases/3.2.2/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.2.2/payload/README.txt",
+      "sha256": "4c120c7a968df328faef610c5ea666073a51e2b9538d5e410fe9a58bbe6d893f",
+      "bytes": 161
+    },
+    {
+      "path": "releases/3.2.2/payload/SHA256SUMS",
+      "sha256": "776a399e8dd2ce3c5b63427813f0600c295d854b242ce0db15d85c5961e236eb",
+      "bytes": 2702
+    },
+    {
+      "path": "releases/3.2.2/payload/instrument_app",
+      "sha256": "58bbcaf6b9a18d762e9f4850ac3142b04f873b6354b3a69d3117481117242455",
+      "bytes": 126356
+    },
+    {
+      "path": "releases/3.2.2/payload/CHANGELOG.md",
+      "sha256": "b4bda86b8fa103f3cbae0d27f88dd9c98419c9aaa2d5a5411445508c8bfe964b",
+      "bytes": 3352
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/pair_window.wav",
+      "sha256": "77828d4d8614cef5df2eb4720b9200ef2ba2b0d343f6da75d651a8f716d28f30",
+      "bytes": 160046
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.3.0/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.0/payload/deploy/wpa_supplicant.default.conf",
+      "sha256": "cf66c1c9c9c57d204e448e45df22ded84dbbe83086f13736a18d68ff2846ee04",
+      "bytes": 126
+    },
+    {
+      "path": "releases/3.3.0/payload/deploy/README.md",
+      "sha256": "ccfec599a439f3293eba40874ce23df8e826a79eb263b809e6cf68c70e661a1d",
+      "bytes": 983
+    },
+    {
+      "path": "releases/3.3.0/payload/deploy/S79buttons",
+      "sha256": "e7273c4ecea115737b42af36e94174b6805f3a4f337a58d0192376eb6c8550b7",
+      "bytes": 141
+    },
+    {
+      "path": "releases/3.3.0/payload/deploy/button_inputs.sh",
+      "sha256": "55595f64cc7235185662ecf7ce795d215b16e8d8121859cbb7832a0ec91adf97",
+      "bytes": 1180
+    },
+    {
+      "path": "releases/3.3.0/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.3.0/payload/deploy/RkLunch.sh",
+      "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57",
+      "bytes": 3900
+    },
+    {
+      "path": "releases/3.3.0/payload/deploy/install_bundle.sh",
+      "sha256": "26fc79273c4408a02e1af7697b0ed2117e613420e238ad9a6c4c9b2537989dc5",
+      "bytes": 7155
+    },
+    {
+      "path": "releases/3.3.0/payload/SOURCE_SHA256SUMS",
+      "sha256": "a82b24b15c867dda0b8494f6f7e7712686814ad235bf9a3a0126ca61404f68e9",
+      "bytes": 2702
+    },
+    {
+      "path": "releases/3.3.0/payload/BUILD.txt",
+      "sha256": "4ba88f5ba71efbee9ef5ea75114060328f36b55ba59840673c3d223e19f719e4",
+      "bytes": 129
+    },
+    {
+      "path": "releases/3.3.0/payload/VERSION",
+      "sha256": "5eee6c0c5c6901f5e523f0a434bca4106e1ff7136deb451f982b0bb1a7b13716",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.3.0/payload/config.example.json",
+      "sha256": "dee407b599c9ad3ec675666bc5055910a6f35b69bafa139fcb7ed24288c684b6",
+      "bytes": 367
+    },
+    {
+      "path": "releases/3.3.0/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.3.0/payload/README.txt",
+      "sha256": "25ccc99952615faa54dfd0942e61c75c53c8bb8cb7ac5c67b9012fa06806df0e",
+      "bytes": 169
+    },
+    {
+      "path": "releases/3.3.0/payload/SHA256SUMS",
+      "sha256": "8b38230ebee5442d1e7edcbe54dc96e72606d70ce3ee7f4390dfa27132cc9d3e",
+      "bytes": 3241
+    },
+    {
+      "path": "releases/3.3.0/payload/instrument_app",
+      "sha256": "6555ebcaaae1043acc418509e403387445c012be0abad855456d3027174b1df7",
+      "bytes": 126552
+    },
+    {
+      "path": "releases/3.3.0/payload/BUNDLE.txt",
+      "sha256": "f78d35726da365b092a6d67a796d27e5341d8eff42583c633f0dd3de37349984",
+      "bytes": 154
+    },
+    {
+      "path": "releases/3.3.0/payload/CHANGELOG.md",
+      "sha256": "9dd8f16ba2b82ad644a4492b405276b5afd506fffc10787e37a5e54c351056a8",
+      "bytes": 4349
+    },
+    {
+      "path": "releases/3.3.1/payload/docs/light-test.md",
+      "sha256": "a68f5daa4b50a8be03bb4a9f4662e1e114776793d771e86f0cfd000308b288bb",
+      "bytes": 6377
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/pair_window.wav",
+      "sha256": "77828d4d8614cef5df2eb4720b9200ef2ba2b0d343f6da75d651a8f716d28f30",
+      "bytes": 160046
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.3.1/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.1/payload/deploy/wpa_supplicant.default.conf",
+      "sha256": "cf66c1c9c9c57d204e448e45df22ded84dbbe83086f13736a18d68ff2846ee04",
+      "bytes": 126
+    },
+    {
+      "path": "releases/3.3.1/payload/deploy/README.md",
+      "sha256": "5183630e3e244a80a24ad1ef6da2e1ac08e29cd6d647a6a40d7211ecd8859071",
+      "bytes": 1245
+    },
+    {
+      "path": "releases/3.3.1/payload/deploy/S79buttons",
+      "sha256": "e7273c4ecea115737b42af36e94174b6805f3a4f337a58d0192376eb6c8550b7",
+      "bytes": 141
+    },
+    {
+      "path": "releases/3.3.1/payload/deploy/button_inputs.sh",
+      "sha256": "55595f64cc7235185662ecf7ce795d215b16e8d8121859cbb7832a0ec91adf97",
+      "bytes": 1180
+    },
+    {
+      "path": "releases/3.3.1/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.3.1/payload/deploy/RkLunch.sh",
+      "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57",
+      "bytes": 3900
+    },
+    {
+      "path": "releases/3.3.1/payload/deploy/install_bundle.sh",
+      "sha256": "223ad4ac927a916f70c4f2ba383bacbf88689b825180655bceccdcaf5d9e00a2",
+      "bytes": 7352
+    },
+    {
+      "path": "releases/3.3.1/payload/deploy/light_pwm.sh",
+      "sha256": "9da0cd1371d777a98f3bdcbfa325f515e8081fa5d1041f54fe665fcc06852265",
+      "bytes": 1650
+    },
+    {
+      "path": "releases/3.3.1/payload/SOURCE_SHA256SUMS",
+      "sha256": "63a54ab1467788ce5076ad102be212f35c9d10757b201674e7b8067a7501bff0",
+      "bytes": 3251
+    },
+    {
+      "path": "releases/3.3.1/payload/BUILD.txt",
+      "sha256": "e5c3c6043b84efc1baa8787e11727bc3bcb6ca020fea2e71cac2a21435d918d2",
+      "bytes": 130
+    },
+    {
+      "path": "releases/3.3.1/payload/VERSION",
+      "sha256": "ef2a79c2f7dc37800a73fd9930b307824ce20af920cbc7159323456418e77e6b",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.3.1/payload/config.example.json",
+      "sha256": "dee407b599c9ad3ec675666bc5055910a6f35b69bafa139fcb7ed24288c684b6",
+      "bytes": 367
+    },
+    {
+      "path": "releases/3.3.1/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.3.1/payload/README.txt",
+      "sha256": "71addbc55e154e690b863fb3f70564e76a1f82c933a546ec4f80a2682b7ea7ac",
+      "bytes": 160
+    },
+    {
+      "path": "releases/3.3.1/payload/SHA256SUMS",
+      "sha256": "5b3dd22a43f69e15820a5169ad6a2abb426e5145fe750470d62f0e7b85c6bb51",
+      "bytes": 3337
+    },
+    {
+      "path": "releases/3.3.1/payload/instrument_app",
+      "sha256": "8307e8f802bcba074c1009cb22b9225caf73e55f8dc762ec4d47250290872ebd",
+      "bytes": 135244
+    },
+    {
+      "path": "releases/3.3.1/payload/CHANGELOG.md",
+      "sha256": "ce179f1fcd31a32a24c69b564b55c8f4c6f98cbfdb9c8974d8a20ad130908e71",
+      "bytes": 5965
+    },
+    {
+      "path": "releases/3.3.2/payload/docs/light-test.md",
+      "sha256": "1485ee88f02d2aeaf9fca725744a9de103b00baea0d5fb5d4a56e39f8fc2f267",
+      "bytes": 7699
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/pair_window_closed.wav",
+      "sha256": "ac53ee59be6aa5b6f83799d9b66ba6b6ab802fb92046d48771fa46447fac5315",
+      "bytes": 143406
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/pair_window.wav",
+      "sha256": "b59a29464091c3a7315d75f2d6c4f3890e821af8293724c563084a64869db675",
+      "bytes": 248526
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.3.2/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.2/payload/deploy/wpa_supplicant.default.conf",
+      "sha256": "cf66c1c9c9c57d204e448e45df22ded84dbbe83086f13736a18d68ff2846ee04",
+      "bytes": 126
+    },
+    {
+      "path": "releases/3.3.2/payload/deploy/README.md",
+      "sha256": "5183630e3e244a80a24ad1ef6da2e1ac08e29cd6d647a6a40d7211ecd8859071",
+      "bytes": 1245
+    },
+    {
+      "path": "releases/3.3.2/payload/deploy/S79buttons",
+      "sha256": "e7273c4ecea115737b42af36e94174b6805f3a4f337a58d0192376eb6c8550b7",
+      "bytes": 141
+    },
+    {
+      "path": "releases/3.3.2/payload/deploy/button_inputs.sh",
+      "sha256": "55595f64cc7235185662ecf7ce795d215b16e8d8121859cbb7832a0ec91adf97",
+      "bytes": 1180
+    },
+    {
+      "path": "releases/3.3.2/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.3.2/payload/deploy/RkLunch.sh",
+      "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57",
+      "bytes": 3900
+    },
+    {
+      "path": "releases/3.3.2/payload/deploy/install_bundle.sh",
+      "sha256": "d4b9b3797207cf4887e3a8e4b2ad0f6844bca25d42024dba9c33085055697bb2",
+      "bytes": 7456
+    },
+    {
+      "path": "releases/3.3.2/payload/deploy/light_pwm.sh",
+      "sha256": "9da0cd1371d777a98f3bdcbfa325f515e8081fa5d1041f54fe665fcc06852265",
+      "bytes": 1650
+    },
+    {
+      "path": "releases/3.3.2/payload/SOURCE_SHA256SUMS",
+      "sha256": "1d8fe39fb3c172d2941bf8810e422ed1b60d23cf8b3926d8b4c011e154c7bcb2",
+      "bytes": 3349
+    },
+    {
+      "path": "releases/3.3.2/payload/BUILD.txt",
+      "sha256": "56b00f4148cb2e4e2e3918003b3e2f6b38d483a1c3620b612404ac040b177849",
+      "bytes": 130
+    },
+    {
+      "path": "releases/3.3.2/payload/VERSION",
+      "sha256": "abba5fcd6d1275d62d78e09d88276dcf264d2137f85323ab50eadddcc31aeea9",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.3.2/payload/config.example.json",
+      "sha256": "dee407b599c9ad3ec675666bc5055910a6f35b69bafa139fcb7ed24288c684b6",
+      "bytes": 367
+    },
+    {
+      "path": "releases/3.3.2/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.3.2/payload/README.txt",
+      "sha256": "71addbc55e154e690b863fb3f70564e76a1f82c933a546ec4f80a2682b7ea7ac",
+      "bytes": 160
+    },
+    {
+      "path": "releases/3.3.2/payload/SHA256SUMS",
+      "sha256": "2f5b383360eab71f5a9a7f8ed9980d3a1e59fd3ce3aecadc1734fbc0d7ab7401",
+      "bytes": 3435
+    },
+    {
+      "path": "releases/3.3.2/payload/instrument_app",
+      "sha256": "979bc106747437d7840d5dc11b02afab89d720355341a8fb55ac781ab7ca19f5",
+      "bytes": 136276
+    },
+    {
+      "path": "releases/3.3.2/payload/CHANGELOG.md",
+      "sha256": "857ebdb42e207c602a4239764e7670a32a2622ac5b73b1c5c6348c665c1e0aed",
+      "bytes": 6681
+    },
+    {
+      "path": "releases/3.3.3/payload/docs/light-test.md",
+      "sha256": "25458450588c417195daecd901dbda94429b49f093afebe579e4968bb0e5de9f",
+      "bytes": 9313
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/pair_window_closed.wav",
+      "sha256": "ac53ee59be6aa5b6f83799d9b66ba6b6ab802fb92046d48771fa46447fac5315",
+      "bytes": 143406
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/pair_window.wav",
+      "sha256": "b59a29464091c3a7315d75f2d6c4f3890e821af8293724c563084a64869db675",
+      "bytes": 248526
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.3.3/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.3/payload/deploy/wpa_supplicant.default.conf",
+      "sha256": "cf66c1c9c9c57d204e448e45df22ded84dbbe83086f13736a18d68ff2846ee04",
+      "bytes": 126
+    },
+    {
+      "path": "releases/3.3.3/payload/deploy/README.md",
+      "sha256": "093e4bb04e0dcc9d3553b69ae176b4f029af8664a6afe1249e4ebf4438b95e61",
+      "bytes": 1647
+    },
+    {
+      "path": "releases/3.3.3/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.3.3/payload/deploy/RkLunch.sh",
+      "sha256": "aa436305bfa8fd5c68b72e38d7f5e4b4422ec8a1b5443a418046f1757493fc57",
+      "bytes": 3900
+    },
+    {
+      "path": "releases/3.3.3/payload/deploy/install_bundle.sh",
+      "sha256": "c4410a9fdd21b01c26b377bd13086f5f71aaadc0d2dba0ce2ffb047ebd877206",
+      "bytes": 8077
+    },
+    {
+      "path": "releases/3.3.3/payload/SOURCE_SHA256SUMS",
+      "sha256": "aad33c1932ef406ac772f42e041ca1eeb024f5a0bdd1bba8765d33d31759025d",
+      "bytes": 3083
+    },
+    {
+      "path": "releases/3.3.3/payload/BUILD.txt",
+      "sha256": "0bbc28514b5efea7ae0bb430a914915fbeb71c033afc031b588c78590069b1fe",
+      "bytes": 130
+    },
+    {
+      "path": "releases/3.3.3/payload/VERSION",
+      "sha256": "efd9bb328eb69f29de9dbb870073fe8f416e3ebca0d10025dd23b3ce2855e6a6",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.3.3/payload/config.example.json",
+      "sha256": "dee407b599c9ad3ec675666bc5055910a6f35b69bafa139fcb7ed24288c684b6",
+      "bytes": 367
+    },
+    {
+      "path": "releases/3.3.3/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.3.3/payload/README.txt",
+      "sha256": "71addbc55e154e690b863fb3f70564e76a1f82c933a546ec4f80a2682b7ea7ac",
+      "bytes": 160
+    },
+    {
+      "path": "releases/3.3.3/payload/SHA256SUMS",
+      "sha256": "0efb390fdee65eb1f2c534de2487ce8862279e62e882bc45e1781c76e2cdbdbb",
+      "bytes": 3169
+    },
+    {
+      "path": "releases/3.3.3/payload/instrument_app",
+      "sha256": "6cb05945069a4dc153f6604827c698d81de77170d17a7d67f66cc5c03d92e664",
+      "bytes": 140856
+    },
+    {
+      "path": "releases/3.3.3/payload/CHANGELOG.md",
+      "sha256": "e88cb5a5acaa3f6efd20775cf12979e5a9cccd58b3e58f359ca11330dcd2a592",
+      "bytes": 7617
+    },
+    {
+      "path": "releases/3.3.4/payload/docs/light-test.md",
+      "sha256": "29fa69c51b1250818546c44927b963dc3010ddace9811ab5839bf2e97fff122f",
+      "bytes": 11677
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/wifi_connected.wav",
+      "sha256": "0fc5f48afe40eb8034472237ca7ce7f736a25a16a84fe27b7d31b4d36c330c3a",
+      "bytes": 78380
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/capture_short.wav",
+      "sha256": "fb5c7d8fdb41322fa5b961b666c4d27796f4900e4558d2a0eacefe670bd33eef",
+      "bytes": 112046
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/pair_disconnected.wav",
+      "sha256": "7cdf63dd851d27244e7c997b491615235506393d2af44052e074d2a7d9fc7de8",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/pair_failed.wav",
+      "sha256": "96366edc29325468c8ec06b7ad0349d06d968b03ca1be3df5ec8a227eb22fa4f",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/pair_success.wav",
+      "sha256": "58955726463fa62ad03ca4be6ea7744f8ca9a92ad42cc1dd96d0ce259274ce29",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/wifi_disconnected.wav",
+      "sha256": "1ba6b11456c94f0380fceac556604bca937ba84709d8221104937a72802a01ea",
+      "bytes": 76844
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/pair_window_closed.wav",
+      "sha256": "ac53ee59be6aa5b6f83799d9b66ba6b6ab802fb92046d48771fa46447fac5315",
+      "bytes": 143406
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/wifi_recovering.wav",
+      "sha256": "abdf6a639e433e8a3fa61443fa57e22ff97d63ff57a3a8811490fc66fc3b2156",
+      "bytes": 147566
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/storage_low.wav",
+      "sha256": "1572ded40f8ab5c396852b58f138928d469537857c0f9b429a356e0d4517e54a",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/capture_failed.wav",
+      "sha256": "08146cf074ad7144cc39c89e4732eab438dfac0242a8dc8772dcaba2d93d1fc2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/capture_start.wav",
+      "sha256": "1888c42ce76de2731ce61ea1ebca231be72f48ea48fedb069c9c88bed0592966",
+      "bytes": 53966
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/saved_on_device.wav",
+      "sha256": "bfaac01db513d81931db7e44ea7b5082114728c71b62405f5020084eda8d8111",
+      "bytes": 73004
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/wifi_restored.wav",
+      "sha256": "6ab2173553364ca2b2138afa2cae2e492b26d93421f6f957b68b3f8dd93fa20c",
+      "bytes": 91726
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/capture_enabled.wav",
+      "sha256": "a4ec675f97a222b224363636b8da5620e4ed706520865daa40954e0887d07852",
+      "bytes": 152846
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/wifi_attention.wav",
+      "sha256": "ac14fc0a9da3224add014962bd8d4d0e411e04993edc92439da4745e697e8f3d",
+      "bytes": 142926
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/please_connect.wav",
+      "sha256": "2d9c26c07e6e4f52c439e029f84fe2ba5137bb8c84db34d57211595641afb3ec",
+      "bytes": 73772
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c",
+      "bytes": 66446
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/pair_window.wav",
+      "sha256": "b59a29464091c3a7315d75f2d6c4f3890e821af8293724c563084a64869db675",
+      "bytes": 248526
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/uploaded.wav",
+      "sha256": "12302289437ca25d93084a191b453a2ed90f23850860bad97c8cf9571b1a8960",
+      "bytes": 61484
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/volume_test.wav",
+      "sha256": "f4883fe26e640c5ad1cdfc8b50a55f9edd36eeec857b9810e22681d612fba95a",
+      "bytes": 149166
+    },
+    {
+      "path": "releases/3.3.4/payload/sounds/capture_done.wav",
+      "sha256": "9d89af6d6eafad98e85e6de123336b62418e89616ad099c940227cd7c30043d2",
+      "bytes": 59948
+    },
+    {
+      "path": "releases/3.3.4/payload/deploy/wpa_supplicant.default.conf",
+      "sha256": "cf66c1c9c9c57d204e448e45df22ded84dbbe83086f13736a18d68ff2846ee04",
+      "bytes": 126
+    },
+    {
+      "path": "releases/3.3.4/payload/deploy/README.md",
+      "sha256": "093e4bb04e0dcc9d3553b69ae176b4f029af8664a6afe1249e4ebf4438b95e61",
+      "bytes": 1647
+    },
+    {
+      "path": "releases/3.3.4/payload/deploy/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e",
+      "bytes": 318
+    },
+    {
+      "path": "releases/3.3.4/payload/deploy/TZ",
+      "sha256": "6289f6a8d7eac94ae481d22f783f16e29cc542b209e05eb85dfb17445ed59012",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.3.4/payload/deploy/RkLunch.sh",
+      "sha256": "331a4fb4d28aa1209158fefb4285c9636bde5d48316c2da065fb5cf7e5ae9a74",
+      "bytes": 4100
+    },
+    {
+      "path": "releases/3.3.4/payload/deploy/install_bundle.sh",
+      "sha256": "9cfb8d4946cddb65fdf863f89bea551e049502a85730226fe0b79eb47ee72663",
+      "bytes": 8163
+    },
+    {
+      "path": "releases/3.3.4/payload/SOURCE_SHA256SUMS",
+      "sha256": "e35c10041a6771645bc55c019bb424e6625cddd50aa38edd7e9e6d6c256df1c1",
+      "bytes": 3161
+    },
+    {
+      "path": "releases/3.3.4/payload/BUILD.txt",
+      "sha256": "edc90497e2391e549e3e36ec408857af8a8282ba6ef5133e10c7cee78c68449a",
+      "bytes": 130
+    },
+    {
+      "path": "releases/3.3.4/payload/VERSION",
+      "sha256": "2b2677e32d2d343ba86d20a6e43d42ac10a5da8b9be8e13ea4bd6a6aa83d3882",
+      "bytes": 6
+    },
+    {
+      "path": "releases/3.3.4/payload/config.example.json",
+      "sha256": "dee407b599c9ad3ec675666bc5055910a6f35b69bafa139fcb7ed24288c684b6",
+      "bytes": 367
+    },
+    {
+      "path": "releases/3.3.4/payload/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725",
+      "bytes": 7572
+    },
+    {
+      "path": "releases/3.3.4/payload/README.txt",
+      "sha256": "71addbc55e154e690b863fb3f70564e76a1f82c933a546ec4f80a2682b7ea7ac",
+      "bytes": 160
+    },
+    {
+      "path": "releases/3.3.4/payload/SHA256SUMS",
+      "sha256": "52211125750a51aef0f20a367f1122e91885d8d0ffa91a1810d59dadd742e6e0",
+      "bytes": 3247
+    },
+    {
+      "path": "releases/3.3.4/payload/instrument_app",
+      "sha256": "195fca7219dcbde37c8874e3604b1cc182fcb4a8bc602b8cdb18d58cb14eac01",
+      "bytes": 141244
+    },
+    {
+      "path": "releases/3.3.4/payload/CHANGELOG.md",
+      "sha256": "9c73811746f2b93e61a8563dea4c36a1b10aa853c99639b2b63d6a425615f9fd",
+      "bytes": 8759
+    },
+    {
+      "path": "image/baseline-20261001/README.md",
+      "sha256": "472e3740110e6be552404ada4eb0fd4a0d7059be5578af113d89f4d7624a6e6f",
+      "bytes": 546
+    },
+    {
+      "path": "image/baseline-20261001/source-before-upgrade.tar.gz",
+      "sha256": "594f295bcb89c0f7e59a6165196bd9c8de6f0f4c2eb2f42705e195489a18912a",
+      "bytes": 1476375
+    },
+    {
+      "path": "image/baseline-20261001/SHA256SUMS",
+      "sha256": "6f067b6de522bc8276498042095aa2dbae28a83398fe414c606ffd19f1f727e3",
+      "bytes": 337
+    },
+    {
+      "path": "image/baseline-20261001/instrument_app",
+      "sha256": "20fb9424a2e714fc49ff1d046e7a979aece924bf55db2d9d3102886f348eee3e",
+      "bytes": 112416
+    },
+    {
+      "path": "image/baseline-20261001/RkLunch.sh",
+      "sha256": "69f1d694189b9d09d6db243131176589a2fdac05260399d94cc736de6307b66c",
+      "bytes": 3407
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/switch.sh",
+      "sha256": "94dc7dff78c979cc133215a3ca6f2b78f6351587df61be6bc48bda73246ba00f",
+      "bytes": 787
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/rkuvc.ini",
+      "sha256": "e7f04b257d6d0aeb734919520416df97d9d892b8fe1e4d70d1bb6d43695476cc",
+      "bytes": 1467
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/usb_config.sh",
+      "sha256": "c43cee38eb7a4a2dca98f503cc36748c85fcf3b8bb6cc8d90260ae7b6c730448",
+      "bytes": 6184
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/button_inputs.sh",
+      "sha256": "55595f64cc7235185662ecf7ce795d215b16e8d8121859cbb7832a0ec91adf97",
+      "bytes": 1180
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/LICENSE.txt",
+      "sha256": "bc669eac86a8868151cb4c30485979ac9f62f3d0ee3a95364c626a13977a714c",
+      "bytes": 1783
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/udp_query",
+      "sha256": "6f653c5f0f064c169d4b640e5284674f450a67b7181e6f8e300c8ed7607d35ca",
+      "bytes": 7540
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/manifest.json",
+      "sha256": "c241d5e4868195e8bc4bfc9611852159e9daa1a879fd2022745bd7675849fd79",
+      "bytes": 1068
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/uvc_mpi_cfg.conf",
+      "sha256": "5a40e69bfaa6ee0b7ed7a7e0f463290594b4e5eef1d25a7737a24c6105621f12",
+      "bytes": 16521
+    },
+    {
+      "path": "image/uvc-test-v1.0.0-20261002/payload/rk_mpi_uvc",
+      "sha256": "6f5aada17f6087db82f621d3ccb9ab4f3193d837f51270df2caa58b0ea2f18eb",
+      "bytes": 1283464
+    }
+  ],
+  "moves": [
+    {
+      "from": "image/uvc-test-v1.0.0-20261002/build_uvc.py",
+      "to": "tools/uvc-v1.0.0/build_uvc.py",
+      "sha256": "77cb761ebca4c21ef47666c3849fe73bbf08b68db286792d34e37f0f3b87c68d"
+    },
+    {
+      "from": "image/uvc-test-v1.0.0-20261002/udp_query.c",
+      "to": "tools/uvc-v1.0.0/udp_query.c",
+      "sha256": "03ccc62287700ff502d63f6e0ce37fdc60cd8b4f95bf7cd8fcc1f7a89654bc31"
+    },
+    {
+      "from": "image/uvc-test-v1.0.0-20261002/official_uvc_source.tar.gz",
+      "to": "tools/uvc-v1.0.0/official_uvc_source.tar.gz",
+      "sha256": "9e51ee6aa8331359183815d32668ca6cc51725a5a5d5676d9b90db4a5d307c50"
+    },
+    {
+      "from": "image/uvc-test-v1.0.0-20261002/BUILD.json",
+      "to": "tools/uvc-v1.0.0/BUILD.json",
+      "sha256": "e64b405cf983bdc7ec88dbf7cdd23cd90d78943bf8564ec5180487f5110058f3"
+    },
+    {
+      "from": "image/uvc-test-v1.0.0-20261002/README.txt",
+      "to": "tools/uvc-v1.0.0/README.txt",
+      "sha256": "d88287a7f16d33185196417a17594756f1169f067e51a86dfe610cf220202aea"
+    },
+    {
+      "from": "image/uvc-test-v1.0.0-20261002/SHA256SUMS",
+      "to": "tools/uvc-v1.0.0/ORIGINAL_SHA256SUMS",
+      "sha256": "4341570c7e46c4010d49c9a8edc2f1388862030d0e127b871350478193f6ff3f"
+    }
+  ],
+  "tags_before": {
+    "instrument-v3.1.0-20261001": "6170d0726760d5017ca6d40b93b0d314dec30b14",
+    "instrument-v3.2.0-20261002": "3a3ac121a8dc455271b8b08bad7c3cc998a3bbdd",
+    "instrument-v3.3.0-20261002-results": "6c899c70159e7bf1415659671f83400ccdd7cefe",
+    "instrument-v3.3.0-20261004-minmax-volume20": "19bba16afaa0dac43be27978c221aa4070eacdd8",
+    "instrument-v3.3.1": "1f45fd2167d94a69e280515ae3804300a679fa94",
+    "instrument-v3.3.2": "690329be7749cbc5b4f5b4a84b14431555b8e78c",
+    "instrument-v3.3.3": "4542e1ba50b79689d81dc9b6ba95b337b5275369",
+    "instrument-v3.3.4": "f56e6322dbcae612e3ae21d7e7e6c82464306921"
+  },
+  "archive_cleanup_commit": "cf03f384f91ccf28e5fa0f75926fe9b861557dbc",
+  "existing_tags_unchanged": true
+}
