@@ -1,5 +1,11 @@
 # Python 调试中间层使用说明
 
+## 3.3.1 灯光调试
+
+新增入口 `light_test.py`，通过已记录密钥的 SSH 调用同一板端 `--light-test`，核对序列号、设备ID和空闲状态。
+接线、五种模式、30秒限时、GPIO32核验与回退见 [中键灯与背光说明](../../软件架构/中键灯与背光_3.3.1_说明.md)。
+下位机完整交付包唯一放在 WSL `/home/guanjx/luckfox/Scoliosis/releases/<版本>/`；Windows 通过 `\\wsl.localhost\Luckfox-Ubuntu-22.04\home\guanjx\luckfox\Scoliosis\releases` 访问，不再保存副本。
+
 ## 目录与只读 IP / SSH 检查
 
 本目录集中存放中间层、两个原有验证脚本以及 `discover_ssh.py`。原 `调试/工具/instrument_debug_proxy.py` 是兼容入口，已有启动命令仍有效。目录迁移只调整相对路径，没有修改转发协议。
