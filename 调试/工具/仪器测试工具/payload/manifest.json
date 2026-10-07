@@ -1,0 +1,19 @@
+{
+  "version": "uvc-test-1.0.0",
+  "sdk_repo": "https://github.com/LuckfoxTECH/luckfox-pico",
+  "sdk_commit": "824b817f889c2cbff1d48fcdb18ab494a68f69d1",
+  "board_libraries": {
+    "LIBROCKIT": "3f92f8c41ffe9ad72e407b68750906fcff89ea06758f14a3fc2a3d87061e3d0f",
+    "LIBRKAIQ": "3f8f084df73ce82871012bb1c8e4f06cf04731994eebc5e7d75d0b7822b4d48e"
+  },
+  "files": {
+    "button_inputs.sh": "55595f64cc7235185662ecf7ce795d215b16e8d8121859cbb7832a0ec91adf97",
+    "rk_mpi_uvc": "6f5aada17f6087db82f621d3ccb9ab4f3193d837f51270df2caa58b0ea2f18eb",
+    "rkuvc.ini": "e7f04b257d6d0aeb734919520416df97d9d892b8fe1e4d70d1bb6d43695476cc",
+    "switch.sh": "94dc7dff78c979cc133215a3ca6f2b78f6351587df61be6bc48bda73246ba00f",
+    "udp_query": "6f653c5f0f064c169d4b640e5284674f450a67b7181e6f8e300c8ed7607d35ca",
+    "usb_config.sh": "c43cee38eb7a4a2dca98f503cc36748c85fcf3b8bb6cc8d90260ae7b6c730448",
+    "uvc_mpi_cfg.conf": "5a40e69bfaa6ee0b7ed7a7e0f463290594b4e5eef1d25a7737a24c6105621f12",
+    "LICENSE.txt": "bc669eac86a8868151cb4c30485979ac9f62f3d0ee3a95364c626a13977a714c"
+  }
+}

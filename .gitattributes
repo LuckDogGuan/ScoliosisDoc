@@ -1,3 +1,6 @@
 # Keep release checksum metadata byte-stable on Windows.
 /releases/** text=auto eol=lf
 /releases/**/*.tar.gz -text
+
+# Manifest hashes cover exact runtime input bytes, including vendor config EOF.
+调试/工具/仪器测试工具/payload/* -text whitespace=-blank-at-eof
