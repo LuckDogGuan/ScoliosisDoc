@@ -1,0 +1,115 @@
+{
+  "original": 6,
+  "levels": [
+    {
+      "time": "2026-10-08T17:05:45.938285+08:00",
+      "brightness": 0,
+      "reply": {
+        "version": 3,
+        "op": "diagnostics_backlight_reply",
+        "device_id": "CAM-41eda5f2c5b00de1",
+        "host_id": "82cf4d132682a987d068c18f2bc0004f",
+        "boot_id": "CAM-41eda5f2c5b00de1-1118251c",
+        "sequence": 152,
+        "nonce": "edc7e77f1c81fdcfd99ba33888de4895",
+        "ok": true,
+        "brightness": 0
+      },
+      "hardware": "GPIO55=1\n0\n/sys/class/pwm/pwmchip2/pwm0\n1000000\n1000000\n1\n{\"brightness\":0}",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "time": "2026-10-08T17:05:47.317291+08:00",
+      "brightness": 25,
+      "reply": {
+        "version": 3,
+        "op": "diagnostics_backlight_reply",
+        "device_id": "CAM-41eda5f2c5b00de1",
+        "host_id": "82cf4d132682a987d068c18f2bc0004f",
+        "boot_id": "CAM-41eda5f2c5b00de1-1118251c",
+        "sequence": 154,
+        "nonce": "1eb8ea769cd949c4e2550e3a07e8889b",
+        "ok": true,
+        "brightness": 25
+      },
+      "hardware": "GPIO55=PWM_PIN\n/sys/class/pwm/pwmchip11/pwm0\n1000000\n750000\n1\n/sys/class/pwm/pwmchip2/pwm0\n1000000\n1000000\n1\n{\"brightness\":25}",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "time": "2026-10-08T17:05:48.512629+08:00",
+      "brightness": 50,
+      "reply": {
+        "version": 3,
+        "op": "diagnostics_backlight_reply",
+        "device_id": "CAM-41eda5f2c5b00de1",
+        "host_id": "82cf4d132682a987d068c18f2bc0004f",
+        "boot_id": "CAM-41eda5f2c5b00de1-1118251c",
+        "sequence": 156,
+        "nonce": "9cbc233094f2645ccfaad8567062d7e8",
+        "ok": true,
+        "brightness": 50
+      },
+      "hardware": "GPIO55=PWM_PIN\n/sys/class/pwm/pwmchip11/pwm0\n1000000\n500000\n1\n/sys/class/pwm/pwmchip2/pwm0\n1000000\n1000000\n1\n{\"brightness\":50}",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "time": "2026-10-08T17:05:49.729094+08:00",
+      "brightness": 75,
+      "reply": {
+        "version": 3,
+        "op": "diagnostics_backlight_reply",
+        "device_id": "CAM-41eda5f2c5b00de1",
+        "host_id": "82cf4d132682a987d068c18f2bc0004f",
+        "boot_id": "CAM-41eda5f2c5b00de1-1118251c",
+        "sequence": 158,
+        "nonce": "185946cab24bf6e0c5c76cf5efcfe14c",
+        "ok": true,
+        "brightness": 75
+      },
+      "hardware": "GPIO55=PWM_PIN\n/sys/class/pwm/pwmchip11/pwm0\n1000000\n250000\n1\n/sys/class/pwm/pwmchip2/pwm0\n1000000\n1000000\n1\n{\"brightness\":75}",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "time": "2026-10-08T17:05:50.978175+08:00",
+      "brightness": 100,
+      "reply": {
+        "version": 3,
+        "op": "diagnostics_backlight_reply",
+        "device_id": "CAM-41eda5f2c5b00de1",
+        "host_id": "82cf4d132682a987d068c18f2bc0004f",
+        "boot_id": "CAM-41eda5f2c5b00de1-1118251c",
+        "sequence": 160,
+        "nonce": "1a44e5acacbbc501c5e52ebac1c2f13e",
+        "ok": true,
+        "brightness": 100
+      },
+      "hardware": "GPIO55=1\n0\n/sys/class/pwm/pwmchip2/pwm0\n1000000\n1000000\n1\n{\"brightness\":100}",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "time": "2026-10-08T17:05:52.374813+08:00",
+      "brightness": 6,
+      "reply": {
+        "version": 3,
+        "op": "diagnostics_backlight_reply",
+        "device_id": "CAM-41eda5f2c5b00de1",
+        "host_id": "82cf4d132682a987d068c18f2bc0004f",
+        "boot_id": "CAM-41eda5f2c5b00de1-1118251c",
+        "sequence": 162,
+        "nonce": "785bde6c6f689f49067a4601267175b5",
+        "ok": true,
+        "brightness": 6
+      },
+      "hardware": "GPIO55=PWM_PIN\n/sys/class/pwm/pwmchip11/pwm0\n1000000\n940000\n1\n/sys/class/pwm/pwmchip2/pwm0\n1000000\n1000000\n1\n{\"brightness\":6}",
+      "stderr": "",
+      "exit_code": 0
+    }
+  ],
+  "after": "1\n{\"brightness\":6}",
+  "visual_acceptance": "pending"
+}

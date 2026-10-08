@@ -1,8 +1,33 @@
 [
   {
+    "file": "backlight-debugfs.txt",
+    "bytes": 890,
+    "sha256": "09f5c3838a4966fefc34459fd911113f172a98fc14b018645921445d53f1e708"
+  },
+  {
+    "file": "backlight-live-levels.json",
+    "bytes": 689,
+    "sha256": "c3f46946f644411f708b5273b1df34a9918ef4e79ae6b5044018d2219d407b3e"
+  },
+  {
+    "file": "backlight-off-pinmux.txt",
+    "bytes": 430,
+    "sha256": "7a2ed1f34d25f7201326e3fd6de5e463eea90f5fcaf429dad5161bab8c881b53"
+  },
+  {
+    "file": "backlight-single-controller.json",
+    "bytes": 4040,
+    "sha256": "a5469d0f58bf26960318b57eecb7c90580333363f6acc4bb9d74d0e7fe4a0b4b"
+  },
+  {
     "file": "camera-config-diff.json",
     "bytes": 2,
     "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "pair-window-pwm.json",
+    "bytes": 465,
+    "sha256": "756a1bb9c0188e56ba127578aa772b453a1903e47aba41c65683eebf7c305ea9"
   },
   {
     "file": "reboot-runtime.txt",

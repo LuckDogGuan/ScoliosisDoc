@@ -1,0 +1,24 @@
+{
+  "original": 6,
+  "levels": [
+    {
+      "time": "2026-10-08T17:04:35.100645+08:00",
+      "brightness": 0,
+      "reply": {
+        "version": 3,
+        "op": "diagnostics_backlight_reply",
+        "device_id": "CAM-41eda5f2c5b00de1",
+        "host_id": "82cf4d132682a987d068c18f2bc0004f",
+        "boot_id": "CAM-41eda5f2c5b00de1-1118251c",
+        "sequence": 148,
+        "nonce": "a85718f5255bbdb5ed6c4431d8c92686",
+        "ok": true,
+        "brightness": 0
+      },
+      "hardware": "GPIO55=1\n/sys/class/pwm/pwmchip2/pwm0\n1000000\n1000000\n1\n{\"brightness\":0}",
+      "stderr": "",
+      "exit_code": 0
+    }
+  ],
+  "visual_acceptance": "pending"
+}
