@@ -1,0 +1,52 @@
+[
+  {
+    "file": "camera-config-diff.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "reboot-runtime.txt",
+    "bytes": 20850,
+    "sha256": "302d4e76fb8c1636b8bd96a19f4bcc99fc17308e2be9938304624bdcb7ccd440"
+  },
+  {
+    "file": "reboot-verification.json",
+    "bytes": 2557,
+    "sha256": "a7aa665f79c632791f8bb5fe0d0eee2296b50c5b7512838ed8d434d508eacca6"
+  },
+  {
+    "file": "rkipc-current.ini",
+    "bytes": 19481,
+    "sha256": "826bccf5aee6a030aa45d4e17808d3105417baa2717f5036d81ff35c1a672bc4"
+  },
+  {
+    "file": "rollback-audit-20261008-165226.tar",
+    "bytes": 2270208,
+    "sha256": "a7504c8571901219e2ec28125befae8640180fc12475422c0b4515c3e75b041a"
+  },
+  {
+    "file": "test-start-0-165521.sqlite3",
+    "bytes": 147456,
+    "sha256": "654a1a93911be54cd915a7e002ec824fc579f5318a5d128d3b34c9542b6a3b0f"
+  },
+  {
+    "file": "test-start-1-165521.sqlite3",
+    "bytes": 40079360,
+    "sha256": "5192a03df3f249dfef13826ad964a650e89563e9d7218500288ba07e4fa35517"
+  },
+  {
+    "file": "unpaired-light-sysfs.txt",
+    "bytes": 678,
+    "sha256": "e94305b823b3f6ba91063e677086d03c94d2417273a6df2c95cbb08fc70bd836"
+  },
+  {
+    "file": "wifi-update-20261008-164838.jsonl",
+    "bytes": 7544,
+    "sha256": "c40a43c15cdc0986fb946dfbeb4c54cf1938d61a6f61f793da5866accf61973c"
+  },
+  {
+    "file": "wifi-update-20261008-165226.jsonl",
+    "bytes": 13899,
+    "sha256": "424bdf3f429e94e0748a5daac5bacfcf9b501ddea68e03584e694bf0f3e05c5e"
+  }
+]
