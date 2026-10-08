@@ -69,3 +69,10 @@ Luckfox_Pico_Zero_eMMC_260604.zip
 调试/记录/light-test-*/camera-path/*.mp4
 调试/记录/capture-fixes-*/camera_check
 调试/记录/firmware-index-baseline-*/
+
+# Real-board audit archives and workspace data stay local; track their hashes.
+调试/记录/realboard-*/*.tar
+调试/记录/realboard-*/*.sqlite3
+调试/记录/realboard-*/*.jsonl
+调试/记录/realboard-*/*.ini
+调试/记录/realboard-*/*.txt
