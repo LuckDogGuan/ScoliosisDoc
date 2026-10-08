@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-08",
+  "flutter_full_tests": 71,
+  "flutter_final_targeted_tests": 6,
+  "static_analysis": "no issues",
+  "real_video": {
+    "black": "all null",
+    "ruler_angles": [
+      5.1060963,
+      5.1474762
+    ],
+    "frames": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      12,
+      13
+    ]
+  },
+  "flutter": {
+    "version": "3.3.2+20261008",
+    "source_commit": "4072f1f46bb548279bb039ef0f9ba2a7f3927760",
+    "code_source_commit": "2446f622aa6694d8c889dff9a541e11f55cd0d81",
+    "source_clean": true,
+    "board_deployed": false,
+    "archive": "scoliosis-windows-3.3.2-20261008.zip",
+    "archive_bytes": 151067770,
+    "archive_sha256": "3d26e34e12e6e37aca57a2c1efdd3429d2a6f1a952a5b8bbcb18fc26684bba9b"
+  },
+  "firmware": {
+    "version": "3.3.5",
+    "source_commit": "fcf7be8a8fe9d9b86dc7e6283c65d523c77969aa",
+    "archive_commit": "428913f",
+    "tag": "instrument-v3.3.5",
+    "archive_sha256": "ad6e619b4b90c1690dc2ac94c1b19a64c1424601dc8bb3c9f8711abe89d0573b",
+    "tests": [
+      "test_light",
+      "test_status_light",
+      "test_backlight",
+      "test_diagnostics_backlight",
+      "test_pair_lights",
+      "check-host",
+      "test_bundle"
+    ]
+  },
+  "board_deployed": false,
+  "manual_acceptance": "deferred by user"
+}

@@ -1,0 +1,13 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: (setUpAll)
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:02 +1: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: records fill available rows, page navigation resize filtering and deletion clamp
+00:03 +2: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: (tearDownAll)
+00:03 +2: loading D:/code/Scoliosis/ScoliosisFlutter/test/roster_excel_compatibility_test.dart
+00:03 +2: D:/code/Scoliosis/ScoliosisFlutter/test/roster_excel_compatibility_test.dart: school export has unique, ordered worksheet print settings
+00:04 +3: loading D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart
+00:04 +3: D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart: filtered roster export contains only current matches across all pages
+00:04 +4: D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart: record angle filtering and exported order/detail match exact rows
+00:05 +5: D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart: restart disconnect refreshes boot and sequence before unpairing
+00:05 +6: All tests passed!
