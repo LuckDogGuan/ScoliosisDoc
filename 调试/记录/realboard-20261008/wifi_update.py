@@ -1,5 +1,6 @@
 """One named board, pinned SSH key, WSL-owned package, retained rollback evidence."""
 import base64
+import configparser
 from datetime import datetime
 import hashlib
 import json
@@ -97,8 +98,11 @@ try:
         raise RuntimeError('Active capture or unfinished writing; no write')
     if ssh('sha256sum /RkLunch.sh').split()[0] != startup_hash:
         raise RuntimeError('Startup differs; manual review required')
-    preserved = '/opt/instrument/config.json /opt/instrument/state/pair-v3.json /userdata/rkipc.ini /etc/wpa_supplicant.conf /userdata/wpa_supplicant.conf'
+    preserved = '/opt/instrument/config.json /opt/instrument/state/pair-v3.json /etc/wpa_supplicant.conf /userdata/wpa_supplicant.conf'
     before_hashes = ssh('sha256sum ' + preserved)
+    camera_before = configparser.ConfigParser(strict=False, interpolation=None)
+    camera_before.read_string(ssh('cat /userdata/rkipc.ini'))
+    camera_parameters_before = {s: dict(camera_before[s]) for s in camera_before.sections()}
     ssh('/opt/instrument/bin/instrument_app --version; pidof instrument_app; pidof rkipc || true; df -k /opt /tmp')
     remote = '/tmp/instrument-335-wifi-' + stamp
     pkg = remote + '/instrument-v3.3.5'
@@ -128,6 +132,10 @@ try:
     ssh('tail -n 8 ' + backup + '/install.log; sha256sum -c ' + backup + '/after-SHA256SUMS')
     if ssh('sha256sum ' + preserved) != before_hashes:
         raise RuntimeError('Preserved business/config files changed')
+    camera_after = configparser.ConfigParser(strict=False, interpolation=None)
+    camera_after.read_string(ssh('cat /userdata/rkipc.ini'))
+    if {s: dict(camera_after[s]) for s in camera_after.sections()} != camera_parameters_before:
+        raise RuntimeError('Camera parameters changed during installation')
     if ssh('sha256sum /opt/instrument/bin/instrument_app').split()[0] != app_hash:
         raise RuntimeError('Installed binary hash mismatch')
     # Export the actual rollback and audit, never a second firmware release copy.
@@ -161,6 +169,10 @@ try:
         raise RuntimeError('Reboot binary mismatch')
     if ssh('sha256sum ' + preserved) != before_hashes:
         raise RuntimeError('Reboot changed preserved files')
+    camera_after = configparser.ConfigParser(strict=False, interpolation=None)
+    camera_after.read_string(ssh('cat /userdata/rkipc.ini'))
+    if {s: dict(camera_after[s]) for s in camera_after.sections()} != camera_parameters_before:
+        raise RuntimeError('Reboot changed camera parameters')
     ssh('pidof instrument_app; pidof rkipc; test -S /var/tmp/rkipc; ip -4 addr show wlan0; date; cat /etc/TZ')
     after = hello()
     if after.get('boot_id') == before.get('boot_id') or after.get('wifi_state') != 'available' or after.get('phase') != 'idle':
