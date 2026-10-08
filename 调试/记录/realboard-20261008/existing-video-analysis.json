@@ -1,0 +1,306 @@
+{
+  "source_capture_id": "CAM-41eda5f2c5b00de1-v3-1791363126981132-1446521851",
+  "source_video_sha256": "2d4ed8e7794d821863ecb8515927782496709e5b9dedf44ecc004295fff19a90",
+  "historical_video": true,
+  "live_capture_test": false,
+  "database_modified": false,
+  "model_version": "thirdPartyLibrary-ruler-video-v1",
+  "sample_count": 42,
+  "valid_count": 0,
+  "samples": [
+    {
+      "frame_index": 2,
+      "pts_ms": 83,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/2@83ms"
+    },
+    {
+      "frame_index": 7,
+      "pts_ms": 250,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/7@250ms"
+    },
+    {
+      "frame_index": 12,
+      "pts_ms": 433,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/12@433ms"
+    },
+    {
+      "frame_index": 17,
+      "pts_ms": 633,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/17@633ms"
+    },
+    {
+      "frame_index": 22,
+      "pts_ms": 800,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/22@800ms"
+    },
+    {
+      "frame_index": 27,
+      "pts_ms": 983,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/27@983ms"
+    },
+    {
+      "frame_index": 32,
+      "pts_ms": 1183,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/32@1183ms"
+    },
+    {
+      "frame_index": 37,
+      "pts_ms": 1383,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/37@1383ms"
+    },
+    {
+      "frame_index": 42,
+      "pts_ms": 1583,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/42@1583ms"
+    },
+    {
+      "frame_index": 47,
+      "pts_ms": 1833,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/47@1833ms"
+    },
+    {
+      "frame_index": 52,
+      "pts_ms": 2033,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/52@2033ms"
+    },
+    {
+      "frame_index": 57,
+      "pts_ms": 2200,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/57@2200ms"
+    },
+    {
+      "frame_index": 62,
+      "pts_ms": 2400,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/62@2400ms"
+    },
+    {
+      "frame_index": 67,
+      "pts_ms": 2617,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/67@2617ms"
+    },
+    {
+      "frame_index": 72,
+      "pts_ms": 2817,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/72@2817ms"
+    },
+    {
+      "frame_index": 77,
+      "pts_ms": 3033,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/77@3033ms"
+    },
+    {
+      "frame_index": 82,
+      "pts_ms": 3267,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/82@3267ms"
+    },
+    {
+      "frame_index": 87,
+      "pts_ms": 3467,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/87@3467ms"
+    },
+    {
+      "frame_index": 92,
+      "pts_ms": 3667,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/92@3667ms"
+    },
+    {
+      "frame_index": 97,
+      "pts_ms": 3867,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/97@3867ms"
+    },
+    {
+      "frame_index": 102,
+      "pts_ms": 4083,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/102@4083ms"
+    },
+    {
+      "frame_index": 107,
+      "pts_ms": 4300,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/107@4300ms"
+    },
+    {
+      "frame_index": 112,
+      "pts_ms": 4533,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/112@4533ms"
+    },
+    {
+      "frame_index": 117,
+      "pts_ms": 4750,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/117@4750ms"
+    },
+    {
+      "frame_index": 122,
+      "pts_ms": 4933,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/122@4933ms"
+    },
+    {
+      "frame_index": 127,
+      "pts_ms": 5100,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/127@5100ms"
+    },
+    {
+      "frame_index": 132,
+      "pts_ms": 5300,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/132@5300ms"
+    },
+    {
+      "frame_index": 137,
+      "pts_ms": 5500,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/137@5500ms"
+    },
+    {
+      "frame_index": 142,
+      "pts_ms": 5683,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/142@5683ms"
+    },
+    {
+      "frame_index": 147,
+      "pts_ms": 5883,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/147@5883ms"
+    },
+    {
+      "frame_index": 152,
+      "pts_ms": 6083,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/152@6083ms"
+    },
+    {
+      "frame_index": 157,
+      "pts_ms": 6267,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/157@6267ms"
+    },
+    {
+      "frame_index": 162,
+      "pts_ms": 6467,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/162@6467ms"
+    },
+    {
+      "frame_index": 167,
+      "pts_ms": 6717,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/167@6717ms"
+    },
+    {
+      "frame_index": 172,
+      "pts_ms": 6950,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/172@6950ms"
+    },
+    {
+      "frame_index": 177,
+      "pts_ms": 7183,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/177@7183ms"
+    },
+    {
+      "frame_index": 182,
+      "pts_ms": 7433,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/182@7433ms"
+    },
+    {
+      "frame_index": 187,
+      "pts_ms": 7633,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/187@7633ms"
+    },
+    {
+      "frame_index": 192,
+      "pts_ms": 7867,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/192@7867ms"
+    },
+    {
+      "frame_index": 197,
+      "pts_ms": 8117,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/197@8117ms"
+    },
+    {
+      "frame_index": 202,
+      "pts_ms": 8317,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/202@8317ms"
+    },
+    {
+      "frame_index": 207,
+      "pts_ms": 8533,
+      "angle_deg": null,
+      "error": "测量尺或刻度未可靠识别：未检测到尺面",
+      "input_image": "video-frame/207@8533ms"
+    }
+  ]
+}

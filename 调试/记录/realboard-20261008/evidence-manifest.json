@@ -30,6 +30,21 @@
     "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   {
+    "file": "existing-video-analysis.json",
+    "bytes": 8929,
+    "sha256": "8befc8b6fbff578274ba71e4fc5b37a8fe9b2e696f8f8e963ee8859e38df0ee2"
+  },
+  {
+    "file": "existing-video-input.json",
+    "bytes": 447,
+    "sha256": "913cb778ff2519b3936827efc2cd445192f4de49b62805228968c31f258cf4f3"
+  },
+  {
+    "file": "existing-video-verification.json",
+    "bytes": 540,
+    "sha256": "87e5a83b83ed6ed67fc19368fce236c497c4d4bd0ad30a547967c901fe49435a"
+  },
+  {
     "file": "final-337-runtime.json",
     "bytes": 375,
     "sha256": "aaf506cf40385d752cb600586e50d6b80de4df0fe621f8a44dd475f40d68a187"
@@ -53,6 +68,11 @@
     "file": "gpio55-mux-proof.json",
     "bytes": 162,
     "sha256": "0dff8753866e81c1e176f79248b9e8b740f33b8b54644f707417c08898585a8e"
+  },
+  {
+    "file": "historical-video-third-frame.png",
+    "bytes": 787398,
+    "sha256": "7782b727d6bdf910ec5b7853ee7ed577607b341e398a1c6b675d9d46dc8b776c"
   },
   {
     "file": "official-gpio-mux.txt",

@@ -1,0 +1,19 @@
+{
+  "frame_count": 210,
+  "sample_count": 42,
+  "first_sample": [
+    2,
+    83
+  ],
+  "last_sample": [
+    207,
+    8533
+  ],
+  "valid_count": 0,
+  "original_video_preserved": true,
+  "database_angle_samples_unchanged": true,
+  "existing_test_sample_count": 749,
+  "video_kind": "historical real instrument recording",
+  "native_reader_sha256": "91b5864b3e66124e9f6e6c871b77ab2ccd2cf67dc18d87b28de26db6ddeef860",
+  "visual_observation": "overexposed ruler and incomplete field of view; accuracy acceptance remains open"
+}
