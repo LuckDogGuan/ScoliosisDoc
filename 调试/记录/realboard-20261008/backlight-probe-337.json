@@ -1,0 +1,73 @@
+{
+  "time": "2026-10-08T17:26:08.285948+08:00",
+  "binary_sha256": "1fa820ddbadc865a4e9627c4520395662d46a29cc93aad82c577e15de38cd542",
+  "source": "WSL tests/backlight_board_probe.c + actual src/platform/light_test.c",
+  "rows": [
+    {
+      "command": "cat /proc/device-tree/serial-number",
+      "stdout": "41eda5f2c5b00de1",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "cat /opt/instrument/config.json",
+      "stdout": "{\n\t\"device_id\":\t\"CAM-41eda5f2c5b00de1\",\n\t\"wifi_ssid\":\t\"MinMax-test\",\n\t\"pc_base_url\":\t\"http://192.168.101.2:8080\",\n\t\"audio\":\t{\n\t\t\"volume\":\t10\n\t},\n\t\"capture\":\t{\n\t\t\"width\":\t1280,\n\t\t\"height\":\t1080,\n\t\t\"fps_fraction\":\t\"60/2\",\n\t\t\"codec\":\t\"h265\",\n\t\t\"container\":\t\"mp4\",\n\t\t\"bitrate_kbps\":\t4000,\n\t\t\"duration_ms\":\t10000\n\t},\n\t\"battery\":\t{\n\t\t\"present\":\tfalse\n\t}\n}\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "cat /opt/instrument/state/active-v3.json",
+      "stdout": "{}",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "find /opt/instrument/capture/writing -type f",
+      "stdout": "",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "sha256sum /opt/instrument/config.json /opt/instrument/state/pair-v3.json /opt/instrument/state/backlight.json",
+      "stdout": "6dae042cdb6e238c92e37315b45f74296ddf53d2913040eb5e21ad229043db53  /opt/instrument/config.json\n30d9c9f6281789e0ea0bfd2a98abe2282afa30617dda38b1c0d6a1d8ab053679  /opt/instrument/state/pair-v3.json\n7f5ea39cbb8a0dfaf8cd23bc7ea30903dd75aa43fe7084c5cbe3f80d7ea77115  /opt/instrument/state/backlight.json\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "sha256sum /tmp/backlight-probe-337",
+      "stdout": "1fa820ddbadc865a4e9627c4520395662d46a29cc93aad82c577e15de38cd542  /tmp/backlight-probe-337\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "chmod 700 /tmp/backlight-probe-337",
+      "stdout": "",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "set -e; kill -TERM $(pidof instrument_app); n=0; while pidof instrument_app >/dev/null; do n=$((n+1)); test $n -lt 15; sleep 1; done",
+      "stdout": "",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "/tmp/backlight-probe-337",
+      "stdout": "LEVEL=0 GPIO55=0\nLEVEL=25 PWM_DUTY=750000\nLEVEL=50 PWM_DUTY=500000\nLEVEL=75 PWM_DUTY=250000\nLEVEL=100 GPIO55=1\nLEVEL=25 PWM_DUTY=750000\nCLOSE_MUX=0x00000000 CLOSE_PAD=0x00000C1C\nPROBE_EXIT=0\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "sha256sum /opt/instrument/config.json /opt/instrument/state/pair-v3.json /opt/instrument/state/backlight.json",
+      "stdout": "6dae042cdb6e238c92e37315b45f74296ddf53d2913040eb5e21ad229043db53  /opt/instrument/config.json\n30d9c9f6281789e0ea0bfd2a98abe2282afa30617dda38b1c0d6a1d8ab053679  /opt/instrument/state/pair-v3.json\n7f5ea39cbb8a0dfaf8cd23bc7ea30903dd75aa43fe7084c5cbe3f80d7ea77115  /opt/instrument/state/backlight.json\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": "if ! pidof instrument_app >/dev/null; then nohup /opt/instrument/bin/instrument_app /opt/instrument/config.json > /tmp/337-probe-recovery-app.log 2>&1 < /dev/null & sleep 1; fi; pidof instrument_app",
+      "stdout": "1933 1897\n",
+      "stderr": "",
+      "exit_code": 0
+    }
+  ]
+}

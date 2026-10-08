@@ -1,0 +1,73 @@
+{
+  "source_log": "wifi-update-20261008-172800.jsonl",
+  "install": {
+    "result": "WIFI_INSTALL_PASS",
+    "serial": "41eda5f2c5b00de1",
+    "address": "192.168.101.4",
+    "version": "3.3.7",
+    "backup": "/opt/instrument/backups/bundle-20261008T092803Z-2548",
+    "package_sha256": "65b9daa189517bedcb66882316662c1e724852076fb9d1b1e5a2fc4b9695748a",
+    "app_sha256": "33cb2d4fc887948097ef4878589dad52aaa8158390c187c0b397315caaddfe01",
+    "config_pair_wifi_camera_preserved": true,
+    "local_time": "2026-10-08T17:28:07.765267+08:00"
+  },
+  "reboot": {
+    "result": "WIFI_REBOOT_VERIFY_PASS",
+    "version": "3.3.7",
+    "adb_used": false,
+    "live_state": {
+      "version": 3,
+      "op": "hello_reply",
+      "device_id": "CAM-41eda5f2c5b00de1",
+      "host_id": "realboard-upgrade-observer",
+      "boot_id": "CAM-41eda5f2c5b00de1-6ec7e0ca",
+      "sequence": 0,
+      "nonce": "1a2e47c03ff6271c2a75c6936be1d5f3",
+      "ok": true,
+      "capabilities": [
+        "capture_gate",
+        "capture_prepare",
+        "capture_events",
+        "upload_grant",
+        "pair_transaction",
+        "volume_control",
+        "paired_discover",
+        "time_sync",
+        "diagnostics",
+        "capture_discard",
+        "backlight_brightness"
+      ],
+      "paired_host_id": "",
+      "volume": 10,
+      "saved_volume": 10,
+      "audio_busy": false,
+      "audio_operation_id": "",
+      "audio_operation_result": 0,
+      "uploading_capture_id": "",
+      "peer_ip": "192.168.101.2",
+      "http_port": 8080,
+      "unpair_event_id": "CAM-41eda5f2c5b00de1-460c2f65",
+      "pair_window_remaining_ms": 0,
+      "phase": "idle",
+      "utc_ms": 1791451714812,
+      "diagnostics_active": false,
+      "wifi_state": "available",
+      "gate_enabled": false,
+      "gate_id": "",
+      "capture_id": "",
+      "control_sequence": 0,
+      "snapshot_age_ms": 8126,
+      "metrics": {
+        "ssid": "MinMax-test",
+        "rssi_dbm": -16,
+        "storage_free_mb": 5464,
+        "storage_total_mb": 5946,
+        "memory_available_mb": 149,
+        "memory_total_mb": 180,
+        "pending_count": 0,
+        "battery": "absent"
+      }
+    },
+    "local_time": "2026-10-08T17:28:35.015844+08:00"
+  }
+}

@@ -2,6 +2,8 @@
 
 用户要求开始真机测试，Wi-Fi更新优先，ADB备选。本轮对既有目标完成Wi-Fi SSH更新，等待实体操作继续验收。
 
+**当前板端为3.3.7，Flutter为3.3.2。** 本轮发现并修复背光PWM退出后未恢复GPIO复用的问题，实际档位与PWM档退出探针通过，最终Wi-Fi安装、重启恢复和启动后关闭电平通过。实体目视/电气测量、真实尺校准、异常退出后的断开与筛选导出仍按下文边界记录。
+
 ## 已验证
 
 - 目标序列号 `41eda5f2c5b00de1`，应用ID `CAM-41eda5f2c5b00de1`，本轮发现地址 `192.168.101.4`。SSH密钥 `SHA256:QLjOSdI3DrGRFdzX72pAcNRo4l6QPngLFHBNr6SYKgk` 与历史记录一致，后续认证前锁定密钥。另一台设备未操作。
@@ -48,3 +50,40 @@ Flutter回退使用保留的旧完整Release；工作空间数据使用已确认
 - **异常未解决**：0%和100%档及结束后的GPIO55值均读成1，active_low=0。响应成功不能证明端点灭/亮正确。测试后设置恢复6%；随后界面再次进入测试并设为8%，故新的只读快照不代表结束后的状态。需在没有并行控制时再核对端点、引脚复用及实体亮灭，暂不勾选背光完成。
 - 为查引脚复用临时挂载板端debugfs；当时8%档引脚55属于PWM11_M1，实际占空比920000ns，与8%设置一致。挂载未写开机配置，原始只读记录`backlight-debugfs.txt`本地保留。
 - Flutter退出重开后的断开、实际视频分析及筛选导出仍未完成本轮真机验收。
+
+## 17:10–17:29 背光修复、正式包与Wi-Fi复验
+
+### 根因与范围
+
+Flutter设置0%时，GPIO55方向out、输出数据寄存器低，但引脚实际高。RV1106 GPIO1_C7复用寄存器`0xff538014`仍为`0x3000`，即PWM11功能残留。仅以高16位写掩码`0xF0000000`恢复位12..15为GPIO后，其余位保持，GPIO55及实际输入位立即变低。依据为[Luckfox官方pinctrl驱动](https://github.com/LuckfoxTECH/luckfox-pico/blob/main/sysdrv/source/kernel/drivers/pinctrl/pinctrl-rockchip.c)中GPIO1四位复用和C组偏移，以及本板实际寄存器/引脚读回。证据`flutter-zero-debugfs.json`、`gpio55-mux-proof.json`。
+
+固件3.3.6先修复0/100端点的GPIO复用恢复；检查确认在PWM档直接结束应用还需走同一关闭路径，补齐为3.3.7。两个正式版本均保留，未覆盖3.3.5或中间包。按键本体、中键灯业务、相机参数和配对规则未修改。
+
+### 版本与回退
+
+| 版本 | 源码提交 | 归档提交/tag | 正式包SHA256 |
+|---|---|---|---|
+|3.3.6|957e175|0dc43cb / instrument-v3.3.6|288a2da42f9c8e519aea3c24edb58d0d2f78adbed4a4ca46ebe48ed4e7615958|
+|3.3.7|3303f54|2feebb7 / instrument-v3.3.7|65b9daa189517bedcb66882316662c1e724852076fb9d1b1e5a2fc4b9695748a|
+
+唯一正式包路径在WSL `/home/guanjx/luckfox/Scoliosis/releases/<版本>/instrument-v<版本>.tar.gz`，Windows未复制正式包。3.3.7板端程序SHA256 `33cb2d4fc887948097ef4878589dad52aaa8158390c187c0b397315caaddfe01`。
+
+3.3.6安装记录`/opt/instrument/backups/bundle-20261008T092045Z-3400/`；安装成功，原验证器因相机INI仅空白回写中止，恢复服务，未按该失败出口宣布重启成功。后续验证器改为：config/pair/Wi-Fi仍严格逐字节哈希检查，相机INI按各节全部参数比较，只允许格式变化，不放宽参数改变。
+
+3.3.7安装记录`/opt/instrument/backups/bundle-20261008T092803Z-2548/`，已完整导出本地回退/审计tar；`WIFI_INSTALL_PASS`与`WIFI_REBOOT_VERIFY_PASS`均通过。版本、二进制哈希、应用及相机进程、RPC socket、UDP新boot_id、wifi=available、idle、gate=false、pending=0通过。配置、配对、两份Wi-Fi文件哈希一致，相机全部参数值一致。见`wifi337-result.json`与其source_log。
+
+### 实板输出与关闭
+
+WSL `tests/backlight_board_probe.c`链接本版实际平台代码，不模拟GPIO/PWM，不写配对文件；经密钥/序列号/应用ID/空闲校验后，Wi-Fi上传临时探针，停止闲置应用、保持相机，依次调用0/25/50/75/100/25%，最后执行实际关闭函数。结束后恢复正式应用，config/pair/backlight保存文件哈希不变。
+
+实板探针结果：0%=GPIO55低；25/50/75%=750000/500000/250000ns，占空比周期1000000ns；100%=GPIO55高；从25%PWM档退出后C7复用为0，实际引脚位为低，PROBE_EXIT=0。证据`backlight-probe-337.json`。这是实际平台调用及引脚读回，不等同外部电压/电流或临床验收，也不声称通过SIGKILL/断电等无法清理场景。
+
+最终正式3.3.7安装重启后，GPIO55=0、C7复用=0、输入寄存器对应位低、保存亮度0，应用/相机均运行。见`final-337-runtime.json`。
+
+### 其他验收与限制
+
+- 手动正常关闭Flutter后，应用按既有规则撤销配对并留下断开事件；重开显示待配对，Wi-Fi保持可查询。**这只证明正常关闭流程，尚未证明强制终止后持久配对→重开立即断开的原故障场景**，不勾选该完整实板回归。
+- 当前目标未配对、空闲，拍摄许可及诊断关闭；背光保存亮度为0。后续业务拍摄前需正常配对并设置合适亮度，不能用默认0%直接验收真实尺视频。
+- 5组定向检查（五灯态/信号清理、状态灯、背光时序、诊断UDP、复用位保护）及ARM构建通过；关闭路径补充后重跑灯态/清理、状态灯、复用保护，实际板端档位及退出探针通过；3.3.6/3.3.7完整包清单、篡改拒绝和idle门禁通过。
+- 修改前对`platform_backlight_percent`、`light_status_close`分别impact，均LOW。公共`gpio_claim`为HIGH，未改该函数。提交前detect_changes对既有临时索引返回HIGH，其中包含上一轮镜像基点中的runtime_v3残留差异；本轮WSL实际Git修改范围以957e175/3303f54为准，不包含runtime_v3修改，已按实际调用和真实板端输出核对。索引相关源文件与WSL修改后的哈希记录在`firmware-index-hashes*.json`；没有新增源码镜像到Windows项目。
+- 不重复按键本体测试；有效尺读数、实体灯光观感、校准准确性、筛选和导出仍待后续现场流程。本轮未给原有31条记录重新生成临床结论。

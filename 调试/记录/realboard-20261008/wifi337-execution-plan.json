@@ -1,0 +1,8 @@
+{
+  "base_runner_sha256": "9d3736aaa74386b5fbb04098cae151d6afc67f06d1eaa79c66039714c14b73f3",
+  "effective_runner_sha256": "8ad59b75a8d7ebd02d6e77980b044fcdb0d4a107f8d92a5ab47d512f741ae216",
+  "version": "3.3.7",
+  "package_sha256": "65b9daa189517bedcb66882316662c1e724852076fb9d1b1e5a2fc4b9695748a",
+  "constants_only_replaced": true,
+  "camera_parameters_checked": true
+}

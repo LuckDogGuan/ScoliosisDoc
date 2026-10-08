@@ -1,0 +1,5 @@
+{
+  "time": "2026-10-08T17:10:31.621591+08:00",
+  "stdout": "{\"brightness\":0}out\n1\n0\ngpiochip0: GPIOs 0-31, parent: platform/ff380000.gpio, gpio0:\n gpio-0   (                    |sysfs               ) in  hi \n gpio-3   (                    |sysfs               ) in  hi \n gpio-4   (                    |sysfs               ) in  hi \n\ngpiochip1: GPIOs 32-63, parent: platform/ff530000.gpio, gpio1:\n gpio-32  (                    |sysfs               ) out lo \n gpio-34  (                    |reset               ) out hi ACTIVE LOW\n gpio-55  (                    |sysfs               ) out hi \n\ngpiochip2: GPIOs 64-95, parent: platform/ff540000.gpio, gpio2:\n\ngpiochip3: GPIOs 96-127, parent: platform/ff550000.gpio, gpio3:\n gpio-117 (                    |reset               ) out hi \n gpio-118 (                    |work                ) out hi \n\ngpiochip4: GPIOs 128-151, parent: platform/ff560000.gpio, gpio4:\npin 55 (gpio1-23): (MUX UNCLAIMED) gpio1:55\n0x00000000\n0x00000080\n0x00800C1C\n",
+  "stderr": "cat: can't open '/sys/kernel/config/device-tree/overlays/instrument-backlight/status': No such file or directory\n"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "path": "src/platform/light_test.c",
+    "sha256": "b945c426affa0a4804c2d1814bac3c38afefeded27a4765550e2f4a77902bfec"
+  },
+  {
+    "path": "include/app.h",
+    "sha256": "c299daae09bda4f361c822760a116e5f94d2579e7a6de89155fbdbac3bdf4e8d"
+  }
+]

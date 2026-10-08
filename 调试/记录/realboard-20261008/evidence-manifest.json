@@ -15,6 +15,11 @@
     "sha256": "7a2ed1f34d25f7201326e3fd6de5e463eea90f5fcaf429dad5161bab8c881b53"
   },
   {
+    "file": "backlight-probe-337.json",
+    "bytes": 3518,
+    "sha256": "f770099adf2a0077ea9210bd1bd56895c09a7d606a763182d448b665db7de47d"
+  },
+  {
     "file": "backlight-single-controller.json",
     "bytes": 4040,
     "sha256": "a5469d0f58bf26960318b57eecb7c90580333363f6acc4bb9d74d0e7fe4a0b4b"
@@ -23,6 +28,36 @@
     "file": "camera-config-diff.json",
     "bytes": 2,
     "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "final-337-runtime.json",
+    "bytes": 375,
+    "sha256": "aaf506cf40385d752cb600586e50d6b80de4df0fe621f8a44dd475f40d68a187"
+  },
+  {
+    "file": "firmware-index-hashes-337.json",
+    "bytes": 261,
+    "sha256": "00995e3172aed63ea8d2037194fb0f2273dadc8b33708960e1e148e134deea62"
+  },
+  {
+    "file": "firmware-index-hashes.json",
+    "bytes": 477,
+    "sha256": "edd56f6a290f85d7ac708331a08a3955e2f6f7610b0f750be3aa29fa14eaca3f"
+  },
+  {
+    "file": "flutter-zero-debugfs.json",
+    "bytes": 1152,
+    "sha256": "9167a43c5f58f356a51f21d7e3f70ceb07cb39eae7b02ec243338da15e48e55e"
+  },
+  {
+    "file": "gpio55-mux-proof.json",
+    "bytes": 162,
+    "sha256": "0dff8753866e81c1e176f79248b9e8b740f33b8b54644f707417c08898585a8e"
+  },
+  {
+    "file": "official-gpio-mux.txt",
+    "bytes": 2425,
+    "sha256": "97839cb0a6fcbc7fc58c4f12b1eb6133188385c0450c0a28d96a24ed3228a56f"
   },
   {
     "file": "pair-window-pwm.json",
@@ -50,6 +85,11 @@
     "sha256": "a7504c8571901219e2ec28125befae8640180fc12475422c0b4515c3e75b041a"
   },
   {
+    "file": "rollback-audit-20261008-172800.tar",
+    "bytes": 2270208,
+    "sha256": "8af98334c812a394030c8c5f16998a625caaef231d7b0ce34f3ab6a89a8a070d"
+  },
+  {
     "file": "test-start-0-165521.sqlite3",
     "bytes": 147456,
     "sha256": "654a1a93911be54cd915a7e002ec824fc579f5318a5d128d3b34c9542b6a3b0f"
@@ -73,5 +113,30 @@
     "file": "wifi-update-20261008-165226.jsonl",
     "bytes": 13899,
     "sha256": "424bdf3f429e94e0748a5daac5bacfcf9b501ddea68e03584e694bf0f3e05c5e"
+  },
+  {
+    "file": "wifi-update-20261008-172035.jsonl",
+    "bytes": 11836,
+    "sha256": "93bc0b38570c544787c75f199169b10a259c81c7a3955e37f660b4bf37de010b"
+  },
+  {
+    "file": "wifi-update-20261008-172800.jsonl",
+    "bytes": 78964,
+    "sha256": "6eb6121855accbc0f3d8221c8389f967377535f70079aebc15910df8c4e35fc0"
+  },
+  {
+    "file": "wifi336-execution-plan.json",
+    "bytes": 342,
+    "sha256": "b51253b23a0bc27bc10e2db742a94f603430f000c840df5d8f7e75303d11db54"
+  },
+  {
+    "file": "wifi337-execution-plan.json",
+    "bytes": 380,
+    "sha256": "76d89947a09cf8fbe0b1e0b10ce30c020c3dd613b0cfa9056e692144c67a0d89"
+  },
+  {
+    "file": "wifi337-result.json",
+    "bytes": 2285,
+    "sha256": "611d58d6eeff158973735ab7409bbf050e5cd1ef5539f0783948ddf170415d72"
   }
 ]

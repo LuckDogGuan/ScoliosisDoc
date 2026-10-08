@@ -1,0 +1,12 @@
+[
+  {
+    "path": "src/platform/light_test.c",
+    "before_index_sha256": "05a245ea6e5002d6136255cc8784d1c571270635136ff9a7cf15d09eabf041ab",
+    "current_wsl_sha256": "735059e0b373c83587391c34c52436fa534631d4f13f127c242c5cf0384224d6"
+  },
+  {
+    "path": "include/app.h",
+    "before_index_sha256": "359ed35b389e97592e49ba6e1296b0cba1ef7a542c9fdbbed5be05b61c601262",
+    "current_wsl_sha256": "4a2942c00778330fdbdd3fcb64ad03b1e5b7cc415b04018ba8ec852e1ff0c639"
+  }
+]

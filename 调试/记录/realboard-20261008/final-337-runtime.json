@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-08T17:30:01.596140+08:00",
+  "fingerprint": "SHA256:QLjOSdI3DrGRFdzX72pAcNRo4l6QPngLFHBNr6SYKgk",
+  "stdout": "3.3.7\n33cb2d4fc887948097ef4878589dad52aaa8158390c187c0b397315caaddfe01  /opt/instrument/bin/instrument_app\n162\n436\n0\n0x00000000\n0x00000C1C\n{\"brightness\":0}",
+  "stderr": "",
+  "exit_code": 0,
+  "post_reboot_backlight_gpio": 0
+}

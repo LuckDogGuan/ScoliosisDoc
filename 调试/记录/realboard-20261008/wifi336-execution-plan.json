@@ -1,0 +1,7 @@
+{
+  "base_runner_sha256": "deb420e14852b9350e66c6a3b9592b1f0c24c395aa25fc5ba023f1981758925d",
+  "effective_runner_sha256": "c656ed8a1702e692c795cda45f91dc9d1a74fa4d971791f9506a0dd1bfe14890",
+  "version": "3.3.6",
+  "package_sha256": "288a2da42f9c8e519aea3c24edb58d0d2f78adbed4a4ca46ebe48ed4e7615958",
+  "constants_only_replaced": true
+}
