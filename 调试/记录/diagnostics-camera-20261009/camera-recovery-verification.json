@@ -1,0 +1,21 @@
+{
+  "snapshot_rpc": "passed",
+  "snapshot_valid_jpeg": true,
+  "snapshot_bytes": 130511,
+  "snapshot_size": [
+    1280,
+    1080
+  ],
+  "snapshot_sha256": "33615b64e2a2c93f55dfaf23ca1d4815862e2f9927292de3d7261ebc77e1c7a6",
+  "rtsp_valid_frame": true,
+  "rtsp_size": [
+    1280,
+    1080
+  ],
+  "rtsp_sha256": "61d472dcba69ea7cb98c3e673ba9f67e569ab414ababe73cadf396d69ba6b514",
+  "camera_ini_hash_preserved": true,
+  "business_program_restarted": false,
+  "firmware_source_changed": false,
+  "gui_preview": "pending",
+  "cold_boot_regression": "pending"
+}

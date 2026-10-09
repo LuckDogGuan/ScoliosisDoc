@@ -1,0 +1,10 @@
+{
+  "version": "3.3.5+20261009",
+  "source_commit": "956dc9755b221af5a54ad86e71af3b1a54cda0d4",
+  "source_clean": true,
+  "archive": "scoliosis-windows-3.3.5-20261009.zip",
+  "archive_sha256": "220d2302576471e828df92b2ed36f5002eb636c04b667e9b95e02afbc1e752b0",
+  "archive_verified": true,
+  "path": "D:\\code\\Scoliosis\\ScoliosisFlutter\\releases\\windows-3.3.5-956dc97-20261009",
+  "file_count": 87
+}

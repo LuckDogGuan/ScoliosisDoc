@@ -1,0 +1,22 @@
+{
+  "before": {
+    "stdout": "39c6ee7ed47f78568ae5585cd3f5a1f7e84a29979c310306b7a6654fe2bb07ab  /userdata/rkipc.ini\n162\n",
+    "stderr": "",
+    "status": 0
+  },
+  "stopped": {
+    "status": 0,
+    "stdout": "Already stopped",
+    "stderr": ""
+  },
+  "launched": {
+    "stdout": "",
+    "stderr": "",
+    "status": 0
+  },
+  "after": {
+    "stdout": "39c6ee7ed47f78568ae5585cd3f5a1f7e84a29979c310306b7a6654fe2bb07ab  /userdata/rkipc.ini\n1427\n162\nRTDeviceV4L2     03:17:29-316 {ispStreamOn       :458} \u001b[32m\u001b[1mdo ispStreamOn start\u001b[0m\r\nCAMHW:K:camId:0, notify_isp_stream_status on\nRTDeviceV4L2     03:17:29-738 {ispStreamOn       :511} \u001b[32m\u001b[1mdo ispStreamOn done\u001b[0m\r\n[video.c][rk_video_set_frame_rate]:num is 60, den is 1\n[video.c][rk_video_set_frame_rate]:old VI framerate is [-1:-1]\n[video.c][rk_video_set_frame_rate]:new VI framerate is [60:60]\nRKViChn          03:17:29-739 {setFrameRateRuntim:437} \u001b[31m\u001b[1mVVI_IOCTL_SET_FR ioctl fail\u001b[0m\r\nRKVencChannel    03:17:29-740 {setH265CuDqp      :4003} \u001b[31m\u001b[1mpstCuDqp illegal param: u32CuDqp -6(expects range [0, 2])\u001b[0m\r\nMpiAdapterEncode 03:17:29-740 {ma_encode_create  :1743} \u001b[32m\u001b[1mringbuf buf_size 692224\u001b[0m\r\nMpiAdapterEncode 03:17:29-747 {ma_encode_create  :1782} \u001b[32m\u001b[1mmem_fd = 54\u001b[0m\r\nMpiAdapterEncode 03:17:29-750 {ma_encode_create  :1743} \u001b[32m\u001b[1mringbuf buf_size 4194304\u001b[0m\r\nMpiAdapterEncode 03:17:29-756 {ma_encode_create  :1782} \u001b[32m\u001b[1mmem_fd = 56\u001b[0m\r\n[storage.c][rkipc_storage_set_dev_attr]:mount path is /, dev_path is /dev/root\n[storage.c][rkipc_storage_para_init]:DevAttr set:  AutoDel--1, FreeSizeDel--500~1000, Path--//video0, Limit--300\n[storage.c][rkipc_storage_para_init]:DevAttr set:  AutoDel--1, FreeSizeDel--500~1000, Path--//video1, Limit--300\n[storage.c][rkipc_storage_para_init]:DevAttr set:  AutoDel--1, FreeSizeDel--500~1000, Path--//video2, Limit--300\n[storage.c][rkipc_storage_auto_delete_init]:mountpath:/,devpath:,devtype:,devattr:\n[server.c][rkipc_server_thread]:#Start rkipc_server_thread thread, arg:(nil)\nMpiAdapterEncode 03:17:29-769 {ma_encode_get_pack:2079} \u001b[32m\u001b[1mmap ptr: 0xa33e6000, fd 57\u001b[0m\r\n[DEBUG utils.c:186:rtsp_codec_data_parse_from_user_h265] vps 23\n[DEBUG utils.c:194:rtsp_codec_data_parse_from_user_h265] sps 44\n[DEBUG utils.c:202:rtsp_codec_data_parse_from_user_h265] pps 9\n#Start osd_time_server thread, arg:(nil)\n[osd.c][osd_time_server]:osd_time_id is 1\n[osd.c][osd_time_server]:osd_data.text.font_color is fff799\n[osd.c][osd_time_server]:osd_data.text.format is 24hour CHR-YYYY-MM-DD\ncmpi             03:17:29-775 {mb_create_pool    :231} \u001b[32m\u001b[1mallocated buffer(this=0x206870, data=0xa31dc000, size=40960, id=196)\u001b[0m\r\ncmpi             03:17:29-775 {mb_create_pool    :231} \u001b[32m\u001b[1mallocated buffer(this=0x206f70, data=0xa31d2000, size=40960, id=197)\u001b[0m\r\ncmpi             03:17:29-776 {attachToChn       :594} \u001b[31m\u001b[1mThe channel attr attach mapid: 0x0.\u001b[0m\r\ncmpi             03:17:29-776 {attachToChn       :594} \u001b[31m\u001b[1mThe channel attr attach mapid: 0x0.\u001b[0m\r\n[storage.c][rkipc_storage_file_scan_thread]:/, /dev/root, ext4, rw,relatime\n[storage.c][rkipc_storage_file_scan_thread]:[11:17:29.776999] i is 0, before rkipc_storage_read_file_list\n[storage.c][rkipc_storage_file_scan_thread]:[11:17:29.777292] i is 0, after rkipc_storage_read_file_list\n[storage.c][rkipc_storage_file_scan_thread]:[11:17:29.777396] i is 1, before rkipc_storage_read_file_list\n[storage.c][rkipc_storage_file_scan_thread]:[11:17:29.777518] i is 1, after rkipc_storage_read_file_list\n[storage.c][rkipc_storage_file_scan_thread]:[11:17:29.777604] i is 2, before rkipc_storage_read_file_list\n[storage.c][rkipc_storage_file_scan_thread]:[11:17:29.777710] i is 2, after rkipc_storage_read_file_list\n[storage.c][rkipc_storage_file_scan_thread]:total_size = 6089170, free_size = 5851128\n[storage.c][rkipc_storage_file_monitor_thread]:pHandle->dev_sta.mount_status is 4\n[video.c][rkipc_get_jpeg]:RK_MPI_VENC_GetStream timeout a004800e\n",
+    "stderr": "",
+    "status": 0
+  }
+}
