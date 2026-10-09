@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-09T10:22:07.688777+08:00",
+  "time": "2026-10-09T10:28:07.387738+08:00",
   "read_only": true,
   "identity_verified": true,
   "reply": {
@@ -9,7 +9,7 @@
     "host_id": "realboard-observer",
     "boot_id": "CAM-41eda5f2c5b00de1-6aa83c2b",
     "sequence": 0,
-    "nonce": "bac73bd4a5c9b21df3402648b0fc3b50",
+    "nonce": "d717a2539633dee54665175d81367bbc",
     "ok": true,
     "capabilities": [
       "capture_gate",
@@ -27,7 +27,7 @@
     "paired_host_id": "",
     "volume": 10,
     "saved_volume": 10,
-    "audio_busy": true,
+    "audio_busy": false,
     "audio_operation_id": "",
     "audio_operation_result": 0,
     "uploading_capture_id": "",
@@ -36,14 +36,14 @@
     "unpair_event_id": "CAM-41eda5f2c5b00de1-1b21d494",
     "pair_window_remaining_ms": 0,
     "phase": "idle",
-    "utc_ms": 1791512527615,
+    "utc_ms": 1791512887305,
     "diagnostics_active": false,
     "wifi_state": "available",
     "gate_enabled": false,
     "gate_id": "",
     "capture_id": "",
     "control_sequence": 20,
-    "snapshot_age_ms": 7802,
+    "snapshot_age_ms": 6412,
     "metrics": {
       "ssid": "MinMax-test",
       "rssi_dbm": -17,

@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-09T10:28:00+08:00",
+  "excel_wps_opening": {
+    "status": "pending",
+    "wps": "Launch attempted; no targetable WPS window returned after refresh.",
+    "excel": "Excel launched and Open/Browse reached. The owned file dialog appears in the state, but is not returned as an independently targetable window. Earlier file-name set_value calls failed with element not available in cached app state; no workbook opening pass is claimed.",
+    "next_action": "Resume native opening checks when owned-dialog controls are operable, or obtain user-observed opening results."
+  },
+  "ruler_accuracy": {
+    "status": "waiting_for_fixture_information",
+    "required": "A complete clear ruler face and a known angle for comparison.",
+    "question_sent": true,
+    "new_capture_created": false
+  },
+  "device_readonly_check": "live-device.json: identity matched, idle, Wi-Fi available, unpaired, gate disabled, pending_count 0",
+  "button_tests": "skipped as requested"
+}
