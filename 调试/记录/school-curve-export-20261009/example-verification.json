@@ -1,0 +1,17 @@
+{
+  "synthetic_example": true,
+  "production_exporter": true,
+  "students": 3,
+  "male": 1,
+  "female": 2,
+  "records": 4,
+  "native_charts": 4,
+  "series_per_record": 1,
+  "individual_frame_images": 0,
+  "summary_details_curves_order_match": true,
+  "signed_values_and_missing_gaps": true,
+  "maximum_absolute_reading": 7,
+  "independent_openpyxl_check": "passed",
+  "excel_wps_native_opening": "pending",
+  "sha256": "b2c53252c68e8d08b1ed4598f59040f23e4e8b7d1e5e403aae4d7386c257d741"
+}
