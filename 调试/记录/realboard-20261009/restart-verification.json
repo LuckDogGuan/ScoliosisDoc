@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "device_id": "CAM-41eda5f2c5b00de1",
+  "firmware": "3.3.7",
+  "flutter": "3.3.3",
+  "forced_exit_while_idle": true,
+  "reopened_online": true,
+  "board_pair_cleared": true,
+  "local_pair_and_pending_unpair_cleared": true,
+  "wifi_retained": true,
+  "boot_unchanged": true,
+  "sequence_before": 6,
+  "sequence_after": 20,
+  "button_acceptance_tested": false
+}

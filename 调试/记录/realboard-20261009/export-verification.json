@@ -1,0 +1,32 @@
+{
+  "roster_all": {
+    "ui_match_count": 36,
+    "ui_page_size": 6,
+    "ui_page_count": 6,
+    "export_count": 36,
+    "table_sheets": 18,
+    "school_grade_class_gender_name_birthdate_match": true,
+    "within_print_group_student_no_ascending": true
+  },
+  "roster_female": {
+    "ui_match_count": 18,
+    "ui_page_size": 6,
+    "ui_page_count": 3,
+    "export_count": 18,
+    "male_count": 0,
+    "sheets": 9
+  },
+  "records_all": {
+    "ui_record_count": 17,
+    "ui_people_count": 15,
+    "ui_page_size": 3,
+    "ui_page_count": 6,
+    "export_records": 17,
+    "export_detail_samples": 749,
+    "newest_first_order_match": true,
+    "summary_detail_id_student_link_match": true,
+    "frame_pts_angle_model_match": true,
+    "historical_fixture_not_used_for_max_angle": true,
+    "legacy_detail_label": "有效 with model-version marker; wording to be reviewed"
+  }
+}

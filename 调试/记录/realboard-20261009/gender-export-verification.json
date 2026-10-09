@@ -1,0 +1,33 @@
+{
+  "version": "3.3.3",
+  "native_ui_export": true,
+  "screen_gender_filter": "female",
+  "screen_filter_unchanged": true,
+  "roster": {
+    "count": 36,
+    "sex_counts": {
+      "男": 18,
+      "女": 18
+    },
+    "sheets": 19,
+    "identical_to_prior_all_gender_export": true
+  },
+  "records": {
+    "count": 17,
+    "sex_counts": {
+      "男": 10,
+      "女": 7
+    },
+    "samples": 749,
+    "all_ids_match_prior_database_verified_export": true,
+    "grouped_male_then_female": true,
+    "time_descending_within_gender": true,
+    "sample_values_and_associations_match": true,
+    "legacy_explicitly_labeled": true
+  },
+  "files": {
+    "roster-female-view-both-333.xlsx": "0ec39821e6022563424267bf658f5398de347c3d9024452bacbca9bcda7f8da7",
+    "records-female-view-both-333.xlsx": "2452209d6b5e6a608ccfbce3a77e65a5ab9ecbca3c0445f9165619e84cf1d005"
+  },
+  "excel_wps_opening": "pending"
+}
