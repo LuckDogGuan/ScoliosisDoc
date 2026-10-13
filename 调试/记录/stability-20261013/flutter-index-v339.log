@@ -1,0 +1,18 @@
+
+  GitNexus Analyzer
+
+[2K
+  Skipped 1 large files (>512KB, likely generated/vendored)
+[2K
+  - windows/flutter/ephemeral/flutter_windows.dll.pdb
+[2K
+  Set GITNEXUS_MAX_FILE_SIZE=<KB> to include files above the default cap.
+[2K
+Parse cache: pruned 1 stale chunk entries
+  Repository indexed successfully (18.4s)
+
+  2,757 nodes | 7,583 edges | 122 clusters | 236 flows
+  D:\code\Scoliosis\ScoliosisFlutter
+
+(node:47124) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)

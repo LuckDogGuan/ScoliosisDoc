@@ -1,0 +1,45 @@
+{
+  "status": "accepted_at_user_requested_20_minutes",
+  "runner_exit": "user requested gate stop; original 60-minute runner cannot produce its natural passed line",
+  "rounds": 57,
+  "minimum_elapsed_ms": 1200000,
+  "actual_elapsed_ms": 1291609,
+  "cases": [
+    "after_confirmed_camera_stop",
+    "bidirectional_outage",
+    "completed_ack_loss",
+    "partial_upload_retry",
+    "recording_event_loss",
+    "sixty_second_limit_requires_release",
+    "slow_receiver"
+  ],
+  "total_video_bytes": 98090626,
+  "all_received_video_sha256_readback": true,
+  "all_frames_decoded": true,
+  "max_video_duration_error_ms": 34,
+  "kernel_boot": "d3f5ee60-5b1b-46dd-9d7e-b4372dedbb4d",
+  "controlled_restart": {
+    "check": "controlled_restart",
+    "device": "CAM-000123",
+    "capture_id": "CAM-000123-v3-1791866242889969-2366872903",
+    "old_boot": "CAM-000123-d9f36571",
+    "new_boot": "CAM-000123-39ea0692",
+    "kernel_boot": "d3f5ee60-5b1b-46dd-9d7e-b4372dedbb4d",
+    "old_pid": 1272,
+    "new_pid": 2335,
+    "rkipc_pid": "439",
+    "camera_stopped": true,
+    "gate_enabled": false,
+    "volume": 10,
+    "retained_raw_files": [
+      {
+        "path": "/video0/20261013123759.mp4",
+        "sha256": "ff1436c815a197366e968941df2c4a592d7d5d9cbfa634439900c217fb51d27f"
+      }
+    ],
+    "time": "2026-10-13T12:38:13.634973"
+  },
+  "volume": 10,
+  "backlight": "unchanged",
+  "data_root": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\stability-board-20261013-faults-verified"
+}

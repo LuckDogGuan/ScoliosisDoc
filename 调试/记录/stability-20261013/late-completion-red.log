@@ -1,0 +1,18 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart
+00:00 +0: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +0 -1: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate [E]
+  Expected: '2'
+    Actual: '1'
+     Which: is different.
+            Expected: 2
+              Actual: 1
+                      ^
+             Differ at offset 0
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\connection_stability_test.dart 182:7           main.<fn>
+  
+00:09 +0 -1: active partial body is cancelled during server shutdown
+00:09 +1 -1: Some tests failed.

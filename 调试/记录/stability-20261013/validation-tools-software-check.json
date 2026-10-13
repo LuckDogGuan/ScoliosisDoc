@@ -1,0 +1,8 @@
+{
+  "python_parse": "passed",
+  "full_frame_decode": "passed",
+  "decoded_frames": 8,
+  "duration_ms": 800,
+  "invalid_rounds": "rejected",
+  "board_mutation": false
+}

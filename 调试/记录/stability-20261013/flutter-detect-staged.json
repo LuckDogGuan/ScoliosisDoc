@@ -1,0 +1,392 @@
+{
+  "summary": {
+    "changed_count": 38,
+    "affected_count": 9,
+    "changed_files": 18,
+    "risk_level": "high"
+  },
+  "changed_symbols": [
+    {
+      "id": "Section:AGENTS.md:L2:GitNexus — Code Intelligence",
+      "name": "GitNexus — Code Intelligence",
+      "filePath": "AGENTS.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:CLAUDE.md:L2:GitNexus — Code Intelligence",
+      "name": "GitNexus — Code Intelligence",
+      "filePath": "CLAUDE.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/app/app_controller.dart:AppController",
+      "name": "AppController",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._shutdown",
+      "name": "_shutdown",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController._startingCapture",
+      "name": "_startingCapture",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController.recordingBusy",
+      "name": "recordingBusy",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/app/app_controller.dart:AppController.preparedStudent",
+      "name": "preparedStudent",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.uploadsPaused#1",
+      "name": "uploadsPaused",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.setUploadsPaused#2",
+      "name": "setUploadsPaused",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController.setMode#1",
+      "name": "setMode",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController._prepareAfterCompletion#2",
+      "name": "_prepareAfterCompletion",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/app/app_controller.dart:AppController._grantPendingUploads#1",
+      "name": "_grantPendingUploads",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/audio/name_speaker.dart:WindowsSapiSpeaker",
+      "name": "WindowsSapiSpeaker",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/audio/name_speaker.dart:WindowsSapiSpeaker._tts",
+      "name": "_tts",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/audio/name_speaker.dart:WindowsSapiSpeaker._initializing",
+      "name": "_initializing",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/audio/name_speaker.dart:WindowsSapiSpeaker._operations",
+      "name": "_operations",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/audio/name_speaker.dart:WindowsSapiSpeaker.Future",
+      "name": "Future",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/audio/name_speaker.dart:WindowsSapiSpeaker._generation",
+      "name": "_generation",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/audio/name_speaker.dart:WindowsSapiSpeaker._serial#1",
+      "name": "_serial",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/audio/name_speaker.dart:WindowsSapiSpeaker._ensure#0",
+      "name": "_ensure",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/audio/name_speaker.dart:WindowsSapiSpeaker._initialize#0",
+      "name": "_initialize",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/audio/name_speaker.dart:WindowsSapiSpeaker.speak#1",
+      "name": "speak",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/audio/name_speaker.dart:WindowsSapiSpeaker.stop#0",
+      "name": "stop",
+      "filePath": "lib/audio/name_speaker.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/main.dart:_HomeShellState",
+      "name": "_HomeShellState",
+      "filePath": "lib/main.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/net/instrument_server.dart:InstrumentServer._json#1",
+      "name": "_json",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/net/instrument_server.dart:InstrumentServer._requiredId#1",
+      "name": "_requiredId",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/net/instrument_server.dart:InstrumentServer._sessionOwningCapture#2",
+      "name": "_sessionOwningCapture",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/net/instrument_server.dart:InstrumentServer._handle#1",
+      "name": "_handle",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/net/instrument_server.dart:InstrumentServer._fileProof#2",
+      "name": "_fileProof",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/instrument_server.dart:InstrumentServer.devices",
+      "name": "devices",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/instrument_server.dart:InstrumentServer.diagnosticsId",
+      "name": "diagnosticsId",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/instrument_server.dart:InstrumentServer.diagnosticsDevice",
+      "name": "diagnosticsDevice",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/instrument_server.dart:InstrumentServer._id",
+      "name": "_id",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/instrument_server.dart:InstrumentServer.RegExp",
+      "name": "RegExp",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/net/instrument_server.dart:InstrumentServer._captureReceiptPath",
+      "name": "_captureReceiptPath",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/net/instrument_server.dart:InstrumentServer",
+      "name": "InstrumentServer",
+      "filePath": "lib/net/instrument_server.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_Sequence",
+      "name": "_Sequence",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_ShotBar",
+      "name": "_ShotBar",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_104_main",
+      "name": "Main → _serial",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "speak",
+          "step": 4
+        },
+        {
+          "symbol": "_serial",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_106_build",
+      "name": "Build → GrantUpload",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "_grantPendingUploads",
+          "step": 3
+        },
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_107_build",
+      "name": "Build → RevokeUpload",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "_grantPendingUploads",
+          "step": 3
+        },
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_108_build",
+      "name": "Build → Write",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "_grantPendingUploads",
+          "step": 3
+        },
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_109_build",
+      "name": "Build → UploadsPaused",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "_grantPendingUploads",
+          "step": 3
+        },
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        },
+        {
+          "symbol": "uploadsPaused",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_161_main",
+      "name": "Main → GrantUpload",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "_grantPendingUploads",
+          "step": 3
+        },
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_162_main",
+      "name": "Main → RevokeUpload",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "_grantPendingUploads",
+          "step": 3
+        },
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_163_main",
+      "name": "Main → Write",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "_grantPendingUploads",
+          "step": 3
+        },
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_164_main",
+      "name": "Main → UploadsPaused",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "_grantPendingUploads",
+          "step": 3
+        },
+        {
+          "symbol": "setUploadsPaused",
+          "step": 2
+        },
+        {
+          "symbol": "uploadsPaused",
+          "step": 4
+        }
+      ]
+    }
+  ]
+}

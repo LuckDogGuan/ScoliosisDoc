@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-13T01:29:07.467990+00:00",
+  "original": {
+    "mute": false,
+    "volume": 0.10003136843442917
+  },
+  "scenarios": [],
+  "actual_speaker_listening": "not_verified",
+  "missing_output_device": "not_mutated; device/service removal outside ordinary-user test",
+  "source": "Microsoft CoreAudio IMMDeviceEnumerator and IAudioEndpointVolume",
+  "same_instance_transitions": {
+    "exit_code": 0,
+    "transitions": 3,
+    "final": {
+      "mute": false,
+      "volume": 0.10003136843442917
+    },
+    "evidence": "D:\\code\\Scoliosis\\Luckfox\\调试\\记录\\stability-20261013\\windows-audio-transitions\\transitions-73351765000000"
+  },
+  "restored": {
+    "mute": false,
+    "volume": 0.10003136843442917
+  },
+  "original_state_restored": true
+}

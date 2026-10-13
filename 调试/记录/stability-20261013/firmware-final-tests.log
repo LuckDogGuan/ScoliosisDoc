@@ -1,0 +1,30 @@
+make CC=gcc TARGET=instrument_app_host
+make[1]: Entering directory '/home/guanjx/luckfox/Scoliosis'
+gcc -std=c11 -D_POSIX_C_SOURCE=200809L -D_DEFAULT_SOURCE -Wall -Wextra -Werror -O2 -Iinclude -Ithird_party/cjson -Ithird_party/lwbtn/include src/app/app_controller.c src/app/policy.c src/middleware/legacy.c src/platform/process.c src/platform/trace.c src/platform/luckfox_gpio.c src/platform/luckfox_camera.c src/app/runtime_v3.c src/middleware/persistence.c src/platform/clock.c src/middleware/buttons.c third_party/lwbtn/lwbtn.c src/config/config.c src/platform/luckfox_wifi.c src/middleware/upload.c src/middleware/discover.c src/storage/storage.c src/platform/luckfox_audio.c src/middleware/capture.c src/platform/luckfox_battery.c src/platform/luckfox_button.c src/platform/luckfox_light.c src/platform/light_test.c third_party/cjson/cJSON.c -o instrument_app_host
+make[1]: Leaving directory '/home/guanjx/luckfox/Scoliosis'
+./instrument_app_host --check-config config.example.json
+config OK
+python3 tests/test_upload.py
+upload response: HTTP/1.0 500 Internal Server Error
+binary upload, hello volume sync, save-volume, and invalid config OK
+python3 tests/test_pending_upload.py
+upload response: HTTP/1.0 500 Internal Server Error
+pending receipt, hash mismatch, retry, rejection, and async worker OK
+python3 tests/test_capture_discard.py
+capture_discard: mismatch, busy, exact proof, duplicate receipt passed
+evidence: /tmp/scoliosis-discard-3awq0n62
+gcc -std=c11 -D_POSIX_C_SOURCE=200809L -D_DEFAULT_SOURCE -Wall -Wextra -Werror -O2 -Iinclude -Ithird_party/cjson -Ithird_party/lwbtn/include tests/test_buttons.c src/middleware/buttons.c src/platform/luckfox_gpio.c third_party/lwbtn/lwbtn.c -o tests/.buttons_check
+./tests/.buttons_check
+buttons: boot hold, bounce, staggered, three keys, error, gap, wrap PASS; lwbtn=24 button=24
+PASS: actual completion at 1999/2000/2999/3000 ms
+PASS: failed record result must block new capture until stopped camera is confirmed
+PASS: record-worker EOF must block new capture until stopped camera is confirmed
+PASS: active audio operation must not block capture_enable
+PASS: trace lock contention never stalls the coordinator
+Evidence: /tmp/stability-failure-paths-7zqbzstj
+PASS: abort_worker kills command shell and sleep grandchild; no surviving descendants
+Evidence: /tmp/stability-abort-worker-iy96wnsl
+PASS: blocked durable event scan cannot stall input/control loop; bounded worker cleanup
+Evidence: /tmp/event-scan-latency-2wo1irgm
+PASS: business loop pause preserves continuously sampled hold; raw failure still requires all-release
+Evidence: /tmp/button-sampling-isolation-am79kvl0

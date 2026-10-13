@@ -1,0 +1,9 @@
+{
+  "device": "CAM-000123",
+  "requested_volume": 10,
+  "confirmed_volume": 10,
+  "saved_volume": 10,
+  "boot_id": "CAM-000123-1105dd95",
+  "operation_id": "audio-user-volume10-116a471dce4a",
+  "time": 1791858451.0834746
+}

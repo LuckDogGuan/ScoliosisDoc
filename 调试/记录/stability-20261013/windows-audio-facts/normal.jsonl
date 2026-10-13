@@ -1,0 +1,4 @@
+{"scenario":"normal","check":"short_speech_completes","elapsed_ms":2858,"event_loop_ticks":52}
+{"scenario":"normal","check":"stop_cancels_long_speech","elapsed_ms":1823,"event_loop_ticks":36}
+{"scenario":"normal","check":"fresh_speech_after_stop","elapsed_ms":2374,"event_loop_ticks":48}
+{"scenario":"normal","check":"new_request_replaces_old","elapsed_ms":3894,"event_loop_ticks":78}

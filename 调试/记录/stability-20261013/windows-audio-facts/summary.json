@@ -1,0 +1,69 @@
+{
+  "utc": "2026-10-13T01:26:28.239370+00:00",
+  "original": {
+    "mute": false,
+    "volume": 0.10003136843442917
+  },
+  "scenarios": [
+    {
+      "name": "normal",
+      "before": {
+        "mute": false,
+        "volume": 0.10003136843442917
+      },
+      "after": {
+        "mute": false,
+        "volume": 0.10003136843442917
+      },
+      "state_preserved": true,
+      "exit_code": 0
+    },
+    {
+      "name": "system_mute",
+      "before": {
+        "mute": true,
+        "volume": 0.10003136843442917
+      },
+      "after": {
+        "mute": true,
+        "volume": 0.10003136843442917
+      },
+      "state_preserved": true,
+      "exit_code": 0
+    },
+    {
+      "name": "volume_zero",
+      "before": {
+        "mute": false,
+        "volume": 0.0
+      },
+      "after": {
+        "mute": false,
+        "volume": 0.0
+      },
+      "state_preserved": true,
+      "exit_code": 0
+    },
+    {
+      "name": "sound_restored",
+      "before": {
+        "mute": false,
+        "volume": 0.10003136843442917
+      },
+      "after": {
+        "mute": false,
+        "volume": 0.10003136843442917
+      },
+      "state_preserved": true,
+      "exit_code": 0
+    }
+  ],
+  "actual_speaker_listening": "not_verified",
+  "missing_output_device": "not_mutated; device/service removal outside ordinary-user test",
+  "source": "Microsoft CoreAudio IMMDeviceEnumerator and IAudioEndpointVolume",
+  "restored": {
+    "mute": false,
+    "volume": 0.10003136843442917
+  },
+  "original_state_restored": true
+}

@@ -1,0 +1,126 @@
+{
+  "device": "CAM-000123",
+  "serial": "3253c006806f5194",
+  "utc": "2026-10-13T04:57:44Z",
+  "apply": true,
+  "package_sha256": "3fc21b58f64a8abb8f08eb59ded5e140e22521a12f4da37bb3f63608f9c41aaf",
+  "binary_sha256": "e4466b57a3349e83ff4744cac1e02c41a010be82482aff1f3f46ad09e7fe3849",
+  "payload_files_verified": [
+    {
+      "path": "/opt/instrument/bin/instrument_app",
+      "sha256": "e4466b57a3349e83ff4744cac1e02c41a010be82482aff1f3f46ad09e7fe3849"
+    },
+    {
+      "path": "/opt/instrument/bin/luckfox_mux_adapter.so",
+      "sha256": "6e8db17c90e9c8b6452c1a334559786555f275e66ba93c6fcbf8453b1ab34725"
+    },
+    {
+      "path": "/RkLunch.sh",
+      "sha256": "331a4fb4d28aa1209158fefb4285c9636bde5d48316c2da065fb5cf7e5ae9a74"
+    },
+    {
+      "path": "/oem/usr/etc/init.d/S80instrument",
+      "sha256": "7ac42d6315aff83d90338c2b5f1517c27fd64c1e3011df58627b75aa21ee395e"
+    },
+    {
+      "path": "/opt/instrument/sounds/boot_ready.wav",
+      "sha256": "4f2bf66750e5fd182a986a400a9971e2d909fec9b7f74d7b805f38f8958cdeff"
+    },
+    {
+      "path": "/opt/instrument/sounds/capture_disabled.wav",
+      "sha256": "e44bf64b01a099fe0e5d6d307461a9213e7e682f72268b71b7899c430032b90c"
+    },
+    {
+      "path": "/opt/instrument/sounds/capture_done.wav",
+      "sha256": "7bd0ca4c07d16cb8f04adb95803b1555da5f078c96e0305d7069f84b3d0a947c"
+    },
+    {
+      "path": "/opt/instrument/sounds/capture_enabled.wav",
+      "sha256": "5a4ab63fc35a836dfcd6a5cd609e4f07cfa1704734671a267ce857048fcb5e77"
+    },
+    {
+      "path": "/opt/instrument/sounds/capture_failed.wav",
+      "sha256": "6ff8951e718a82264dc00c5e396a61fb4c12b6ac0cc7775308e37cc1b3722e80"
+    },
+    {
+      "path": "/opt/instrument/sounds/capture_short.wav",
+      "sha256": "3977288ccfff7fc921255781b726076a292d3e16f989aa609145f6095b15d402"
+    },
+    {
+      "path": "/opt/instrument/sounds/capture_start.wav",
+      "sha256": "1dc75cf8b6f3227894416ae87d87ed509697684e2afa5ffe2976e6a2f73a973a"
+    },
+    {
+      "path": "/opt/instrument/sounds/pair_disconnected.wav",
+      "sha256": "e37ea96307e0f8c4471df0584f63d004db7283fde73d4fd4e94324e7c6dc43e6"
+    },
+    {
+      "path": "/opt/instrument/sounds/pair_failed.wav",
+      "sha256": "70f8852b3ddb95dff4f4ce7919a592bfb280c2fe446bed17afde75f0fcb254bc"
+    },
+    {
+      "path": "/opt/instrument/sounds/pair_success.wav",
+      "sha256": "0c9e618a618d3c0c8f88c4139ef98ca4b74e4b6f3fe946e5741ee9ad81a106e2"
+    },
+    {
+      "path": "/opt/instrument/sounds/pair_window.wav",
+      "sha256": "0201014ca76147140e186b05faf03ac95b818c8b51bc384136ce0651405ff084"
+    },
+    {
+      "path": "/opt/instrument/sounds/pair_window_closed.wav",
+      "sha256": "ac53ee59be6aa5b6f83799d9b66ba6b6ab802fb92046d48771fa46447fac5315"
+    },
+    {
+      "path": "/opt/instrument/sounds/please_connect.wav",
+      "sha256": "e21ecb01b0348807f3dd920c280178e87cd21802c786db5f9b5e4d891b14a5a2"
+    },
+    {
+      "path": "/opt/instrument/sounds/saved_on_device.wav",
+      "sha256": "c08541807fc4700464d77d4f3d27e603a953c23215145e885bcdce290cbf5fdd"
+    },
+    {
+      "path": "/opt/instrument/sounds/storage_low.wav",
+      "sha256": "ea9c9b0f7b569a4c2fe710583d4550668211f809e6dc3a9a073594a43148efdb"
+    },
+    {
+      "path": "/opt/instrument/sounds/uploaded.wav",
+      "sha256": "d06de8634a00672fbed2ae04cfe7d602d6a6ea2f78f63aeacf599ddcfddb9894"
+    },
+    {
+      "path": "/opt/instrument/sounds/volume_test.wav",
+      "sha256": "63dcd84d0c7529898a4a9387cf5fff91e0db0fc82763db05281c72247247c9fd"
+    },
+    {
+      "path": "/opt/instrument/sounds/wifi_attention.wav",
+      "sha256": "c9dc23351de857a142a75811e8a7ab152dcceae05c051230e409ac00f781b8e7"
+    },
+    {
+      "path": "/opt/instrument/sounds/wifi_connected.wav",
+      "sha256": "9ba152e1f85a2286102e9dd94e38ac8c9d4c2d03491295baf3e043c6088ea99c"
+    },
+    {
+      "path": "/opt/instrument/sounds/wifi_disconnected.wav",
+      "sha256": "51fd45634f8f00ee60169354c8e0785d7749e3dc5579ff0deae3c4e1aa759636"
+    },
+    {
+      "path": "/opt/instrument/sounds/wifi_recovering.wav",
+      "sha256": "f528d9ca211c02bcb3642d12b0af29b0f6633c38ae4e52bdfcd82d8c679d46be"
+    },
+    {
+      "path": "/opt/instrument/sounds/wifi_restored.wav",
+      "sha256": "c86770bfd1128c9920740e2ca0e88bd2befdbc3a21a01fe67bdb77fea378869e"
+    }
+  ],
+  "before_boot": "CAM-000123-39ea0692",
+  "kernel_boot": "d3f5ee60-5b1b-46dd-9d7e-b4372dedbb4d",
+  "rkipc_pid": "439",
+  "rollback": "/opt/instrument/backups/stability-final-20261013T045746Z",
+  "after_boot": "CAM-000123-0775cf1a",
+  "normal_pid": 853,
+  "volume": 10,
+  "saved_volume": 10,
+  "config_restored_except_volume": true,
+  "pair_restored": true,
+  "simulation_disabled": true,
+  "status": "normal_runtime_verified"
+}

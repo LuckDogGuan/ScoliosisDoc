@@ -1,0 +1,173 @@
+{
+  "context_date": "2026-10-13",
+  "sample_utc": "2026-10-13T01:51:44.9625079Z",
+  "readonly": true,
+  "adapter": {
+    "Name": "以太网 2",
+    "InterfaceDescription": "Realtek PCIe GbE Family Controller",
+    "ifIndex": 31,
+    "Status": "Disconnected",
+    "LinkSpeed": "0 bps",
+    "MediaConnectionState": 2,
+    "AdminStatus": 1,
+    "DriverInformation": "Driver Date 2025-07-10 Version 1168.26.50.2025 NDIS 6.89",
+    "DriverFileName": "rt68cx21x64.sys",
+    "DriverVersion": "1168.26.50.2025",
+    "DriverDate": "2025-07-10"
+  },
+  "pnp": {
+    "Status": "OK",
+    "Problem": 0,
+    "InstanceId": "PCI\\VEN_10EC&DEV_8168&SUBSYS_39FE17AA&REV_15\\01000000684CE00000",
+    "FriendlyName": "Realtek PCIe GbE Family Controller"
+  },
+  "cim": {
+    "NetEnabled": false,
+    "NetConnectionStatus": 7,
+    "ConfigManagerErrorCode": 0,
+    "PhysicalAdapter": true,
+    "ServiceName": "rt68cx21"
+  },
+  "driver": {
+    "DriverVersion": "1168.26.50.2025",
+    "DriverDate": "2025-07-10T08:00:00+08:00",
+    "DriverProviderName": "Realtek",
+    "IsSigned": true,
+    "InfName": "oem28.inf"
+  },
+  "power_data_raw": [
+    56,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    255,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    100,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0
+  ],
+  "power_data_size": 56,
+  "power_most_recent_enum": 1,
+  "power_interpretation": "Most recent power state enum 1 = D0; this is not proof PHY/cable/router is healthy",
+  "power_management_query_error": "Get-NetAdapterPowerManagement: device attached to system is not functioning",
+  "advanced": [
+    {
+      "DisplayName": "节能乙太网路",
+      "DisplayValue": "开启",
+      "RegistryKeyword": "*EEE",
+      "RegistryValue": [
+        "1"
+      ]
+    },
+    {
+      "DisplayName": "连接速度和双工模式",
+      "DisplayValue": "自动侦测",
+      "RegistryKeyword": "*SpeedDuplex",
+      "RegistryValue": [
+        "0"
+      ]
+    },
+    {
+      "DisplayName": "Advanced EEE",
+      "DisplayValue": "关闭",
+      "RegistryKeyword": "AdvancedEEE",
+      "RegistryValue": [
+        "0"
+      ]
+    },
+    {
+      "DisplayName": "环保节能",
+      "DisplayValue": "开启",
+      "RegistryKeyword": "EnableGreenEthernet",
+      "RegistryValue": [
+        "1"
+      ]
+    },
+    {
+      "DisplayName": "Gigabit Lite",
+      "DisplayValue": "开启",
+      "RegistryKeyword": "GigaLite",
+      "RegistryValue": [
+        "1"
+      ]
+    },
+    {
+      "DisplayName": "Power Saving Mode",
+      "DisplayValue": "开启",
+      "RegistryKeyword": "PowerSavingMode",
+      "RegistryValue": [
+        "1"
+      ]
+    }
+  ],
+  "stats": {
+    "ReceivedBytes": 0,
+    "SentBytes": 0,
+    "ReceivedPacketErrors": 0,
+    "OutboundPacketErrors": 0
+  },
+  "ipv4": {
+    "ConnectionState": 0,
+    "Dhcp": 1,
+    "InterfaceMetric": 75,
+    "AutomaticMetric": 1
+  },
+  "rt68cx21_events_last_7_days": [],
+  "target_pnp_event_counts_last_7_days": {
+    "Configuration": 0,
+    "DeviceManagement": 0,
+    "DriverWatchdog": 0
+  },
+  "sources": [
+    "https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ns-wdm-cm_power_data_s",
+    "https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ne-wdm-_device_power_state"
+  ],
+  "boundary": "Carrier not established is confirmed. Cable/LAN port/PHY/negotiation/power saving root cause not established. No configuration or device state changed."
+}

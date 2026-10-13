@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "changed_count": 2,
+    "affected_count": 0,
+    "changed_files": 5,
+    "risk_level": "low"
+  },
+  "changed_symbols": [
+    {
+      "id": "Macro:include/app.h:INSTRUMENT_VERSION",
+      "name": "INSTRUMENT_VERSION",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:runtime_run~shape:Config:none:pointer:1",
+      "name": "runtime_run",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": []
+}

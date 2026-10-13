@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-13",
+  "device_id": "CAM-41eda5f2c5b00de1",
+  "data_source": "Read-only active workspace SQLite runtime_state lastWorkspace and 2026-10-12 business_logs",
+  "workspace_db": "D:\\code\\Scoliosis\\工作空间\\test202610\\screening.sqlite3",
+  "last_confirmed_reply": {
+    "id": 117944,
+    "at": "2026-10-12T06:04:07.799659Z",
+    "source": "board_to_pc",
+    "op": "pending_query_reply",
+    "device_id": "CAM-41eda5f2c5b00de1",
+    "boot_id": "CAM-41eda5f2c5b00de1-d8b74b30",
+    "source_endpoint": "192.168.101.4:37020",
+    "host_id": "82cf4d132682a987d068c18f2bc0004f",
+    "ok": true
+  },
+  "last_confirmed_hello": {
+    "id": 117942,
+    "at": "2026-10-12T06:04:07.775476Z",
+    "source": "board_to_pc",
+    "op": "hello_reply",
+    "device_id": "CAM-41eda5f2c5b00de1",
+    "boot_id": "CAM-41eda5f2c5b00de1-d8b74b30",
+    "capture_id": "",
+    "gate_id": "",
+    "phase": "idle",
+    "source_endpoint": "192.168.101.4:37020",
+    "host_id": "82cf4d132682a987d068c18f2bc0004f",
+    "ok": true
+  },
+  "hello_count": 249,
+  "boot_segment_count": 7,
+  "boot_changes": 6,
+  "phase_counts": {
+    "idle": 176,
+    "prepared": 73
+  },
+  "pending_count_all_zero": true,
+  "target_http_rows": 0,
+  "all_device_http_rows_on_day": 0,
+  "live_probe": {
+    "device_id": "CAM-41eda5f2c5b00de1",
+    "last_confirmed_ip": "192.168.101.4",
+    "last_confirmed_reply_utc": "2026-10-12T06:04:07.775476Z",
+    "udp": [
+      {
+        "bind": "route-default",
+        "target": "192.168.101.4:37020",
+        "error": "TimeoutError: timed out"
+      },
+      {
+        "bind": "192.168.110.55",
+        "target": "192.168.101.4:37020",
+        "error": "OSError: [WinError 10049] 在其上下文中，该请求的地址无效。"
+      },
+      {
+        "bind": "192.168.0.20",
+        "target": "192.168.101.4:37020",
+        "error": "TimeoutError: timed out"
+      }
+    ],
+    "known_host_pin": {
+      "path": "D:\\code\\Scoliosis\\Luckfox\\调试\\记录\\SSH登录\\known_hosts",
+      "expected": "SHA256:QLjOSdI3DrGRFdzX72pAcNRo4l6QPngLFHBNr6SYKgk",
+      "matching_entries": [
+        {
+          "host": "192.168.101.3",
+          "kind": "ssh-ed25519"
+        }
+      ]
+    },
+    "ssh": {
+      "target": "192.168.101.4:22",
+      "error": "SSHException: No existing session",
+      "authenticated": false,
+      "live_fingerprint_verified": false,
+      "interpretation": "No SSH session/banner/host key was established; no device identity or runtime diagnostics obtained"
+    },
+    "pc_network_at_probe": {
+      "wlan_ipv4": "192.168.0.20",
+      "prefix_length": 23,
+      "previous_instruction_ipv4": "192.168.110.55",
+      "route_to_last_ip": {
+        "interface": "Mihomo",
+        "source_ipv4": "198.18.0.1",
+        "destination_prefix": "0.0.0.0/0",
+        "next_hop": "198.18.0.2"
+      }
+    }
+  },
+  "root_cause_status": "Unresolved: business initialization changed 6 times but no historical kernel boot/PID/exit/crash evidence; original device not reachable for runtime diagnostics",
+  "readonly_constraints": "No pairing/button/config/route/service changes; no credentials or student data saved; no network sweep"
+}

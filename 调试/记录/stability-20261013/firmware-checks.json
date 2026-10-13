@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-13",
+  "scope": "WSL host regressions; no real-board state changes",
+  "evidence_dir": "/tmp/firmware-host-final-1wjml1c6",
+  "cases": [
+    {
+      "name": "host-build-warning-clean",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "gcc -std=c11 -D_POSIX_C_SOURCE=200809L -D_DEFAULT_SOURCE -Wall -Wextra -Werror -O2 -Iinclude -Ithird_party/cjson -Ithird_party/lwbtn/include src/app/app_controller.c src/app/policy.c src/middleware/legacy.c src/platform/process.c src/platform/trace.c src/platform/luckfox_gpio.c src/platform/luckfox_camera.c src/app/runtime_v3.c src/middleware/persistence.c src/platform/clock.c src/middleware/buttons.c third_party/lwbtn/lwbtn.c src/config/config.c src/platform/luckfox_wifi.c src/middleware/upload.c src/middleware/discover.c src/storage/storage.c src/platform/luckfox_audio.c src/middleware/capture.c src/platform/luckfox_battery.c src/platform/luckfox_button.c src/platform/luckfox_light.c src/platform/light_test.c third_party/cjson/cJSON.c -o /tmp/firmware-host-final-1wjml1c6/instrument_app_host\n",
+      "stderr": ""
+    },
+    {
+      "name": "config-validation",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "config OK\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_capture_audio_failure.py",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "PASS: failed prompt cannot prevent an authorized capture\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_stability_failure_paths.py",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "PASS: failed record result must block new capture until stopped camera is confirmed\nPASS: record-worker EOF must block new capture until stopped camera is confirmed\nPASS: active audio operation must not block capture_enable\nPASS: trace lock contention never stalls the coordinator\nEvidence: /tmp/stability-failure-paths-faobyx75\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_stability_abort_worker.py",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "PASS: abort_worker kills command shell and sleep grandchild; no surviving descendants\nEvidence: /tmp/stability-abort-worker-13rd2td9\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_capture_minimum.py",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "PASS: actual completion at 1999/2000/2999/3000 ms\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_pending_upload.py",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "pending receipt, hash mismatch, retry, rejection, and async worker OK\n",
+      "stderr": "upload response: HTTP/1.0 500 Internal Server Error\n"
+    },
+    {
+      "name": "test_upload.py",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "binary upload, hello volume sync, save-volume, and invalid config OK\n",
+      "stderr": "upload response: HTTP/1.0 500 Internal Server Error\n"
+    },
+    {
+      "name": "test_stability_runtime.py",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "PASS: snapshot identity, monotonic elapsed, finalizing freeze, completion host filter including re-pair\nPASS: hung recording watchdog, durable failed result, recovery requires stopped camera status\nPASS: command success/failure/exec failure/zero timeout; timeout kills process group and direct child is reaped\nEvidence: /tmp/stability-runtime-39eapvs3\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_capture_discard.py",
+      "status": "pass",
+      "returncode": 0,
+      "stdout": "capture_discard: mismatch, busy, exact proof, duplicate receipt passed\nevidence: /tmp/scoliosis-discard-zxjodci_\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "src/app/runtime_v3.c": "ed87c5713db6807fc33edb0a20ff8ec50717a6e6c7665e627be42c08d58a7ed0",
+    "src/platform/process.c": "d13b6a0936b2b43ca88bc042bcc51c7621eedebb34f4fc6083d4c22b1c6a5e45",
+    "src/platform/luckfox_audio.c": "0ff2ebbc7b9318356cfe0d924d45d6f9feef58495b6c515403f024007cc835cf",
+    "src/platform/trace.c": "4d81edd56d4f5a3b92687a05dcaa52ec778e4ab2b2ca2aa348860712cec71dea"
+  },
+  "reviewed_risks": [
+    {
+      "status": "fixed and host regression passed",
+      "finding": "failed C result and record EOF lock capture gate until stopped status confirmed"
+    },
+    {
+      "status": "fixed and host regression passed",
+      "finding": "audio.pid no longer blocks capture_enable"
+    },
+    {
+      "status": "fixed and host regression passed",
+      "finding": "abort_worker kills isolated command shell and sleep descendants"
+    },
+    {
+      "status": "fixed by static inspection",
+      "finding": "shutdown record loop now calls worker_watchdog; no exit integration test performed"
+    },
+    {
+      "status": "fixed by static inspection",
+      "finding": "capture start guard no longer includes audio.pid"
+    },
+    {
+      "status": "fixed and host regression passed",
+      "finding": "last_completed_event host must match active pairing, including unpair/re-pair"
+    }
+  ],
+  "boot_ready": {
+    "status": "static check passed",
+    "queue_calls": 1,
+    "limitation": "No real speaker audibility or reboot count verified by this agent"
+  },
+  "not_verified": [
+    "Real-board 20 captures and one-hour soak are root responsibility",
+    "Physical speaker audibility",
+    "Unexpected power-loss cold boot",
+    "Historical real failure cause"
+  ],
+  "injected_regressions_before_fix": [
+    {
+      "scenario": "Abort worker with isolated command shell and sleeping grandchild",
+      "observed": "Grandchild remained alive after worker kill",
+      "evidence_dir": "/tmp/process-parent-death-5bh8vaqj",
+      "final_status": "PASS in test_stability_abort_worker.py"
+    },
+    {
+      "scenario": "Complete with host A, replace pairing with host B, request B hello",
+      "observed": "A completion was included in B reply",
+      "evidence_dir": "/tmp/stability-runtime-mjqqakuu",
+      "final_status": "PASS in test_stability_runtime.py"
+    },
+    {
+      "scenario": "Existing discard host launcher after make_worker gains monotonic timestamp",
+      "observed": "Link failed with undefined reference to v3_now",
+      "final_status": "PASS after clock.c test dependency added"
+    }
+  ],
+  "real_field_failure": {
+    "status": "Not reproduced or attributed by this host-only agent",
+    "note": "Injected regressions do not establish historical board restart cause"
+  }
+}

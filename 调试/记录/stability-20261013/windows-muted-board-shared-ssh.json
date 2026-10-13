@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-13T04:15:22.081723+00:00",
+  "original": {
+    "mute": true,
+    "volume": 0.10003136843442917
+  },
+  "states": [
+    {
+      "utc": "2026-10-13T04:15:22.099484+00:00",
+      "mute": true,
+      "volume": 0.10003136843442917
+    }
+  ],
+  "restored": true,
+  "during": {
+    "mute": true,
+    "volume": 0.10003136843442917
+  },
+  "exit_code": 1,
+  "after": {
+    "mute": true,
+    "volume": 0.10003136843442917
+  }
+}

@@ -1,0 +1,122 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart: selects third frame in five-frame groups with original PTS
+00:00 +1: D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart: accepts machine line and legacy reader without inventing failed angle
+00:00 +2: loading D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart
+00:00 +2: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +3: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: filter, group and delete a school during an offline shot
+00:02 +4: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: removing a school keeps an already queued device capture
+00:02 +5: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart
+00:03 +5: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: gender selection persists and prepared records never enter history
+00:03 +6: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:06 +7: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_gate_test.dart
+00:07 +7: D:/code/Scoliosis/ScoliosisFlutter/test/capture_gate_test.dart: completion and next association persist together; late A never clears B
+00:07 +8: D:/code/Scoliosis/ScoliosisFlutter/test/capture_gate_test.dart: short retakes with a new id and failed persistence rolls back in memory
+00:07 +9: D:/code/Scoliosis/ScoliosisFlutter/test/capture_gate_test.dart: v3 upload requires exact file grant; sub100KB complete MP4 accepted
+00:07 +10: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_parallel_test.dart
+00:08 +10: D:/code/Scoliosis/ScoliosisFlutter/test/capture_parallel_test.dart: 录制结束留片后可拍下一人，重启仍保留两条拍摄
+00:08 +11: D:/code/Scoliosis/ScoliosisFlutter/test/capture_parallel_test.dart: 断开事件保留至设备确认，历史设备仍可查询
+00:08 +12: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_results_flow_test.dart
+00:08 +12: D:/code/Scoliosis/ScoliosisFlutter/test/capture_results_flow_test.dart: third-frame sampling covers every partial group boundary
+00:08 +13: D:/code/Scoliosis/ScoliosisFlutter/test/capture_results_flow_test.dart: school browsing, scoped search and controller class gate
+00:08 +14: D:/code/Scoliosis/ScoliosisFlutter/test/capture_results_flow_test.dart: delete during analysis and upload with gate retained, no late result resurrection
+00:09 +15: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_results_resume_test.dart
+00:09 +15: D:/code/Scoliosis/ScoliosisFlutter/test/capture_results_resume_test.dart: restart resumes running jobs, failed recognition completes, totals deduplicate students and isolate workspaces
+00:10 +16: D:/code/Scoliosis/ScoliosisFlutter/test/capture_results_resume_test.dart: capture displays student, result and roster regions simultaneously without overflow
+00:10 +17: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart
+00:11 +17: D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart: missing recording event is recovered with elapsed time and cannot regress
+00:11 +18: D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart: silent partial JSON request expires and reception remains usable
+00:11 +19: D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart: partial video expires, only its part is removed, retry commits same capture
+00:11 +20: D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart: failed exit preparation leaves server alive and next exit can retry
+00:13 +21: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart
+00:14 +21: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: pending grants exclude short, old success below 3s and failed files; diagnostics uses confirmed brightness
+00:14 +22: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: HTTP completion requires three seconds for success
+00:14 +23: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: UTC capture time displays UTC+8 once, including midnight
+00:14 +24: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_upgrade_test.dart
+00:15 +24: D:/code/Scoliosis/ScoliosisFlutter/test/capture_upgrade_test.dart: three device sections remain visible when paired and lists empty
+00:15 +25: D:/code/Scoliosis/ScoliosisFlutter/test/capture_upgrade_test.dart: pending inventory cannot consume an existing round completion
+00:15 +26: D:/code/Scoliosis/ScoliosisFlutter/test/capture_upgrade_test.dart: historical unknown activity does not lock a new run; live activity does
+00:15 +27: D:/code/Scoliosis/ScoliosisFlutter/test/capture_upgrade_test.dart: preview remains clickable while gate waits in both modes
+00:16 +28: loading D:/code/Scoliosis/ScoliosisFlutter/test/database_test.dart
+00:16 +28: D:/code/Scoliosis/ScoliosisFlutter/test/database_test.dart: legacy migration is repeatable, preserves sources and multiple schools
+00:17 +29: D:/code/Scoliosis/ScoliosisFlutter/test/database_test.dart: skip markers persist and angle rerun rolls back on invalid frame
+00:17 +30: D:/code/Scoliosis/ScoliosisFlutter/test/database_test.dart: failed migration leaves SQLite unchanged and original intact
+00:17 +31: loading D:/code/Scoliosis/ScoliosisFlutter/test/device_page_volume_test.dart
+00:18 +31: D:/code/Scoliosis/ScoliosisFlutter/test/device_page_volume_test.dart: VolumeDialog widget tests VolumeDialog requires double confirmation
+00:18 +32: D:/code/Scoliosis/ScoliosisFlutter/test/device_page_volume_test.dart: DevicePage UI Phase 1 & 2 integration tests unpaired discovered device shows "配对仪器并启用" button
+00:19 +33: D:/code/Scoliosis/ScoliosisFlutter/test/device_page_volume_test.dart: DevicePage UI Phase 1 & 2 integration tests offline device preserves cached metric values with (离线) tag
+00:19 +34: loading D:/code/Scoliosis/ScoliosisFlutter/test/device_query_test.dart
+00:19 +34: D:/code/Scoliosis/ScoliosisFlutter/test/device_query_test.dart: query accepts only matching reply and preserves pairing on four misses
+00:19 +35: D:/code/Scoliosis/ScoliosisFlutter/test/device_query_test.dart: unanswered query does not turn a legacy board offline
+00:19 +36: loading D:/code/Scoliosis/ScoliosisFlutter/test/device_repair_test.dart
+00:20 +36: D:/code/Scoliosis/ScoliosisFlutter/test/device_repair_test.dart: previously unpaired board appears in fresh UDP scan
+00:20 +37: D:/code/Scoliosis/ScoliosisFlutter/test/device_repair_test.dart: known device can be paired again while offline
+00:20 +38: loading D:/code/Scoliosis/ScoliosisFlutter/test/diagnostics_default_keys_test.dart
+00:21 +38: D:/code/Scoliosis/ScoliosisFlutter/test/diagnostics_default_keys_test.dart: diagnostic key badges default to released before first sample
+00:22 +39: loading D:/code/Scoliosis/ScoliosisFlutter/test/diagnostics_layout_test.dart
+00:22 +39: D:/code/Scoliosis/ScoliosisFlutter/test/diagnostics_layout_test.dart: diagnostics brightness and preview fit Size(1280.0, 720.0)
+00:23 +40: D:/code/Scoliosis/ScoliosisFlutter/test/diagnostics_layout_test.dart: diagnostics brightness and preview fit Size(900.0, 600.0)
+00:23 +41: loading D:/code/Scoliosis/ScoliosisFlutter/test/export_all_genders_test.dart
+00:24 +41: D:/code/Scoliosis/ScoliosisFlutter/test/export_all_genders_test.dart: roster exports both sexes, retaining scope/search and screen filter
+00:24 +42: D:/code/Scoliosis/ScoliosisFlutter/test/export_all_genders_test.dart: records ignore sex only and group summary/detail without losing angles
+00:24 +43: loading D:/code/Scoliosis/ScoliosisFlutter/test/instrument_volume_test.dart
+00:25 +43: D:/code/Scoliosis/ScoliosisFlutter/test/instrument_volume_test.dart: DeviceInfo timeout and volume DeviceInfo.online obeys deviceOnlineTimeout (15s)
+00:25 +44: D:/code/Scoliosis/ScoliosisFlutter/test/instrument_volume_test.dart: DeviceBook volume management and persistence targetVolumes is saved and loaded from 设备.json
+00:25 +45: D:/code/Scoliosis/ScoliosisFlutter/test/instrument_volume_test.dart: DeviceBook volume management and persistence offline volume changes fail without reporting a saved value
+00:25 +46: D:/code/Scoliosis/ScoliosisFlutter/test/instrument_volume_test.dart: InstrumentServer volume handshake POST /api/v1/hello syncs volume both ways
+00:25 +47: loading D:/code/Scoliosis/ScoliosisFlutter/test/name_announce_test.dart
+00:25 +47: D:/code/Scoliosis/ScoliosisFlutter/test/name_announce_test.dart: offline drill announces the next name and remembers the switch
+00:26 +48: D:/code/Scoliosis/ScoliosisFlutter/test/name_announce_test.dart: capture page offers computer name audition
+00:26 +49: loading D:/code/Scoliosis/ScoliosisFlutter/test/records_capture_filter_test.dart
+00:27 +49: D:/code/Scoliosis/ScoliosisFlutter/test/records_capture_filter_test.dart: occupied Windows video fails clearly and resumes after reopen
+00:28 +50: D:/code/Scoliosis/ScoliosisFlutter/test/records_capture_filter_test.dart: checkbox stays beside gender grouping and filters both modes
+00:29 +51: D:/code/Scoliosis/ScoliosisFlutter/test/records_capture_filter_test.dart: UTC+8 boundaries, both mode filters, deletion, replay and reopen
+00:29 +52: loading D:/code/Scoliosis/ScoliosisFlutter/test/records_export_provenance_test.dart
+00:30 +52: D:/code/Scoliosis/ScoliosisFlutter/test/records_export_provenance_test.dart: export labels fixture readings while preserving real readings and errors
+00:30 +53: loading D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart
+00:31 +53: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: (setUpAll)
+00:31 +53: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:33 +54: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: records fill available rows, page navigation resize filtering and deletion clamp
+00:35 +55: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: (tearDownAll)
+00:35 +55: loading D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart
+00:36 +55: D:/code/Scoliosis/ScoliosisFlutter/test/roster_editor_test.dart: student editor offers choices and accepts custom values
+00:38 +56: loading D:/code/Scoliosis/ScoliosisFlutter/test/roster_excel_compatibility_test.dart
+00:38 +56: D:/code/Scoliosis/ScoliosisFlutter/test/roster_excel_compatibility_test.dart: school export has unique, ordered worksheet print settings
+00:38 +57: loading D:/code/Scoliosis/ScoliosisFlutter/test/roster_pagination_test.dart
+00:39 +57: D:/code/Scoliosis/ScoliosisFlutter/test/roster_pagination_test.dart: school export follows the roster sorting controls across classes
+00:39 +58: D:/code/Scoliosis/ScoliosisFlutter/test/roster_pagination_test.dart: desktop text uses one Windows font family
+00:39 +59: D:/code/Scoliosis/ScoliosisFlutter/test/roster_pagination_test.dart: roster changes pages and search resets the page
+00:42 +60: loading D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart
+00:42 +60: D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart: school totals deduplicate people and match detail/curve order, native charts preserve signed values and gaps
+00:43 +61: D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart: no school disables exports and record maximum is explicit
+00:43 +62: D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart: mixed schools rejected and missing real values explained
+00:44 +63: loading D:/code/Scoliosis/ScoliosisFlutter/test/speech_stability_test.dart
+00:44 +63: D:/code/Scoliosis/ScoliosisFlutter/test/speech_stability_test.dart: stalled audio cannot prevent stopping speech
+00:44 +64: D:/code/Scoliosis/ScoliosisFlutter/test/speech_stability_test.dart: late process start cannot speak a cancelled name
+00:44 +65: D:/code/Scoliosis/ScoliosisFlutter/test/speech_stability_test.dart: timeout kills worker and next request recovers
+00:44 +66: D:/code/Scoliosis/ScoliosisFlutter/test/speech_stability_test.dart: unavailable audio reports failure without poisoning next request
+00:44 +67: loading D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart
+00:45 +67: D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart: daily import retains all schools across restart
+00:45 +68: D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart: CSV preserves order and rejects duplicate school key
+00:45 +69: D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart: birth dates survive storage and age uses completed months
+00:45 +70: D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart: HTTP allocation, unassigned upload and duplicate protection
+00:45 +71: D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart: HTTP loopback receipts without repeating capture
+00:45 +72: D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart: template has 108 importable examples and export keeps order
+00:46 +73: D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart: capture page opens without a device and filters can clear
+00:46 +74: loading D:/code/Scoliosis/ScoliosisFlutter/test/system_upgrade_test.dart
+00:46 +74: D:/code/Scoliosis/ScoliosisFlutter/test/system_upgrade_test.dart: offline close persists global revocations for next contact
+00:46 +75: D:/code/Scoliosis/ScoliosisFlutter/test/system_upgrade_test.dart: SQLite association, receipt, file proof and moved workspace recover without legacy files
+00:47 +76: D:/code/Scoliosis/ScoliosisFlutter/test/system_upgrade_test.dart: gender sheets use one A4 page and single mode clears selection
+00:47 +77: loading D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart
+00:47 +77: D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart: filtered roster export contains only current matches across all pages
+00:48 +78: D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart: record angle filtering and exported order/detail match exact rows
+00:48 +79: D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart: restart disconnect refreshes boot and sequence before unpairing
+00:48 +80: loading D:/code/Scoliosis/ScoliosisFlutter/test/ui_layout_test.dart
+00:48 +80: D:/code/Scoliosis/ScoliosisFlutter/test/ui_layout_test.dart: device, roster and capture fit desktop size
+00:49 +81: loading D:/code/Scoliosis/ScoliosisFlutter/test/volume_upgrade_test.dart
+00:50 +81: D:/code/Scoliosis/ScoliosisFlutter/test/volume_upgrade_test.dart: audition uses current slider and cancel never saves
+00:51 +82: D:/code/Scoliosis/ScoliosisFlutter/test/volume_upgrade_test.dart: audio rejection stays in dialog and produces no unhandled exception
+00:51 +83: D:/code/Scoliosis/ScoliosisFlutter/test/volume_upgrade_test.dart: failed persistent save stays open with error and releases controls
+00:51 +84: loading D:/code/Scoliosis/ScoliosisFlutter/test/window_close_test.dart
+00:52 +84: D:/code/Scoliosis/ScoliosisFlutter/test/window_close_test.dart: close blocks capture, deduplicates requests, cancels and confirms
+00:57 +85: All tests passed!

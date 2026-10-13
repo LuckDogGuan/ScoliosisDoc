@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-13",
+  "scope": "Read-only diagnosis; existing Flutter source and tests were not modified",
+  "command": "flutter test --no-pub --concurrency=1 --reporter expanded test/ui_layout_test.dart test/device_page_volume_test.dart",
+  "result": "1 passed, 3 failed",
+  "failed_fixtures": [
+    {
+      "file": "D:/code/Scoliosis/ScoliosisFlutter/test/ui_layout_test.dart",
+      "line": 87,
+      "name": "device, roster and capture fit desktop size"
+    },
+    {
+      "file": "D:/code/Scoliosis/ScoliosisFlutter/test/device_page_volume_test.dart",
+      "line": 124,
+      "name": "unpaired discovered device shows \"配对仪器并启用\" button"
+    },
+    {
+      "file": "D:/code/Scoliosis/ScoliosisFlutter/test/device_page_volume_test.dart",
+      "line": 185,
+      "name": "offline device preserves cached metric values with (离线) tag"
+    }
+  ],
+  "cause": {
+    "dispose": "lib/app/app_controller.dart:2978 starts unawaited shutdown()",
+    "timer": "lib/app/app_controller.dart:2871 awaits devices.save().timeout(10 seconds)",
+    "effect": "Widget body exits before real filesystem I/O completes, leaving FakeAsync timeout timer pending when Flutter verifies invariants"
+  },
+  "minimum_fix": "Each fixture should unmount the widget tree, await tester.runAsync(controller.shutdown), then controller.dispose. Keep production timeout and failure handling unchanged.",
+  "existing_example": "test/window_close_test.dart:70-71 unmounts SizedBox then awaits tester.runAsync(controller.shutdown)",
+  "verification_limits": "Suggested fixture edit was not applied or tested by this read-only agent; parent will implement and rerun these two files."
+}

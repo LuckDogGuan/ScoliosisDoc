@@ -1,0 +1,16 @@
+{
+  "time": 1791858899.1749947,
+  "boot": "CAM-000123-1adaa281",
+  "reason": "isolate_startup_prompt_from_blocked_network_before_final_soak",
+  "reply": {
+    "version": 3,
+    "op": "capture_disable_reply",
+    "device_id": "CAM-000123",
+    "host_id": "198037f24ff405158abc1777349c118e",
+    "boot_id": "CAM-000123-1adaa281",
+    "sequence": 1231,
+    "nonce": "b52ea34475f5cb98f3c171ae9cd1b9a4",
+    "ok": true,
+    "phase": "idle"
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "summary": {
+    "changed_count": 32,
+    "affected_count": 18,
+    "changed_files": 25,
+    "risk_level": "critical"
+  },
+  "changed_symbols": [
+    {
+      "id": "Macro:include/app.h:INSTRUMENT_VERSION",
+      "name": "INSTRUMENT_VERSION",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:include/v3.h:backlight_tick",
+      "name": "backlight_tick",
+      "filePath": "include/v3.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:make_worker~shape:Worker:none:pointer:1|int:none:pointer:1",
+      "name": "make_worker",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:child_isolate~shape:Runtime:none:pointer:1|int:none:value:0",
+      "name": "child_isolate",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:start_record~shape:Runtime:none:pointer:1",
+      "name": "start_record",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:completed~shape:Runtime:none:pointer:1|WorkerResult:const:pointer:1",
+      "name": "completed",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:record_messages~shape:Runtime:none:pointer:1",
+      "name": "record_messages",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:abort_worker~shape:Worker:none:pointer:1",
+      "name": "abort_worker",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:worker_watchdog~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+      "name": "worker_watchdog",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:maintenance~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+      "name": "maintenance",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:audio_messages~shape:Runtime:none:pointer:1",
+      "name": "audio_messages",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:hello_reply~shape:Runtime:none:pointer:1|cJSON:none:pointer:1|uint64_t:none:value:0",
+      "name": "hello_reply",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:receive_udp~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+      "name": "receive_udp",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:runtime_run~shape:Config:none:pointer:1",
+      "name": "runtime_run",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:Runtime",
+      "name": "Runtime",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/app/runtime_v3.c:type",
+      "name": "type",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/buttons.c:ButtonSample",
+      "name": "ButtonSample",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/middleware/buttons.c:timespec",
+      "name": "timespec",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/buttons.c:sample_clock",
+      "name": "sample_clock",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/buttons.c:buttons_close",
+      "name": "buttons_close",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/buttons.c:sampling_start",
+      "name": "sampling_start",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/middleware/buttons.c:buttons_snapshot",
+      "name": "buttons_snapshot",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/buttons.c:valid",
+      "name": "valid",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/buttons.c:at",
+      "name": "at",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/buttons.c:mask",
+      "name": "mask",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:src/middleware/buttons.c:sequence",
+      "name": "sequence",
+      "filePath": "src/middleware/buttons.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/luckfox_audio.c:audio_play",
+      "name": "audio_play",
+      "filePath": "src/platform/luckfox_audio.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/process.c:monotonic_ms",
+      "name": "monotonic_ms",
+      "filePath": "src/platform/process.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/process.c:run_command_timeout",
+      "name": "run_command_timeout",
+      "filePath": "src/platform/process.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/process.c:timespec",
+      "name": "timespec",
+      "filePath": "src/platform/process.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/platform/trace.c:stat",
+      "name": "stat",
+      "filePath": "src/platform/trace.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/platform/trace.c:instrument_trace",
+      "name": "instrument_trace",
+      "filePath": "src/platform/trace.c",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_0_start_and_record",
+      "name": "Start_and_record → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 7,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 6
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 7
+        }
+      ]
+    },
+    {
+      "id": "proc_1_handle_local_capture",
+      "name": "Handle_local_capture → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 7,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 6
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 7
+        }
+      ]
+    },
+    {
+      "id": "proc_2_handle_legacy_captur",
+      "name": "Handle_legacy_capture → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 7,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 6
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 7
+        }
+      ]
+    },
+    {
+      "id": "proc_3_buttons_snapshot",
+      "name": "Buttons_snapshot → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 7,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 6
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 7
+        },
+        {
+          "symbol": "buttons_snapshot",
+          "step": 1
+        },
+        {
+          "symbol": "sampling_start",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_4_light_test_main",
+      "name": "Light_test_main → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 5
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 6
+        }
+      ]
+    },
+    {
+      "id": "proc_5_light_status_tick",
+      "name": "Light_status_tick → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 5
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 6
+        }
+      ]
+    },
+    {
+      "id": "proc_6_platform_backlight_p",
+      "name": "Platform_backlight_percent → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 5
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 6
+        }
+      ]
+    },
+    {
+      "id": "proc_7_legacy_run",
+      "name": "Legacy_run → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 4
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 5
+        },
+        {
+          "symbol": "audio_play",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_11_http_poll",
+      "name": "Http_poll → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 4
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 5
+        }
+      ]
+    },
+    {
+      "id": "proc_13_maintenance",
+      "name": "Maintenance → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "run_command_timeout",
+          "step": 3
+        },
+        {
+          "symbol": "monotonic_ms",
+          "step": 4
+        },
+        {
+          "symbol": "audio_play",
+          "step": 2
+        },
+        {
+          "symbol": "maintenance",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_17_worker_watchdog",
+      "name": "Worker_watchdog → Queue_sound",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "worker_watchdog",
+          "step": 1
+        },
+        {
+          "symbol": "completed",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_29_maintenance",
+      "name": "Maintenance → V3_now",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "maintenance",
+          "step": 1
+        },
+        {
+          "symbol": "make_worker",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_34_begin_audio",
+      "name": "Begin_audio → V3_now",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "make_worker",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_36_record_messages",
+      "name": "Record_messages → V3_now",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "instrument_trace",
+          "step": 2
+        },
+        {
+          "symbol": "record_messages",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_37_worker_watchdog",
+      "name": "Worker_watchdog → V3_now",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "instrument_trace",
+          "step": 2
+        },
+        {
+          "symbol": "worker_watchdog",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_38_worker_watchdog",
+      "name": "Worker_watchdog → Storage_capture_id",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "worker_watchdog",
+          "step": 1
+        },
+        {
+          "symbol": "completed",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_39_worker_watchdog",
+      "name": "Worker_watchdog → V3_save_json",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "worker_watchdog",
+          "step": 1
+        },
+        {
+          "symbol": "completed",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_40_camera_diagnostic_fr",
+      "name": "Camera_diagnostic_frame → V3_now",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "instrument_trace",
+          "step": 2
+        }
+      ]
+    }
+  ]
+}

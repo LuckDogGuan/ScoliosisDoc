@@ -1,0 +1,10 @@
+{
+  "serial": "3253c006806f5194",
+  "camera_recording": 0,
+  "simulation_file_removed": "/tmp/stability-buttons-20261013",
+  "normal_pid": 853,
+  "rkipc_pid": "439",
+  "installed_version": "3.3.9",
+  "runtime_version": "3.3.9",
+  "system_boot": "d3f5ee60-5b1b-46dd-9d7e-b4372dedbb4d"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "git_archive_commit": "2cccca59eaae1c860503270393af99908a313155",
+  "source_commit": "ae13512b05a9e331abeb9e797680ee38c70db6b6",
+  "payload_files": 87,
+  "zip_sha256": "3ad0f9698aad4cf64ebd3d3f462604a0461a8a134ab29d21b64c4e166e0670bc",
+  "git_blob_readback": true
+}

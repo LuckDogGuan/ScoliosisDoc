@@ -1,0 +1,588 @@
+{
+  "utc": "2026-10-13T00:57:44.600252+00:00",
+  "serial": "3253c006806f5194",
+  "device": "CAM-000123",
+  "kernel_boot": "d3f5ee60-5b1b-46dd-9d7e-b4372dedbb4d",
+  "uptime": "2048.70 1548.92",
+  "app_version": "3.3.7",
+  "app_sha256": "33cb2d4fc887948097ef4878589dad52aaa8158390c187c0b397315caaddfe01",
+  "processes": {
+    "instrument_app": {
+      "pid": 162,
+      "cmdline": "/opt/instrument/bin/instrument_app /opt/instrument/config.json",
+      "environment": [
+        "LD_LIBRARY_PATH=/oem/usr/lib:/oem/lib:",
+        "TZ=CST-8"
+      ],
+      "stat": "162 (instrument_app) S 1 78 78 0 -1 4194304 2785 41981 3 23 1558 5733 232 140 20 0 1 0 198 880640 154 4294967295 65536 163432 2928115104 0 0 0 0 4101 16386 1 0 0 17 0 0 0 0 0 0 229152 230188 233472 2928115349 2928115412 2928115412 2928115673 0"
+    },
+    "rkipc": {
+      "pid": 439,
+      "cmdline": "/oem/usr/bin/rkipc -a /oem/usr/share/iqfiles",
+      "environment": [
+        "LD_LIBRARY_PATH=/oem/usr/lib:/oem/lib:",
+        "LD_PRELOAD=/opt/instrument/bin/luckfox_mux_adapter.so",
+        "TZ=CST-8"
+      ],
+      "stat": "439 (rkipc) S 1 78 78 0 -1 4194560 5393 8446 103 0 20850 4905 52 41 20 0 24 0 390 67575808 2627 4294967295 65536 519700 2931584368 0 0 0 0 4 20482 0 0 0 17 0 0 0 0 0 0 588536 591284 618496 2931584622 2931584667 2931584667 2931585001 0"
+    }
+  },
+  "local_hello": {
+    "version": 3,
+    "op": "hello_reply",
+    "device_id": "CAM-000123",
+    "host_id": "stability-readonly",
+    "boot_id": "CAM-000123-1aeab093",
+    "sequence": 0,
+    "nonce": "324157fe483f1b2375a3695f154891fe",
+    "ok": true,
+    "capabilities": [
+      "capture_gate",
+      "capture_prepare",
+      "capture_events",
+      "upload_grant",
+      "pair_transaction",
+      "volume_control",
+      "paired_discover",
+      "time_sync",
+      "diagnostics",
+      "capture_discard",
+      "backlight_brightness"
+    ],
+    "paired_host_id": "",
+    "volume": 30,
+    "saved_volume": 30,
+    "audio_busy": false,
+    "audio_operation_id": "",
+    "audio_operation_result": 0,
+    "uploading_capture_id": "",
+    "peer_ip": "192.168.101.5",
+    "http_port": 8080,
+    "unpair_event_id": "CAM-000123-31269f86",
+    "pair_window_remaining_ms": 0,
+    "phase": "idle",
+    "utc_ms": 1791853036177,
+    "diagnostics_active": false,
+    "wifi_state": "available",
+    "gate_enabled": false,
+    "gate_id": "",
+    "capture_id": "",
+    "control_sequence": 0,
+    "snapshot_age_ms": 2968,
+    "metrics": {
+      "rssi_dbm": -14,
+      "storage_free_mb": 5471,
+      "storage_total_mb": 5946,
+      "memory_available_mb": 154,
+      "memory_total_mb": 180,
+      "pending_count": 0,
+      "battery": "absent"
+    }
+  },
+  "pc_udp_probe": [
+    {
+      "bind": "0.0.0.0",
+      "result": "TimeoutError"
+    },
+    {
+      "bind": "192.168.110.55",
+      "result": "TimeoutError"
+    }
+  ],
+  "board_ip": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000\n    inet 127.0.0.1/8 scope host lo\n       valid_lft forever preferred_lft forever\n2: usb0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000\n    inet 172.32.0.93/16 brd 172.32.255.255 scope global usb0\n       valid_lft forever preferred_lft forever\n3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq qlen 1000\n    inet 192.168.101.3/24 brd 192.168.101.255 scope global wlan0\n       valid_lft forever preferred_lft forever",
+  "board_routes": "default via 192.168.101.1 dev wlan0 \n172.32.0.0/16 dev usb0 scope link  src 172.32.0.93 \n192.168.101.0/24 dev wlan0 scope link  src 192.168.101.3",
+  "saved_wifi_profile_matches_board": true,
+  "kernel_fault_evidence": "[    4.904256] dwc3 ffb00000.usb: device reset\n[    5.507837] dw-apb-uart ff4b0000.serial: failed to request DMA, use interrupt mode",
+  "event_counts": {
+    "udp_exchange": 15639,
+    "diagnostics_camera": 111,
+    "diagnostics_frame": 109,
+    "buttons": 315,
+    "network_snapshot": 3040,
+    "record_rpc_start_request": 14,
+    "record_rpc_start_return": 14,
+    "record_rpc_stop_request": 13,
+    "record_rpc_stop_return": 13,
+    "file_finalized": 13,
+    "middle_long_press": 20,
+    "volume_test": 6,
+    "audio_complete": 8,
+    "volume_set": 2,
+    "status_light": 35
+  },
+  "runtime_boot_ranges": [
+    {
+      "boot": "CAM-000123-0f6a3c8a",
+      "count": 3,
+      "first_utc": 1790911745404,
+      "last_utc": 1790911746401,
+      "first_mono": 1260673,
+      "last_mono": 1261670
+    },
+    {
+      "boot": "CAM-000123-6141f873",
+      "count": 6,
+      "first_utc": 1790911748046,
+      "last_utc": 1790911788289,
+      "first_mono": 1263315,
+      "last_mono": 1303558
+    },
+    {
+      "boot": "CAM-000123-f0ba16d3",
+      "count": 102,
+      "first_utc": 1790911791730,
+      "last_utc": 1790911830725,
+      "first_mono": 1306999,
+      "last_mono": 1345978
+    },
+    {
+      "boot": "CAM-000123-4900aecb",
+      "count": 3,
+      "first_utc": 1790911832350,
+      "last_utc": 1790911842446,
+      "first_mono": 1347602,
+      "last_mono": 1357698
+    },
+    {
+      "boot": "CAM-000123-ced4df46",
+      "count": 61,
+      "first_utc": 1790911850873,
+      "last_utc": 1790911876952,
+      "first_mono": 1366126,
+      "last_mono": 1392209
+    },
+    {
+      "boot": "CAM-000123-36a0d522",
+      "count": 26,
+      "first_utc": 1790911878389,
+      "last_utc": 1790912119161,
+      "first_mono": 1393646,
+      "last_mono": 1634418
+    },
+    {
+      "boot": "CAM-000123-6f80c489",
+      "count": 37,
+      "first_utc": 1790912126582,
+      "last_utc": 1790912477703,
+      "first_mono": 2264,
+      "last_mono": 353385
+    },
+    {
+      "boot": "CAM-000123-aa57203d",
+      "count": 540,
+      "first_utc": 1790912520630,
+      "last_utc": 1790912981497,
+      "first_mono": 2312,
+      "last_mono": 462542
+    },
+    {
+      "boot": "CAM-000123-6e392645",
+      "count": 227,
+      "first_utc": 1790922804636,
+      "last_utc": 1790922993437,
+      "first_mono": 2320,
+      "last_mono": 191056
+    },
+    {
+      "boot": "CAM-000123-a6acce80",
+      "count": 4007,
+      "first_utc": 1790923021611,
+      "last_utc": 1790927040562,
+      "first_mono": 2292,
+      "last_mono": 4020659
+    },
+    {
+      "boot": "CAM-000123-214b46d7",
+      "count": 42,
+      "first_utc": 1790927162851,
+      "last_utc": 1790927175441,
+      "first_mono": 4142948,
+      "last_mono": 4155538
+    },
+    {
+      "boot": "CAM-000123-501254ac",
+      "count": 10,
+      "first_utc": 1790927176711,
+      "last_utc": 1790927256994,
+      "first_mono": 4156809,
+      "last_mono": 4237092
+    },
+    {
+      "boot": "CAM-000123-bf526b40",
+      "count": 79,
+      "first_utc": 1790927259743,
+      "last_utc": 1790927299266,
+      "first_mono": 4239841,
+      "last_mono": 4279255
+    },
+    {
+      "boot": "CAM-000123-bff71a69",
+      "count": 6,
+      "first_utc": 1790927300665,
+      "last_utc": 1790927340810,
+      "first_mono": 4280654,
+      "last_mono": 4320798
+    },
+    {
+      "boot": "CAM-000123-72a59a0b",
+      "count": 40,
+      "first_utc": 1790927345258,
+      "last_utc": 1790927357955,
+      "first_mono": 4325246,
+      "last_mono": 4337943
+    },
+    {
+      "boot": "CAM-000123-50046206",
+      "count": 12,
+      "first_utc": 1790927359223,
+      "last_utc": 1790927459537,
+      "first_mono": 4339212,
+      "last_mono": 4439525
+    },
+    {
+      "boot": "CAM-000123-1dc409a2",
+      "count": 86,
+      "first_utc": 1790927501971,
+      "last_utc": 1790927564028,
+      "first_mono": 4481959,
+      "last_mono": 4544008
+    },
+    {
+      "boot": "CAM-000123-01c1d75a",
+      "count": 13,
+      "first_utc": 1790927565307,
+      "last_utc": 1790927675687,
+      "first_mono": 4545287,
+      "last_mono": 4655667
+    },
+    {
+      "boot": "CAM-000123-5d2189d5",
+      "count": 78,
+      "first_utc": 1790927683371,
+      "last_utc": 1790927726242,
+      "first_mono": 4663351,
+      "last_mono": 4706219
+    },
+    {
+      "boot": "CAM-000123-96e5b1d7",
+      "count": 20,
+      "first_utc": 1790927727545,
+      "last_utc": 1790927908151,
+      "first_mono": 4707521,
+      "last_mono": 4888127
+    },
+    {
+      "boot": "CAM-000123-c30ef0be",
+      "count": 4662,
+      "first_utc": 1790927927531,
+      "last_utc": 1790934238269,
+      "first_mono": 2213,
+      "last_mono": 6312299
+    },
+    {
+      "boot": "CAM-000123-f6dd1b9d",
+      "count": 4,
+      "first_utc": 1790934389527,
+      "last_utc": 1790934390591,
+      "first_mono": 6463557,
+      "last_mono": 6464621
+    },
+    {
+      "boot": "CAM-000123-a14fcf23",
+      "count": 6,
+      "first_utc": 1790934391929,
+      "last_utc": 1790934432091,
+      "first_mono": 6465959,
+      "last_mono": 6506121
+    },
+    {
+      "boot": "CAM-000123-4e1c249e",
+      "count": 7,
+      "first_utc": 1790934441576,
+      "last_utc": 1790934446372,
+      "first_mono": 6515606,
+      "last_mono": 6520402
+    },
+    {
+      "boot": "CAM-000123-48b66ab2",
+      "count": 34,
+      "first_utc": 1790934447650,
+      "last_utc": 1790934768803,
+      "first_mono": 6521680,
+      "last_mono": 6842833
+    },
+    {
+      "boot": "CAM-000123-60806e1b",
+      "count": 90,
+      "first_utc": 1790934771725,
+      "last_utc": 1790934822572,
+      "first_mono": 6845755,
+      "last_mono": 6896529
+    },
+    {
+      "boot": "CAM-000123-81240877",
+      "count": 4608,
+      "first_utc": 1790934823897,
+      "last_utc": 1790940898629,
+      "first_mono": 6897854,
+      "last_mono": 12972393
+    },
+    {
+      "boot": "CAM-000123-08af6ad3",
+      "count": 10,
+      "first_utc": 1790990827547,
+      "last_utc": 1790990888510,
+      "first_mono": 2230,
+      "last_mono": 63193
+    },
+    {
+      "boot": "CAM-000123-924e1ae5",
+      "count": 176,
+      "first_utc": 1790991063617,
+      "last_utc": 1790991203362,
+      "first_mono": 2301,
+      "last_mono": 136269
+    },
+    {
+      "boot": "CAM-000123-1ae90f20",
+      "count": 3,
+      "first_utc": 1790991634623,
+      "last_utc": 1790991652349,
+      "first_mono": 2305,
+      "last_mono": 20031
+    },
+    {
+      "boot": "CAM-000123-d988f60c",
+      "count": 5,
+      "first_utc": 1790997127616,
+      "last_utc": 1790997162377,
+      "first_mono": 2299,
+      "last_mono": 37060
+    },
+    {
+      "boot": "CAM-000123-c9b525a5",
+      "count": 5,
+      "first_utc": 1790999299549,
+      "last_utc": 1790999321065,
+      "first_mono": 2234,
+      "last_mono": 23750
+    },
+    {
+      "boot": "CAM-000123-f6b13f3f",
+      "count": 5,
+      "first_utc": 1791007337614,
+      "last_utc": 1791007374950,
+      "first_mono": 2295,
+      "last_mono": 39631
+    },
+    {
+      "boot": "CAM-000123-d17a11d7",
+      "count": 5,
+      "first_utc": 1791033595576,
+      "last_utc": 1791033622903,
+      "first_mono": 2257,
+      "last_mono": 29584
+    },
+    {
+      "boot": "CAM-000123-fd4d189a",
+      "count": 9,
+      "first_utc": 1791094785598,
+      "last_utc": 1791094854022,
+      "first_mono": 2281,
+      "last_mono": 70705
+    },
+    {
+      "boot": "CAM-000123-225287c3",
+      "count": 5,
+      "first_utc": 1791095728599,
+      "last_utc": 1791095750499,
+      "first_mono": 2282,
+      "last_mono": 24181
+    },
+    {
+      "boot": "CAM-000123-f6ecab23",
+      "count": 4,
+      "first_utc": 1791101659570,
+      "last_utc": 1791101679456,
+      "first_mono": 2249,
+      "last_mono": 22135
+    },
+    {
+      "boot": "CAM-000123-b46b3005",
+      "count": 10,
+      "first_utc": 1791101721560,
+      "last_utc": 1791101793191,
+      "first_mono": 2242,
+      "last_mono": 73873
+    },
+    {
+      "boot": "CAM-000123-d375cebd",
+      "count": 5,
+      "first_utc": 1791178031553,
+      "last_utc": 1791178061723,
+      "first_mono": 2233,
+      "last_mono": 32403
+    },
+    {
+      "boot": "CAM-000123-05bb95f6",
+      "count": 7,
+      "first_utc": 1791184274632,
+      "last_utc": 1791184324973,
+      "first_mono": 2313,
+      "last_mono": 52655
+    },
+    {
+      "boot": "CAM-000123-f15e04c0",
+      "count": 4,
+      "first_utc": 1791186261631,
+      "last_utc": 1791186291719,
+      "first_mono": 2314,
+      "last_mono": 32402
+    },
+    {
+      "boot": "CAM-000123-dc632401",
+      "count": 10,
+      "first_utc": 1791186379561,
+      "last_utc": 1791186411219,
+      "first_mono": 2245,
+      "last_mono": 33903
+    },
+    {
+      "boot": "CAM-000123-127ddf44",
+      "count": 4,
+      "first_utc": 1791186481554,
+      "last_utc": 1791186501700,
+      "first_mono": 2236,
+      "last_mono": 22382
+    },
+    {
+      "boot": "CAM-000123-9beffb27",
+      "count": 5,
+      "first_utc": 1791186640555,
+      "last_utc": 1791186667183,
+      "first_mono": 2235,
+      "last_mono": 28863
+    },
+    {
+      "boot": "CAM-000123-2703c210",
+      "count": 3,
+      "first_utc": 1791186827606,
+      "last_utc": 1791186846583,
+      "first_mono": 2288,
+      "last_mono": 21265
+    },
+    {
+      "boot": "CAM-000123-69cf74a5",
+      "count": 4,
+      "first_utc": 1791186987571,
+      "last_utc": 1791187005895,
+      "first_mono": 2253,
+      "last_mono": 20577
+    },
+    {
+      "boot": "CAM-000123-20ece8a6",
+      "count": 13,
+      "first_utc": 1791187168586,
+      "last_utc": 1791187278909,
+      "first_mono": 2267,
+      "last_mono": 112589
+    },
+    {
+      "boot": "CAM-000123-d592b0a6",
+      "count": 21,
+      "first_utc": 1791187328591,
+      "last_utc": 1791187519158,
+      "first_mono": 2270,
+      "last_mono": 192837
+    },
+    {
+      "boot": "CAM-000123-ae2dce54",
+      "count": 13,
+      "first_utc": 1791187538554,
+      "last_utc": 1791187648939,
+      "first_mono": 2239,
+      "last_mono": 112624
+    },
+    {
+      "boot": "CAM-000123-8ed26f68",
+      "count": 4,
+      "first_utc": 1791187676677,
+      "last_utc": 1791187706760,
+      "first_mono": 2361,
+      "last_mono": 32443
+    },
+    {
+      "boot": "CAM-000123-011595b6",
+      "count": 4,
+      "first_utc": 1791187850616,
+      "last_utc": 1791187880686,
+      "first_mono": 2299,
+      "last_mono": 32369
+    },
+    {
+      "boot": "CAM-000123-b221acd9",
+      "count": 572,
+      "first_utc": 1791199193563,
+      "last_utc": 1791199921496,
+      "first_mono": 2244,
+      "last_mono": 725244
+    },
+    {
+      "boot": "CAM-000123-29794e7e",
+      "count": 2825,
+      "first_utc": 1791367879637,
+      "last_utc": 1791371829946,
+      "first_mono": 2320,
+      "last_mono": 3945707
+    },
+    {
+      "boot": "CAM-000123-7da85bc0",
+      "count": 332,
+      "first_utc": 1791529322780,
+      "last_utc": 1791532484333,
+      "first_mono": 2463,
+      "last_mono": 3164016
+    },
+    {
+      "boot": "CAM-000123-7193399e",
+      "count": 13,
+      "first_utc": 1791532493972,
+      "last_utc": 1791532547492,
+      "first_mono": 3173655,
+      "last_mono": 3227175
+    },
+    {
+      "boot": "CAM-000123-b2828560",
+      "count": 37,
+      "first_utc": 1791532561615,
+      "last_utc": 1791532632414,
+      "first_mono": 2300,
+      "last_mono": 73099
+    },
+    {
+      "boot": "CAM-000123-be5c7bf2",
+      "count": 19,
+      "first_utc": 1791614821876,
+      "last_utc": 1791614897107,
+      "first_mono": 2557,
+      "last_mono": 77789
+    },
+    {
+      "boot": "CAM-000123-6a3967d0",
+      "count": 15,
+      "first_utc": 1791615321641,
+      "last_utc": 1791615342376,
+      "first_mono": 2321,
+      "last_mono": 23056
+    },
+    {
+      "boot": "CAM-000123-1aeab093",
+      "count": 218,
+      "first_utc": 1791850996625,
+      "last_utc": 1791853036177,
+      "first_mono": 2308,
+      "last_mono": 2041860
+    }
+  ],
+  "boundary": "application boot_id is generated on each runtime invocation; kernel reboot requires kernel boot_id or monotonic-reset evidence"
+}

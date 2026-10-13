@@ -1,0 +1,10 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart: missing recording event is recovered with elapsed time and cannot regress
+00:00 +1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart: silent partial JSON request expires and reception remains usable
+00:00 +2: D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart: partial video expires, only its part is removed, retry commits same capture
+00:00 +3: D:/code/Scoliosis/ScoliosisFlutter/test/capture_stability_test.dart: failed exit preparation leaves server alive and next exit can retry
+00:02 +4: loading D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart
+00:02 +4: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:13 +5: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: active partial body is cancelled during server shutdown
+00:13 +6: All tests passed!

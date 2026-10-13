@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-13",
+  "readonly": true,
+  "source_sha256": {
+    "src/platform/light_test.c": "b945c426affa0a4804c2d1814bac3c38afefeded27a4765550e2f4a77902bfec",
+    "src/middleware/buttons.c": "d9c756170e9aac0a470d11615c480a82c8501c13e0ac8f3019e5064fea3ab570",
+    "src/app/runtime_v3.c": "7b28b634e61099c7c00e96d472b4d2a2b1caa49bf3e709ffb78c4b907dfdcfcc",
+    "src/platform/process.c": "d13b6a0936b2b43ca88bc042bcc51c7621eedebb34f4fc6083d4c22b1c6a5e45"
+  },
+  "confirmed_static": [
+    {
+      "file": "src/platform/light_test.c",
+      "lines": [
+        311,
+        339,
+        340
+      ],
+      "fact": "Same level is skipped; every actual 0/100 GPIO brightness transition calls synchronous backlight_gpio_mux"
+    },
+    {
+      "file": "src/platform/light_test.c",
+      "lines": [
+        299,
+        300,
+        301,
+        303,
+        304
+      ],
+      "fact": "Mux runs sh synchronously and launches devmem read/write/read each transition"
+    },
+    {
+      "file": "src/platform/light_test.c",
+      "lines": [
+        292,
+        293
+      ],
+      "fact": "LIGHT_TEST_HOST bypasses mux, so backlight host gesture tests do not measure hardware mux latency"
+    },
+    {
+      "file": "src/middleware/buttons.c",
+      "lines": [
+        27,
+        28,
+        29,
+        31,
+        37,
+        38
+      ],
+      "fact": "Sampling gap >100ms resets stable/released; held buttons remain invalid until actual release sample"
+    },
+    {
+      "file": "src/middleware/buttons.c",
+      "lines": [
+        52,
+        59
+      ],
+      "fact": "Backlight becomes on after 500ms hold; invalid/gap samples disarm backlight"
+    },
+    {
+      "file": "src/app/policy.c",
+      "lines": [
+        3
+      ],
+      "fact": "Capture requires 1500ms valid hold; a mux stall at backlight 500ms may precede record start"
+    },
+    {
+      "file": "src/app/runtime_v3.c",
+      "lines": [
+        1196,
+        1203,
+        1204,
+        1206
+      ],
+      "fact": "Backlight executes in coordinator loop and slow_loop records segments when loop >100ms"
+    }
+  ],
+  "fresh_host_verification": {
+    "command": "gcc tests/test_buttons.c + buttons.c + luckfox_gpio.c + lwbtn.c; output isolated under /tmp",
+    "status": "PASS",
+    "evidence_dir": "/tmp/buttons-gap-audit-ghefoois",
+    "assertions": "Boot hold, bounce, staggered keys, GPIO invalid, sampling gap, hold until release, uint32 wrap"
+  },
+  "not_proven": [
+    "Actual GPIO mux execution latency exceeds100ms on target board",
+    "The ongoing second-round failure is caused by mux execution",
+    "Current Windows Realtek physical cable/router LAN/PHY failure cause"
+  ],
+  "changes": "No source/test/config/network/board state modified"
+}

@@ -1,0 +1,13 @@
+WINDOWS_BOARD_MUTE {"mute": true, "volume": 0.10003136843442917}
+WINDOWS_BOARD_AUDIO {"utc": "2026-10-13T04:15:22.099484+00:00", "mute": true, "volume": 0.10003136843442917}
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/tool/capture_stability_fault_test.dart
+00:00 +0: board lost events, HTTP outage, slow/partial upload and coordinator restart
+Shell: STABILITY {"check":"preflight","firmware_sha256":"e4466b57a3349e83ff4744cac1e02c41a010be82482aff1f3f46ad09e7fe3849","app_boot":"CAM-000123-d432de98","kernel_boot":"d3f5ee60-5b1b-46dd-9d7e-b4372dedbb4d","volume":10,"time":"2026-10-13T12:15:30.619111"}
+Shell: STABILITY {"check":"capture_complete","round":1,"case":"recording_event_loss","capture_id":"CAM-000123-v3-1791864937086325-574338968","student_id":"stability-1","duration_ms":8274,"video":{"path":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\stability-board-20261013-faults-final\\筛查\\20261013_故障注入实板验收\\视频\\CAM-000123-v3-1791864937086325-574338968.mp4","sha256":"52d3bd0ec820f594c9c2619c8463eb5346b67ff2a1fe9056fb72f55c6d5d18fd","bytes":4028169,"frames":243,"expected_frames":243,"fps":29.27710843373494,"decoded_duration_ms":8300},"app_boot":"CAM-000123-d432de98","kernel_boot":"d3f5ee60-5b1b-46dd-9d7e-b4372dedbb4d","elapsed_ms":35901,"time":"2026-10-13T12:16:15.142643"}
+02:25 +0 -1: board lost events, HTTP outage, slow/partial upload and coordinator restart [E]
+  TimeoutException: prepared
+  tool\capture_stability_board_test.dart 39:43  waitUntil
+  
+02:25 +0 -1: Some tests failed.
+WINDOWS_BOARD_AUDIO_RESTORED {"mute": true, "volume": 0.10003136843442917}

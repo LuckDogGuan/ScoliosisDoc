@@ -1,0 +1,4 @@
+{"scenario":"system_mute","check":"short_speech_completes","elapsed_ms":2728,"event_loop_ticks":49}
+{"scenario":"system_mute","check":"stop_cancels_long_speech","elapsed_ms":1826,"event_loop_ticks":37}
+{"scenario":"system_mute","check":"fresh_speech_after_stop","elapsed_ms":2347,"event_loop_ticks":47}
+{"scenario":"system_mute","check":"new_request_replaces_old","elapsed_ms":3875,"event_loop_ticks":78}

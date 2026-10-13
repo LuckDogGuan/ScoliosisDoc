@@ -1,0 +1,8 @@
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/tool/windows_speech_fact_test.dart
+00:00 +0: actual Windows speech completes, cancels and accepts fresh requests
+Shell: SPEECH_FACT {"scenario":"sound_restored","check":"short_speech_completes","elapsed_ms":2702,"event_loop_ticks":49}
+Shell: SPEECH_FACT {"scenario":"sound_restored","check":"stop_cancels_long_speech","elapsed_ms":1826,"event_loop_ticks":36}
+Shell: SPEECH_FACT {"scenario":"sound_restored","check":"fresh_speech_after_stop","elapsed_ms":2409,"event_loop_ticks":49}
+Shell: SPEECH_FACT {"scenario":"sound_restored","check":"new_request_replaces_old","elapsed_ms":3981,"event_loop_ticks":79}
+00:10 +1: All tests passed!
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!

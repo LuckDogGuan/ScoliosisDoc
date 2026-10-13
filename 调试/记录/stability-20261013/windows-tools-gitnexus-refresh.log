@@ -1,0 +1,20 @@
+
+  GitNexus Analyzer
+
+[2K
+  Skipped 2 large files (>512KB, likely generated/vendored)
+[2K
+  - 调试/记录/stability-20261013/original-41-logs-sanitized.json
+[2K
+  - 调试/记录/stability-20261013/usb-transport.jsonl
+[2K
+  Set GITNEXUS_MAX_FILE_SIZE=<KB> to include files above the default cap.
+[2K
+Parse cache: pruned 1 stale chunk entries
+  Repository indexed successfully (13.4s)
+
+  2,312 nodes | 4,027 edges | 73 clusters | 56 flows
+  D:\code\Scoliosis\Luckfox
+
+(node:62584) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)

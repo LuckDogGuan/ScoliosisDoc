@@ -1,0 +1,360 @@
+{"monotonic_ms":5369852,"utc_ms":1791856383938,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":31,\"nonce\":\"868576f40f0b8ef370917394dad66123\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:34450\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":31,"nonce":"868576f40f0b8ef370917394dad66123","direction":"pc_to_board","source_endpoint":"127.0.0.1:34450","ok":true}
+
+{"monotonic_ms":5369916,"utc_ms":1791856384002,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":59,\"nonce\":\"1675ccc8957450fd6ab17de37f7a0fb7\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:38327\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":59,"nonce":"1675ccc8957450fd6ab17de37f7a0fb7","direction":"pc_to_board","source_endpoint":"127.0.0.1:38327","ok":true}
+
+{"monotonic_ms":5370249,"utc_ms":1791856384335,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5371847,"utc_ms":1791856385934,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":60,\"nonce\":\"2896ac5a1ce3064a13e7b03c965a62ca\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59624\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":60,"nonce":"2896ac5a1ce3064a13e7b03c965a62ca","direction":"pc_to_board","source_endpoint":"127.0.0.1:59624","ok":true}
+
+{"monotonic_ms":5371864,"utc_ms":1791856385950,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":32,\"nonce\":\"99ce7cce8f91daedf24c738f3435671b\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:40715\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":32,"nonce":"99ce7cce8f91daedf24c738f3435671b","direction":"pc_to_board","source_endpoint":"127.0.0.1:40715","ok":true}
+
+{"monotonic_ms":5372684,"utc_ms":1791856386771,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":61,\"nonce\":\"52b0e3ff025b65f938390c5c75874aa3\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:39878\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":61,"nonce":"52b0e3ff025b65f938390c5c75874aa3","direction":"pc_to_board","source_endpoint":"127.0.0.1:39878","ok":true}
+
+{"monotonic_ms":5373885,"utc_ms":1791856387971,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":33,\"nonce\":\"3baa38d10aefae9b779d2995a46c5b85\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:44501\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":33,"nonce":"3baa38d10aefae9b779d2995a46c5b85","direction":"pc_to_board","source_endpoint":"127.0.0.1:44501","ok":true}
+
+{"monotonic_ms":5374161,"utc_ms":1791856388248,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":62,\"nonce\":\"2c39aea8be44a245dd757e3f785a3c7e\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:34003\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":62,"nonce":"2c39aea8be44a245dd757e3f785a3c7e","direction":"pc_to_board","source_endpoint":"127.0.0.1:34003","ok":true}
+
+{"monotonic_ms":5375197,"utc_ms":1791856389283,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":63,\"nonce\":\"730cd427d13814d57b3a479712f39034\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59733\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":63,"nonce":"730cd427d13814d57b3a479712f39034","direction":"pc_to_board","source_endpoint":"127.0.0.1:59733","ok":true}
+
+{"monotonic_ms":5375871,"utc_ms":1791856389958,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":34,\"nonce\":\"d977d602b18fea0d3e34d05bdeb6d00d\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:57169\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":34,"nonce":"d977d602b18fea0d3e34d05bdeb6d00d","direction":"pc_to_board","source_endpoint":"127.0.0.1:57169","ok":true}
+
+{"monotonic_ms":5376305,"utc_ms":1791856390392,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":64,\"nonce\":\"c5ba931157d0f0548ff98188877c52f6\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:53373\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":64,"nonce":"c5ba931157d0f0548ff98188877c52f6","direction":"pc_to_board","source_endpoint":"127.0.0.1:53373","ok":true}
+
+{"monotonic_ms":5377365,"utc_ms":1791856391451,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":65,\"nonce\":\"caf1090d62764e2568f3e05020b4b1a8\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:36994\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":65,"nonce":"caf1090d62764e2568f3e05020b4b1a8","direction":"pc_to_board","source_endpoint":"127.0.0.1:36994","ok":true}
+
+{"monotonic_ms":5377870,"utc_ms":1791856391957,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":35,\"nonce\":\"b05d711b1772a71ab5149ec7ed6e064a\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:40393\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":35,"nonce":"b05d711b1772a71ab5149ec7ed6e064a","direction":"pc_to_board","source_endpoint":"127.0.0.1:40393","ok":true}
+
+{"monotonic_ms":5378406,"utc_ms":1791856392492,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":66,\"nonce\":\"b4d71a1508375e25d06caffc57a2b08e\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:52085\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":66,"nonce":"b4d71a1508375e25d06caffc57a2b08e","direction":"pc_to_board","source_endpoint":"127.0.0.1:52085","ok":true}
+
+{"monotonic_ms":5379617,"utc_ms":1791856393703,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":67,\"nonce\":\"13e104f2efcda5897ef2ce1a9d0e8b0d\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:60645\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":67,"nonce":"13e104f2efcda5897ef2ce1a9d0e8b0d","direction":"pc_to_board","source_endpoint":"127.0.0.1:60645","ok":true}
+
+{"monotonic_ms":5379876,"utc_ms":1791856393962,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":36,\"nonce\":\"51eaf738f225d46e825026cceb7d9c6a\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:39508\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":36,"nonce":"51eaf738f225d46e825026cceb7d9c6a","direction":"pc_to_board","source_endpoint":"127.0.0.1:39508","ok":true}
+
+{"monotonic_ms":5380303,"utc_ms":1791856394389,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5380588,"utc_ms":1791856394675,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":68,\"nonce\":\"295ef6a5abd02212b88a8c0bd75539e8\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:32940\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":68,"nonce":"295ef6a5abd02212b88a8c0bd75539e8","direction":"pc_to_board","source_endpoint":"127.0.0.1:32940","ok":true}
+
+{"monotonic_ms":5381866,"utc_ms":1791856395953,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":37,\"nonce\":\"1cbc2343431adf57b0ee3dd9fe59f5b1\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:47945\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":37,"nonce":"1cbc2343431adf57b0ee3dd9fe59f5b1","direction":"pc_to_board","source_endpoint":"127.0.0.1:47945","ok":true}
+
+{"monotonic_ms":5381883,"utc_ms":1791856395969,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":69,\"nonce\":\"c18f7812e105cf34684768448bbd2cc9\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:51788\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":69,"nonce":"c18f7812e105cf34684768448bbd2cc9","direction":"pc_to_board","source_endpoint":"127.0.0.1:51788","ok":true}
+
+{"monotonic_ms":5383883,"utc_ms":1791856397970,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":38,\"nonce\":\"88bd949b09893b2ecad09f138ccc3046\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:57987\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":38,"nonce":"88bd949b09893b2ecad09f138ccc3046","direction":"pc_to_board","source_endpoint":"127.0.0.1:57987","ok":true}
+
+{"monotonic_ms":5383887,"utc_ms":1791856397974,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":70,\"nonce\":\"0b74babb24eb84f5e0835a98d46a2296\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:43551\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":70,"nonce":"0b74babb24eb84f5e0835a98d46a2296","direction":"pc_to_board","source_endpoint":"127.0.0.1:43551","ok":true}
+
+{"monotonic_ms":5384736,"utc_ms":1791856398822,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":71,\"nonce\":\"c1b3ccd520b37ab257d6a543a4fcd999\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:56516\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":71,"nonce":"c1b3ccd520b37ab257d6a543a4fcd999","direction":"pc_to_board","source_endpoint":"127.0.0.1:56516","ok":true}
+
+{"monotonic_ms":5385869,"utc_ms":1791856399955,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":39,\"nonce\":\"6e85770cddf50c5c61317ba4b41d9f3f\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:45839\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":39,"nonce":"6e85770cddf50c5c61317ba4b41d9f3f","direction":"pc_to_board","source_endpoint":"127.0.0.1:45839","ok":true}
+
+{"monotonic_ms":5386081,"utc_ms":1791856400168,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":72,\"nonce\":\"8afbfad448f0a55d76ffc8f478153154\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59641\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":72,"nonce":"8afbfad448f0a55d76ffc8f478153154","direction":"pc_to_board","source_endpoint":"127.0.0.1:59641","ok":true}
+
+{"monotonic_ms":5386900,"utc_ms":1791856400986,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":73,\"nonce\":\"2302525ea27320b4610d4d38459f7ca6\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:56957\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":73,"nonce":"2302525ea27320b4610d4d38459f7ca6","direction":"pc_to_board","source_endpoint":"127.0.0.1:56957","ok":true}
+
+{"monotonic_ms":5387936,"utc_ms":1791856402022,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":40,\"nonce\":\"d0e571d547111b39d4d2646de8c07a18\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:45402\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":40,"nonce":"d0e571d547111b39d4d2646de8c07a18","direction":"pc_to_board","source_endpoint":"127.0.0.1:45402","ok":true}
+
+{"monotonic_ms":5388188,"utc_ms":1791856402274,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":74,\"nonce\":\"37219d8e0fdb28f0ff81549f4a5d72e2\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:58441\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":74,"nonce":"37219d8e0fdb28f0ff81549f4a5d72e2","direction":"pc_to_board","source_endpoint":"127.0.0.1:58441","ok":true}
+
+{"monotonic_ms":5389128,"utc_ms":1791856403214,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":75,\"nonce\":\"632bdaaf5e731bf88615f3e798f9e69e\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:44303\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":75,"nonce":"632bdaaf5e731bf88615f3e798f9e69e","direction":"pc_to_board","source_endpoint":"127.0.0.1:44303","ok":true}
+
+{"monotonic_ms":5389928,"utc_ms":1791856404014,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":41,\"nonce\":\"9ebf8cfedd79a426fc6ad2b497635cea\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:53861\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":41,"nonce":"9ebf8cfedd79a426fc6ad2b497635cea","direction":"pc_to_board","source_endpoint":"127.0.0.1:53861","ok":true}
+
+{"monotonic_ms":5390339,"utc_ms":1791856404426,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":76,\"nonce\":\"ca1a6c4e10a510ece2e5dd3b6f245b8b\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:35801\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":76,"nonce":"ca1a6c4e10a510ece2e5dd3b6f245b8b","direction":"pc_to_board","source_endpoint":"127.0.0.1:35801","ok":true}
+
+{"monotonic_ms":5390372,"utc_ms":1791856404458,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5391463,"utc_ms":1791856405549,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":77,\"nonce\":\"535e3738de8b813d7955087a51164946\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:34525\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":77,"nonce":"535e3738de8b813d7955087a51164946","direction":"pc_to_board","source_endpoint":"127.0.0.1:34525","ok":true}
+
+{"monotonic_ms":5391876,"utc_ms":1791856405962,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":42,\"nonce\":\"3c61d1b9a2d1ae7dafeb67483a0c5d6d\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:43429\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":42,"nonce":"3c61d1b9a2d1ae7dafeb67483a0c5d6d","direction":"pc_to_board","source_endpoint":"127.0.0.1:43429","ok":true}
+
+{"monotonic_ms":5392458,"utc_ms":1791856406545,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":78,\"nonce\":\"8ef2d52f74eab9e1ffd28ed2458e5ab3\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:34756\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":78,"nonce":"8ef2d52f74eab9e1ffd28ed2458e5ab3","direction":"pc_to_board","source_endpoint":"127.0.0.1:34756","ok":true}
+
+{"monotonic_ms":5393671,"utc_ms":1791856407757,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":79,\"nonce\":\"738c21aa4804b2733934188b6c2978f2\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:42823\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":79,"nonce":"738c21aa4804b2733934188b6c2978f2","direction":"pc_to_board","source_endpoint":"127.0.0.1:42823","ok":true}
+
+{"monotonic_ms":5393909,"utc_ms":1791856407995,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":43,\"nonce\":\"a9387b8e7375de78d1b4232ec49a920a\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:32859\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":43,"nonce":"a9387b8e7375de78d1b4232ec49a920a","direction":"pc_to_board","source_endpoint":"127.0.0.1:32859","ok":true}
+
+{"monotonic_ms":5394593,"utc_ms":1791856408680,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":80,\"nonce\":\"519278b7aa60cf1192f3397fbeaf2a47\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59322\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":80,"nonce":"519278b7aa60cf1192f3397fbeaf2a47","direction":"pc_to_board","source_endpoint":"127.0.0.1:59322","ok":true}
+
+{"monotonic_ms":5395872,"utc_ms":1791856409958,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":44,\"nonce\":\"641d65d8683b695bccf89ef8d0ee700c\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59249\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":44,"nonce":"641d65d8683b695bccf89ef8d0ee700c","direction":"pc_to_board","source_endpoint":"127.0.0.1:59249","ok":true}
+
+{"monotonic_ms":5395941,"utc_ms":1791856410027,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":81,\"nonce\":\"0305ad4d2b9dc46dc63c8f46b7b17587\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:41702\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":81,"nonce":"0305ad4d2b9dc46dc63c8f46b7b17587","direction":"pc_to_board","source_endpoint":"127.0.0.1:41702","ok":true}
+
+{"monotonic_ms":5397915,"utc_ms":1791856412001,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":45,\"nonce\":\"871eefce85fa0fe53130d85a2f8add1f\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:50151\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":45,"nonce":"871eefce85fa0fe53130d85a2f8add1f","direction":"pc_to_board","source_endpoint":"127.0.0.1:50151","ok":true}
+
+{"monotonic_ms":5397922,"utc_ms":1791856412008,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":82,\"nonce\":\"b43d25386f4f181ddc60a364f0bd99e9\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:44412\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":82,"nonce":"b43d25386f4f181ddc60a364f0bd99e9","direction":"pc_to_board","source_endpoint":"127.0.0.1:44412","ok":true}
+
+{"monotonic_ms":5398702,"utc_ms":1791856412788,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":83,\"nonce\":\"f4a14898b6cb5ff248a71db18e67509c\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:58880\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":83,"nonce":"f4a14898b6cb5ff248a71db18e67509c","direction":"pc_to_board","source_endpoint":"127.0.0.1:58880","ok":true}
+
+{"monotonic_ms":5399903,"utc_ms":1791856413990,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":46,\"nonce\":\"5add3b007911c6d5196423e95621efae\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:42199\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":46,"nonce":"5add3b007911c6d5196423e95621efae","direction":"pc_to_board","source_endpoint":"127.0.0.1:42199","ok":true}
+
+{"monotonic_ms":5400120,"utc_ms":1791856414206,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":84,\"nonce\":\"189506000594d49b73e71033f6b9ff25\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:46149\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":84,"nonce":"189506000594d49b73e71033f6b9ff25","direction":"pc_to_board","source_endpoint":"127.0.0.1:46149","ok":true}
+
+{"monotonic_ms":5400454,"utc_ms":1791856414540,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5401034,"utc_ms":1791856415120,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":85,\"nonce\":\"8bc0c7cf1547e47360ec66f0f7b6dcf2\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59520\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":85,"nonce":"8bc0c7cf1547e47360ec66f0f7b6dcf2","direction":"pc_to_board","source_endpoint":"127.0.0.1:59520","ok":true}
+
+{"monotonic_ms":5401883,"utc_ms":1791856415969,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":47,\"nonce\":\"4afe679b418e6cd535523b60766ec156\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:55238\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":47,"nonce":"4afe679b418e6cd535523b60766ec156","direction":"pc_to_board","source_endpoint":"127.0.0.1:55238","ok":true}
+
+{"monotonic_ms":5402241,"utc_ms":1791856416327,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":86,\"nonce\":\"ff1872a95531d0817b9f107a9652ee35\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:39537\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":86,"nonce":"ff1872a95531d0817b9f107a9652ee35","direction":"pc_to_board","source_endpoint":"127.0.0.1:39537","ok":true}
+
+{"monotonic_ms":5403260,"utc_ms":1791856417346,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":87,\"nonce\":\"2565221b620436cb6b33a9d36b3d33d0\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:36679\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":87,"nonce":"2565221b620436cb6b33a9d36b3d33d0","direction":"pc_to_board","source_endpoint":"127.0.0.1:36679","ok":true}
+
+{"monotonic_ms":5403892,"utc_ms":1791856417978,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":48,\"nonce\":\"21293413334f90fdee7e9261ac994d96\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:55420\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":48,"nonce":"21293413334f90fdee7e9261ac994d96","direction":"pc_to_board","source_endpoint":"127.0.0.1:55420","ok":true}
+
+{"monotonic_ms":5404379,"utc_ms":1791856418465,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":88,\"nonce\":\"252202f18902cc81af174a1e339b2878\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59865\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":88,"nonce":"252202f18902cc81af174a1e339b2878","direction":"pc_to_board","source_endpoint":"127.0.0.1:59865","ok":true}
+
+{"monotonic_ms":5405537,"utc_ms":1791856419624,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":89,\"nonce\":\"e3fea4d033037edb563f4eb03cca5539\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:48584\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":89,"nonce":"e3fea4d033037edb563f4eb03cca5539","direction":"pc_to_board","source_endpoint":"127.0.0.1:48584","ok":true}
+
+{"monotonic_ms":5405884,"utc_ms":1791856419970,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":49,\"nonce\":\"6bd34f0feba3860774163ed80e94b33a\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:49105\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":49,"nonce":"6bd34f0feba3860774163ed80e94b33a","direction":"pc_to_board","source_endpoint":"127.0.0.1:49105","ok":true}
+
+{"monotonic_ms":5406477,"utc_ms":1791856420564,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":90,\"nonce\":\"07777856ad8eb45cbbd3653f1f88840c\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:34673\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":90,"nonce":"07777856ad8eb45cbbd3653f1f88840c","direction":"pc_to_board","source_endpoint":"127.0.0.1:34673","ok":true}
+
+{"monotonic_ms":5407700,"utc_ms":1791856421786,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":91,\"nonce\":\"2df3266158c19a976f7764ae371b0ed9\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:43981\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":91,"nonce":"2df3266158c19a976f7764ae371b0ed9","direction":"pc_to_board","source_endpoint":"127.0.0.1:43981","ok":true}
+
+{"monotonic_ms":5407909,"utc_ms":1791856421995,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":50,\"nonce\":\"ee568606431b03726c872979dfe086d6\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:60197\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":50,"nonce":"ee568606431b03726c872979dfe086d6","direction":"pc_to_board","source_endpoint":"127.0.0.1:60197","ok":true}
+
+{"monotonic_ms":5408577,"utc_ms":1791856422663,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":92,\"nonce\":\"3df87090e166f7196fba542056cb0219\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:33514\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":92,"nonce":"3df87090e166f7196fba542056cb0219","direction":"pc_to_board","source_endpoint":"127.0.0.1:33514","ok":true}
+
+{"monotonic_ms":5409924,"utc_ms":1791856424010,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":51,\"nonce\":\"600f6e9928ce5c1486b47ecb942f4c21\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:56195\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":51,"nonce":"600f6e9928ce5c1486b47ecb942f4c21","direction":"pc_to_board","source_endpoint":"127.0.0.1:56195","ok":true}
+
+{"monotonic_ms":5409928,"utc_ms":1791856424014,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":93,\"nonce\":\"7fef37882df8d44f200cc55b031f1c6f\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:54924\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":93,"nonce":"7fef37882df8d44f200cc55b031f1c6f","direction":"pc_to_board","source_endpoint":"127.0.0.1:54924","ok":true}
+
+{"monotonic_ms":5410525,"utc_ms":1791856424611,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5410773,"utc_ms":1791856424859,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":94,\"nonce\":\"056dcd1e8d3d2b8bd102ff226fbb7736\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:52362\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":94,"nonce":"056dcd1e8d3d2b8bd102ff226fbb7736","direction":"pc_to_board","source_endpoint":"127.0.0.1:52362","ok":true}
+
+{"monotonic_ms":5411882,"utc_ms":1791856425969,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":52,\"nonce\":\"9106c4449992fdcc7120f3eebb6777a5\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:60533\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":52,"nonce":"9106c4449992fdcc7120f3eebb6777a5","direction":"pc_to_board","source_endpoint":"127.0.0.1:60533","ok":true}
+
+{"monotonic_ms":5412132,"utc_ms":1791856426218,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":95,\"nonce\":\"f2334a0db2827b548eb4f73a3294b9d6\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59789\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":95,"nonce":"f2334a0db2827b548eb4f73a3294b9d6","direction":"pc_to_board","source_endpoint":"127.0.0.1:59789","ok":true}
+
+{"monotonic_ms":5412953,"utc_ms":1791856427039,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":96,\"nonce\":\"48e453edb945cf77b16c42168047686c\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:47874\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":96,"nonce":"48e453edb945cf77b16c42168047686c","direction":"pc_to_board","source_endpoint":"127.0.0.1:47874","ok":true}
+
+{"monotonic_ms":5413873,"utc_ms":1791856427959,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":53,\"nonce\":\"c2e6afddfe55a29b941a61c25d1c44ce\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:34908\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":53,"nonce":"c2e6afddfe55a29b941a61c25d1c44ce","direction":"pc_to_board","source_endpoint":"127.0.0.1:34908","ok":true}
+
+{"monotonic_ms":5414231,"utc_ms":1791856428317,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":97,\"nonce\":\"d5d48ae204de9e1a2881054a7551960d\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:41166\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":97,"nonce":"d5d48ae204de9e1a2881054a7551960d","direction":"pc_to_board","source_endpoint":"127.0.0.1:41166","ok":true}
+
+{"monotonic_ms":5415222,"utc_ms":1791856429308,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":98,\"nonce\":\"a8c1929190350b7d60786e279233db0d\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:36213\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":98,"nonce":"a8c1929190350b7d60786e279233db0d","direction":"pc_to_board","source_endpoint":"127.0.0.1:36213","ok":true}
+
+{"monotonic_ms":5415884,"utc_ms":1791856429971,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":54,\"nonce\":\"0ffa783571a6169a039aead89222cacb\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:47095\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":54,"nonce":"0ffa783571a6169a039aead89222cacb","direction":"pc_to_board","source_endpoint":"127.0.0.1:47095","ok":true}
+
+{"monotonic_ms":5416294,"utc_ms":1791856430380,"event":"buttons","capture_id":"","gate_id":"gate-1791856321860957-2592817680","boot_id":"CAM-000123-723deb3d","detail":"{\"key_mask\":0}","key_mask":0}
+
+{"monotonic_ms":5416295,"utc_ms":1791856430381,"event":"status_light","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"steady"}
+
+{"monotonic_ms":5416370,"utc_ms":1791856430457,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_renew\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":99,\"nonce\":\"8dd9ca99514a941be8052920d1e99188\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:46004\",\"ok\":true}","op":"capture_renew","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":99,"nonce":"8dd9ca99514a941be8052920d1e99188","direction":"pc_to_board","source_endpoint":"127.0.0.1:46004","ok":true}
+
+{"monotonic_ms":5417511,"utc_ms":1791856431597,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_disable\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":100,\"nonce\":\"b1d6a45d5d27cdbc23f7c955a79a1bbc\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:51079\",\"ok\":true}","op":"capture_disable","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":100,"nonce":"b1d6a45d5d27cdbc23f7c955a79a1bbc","direction":"pc_to_board","source_endpoint":"127.0.0.1:51079","ok":true}
+
+{"monotonic_ms":5417863,"utc_ms":1791856431950,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":55,\"nonce\":\"cb838c20c21fec82bba8f723d700cae7\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:54354\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":55,"nonce":"cb838c20c21fec82bba8f723d700cae7","direction":"pc_to_board","source_endpoint":"127.0.0.1:54354","ok":true}
+
+{"monotonic_ms":5418507,"utc_ms":1791856432593,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_disable\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":101,\"nonce\":\"d64365bb10ac3501c3933611b1dd9772\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:42621\",\"ok\":true}","op":"capture_disable","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":101,"nonce":"d64365bb10ac3501c3933611b1dd9772","direction":"pc_to_board","source_endpoint":"127.0.0.1:42621","ok":true}
+
+{"monotonic_ms":5419935,"utc_ms":1791856434021,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_disable\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":102,\"nonce\":\"2fefbe76bd538fa14bf48c2d6d53e359\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59483\",\"ok\":true}","op":"capture_disable","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":102,"nonce":"2fefbe76bd538fa14bf48c2d6d53e359","direction":"pc_to_board","source_endpoint":"127.0.0.1:59483","ok":true}
+
+{"monotonic_ms":5419987,"utc_ms":1791856434073,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":56,\"nonce\":\"23f8ef244f49c7e14a8207a5651190a5\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:48249\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":56,"nonce":"23f8ef244f49c7e14a8207a5651190a5","direction":"pc_to_board","source_endpoint":"127.0.0.1:48249","ok":true}
+
+{"monotonic_ms":5420601,"utc_ms":1791856434687,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5421730,"utc_ms":1791856435816,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":57,\"nonce\":\"61ddaef5560759e6f06cdc1adfb00c67\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:43009\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":57,"nonce":"61ddaef5560759e6f06cdc1adfb00c67","direction":"pc_to_board","source_endpoint":"127.0.0.1:43009","ok":true}
+
+{"monotonic_ms":5421765,"utc_ms":1791856435851,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":103,\"nonce\":\"ec95de8b2a88e6a7b716d8a725a11519\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:59877\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":103,"nonce":"ec95de8b2a88e6a7b716d8a725a11519","direction":"pc_to_board","source_endpoint":"127.0.0.1:59877","ok":true}
+
+{"monotonic_ms":5422375,"utc_ms":1791856436461,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":58,\"nonce\":\"4fd9c719439b67df621b2e7d7a4cc2ed\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:52976\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":58,"nonce":"4fd9c719439b67df621b2e7d7a4cc2ed","direction":"pc_to_board","source_endpoint":"127.0.0.1:52976","ok":true}
+
+{"monotonic_ms":5423119,"utc_ms":1791856437205,"event":"udp_exchange","capture_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"capture_disable\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"gate_id\":\"gate-1791856321860957-2592817680\",\"sequence\":104,\"nonce\":\"2f0993eb648ddb764feb50d3ff059f50\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:55274\",\"ok\":true}","op":"capture_disable","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","gate_id":"gate-1791856321860957-2592817680","sequence":104,"nonce":"2f0993eb648ddb764feb50d3ff059f50","direction":"pc_to_board","source_endpoint":"127.0.0.1:55274","ok":true}
+
+{"monotonic_ms":5423825,"utc_ms":1791856437911,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"hello_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":59,\"nonce\":\"699b6fbccbd8455750d1bb1a1605ddd8\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:55158\",\"ok\":true}","op":"hello_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":59,"nonce":"699b6fbccbd8455750d1bb1a1605ddd8","direction":"pc_to_board","source_endpoint":"127.0.0.1:55158","ok":true}
+
+{"monotonic_ms":5424305,"utc_ms":1791856438391,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"pending_query\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"sequence\":105,\"nonce\":\"6a4981559668dd0699d0c62105672819\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:44425\",\"ok\":true}","op":"pending_query","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","sequence":105,"nonce":"6a4981559668dd0699d0c62105672819","direction":"pc_to_board","source_endpoint":"127.0.0.1:44425","ok":true}
+
+{"monotonic_ms":5425020,"utc_ms":1791856439106,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"unpair\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"txn_id\":\"e1791856439533239-2213576260\",\"sequence\":106,\"nonce\":\"4466b2328db522efd9b022070ce03902\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:41238\",\"ok\":true}","op":"unpair","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","txn_id":"e1791856439533239-2213576260","sequence":106,"nonce":"4466b2328db522efd9b022070ce03902","direction":"pc_to_board","source_endpoint":"127.0.0.1:41238","ok":true}
+
+{"monotonic_ms":5425021,"utc_ms":1791856439107,"event":"status_light","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"slow"}
+
+{"monotonic_ms":5425759,"utc_ms":1791856439845,"event":"udp_exchange","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"{\"op\":\"unpair\",\"device_id\":\"CAM-000123\",\"host_id\":\"619bc3abaf05432cf473669ab944c6de\",\"txn_id\":\"e1791856439533239-2213576260\",\"sequence\":107,\"nonce\":\"2b71e36cff7662169973f3f9a7750d5a\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:46998\",\"ok\":false,\"error\":\"host_not_paired\"}","op":"unpair","device_id":"CAM-000123","host_id":"619bc3abaf05432cf473669ab944c6de","txn_id":"e1791856439533239-2213576260","sequence":107,"nonce":"2b71e36cff7662169973f3f9a7750d5a","direction":"pc_to_board","source_endpoint":"127.0.0.1:46998","ok":false,"error":"host_not_paired"}
+
+{"monotonic_ms":5430625,"utc_ms":1791856444711,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5440674,"utc_ms":1791856454760,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5450731,"utc_ms":1791856464817,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5460773,"utc_ms":1791856474859,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5470814,"utc_ms":1791856484900,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5480848,"utc_ms":1791856494934,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5490875,"utc_ms":1791856504961,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5500918,"utc_ms":1791856515004,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5510955,"utc_ms":1791856525041,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5520986,"utc_ms":1791856535072,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5531016,"utc_ms":1791856545103,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5541057,"utc_ms":1791856555143,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5551092,"utc_ms":1791856565178,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5561131,"utc_ms":1791856575217,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5571169,"utc_ms":1791856585256,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5581213,"utc_ms":1791856595299,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5591251,"utc_ms":1791856605338,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5601295,"utc_ms":1791856615381,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5611318,"utc_ms":1791856625404,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5621357,"utc_ms":1791856635443,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5631425,"utc_ms":1791856645512,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5641472,"utc_ms":1791856655559,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5651498,"utc_ms":1791856665585,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5661520,"utc_ms":1791856675607,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5671556,"utc_ms":1791856685643,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5681591,"utc_ms":1791856695678,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5691632,"utc_ms":1791856705719,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5701679,"utc_ms":1791856715765,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5711718,"utc_ms":1791856725804,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5721764,"utc_ms":1791856735850,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5731800,"utc_ms":1791856745886,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5741832,"utc_ms":1791856755919,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5751890,"utc_ms":1791856765976,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5761928,"utc_ms":1791856776014,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5771955,"utc_ms":1791856786041,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5781996,"utc_ms":1791856796082,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5792029,"utc_ms":1791856806115,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5802062,"utc_ms":1791856816149,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5812099,"utc_ms":1791856826186,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5822136,"utc_ms":1791856836222,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5832192,"utc_ms":1791856846278,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5842234,"utc_ms":1791856856320,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5852265,"utc_ms":1791856866351,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5862306,"utc_ms":1791856876393,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5872343,"utc_ms":1791856886429,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5882369,"utc_ms":1791856896455,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5892403,"utc_ms":1791856906489,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5902445,"utc_ms":1791856916531,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5912475,"utc_ms":1791856926561,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5922519,"utc_ms":1791856936605,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5932558,"utc_ms":1791856946645,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5942590,"utc_ms":1791856956677,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5952619,"utc_ms":1791856966705,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5962663,"utc_ms":1791856976750,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5972696,"utc_ms":1791856986782,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5982722,"utc_ms":1791856996808,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":5992765,"utc_ms":1791857006851,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6002803,"utc_ms":1791857016889,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6012849,"utc_ms":1791857026936,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6022899,"utc_ms":1791857036985,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6032943,"utc_ms":1791857047029,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6042982,"utc_ms":1791857057068,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6053034,"utc_ms":1791857067120,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6063066,"utc_ms":1791857077152,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6073106,"utc_ms":1791857087192,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6083156,"utc_ms":1791857097242,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6093179,"utc_ms":1791857107266,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6103194,"utc_ms":1791857117280,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6113243,"utc_ms":1791857127329,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6123266,"utc_ms":1791857137353,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6133305,"utc_ms":1791857147392,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6143341,"utc_ms":1791857157428,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6153386,"utc_ms":1791857167472,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6163428,"utc_ms":1791857177514,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6173493,"utc_ms":1791857187579,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6183523,"utc_ms":1791857197609,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6193560,"utc_ms":1791857207646,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6203585,"utc_ms":1791857217671,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6213632,"utc_ms":1791857227719,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6223660,"utc_ms":1791857237746,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6233695,"utc_ms":1791857247781,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6243731,"utc_ms":1791857257817,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6253774,"utc_ms":1791857267860,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6263806,"utc_ms":1791857277893,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6273831,"utc_ms":1791857287917,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6283854,"utc_ms":1791857297940,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6293899,"utc_ms":1791857307986,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6303938,"utc_ms":1791857318025,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6313973,"utc_ms":1791857328060,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6324016,"utc_ms":1791857338102,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6334055,"utc_ms":1791857348141,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6344081,"utc_ms":1791857358167,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+
+{"monotonic_ms":6354097,"utc_ms":1791857368183,"event":"network_snapshot","capture_id":"","gate_id":"","boot_id":"CAM-000123-723deb3d","detail":"gateway=1 wifi=1 failures=0 state=available initial=0"}
+

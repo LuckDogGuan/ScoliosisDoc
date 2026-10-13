@@ -1,0 +1,19 @@
+{
+  "check": "user_requested_stop",
+  "limit_minutes": 20,
+  "utc": "2026-10-13T04:55:23Z",
+  "gate_disabled": true,
+  "phase_at_stop": "prepared",
+  "boot": "CAM-000123-39ea0692",
+  "reply": {
+    "version": 3,
+    "op": "capture_disable_reply",
+    "device_id": "CAM-000123",
+    "host_id": "4665cd5098f99af2942188c8238ffb3e",
+    "boot_id": "CAM-000123-39ea0692",
+    "sequence": 1201,
+    "nonce": "88ff273e18fb0a5a9ca4d771e3d9e4e6",
+    "ok": true,
+    "phase": "idle"
+  }
+}
