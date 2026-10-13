@@ -1,0 +1,9 @@
+{
+  "serial": "3253c006806f5194",
+  "device_id": "CAM-000123",
+  "version": "3.3.7",
+  "backup": "/opt/instrument/backups/bundle-20261009T075447Z-1626",
+  "package_sha256": "65b9daa189517bedcb66882316662c1e724852076fb9d1b1e5a2fc4b9695748a",
+  "app_sha256": "33cb2d4fc887948097ef4878589dad52aaa8158390c187c0b397315caaddfe01",
+  "backup_sha256": "ad6aa4e32a67d18a5a1625ebc8141f47bbc16fb6bc0343cf064bc829fa122d9b"
+}

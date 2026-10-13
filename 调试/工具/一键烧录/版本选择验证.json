@@ -1,0 +1,24 @@
+{
+  "version": "1.1.0",
+  "gui_selection": [
+    "3.3.5",
+    "3.3.7"
+  ],
+  "tests": 7,
+  "packaged_gui": "PASS",
+  "selected_package_preflight": {
+    "time": "2026-10-09 16:20:02",
+    "preflight": "PASS",
+    "serial": "211ec7045815bf02",
+    "device_id": "CAM-211ec7045815bf02",
+    "package": "\\\\wsl.localhost\\Luckfox-Ubuntu-22.04\\home\\guanjx\\luckfox\\Scoliosis\\releases\\3.3.5\\instrument-v3.3.5.tar.gz",
+    "version": "3.3.5"
+  },
+  "report": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\release\\记录\\20261009-162001-211ec7045815bf02-acd1f2",
+  "firmware_install_performed": false,
+  "exe": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\release\\下位机一键烧录.exe",
+  "exe_bytes": 15832696,
+  "exe_sha256": "0dabe12fb835650564840afb73c9a4c10c4b3681b98de92307f3cc80211139d2",
+  "source_sha256": "a2b1f74fe35c286961c4f2075cd8b1825741e7e907bd20ce73fadf8b491c3ff4",
+  "rollback": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\release\\回退\\下位机一键烧录-1.0.0.exe"
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-09",
+  "version": "1.0.0",
+  "exe": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\release\\下位机一键烧录.exe",
+  "exe_bytes": 15812589,
+  "exe_sha256": "4ecdc0faa3353b1636e0b56b7cddbe3d49df2ca06bba3880d01a0494b2d30fd7",
+  "firmware_version": "3.3.7",
+  "serial": "b5f43dfe9303c9c2",
+  "source_tests": "5 passed",
+  "packaged_gui": "START_CLOSE_PASS",
+  "packaged_real_board": "INSTALL_REBOOT_VERIFY_PASS",
+  "source_first_install": "PASS",
+  "usb_selection": "single automatic; multiple explicit selection",
+  "camera_detected": false,
+  "wifi_state": "unknown",
+  "report": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\release\\记录\\20261009-161043-b5f43dfe9303c9c2-70c566",
+  "backup": "/opt/instrument/backups/bundle-20240101T001240Z-1689",
+  "backup_sha256": "490d34916c08530713401d8aee4634f39ee7134577f2bd4ddec6844da04ff6ef",
+  "source_files": {
+    "flash_tool.py": "10ba480529951a204513f6e2cb9d7c05243ee81e767ef3b1110bd683756f50da",
+    "test_flash_tool.py": "874f2ce8a168b7c628d556bfbad8d55eea72f70f758974b29bccc9b498aceff3",
+    "build.ps1": "ff1aa9b47cccb4df37825198bf9cbbd89281c8fdab518462f429cfff7ed85a45",
+    "payload/udp_query": "6f653c5f0f064c169d4b640e5284674f450a67b7181e6f8e300c8ed7607d35ca"
+  },
+  "gitnexus": "New untracked files are not covered by old index; impact UNKNOWN; detect_changes did not include new symbols; no existing source changed; no commit"
+}
