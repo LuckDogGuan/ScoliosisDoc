@@ -1,0 +1,26 @@
+{
+  "gpio4_c0_c3_mux": {
+    "command": "devmem 0xff568010 32",
+    "status": 0,
+    "output": "0x00000000",
+    "error": ""
+  },
+  "gpio1_c4_c7_mux": {
+    "command": "devmem 0xff538014 32",
+    "status": 0,
+    "output": "0x00000000",
+    "error": ""
+  },
+  "sampling_config": {
+    "command": "devmem 0xff3c0004 32; devmem 0xff3c000c 32",
+    "status": 0,
+    "output": "0x00000020\n\n0x0000000C",
+    "error": ""
+  },
+  "restored_adc_keys": {
+    "command": "readlink /sys/bus/platform/devices/adc-keys/driver",
+    "status": 0,
+    "output": "../../../bus/platform/drivers/adc_keys",
+    "error": ""
+  }
+}

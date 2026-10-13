@@ -1,0 +1,1222 @@
+../../../bus/platform/drivers/adc_keys
+
+Pinmux settings per pin
+
+Format: pin (name): mux_owner gpio_owner hog?
+
+pin 0 (gpio0-0): (MUX UNCLAIMED) gpio0:0
+
+pin 1 (gpio0-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 2 (gpio0-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 3 (gpio0-3): (MUX UNCLAIMED) gpio0:3
+
+pin 4 (gpio0-4): (MUX UNCLAIMED) gpio0:4
+
+pin 5 (gpio0-5): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 6 (gpio0-6): ff4b0000.serial (GPIO UNCLAIMED) function uart1 group uart1m0-ctsn
+
+pin 7 (gpio0-7): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 8 (gpio0-8): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 9 (gpio0-9): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 10 (gpio0-10): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 11 (gpio0-11): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 12 (gpio0-12): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 13 (gpio0-13): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 14 (gpio0-14): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 15 (gpio0-15): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 16 (gpio0-16): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 17 (gpio0-17): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 18 (gpio0-18): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 19 (gpio0-19): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 20 (gpio0-20): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 21 (gpio0-21): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 22 (gpio0-22): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 23 (gpio0-23): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 24 (gpio0-24): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 25 (gpio0-25): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 26 (gpio0-26): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 27 (gpio0-27): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 28 (gpio0-28): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 29 (gpio0-29): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 30 (gpio0-30): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 31 (gpio0-31): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 32 (gpio1-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 33 (gpio1-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 34 (gpio1-2): (MUX UNCLAIMED) gpio1:34
+
+pin 35 (gpio1-3): ff4b0000.serial (GPIO UNCLAIMED) function uart1 group uart1m0-xfer
+
+pin 36 (gpio1-4): ff4b0000.serial (GPIO UNCLAIMED) function uart1 group uart1m0-xfer
+
+pin 37 (gpio1-5): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 38 (gpio1-6): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 39 (gpio1-7): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 40 (gpio1-8): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 41 (gpio1-9): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 42 (gpio1-10): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 43 (gpio1-11): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 44 (gpio1-12): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 45 (gpio1-13): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 46 (gpio1-14): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 47 (gpio1-15): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 48 (gpio1-16): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 49 (gpio1-17): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 50 (gpio1-18): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 51 (gpio1-19): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 52 (gpio1-20): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 53 (gpio1-21): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 54 (gpio1-22): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 55 (gpio1-23): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 56 (gpio1-24): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 57 (gpio1-25): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 58 (gpio1-26): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 59 (gpio1-27): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 60 (gpio1-28): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 61 (gpio1-29): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 62 (gpio1-30): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 63 (gpio1-31): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 64 (gpio2-0): ff9a0000.mmc (GPIO UNCLAIMED) function sdmmc1 group sdmmc1m0-bus4
+
+pin 65 (gpio2-1): ff9a0000.mmc (GPIO UNCLAIMED) function sdmmc1 group sdmmc1m0-bus4
+
+pin 66 (gpio2-2): ff9a0000.mmc (GPIO UNCLAIMED) function sdmmc1 group sdmmc1m0-clk
+
+pin 67 (gpio2-3): ff9a0000.mmc (GPIO UNCLAIMED) function sdmmc1 group sdmmc1m0-cmd
+
+pin 68 (gpio2-4): ff9a0000.mmc (GPIO UNCLAIMED) function sdmmc1 group sdmmc1m0-bus4
+
+pin 69 (gpio2-5): ff9a0000.mmc (GPIO UNCLAIMED) function sdmmc1 group sdmmc1m0-bus4
+
+pin 70 (gpio2-6): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 71 (gpio2-7): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 72 (gpio2-8): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 73 (gpio2-9): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 74 (gpio2-10): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 75 (gpio2-11): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 76 (gpio2-12): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 77 (gpio2-13): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 78 (gpio2-14): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 79 (gpio2-15): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 80 (gpio2-16): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 81 (gpio2-17): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 82 (gpio2-18): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 83 (gpio2-19): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 84 (gpio2-20): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 85 (gpio2-21): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 86 (gpio2-22): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 87 (gpio2-23): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 88 (gpio2-24): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 89 (gpio2-25): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 90 (gpio2-26): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 91 (gpio2-27): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 92 (gpio2-28): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 93 (gpio2-29): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 94 (gpio2-30): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 95 (gpio2-31): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 96 (gpio3-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 97 (gpio3-1): ffaa0000.mmc (GPIO UNCLAIMED) function sdmmc0 group sdmmc0-det
+
+pin 98 (gpio3-2): ffaa0000.mmc (GPIO UNCLAIMED) function sdmmc0 group sdmmc0-bus4
+
+pin 99 (gpio3-3): ffaa0000.mmc (GPIO UNCLAIMED) function sdmmc0 group sdmmc0-bus4
+
+pin 100 (gpio3-4): ffaa0000.mmc (GPIO UNCLAIMED) function sdmmc0 group sdmmc0-clk
+
+pin 101 (gpio3-5): ffaa0000.mmc (GPIO UNCLAIMED) function sdmmc0 group sdmmc0-cmd
+
+pin 102 (gpio3-6): ffaa0000.mmc (GPIO UNCLAIMED) function sdmmc0 group sdmmc0-bus4
+
+pin 103 (gpio3-7): ffaa0000.mmc (GPIO UNCLAIMED) function sdmmc0 group sdmmc0-bus4
+
+pin 104 (gpio3-8): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 105 (gpio3-9): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 106 (gpio3-10): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 107 (gpio3-11): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 108 (gpio3-12): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 109 (gpio3-13): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 110 (gpio3-14): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 111 (gpio3-15): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 112 (gpio3-16): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 113 (gpio3-17): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 114 (gpio3-18): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 115 (gpio3-19): rkcif-mipi-lvds (GPIO UNCLAIMED) function mipi group mipi-pins
+
+pin 116 (gpio3-20): 4-0060 (GPIO UNCLAIMED) function mipi group mipi-refclk-out0
+
+pin 117 (gpio3-21): (MUX UNCLAIMED) gpio3:117
+
+pin 118 (gpio3-22): (MUX UNCLAIMED) gpio3:118
+
+pin 119 (gpio3-23): ff470000.i2c (GPIO UNCLAIMED) function i2c4 group i2c4m2-xfer
+
+pin 120 (gpio3-24): ff470000.i2c (GPIO UNCLAIMED) function i2c4 group i2c4m2-xfer
+
+pin 121 (gpio3-25): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 122 (gpio3-26): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 123 (gpio3-27): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 124 (gpio3-28): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 125 (gpio3-29): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 126 (gpio3-30): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 127 (gpio3-31): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 128 (gpio4-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 129 (gpio4-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 130 (gpio4-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 131 (gpio4-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 132 (gpio4-4): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 133 (gpio4-5): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 134 (gpio4-6): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 135 (gpio4-7): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 136 (gpio4-8): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 137 (gpio4-9): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 138 (gpio4-10): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 139 (gpio4-11): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 140 (gpio4-12): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 141 (gpio4-13): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 142 (gpio4-14): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 143 (gpio4-15): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 144 (gpio4-16): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 145 (gpio4-17): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 146 (gpio4-18): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 147 (gpio4-19): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 148 (gpio4-20): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 149 (gpio4-21): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 150 (gpio4-22): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+pin 151 (gpio4-23): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+
+Pin config settings per pin
+
+Format: pin (name): configs
+
+pin 0 (gpio0-0): input bias pull up (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (1 level)
+
+pin 1 (gpio0-1): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 2 (gpio0-2): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (1 level)
+
+pin 3 (gpio0-3): input bias pull up (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (1 level)
+
+pin 4 (gpio0-4): input bias pull up (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (1 level)
+
+pin 5 (gpio0-5): input bias disabled, output drive strength (4 mA), input schmitt enabled
+
+pin 6 (gpio0-6): input bias disabled, output drive strength (4 mA), input schmitt enabled
+
+pin 7 (gpio0-7): input bias disabled, output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 8 (gpio0-8): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 9 (gpio0-9): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 10 (gpio0-10): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 11 (gpio0-11): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 12 (gpio0-12): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 13 (gpio0-13): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 14 (gpio0-14): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 15 (gpio0-15): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 16 (gpio0-16): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 17 (gpio0-17): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 18 (gpio0-18): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 19 (gpio0-19): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 20 (gpio0-20): input bias disabled, output drive strength (4 mA), input schmitt enabled
+
+pin 21 (gpio0-21): input bias disabled, output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 22 (gpio0-22): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 23 (gpio0-23): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 24 (gpio0-24): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 25 (gpio0-25): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 26 (gpio0-26): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 27 (gpio0-27): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 28 (gpio0-28): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 29 (gpio0-29): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 30 (gpio0-30): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 31 (gpio0-31): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 32 (gpio1-0): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 33 (gpio1-1): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 34 (gpio1-2): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (1 level)
+
+pin 35 (gpio1-3): input bias pull up (1 ohms), output drive strength (4 mA), input schmitt enabled
+
+pin 36 (gpio1-4): input bias pull up (1 ohms), output drive strength (4 mA), input schmitt enabled
+
+pin 37 (gpio1-5): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 38 (gpio1-6): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 39 (gpio1-7): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 40 (gpio1-8): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 41 (gpio1-9): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 42 (gpio1-10): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled
+
+pin 43 (gpio1-11): input bias pull up (1 ohms), output drive strength (4 mA), input schmitt enabled
+
+pin 44 (gpio1-12): input bias disabled, output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 45 (gpio1-13): input bias disabled, output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 46 (gpio1-14): input bias disabled, output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 47 (gpio1-15): input bias disabled, output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 48 (gpio1-16): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 49 (gpio1-17): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 50 (gpio1-18): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 51 (gpio1-19): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 52 (gpio1-20): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 53 (gpio1-21): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 54 (gpio1-22): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 55 (gpio1-23): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 56 (gpio1-24): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 57 (gpio1-25): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 58 (gpio1-26): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 59 (gpio1-27): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 60 (gpio1-28): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 61 (gpio1-29): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 62 (gpio1-30): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 63 (gpio1-31): input bias pull down (1 ohms), output drive strength (4 mA), input schmitt enabled, pin output (0 level)
+
+pin 64 (gpio2-0): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 65 (gpio2-1): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 66 (gpio2-2): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 67 (gpio2-3): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 68 (gpio2-4): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 69 (gpio2-5): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 70 (gpio2-6): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 71 (gpio2-7): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 72 (gpio2-8): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 73 (gpio2-9): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 74 (gpio2-10): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 75 (gpio2-11): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 76 (gpio2-12): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 77 (gpio2-13): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 78 (gpio2-14): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 79 (gpio2-15): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 80 (gpio2-16): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 81 (gpio2-17): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 82 (gpio2-18): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 83 (gpio2-19): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 84 (gpio2-20): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 85 (gpio2-21): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 86 (gpio2-22): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 87 (gpio2-23): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 88 (gpio2-24): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 89 (gpio2-25): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 90 (gpio2-26): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 91 (gpio2-27): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 92 (gpio2-28): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 93 (gpio2-29): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 94 (gpio2-30): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 95 (gpio2-31): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 96 (gpio3-0): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 97 (gpio3-1): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 98 (gpio3-2): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 99 (gpio3-3): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 100 (gpio3-4): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 101 (gpio3-5): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 102 (gpio3-6): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 103 (gpio3-7): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 104 (gpio3-8): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 105 (gpio3-9): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 106 (gpio3-10): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 107 (gpio3-11): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 108 (gpio3-12): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 109 (gpio3-13): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 110 (gpio3-14): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 111 (gpio3-15): input bias disabled, output drive strength (2 mA), input schmitt enabled
+
+pin 112 (gpio3-16): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 113 (gpio3-17): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 114 (gpio3-18): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 115 (gpio3-19): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 116 (gpio3-20): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 117 (gpio3-21): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (1 level)
+
+pin 118 (gpio3-22): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (1 level)
+
+pin 119 (gpio3-23): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 120 (gpio3-24): input bias disabled, output drive strength (12 mA), input schmitt enabled
+
+pin 121 (gpio3-25): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (1 level)
+
+pin 122 (gpio3-26): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (1 level)
+
+pin 123 (gpio3-27): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 124 (gpio3-28): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 125 (gpio3-29): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 126 (gpio3-30): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 127 (gpio3-31): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 128 (gpio4-0): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 129 (gpio4-1): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 130 (gpio4-2): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 131 (gpio4-3): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 132 (gpio4-4): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 133 (gpio4-5): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 134 (gpio4-6): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 135 (gpio4-7): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 136 (gpio4-8): input bias pull up (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 137 (gpio4-9): input bias pull down (1 ohms), output drive strength (12 mA), input schmitt enabled
+
+pin 138 (gpio4-10): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 139 (gpio4-11): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 140 (gpio4-12): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 141 (gpio4-13): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 142 (gpio4-14): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 143 (gpio4-15): input bias disabled, output drive strength (12 mA), input schmitt enabled, pin output (0 level)
+
+pin 144 (gpio4-16): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (1 level)
+
+pin 145 (gpio4-17): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 146 (gpio4-18): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 147 (gpio4-19): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 148 (gpio4-20): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 149 (gpio4-21): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 150 (gpio4-22): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+pin 151 (gpio4-23): input bias disabled, output drive strength (2 mA), input schmitt enabled, pin output (0 level)
+
+ regulator                      use open bypass  opmode voltage current     min     max
+
+---------------------------------------------------------------------------------------
+
+ regulator-dummy                  4    4      0 unknown     0mV     0mA     0mV     0mV 
+
+    4-0060-dvdd                   1                                 0mA     0mV     0mV
+
+    4-0060-dovdd                  1                                 0mA     0mV     0mV
+
+    4-0060-avdd                   1                                 0mA     0mV     0mV
+
+    regulator-dummy               0                                 0mA     0mV     0mV
+
+ vcc_1v8                          2    2      0 unknown  1800mV     0mA  1800mV  1800mV 
+
+    ff3c0000.saradc-vref          1                                 0mA     0mV     0mV
+
+    vcc_1v8                       0                                 0mA     0mV     0mV
+
+ vcc_3v3                          1    1      0 unknown  3300mV     0mA  3300mV  3300mV 
+
+    vcc_3v3                       0                                 0mA     0mV     0mV
+
+                                 enable  prepare  protect                                duty
+
+   clock                          count    count    count        rate   accuracy phase  cycle
+
+---------------------------------------------------------------------------------------------
+
+ out-osc-imx415                       0        0        0    24000000          0     0  50000
+
+ out-osc-mia1321                      1        1        0    26000000          0     0  50000
+
+ xin24m                              23       23        0    24000000          0     0  50000
+
+    cclk_src_sdio                     1        1        0      375000          0     0  50000
+
+       sdio_sample                    0        0        0      187500          0     0  50000
+
+       sdio_drv                       0        0        0      187500          0    90  50000
+
+    pclk_vi_rtc_root                  2        2        0    24000000          0     0  50000
+
+       pclk_vi_rtc_phy                1        1        0    24000000          0     0  50000
+
+       pclk_vi_rtc_test               1        1        0    24000000          0     0  50000
+
+    clk_tsadc_tsen                    1        1        0    12000000          0     0  50000
+
+    clk_tsadc                         1        1        0     1000000          0     0  50000
+
+    clk_user_otpc_s                   0        0        0    12000000          0     0  50000
+
+    clk_sbpi_otpc_s                   0        0        0    24000000          0     0  50000
+
+       clk_pmc_otp                    0        0        0    24000000          0     0  50000
+
+    clk_user_otpc_ns                  0        0        0    12000000          0     0  50000
+
+    clk_sbpi_otpc_ns                  0        0        0    24000000          0     0  50000
+
+    clk_otpc_arb                      0        0        0    24000000          0     0  50000
+
+    clk_macphy                        0        0        0    24000000          0     0  50000
+
+    dbclk_gpio2                       1        1        0    24000000          0     0  50000
+
+    clk_sdmmc_detn_flt                0        0        0    24000000          0     0  50000
+
+    dbclk_gpio3                       1        1        0    24000000          0     0  50000
+
+    dbclk_gpio1                       1        1        0    24000000          0     0  50000
+
+    clk_uart_detn_flt                 0        0        0    24000000          0     0  50000
+
+    tclk_pmu_wdt                      0        0        0    24000000          0     0  50000
+
+    clk_refout                        0        0        0    24000000          0     0  50000
+
+    clk_pvtm_pmu                      0        0        0    24000000          0     0  50000
+
+    clk_pmu_mcu_rtc                   0        0        0    24000000          0     0  50000
+
+    dbclk_pmu_gpio0                   1        1        0    24000000          0     0  50000
+
+    clk_pmu                           1        1        0    24000000          0     0  50000
+
+       clk_ddr_fail_safe              0        0        0    24000000          0     0  50000
+
+    clk_rtc32k_frac                   0        0        0       32768          0     0  50000
+
+       clk_rtc_32k                    0        0        0       32768          0     0  50000
+
+    tclk_wdt_s                        0        0        0    24000000          0     0  50000
+
+    tclk_wdt_ns                       0        0        0    24000000          0     0  50000
+
+    clk_ref_usbphy                    2        2        0    24000000          0     0  50000
+
+       clk_usbphy_480m                1        1        0   480000000          0     0  50000
+
+    clk_ref_usbotg                    1        1        0    24000000          0     0  50000
+
+    clk_saradc                        1        1        0     3000000          0     0  50000
+
+    clk_capture_pwm2_peri             0        0        0    24000000          0     0  50000
+
+    clk_capture_pwm1_peri             0        0        0    24000000          0     0  50000
+
+    clk_timer_root                    2        2        0    24000000          0     0  50000
+
+       clk_timer5                     1        1        0    24000000          0     0  50000
+
+       clk_timer4                     0        0        0    24000000          0     0  50000
+
+       clk_timer3                     0        0        0    24000000          0     0  50000
+
+       clk_timer2                     0        0        0    24000000          0     0  50000
+
+       clk_timer1                     0        0        0    24000000          0     0  50000
+
+       clk_timer0                     0        0        0    24000000          0     0  50000
+
+       clk_stimer1                    0        0        0    24000000          0     0  50000
+
+       clk_stimer0                    0        0        0    24000000          0     0  50000
+
+    clk_capture_pwm0_peri             0        0        0    24000000          0     0  50000
+
+    dbclk_gpio4                       1        1        0    24000000          0     0  50000
+
+    clk_timer_ddrmon                  0        0        0    24000000          0     0  50000
+
+    clk_vicap_m1                      1        1        0    24000000          0     0  50000
+
+       sclk_vicap_m1                  1        1        0    24000000          0     0  50000
+
+    clk_vicap_m0                      1        1        0    24000000          0     0  50000
+
+       sclk_vicap_m0                  1        1        0    24000000          0     0  50000
+
+    clk_uart5                         0        0        0    24000000          0     0  50000
+
+       sclk_uart5                     0        0        0    24000000          0     0  50000
+
+    clk_uart4                         0        0        0    24000000          0     0  50000
+
+       sclk_uart4                     0        0        0    24000000          0     0  50000
+
+    clk_uart3                         0        0        0    24000000          0     0  50000
+
+       sclk_uart3                     0        0        0    24000000          0     0  50000
+
+    clk_uart2                         1        1        0    24000000          0     0  50000
+
+       sclk_uart2                     1        1        0    24000000          0     0  50000
+
+    clk_uart1                         1        1        0    24000000          0     0  50000
+
+       sclk_uart1                     1        1        0    24000000          0     0  50000
+
+    clk_uart0                         0        0        0    24000000          0     0  50000
+
+       sclk_uart0                     0        0        0    24000000          0     0  50000
+
+    clk_ref_mipi1                     0        0        0    24000000          0     0  50000
+
+       mclk_ref_mipi1                 0        0        0    24000000          0     0  50000
+
+    clk_ref_mipi0                     0        0        0    24000000          0     0  50000
+
+       mclk_ref_mipi0                 0        0        0    24000000          0     0  50000
+
+    clk_core_mcu_rtc                  1        1        0    24000000          0     0  50000
+
+    clk_pvtm_core                     0        0        0    24000000          0     0  50000
+
+    xin_osc0_half                     0        0        0    12000000          0     0  50000
+
+       i2s0_8ch_mclkout               0        0        0    12000000          0     0  50000
+
+    pll_gpll                          1        1        0  1188000000          0     0  50000
+
+       gpll                          10       10        0  1188000000          0     0  50000
+
+          dclk_vop_src                0        0        0   148500000          0     0  50000
+
+             dclk_vop                 0        0        0   148500000          0     0  50000
+
+          clk_vicap_m1_src            0        0        0   594000000          0     0  50000
+
+             clk_vicap_m1_frac        0        0        0    12000000          0     0  50000
+
+          clk_vicap_m0_src            0        0        0   594000000          0     0  50000
+
+             clk_vicap_m0_frac        0        0        0    12000000          0     0  50000
+
+          clk_uart5_src               0        0        0   594000000          0     0  50000
+
+             clk_uart5_frac           0        0        0    12000000          0     0  50000
+
+          clk_uart4_src               0        0        0   594000000          0     0  50000
+
+             clk_uart4_frac           0        0        0    12000000          0     0  50000
+
+          clk_uart3_src               0        0        0   594000000          0     0  50000
+
+             clk_uart3_frac           0        0        0    12000000          0     0  50000
+
+          clk_uart2_src               0        0        0   594000000          0     0  50000
+
+             clk_uart2_frac           0        0        0    12000000          0     0  50000
+
+          clk_uart1_src               0        0        0   594000000          0     0  50000
+
+             clk_uart1_frac           0        0        0    12000000          0     0  50000
+
+          clk_uart0_src               0        0        0   594000000          0     0  50000
+
+             clk_uart0_frac           0        0        0    12000000          0     0  50000
+
+          clk_ref_mipi1_src           0        0        0   594000000          0     0  50000
+
+             clk_ref_mipi1_frac       0        0        0    12000000          0     0  50000
+
+          clk_ref_mipi0_src           0        0        0   594000000          0     0  50000
+
+             clk_ref_mipi0_frac       0        0        0    12000000          0     0  50000
+
+          clk_i2s0_8ch_rx_src         0        0        0   594000000          0     0  50000
+
+             clk_i2s0_8ch_rx_frac       0        0        0     5644800          0     0  50000
+
+                clk_i2s0_8ch_rx       0        0        0     5644800          0     0  50000
+
+                   mclk_i2s0_8ch_rx       0        0        0     5644800          0     0  50000
+
+          clk_i2s0_8ch_tx_src         1        1        0   594000000          0     0  50000
+
+             clk_i2s0_8ch_tx_frac       1        1        0     5644800          0     0  50000
+
+                clk_i2s0_8ch_tx       1        1        0     5644800          0     0  50000
+
+                   mclk_i2s0_8ch_tx       1        1        0     5644800          0     0  50000
+
+                      mclk_sai        0        0        0     5644800          0     0  50000
+
+                      mclk_dsm        0        0        0     5644800          0     0  50000
+
+                      mclk_acodec_tx       1        1        0     5644800          0     0  50000
+
+          clk_450m_src                1        1        0   475200000          0     0  50000
+
+          clk_400m_src                5        5        0   396000000          0     0  50000
+
+             cclk_src_sdmmc           1        1        0    99000000          0     0  50000
+
+                sdmmc_sample          0        0        0    49500000          0    90  50000
+
+                sdmmc_drv             0        0        0    49500000          0    90  50000
+
+             cclk_src_emmc            0        0        0    99000000          0     0  50000
+
+                emmc_sample           0        0        0    49500000          0    90  50000
+
+                emmc_drv              0        0        0    49500000          0    90  50000
+
+             clk_core_rga2e           0        0        0   396000000          0     0  50000
+
+             aclk_vo_root             1        1        0   396000000          0     0  50000
+
+                aclk_rga2e            0        0        0   396000000          0     0  50000
+
+             clk_core_vepu            0        0        0   396000000          0     0  50000
+
+             aclk_vepu_com_root       1        1        0   396000000          0     0  50000
+
+             dclk_decom               0        0        0   396000000          0     0  50000
+
+             aclk_peri_root           1        1        0   396000000          0     0  50000
+
+                aclk_ive              0        0        0   396000000          0     0  50000
+
+                aclk_decom            0        0        0   396000000          0     0  50000
+
+          clk_339m_src                4        4        0   339428572          0     0  50000
+
+             clk_core_isp3p2          1        1        0   339428572          0     0  50000
+
+             dclk_vicap               1        1        0   339428572          0     0  50000
+
+             aclk_vi_root             3        3        0   339428572          0     0  50000
+
+                aclk_vicap            1        1        0   339428572          0     0  50000
+
+                aclk_isp3p2           1        1        0   339428572          0     0  50000
+
+          clk_300m_src                3        3        0   297000000          0     0  50000
+
+             aclk_vop_root            0        0        0   297000000          0     0  50000
+
+                aclk_vop              0        0        0   297000000          0     0  50000
+
+             aclk_mac_root            0        0        0   297000000          0     0  50000
+
+                aclk_mac              0        0        0   297000000          0     0  50000
+
+             aclk_vepu_root           1        1        0   297000000          0     0  50000
+
+                aclk_vepu_pp          0        0        0   297000000          0     0  50000
+
+                aclk_vepu             0        0        0   297000000          0     0  50000
+
+             clk_pka_crypto           0        0        0   297000000          0     0  50000
+
+             clk_core_crypto          0        0        0   297000000          0     0  50000
+
+             aclk_bus_root            2        3        0   297000000          0     0  50000
+
+                aclk_usbotg           1        1        0   297000000          0     0  50000
+
+                aclk_dmac             0        1        0   297000000          0     0  50000
+
+                aclk_crypto           0        0        0   297000000          0     0  50000
+
+          clk_200m_src                6        7        0   198000000          0     0  50000
+
+             hclk_vo_root             2        2        0   198000000          0     0  50000
+
+                hclk_vop              0        0        0   198000000          0     0  50000
+
+                hclk_sdio             1        1        0   198000000          0     0  50000
+
+                hclk_rga2e            0        0        0   198000000          0     0  50000
+
+             clk_core_vepu_dvbm       0        0        0   198000000          0     0  50000
+
+             clk_spi0                 0        0        0   198000000          0     0  50000
+
+             hclk_vepu_root           1        1        0   198000000          0     0  50000
+
+                hclk_vepu_pp          0        0        0   198000000          0     0  50000
+
+                hclk_vepu             0        0        0   198000000          0     0  50000
+
+             clk_i2c1                 0        0        0   198000000          0     0  50000
+
+             hclk_pmu_root            1        1        0   198000000          0     0  50000
+
+                hclk_pmu_sram         0        0        0   198000000          0     0  50000
+
+                clk_pmu_mcu           0        0        0   198000000          0     0  50000
+
+             clk_100m_pmu             1        1        0    99000000          0     0  50000
+
+                pclk_pmu_root         3        3        0    99000000          0     0  50000
+
+                   pclk_pmu_wdt       0        0        0    99000000          0     0  50000
+
+                   pclk_pvtm_pmu       0        0        0    99000000          0     0  50000
+
+                   pclk_pmu_mailbox       0        0        0    99000000          0     0  50000
+
+                   pclk_i2c1          0        0        0    99000000          0     0  50000
+
+                   pclk_pmu_gpio0       1        1        0    99000000          0     0  50000
+
+                   pclk_pmu           1        1        0    99000000          0     0  50000
+
+             sclk_sfc                 0        0        0    66000000          0     0  50000
+
+             clk_i2c4                 0        1        0   198000000          0     0  50000
+
+             clk_i2c3                 0        0        0   198000000          0     0  50000
+
+             clk_i2c2                 0        0        0   198000000          0     0  50000
+
+             clk_i2c0                 0        0        0   198000000          0     0  50000
+
+             hclk_peri_root           2        2        0   198000000          0     0  50000
+
+                hclk_trng_s           0        0        0   198000000          0     0  50000
+
+                hclk_trng_ns          0        0        0   198000000          0     0  50000
+
+                hclk_sai              0        0        0   198000000          0     0  50000
+
+                hclk_bootrom          0        0        0   198000000          0     0  50000
+
+                hclk_sfc              0        0        0   198000000          0     0  50000
+
+                hclk_ive              0        0        0   198000000          0     0  50000
+
+                hclk_i2s0             1        1        0   198000000          0     0  50000
+
+                hclk_emmc             0        0        0   198000000          0     0  50000
+
+                hclk_crypto           0        0        0   198000000          0     0  50000
+
+          clk_150m_src                5        5        0   148500000          0     0  50000
+
+             pclk_vo_root             3        3        0   148500000          0     0  50000
+
+                pclk_tsadc            1        1        0   148500000          0     0  50000
+
+                pclk_otp_mask         0        0        0   148500000          0     0  50000
+
+                pclk_otpc_s           0        0        0   148500000          0     0  50000
+
+                pclk_otpc_ns          0        0        0   148500000          0     0  50000
+
+                pclk_mac              0        0        0   148500000          0     0  50000
+
+                pclk_gpio2            1        1        0   148500000          0     0  50000
+
+             pclk_vi_root             4        4        0   148500000          0     0  50000
+
+                pclk_mipicsiphy       1        1        0   148500000          0     0  50000
+
+                pclk_gpio3            1        1        0   148500000          0     0  50000
+
+                pclk_csihost1         0        0        0   148500000          0     0  50000
+
+                pclk_csihost0         1        1        0   148500000          0     0  50000
+
+             hclk_vi_root             4        4        0   148500000          0     0  50000
+
+                hclk_vicap            1        1        0   148500000          0     0  50000
+
+                hclk_sdmmc            1        1        0   148500000          0     0  50000
+
+                hclk_isp3p2           1        1        0   148500000          0     0  50000
+
+             hclk_npu_root            1        1        0   148500000          0     0  50000
+
+                hclk_rknn             0        0        0   148500000          0     0  50000
+
+          clk_core_mcu                1        1        0   297000000          0     0  50000
+
+          hclk_cpu                    1        1        0   198000000          0     0  50000
+
+    pll_cpll                          1        1        0  1000000000          0     0  50000
+
+       cpll                           4        4        0  1000000000          0     0  50000
+
+          clk_500m_src                2        2        0   500000000          0     0  50000
+
+             aclk_ddr_root            2        2        0   500000000          0     0  50000
+
+                aclk_sys_shrm         1        1        0   500000000          0     0  50000
+
+          clk_250m_src                1        1        0   250000000          0     0  50000
+
+          clk_100m_src                6        6        0   100000000          0     0  50000
+
+             pclk_vepu_root           2        2        0   100000000          0     0  50000
+
+                pclk_gpio1            1        1        0   100000000          0     0  50000
+
+                pclk_spi0             0        0        0   100000000          0     0  50000
+
+             clk_pwm2_peri            0        0        0   100000000          0     0  50000
+
+             clk_pwm1_peri            0        0        0   100000000          0     0  50000
+
+             clk_pwm0_peri            0        0        0   100000000          0     0  50000
+
+             pclk_peri_root           8        9        0   100000000          0     0  50000
+
+                pclk_wdt_s            0        0        0   100000000          0     0  50000
+
+                pclk_wdt_ns           0        0        0   100000000          0     0  50000
+
+                pclk_usbphy           1        1        0   100000000          0     0  50000
+
+                pclk_uart5            0        0        0   100000000          0     0  50000
+
+                pclk_uart4            0        0        0   100000000          0     0  50000
+
+                pclk_uart3            0        0        0   100000000          0     0  50000
+
+                pclk_uart2            1        1        0   100000000          0     0  50000
+
+                pclk_timer            1        1        0   100000000          0     0  50000
+
+                pclk_stimer           0        0        0   100000000          0     0  50000
+
+                pclk_spi1             0        0        0   100000000          0     0  50000
+
+                pclk_saradc           1        1        0   100000000          0     0  50000
+
+                pclk_pwm2_peri        0        0        0   100000000          0     0  50000
+
+                pclk_pwm1_peri        0        0        0   100000000          0     0  50000
+
+                pclk_uart1            1        1        0   100000000          0     0  50000
+
+                pclk_uart0            0        0        0   100000000          0     0  50000
+
+                pclk_pwm0_peri        0        0        0   100000000          0     0  50000
+
+                pclk_dft2apb          0        0        0   100000000          0     0  50000
+
+                pclk_i2c4             0        1        0   100000000          0     0  50000
+
+                pclk_i2c3             0        0        0   100000000          0     0  50000
+
+                pclk_i2c2             0        0        0   100000000          0     0  50000
+
+                pclk_i2c0             0        0        0   100000000          0     0  50000
+
+                pclk_gpio4            1        1        0   100000000          0     0  50000
+
+                pclk_dsm              0        0        0   100000000          0     0  50000
+
+                pclk_decom            0        0        0   100000000          0     0  50000
+
+                pclk_acodec           1        1        0   100000000          0     0  50000
+
+             pclk_npu_root            1        1        0   100000000          0     0  50000
+
+             pclk_ddr_root            2        2        0   100000000          0     0  50000
+
+                pclk_dfictrl          1        1        0   100000000          0     0  50000
+
+                pclk_ddrc             0        0        0   100000000          0     0  50000
+
+                pclk_ddrmon           0        0        0   100000000          0     0  50000
+
+                pclk_ddr_hwlp         0        0        0   100000000          0     0  50000
+
+                pclk_ddrphy           0        0        0   100000000          0     0  50000
+
+             pclk_top_root            1        1        0   100000000          0     0  50000
+
+          clk_50m_src                 1        1        0    50000000          0     0  50000
+
+             clk_gmac0_50m_o          0        0        0    50000000          0     0  50000
+
+                clk_gmac0_tx_50m_o       0        0        0    50000000          0     0  50000
+
+                clk_gmac0_ref_50m       0        0        0    50000000          0     0  50000
+
+             clk_spi1                 0        0        0    50000000          0     0  50000
+
+    pll_dpll                          1        1        0   924000000          0     0  50000
+
+       dpll                           1        1        0   924000000          0     0  50000
+
+          clk_core_ddrc_src           2        2        0   462000000          0     0  50000
+
+             clk_core_ddrc            1        1        0   462000000          0     0  50000
+
+             aclk_ddrc                1        1        0   462000000          0     0  50000
+
+             clk_ddr_phy              0        0        0   462000000          0     0  50000
+
+             clk_ddrmon               0        0        0   462000000          0     0  50000
+
+             clk_dfictrl              0        0        0   462000000          0     0  50000
+
+    pll_apll                          1        1        0  1104000000          0     0  50000
+
+       apll                           1        1        0  1104000000          0     0  50000
+
+          armclk                      1        1        0  1104000000          0     0  50000
+
+             pclk_dbg                 2        2        0   184000000          0     0  50000
+
+                pclk_cpu_root         2        2        0   184000000          0     0  50000
+
+                   pclk_mailbox       1        1        0   184000000          0     0  50000
+
+ clk_pvtpll_1                         1        1        0   420000000          0     0  50000
+
+    aclk_npu_root                     1        1        0   420000000          0     0  50000
+
+       aclk_rknn                      0        0        0   420000000          0     0  50000
+
+ clk_pvtpll_0                         0        0        0   410000000          0     0  50000
+
+ clk_utmi_usbotg                      1        1        0           0          0     0  50000
+
+ sclk_in_spi0                         0        0        0           0          0     0  50000
+
+ pclk_vicap_vepu                      1        1        0           0          0     0  50000
+
+ clk_rxbyteclkhs_1                    0        0        0           0          0     0  50000
+
+ clk_rxbyteclkhs_0                    1        1        0           0          0     0  50000
+
+ pclk_vicap                           1        1        0           0          0     0  50000
+
+ i1clk_vicap                          1        1        0           0          0     0  50000
+
+ i0clk_vicap                          1        1        0           0          0     0  50000
+
+ isp0clk_vicap                        2        2        0           0          0     0  50000
+
+ rx1pclk_vicap                        1        1        0           0          0     0  50000
+
+ rx0pclk_vicap                        1        1        0           0          0     0  50000
+

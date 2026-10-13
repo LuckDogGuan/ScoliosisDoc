@@ -1,0 +1,95 @@
+{
+  "time": "2026-10-09T15:12:11.300800+08:00",
+  "serial": "3253c006806f5194",
+  "model": "Luckfox Pico Zero",
+  "device_id": "CAM-000123",
+  "binary_sha256": "6a7b2614d1690fc56778580471c154d33ceb0465a6b58d52cbe3401026fb59d9",
+  "board_binary": "/tmp/adc-probe-20261009-3253c006806f5194",
+  "source_wsl": "/home/guanjx/luckfox/Scoliosis/tools/adc-test-20261009/adc_probe.c",
+  "samples": [
+    {
+      "sample": 1,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 355,
+      "voltage1": 0.624023
+    },
+    {
+      "sample": 2,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 357,
+      "voltage1": 0.627539
+    },
+    {
+      "sample": 3,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 357,
+      "voltage1": 0.627539
+    },
+    {
+      "sample": 4,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 355,
+      "voltage1": 0.624023
+    },
+    {
+      "sample": 5,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 355,
+      "voltage1": 0.624023
+    },
+    {
+      "sample": 6,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 355,
+      "voltage1": 0.624023
+    },
+    {
+      "sample": 7,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 357,
+      "voltage1": 0.627539
+    },
+    {
+      "sample": 8,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 357,
+      "voltage1": 0.627539
+    },
+    {
+      "sample": 9,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 355,
+      "voltage1": 0.624023
+    },
+    {
+      "sample": 10,
+      "scale": 1.7578125,
+      "raw0": 1023,
+      "voltage0": 1.798242,
+      "raw1": 353,
+      "voltage1": 0.620508
+    }
+  ],
+  "pin33": "GPIO1_C4 / GPIO52; not SARADC",
+  "pin34": "GND",
+  "input_reported": "3.3V directly connected to physical Pin33 and Pin34",
+  "conclusion": "SARADC readable; current Pin33 connection cannot measure battery voltage"
+}

@@ -1,0 +1,22 @@
+{
+  "time": "2026-10-09T15:35:06.812905+08:00",
+  "meter_reported_V": 0.25,
+  "meter_location": "awaiting clarification",
+  "adc": {
+    "ok": true,
+    "service": "luckfox-adc",
+    "serial": "3253c006806f5194",
+    "time": "2026-10-09T15:35:06.811898+08:00",
+    "scale": 1.7578125,
+    "raw": [
+      1023,
+      353
+    ],
+    "voltage": [
+      1.7982421875,
+      0.6205078125
+    ]
+  },
+  "difference_V": 0.3705078125,
+  "within_0_03V": false
+}
