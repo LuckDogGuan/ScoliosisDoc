@@ -1,0 +1,77 @@
+382 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+382 INFO: Python: 3.12.10
+426 INFO: Platform: Windows-11-10.0.26200-SP0
+426 INFO: Python environment: C:\Program Files\Python312
+427 INFO: wrote D:\code\Scoliosis\Luckfox\����\����\һ����¼\.build\��λ��һ����¼.spec
+443 INFO: Module search paths (PYTHONPATH):
+['D:\\code\\Scoliosis\\Luckfox',
+ 'C:\\Program Files\\Python312\\python312.zip',
+ 'C:\\Program Files\\Python312\\DLLs',
+ 'C:\\Program Files\\Python312\\Lib',
+ 'C:\\Program Files\\Python312',
+ 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages',
+ 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\win32',
+ 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\win32\\lib',
+ 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\pythonwin',
+ 'C:\\Program Files\\Python312\\Lib\\site-packages',
+ 'C:\\Program Files\\Python312\\Lib\\site-packages\\win32',
+ 'C:\\Program Files\\Python312\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Program Files\\Python312\\Lib\\site-packages\\Pythonwin',
+ 'D:\\code\\Scoliosis\\Luckfox\\����\\����\\һ����¼']
+2284 INFO: Appending 'binaries' from .spec
+2284 INFO: Appending 'datas' from .spec
+2285 INFO: checking Analysis
+2309 INFO: Building because D:\code\Scoliosis\Luckfox\����\����\һ����¼\flash_tool.py changed
+2310 INFO: Looking for Python shared library...
+2310 INFO: Using Python shared library: C:\Program Files\Python312\python312.dll
+2310 INFO: Running Analysis Analysis-00.toc
+2310 INFO: Target bytecode optimization level: 0
+2310 INFO: Initializing module dependency graph...
+2312 INFO: Initializing module graph hook caches...
+2498 INFO: Analyzing modules for base_library.zip ...
+4527 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+5209 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+7008 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+8787 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+9441 INFO: Caching module dependency graph...
+9558 INFO: Analyzing D:\code\Scoliosis\Luckfox\����\����\һ����¼\flash_tool.py
+9859 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+9871 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+9878 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+10519 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+10595 INFO: Processing module hooks (post-graph stage)...
+10600 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+10616 INFO: Performing binary vs. data reclassification (931 entries)
+18828 INFO: Looking for ctypes DLLs
+18833 INFO: Analyzing run-time hooks ...
+18834 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks'
+18850 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks'
+18893 INFO: Creating base_library.zip...
+18919 INFO: Looking for dynamic libraries
+18925 WARNING: get_package_paths - package pywin32_system32 has multiple paths (['C:\\Users\\31186\\AppData\\Roaming\\Python\\Python312\\site-packages\\pywin32_system32', 'C:\\Program Files\\Python312\\Lib\\site-packages\\pywin32_system32']); returning only first one!
+19159 INFO: Extra DLL search directories (AddDllDirectory): []
+19159 INFO: Extra DLL search directories (PATH): []
+20074 INFO: Warnings written to D:\code\Scoliosis\Luckfox\����\����\һ����¼\.build\work\��λ��һ����¼\warn-��λ��һ����¼.txt
+20098 INFO: Graph cross-reference written to D:\code\Scoliosis\Luckfox\����\����\һ����¼\.build\work\��λ��һ����¼\xref-��λ��һ����¼.html
+20175 INFO: checking PYZ
+20237 INFO: checking PKG
+20257 INFO: Building because toc changed
+20257 INFO: Building PKG (CArchive) ��λ��һ����¼.pkg
+24897 INFO: Building PKG (CArchive) ��λ��һ����¼.pkg completed successfully.
+24914 INFO: Bootloader C:\Users\31186\AppData\Roaming\Python\Python312\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+24914 INFO: checking EXE
+24946 INFO: Building because toc changed
+24946 INFO: Building EXE from EXE-00.toc
+24948 INFO: Copying bootloader EXE to D:\code\Scoliosis\Luckfox\����\����\һ����¼\release\��λ��һ����¼.exe
+25070 INFO: Copying icon to EXE
+25133 INFO: Copying 0 resources to EXE
+25133 INFO: Embedding manifest in EXE
+25187 INFO: Appending PKG archive to EXE
+25277 INFO: Fixing EXE headers
+25613 INFO: Building EXE from EXE-00.toc completed successfully.
+25628 INFO: Build complete! The results are available in: D:\code\Scoliosis\Luckfox\����\����\һ����¼\release
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          055EF36A3C1D0F2966177F07BC9BD13D6B7D36727FD81A0400DAC085FA489A70       D:\code\Scoliosis\Luckfox\调试\…
+

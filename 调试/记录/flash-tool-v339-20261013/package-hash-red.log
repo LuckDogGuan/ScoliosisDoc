@@ -1,0 +1,4 @@
+{"version": "3.3.9", "reported_package_sha256": "c86770bfd1128c9920740e2ca0e88bd2befdbc3a21a01fe67bdb77fea378869e", "actual_package_sha256": "3fc21b58f64a8abb8f08eb59ded5e140e22521a12f4da37bb3f63608f9c41aaf", "voice_manifest_claimed_installed": true}
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+AssertionError: ѹ���������ϣ�����ڵ��ļ���ϣ���ǣ�ʵ����¼��Ȼ�ܾ�����

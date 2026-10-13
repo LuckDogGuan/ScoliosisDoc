@@ -1,0 +1,15 @@
+test_post_boot_audio_wait_is_bounded_and_other_guards_stay_strict (test_flash_tool.SafetyTests.test_post_boot_audio_wait_is_bounded_and_other_guards_stay_strict) ... ERROR
+
+======================================================================
+ERROR: test_post_boot_audio_wait_is_bounded_and_other_guards_stay_strict (test_flash_tool.SafetyTests.test_post_boot_audio_wait_is_bounded_and_other_guards_stay_strict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\Scoliosis\Luckfox\����\����\һ����¼\test_flash_tool.py", line 115, in test_post_boot_audio_wait_is_bounded_and_other_guards_stay_strict
+    self.assertEqual(installer.idle(wait_startup_audio=True), state)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Installer.idle() got an unexpected keyword argument 'wait_startup_audio'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)

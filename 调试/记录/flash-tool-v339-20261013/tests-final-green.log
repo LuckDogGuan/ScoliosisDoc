@@ -1,0 +1,14 @@
+test_each_busy_flag_and_missing_state_refuses_install (test_flash_tool.SafetyTests.test_each_busy_flag_and_missing_state_refuses_install) ... ok
+test_gui_selects_files_and_displays_package_version (test_flash_tool.SafetyTests.test_gui_selects_files_and_displays_package_version) ... ok
+test_one_device_is_automatic_two_require_selection (test_flash_tool.SafetyTests.test_one_device_is_automatic_two_require_selection) ... ok
+test_package_corruption_and_version_order (test_flash_tool.SafetyTests.test_package_corruption_and_version_order) ... ok
+test_post_boot_audio_wait_is_bounded_and_other_guards_stay_strict (test_flash_tool.SafetyTests.test_post_boot_audio_wait_is_bounded_and_other_guards_stay_strict) ... ok
+test_real_339_package_transfer_hash_and_installer_files (test_flash_tool.SafetyTests.test_real_339_package_transfer_hash_and_installer_files) ... ok
+test_remote_shell_exit_is_not_adb_exit (test_flash_tool.SafetyTests.test_remote_shell_exit_is_not_adb_exit) ... ok
+test_selected_older_package_keeps_its_own_version (test_flash_tool.SafetyTests.test_selected_older_package_keeps_its_own_version) ... ok
+test_wrong_serial_refused_before_config_or_writes (test_flash_tool.SafetyTests.test_wrong_serial_refused_before_config_or_writes) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.973s
+
+OK

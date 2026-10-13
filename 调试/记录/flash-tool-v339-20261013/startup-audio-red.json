@@ -1,0 +1,11 @@
+{
+  "initial_installation": "PASS",
+  "initial_post_boot_verification": "FAILED: validate_idle rejected startup audio",
+  "audio_busy": true,
+  "phase": "idle",
+  "device_id": "CAM-41eda5f2c5b00de1",
+  "boot_id": "CAM-41eda5f2c5b00de1-732d2ba8",
+  "application_pid": 162,
+  "report": "D:\\code\\Scoliosis\\Luckfox\\\u8c03\u8bd5\\\u5de5\u5177\\\u4e00\u952e\u70e7\u5f55\\release\\\u8bb0\u5f55\\20261013-152053-41eda5f2c5b00de1-0e0013",
+  "backup": "/opt/instrument/backups/bundle-20261013T072102Z-2649"
+}

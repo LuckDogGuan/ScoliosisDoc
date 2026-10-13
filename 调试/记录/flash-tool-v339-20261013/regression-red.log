@@ -1,0 +1,17 @@
+test_real_339_package_transfer_hash_and_installer_files (test_flash_tool.SafetyTests.test_real_339_package_transfer_hash_and_installer_files) ... FAIL
+
+======================================================================
+FAIL: test_real_339_package_transfer_hash_and_installer_files (test_flash_tool.SafetyTests.test_real_339_package_transfer_hash_and_installer_files)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\Scoliosis\Luckfox\����\����\һ����¼\test_flash_tool.py", line 101, in test_real_339_package_transfer_hash_and_installer_files
+    self.assertEqual(package["sha256"], hashlib.sha256(package["path"].read_bytes()).hexdigest())
+AssertionError: 'c86770bfd1128c9920740e2ca0e88bd2befdbc3a21a01fe67bdb77fea378869e' != '3fc21b58f64a8abb8f08eb59ded5e140e22521a12f4da37bb3f63608f9c41aaf'
+- c86770bfd1128c9920740e2ca0e88bd2befdbc3a21a01fe67bdb77fea378869e
++ 3fc21b58f64a8abb8f08eb59ded5e140e22521a12f4da37bb3f63608f9c41aaf
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.133s
+
+FAILED (failures=1)
