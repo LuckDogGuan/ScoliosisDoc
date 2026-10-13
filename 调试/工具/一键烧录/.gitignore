@@ -1,0 +1,4 @@
+.build/
+release/
+记录/
+payload/udp_query
