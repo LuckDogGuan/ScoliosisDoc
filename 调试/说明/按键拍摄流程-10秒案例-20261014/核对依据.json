@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "firmware_commit": "0da42c7cd01eba3d5d14019c76bcc64a92dc0670",
+  "flutter_commit": "b0b6ae4eb543ebf49f3c478aaff9c0d726ecb031",
+  "board_readonly": {
+    "serial": "41eda5f2c5b00de1",
+    "reported_version": "3.3.11",
+    "saved_brightness_percent": 10
+  },
+  "scope": "source explanation; no new capture, playback, pairing or configuration write",
+  "files": [
+    {
+      "repo": "WSL firmware",
+      "path": "src/app/runtime_v3.c",
+      "sha256": "155f8dd671ed9c41dc01ff590bef3296cc9ca2b84183a4c8892b416cbe390dcd"
+    },
+    {
+      "repo": "WSL firmware",
+      "path": "src/app/policy.c",
+      "sha256": "0d2ced0e9676d13af73f09305e576ef08c95a352a108a949c24dcf7fbd46b789"
+    },
+    {
+      "repo": "WSL firmware",
+      "path": "src/middleware/buttons.c",
+      "sha256": "52b9b166a375b6ae62ab0f886419b47556217b993d0325749fa0b9ac6536c17b"
+    },
+    {
+      "repo": "WSL firmware",
+      "path": "src/middleware/capture.c",
+      "sha256": "639a20d6a27a24ae212c69423a267f8d79cff7e9a12b81684c89042e4f5cabf5"
+    },
+    {
+      "repo": "WSL firmware",
+      "path": "src/middleware/upload.c",
+      "sha256": "c509733be052467499b2726636503f4aaccdfaa42629c4b49a2e015b55f3b724"
+    },
+    {
+      "repo": "WSL firmware",
+      "path": "src/platform/luckfox_gpio.c",
+      "sha256": "20c774cf68dddb34081d582814bc27994854bd78f558ade87cfa4faf38dc3d72"
+    },
+    {
+      "repo": "WSL firmware",
+      "path": "src/platform/light_test.c",
+      "sha256": "b945c426affa0a4804c2d1814bac3c38afefeded27a4765550e2f4a77902bfec"
+    },
+    {
+      "repo": "WSL firmware",
+      "path": "sounds/stability-voice-manifest.json",
+      "sha256": "36e25e7a0202d8b33a1151b0e344799839ad7b6c50ae7b1731e876b2303c3fc2"
+    },
+    {
+      "repo": "WSL firmware",
+      "path": "third_party/lwbtn/include/lwbtn_opts.h",
+      "sha256": "7ffd86ce24922ca9193b9b656998b63fd497cfc26e9a872cc48ed6c6590f9fb5"
+    },
+    {
+      "repo": "Flutter",
+      "path": "lib/app/app_controller.dart",
+      "sha256": "14d23f0ea6efad34e5927e238258a03788b686bc43e76135c66268d21e4d0465"
+    },
+    {
+      "repo": "Flutter",
+      "path": "lib/ui/pages/capture_page.dart",
+      "sha256": "5a81e314698e53a55d1c8d47e9772ad49034e9d95b67af04a852892ee1c09be5"
+    },
+    {
+      "repo": "Flutter",
+      "path": "lib/net/instrument_server.dart",
+      "sha256": "4e96ca166c489a25f1b8b8ee42583333384958f1798eedf6248cb0f6abe03270"
+    },
+    {
+      "repo": "Flutter",
+      "path": "lib/survey/survey.dart",
+      "sha256": "cd9a3a95cce95e8ccfdc74067b0d37720addbbe9591684a0196cb1fb5ff0f4b0"
+    },
+    {
+      "repo": "Flutter",
+      "path": "lib/audio/speech_coordinator.dart",
+      "sha256": "9ad20855703f243710a8c5d85c9407acfcbc3708ddc8fb06d8546ef40310cb97"
+    },
+    {
+      "repo": "Flutter",
+      "path": "lib/audio/name_speaker.dart",
+      "sha256": "1253794ce62389cdf8796494836647f6a8e07a00aa7a5a3933c52ede0a720256"
+    },
+    {
+      "repo": "Flutter",
+      "path": "lib/main.dart",
+      "sha256": "cc117a8cb93c9862c61eeaf92b99c904574e33b9bd8e0ab90dee4e00836ae24e"
+    }
+  ]
+}

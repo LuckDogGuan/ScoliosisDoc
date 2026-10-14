@@ -1,0 +1,27 @@
+sequenceDiagram
+    participant P as 操作者／左右键
+    participant L as 背光板
+    participant D as 仪器与相机
+    participant C as 电脑
+    C->>D: capture_enable：6 秒拍摄许可
+    C->>D: capture_prepare：学生绑定的本轮拍摄号
+    Note over D,C: 仪器提示“拍摄已启用”结束，留约 0.6 秒，电脑播本轮姓名
+    P->>D: 两侧同时稳定按住，从 t=0 开始
+    Note over P,L: 约 t=0.5 秒
+    D->>L: 按保存亮度点亮
+    Note over P,D: 约 t=1.5 秒：仅满足长按阈值，尚不能认定已录像
+    D->>C: 请求确认本轮开始
+    C-->>D: 确认学生／拍摄号／许可／启动身份
+    D->>D: 配置相机；再次检查双键与许可；camera_start 成功
+    Note over D,C: 此刻为实际开录 T；前面的长按和准备不计入视频时长
+    D-->>C: recording 状态与实际开录时间
+    D->>D: 排队播放“开始拍摄”
+    Note over P,C: 持续按住直到 T+10 秒；电脑显示约“录制 10 秒（上限 60 秒）”，进度约 16.7%
+    P->>D: T+10 秒：松开任意一侧
+    D->>D: 发停录信号、相机收尾
+    D-->>C: finalizing 状态／查询快照，电脑冻结录制计时
+    Note over P,L: 正常约松手后 1 秒；与文件收尾并行
+    D->>L: 背光关闭
+    D->>D: 校验并落盘 MP4，持久化完成事件
+    D-->>C: completed：结果、实际时长、停止原因
+    Note over D,C: 仪器完成提示、电脑准备下一位、上一份视频上传，进入后续并行阶段
