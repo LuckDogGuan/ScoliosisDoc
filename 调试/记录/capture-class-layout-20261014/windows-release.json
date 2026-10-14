@@ -1,0 +1,10 @@
+{
+  "version": "3.3.12",
+  "source_commit": "1e5ff9794e2e495845873f2106de9a60986c2156",
+  "archive": "scoliosis-windows-3.3.12.zip",
+  "archive_sha256": "25480eca77a453e8dc7bb0b8c5a5fd8f98eca060afa0d0308a6e8cc28e10c920",
+  "installer": "Scoliosis-3.3.12-Setup.exe",
+  "installer_sha256": "18d0c4fbd5104379f7e9eee1915c6f26e48253181638435f273063cfcba9fe9e",
+  "verification": "runtime manifest and complete archive readback passed",
+  "expanded_directory": "local only, excluded from Git"
+}

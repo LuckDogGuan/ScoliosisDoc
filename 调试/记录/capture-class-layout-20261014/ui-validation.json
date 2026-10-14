@@ -1,0 +1,19 @@
+{
+  "process_id": 53304,
+  "window_id": 594554,
+  "app_version": "3.3.12+20261014",
+  "workspace": "ui-review-workspace",
+  "workspace_kind": "isolated test workspace",
+  "window_kept_open": true,
+  "startup_target": "DISPLAY1",
+  "native_accessibility": [
+    "脊柱侧弯筛查",
+    "工作空间总进度",
+    "设置",
+    "上位机 3.3.12+20261014"
+  ],
+  "screenshot": "black frame",
+  "settings_click": "failed to activate captured window",
+  "pixel_acceptance": "not verified",
+  "automated_layout": "sidebar_settings_test passed at 1100x620; settings tabs and progress visibility passed"
+}
