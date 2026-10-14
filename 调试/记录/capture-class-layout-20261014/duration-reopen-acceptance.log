@@ -1,0 +1,4 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/build/duration-reopen-acceptance-test.dart
+00:00 +0: final duration survives upload commit and actual SQLite close/reopen
+00:00 +1: All tests passed!
