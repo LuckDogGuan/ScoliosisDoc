@@ -1,0 +1,32 @@
+{
+  "source_sha256": "d0216cc62c7744015b941849dbf7de6da8d7f8be9efbbf08e977175bdf4155fa",
+  "output_sha256": "a08ef6540d6bd5efbf0dea3604a9c21f298c6dfe6dba14fb39c4247193f85729",
+  "sheets": [
+    {
+      "state": "visible",
+      "name": "导出汇总",
+      "sheetId": "1",
+      "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId5"
+    },
+    {
+      "state": "visible",
+      "name": "初二_三班",
+      "sheetId": "2",
+      "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId6"
+    },
+    {
+      "state": "visible",
+      "name": "初三_三班",
+      "sheetId": "3",
+      "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId7"
+    },
+    {
+      "state": "veryHidden",
+      "name": "绘图数据",
+      "sheetId": "4",
+      "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId8"
+    }
+  ],
+  "verification": "ZIP readback and every XML parsed; hidden source retained; no fabricated readings",
+  "scope": "user reference workbook, not live workspace captures"
+}

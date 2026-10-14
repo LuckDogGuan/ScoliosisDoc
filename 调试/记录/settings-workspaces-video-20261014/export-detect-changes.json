@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"summary\": {\n    \"changed_count\": 2,\n    \"affected_count\": 0,\n    \"changed_files\": 4,\n    \"risk_level\": \"low\"\n  },\n  \"changed_symbols\": [\n    {\n      \"id\": \"Function:lib/roster/records_export.dart:_exportPeakAngle\",\n      \"name\": \"_exportPeakAngle\",\n      \"filePath\": \"lib/roster/records_export.dart\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Function:lib/roster/records_export.dart:_exportReadingHint\",\n      \"name\": \"_exportReadingHint\",\n      \"filePath\": \"lib/roster/records_export.dart\",\n      \"change_type\": \"touched\"\n    }\n  ],\n  \"affected_processes\": []\n}\n\n---\n**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/ScoliosisFlutter/process/{name} for full execution traces."
+    }
+  ]
+}

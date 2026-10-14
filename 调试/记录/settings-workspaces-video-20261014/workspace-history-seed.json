@@ -1,0 +1,21 @@
+{
+  "before": {
+    "lastWorkspace": "D:\\code\\Scoliosis\\工作空间\\test202610",
+    "workspaceHistory": null
+  },
+  "after": [
+    {
+      "path": "D:\\code\\Scoliosis\\工作空间\\test202610",
+      "openedAt": null
+    },
+    {
+      "path": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace",
+      "openedAt": null
+    }
+  ],
+  "added": [
+    "D:\\code\\Scoliosis\\工作空间\\test202610",
+    "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace"
+  ],
+  "activeWorkspaceUnchanged": true
+}
