@@ -11,7 +11,10 @@
     "installer_sha256": "6c21123df8bd5fea9a6029407582e9445794d02e3d1400b157dfbbf669121483",
     "release_commit": "00f0151",
     "tag": "windows-v3.3.17",
-    "native_window_pid": 59820
+    "native_window_pid": 59820,
+    "native_camera_diagnostic_passed": true,
+    "final_process_state": "exited_after_successful_native_diagnostics",
+    "final_saved_paired": []
   },
   "firmware": {
     "version": "3.3.13",
@@ -107,6 +110,6 @@
     "Capture keys were automatically injected through existing dedicated test input",
     "No manual physical key/speaker acceptance",
     "Software reboot passed; no power-loss cold boot acceptance",
-    "Native app launched; mouse-driven UI retest pending"
+    "Native frame diagnosis passed in actual release logs; normal application exit later cleared pairing; not reopened automatically"
   ]
 }

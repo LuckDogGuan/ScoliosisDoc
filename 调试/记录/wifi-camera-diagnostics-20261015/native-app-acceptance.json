@@ -1,0 +1,64 @@
+{
+  "source": "actual Windows release process and existing workspace business_logs",
+  "pc_version": "3.3.17+20261015",
+  "pc_build": "f9587766db7c280cbbdc4284c83aac08affc64f6",
+  "diagnostics": [
+    {
+      "at": "2026-10-15T09:03:57.706718Z",
+      "report": {
+        "utc": "2026-10-15T09:03:57.706718Z",
+        "monotonic_us": 20855457,
+        "direction": "diagnostics_result",
+        "checked_at": "2026-10-15T17:03:57.706718",
+        "device_id": "CAM-211ec7045815bf02",
+        "ip": "192.168.101.7",
+        "firmware": "",
+        "pc_version": "3.3.17+20261015",
+        "pc_build": "f9587766db7c280cbbdc4284c83aac08affc64f6",
+        "boot_id": "CAM-211ec7045815bf02-550b4cbb",
+        "diagnostics_id": "diag-1792055036680082-2679438483",
+        "active": true,
+        "error": "",
+        "result": {
+          "code": "ok",
+          "message": "摄像头测试通过，已收到可解码的新画面。",
+          "passed": true,
+          "fresh": true
+        },
+        "hardware_health": {
+          "camera_sensor": "detected",
+          "camera_sensor_name": "m00_b_mia1321 4-0060",
+          "camera_service": "running",
+          "camera_rpc": "ready",
+          "video_expected_dir": "/video0",
+          "video_actual_dir": "/video0",
+          "snapshot_rpc_result": 0,
+          "file_bytes": 427731,
+          "file_state": "complete",
+          "http_status": 200,
+          "upload_state": "sent",
+          "code": "ok",
+          "stage": "upload",
+          "elapsed_ms": 496,
+          "backlight_connection": "not_observable",
+          "backlight_control": "ready",
+          "age_ms": 489,
+          "preview_result": "success",
+          "diagnostics_id": "diag-1792055036680082-2679438483",
+          "boot_id": "CAM-211ec7045815bf02-550b4cbb",
+          "firmware": "3.3.13",
+          "build_id": "96528cabe077",
+          "checked_at_ms": 1792055037206,
+          "schema_version": 1
+        },
+        "frame_received": true,
+        "last_frame_at": "2026-10-15T17:03:57.222185",
+        "frame_stale": false,
+        "frame_decode_error": ""
+      }
+    }
+  ],
+  "current_process_closed": true,
+  "current_saved_paired": [],
+  "note": "Release window was launched and subsequently exited; saved pairing is cleared by normal application shutdown. No assumption about who closed it. Do not silently reopen or re-pair after this state change."
+}

@@ -1,0 +1,8 @@
+{
+  "source": "pinned SSH read of pre-install camera configuration backup",
+  "backup": "/opt/instrument/backups/wifi-camera-20261015T084906/rkipc-before.ini",
+  "storage_mount": "/userdata",
+  "storage_folder": "video0",
+  "expected_business_video_dir": "/video0",
+  "actual_camera_video_dir": "/userdata/video0"
+}

@@ -1,6 +1,6 @@
 # Wi-Fi 摄像头修复与诊断验收（2026-10-15）
 
-已部署上位机 **3.3.17**、下位机 **3.3.13**。上位机只保留 main 与主工作树入口，新程序已打开。全程未使用 ADB。
+已部署上位机 **3.3.17**、下位机 **3.3.13**。上位机只保留 main 与主工作树入口。新程序已实际启动并通过原生画面诊断，随后已退出。全程未使用 ADB。
 
 ## 根因与修复
 
@@ -17,11 +17,11 @@ RKiPC 的 storage.mount_path=/userdata，使照片和录像写入 /userdata/vide
 - 软件重启后，正常启动未加载模拟按键环境，mount_path 仍为 /，固件版本及程序哈希不变；10 秒收到 10 帧。
 - 重启后额外一次录像 4661 ms，123 帧全部解码通过。
 - 六次录像保留在上位机 build/wifi-camera-acceptance-20261015-* 独立目录；真实名单与学生记录未用于验收。三份旧失败录像仍在 /userdata/video0。
-- 验收结束已恢复正常 GPIO 按键输入，并恢复原电脑身份的配对连接。退出旧上位机会按既有逻辑解除配对，因此本次使用标准配对流程恢复；原 hostId 保持不变，事务号更新，非“配对文件全程逐字节不变”。
+- 验收结束已恢复正常 GPIO 按键输入，并曾恢复原电脑身份的配对连接。随后原生应用退出，现有退出流程再次清除了配对；未擅自重新打开或重配。退出旧上位机会按既有逻辑解除配对，因此本次使用标准配对流程恢复；原 hostId 保持不变，事务号更新，非“配对文件全程逐字节不变”。
 
-预览和拍摄使用真实板与 Wi-Fi，自动触发按键采用现有测试输入文件；物理按键手感、扬声器实际听感及断电冷启动未进行人工验收。原生窗口已启动并核对 3.3.17 文件版本；未用鼠标人工逐项复验。
+预览和拍摄使用真实板与 Wi-Fi，自动触发按键采用现有测试输入文件；物理按键手感、扬声器实际听感及断电冷启动未进行人工验收。原生窗口已启动并核对 3.3.17 文件版本。其实际业务日志进一步记录了版本 3.3.17+20261015、源码 f958776 和已解码新画面，结果为通过；未对关闭窗口的操作者作推断，也未将自动实板验收等同于人工按键验收。
 
-对应记录：before.json、before-camera-events.json、install.json、before-reboot-acceptance.jsonl、normal-startup-acceptance.jsonl、after-reboot-acceptance.jsonl、after-reboot.json、final-runtime.json、connection-restored.json。
+对应记录：before.json、before-storage.json、before-camera-events.json（从轮转日志恢复）、native-app-acceptance.json、install.json、before-reboot-acceptance.jsonl、normal-startup-acceptance.jsonl、after-reboot-acceptance.jsonl、after-reboot.json、final-runtime.json、connection-restored.json。
 
 ## 软件验证与 Git
 

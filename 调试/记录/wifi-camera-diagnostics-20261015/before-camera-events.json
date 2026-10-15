@@ -1,1 +1,3947 @@
-[]
+{
+  "source": "/opt/instrument/state/runtime.jsonl.1 (rotated pre-install log)",
+  "events": [
+    {
+      "monotonic_ms": 55304,
+      "utc_ms": 1792049909621,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 55308,
+      "utc_ms": 1792049909625,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 57371,
+      "utc_ms": 1792049911688,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 57379,
+      "utc_ms": 1792049911696,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 59437,
+      "utc_ms": 1792049913754,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 59441,
+      "utc_ms": 1792049913759,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 61503,
+      "utc_ms": 1792049915820,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 61504,
+      "utc_ms": 1792049915821,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 63552,
+      "utc_ms": 1792049917869,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 63553,
+      "utc_ms": 1792049917870,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 65585,
+      "utc_ms": 1792049919902,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 65762,
+      "utc_ms": 1792049920079,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 67789,
+      "utc_ms": 1792049922107,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 67792,
+      "utc_ms": 1792049922109,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 69854,
+      "utc_ms": 1792049924171,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 69857,
+      "utc_ms": 1792049924174,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 71937,
+      "utc_ms": 1792049926254,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 71940,
+      "utc_ms": 1792049926257,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 74003,
+      "utc_ms": 1792049928320,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 74011,
+      "utc_ms": 1792049928328,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 76069,
+      "utc_ms": 1792049930386,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 76070,
+      "utc_ms": 1792049930387,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 78118,
+      "utc_ms": 1792049932435,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 78122,
+      "utc_ms": 1792049932439,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 80168,
+      "utc_ms": 1792049934485,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 80172,
+      "utc_ms": 1792049934489,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 82234,
+      "utc_ms": 1792049936551,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 82237,
+      "utc_ms": 1792049936555,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 258752,
+      "utc_ms": 1792050113070,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 258760,
+      "utc_ms": 1792050113077,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 260801,
+      "utc_ms": 1792050115119,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 260805,
+      "utc_ms": 1792050115122,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 262868,
+      "utc_ms": 1792050117185,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 262872,
+      "utc_ms": 1792050117190,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 264917,
+      "utc_ms": 1792050119234,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 264923,
+      "utc_ms": 1792050119241,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 266983,
+      "utc_ms": 1792050121300,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 266987,
+      "utc_ms": 1792050121304,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 269039,
+      "utc_ms": 1792050123356,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 269046,
+      "utc_ms": 1792050123363,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 271099,
+      "utc_ms": 1792050125416,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 271107,
+      "utc_ms": 1792050125424,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 273165,
+      "utc_ms": 1792050127482,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 273172,
+      "utc_ms": 1792050127489,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 275203,
+      "utc_ms": 1792050129520,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 275210,
+      "utc_ms": 1792050129528,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 277233,
+      "utc_ms": 1792050131551,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 277243,
+      "utc_ms": 1792050131560,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 279276,
+      "utc_ms": 1792050133594,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 279285,
+      "utc_ms": 1792050133602,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 281320,
+      "utc_ms": 1792050135638,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 281331,
+      "utc_ms": 1792050135648,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 283361,
+      "utc_ms": 1792050137678,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 283368,
+      "utc_ms": 1792050137685,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 285426,
+      "utc_ms": 1792050139743,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 285427,
+      "utc_ms": 1792050139744,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 287475,
+      "utc_ms": 1792050141792,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 287478,
+      "utc_ms": 1792050141795,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 289520,
+      "utc_ms": 1792050143837,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 289527,
+      "utc_ms": 1792050143845,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 291571,
+      "utc_ms": 1792050145888,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 291584,
+      "utc_ms": 1792050145901,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 293614,
+      "utc_ms": 1792050147932,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 293618,
+      "utc_ms": 1792050147935,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 295654,
+      "utc_ms": 1792050149972,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 295658,
+      "utc_ms": 1792050149975,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 297702,
+      "utc_ms": 1792050152019,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 297709,
+      "utc_ms": 1792050152026,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 299738,
+      "utc_ms": 1792050154055,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 299804,
+      "utc_ms": 1792050154122,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 321969,
+      "utc_ms": 1792050176286,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 321974,
+      "utc_ms": 1792050176291,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 324035,
+      "utc_ms": 1792050178352,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 324037,
+      "utc_ms": 1792050178355,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-a0571992",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 428462,
+      "utc_ms": 1792051030365,
+      "event": "record_rpc_start_return",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051025341149-527925489",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "success"
+    },
+    {
+      "monotonic_ms": 438925,
+      "utc_ms": 1792051040828,
+      "event": "record_rpc_stop_return",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051025341149-527925489",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "success"
+    },
+    {
+      "monotonic_ms": 438982,
+      "utc_ms": 1792051040885,
+      "event": "capture_completed",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051025341149-527925489",
+      "gate_id": "gate-1792051025341149-797036631",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 453464,
+      "utc_ms": 1792051055367,
+      "event": "record_rpc_start_return",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051051285413-2075176751",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "success"
+    },
+    {
+      "monotonic_ms": 461256,
+      "utc_ms": 1792051063159,
+      "event": "record_rpc_stop_return",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051051285413-2075176751",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "success"
+    },
+    {
+      "monotonic_ms": 461316,
+      "utc_ms": 1792051063219,
+      "event": "capture_completed",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051051285413-2075176751",
+      "gate_id": "gate-1792051051285413-2499648755",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 484444,
+      "utc_ms": 1792051086347,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 484450,
+      "utc_ms": 1792051086353,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 486487,
+      "utc_ms": 1792051088390,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 486490,
+      "utc_ms": 1792051088393,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 488527,
+      "utc_ms": 1792051090430,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 488532,
+      "utc_ms": 1792051090435,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 490574,
+      "utc_ms": 1792051092477,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 490583,
+      "utc_ms": 1792051092486,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 492640,
+      "utc_ms": 1792051094543,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 492643,
+      "utc_ms": 1792051094546,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 494690,
+      "utc_ms": 1792051096593,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 494698,
+      "utc_ms": 1792051096601,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 496756,
+      "utc_ms": 1792051098659,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 496759,
+      "utc_ms": 1792051098662,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 498811,
+      "utc_ms": 1792051100714,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 498812,
+      "utc_ms": 1792051100715,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 500871,
+      "utc_ms": 1792051102774,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 500872,
+      "utc_ms": 1792051102775,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 502920,
+      "utc_ms": 1792051104823,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 502922,
+      "utc_ms": 1792051104825,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 504970,
+      "utc_ms": 1792051106873,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 504978,
+      "utc_ms": 1792051106881,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 507036,
+      "utc_ms": 1792051108939,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 507043,
+      "utc_ms": 1792051108945,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 509102,
+      "utc_ms": 1792051111005,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 509106,
+      "utc_ms": 1792051111009,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 511168,
+      "utc_ms": 1792051113071,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 511177,
+      "utc_ms": 1792051113080,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 513218,
+      "utc_ms": 1792051115121,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 513221,
+      "utc_ms": 1792051115124,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 515284,
+      "utc_ms": 1792051117187,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 515287,
+      "utc_ms": 1792051117190,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 517350,
+      "utc_ms": 1792051119253,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 517351,
+      "utc_ms": 1792051119254,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 519399,
+      "utc_ms": 1792051121302,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 519408,
+      "utc_ms": 1792051121311,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-d5764013",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 29361,
+      "utc_ms": 1792051453601,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 29364,
+      "utc_ms": 1792051453605,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 31410,
+      "utc_ms": 1792051455651,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 31415,
+      "utc_ms": 1792051455655,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 33459,
+      "utc_ms": 1792051457700,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 33461,
+      "utc_ms": 1792051457702,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 35495,
+      "utc_ms": 1792051459736,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 35496,
+      "utc_ms": 1792051459737,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 37527,
+      "utc_ms": 1792051461767,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 37528,
+      "utc_ms": 1792051461768,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 39584,
+      "utc_ms": 1792051463825,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 39593,
+      "utc_ms": 1792051463834,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 41631,
+      "utc_ms": 1792051465871,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 41634,
+      "utc_ms": 1792051465875,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 43671,
+      "utc_ms": 1792051467912,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 43677,
+      "utc_ms": 1792051467918,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 45718,
+      "utc_ms": 1792051469959,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 45723,
+      "utc_ms": 1792051469964,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 52342,
+      "utc_ms": 1792051476583,
+      "event": "record_rpc_start_return",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051472660579-1455820166",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "success"
+    },
+    {
+      "monotonic_ms": 60946,
+      "utc_ms": 1792051485187,
+      "event": "record_rpc_stop_return",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051472660579-1455820166",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "success"
+    },
+    {
+      "monotonic_ms": 61002,
+      "utc_ms": 1792051485243,
+      "event": "capture_completed",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792051472660579-1455820166",
+      "gate_id": "gate-1792051472660579-1532244722",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 124391,
+      "utc_ms": 1792051548632,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 124392,
+      "utc_ms": 1792051548633,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 126440,
+      "utc_ms": 1792051550681,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 126441,
+      "utc_ms": 1792051550682,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 128479,
+      "utc_ms": 1792051552720,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 128483,
+      "utc_ms": 1792051552724,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 130526,
+      "utc_ms": 1792051554766,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 130533,
+      "utc_ms": 1792051554774,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 132587,
+      "utc_ms": 1792051556828,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 132594,
+      "utc_ms": 1792051556835,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 134629,
+      "utc_ms": 1792051558870,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 134632,
+      "utc_ms": 1792051558873,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 136662,
+      "utc_ms": 1792051560903,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 136665,
+      "utc_ms": 1792051560906,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 138701,
+      "utc_ms": 1792051562942,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 138709,
+      "utc_ms": 1792051562950,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 140739,
+      "utc_ms": 1792051564980,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 140743,
+      "utc_ms": 1792051564984,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 142796,
+      "utc_ms": 1792051567037,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 142797,
+      "utc_ms": 1792051567038,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 144849,
+      "utc_ms": 1792051569090,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 144851,
+      "utc_ms": 1792051569092,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 146892,
+      "utc_ms": 1792051571132,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 146893,
+      "utc_ms": 1792051571134,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 148947,
+      "utc_ms": 1792051573187,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 148952,
+      "utc_ms": 1792051573193,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 150996,
+      "utc_ms": 1792051575237,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 151002,
+      "utc_ms": 1792051575243,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 153048,
+      "utc_ms": 1792051577289,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 153055,
+      "utc_ms": 1792051577296,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 155088,
+      "utc_ms": 1792051579329,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 155097,
+      "utc_ms": 1792051579338,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 157143,
+      "utc_ms": 1792051581384,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 157148,
+      "utc_ms": 1792051581389,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 159209,
+      "utc_ms": 1792051583450,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 159211,
+      "utc_ms": 1792051583452,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 198690,
+      "utc_ms": 1792051622931,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 198691,
+      "utc_ms": 1792051622932,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 200728,
+      "utc_ms": 1792051624969,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 200729,
+      "utc_ms": 1792051624970,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 202772,
+      "utc_ms": 1792051627012,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 202775,
+      "utc_ms": 1792051627016,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 204838,
+      "utc_ms": 1792051629079,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 204839,
+      "utc_ms": 1792051629080,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 206870,
+      "utc_ms": 1792051631111,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 206874,
+      "utc_ms": 1792051631115,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 208919,
+      "utc_ms": 1792051633160,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 208925,
+      "utc_ms": 1792051633166,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 210968,
+      "utc_ms": 1792051635209,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 210975,
+      "utc_ms": 1792051635215,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 213017,
+      "utc_ms": 1792051637258,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 213026,
+      "utc_ms": 1792051637267,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 215066,
+      "utc_ms": 1792051639306,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 215073,
+      "utc_ms": 1792051639314,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 217100,
+      "utc_ms": 1792051641341,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 217110,
+      "utc_ms": 1792051641351,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 219138,
+      "utc_ms": 1792051643378,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 219142,
+      "utc_ms": 1792051643383,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 221180,
+      "utc_ms": 1792051645421,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 221183,
+      "utc_ms": 1792051645424,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 223229,
+      "utc_ms": 1792051647470,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 223237,
+      "utc_ms": 1792051647478,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 225268,
+      "utc_ms": 1792051649509,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 225278,
+      "utc_ms": 1792051649519,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 227302,
+      "utc_ms": 1792051651543,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 227303,
+      "utc_ms": 1792051651544,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 283664,
+      "utc_ms": 1792051707905,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 283674,
+      "utc_ms": 1792051707915,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-7334681a",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 16726,
+      "utc_ms": 1792051867839,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 16736,
+      "utc_ms": 1792051867849,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 18774,
+      "utc_ms": 1792051869887,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 18776,
+      "utc_ms": 1792051869889,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 20821,
+      "utc_ms": 1792051871934,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 20827,
+      "utc_ms": 1792051871940,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 22858,
+      "utc_ms": 1792051873971,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 22859,
+      "utc_ms": 1792051873972,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 24905,
+      "utc_ms": 1792051876018,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 24906,
+      "utc_ms": 1792051876019,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 26954,
+      "utc_ms": 1792051878067,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 26956,
+      "utc_ms": 1792051878069,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 28989,
+      "utc_ms": 1792051880102,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 28990,
+      "utc_ms": 1792051880103,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 31035,
+      "utc_ms": 1792051882148,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 31040,
+      "utc_ms": 1792051882153,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 33083,
+      "utc_ms": 1792051884196,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 33085,
+      "utc_ms": 1792051884198,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 35116,
+      "utc_ms": 1792051886229,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 35123,
+      "utc_ms": 1792051886236,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 37166,
+      "utc_ms": 1792051888279,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 37169,
+      "utc_ms": 1792051888282,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 39215,
+      "utc_ms": 1792051890328,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 39218,
+      "utc_ms": 1792051890331,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 675137,
+      "utc_ms": 1792052526271,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 675139,
+      "utc_ms": 1792052526274,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 677171,
+      "utc_ms": 1792052528306,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 677178,
+      "utc_ms": 1792052528313,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 679215,
+      "utc_ms": 1792052530349,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 679221,
+      "utc_ms": 1792052530356,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 681270,
+      "utc_ms": 1792052532404,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 681271,
+      "utc_ms": 1792052532406,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 683302,
+      "utc_ms": 1792052534437,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 683303,
+      "utc_ms": 1792052534438,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 685351,
+      "utc_ms": 1792052536486,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 685355,
+      "utc_ms": 1792052536490,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 687397,
+      "utc_ms": 1792052538532,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 687404,
+      "utc_ms": 1792052538539,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 689466,
+      "utc_ms": 1792052540601,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 689467,
+      "utc_ms": 1792052540602,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 691516,
+      "utc_ms": 1792052542650,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 691517,
+      "utc_ms": 1792052542651,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 693552,
+      "utc_ms": 1792052544687,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 693558,
+      "utc_ms": 1792052544693,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 695594,
+      "utc_ms": 1792052546729,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 695597,
+      "utc_ms": 1792052546732,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 697629,
+      "utc_ms": 1792052548763,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 697637,
+      "utc_ms": 1792052548772,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 699832,
+      "utc_ms": 1792052550966,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 699839,
+      "utc_ms": 1792052550973,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 701868,
+      "utc_ms": 1792052553003,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 701869,
+      "utc_ms": 1792052553004,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 704272,
+      "utc_ms": 1792052555406,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 704273,
+      "utc_ms": 1792052555408,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 706321,
+      "utc_ms": 1792052557455,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 706324,
+      "utc_ms": 1792052557459,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 708363,
+      "utc_ms": 1792052559498,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 708366,
+      "utc_ms": 1792052559501,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 710419,
+      "utc_ms": 1792052561554,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 710428,
+      "utc_ms": 1792052561562,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 712468,
+      "utc_ms": 1792052563602,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 712472,
+      "utc_ms": 1792052563606,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 714518,
+      "utc_ms": 1792052565652,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 714519,
+      "utc_ms": 1792052565654,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 716550,
+      "utc_ms": 1792052567685,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 716560,
+      "utc_ms": 1792052567694,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 718599,
+      "utc_ms": 1792052569733,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 718604,
+      "utc_ms": 1792052569738,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 720665,
+      "utc_ms": 1792052571800,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 720672,
+      "utc_ms": 1792052571806,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 722723,
+      "utc_ms": 1792052573857,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 722726,
+      "utc_ms": 1792052573861,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 724757,
+      "utc_ms": 1792052575892,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 724763,
+      "utc_ms": 1792052575898,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 726801,
+      "utc_ms": 1792052577935,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 726806,
+      "utc_ms": 1792052577940,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 728845,
+      "utc_ms": 1792052579979,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 728851,
+      "utc_ms": 1792052579986,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 730896,
+      "utc_ms": 1792052582031,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 730898,
+      "utc_ms": 1792052582033,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 732960,
+      "utc_ms": 1792052584095,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 732961,
+      "utc_ms": 1792052584096,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 734998,
+      "utc_ms": 1792052586133,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 735002,
+      "utc_ms": 1792052586137,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 737041,
+      "utc_ms": 1792052588176,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 737045,
+      "utc_ms": 1792052588179,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 739087,
+      "utc_ms": 1792052590222,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 739091,
+      "utc_ms": 1792052590225,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 741129,
+      "utc_ms": 1792052592263,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 741137,
+      "utc_ms": 1792052592271,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 743172,
+      "utc_ms": 1792052594306,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 743179,
+      "utc_ms": 1792052594313,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 745228,
+      "utc_ms": 1792052596363,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 745240,
+      "utc_ms": 1792052596375,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 747287,
+      "utc_ms": 1792052598422,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 747294,
+      "utc_ms": 1792052598429,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 749344,
+      "utc_ms": 1792052600479,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 749354,
+      "utc_ms": 1792052600488,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 751402,
+      "utc_ms": 1792052602537,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 751409,
+      "utc_ms": 1792052602543,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 753469,
+      "utc_ms": 1792052604603,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 753475,
+      "utc_ms": 1792052604610,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 755528,
+      "utc_ms": 1792052606663,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 755529,
+      "utc_ms": 1792052606664,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 757584,
+      "utc_ms": 1792052608719,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 757589,
+      "utc_ms": 1792052608724,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 759650,
+      "utc_ms": 1792052610785,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 759659,
+      "utc_ms": 1792052610793,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 761700,
+      "utc_ms": 1792052612834,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 761706,
+      "utc_ms": 1792052612841,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 763748,
+      "utc_ms": 1792052614883,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 763757,
+      "utc_ms": 1792052614891,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 765815,
+      "utc_ms": 1792052616950,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 765820,
+      "utc_ms": 1792052616955,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 767881,
+      "utc_ms": 1792052619016,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 767885,
+      "utc_ms": 1792052619019,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 769930,
+      "utc_ms": 1792052621065,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 769934,
+      "utc_ms": 1792052621068,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 771962,
+      "utc_ms": 1792052623097,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 771965,
+      "utc_ms": 1792052623100,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 773995,
+      "utc_ms": 1792052625129,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 773996,
+      "utc_ms": 1792052625131,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 776041,
+      "utc_ms": 1792052627176,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 776042,
+      "utc_ms": 1792052627177,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 778081,
+      "utc_ms": 1792052629216,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 778091,
+      "utc_ms": 1792052629225,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 780142,
+      "utc_ms": 1792052631277,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 780149,
+      "utc_ms": 1792052631283,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 782182,
+      "utc_ms": 1792052633317,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 782192,
+      "utc_ms": 1792052633326,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 784252,
+      "utc_ms": 1792052635386,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 784259,
+      "utc_ms": 1792052635394,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 786292,
+      "utc_ms": 1792052637427,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 786301,
+      "utc_ms": 1792052637436,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 970441,
+      "utc_ms": 1792052821576,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 970448,
+      "utc_ms": 1792052821582,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 972508,
+      "utc_ms": 1792052823642,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 972510,
+      "utc_ms": 1792052823644,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 974557,
+      "utc_ms": 1792052825691,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 974558,
+      "utc_ms": 1792052825693,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 976589,
+      "utc_ms": 1792052827724,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 976591,
+      "utc_ms": 1792052827725,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 978640,
+      "utc_ms": 1792052829775,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 978642,
+      "utc_ms": 1792052829776,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 980687,
+      "utc_ms": 1792052831822,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 980688,
+      "utc_ms": 1792052831823,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 982720,
+      "utc_ms": 1792052833855,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 982726,
+      "utc_ms": 1792052833860,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 984759,
+      "utc_ms": 1792052835893,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 984765,
+      "utc_ms": 1792052835899,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 986800,
+      "utc_ms": 1792052837935,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 986802,
+      "utc_ms": 1792052837936,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 988850,
+      "utc_ms": 1792052839984,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 988853,
+      "utc_ms": 1792052839988,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 990888,
+      "utc_ms": 1792052842023,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 990889,
+      "utc_ms": 1792052842024,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 992933,
+      "utc_ms": 1792052844068,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 992938,
+      "utc_ms": 1792052844072,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 994990,
+      "utc_ms": 1792052846125,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 994997,
+      "utc_ms": 1792052846132,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 997023,
+      "utc_ms": 1792052848158,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 997033,
+      "utc_ms": 1792052848167,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 999062,
+      "utc_ms": 1792052850197,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 999065,
+      "utc_ms": 1792052850199,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1001099,
+      "utc_ms": 1792052852233,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1001102,
+      "utc_ms": 1792052852236,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1003143,
+      "utc_ms": 1792052854277,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1003145,
+      "utc_ms": 1792052854280,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1005174,
+      "utc_ms": 1792052856309,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1005175,
+      "utc_ms": 1792052856310,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1007241,
+      "utc_ms": 1792052858376,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1007248,
+      "utc_ms": 1792052858382,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1009307,
+      "utc_ms": 1792052860442,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1009308,
+      "utc_ms": 1792052860443,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1011342,
+      "utc_ms": 1792052862476,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1011345,
+      "utc_ms": 1792052862480,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1013380,
+      "utc_ms": 1792052864515,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1013382,
+      "utc_ms": 1792052864516,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1015438,
+      "utc_ms": 1792052866572,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1015446,
+      "utc_ms": 1792052866581,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1017487,
+      "utc_ms": 1792052868621,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1017495,
+      "utc_ms": 1792052868630,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1019557,
+      "utc_ms": 1792052870691,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1021590,
+      "utc_ms": 1792052872724,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1021591,
+      "utc_ms": 1792052872726,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1023638,
+      "utc_ms": 1792052874772,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1023641,
+      "utc_ms": 1792052874776,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1025683,
+      "utc_ms": 1792052876818,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1025690,
+      "utc_ms": 1792052876825,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1027725,
+      "utc_ms": 1792052878859,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1027730,
+      "utc_ms": 1792052878865,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1029782,
+      "utc_ms": 1792052880916,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1029788,
+      "utc_ms": 1792052880923,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1031817,
+      "utc_ms": 1792052882952,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1031825,
+      "utc_ms": 1792052882960,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1033854,
+      "utc_ms": 1792052884989,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1033863,
+      "utc_ms": 1792052884998,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1035895,
+      "utc_ms": 1792052887030,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1035896,
+      "utc_ms": 1792052887031,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1037961,
+      "utc_ms": 1792052889096,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1037962,
+      "utc_ms": 1792052889097,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1039999,
+      "utc_ms": 1792052891133,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1040000,
+      "utc_ms": 1792052891135,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1042060,
+      "utc_ms": 1792052893194,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1042063,
+      "utc_ms": 1792052893198,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1044126,
+      "utc_ms": 1792052895261,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1044129,
+      "utc_ms": 1792052895264,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1046168,
+      "utc_ms": 1792052897303,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1046175,
+      "utc_ms": 1792052897310,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1048207,
+      "utc_ms": 1792052899342,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1048208,
+      "utc_ms": 1792052899343,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1050232,
+      "utc_ms": 1792052901366,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1050236,
+      "utc_ms": 1792052901370,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1052271,
+      "utc_ms": 1792052903406,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1052402,
+      "utc_ms": 1792052903536,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1054436,
+      "utc_ms": 1792052905571,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1054442,
+      "utc_ms": 1792052905576,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1056474,
+      "utc_ms": 1792052907608,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1056477,
+      "utc_ms": 1792052907612,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1058528,
+      "utc_ms": 1792052909663,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1058538,
+      "utc_ms": 1792052909672,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1060571,
+      "utc_ms": 1792052911705,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1060575,
+      "utc_ms": 1792052911710,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1062606,
+      "utc_ms": 1792052913741,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1062607,
+      "utc_ms": 1792052913742,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1278124,
+      "utc_ms": 1792053129258,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1278125,
+      "utc_ms": 1792053129260,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1280156,
+      "utc_ms": 1792053131290,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1280157,
+      "utc_ms": 1792053131291,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1282188,
+      "utc_ms": 1792053133322,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1282189,
+      "utc_ms": 1792053133324,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    },
+    {
+      "monotonic_ms": 1284230,
+      "utc_ms": 1792053135365,
+      "event": "diagnostics_camera",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "",
+      "detail": "jpeg_timeout"
+    },
+    {
+      "monotonic_ms": 1284231,
+      "utc_ms": 1792053135366,
+      "event": "diagnostics_frame",
+      "capture_id": "",
+      "gate_id": "",
+      "boot_id": "CAM-211ec7045815bf02-6ef36fbb",
+      "detail": "failed"
+    }
+  ]
+}
