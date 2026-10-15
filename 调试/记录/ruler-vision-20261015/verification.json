@@ -1,0 +1,49 @@
+{
+  "recorded_date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "stage": "exploratory_implementation",
+  "flutter_commit": "01db0daea6f0fd9f0bc240231e549112558d18fd",
+  "native_core_commit": "be5777f",
+  "tools_commit": "eb3a70e",
+  "checks": {
+    "flutter_full_suite": {
+      "passed": 139,
+      "failed": 0,
+      "log": "flutter-final-tests.log"
+    },
+    "targeted_native_decode_and_protocol_smoke": "passed",
+    "dart_analysis_lib_test_and_smoke": "passed",
+    "windows_release_build": "passed",
+    "windows_runtime_manifest_all_entries": "passed",
+    "native_contracts_linux": "passed",
+    "native_contracts_windows": "passed",
+    "native_contracts_asan_ubsan_linux": "passed",
+    "original_21_reference_hashes_unchanged": true,
+    "calibration_rerun_byte_identical": true,
+    "native_negative_zero_positive_reference_self_readback": "passed; self-readback only"
+  },
+  "artifacts_sha256": {
+    "scoliosis_flutter.exe": "e4e0784a844396760a91f620a5d8dca32c3d1f5f6d12fa335a9b82b475e95b1b",
+    "data/app.so": "dda97d8df8fa9fb4c035167c5ec111e23dbe48fa35a549b949feaa7ed4684125",
+    "thirdPartyLibrary/ruler-vision/ruler_reader.exe": "c76f13d1b93aba0787c8782f225544489eeb1e245909bd7b5a5a2c323378de71",
+    "thirdPartyLibrary/ruler-vision/BUILD.json": "a87a4c7ff9e25e3e795581aaeb500ba3b958c7fd4cb5ecefbace2d3983f7f31d"
+  },
+  "test_photo_sha256": {
+    "-6.5.jpg": "c5eaf65186a72c807604adbc8ed2a9c7a1e5821b228c678b4e181ffb70031dc4",
+    "-9.jpg": "3b1533852c67584588b2b4f4a3a782bf7a72a75930292193af7c2e9e07c4594e",
+    "6.jpg": "1a25967b4d71ef566ec0aa17bf2248617ef179572bcf7b70238446d83f68dd86",
+    "8.5.jpg": "5bf7505dca991c81c437a25cf3ffb003a31b4cad33dcabf436c979300f427c8d"
+  },
+  "calibration_sha256": "49fb9514842ce0e3bc9cfadb03ef02d72063e3dace50446d23eb03907d1f447a",
+  "acceptance": {
+    "independent_accuracy_verified": false,
+    "full_physical_range_verified": false,
+    "actual_rtsp_6hz_verified": false,
+    "capture_to_display_500ms_verified": false,
+    "recording_parallel_inference_verified": false,
+    "formal_board_frame_bridge_implemented": false,
+    "formal_board_angle_upload_implemented": false,
+    "native_arm_stored_image_benchmark_verified": true
+  },
+  "unchanged": "original reference code/photos, existing ONNX analyzer, capture state machine, pairing/backlight/business files and old release archives"
+}

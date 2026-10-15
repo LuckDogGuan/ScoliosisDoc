@@ -1,0 +1,494 @@
+{
+  "summary": {
+    "changed_count": 73,
+    "affected_count": 2,
+    "changed_files": 7,
+    "risk_level": "medium"
+  },
+  "changed_symbols": [
+    {
+      "id": "Section:tools/ruler-vision/README.md:L1:固定安装脊柱尺暗影读数核心",
+      "name": "固定安装脊柱尺暗影读数核心",
+      "filePath": "tools/ruler-vision/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:tools/ruler-vision/README.md:L7:输入与输出",
+      "name": "输入与输出",
+      "filePath": "tools/ruler-vision/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:tools/ruler-vision/README.md:L17:当前边界",
+      "name": "当前边界",
+      "filePath": "tools/ruler-vision/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:tools/ruler-vision/README.md:L23:回退与测试",
+      "name": "回退与测试",
+      "filePath": "tools/ruler-vision/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/reader.c:now_ms",
+      "name": "now_ms",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/reader.c:output",
+      "name": "output",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/reader.c:read_file",
+      "name": "read_file",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/reader.c:main",
+      "name": "main",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:tools/ruler-vision/reader.c:timespec",
+      "name": "timespec",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:tools/ruler-vision/reader.c:_POSIX_C_SOURCE",
+      "name": "_POSIX_C_SOURCE",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/reader.c:h",
+      "name": "h",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/reader.c:ih",
+      "name": "ih",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/reader.c:depth",
+      "name": "depth",
+      "filePath": "tools/ruler-vision/reader.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:tools/ruler-vision/ruler_vision.c:MAX_NODES",
+      "name": "MAX_NODES",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:tools/ruler-vision/ruler_vision.c:MAX_ANCHORS",
+      "name": "MAX_ANCHORS",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:tools/ruler-vision/ruler_vision.c:MAX_PIXELS",
+      "name": "MAX_PIXELS",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:number",
+      "name": "number",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:integer",
+      "name": "integer",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:rv_free",
+      "name": "rv_free",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:rv_load",
+      "name": "rv_load",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:rv_width",
+      "name": "rv_width",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:rv_height",
+      "name": "rv_height",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:rv_version",
+      "name": "rv_version",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:residual",
+      "name": "residual",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.c:rv_analyze",
+      "name": "rv_analyze",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:tools/ruler-vision/ruler_vision.c:node",
+      "name": "node",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:tools/ruler-vision/ruler_vision.c:rv_context",
+      "name": "rv_context",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:usable",
+      "name": "usable",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:sy",
+      "name": "sy",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:sxx",
+      "name": "sxx",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:sxy",
+      "name": "sxy",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:y",
+      "name": "y",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:offset",
+      "name": "offset",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:second",
+      "name": "second",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:bx",
+      "name": "bx",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:by",
+      "name": "by",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:area",
+      "name": "area",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:tail",
+      "name": "tail",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:n",
+      "name": "n",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:mx",
+      "name": "mx",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:my",
+      "name": "my",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/ruler_vision.c:expected_y",
+      "name": "expected_y",
+      "filePath": "tools/ruler-vision/ruler_vision.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.h:rv_load",
+      "name": "rv_load",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.h:rv_free",
+      "name": "rv_free",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.h:rv_width",
+      "name": "rv_width",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.h:rv_height",
+      "name": "rv_height",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.h:rv_version",
+      "name": "rv_version",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/ruler_vision.h:rv_analyze",
+      "name": "rv_analyze",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:tools/ruler-vision/ruler_vision.h:RULER_VISION_H",
+      "name": "RULER_VISION_H",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:tools/ruler-vision/ruler_vision.h:RV_ALGORITHM_VERSION",
+      "name": "RV_ALGORITHM_VERSION",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:tools/ruler-vision/ruler_vision.h:rv_context",
+      "name": "rv_context",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:tools/ruler-vision/ruler_vision.h:rv_result",
+      "name": "rv_result",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Typedef:tools/ruler-vision/ruler_vision.h:rv_context",
+      "name": "rv_context",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:valid",
+      "name": "valid",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:area",
+      "name": "area",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:angle_deg",
+      "name": "angle_deg",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:x",
+      "name": "x",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:y",
+      "name": "y",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:mass",
+      "name": "mass",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:anchor_error",
+      "name": "anchor_error",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:processing_ms",
+      "name": "processing_ms",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:tools/ruler-vision/ruler_vision.h:reason",
+      "name": "reason",
+      "filePath": "tools/ruler-vision/ruler_vision.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/test_reader.py:run",
+      "name": "run",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tools/ruler-vision/test_reader.py:rows",
+      "name": "rows",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:p",
+      "name": "p",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:a",
+      "name": "a",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:profile",
+      "name": "profile",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:image",
+      "name": "image",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:gray",
+      "name": "gray",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:r",
+      "name": "r",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:values",
+      "name": "values",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:second",
+      "name": "second",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tools/ruler-vision/test_reader.py:output",
+      "name": "output",
+      "filePath": "tools/ruler-vision/test_reader.py",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_0_main",
+      "name": "Main → Number",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "rv_load",
+          "step": 2
+        },
+        {
+          "symbol": "integer",
+          "step": 3
+        },
+        {
+          "symbol": "number",
+          "step": 4
+        },
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_1_main",
+      "name": "Main → Rv_free",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "rv_load",
+          "step": 2
+        },
+        {
+          "symbol": "rv_free",
+          "step": 3
+        },
+        {
+          "symbol": "main",
+          "step": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "local_file_pipeline_smoke",
+  "frames_calculated": 36,
+  "local_update_hz": 5.506271030896299,
+  "steady_update_hz": 6.024096385542169,
+  "local_decode_to_result_p95_ms": 37.0,
+  "capture_to_display_ms": null,
+  "rtsp_live_verified": false,
+  "input": "lossless synthetic video made from the 6 degree manual-label test photo"
+}

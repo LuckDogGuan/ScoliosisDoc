@@ -1,0 +1,43 @@
+{
+  "iterations": 300,
+  "native_ms_p50": 20.433,
+  "native_ms_p95": 32.3642,
+  "native_ms_max": 58.2132,
+  "wall_seconds_including_startup_and_output": 8.029749587999959,
+  "child_peak_rss_kb": 19612,
+  "first_reading": {
+    "angle_deg": 5.71930248,
+    "valid": true,
+    "reason": "ok",
+    "point": [
+      232.316,
+      172.3276
+    ],
+    "area": 4758,
+    "anchor_error": 2.756,
+    "processing_ms": 18.2697,
+    "sequence": 0,
+    "algorithm_version": "shadow-position-v1",
+    "calibration_version": "manual-1eabdc74aa96190f",
+    "label_status": "manual_unverified"
+  },
+  "memory_after": {
+    "MemTotal": "185280 kB",
+    "MemAvailable": "148020 kB"
+  },
+  "rkipc_running": true,
+  "capture_to_display_ms": null,
+  "concurrent_recording_verified": false,
+  "original_camera_images_used": false,
+  "device_serial": "41eda5f2c5b00de1",
+  "device_model": "Luckfox Pico Zero",
+  "firmware": "3.3.11",
+  "source_sha256": {
+    "reader": "9365b7d0c08ed705d850f4e81e5fb4546d5035d440e9da029dbbbe4cb1f59a66",
+    "calibration.json": "49fb9514842ce0e3bc9cfadb03ef02d72063e3dace50446d23eb03907d1f447a",
+    "input.pgm": "19967e0a8d1db78498d3cf9a96fa0902d5a4c52a82d2a31d02247786e71ff4ba"
+  },
+  "business_files_unchanged": true,
+  "transfer": "ADB fallback; no trusted Wi-Fi SSH host configuration available",
+  "interpretation": "ARM-only calculation on a stored 640x480 reference frame; not live camera/recording/RTSP acceptance"
+}

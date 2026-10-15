@@ -1,0 +1,701 @@
+{
+  "summary": {
+    "changed_count": 115,
+    "affected_count": 0,
+    "changed_files": 12,
+    "risk_level": "low"
+  },
+  "changed_symbols": [
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.runtime",
+      "name": "runtime",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.calibration",
+      "name": "calibration",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.deviceId",
+      "name": "deviceId",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.workspace",
+      "name": "workspace",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._clock",
+      "name": "_clock",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.Stopwatch",
+      "name": "Stopwatch",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._decoder",
+      "name": "_decoder",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._probe",
+      "name": "_probe",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._reader",
+      "name": "_reader",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._frames",
+      "name": "_frames",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._timer",
+      "name": "_timer",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._log",
+      "name": "_log",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._latest",
+      "name": "_latest",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._latestAt",
+      "name": "_latestAt",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._latestSeq",
+      "name": "_latestSeq",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._processedSeq",
+      "name": "_processedSeq",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._epoch",
+      "name": "_epoch",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._busy",
+      "name": "_busy",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession._disposed",
+      "name": "_disposed",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.running",
+      "name": "running",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.status",
+      "name": "status",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.reading",
+      "name": "reading",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.image",
+      "name": "image",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.localAgeMs",
+      "name": "localAgeMs",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.completed",
+      "name": "completed",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.updatesPerSecond",
+      "name": "updatesPerSecond",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.captureToDisplayMs",
+      "name": "captureToDisplayMs",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/live_ruler.dart:LiveRulerSession.logFile",
+      "name": "logFile",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/live_ruler.dart:LiveRulerSession._changed#0",
+      "name": "_changed",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/live_ruler.dart:LiveRulerSession.start#2",
+      "name": "start",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/live_ruler.dart:LiveRulerSession._tick#1",
+      "name": "_tick",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/live_ruler.dart:LiveRulerSession._fail#2",
+      "name": "_fail",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/live_ruler.dart:LiveRulerSession.stop#0",
+      "name": "stop",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/live_ruler.dart:LiveRulerSession.dispose#0",
+      "name": "dispose",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/live_ruler.dart:LiveRulerSession.LiveRulerSession#4",
+      "name": "LiveRulerSession",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/analysis/live_ruler.dart:LiveRulerSession",
+      "name": "LiveRulerSession",
+      "filePath": "lib/analysis/live_ruler.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:lib/analysis/shadow_reader.dart:shadowCalibrationFile",
+      "name": "shadowCalibrationFile",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:lib/analysis/shadow_reader.dart:validateShadowCalibration",
+      "name": "validateShadowCalibration",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:lib/analysis/shadow_reader.dart:shadowReason",
+      "name": "shadowReason",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowCalibration.file",
+      "name": "file",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowCalibration.width",
+      "name": "width",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowCalibration.height",
+      "name": "height",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowCalibration.version",
+      "name": "version",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowCalibration.deviceId",
+      "name": "deviceId",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowCalibration.sha256Hex",
+      "name": "sha256Hex",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowCalibration.minimum",
+      "name": "minimum",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowCalibration.maximum",
+      "name": "maximum",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowRuntime.reader",
+      "name": "reader",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowRuntime.ffmpeg",
+      "name": "ffmpeg",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowRuntime.ffprobe",
+      "name": "ffprobe",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReading.json",
+      "name": "json",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReading.angle",
+      "name": "angle",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReading.x",
+      "name": "x",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReading.y",
+      "name": "y",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReading.processingMs",
+      "name": "processingMs",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReading.reason",
+      "name": "reason",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReader.runtime",
+      "name": "runtime",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReader.calibration",
+      "name": "calibration",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReader._process",
+      "name": "_process",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReader._output",
+      "name": "_output",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReader._pending",
+      "name": "_pending",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReader._sequence",
+      "name": "_sequence",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:ShadowReader._closed",
+      "name": "_closed",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:GrayFrameAssembler.frameBytes",
+      "name": "frameBytes",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:GrayFrameAssembler._frame",
+      "name": "_frame",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/analysis/shadow_reader.dart:GrayFrameAssembler._offset",
+      "name": "_offset",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/shadow_reader.dart:ShadowCalibration.read#1",
+      "name": "read",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/shadow_reader.dart:ShadowCalibration.requireDevice#1",
+      "name": "requireDevice",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/shadow_reader.dart:ShadowReader.start#0",
+      "name": "start",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/shadow_reader.dart:ShadowReader.read#1",
+      "name": "read",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/shadow_reader.dart:ShadowReader.close#0",
+      "name": "close",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/shadow_reader.dart:GrayFrameAssembler.add#1",
+      "name": "add",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/shadow_reader.dart:ShadowCalibration.ShadowCalibration#8",
+      "name": "ShadowCalibration",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/shadow_reader.dart:ShadowCalibration._",
+      "name": "_",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/shadow_reader.dart:ShadowRuntime.bundled#0",
+      "name": "bundled",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/shadow_reader.dart:ShadowReading.ShadowReading#5",
+      "name": "ShadowReading",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/shadow_reader.dart:ShadowReading._",
+      "name": "_",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/shadow_reader.dart:ShadowReading.parse#3",
+      "name": "parse",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/shadow_reader.dart:ShadowReader.ShadowReader#2",
+      "name": "ShadowReader",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/analysis/shadow_reader.dart:GrayFrameAssembler.GrayFrameAssembler#2",
+      "name": "GrayFrameAssembler",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/analysis/shadow_reader.dart:ShadowCalibration",
+      "name": "ShadowCalibration",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/analysis/shadow_reader.dart:ShadowRuntime",
+      "name": "ShadowRuntime",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/analysis/shadow_reader.dart:ShadowReading",
+      "name": "ShadowReading",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/analysis/shadow_reader.dart:ShadowReader",
+      "name": "ShadowReader",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/analysis/shadow_reader.dart:GrayFrameAssembler",
+      "name": "GrayFrameAssembler",
+      "filePath": "lib/analysis/shadow_reader.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/live_ruler_panel.dart:LiveRulerPanel",
+      "name": "LiveRulerPanel",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState",
+      "name": "_LiveRulerPanelState",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/live_ruler_panel.dart:_PointPainter",
+      "name": "_PointPainter",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:LiveRulerPanel.workspace",
+      "name": "workspace",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:LiveRulerPanel.deviceId",
+      "name": "deviceId",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:LiveRulerPanel.ip",
+      "name": "ip",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:LiveRulerPanel.ready",
+      "name": "ready",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState._calibration",
+      "name": "_calibration",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState._session",
+      "name": "_session",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState._error",
+      "name": "_error",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState._starting",
+      "name": "_starting",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState._generation",
+      "name": "_generation",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:_PointPainter.x",
+      "name": "x",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/live_ruler_panel.dart:_PointPainter.y",
+      "name": "y",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:LiveRulerPanel.createState#0",
+      "name": "createState",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState.initState#0",
+      "name": "initState",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState.didUpdateWidget#1",
+      "name": "didUpdateWidget",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState._load#0",
+      "name": "_load",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState._import#0",
+      "name": "_import",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState._start#0",
+      "name": "_start",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState.dispose#0",
+      "name": "dispose",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_LiveRulerPanelState.build#1",
+      "name": "build",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_PointPainter.paint#2",
+      "name": "paint",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/live_ruler_panel.dart:_PointPainter.shouldRepaint#1",
+      "name": "shouldRepaint",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:lib/ui/live_ruler_panel.dart:grayBmp",
+      "name": "grayBmp",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Constructor:lib/ui/live_ruler_panel.dart:_PointPainter._PointPainter#2",
+      "name": "_PointPainter",
+      "filePath": "lib/ui/live_ruler_panel.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/pages/capture_page.dart:_CapturePageState",
+      "name": "_CapturePageState",
+      "filePath": "lib/ui/pages/capture_page.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:test/shadow_reader_test.dart:main",
+      "name": "main",
+      "filePath": "test/shadow_reader_test.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:thirdPartyLibrary/ruler-vision/README.md:L1:固定安装脊柱尺读数运行时",
+      "name": "固定安装脊柱尺读数运行时",
+      "filePath": "thirdPartyLibrary/ruler-vision/README.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/shadow_live_smoke_test.dart:main",
+      "name": "main",
+      "filePath": "tool/shadow_live_smoke_test.dart",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": []
+}

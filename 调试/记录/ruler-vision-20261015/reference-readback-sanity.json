@@ -1,0 +1,56 @@
+{
+  "purpose": "Calibration self-readback sanity only; not independent accuracy validation",
+  "readings": [
+    {
+      "angle_deg": -3.00000829,
+      "valid": true,
+      "reason": "ok",
+      "point": [
+        106.6944,
+        200.9032
+      ],
+      "area": 204,
+      "anchor_error": 1.3733,
+      "processing_ms": 0.3036,
+      "sequence": 0,
+      "algorithm_version": "shadow-position-v1",
+      "calibration_version": "manual-1eabdc74aa96190f",
+      "label_status": "manual_unverified",
+      "reference_label_deg": -3
+    },
+    {
+      "angle_deg": 2.68e-06,
+      "valid": true,
+      "reason": "ok",
+      "point": [
+        130.0318,
+        202.1387
+      ],
+      "area": 664,
+      "anchor_error": 1.7188,
+      "processing_ms": 0.2907,
+      "sequence": 1,
+      "algorithm_version": "shadow-position-v1",
+      "calibration_version": "manual-1eabdc74aa96190f",
+      "label_status": "manual_unverified",
+      "reference_label_deg": 0
+    },
+    {
+      "angle_deg": 3.00000026,
+      "valid": true,
+      "reason": "ok",
+      "point": [
+        174.3611,
+        199.0326
+      ],
+      "area": 2476,
+      "anchor_error": 1.7275,
+      "processing_ms": 0.3059,
+      "sequence": 2,
+      "algorithm_version": "shadow-position-v1",
+      "calibration_version": "manual-1eabdc74aa96190f",
+      "label_status": "manual_unverified",
+      "reference_label_deg": 3
+    }
+  ]
+}

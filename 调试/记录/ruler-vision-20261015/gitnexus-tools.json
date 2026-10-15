@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "changed_count": 15,
+    "affected_count": 0,
+    "changed_files": 5,
+    "risk_level": "low"
+  },
+  "changed_symbols": [
+    {
+      "id": "Section:GLOSSARY.md:L1:仪器与电脑连接领域术语",
+      "name": "仪器与电脑连接领域术语",
+      "filePath": "GLOSSARY.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:GLOSSARY.md:L5:术语",
+      "name": "术语",
+      "filePath": "GLOSSARY.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:docs/adr/0002-fixed-mount-ruler-shadow.md:L1:固定装置优先采用暗影位置标定，计算核单一维护",
+      "name": "固定装置优先采用暗影位置标定，计算核单一维护",
+      "filePath": "docs/adr/0002-fixed-mount-ruler-shadow.md",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_board_benchmark.py:main",
+      "name": "main",
+      "filePath": "调试/工具/ruler_board_benchmark.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_board_benchmark.py:shell",
+      "name": "shell",
+      "filePath": "调试/工具/ruler_board_benchmark.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:调试/工具/ruler_vision.py:REASONS",
+      "name": "REASONS",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_vision.py:write_json",
+      "name": "write_json",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_vision.py:images",
+      "name": "images",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_vision.py:read_gray",
+      "name": "read_gray",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_vision.py:run_frames",
+      "name": "run_frames",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_vision.py:calibrate",
+      "name": "calibrate",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_vision.py:overlay",
+      "name": "overlay",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_vision.py:evaluate",
+      "name": "evaluate",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_vision.py:main",
+      "name": "main",
+      "filePath": "调试/工具/ruler_vision.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Section:调试/软件架构/Pico_Zero_拍摄仪器软件框架设计.md:L1:Luckfox Pico Zero 拍摄仪器软件框架设计",
+      "name": "Luckfox Pico Zero 拍摄仪器软件框架设计",
+      "filePath": "调试/软件架构/Pico_Zero_拍摄仪器软件框架设计.md",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": []
+}

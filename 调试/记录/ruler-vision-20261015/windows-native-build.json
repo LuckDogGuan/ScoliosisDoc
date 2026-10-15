@@ -1,0 +1,13 @@
+{
+  "algorithm_version": "shadow-position-v1",
+  "authoritative_source": "WSL Luckfox-Ubuntu-22.04:/home/guanjx/luckfox/Scoliosis/tools/ruler-vision",
+  "source_git_commit": "be5777f5dab40cd00d6f51c124e81a74318535f1",
+  "source_sha256": {
+    "tools/ruler-vision/ruler_vision.c": "3cb13c0ae9b328396364a5c15cf613c35d0ed4f81642ef8cf488aec26fe53e12",
+    "tools/ruler-vision/reader.c": "8f378403e735b63aab2769deaa5ac80be3217cd433c3c19c3f817caeccbe1ff1",
+    "tools/ruler-vision/ruler_vision.h": "9d4a42f9b58c6557dbc76e3e0727801b402d8d1caf93505dae63bb5c4e304edb",
+    "third_party/cjson/cJSON.c": "971822d8c3cbb22c180f16cea9ef66ee5d3e10dcade6c61d4ac9a18f475d8520",
+    "third_party/cjson/cJSON.h": "c25b54ebc98e814eb7b3eeaf12ce899806f87ff5a275b20a3b77dbb3968e5d0b"
+  },
+  "binary_sha256": "c76f13d1b93aba0787c8782f225544489eeb1e245909bd7b5a5a2c323378de71"
+}
