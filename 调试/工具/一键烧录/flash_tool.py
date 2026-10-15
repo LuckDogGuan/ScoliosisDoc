@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import configparser
 import hashlib
+import ipaddress
 import json
 import os
 from pathlib import Path, PurePosixPath
@@ -11,6 +12,8 @@ import queue
 import re
 import shlex
 import shutil
+import socket
+import sqlite3
 import subprocess
 import sys
 import tarfile
@@ -346,20 +349,239 @@ class Installer:
         self.staging.rmdir()
 
 
-def gui(package_path=None):
+def wifi_saved():
+    path = HOME / "wifi-devices.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def wifi_exchange(address, device_id, timeout=2, bind_address=None):
+    packet = dict(version=3, op="hello_query", host_id="wifi-flash-tool", device_id=device_id,
+                  sequence=0, nonce=uuid.uuid4().hex)
+    with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as udp:
+        if bind_address:
+            udp.bind((bind_address, 0))
+        udp.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+        udp.settimeout(timeout)
+        udp.sendto(json.dumps(packet).encode(), (address, 37020))
+        deadline = time.monotonic() + timeout
+        while time.monotonic() < deadline:
+            udp.settimeout(max(0.01, deadline - time.monotonic()))
+            raw, peer = udp.recvfrom(8192)
+            try:
+                state = json.loads(raw)
+            except (ValueError, UnicodeError):
+                continue
+            if peer[1] != 37020 or (address != "255.255.255.255" and peer[0] != address):
+                continue
+            if isinstance(state, dict) and state.get("op") == "hello_reply" and state.get("ok") is True and all(
+                    state.get(k) == packet[k] for k in ("version", "host_id", "device_id", "sequence", "nonce")):
+                return dict(device_id=device_id, address=peer[0], state=state)
+    raise RuntimeError("仪器 Wi-Fi 无响应，请确认同一局域网并重新连接")
+
+
+def wifi_devices():
+    # Saved identities remain discoverable after the physical pairing window closes.
+    saved = wifi_saved()
+    identities = set(saved)
+    db = Path(os.environ.get("LOCALAPPDATA", ".")) / "ScoliosisScreening/screening.sqlite3"
+    if db.is_file():
+        with sqlite3.connect(db.as_uri() + "?mode=ro", uri=True) as connection:
+            row = connection.execute("SELECT payload FROM runtime_state WHERE key='lastWorkspace'").fetchone()
+        if row:
+            book = Path(row[0]) / "设备.json"
+            if book.is_file():
+                identities.update(json.loads(book.read_text(encoding="utf-8-sig")).get("paired", []))
+    found = {}
+    addresses = {r[4][0] for r in socket.getaddrinfo(socket.gethostname(), None, socket.AF_INET)}
+    addresses = {ip for ip in addresses if not ip.startswith(("127.", "169.254.", "198.18."))}
+    for bind in sorted(addresses):
+        request = dict(version=2, op="discover", nonce=uuid.uuid4().hex, http_port=49159)
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as udp:
+            udp.bind((bind, 0))
+            udp.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+            udp.sendto(json.dumps(request).encode(), ("255.255.255.255", 37020))
+            deadline = time.monotonic() + 0.7
+            while time.monotonic() < deadline:
+                udp.settimeout(max(0.01, deadline - time.monotonic()))
+                try:
+                    raw, peer = udp.recvfrom(8192)
+                    reply = json.loads(raw)
+                except socket.timeout:
+                    break
+                except (ValueError, UnicodeError):
+                    continue
+                if not isinstance(reply, dict):
+                    continue
+                device = reply.get("device_id", "")
+                if (peer[1] == 37020 and reply.get("version") == 2 and reply.get("op") == "here"
+                        and reply.get("nonce") == request["nonce"] and isinstance(device, str)
+                        and re.fullmatch(r"[A-Za-z0-9_-]{1,95}", device)):
+                    found[(device, peer[0])] = dict(device_id=device, address=peer[0])
+    for device in sorted(identities):
+        targets = [("255.255.255.255", bind) for bind in sorted(addresses)]
+        if saved.get(device, {}).get("address"):
+            targets.append((saved[device]["address"], None))
+        for address, bind in targets:
+            try:
+                item = wifi_exchange(address, device, timeout=0.7, bind_address=bind)
+                found[(device, item["address"])] = item
+            except (OSError, RuntimeError):
+                continue
+    return list(found.values())
+
+
+class WifiInstaller(Installer):
+    """Use the existing installer over SSH; never change capture pairing or gates."""
+    def __init__(self, device, password="luckfox", notify=lambda message: None):
+        self.address = str(ipaddress.IPv4Address(device["address"]))
+        self.expected_id = device["device_id"]
+        if not re.fullmatch(r"[A-Za-z0-9_-]{1,95}", self.expected_id):
+            raise RuntimeError("仪器 ID 无效")
+        self.password = password
+        self.transport = None
+        self.fingerprint = wifi_saved().get(self.expected_id, {}).get("host_key")
+        self.hello_state = wifi_exchange(self.address, self.expected_id)["state"]
+        try:
+            self.connect()
+            serial = self.execute("cat /proc/device-tree/serial-number").replace("\x00", "").strip()
+            if not re.fullmatch(r"[A-Za-z0-9_-]{1,95}", serial):
+                raise RuntimeError("设备序列号无效")
+            config = json.loads(self.execute("cat /opt/instrument/config.json"))
+            previous = wifi_saved().get(self.expected_id, {})
+            if config.get("device_id") != self.expected_id or (previous.get("serial") and previous["serial"] != serial):
+                raise RuntimeError("Wi-Fi 设备身份不匹配，停止连接")
+            # Require the discovered address to belong to wlan0, excluding USB networking.
+            if not re.search(r"\binet " + re.escape(self.address) + r"/", self.execute("ip -4 addr show wlan0")):
+                raise RuntimeError("目标不是仪器 Wi-Fi 地址")
+            super().__init__(serial, notify)
+            self.device_id = self.expected_id
+            saved = wifi_saved()
+            saved[self.device_id] = dict(serial=serial, address=self.address, host_key=self.fingerprint)
+            temporary = HOME / "wifi-devices.json.tmp"
+            temporary.write_text(json.dumps(saved, ensure_ascii=False, indent=2), encoding="utf-8")
+            temporary.replace(HOME / "wifi-devices.json")
+            self.record(transport="wifi-ssh", address=self.address, device_id=self.device_id,
+                        serial=serial, host_key=self.fingerprint, connected=True)
+        except BaseException:
+            if self.transport:
+                self.transport.close()
+            raise
+
+    def connect(self):
+        import base64
+        import paramiko
+        if self.transport:
+            self.transport.close()
+        transport = paramiko.Transport(socket.create_connection((self.address, 22), timeout=5))
+        try:
+            transport.start_client(timeout=5)
+            fingerprint = "SHA256:" + base64.b64encode(hashlib.sha256(
+                transport.get_remote_server_key().asbytes()).digest()).decode().rstrip("=")
+            if self.fingerprint and fingerprint != self.fingerprint:
+                raise RuntimeError("SSH 主机密钥改变，停止连接；请核对仪器")
+            transport.auth_password("root", self.password)
+            self.fingerprint = fingerprint
+            self.transport = transport
+        except BaseException:
+            transport.close()
+            raise
+
+    def execute(self, script, timeout=60, upload=None, download=None):
+        import paramiko
+        try:
+            if not self.transport or not self.transport.is_active():
+                self.connect()
+            channel = self.transport.open_session(timeout=8)
+            channel.settimeout(timeout)
+            try:
+                channel.exec_command(script)
+                if upload:
+                    with Path(upload).open("rb") as source:
+                        for chunk in iter(lambda: source.read(65536), b""):
+                            channel.sendall(chunk)
+                channel.shutdown_write()
+                if download:
+                    with Path(download).open("wb") as target:
+                        shutil.copyfileobj(channel.makefile("rb"), target)
+                    output = ""
+                else:
+                    output = channel.makefile("rb").read().decode(errors="replace")
+                error = channel.makefile_stderr("rb").read().decode(errors="replace")
+                if channel.recv_exit_status():
+                    raise RuntimeError(error or output or "Wi-Fi 板端命令失败")
+                return output.replace("\x00", "").replace("\r", "").strip()
+            finally:
+                channel.close()
+        except (OSError, EOFError, paramiko.SSHException) as error:
+            if self.transport:
+                self.transport.close()
+            raise RuntimeError("Wi-Fi 连接中断：" + str(error)) from error
+
+    def adb(self, *args, timeout=60):
+        # Adapter keeps USB's proven install, backup and verification sequence shared.
+        try:
+            if args[0] == "shell":
+                script = args[1]
+                if script == "sync; reboot":
+                    # Detach reboot so SSH can report success before the network drops.
+                    script = "sync; nohup sh -c 'sleep 1; reboot' >/tmp/wifi-flash-reboot.log 2>&1 </dev/null &"
+                output = self.execute(script, timeout)
+            elif args[0] == "push":
+                output = self.execute("cat > " + shlex.quote(args[2]), timeout, upload=args[1])
+            elif args[0] == "pull":
+                output = self.execute("cat " + shlex.quote(args[1]), timeout, download=args[2])
+            else:
+                raise RuntimeError("不支持的 Wi-Fi 操作")
+            self.record(transport="wifi-ssh", args=args, output=output)
+            return output
+        except Exception as error:
+            self.record(transport="wifi-ssh", args=args, error=str(error))
+            raise
+
+    def preflight(self, package):
+        state = wifi_exchange(self.address, self.expected_id)["state"]
+        validate_idle(state)
+        super().preflight(package)
+        if self.device_id != self.expected_id:
+            raise RuntimeError("安装前设备身份改变")
+
+    def close(self):
+        try:
+            super().close()
+        finally:
+            if self.transport:
+                self.transport.close()
+            self.password = ""
+
+
+def gui(package_path=None, wifi=False):
     import tkinter as tk
     from tkinter import ttk, messagebox, filedialog
     window = tk.Tk()
     window.title("下位机一键烧录")
-    window.geometry("600x350")
+    window.geometry("600x490")
     window.resizable(False, False)
     events = queue.Queue()
     busy = False
     chosen = None
+    wifi_target = None
+    mode = tk.StringVar(value="wifi" if wifi else "usb")
+    password = tk.StringVar(value="luckfox")
     version = tk.StringVar(value="未选择烧录包")
     filename = tk.StringVar(value="")
     status = tk.StringVar(value="选择压缩包，再连接仪器 USB 开始烧录")
     ttk.Label(window, text="下位机一键烧录", font=("Microsoft YaHei", 17)).pack(pady=(23, 10))
+    modes = ttk.Frame(window)
+    modes.pack()
+    ttk.Radiobutton(modes, text="USB 烧录", variable=mode, value="usb").pack(side="left", padx=12)
+    ttk.Radiobutton(modes, text="Wi-Fi 烧录", variable=mode, value="wifi").pack(side="left", padx=12)
+    network = ttk.Frame(window)
+    network.pack(pady=8)
+    connect_button = ttk.Button(network, text="配对连接", state="disabled")
+    connect_button.pack(side="left", padx=8)
+    ttk.Label(network, text="设备密码").pack(side="left")
+    password_entry = ttk.Entry(network, textvariable=password, show="*", width=16, state="disabled")
+    password_entry.pack(side="left", padx=8)
     selector = ttk.Button(window, text="选择压缩包", width=22)
     selector.pack(pady=5)
     ttk.Label(window, textvariable=version, font=("Microsoft YaHei", 13)).pack(pady=7)
@@ -368,6 +590,44 @@ def gui(package_path=None):
     button = ttk.Button(window, text="开始烧录", width=22, state="disabled")
     button.pack(pady=12)
     ttk.Button(window, text="打开烧录记录", command=lambda: (HOME / "记录").mkdir(exist_ok=True) or os.startfile(HOME / "记录")).pack()
+
+    def ready():
+        return chosen is not None and (mode.get() == "usb" or wifi_target is not None)
+
+    def mode_changed(*_):
+        button.config(state="normal" if ready() and not busy else "disabled")
+        connect_button.config(state="normal" if mode.get() == "wifi" and not busy else "disabled")
+        password_entry.config(state="normal" if mode.get() == "wifi" and not busy else "disabled")
+        if not busy:
+            status.set(("已连接 " + wifi_target["device_id"] if wifi_target else "同一局域网，点击配对连接；新仪器请先打开配对模式")
+                       if mode.get() == "wifi" else "已选好烧录包，连接 USB 后点击开始烧录")
+
+    def connect_wifi(device=None):
+        nonlocal busy, wifi_target
+        wifi_target = None
+        busy = True
+        mode_changed()
+        selector.config(state="disabled")
+        for widget in modes.winfo_children():
+            widget.config(state="disabled")
+        secret = password.get()
+        def work():
+            installer = None
+            try:
+                devices = [device] if device else wifi_devices()
+                if len(devices) > 1:
+                    events.put(("wifi_choose", devices))
+                elif not devices:
+                    raise RuntimeError("未发现仪器，请确认同一局域网；新仪器需开启配对模式")
+                else:
+                    installer = WifiInstaller(devices[0], secret)
+                    events.put(("wifi_connected", dict(devices[0], serial=installer.serial)))
+            except Exception as error:
+                events.put(("error", str(error)))
+            finally:
+                if installer:
+                    installer.close()
+        threading.Thread(target=work, daemon=True).start()
 
     def select_package(path=None):
         nonlocal chosen
@@ -383,7 +643,7 @@ def gui(package_path=None):
             chosen = read_package(path)
             version.set("版本：" + chosen["version"])
             status.set("已选好烧录包，连接 USB 后点击开始烧录")
-            button.config(state="normal")
+            button.config(state="normal" if ready() else "disabled")
         except Exception as error:
             version.set("压缩包无效")
             status.set(str(error))
@@ -394,20 +654,30 @@ def gui(package_path=None):
         if chosen is None:
             return
         selected_path = chosen["path"]
+        selected_mode, selected_wifi, secret = mode.get(), wifi_target, password.get()
         busy = True
         button.config(state="disabled")
         selector.config(state="disabled")
+        connect_button.config(state="disabled")
+        password_entry.config(state="disabled")
+        for widget in modes.winfo_children():
+            widget.config(state="disabled")
         def work():
             installer = None
             try:
-                devices = usb_devices()
-                if serial is None and len(devices) > 1:
-                    events.put(("choose", devices))
-                    return
-                selected = choose_serial(devices, serial)
                 package = read_package(selected_path)
-                installer = Installer(selected, lambda text: events.put(("status", text)))
-                events.put(("status", "目标 " + selected + " · " + package["version"]))
+                notify = lambda text: events.put(("status", text))
+                if selected_mode == "wifi":
+                    if selected_wifi is None:
+                        raise RuntimeError("请先配对连接仪器")
+                    installer = WifiInstaller(selected_wifi, secret, notify)
+                else:
+                    devices = usb_devices()
+                    if serial is None and len(devices) > 1:
+                        events.put(("choose", devices))
+                        return
+                    installer = Installer(choose_serial(devices, serial), notify)
+                events.put(("status", "目标 " + installer.serial + " · " + package["version"]))
                 result = installer.flash_install(package)
                 events.put(("done", result))
             except Exception as error:
@@ -421,15 +691,34 @@ def gui(package_path=None):
         threading.Thread(target=work, daemon=True).start()
 
     def poll():
-        nonlocal busy
+        nonlocal busy, wifi_target
         while not events.empty():
             kind, value = events.get()
             if kind == "status":
                 status.set(value)
             else:
                 busy = False
-                button.config(state="normal" if chosen else "disabled")
+                button.config(state="normal" if ready() else "disabled")
                 selector.config(state="normal")
+                for widget in modes.winfo_children():
+                    widget.config(state="normal")
+                mode_changed()
+                if kind == "wifi_connected":
+                    wifi_target = value
+                    mode_changed()
+                    continue
+                if kind == "wifi_choose":
+                    dialog = tk.Toplevel(window)
+                    dialog.title("选择 Wi-Fi 仪器")
+                    dialog.transient(window)
+                    dialog.grab_set()
+                    for device in value:
+                        def select_wifi(d=device):
+                            dialog.destroy()
+                            connect_wifi(d)
+                        ttk.Button(dialog, text=device["device_id"] + " · " + device["address"],
+                                   command=select_wifi).pack(padx=20, pady=7, fill="x")
+                    continue
                 if kind == "choose":
                     dialog = tk.Toplevel(window)
                     dialog.title("选择烧录设备")
@@ -450,6 +739,9 @@ def gui(package_path=None):
 
     button.config(command=launch)
     selector.config(command=select_package)
+    connect_button.config(command=connect_wifi)
+    mode.trace_add("write", mode_changed)
+    mode_changed()
     if package_path:
         select_package(package_path)
     window.protocol("WM_DELETE_WINDOW", lambda: messagebox.showinfo("正在烧录", "请等待烧录结束") if busy else window.destroy())
@@ -458,26 +750,59 @@ def gui(package_path=None):
 
 
 if __name__ == "__main__":
+    for stream in (sys.stdout, sys.stderr):
+        if stream and hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser()
-    parser.add_argument("--check", action="store_true", help="检查正式包、设备及空闲状态，不安装固件")
-    parser.add_argument("--install", action="store_true")
+    actions = parser.add_mutually_exclusive_group()
+    actions.add_argument("--check", action="store_true", help="检查正式包、设备及空闲状态，不安装固件")
+    actions.add_argument("--install", action="store_true")
     parser.add_argument("--force", action="store_true", help="验证用：同版本也重新安装")
     parser.add_argument("--serial")
+    parser.add_argument("--wifi", action="store_true", help="通过局域网 Wi-Fi/SSH 操作，不使用 ADB")
+    actions.add_argument("--discover", action="store_true", help="发现 Wi-Fi 仪器并输出 JSON，不安装")
+    actions.add_argument("--connect", action="store_true", help="连接并保存 Wi-Fi 仪器身份，不安装")
+    parser.add_argument("--address", help="明确指定 Wi-Fi IPv4 地址，需同时指定 --device-id")
+    parser.add_argument("--device-id", help="明确指定仪器 ID；多台时必须选择")
+    parser.add_argument("--password-stdin", action="store_true", help="从标准输入读取 SSH 密码；默认使用原厂口令，不保存密码")
     parser.add_argument("--package", type=Path, help="选择应用压缩包，版本从包内读取")
     args = parser.parse_args()
-    if args.check or args.install:
+    if args.discover:
+        print(json.dumps(wifi_devices(), ensure_ascii=False, indent=2))
+    elif args.check or args.install or args.connect:
         installer = None
         try:
-            package = read_package(args.package) if args.package else latest_package()
-            installer = Installer(choose_serial(usb_devices(), args.serial), print)
-            if args.check:
+            package = None if args.connect else (read_package(args.package) if args.package else latest_package())
+            if args.wifi or args.connect:
+                if args.address and not args.device_id:
+                    parser.error("--address 需要同时指定 --device-id")
+                devices = ([dict(address=args.address, device_id=args.device_id)] if args.address else wifi_devices())
+                if args.device_id:
+                    devices = [d for d in devices if d["device_id"] == args.device_id]
+                if len(devices) != 1:
+                    raise RuntimeError("未找到唯一仪器，请使用 --discover 查看，再用 --device-id 及 --address 指定目标")
+                secret = sys.stdin.readline().rstrip("\r\n") if args.password_stdin else "luckfox"
+                installer = WifiInstaller(devices[0], secret, print)
+                if args.serial and installer.serial != args.serial:
+                    raise RuntimeError("Wi-Fi 仪器序列号与 --serial 不一致")
+            else:
+                installer = Installer(choose_serial(usb_devices(), args.serial), print)
+            if args.connect:
+                print("CONNECTED " + installer.device_id + " " + installer.address)
+            elif args.check:
                 installer.preflight(package)
                 print("CHECK_PASS " + package["version"] + " " + installer.serial)
             else:
                 print(installer.flash_install(package, args.force))
             print("REPORT=" + str(installer.report))
+        except Exception as error:
+            if installer:
+                installer.record(result="FAILED", error=str(error))
+                print("REPORT=" + str(installer.report), file=sys.stderr)
+            print("ERROR: " + str(error), file=sys.stderr)
+            sys.exit(1)
         finally:
             if installer:
                 installer.close()
     else:
-        gui(args.package)
+        gui(args.package, wifi=args.wifi)

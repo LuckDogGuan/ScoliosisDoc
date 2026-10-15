@@ -10,14 +10,19 @@ if ((Get-FileHash -LiteralPath (Join-Path $toolRoot 'payload/udp_query') -Algori
 $buildRoot = Join-Path $toolRoot '.build'
 $releaseRoot = Join-Path $toolRoot 'release'
 New-Item -ItemType Directory -Force -Path $buildRoot,$releaseRoot | Out-Null
-$buildArgs = @('-m','PyInstaller','--noconfirm','--onefile','--windowed',
-    '--name','下位机一键烧录','--distpath',$releaseRoot,'--workpath',(Join-Path $buildRoot 'work'),
+$buildArgs = @('-m','PyInstaller','--noconfirm','--onefile',
+    '--distpath',$releaseRoot,'--workpath',(Join-Path $buildRoot 'work'),
     '--specpath',$buildRoot,'--add-data',"$(Join-Path $toolRoot 'payload');payload")
 foreach ($name in @('adb.exe','AdbWinApi.dll','AdbWinUsbApi.dll')) {
     $path = Join-Path $AdbDir $name
     if (-not (Test-Path -LiteralPath $path)) { throw "Build input missing: $path" }
     $buildArgs += @('--add-binary',"$path;adb")
 }
-& $Python @buildArgs (Join-Path $toolRoot 'flash_tool.py')
-if ($LASTEXITCODE -ne 0) { throw 'Build failed' }
-Get-FileHash -LiteralPath (Join-Path $releaseRoot '下位机一键烧录.exe') -Algorithm SHA256
+foreach ($target in @(
+    @{Name='下位机一键烧录'; Mode='--windowed'},
+    @{Name='下位机烧录CLI'; Mode='--console'}
+)) {
+    & $Python @buildArgs $target.Mode '--name' $target.Name (Join-Path $toolRoot 'flash_tool.py')
+    if ($LASTEXITCODE -ne 0) { throw "Build failed: $($target.Name)" }
+    Get-FileHash -LiteralPath (Join-Path $releaseRoot ($target.Name + '.exe')) -Algorithm SHA256
+}

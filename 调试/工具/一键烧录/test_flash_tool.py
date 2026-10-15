@@ -147,6 +147,8 @@ class SafetyTests(unittest.TestCase):
             except Exception as error:
                 failures.append(error)
             finally:
+                for callback in window.tk.call("after", "info"):
+                    window.after_cancel(callback)
                 window.destroy()
         window.after(100, exercise)
         with patch("tkinter.Tk", return_value=window):
