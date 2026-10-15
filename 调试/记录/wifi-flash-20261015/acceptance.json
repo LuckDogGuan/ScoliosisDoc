@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-15",
+  "tool_version": "1.2.0",
+  "device_id": "CAM-211ec7045815bf02",
+  "serial": "211ec7045815bf02",
+  "address": "192.168.101.7",
+  "transport": "wifi-ssh",
+  "adb_used": false,
+  "firmware_version": "3.3.11",
+  "package_sha256": "32ee73984cc1c5033d13a926e3329d326be7d23d3bb38d8a37cd35a58612b1df",
+  "app_sha256": "0bf506caa0746689e635993aae299fb8084f0fa29f23a8df3a6622f4e34cfd04",
+  "same_version_reinstalled": true,
+  "boot_before": "CAM-211ec7045815bf02-a0571992",
+  "boot_after": "CAM-211ec7045815bf02-d5764013",
+  "installation": {
+    "time": "2026-10-15 15:49:54",
+    "installation": "PASS",
+    "backup": "/opt/instrument/backups/bundle-20261015T074949Z-1038",
+    "backup_sha256": "deb0e7546ec258cd3f2f6b629fc5a33e294df3a94fe40f4cb1a7cfca50635645"
+  },
+  "verification": {
+    "phase": "idle",
+    "wifi_state": "available",
+    "paired_host_id": "",
+    "gate_enabled": false,
+    "audio_busy": false,
+    "diagnostics_active": false,
+    "camera_fault": false,
+    "capture_id": "",
+    "uploading_capture_id": ""
+  },
+  "version_hashes_services_config_pair_wifi_checks": "PASS",
+  "unit_tests": {
+    "count": 16,
+    "result": "PASS"
+  },
+  "packaged_cli": [
+    {
+      "check": "discover",
+      "exit_code": 0,
+      "expected": 0,
+      "devices": [
+        {
+          "device_id": "CAM-211ec7045815bf02",
+          "address": "192.168.101.7"
+        }
+      ]
+    },
+    {
+      "check": "conflicting_actions",
+      "exit_code": 2,
+      "expected": 2
+    },
+    {
+      "check": "missing_identity",
+      "exit_code": 2,
+      "expected": 2
+    }
+  ],
+  "files": {
+    "flash_tool.py": {
+      "sha256": "5dcdbacfe31bbbb3f4e8d7a359e711431e72d38979e1f8ebcb635dd1db8c1f2d",
+      "size": 43598
+    },
+    "test_flash_tool.py": {
+      "sha256": "075fbcf1de35223928c435db74fd284d4b92682f7699e22e18e5961560498bd3",
+      "size": 8929
+    },
+    "test_wifi_flash.py": {
+      "sha256": "b1391074f15b189a9d3316a89c968b80adc76af6d07eaa29e58d7d87b2115fc6",
+      "size": 10151
+    },
+    "build.ps1": {
+      "sha256": "5b111e5e13115a1817721e650c898469c63eceb50c7c8e7361ac37b42706a6db",
+      "size": 1451
+    },
+    "release/下位机一键烧录.exe": {
+      "sha256": "4809937be9194ddb83776a8dab244598565d8ec473c78523e72bb85f2d2640fa",
+      "size": 23206476
+    },
+    "release/下位机烧录CLI.exe": {
+      "sha256": "590eba3538b2321dc776c5f86c628d7e7942d7bfcf1adf62c08f6dac47279a6c",
+      "size": 23210131
+    },
+    "release/回退/下位机一键烧录-1.1.1-20261015-before-wifi.exe": {
+      "sha256": "342a5628fade9aefd0f47cd17fd109f465b064953d9b6243ee4d92e0bb52f80c",
+      "size": 15831797
+    }
+  },
+  "source_install_record": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\记录\\20261015-154933-211ec7045815bf02-394660",
+  "packaged_check_record": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\release\\记录\\20261015-155351-211ec7045815bf02-a14221",
+  "packaged_install_record": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\release\\记录\\20261015-155401-211ec7045815bf02-e489b1",
+  "boundaries": [
+    "No new physical capture, button/speaker/backlight acceptance or cold-power test",
+    "USB hardware regression not repeated; nine existing USB/package/GUI unit checks pass",
+    "First SSH connection uses live identity cross-check plus trust-on-first-use, subsequent keys are pinned"
+  ]
+}

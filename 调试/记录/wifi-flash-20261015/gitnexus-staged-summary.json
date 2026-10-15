@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "changed_count": 49,
+    "affected_count": 9,
+    "changed_files": 7,
+    "risk_level": "high"
+  },
+  "affected_processes": [
+    {
+      "id": "proc_1_adb",
+      "name": "Adb → Record",
+      "process_type": "cross_community",
+      "step_count": 6,
+      "changed_steps": [
+        {
+          "symbol": "close",
+          "step": 4
+        },
+        {
+          "symbol": "adb",
+          "step": 1
+        },
+        {
+          "symbol": "execute",
+          "step": 2
+        },
+        {
+          "symbol": "connect",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_7_work",
+      "name": "Work → Record",
+      "process_type": "intra_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "work",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_8_work",
+      "name": "Work → Command",
+      "process_type": "intra_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "work",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_9_work",
+      "name": "Work → Adb_path",
+      "process_type": "intra_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "work",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_10_preflight",
+      "name": "Preflight → Record",
+      "process_type": "intra_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "preflight",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_11_preflight",
+      "name": "Preflight → Command",
+      "process_type": "intra_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "preflight",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_12_preflight",
+      "name": "Preflight → Adb_path",
+      "process_type": "intra_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "preflight",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_43_work",
+      "name": "Work → Wifi_saved",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "work",
+          "step": 1
+        },
+        {
+          "symbol": "wifi_devices",
+          "step": 2
+        },
+        {
+          "symbol": "wifi_saved",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_44_work",
+      "name": "Work → Wifi_exchange",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "work",
+          "step": 1
+        },
+        {
+          "symbol": "wifi_devices",
+          "step": 2
+        },
+        {
+          "symbol": "wifi_exchange",
+          "step": 3
+        }
+      ]
+    }
+  ],
+  "changed_files": [
+    "调试/工具/一键烧录/README.md",
+    "调试/工具/一键烧录/RELEASE.md",
+    "调试/工具/一键烧录/flash_tool.py",
+    "调试/工具/一键烧录/test_flash_tool.py",
+    "调试/工具/一键烧录/test_wifi_flash.py"
+  ],
+  "note": "Reviewed: tool/GUI/CLI/test/documentation only. Existing Installer USB implementation unchanged. 16 tests and live Wi-Fi install/reboot verification passed."
+}
