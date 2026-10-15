@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-15",
+  "status": "development_build_not_deployed",
+  "source_base": {
+    "flutter": "01db0daea6f0fd9f0bc240231e549112558d18fd",
+    "firmware": "be5777f5dab40cd00d6f51c124e81a74318535f1"
+  },
+  "tests": {
+    "flutter_full": 142,
+    "flutter_final_targeted": 9,
+    "flutter_lib_test_analysis": "No issues found",
+    "ui_fixture_render": "passed; anonymous data; not real hardware",
+    "firmware": [
+      "test_diagnostics_health.py",
+      "test_backlight.py",
+      "test_diagnostics_backlight.py",
+      "test_stability_runtime.py",
+      "test_button_sampling_isolation.py",
+      "test_event_scan_latency.py"
+    ],
+    "firmware_arm_build": "passed -Wall -Wextra -Werror",
+    "windows_release_build": "passed"
+  },
+  "artifacts": {
+    "flutter_release": "D:/code/Scoliosis/ScoliosisFlutter/build/windows/x64/runner/Release",
+    "app_so_sha256": "708D786CA79B2DE3D81C33E729193E84923AE114DED783140E242E37861020A3",
+    "exe_sha256": "E4E0784A844396760A91F620A5D8DCA32C3D1F5F6D12FA335A9B82B475E95B1B",
+    "firmware_binary": "Luckfox-Ubuntu-22.04:/home/guanjx/luckfox/Scoliosis/instrument_app",
+    "firmware_sha256": "1cc44fc65491251da377a05e278a767f3bc3784df60e48ddd1a47b1f9e8dd9e4"
+  },
+  "limitations": [
+    "No board flashed or services restarted",
+    "No live hardware disconnect or optical acceptance",
+    "Sensor driver registration is not proof of current physical connection or working frames",
+    "Backlight lamp has no presence feedback; GPIO/PWM readback is control-only",
+    "No formal version bump, package, tag or installer; existing releases preserved",
+    "Whole-workspace flutter analyze sees pre-existing build fixtures/tool import issues; final lib/test analyze clean",
+    "Firmware GitNexus uses hash-verified read-only temporary snapshot; snapshot AGENTS differences and adjacent symbol hunk mapping are not real firmware source changes"
+  ],
+  "audit": {
+    "flutter": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"summary\": {\n    \"changed_count\": 6,\n    \"affected_count\": 0,\n    \"changed_files\": 3,\n    \"risk_level\": \"low\"\n  },\n  \"changed_symbols\": [\n    {\n      \"id\": \"Class:lib/app/app_controller.dart:AppController\",\n      \"name\": \"AppController\",\n      \"filePath\": \"lib/app/app_controller.dart\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Property:lib/app/app_controller.dart:AppController.diagnosticsHealthReceivedAt\",\n      \"name\": \"diagnosticsHealthReceivedAt\",\n      \"filePath\": \"lib/app/app_controller.dart\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Property:lib/app/app_controller.dart:AppController.diagnosticsError\",\n      \"name\": \"diagnosticsError\",\n      \"filePath\": \"lib/app/app_controller.dart\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Property:lib/app/app_controller.dart:AppController._speaker\",\n      \"name\": \"_speaker\",\n      \"filePath\": \"lib/app/app_controller.dart\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Property:lib/ui/diagnostics_dialog.dart:_DiagnosticsState.lastFrameAt\",\n      \"name\": \"lastFrameAt\",\n      \"filePath\": \"lib/ui/diagnostics_dialog.dart\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Class:lib/ui/diagnostics_dialog.dart:_DiagnosticsState\",\n      \"name\": \"_DiagnosticsState\",\n      \"filePath\": \"lib/ui/diagnostics_dialog.dart\",\n      \"change_type\": \"touched\"\n    }\n  ],\n  \"affected_processes\": []\n}\n\n---\n**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/ScoliosisFlutter/process/{name} for full execution traces."
+          }
+        ]
+      }
+    },
+    "firmware": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"summary\": {\n    \"changed_count\": 13,\n    \"affected_count\": 7,\n    \"changed_files\": 7,\n    \"risk_level\": \"high\"\n  },\n  \"changed_symbols\": [\n    {\n      \"id\": \"Section:AGENTS.md:L2:GitNexus — Code Intelligence\",\n      \"name\": \"GitNexus — Code Intelligence\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:AGENTS.md:L8:Always Do\",\n      \"name\": \"Always Do\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:AGENTS.md:L17:Never Do\",\n      \"name\": \"Never Do\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:AGENTS.md:L24:Resources\",\n      \"name\": \"Resources\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:AGENTS.md:L33:CLI\",\n      \"name\": \"CLI\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Function:include/platform.h:platform_backlight_health\",\n      \"name\": \"platform_backlight_health\",\n      \"filePath\": \"include/platform.h\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Function:include/platform.h:platform_button_raw\",\n      \"name\": \"platform_button_raw\",\n      \"filePath\": \"include/platform.h\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Function:src/app/runtime_v3.c:diagnostics_health_reply~shape:Runtime:none:pointer:1|cJSON:none:pointer:1|uint64_t:none:value:0\",\n      \"name\": \"diagnostics_health_reply\",\n      \"filePath\": \"src/app/runtime_v3.c\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Function:src/app/runtime_v3.c:receive_udp~shape:Runtime:none:pointer:1|uint64_t:none:value:0\",\n      \"name\": \"receive_udp\",\n      \"filePath\": \"src/app/runtime_v3.c\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Function:src/app/runtime_v3.c:diagnostics_tick~shape:Runtime:none:pointer:1|uint64_t:none:value:0\",\n      \"name\": \"diagnostics_tick\",\n      \"filePath\": \"src/app/runtime_v3.c\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Struct:src/app/runtime_v3.c:Runtime\",\n      \"name\": \"Runtime\",\n      \"filePath\": \"src/app/runtime_v3.c\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Function:src/platform/light_test.c:platform_backlight_health\",\n      \"name\": \"platform_backlight_health\",\n      \"filePath\": \"src/platform/light_test.c\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Function:src/platform/light_test.c:platform_backlight_set\",\n      \"name\": \"platform_backlight_set\",\n      \"filePath\": \"src/platform/light_test.c\",\n      \"change_type\": \"touched\"\n    }\n  ],\n  \"affected_processes\": [\n    {\n      \"id\": \"proc_0_diagnostics_tick\",\n      \"name\": \"Diagnostics_tick → Read_all\",\n      \"process_type\": \"cross_community\",\n      \"step_count\": 6,\n      \"changed_steps\": [\n        {\n          \"symbol\": \"diagnostics_tick\",\n          \"step\": 1\n        }\n      ]\n    },\n    {\n      \"id\": \"proc_1_diagnostics_tick\",\n      \"name\": \"Diagnostics_tick → Write_all\",\n      \"process_type\": \"cross_community\",\n      \"step_count\": 6,\n      \"changed_steps\": [\n        {\n          \"symbol\": \"diagnostics_tick\",\n          \"step\": 1\n        }\n      ]\n    },\n    {\n      \"id\": \"proc_9_platform_backlight_s\",\n      \"name\": \"Platform_backlight_set → Put\",\n      \"process_type\": \"intra_community\",\n      \"step_count\": 5,\n      \"changed_steps\": [\n        {\n          \"symbol\": \"platform_backlight_set\",\n          \"step\": 1\n        }\n      ]\n    },\n    {\n      \"id\": \"proc_38_platform_backlight_s\",\n      \"name\": \"Platform_backlight_set → Pwm_overlay\",\n      \"process_type\": \"intra_community\",\n      \"step_count\": 4,\n      \"changed_steps\": [\n        {\n          \"symbol\": \"platform_backlight_set\",\n          \"step\": 1\n        }\n      ]\n    },\n    {\n      \"id\": \"proc_39_platform_backlight_s\",\n      \"name\": \"Platform_backlight_set → Sysroot\",\n      \"process_type\": \"intra_community\",\n      \"step_count\": 4,\n      \"changed_steps\": [\n        {\n          \"symbol\": \"platform_backlight_set\",\n          \"step\": 1\n        }\n      ]\n    },\n    {\n      \"id\": \"proc_59_diagnostics_tick\",\n      \"name\": \"Diagnostics_tick → V3_now\",\n      \"process_type\": \"cross_community\",\n      \"step_count\": 3,\n      \"changed_steps\": [\n        {\n          \"symbol\": \"diagnostics_tick\",\n          \"step\": 1\n        }\n      ]\n    },\n    {\n      \"id\": \"proc_60_diagnostics_tick\",\n      \"name\": \"Diagnostics_tick → Read_name\",\n      \"process_type\": \"intra_community\",\n      \"step_count\": 3,\n      \"changed_steps\": [\n        {\n          \"symbol\": \"diagnostics_tick\",\n          \"step\": 1\n        }\n      ]\n    }\n  ]\n}\n\n---\n**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/firmware-backlight-20261013/process/{name} for full execution traces."
+          }
+        ]
+      }
+    }
+  },
+  "final_target_output": "00:03 +4: loading D:/code/Scoliosis/ScoliosisFlutter/test/diagnostics_layout_test.dart\n00:03 +4: D:/code/Scoliosis/ScoliosisFlutter/test/diagnostics_layout_test.dart: diagnostics brightness and preview fit Size(1280.0, 720.0)\n00:04 +5: D:/code/Scoliosis/ScoliosisFlutter/test/diagnostics_layout_test.dart: diagnostics brightness and preview fit Size(900.0, 600.0)\n00:04 +6: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart\n00:05 +6: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: pending grants exclude short, old success below 3s and failed files; diagnostics uses confirmed brightness\n00:05 +7: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: HTTP completion requires three seconds for success\n00:05 +8: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: UTC capture time displays UTC+8 once, including midnight\n00:05 +9: All tests passed!\nAnalyzing lib, test...\nNo issues found!\n",
+  "final_build_output": "   42.3s\n√ Built build\\windows\\x64\\runner\\Release\\scoliosis_flutter.exe\n"
+}
