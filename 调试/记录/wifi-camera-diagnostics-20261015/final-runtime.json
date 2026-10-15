@@ -1,0 +1,10 @@
+{
+  "serial": "211ec7045815bf02",
+  "address": "192.168.101.7",
+  "version": "3.3.13",
+  "app_sha256": "a9adcfc4bf5ddccc0ed50445f4513d6e34af77fc0ab1f92ec8b5d4382bb003d5",
+  "kernel_boot": "889978ab-fc68-4fbb-b6c6-8a37063b67a4",
+  "no_test_input": true,
+  "old_videos": "-rw-r--r--    1 root     root       4595244 Oct 15 15:57 /userdata/video0/20261015155710.mp4\n-rw-r--r--    1 root     root       3299309 Oct 15 15:57 /userdata/video0/20261015155735.mp4\n-rw-r--r--    1 root     root       3712265 Oct 15 16:04 /userdata/video0/20261015160436.mp4\n",
+  "recent_diagnostic_entries": ""
+}

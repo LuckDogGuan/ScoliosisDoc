@@ -1,0 +1,21 @@
+{
+  "flutter": {
+    "branch": "main",
+    "source": "f9587766db7c280cbbdc4284c83aac08affc64f6",
+    "acceptance_tool": "0a57ca74f5453dbb492c4638831cc6ff8fca50ad",
+    "release": "00f015195b72eb0b7aac75484184be8b23f4154a",
+    "tag": "windows-v3.3.17"
+  },
+  "firmware": {
+    "source": "96528cabe077b9cd46310cbb388972e405de8043",
+    "release": "1f76dcf",
+    "tag": "instrument-v3.3.13",
+    "owner": "WSL Luckfox-Ubuntu-22.04:/home/guanjx/luckfox/Scoliosis"
+  },
+  "windows_tools": {
+    "wifi_helper": "91eb756a3e4eadc5937534fdab13a4200e51d0c8",
+    "preflight_baseline": "fe89a91722d7271a220dd5b4cdec1b5048edd8ca",
+    "acceptance_record": "git log -- 调试/记录/wifi-camera-diagnostics-20261015/README.md"
+  },
+  "pushed": false
+}

@@ -1,0 +1,112 @@
+{
+  "status": "LIVE_WIFI_PASSED",
+  "checked_at": "2026-10-15T09:07:27.507270+00:00",
+  "device": "CAM-211ec7045815bf02",
+  "address": "192.168.101.7",
+  "adb_used": false,
+  "windows": {
+    "version": "3.3.17+20261015",
+    "source_commit": "f9587766db7c280cbbdc4284c83aac08affc64f6",
+    "archive_sha256": "90edeaa0819e3c288697976a8d67f22a6432f6f706b90d5f334f489822fa1a7e",
+    "installer_sha256": "6c21123df8bd5fea9a6029407582e9445794d02e3d1400b157dfbbf669121483",
+    "release_commit": "00f0151",
+    "tag": "windows-v3.3.17",
+    "native_window_pid": 59820
+  },
+  "firmware": {
+    "version": "3.3.13",
+    "source_commit": "96528cabe077b9cd46310cbb388972e405de8043",
+    "release_commit": "1f76dcf",
+    "tag": "instrument-v3.3.13",
+    "package_sha256": "e8ab0f6efac64d289bec37130db4cbc36ac0446b1fdd83c0cc26bb75b2465bfa",
+    "app_sha256": "a9adcfc4bf5ddccc0ed50445f4513d6e34af77fc0ab1f92ec8b5d4382bb003d5",
+    "camera_mount": "/",
+    "normal_input_restored": true
+  },
+  "tests": {
+    "flutter_full_count": 152,
+    "subsequent_targeted_count": 16,
+    "analysis": "No issues found",
+    "firmware_arm": "-Wall -Wextra -Werror passed",
+    "firmware_scripts": [
+      "test_diagnostics_health.py",
+      "test_camera_diagnostic_result.py",
+      "test_diagnostics_backlight.py",
+      "test_startup_camera_recovery.py",
+      "test_button_sampling_isolation.py",
+      "test_stability_runtime.py",
+      "test_event_scan_latency.py",
+      "test_capture_minimum.py"
+    ]
+  },
+  "preview": {
+    "first_frame_ms": 568,
+    "seconds": 30.252,
+    "decoded_frames": 30
+  },
+  "captures_before_reboot": [
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792054543251772-3051355594",
+      "student_id": "wifi-camera-1",
+      "duration_ms": 5103,
+      "bytes": 2182887,
+      "sha256": "6c3ed9bd8db24135891d4ebd895a3c7e5bdcc329ff46feeec6f7be3730d2e26f",
+      "decoded_frames": 130
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792054553890156-4261290841",
+      "student_id": "wifi-camera-2",
+      "duration_ms": 5355,
+      "bytes": 2284017,
+      "sha256": "62c2a52e6ad8d90f6cf303f3353f1183ddf08fe4413e222f2fd82e2f1917300b",
+      "decoded_frames": 138
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792054571825732-3932145870",
+      "student_id": "wifi-camera-3",
+      "duration_ms": 6327,
+      "bytes": 2680084,
+      "sha256": "99280263d6d969d77df911b172a401d9342c0d22f906a8afb3d31a18a3ffaaa4",
+      "decoded_frames": 160
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792054591612049-2384922860",
+      "student_id": "wifi-camera-4",
+      "duration_ms": 7647,
+      "bytes": 3255476,
+      "sha256": "0cc027ba6aab063cf0e23e504e68a2263f6fec95d8176b2531728aeee3964fa4",
+      "decoded_frames": 196
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792054612945402-1640552209",
+      "student_id": "wifi-camera-5",
+      "duration_ms": 9686,
+      "bytes": 4253087,
+      "sha256": "c6fc1e8bc16812830dbf0d2dc18f6affa37d7adac47674d241dc1ebc6cad93c1",
+      "decoded_frames": 256
+    }
+  ],
+  "reboot": {
+    "kernel_boot_before": "edfc7bf3-30d4-4c09-b315-080aa1c10511",
+    "kernel_boot_after": "889978ab-fc68-4fbb-b6c6-8a37063b67a4",
+    "normal_startup_preview_frames": 10,
+    "extra_capture_ms": 4661
+  },
+  "cleanup": {
+    "branch": "main",
+    "registered_worktrees": 1,
+    "removed_worktrees": [
+      "scoliosis-3312-build-20261014",
+      "scoliosis-3313-build-20261014"
+    ],
+    "residual_empty_directory": "C:\\Users\\31186\\AppData\\Local\\Temp\\scoliosis-3312-build-20261014",
+    "residual_empty_directory_exists": true,
+    "automatic_approval_rejected_combined_cleanup": true
+  },
+  "limitations": [
+    "Capture keys were automatically injected through existing dedicated test input",
+    "No manual physical key/speaker acceptance",
+    "Software reboot passed; no power-loss cold boot acceptance",
+    "Native app launched; mouse-driven UI retest pending"
+  ]
+}

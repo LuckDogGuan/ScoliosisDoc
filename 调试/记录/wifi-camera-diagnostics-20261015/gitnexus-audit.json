@@ -1,0 +1,641 @@
+{
+  "initial": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "ScoliosisFlutter",
+          "branch": "codex/capture-stability-20261013",
+          "target": "beginDiagnostics"
+        },
+        "result": {
+          "status": "ambiguous",
+          "message": "Found 3 symbols matching 'beginDiagnostics'. Blast radius differs per candidate (max 8 impacted at risk MEDIUM). Disambiguate with target_uid (or file_path/kind) for a single authoritative result.",
+          "target": {
+            "name": "beginDiagnostics"
+          },
+          "direction": "upstream",
+          "totalCandidates": 3,
+          "impactedCount": 0,
+          "risk": "UNKNOWN",
+          "maxImpactedCount": 8,
+          "maxRisk": "MEDIUM",
+          "candidates": [
+            {
+              "uid": "Method:lib/app/app_controller.dart:AppController.beginDiagnostics#1",
+              "name": "beginDiagnostics",
+              "kind": "Method",
+              "filePath": "lib/app/app_controller.dart",
+              "line": 1716,
+              "score": 0.54,
+              "impactedCount": 8,
+              "risk": "MEDIUM",
+              "direct": 5
+            },
+            {
+              "uid": "Method:test/diagnostics_layout_test.dart:DiagnosticController.beginDiagnostics#1",
+              "name": "beginDiagnostics",
+              "kind": "Method",
+              "filePath": "test/diagnostics_layout_test.dart",
+              "line": 9,
+              "score": 0.54,
+              "impactedCount": 0,
+              "risk": "LOW",
+              "direct": 0
+            },
+            {
+              "uid": "Method:test/diagnostics_default_keys_test.dart:IdleDiagnostics.beginDiagnostics#1",
+              "name": "beginDiagnostics",
+              "kind": "Method",
+              "filePath": "test/diagnostics_default_keys_test.dart",
+              "line": 9,
+              "score": 0.54,
+              "impactedCount": 0,
+              "risk": "LOW",
+              "direct": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "ScoliosisFlutter",
+          "branch": "codex/capture-stability-20261013",
+          "target": "pollDiagnostics"
+        },
+        "result": {
+          "status": "ambiguous",
+          "message": "Found 3 symbols matching 'pollDiagnostics'. Blast radius differs per candidate (max 6 impacted at risk LOW). Disambiguate with target_uid (or file_path/kind) for a single authoritative result.",
+          "target": {
+            "name": "pollDiagnostics"
+          },
+          "direction": "upstream",
+          "totalCandidates": 3,
+          "impactedCount": 0,
+          "risk": "UNKNOWN",
+          "maxImpactedCount": 6,
+          "maxRisk": "LOW",
+          "candidates": [
+            {
+              "uid": "Method:lib/app/app_controller.dart:AppController.pollDiagnostics#0",
+              "name": "pollDiagnostics",
+              "kind": "Method",
+              "filePath": "lib/app/app_controller.dart",
+              "line": 1762,
+              "score": 0.54,
+              "impactedCount": 6,
+              "risk": "LOW",
+              "direct": 4
+            },
+            {
+              "uid": "Method:test/diagnostics_layout_test.dart:DiagnosticController.pollDiagnostics#0",
+              "name": "pollDiagnostics",
+              "kind": "Method",
+              "filePath": "test/diagnostics_layout_test.dart",
+              "line": 16,
+              "score": 0.54,
+              "impactedCount": 0,
+              "risk": "LOW",
+              "direct": 0
+            },
+            {
+              "uid": "Method:test/diagnostics_default_keys_test.dart:IdleDiagnostics.pollDiagnostics#0",
+              "name": "pollDiagnostics",
+              "kind": "Method",
+              "filePath": "test/diagnostics_default_keys_test.dart",
+              "line": 15,
+              "score": 0.54,
+              "impactedCount": 0,
+              "risk": "LOW",
+              "direct": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "ScoliosisFlutter",
+          "branch": "codex/capture-stability-20261013",
+          "target": "endDiagnostics"
+        },
+        "result": {
+          "status": "ambiguous",
+          "message": "Found 3 symbols matching 'endDiagnostics'. Blast radius differs per candidate (max 8 impacted at risk MEDIUM). Disambiguate with target_uid (or file_path/kind) for a single authoritative result.",
+          "target": {
+            "name": "endDiagnostics"
+          },
+          "direction": "upstream",
+          "totalCandidates": 3,
+          "impactedCount": 0,
+          "risk": "UNKNOWN",
+          "maxImpactedCount": 8,
+          "maxRisk": "MEDIUM",
+          "candidates": [
+            {
+              "uid": "Method:lib/app/app_controller.dart:AppController.endDiagnostics#0",
+              "name": "endDiagnostics",
+              "kind": "Method",
+              "filePath": "lib/app/app_controller.dart",
+              "line": 1825,
+              "score": 0.54,
+              "impactedCount": 8,
+              "risk": "MEDIUM",
+              "direct": 5
+            },
+            {
+              "uid": "Method:test/diagnostics_layout_test.dart:DiagnosticController.endDiagnostics#0",
+              "name": "endDiagnostics",
+              "kind": "Method",
+              "filePath": "test/diagnostics_layout_test.dart",
+              "line": 18,
+              "score": 0.54,
+              "impactedCount": 0,
+              "risk": "LOW",
+              "direct": 0
+            },
+            {
+              "uid": "Method:test/diagnostics_default_keys_test.dart:IdleDiagnostics.endDiagnostics#0",
+              "name": "endDiagnostics",
+              "kind": "Method",
+              "filePath": "test/diagnostics_default_keys_test.dart",
+              "line": 17,
+              "score": 0.54,
+              "impactedCount": 0,
+              "risk": "LOW",
+              "direct": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "ScoliosisFlutter",
+          "branch": "codex/capture-stability-20261013",
+          "target": "DiagnosticsHealthPanel"
+        },
+        "result": {
+          "target": {
+            "id": "Class:lib/ui/diagnostics_health_panel.dart:DiagnosticsHealthPanel",
+            "name": "DiagnosticsHealthPanel",
+            "type": "Class",
+            "filePath": "lib/ui/diagnostics_health_panel.dart"
+          },
+          "direction": "upstream",
+          "impactedCount": 12,
+          "risk": "LOW",
+          "epistemic": "exact",
+          "summary": {
+            "direct": 4,
+            "processes_affected": 1,
+            "modules_affected": 1
+          },
+          "byDepthCounts": {
+            "1": 4,
+            "2": 3,
+            "3": 5
+          },
+          "affected_processes": [
+            {
+              "name": "main",
+              "type": "Function",
+              "filePath": "test/diagnostics_health_test.dart",
+              "affected_process_count": 4,
+              "total_hits": 4,
+              "earliest_broken_step": 1
+            }
+          ],
+          "affected_modules": [
+            {
+              "name": "App",
+              "hits": 2,
+              "impact": "direct"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "ScoliosisFlutter",
+          "branch": "codex/capture-stability-20261013",
+          "target": "_DiagnosticsState"
+        },
+        "result": {
+          "target": {
+            "id": "Class:lib/ui/diagnostics_dialog.dart:_DiagnosticsState",
+            "name": "_DiagnosticsState",
+            "type": "Class",
+            "filePath": "lib/ui/diagnostics_dialog.dart"
+          },
+          "direction": "upstream",
+          "impactedCount": 12,
+          "risk": "LOW",
+          "epistemic": "exact",
+          "summary": {
+            "direct": 3,
+            "processes_affected": 0,
+            "modules_affected": 0
+          },
+          "byDepthCounts": {
+            "1": 3,
+            "2": 5,
+            "3": 4
+          },
+          "affected_processes": [],
+          "affected_modules": []
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "firmware-backlight-20261013",
+          "target": "camera_diagnostic_frame",
+          "file_path": "src/platform/luckfox_camera.c"
+        },
+        "result": {
+          "target": {
+            "id": "Function:src/platform/luckfox_camera.c:camera_diagnostic_frame~shape:Config:const:pointer:1|char:const:pointer:1",
+            "name": "camera_diagnostic_frame",
+            "type": "Function",
+            "filePath": "src/platform/luckfox_camera.c"
+          },
+          "direction": "upstream",
+          "impactedCount": 3,
+          "risk": "HIGH",
+          "epistemic": "exact",
+          "summary": {
+            "direct": 1,
+            "processes_affected": 2,
+            "modules_affected": 3
+          },
+          "byDepthCounts": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "affected_processes": [
+            {
+              "name": "diagnostics_tick",
+              "type": "Function",
+              "filePath": "src/app/runtime_v3.c",
+              "affected_process_count": 4,
+              "total_hits": 4,
+              "earliest_broken_step": 1
+            },
+            {
+              "name": "main",
+              "type": "Function",
+              "filePath": "src/app/app_controller.c",
+              "affected_process_count": 2,
+              "total_hits": 2,
+              "earliest_broken_step": 1
+            }
+          ],
+          "affected_modules": [
+            {
+              "name": "Config",
+              "hits": 1,
+              "impact": "indirect"
+            },
+            {
+              "name": "Platform",
+              "hits": 1,
+              "impact": "direct"
+            },
+            {
+              "name": "App",
+              "hits": 1,
+              "impact": "indirect"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "firmware-backlight-20261013",
+          "target": "camera_diagnostic_health",
+          "file_path": "src/platform/diagnostics_health.c"
+        },
+        "result": {
+          "target": {
+            "id": "Function:src/platform/diagnostics_health.c:camera_diagnostic_health",
+            "name": "camera_diagnostic_health",
+            "type": "Function",
+            "filePath": "src/platform/diagnostics_health.c"
+          },
+          "direction": "upstream",
+          "impactedCount": 3,
+          "risk": "HIGH",
+          "epistemic": "exact",
+          "summary": {
+            "direct": 1,
+            "processes_affected": 2,
+            "modules_affected": 3
+          },
+          "byDepthCounts": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "affected_processes": [
+            {
+              "name": "diagnostics_tick",
+              "type": "Function",
+              "filePath": "src/app/runtime_v3.c",
+              "affected_process_count": 4,
+              "total_hits": 4,
+              "earliest_broken_step": 1
+            },
+            {
+              "name": "main",
+              "type": "Function",
+              "filePath": "src/app/app_controller.c",
+              "affected_process_count": 2,
+              "total_hits": 2,
+              "earliest_broken_step": 1
+            }
+          ],
+          "affected_modules": [
+            {
+              "name": "App",
+              "hits": 1,
+              "impact": "indirect"
+            },
+            {
+              "name": "Platform",
+              "hits": 1,
+              "impact": "direct"
+            },
+            {
+              "name": "Config",
+              "hits": 1,
+              "impact": "indirect"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "firmware-backlight-20261013",
+          "target": "http_diagnostic_frame",
+          "file_path": "src/middleware/upload.c"
+        },
+        "result": {
+          "target": {
+            "id": "Function:src/middleware/upload.c:http_diagnostic_frame~shape:Config:const:pointer:1|char:const:pointer:1|char:const:pointer:1",
+            "name": "http_diagnostic_frame",
+            "type": "Function",
+            "filePath": "src/middleware/upload.c"
+          },
+          "direction": "upstream",
+          "impactedCount": 3,
+          "risk": "LOW",
+          "epistemic": "exact",
+          "summary": {
+            "direct": 1,
+            "processes_affected": 2,
+            "modules_affected": 2
+          },
+          "byDepthCounts": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "affected_processes": [
+            {
+              "name": "camera_diagnostic_frame",
+              "type": "Function",
+              "filePath": "src/platform/luckfox_camera.c",
+              "affected_process_count": 4,
+              "total_hits": 4,
+              "earliest_broken_step": 1
+            },
+            {
+              "name": "diagnostics_tick",
+              "type": "Function",
+              "filePath": "src/app/runtime_v3.c",
+              "affected_process_count": 4,
+              "total_hits": 4,
+              "earliest_broken_step": 1
+            }
+          ],
+          "affected_modules": [
+            {
+              "name": "Platform",
+              "hits": 2,
+              "impact": "direct"
+            },
+            {
+              "name": "App",
+              "hits": 1,
+              "impact": "indirect"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "firmware-backlight-20261013",
+          "target": "diagnostics_health_reply",
+          "file_path": "src/app/runtime_v3.c"
+        },
+        "result": {
+          "target": {
+            "id": "Function:src/app/runtime_v3.c:diagnostics_health_reply~shape:Runtime:none:pointer:1|cJSON:none:pointer:1|uint64_t:none:value:0",
+            "name": "diagnostics_health_reply",
+            "type": "Function",
+            "filePath": "src/app/runtime_v3.c"
+          },
+          "direction": "upstream",
+          "impactedCount": 3,
+          "risk": "LOW",
+          "epistemic": "exact",
+          "summary": {
+            "direct": 1,
+            "processes_affected": 1,
+            "modules_affected": 2
+          },
+          "byDepthCounts": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "affected_processes": [
+            {
+              "name": "main",
+              "type": "Function",
+              "filePath": "src/app/app_controller.c",
+              "affected_process_count": 2,
+              "total_hits": 2,
+              "earliest_broken_step": 1
+            }
+          ],
+          "affected_modules": [
+            {
+              "name": "App",
+              "hits": 2,
+              "impact": "direct"
+            },
+            {
+              "name": "Config",
+              "hits": 1,
+              "impact": "indirect"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "firmware-backlight-20261013",
+          "target": "diagnostics_tick",
+          "file_path": "src/app/runtime_v3.c"
+        },
+        "result": {
+          "target": {
+            "id": "Function:src/app/runtime_v3.c:diagnostics_tick~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+            "name": "diagnostics_tick",
+            "type": "Function",
+            "filePath": "src/app/runtime_v3.c"
+          },
+          "direction": "upstream",
+          "impactedCount": 2,
+          "risk": "LOW",
+          "epistemic": "exact",
+          "summary": {
+            "direct": 1,
+            "processes_affected": 1,
+            "modules_affected": 2
+          },
+          "byDepthCounts": {
+            "1": 1,
+            "2": 1
+          },
+          "affected_processes": [
+            {
+              "name": "main",
+              "type": "Function",
+              "filePath": "src/app/app_controller.c",
+              "affected_process_count": 2,
+              "total_hits": 2,
+              "earliest_broken_step": 1
+            }
+          ],
+          "affected_modules": [
+            {
+              "name": "App",
+              "hits": 1,
+              "impact": "direct"
+            },
+            {
+              "name": "Config",
+              "hits": 1,
+              "impact": "indirect"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "request": {
+          "repo": "firmware-backlight-20261013",
+          "target": "receive_udp",
+          "file_path": "src/app/runtime_v3.c"
+        },
+        "result": {
+          "target": {
+            "id": "Function:src/app/runtime_v3.c:receive_udp~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+            "name": "receive_udp",
+            "type": "Function",
+            "filePath": "src/app/runtime_v3.c"
+          },
+          "direction": "upstream",
+          "impactedCount": 2,
+          "risk": "LOW",
+          "epistemic": "exact",
+          "summary": {
+            "direct": 1,
+            "processes_affected": 1,
+            "modules_affected": 2
+          },
+          "byDepthCounts": {
+            "1": 1,
+            "2": 1
+          },
+          "affected_processes": [
+            {
+              "name": "main",
+              "type": "Function",
+              "filePath": "src/app/app_controller.c",
+              "affected_process_count": 2,
+              "total_hits": 2,
+              "earliest_broken_step": 1
+            }
+          ],
+          "affected_modules": [
+            {
+              "name": "App",
+              "hits": 1,
+              "impact": "direct"
+            },
+            {
+              "name": "Config",
+              "hits": 1,
+              "impact": "indirect"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "final": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"summary\": {\n    \"changed_count\": 0,\n    \"affected_count\": 0,\n    \"risk_level\": \"none\",\n    \"message\": \"No changes detected.\"\n  },\n  \"changed_symbols\": [],\n  \"affected_processes\": []\n}\n\n---\n**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/ScoliosisFlutter/process/{name} for full execution traces."
+          }
+        ]
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"summary\": {\n    \"changed_count\": 5,\n    \"affected_count\": 0,\n    \"changed_files\": 1,\n    \"risk_level\": \"low\"\n  },\n  \"changed_symbols\": [\n    {\n      \"id\": \"Section:AGENTS.md:L2:GitNexus — Code Intelligence\",\n      \"name\": \"GitNexus — Code Intelligence\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:AGENTS.md:L8:Always Do\",\n      \"name\": \"Always Do\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:AGENTS.md:L17:Never Do\",\n      \"name\": \"Never Do\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:AGENTS.md:L24:Resources\",\n      \"name\": \"Resources\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    },\n    {\n      \"id\": \"Section:AGENTS.md:L33:CLI\",\n      \"name\": \"CLI\",\n      \"filePath\": \"AGENTS.md\",\n      \"change_type\": \"touched\"\n    }\n  ],\n  \"affected_processes\": []\n}\n\n---\n**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/firmware-backlight-20261013/process/{name} for full execution traces."
+          }
+        ]
+      }
+    }
+  ]
+}

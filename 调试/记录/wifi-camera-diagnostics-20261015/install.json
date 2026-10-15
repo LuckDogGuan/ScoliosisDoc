@@ -1,0 +1,11 @@
+{
+  "result": "installed",
+  "version": "3.3.13",
+  "device": "CAM-211ec7045815bf02",
+  "address": "192.168.101.7",
+  "package_sha256": "e8ab0f6efac64d289bec37130db4cbc36ac0446b1fdd83c0cc26bb75b2465bfa",
+  "app_sha256": "a9adcfc4bf5ddccc0ed50445f4513d6e34af77fc0ab1f92ec8b5d4382bb003d5",
+  "backup": "/opt/instrument/backups/wifi-camera-20261015T084906",
+  "installer_output": "./BUILD.txt: OK\n./CHANGELOG.md: OK\n./README.txt: OK\n./SOURCE_SHA256SUMS: OK\n./VERSION: OK\n./config.example.json: OK\n./deploy/README.md: OK\n./deploy/RkLunch.sh: OK\n./deploy/S80instrument: OK\n./deploy/TZ: OK\n./deploy/install_bundle.sh: OK\n./deploy/wpa_supplicant.default.conf: OK\n./docs/light-test.md: OK\n./instrument_app: OK\n./luckfox_mux_adapter.so: OK\n./sounds/boot_ready.wav: OK\n./sounds/capture_disabled.wav: OK\n./sounds/capture_done.wav: OK\n./sounds/capture_enabled.wav: OK\n./sounds/capture_failed.wav: OK\n./sounds/capture_short.wav: OK\n./sounds/capture_start.wav: OK\n./sounds/pair_disconnected.wav: OK\n./sounds/pair_failed.wav: OK\n./sounds/pair_success.wav: OK\n./sounds/pair_window.wav: OK\n./sounds/pair_window_closed.wav: OK\n./sounds/please_connect.wav: OK\n./sounds/saved_on_device.wav: OK\n./sounds/stability-voice-manifest.json: OK\n./sounds/storage_low.wav: OK\n./sounds/uploaded.wav: OK\n./sounds/volume_test.wav: OK\n./sounds/wifi_attention.wav: OK\n./sounds/wifi_connected.wav: OK\n./sounds/wifi_disconnected.wav: OK\n./sounds/wifi_recovering.wav: OK\n./sounds/wifi_restored.wav: OK\nconfig OK\nRECORD=/opt/instrument/backups/bundle-20261015T084921Z-2037",
+  "adb_used": false
+}

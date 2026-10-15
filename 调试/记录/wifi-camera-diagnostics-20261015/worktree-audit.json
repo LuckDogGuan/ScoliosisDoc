@@ -1,0 +1,40 @@
+[
+  {
+    "path": "C:\\Users\\31186\\AppData\\Local\\Temp\\scoliosis-3312-build-20261014",
+    "resolved": "C:\\Users\\31186\\AppData\\Local\\Temp\\scoliosis-3312-build-20261014",
+    "staged_verified": [
+      "releases/windows-3.3.12-1e5ff97/ARCHIVE.json",
+      "releases/windows-3.3.12-1e5ff97/README.md",
+      "releases/windows-3.3.12-1e5ff97/SHA256SUMS",
+      "releases/windows-3.3.12-1e5ff97/Scoliosis-3.3.12-Setup.exe",
+      "releases/windows-3.3.12-1e5ff97/scoliosis-windows-3.3.12.zip"
+    ],
+    "ignored_roots": {
+      ".dart_tool": 35,
+      ".flutter-plugins-dependencies": 1,
+      "build": 1696,
+      "releases": 87,
+      "thirdPartyLibrary": 15,
+      "windows": 50
+    }
+  },
+  {
+    "path": "C:\\Users\\31186\\AppData\\Local\\Temp\\scoliosis-3313-build-20261014",
+    "resolved": "C:\\Users\\31186\\AppData\\Local\\Temp\\scoliosis-3313-build-20261014",
+    "staged_verified": [
+      "releases/windows-3.3.13-cda6687/ARCHIVE.json",
+      "releases/windows-3.3.13-cda6687/README.md",
+      "releases/windows-3.3.13-cda6687/SHA256SUMS",
+      "releases/windows-3.3.13-cda6687/Scoliosis-3.3.13-Setup.exe",
+      "releases/windows-3.3.13-cda6687/scoliosis-windows-3.3.13.zip"
+    ],
+    "ignored_roots": {
+      ".dart_tool": 35,
+      ".flutter-plugins-dependencies": 1,
+      "build": 1696,
+      "releases": 87,
+      "thirdPartyLibrary": 15,
+      "windows": 50
+    }
+  }
+]

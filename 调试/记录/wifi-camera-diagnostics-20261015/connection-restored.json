@@ -1,0 +1,9 @@
+{
+  "result": "original_pc_connection_restored",
+  "host_identity_unchanged": true,
+  "device": "CAM-211ec7045815bf02",
+  "txn_id": "pair-1792054511228552-3938583822",
+  "before_sha256": "ba7c172816c8b294e42337350ecf1d3a40b106a45ab271c7f3148480e86c971c",
+  "after_sha256": "313c39068bf2b927c7ea24cd03845baec0d9a49cd5d4ac07c37361c3d4e7dc6a",
+  "other_device_entries_preserved": true
+}
