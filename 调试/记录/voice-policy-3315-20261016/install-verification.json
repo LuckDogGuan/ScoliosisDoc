@@ -1,0 +1,83 @@
+{
+  "installation": {
+    "time": "2026-10-16 10:28:20",
+    "installation": "PASS",
+    "backup": "/opt/instrument/backups/bundle-20261016T022815Z-3758",
+    "backup_sha256": "8d9d2e4e84e6fc9a03a79dfb3d991485defd9089ef4e1a20049ebd6b63ecd1b0"
+  },
+  "verification": {
+    "time": "2026-10-16 10:28:49",
+    "verification": "PASS",
+    "state": {
+      "version": 3,
+      "op": "hello_reply",
+      "device_id": "CAM-211ec7045815bf02",
+      "host_id": "usb-flash-tool",
+      "boot_id": "CAM-211ec7045815bf02-74ebc70d",
+      "sequence": 0,
+      "nonce": "73cc898e189e42549d1b9b96a892fc76",
+      "ok": true,
+      "capabilities": [
+        "capture_gate",
+        "capture_prepare",
+        "capture_events",
+        "upload_grant",
+        "pair_transaction",
+        "volume_control",
+        "paired_discover",
+        "time_sync",
+        "diagnostics",
+        "capture_discard",
+        "backlight_brightness",
+        "speech_focus",
+        "speech_preempt",
+        "diagnostics_health_v1"
+      ],
+      "paired_host_id": "82cf4d132682a987d068c18f2bc0004f",
+      "volume": 20,
+      "saved_volume": 20,
+      "speech_focus_active": false,
+      "speech_preempted": false,
+      "audio_busy": false,
+      "audio_operation_id": "",
+      "audio_operation_result": 0,
+      "uploading_capture_id": "",
+      "peer_ip": "192.168.101.2",
+      "http_port": 8080,
+      "unpair_event_id": "",
+      "pair_window_remaining_ms": 0,
+      "phase": "idle",
+      "utc_ms": 1792117729026,
+      "diagnostics_active": false,
+      "wifi_state": "available",
+      "gate_enabled": false,
+      "lease_remaining_ms": 0,
+      "system_boot_id": "b2cee830-b2fb-4b7c-9386-22f1f262e3b9",
+      "application_pid": 162,
+      "camera_fault": false,
+      "capture_snapshot": {
+        "device_id": "CAM-211ec7045815bf02",
+        "boot_id": "CAM-211ec7045815bf02-74ebc70d",
+        "capture_id": "",
+        "gate_id": "",
+        "phase": "idle",
+        "started_at_ms": 0,
+        "elapsed_ms": 0
+      },
+      "gate_id": "",
+      "capture_id": "",
+      "control_sequence": 2300,
+      "snapshot_age_ms": 8663,
+      "metrics": {
+        "ssid": "MinMax-test",
+        "rssi_dbm": -28,
+        "storage_free_mb": 5484,
+        "storage_total_mb": 5946,
+        "memory_available_mb": 153,
+        "memory_total_mb": 180,
+        "pending_count": 0,
+        "battery": "absent"
+      }
+    }
+  }
+}

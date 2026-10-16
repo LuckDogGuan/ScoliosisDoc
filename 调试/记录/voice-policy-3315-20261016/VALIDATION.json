@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-16",
+  "device": "CAM-211ec7045815bf02",
+  "firmware": "3.3.15",
+  "build": "f13fdbe42bae",
+  "code_scope": "firmware only; PC source unchanged",
+  "change": "Remove global event-name suppression; retain eight-entry queue and asset validation.",
+  "host_tests": [
+    "test_startup_network_prompts.py (all 22 assets)",
+    "test_pair_capture_prompts.py (actual UDP)",
+    "test_capture_rhythm.py",
+    "test_boot_audio_isolation.py",
+    "test_capture_audio_failure.py",
+    "test_speech_focus.py",
+    "test_pair_lights.py"
+  ],
+  "regression_before_fix": "startup/assets blocked; actual pair_commit prompt assertion failed",
+  "regression_after_fix": "all seven suites passed",
+  "arm_build": "PASS -Wall -Wextra -Werror",
+  "install_transport": "pinned Wi-Fi/SSH; no USB ADB device present",
+  "install_verified": true,
+  "software_reboot_verified": true,
+  "configuration_pairing_wifi_preserved": true,
+  "voice_assets_and_volume_unchanged": true,
+  "actual_playback": {
+    "capture_enable": "capture_enabled.wav / success",
+    "capture_disable": "capture_disabled.wav / success",
+    "identical_retransmissions": 2,
+    "successful_playback_count": 2,
+    "no_duplicate_speech": true,
+    "no_recording_was_requested": true
+  },
+  "pairing_voice_validation": "Existing calls plus all-asset and real-UDP host regressions. Live business pairing deliberately preserved; no new live pair/unpair cycle.",
+  "final_state": {
+    "phase": "idle",
+    "gate_enabled": false,
+    "audio_busy": false,
+    "normal_gpio": true,
+    "paired_host": "82cf4d132682a987d068c18f2bc0004f",
+    "camera_path": "/video0",
+    "wifi_state": "available"
+  },
+  "camera": "RTSP read succeeded; this is a packet probe, not a new full capture/decode acceptance",
+  "limitations": [
+    "Physical speaker audibility requires on-site listening.",
+    "No cold power cycle or new five-capture acceptance in this event-queue-only change."
+  ],
+  "gitnexus": "queue_sound upstream HIGH / 10 direct callers, reported before edit. Staged report LOW omitted pure-deletion queue_sound hunk; manually reviewed actual shared-function diff and seven suites. Archive symbols are not covered; actual four release files and hashes checked."
+}
