@@ -2,7 +2,7 @@
 *.html text eol=lf
 *.json text eol=lf
 *.log text eol=lf
-*.csv -text
+*.csv -text whitespace=cr-at-eol
 *.png binary
 *.xlsx binary
 .gitattributes text eol=lf
