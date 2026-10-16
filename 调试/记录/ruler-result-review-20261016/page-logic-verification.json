@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "rows": 62,
+  "priority": 12,
+  "checks": [
+    "pending_null",
+    "confirm_existing_label",
+    "zero_preserved",
+    "unreadable_null",
+    "undo",
+    "empty_and_invalid_input",
+    "decimal_precision",
+    "navigation",
+    "storage_reload",
+    "storage_failure_export",
+    "corrupt_storage",
+    "json_export",
+    "csv_export",
+    "training_disabled"
+  ],
+  "browser_visual_check": "not_run_local_file_URL_blocked"
+}

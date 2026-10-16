@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "changed_count": 5,
+    "affected_count": 0,
+    "changed_files": 1,
+    "risk_level": "low"
+  },
+  "changed_symbols": [
+    {
+      "id": "Variable:调试/工具/ruler_result_review.py:PAGE",
+      "name": "PAGE",
+      "filePath": "调试/工具/ruler_result_review.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_result_review.py:digest",
+      "name": "digest",
+      "filePath": "调试/工具/ruler_result_review.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_result_review.py:write_json",
+      "name": "write_json",
+      "filePath": "调试/工具/ruler_result_review.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_result_review.py:preview",
+      "name": "preview",
+      "filePath": "调试/工具/ruler_result_review.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_result_review.py:main",
+      "name": "main",
+      "filePath": "调试/工具/ruler_result_review.py",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": []
+}
+
+---
+**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/Luckfox/process/{name} for full execution traces.

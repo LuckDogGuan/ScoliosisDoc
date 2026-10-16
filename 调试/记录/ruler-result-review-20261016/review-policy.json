@@ -1,0 +1,510 @@
+{
+  "schema": "ruler-result-review-policy-v1",
+  "created_at": "2026-10-16T06:46:36.691072+00:00",
+  "dataset_sha256": "27577260ecb3073d9160cfcec04bfc2afedf967306755633666b2f053ed318a8",
+  "secondary_training_enabled": false,
+  "point_annotation_required": false,
+  "automatic_label_changes": false,
+  "production_deployment_allowed": false,
+  "all_samples_retained_for_evaluation": 62,
+  "priority_review_count": 12,
+  "scope": "Freeze this photo batch; review results only. No automatic production use.",
+  "rows": [
+    {
+      "id": "V01_f000173_t006383ms",
+      "source_sha256": "6c1ec7d1ee6e64e47c27ca191e245a313b5522f3f53ea3b78b8f2e517d8d169b",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000185_t006817ms",
+      "source_sha256": "20a5cd6f8c7e989a006cdd40a94494ef3e078e7c9e50f4ef900def52d1e504cb",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000033_t001317ms",
+      "source_sha256": "e4a5db0125483042f212681346e3b7d443c6aeda138dce6740189b711397b3a3",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000221_t008883ms",
+      "source_sha256": "383957826d8f8df60291db02a6b93b36f4d1ea88c06bcc647978f05f837cb71b",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000252_t010367ms",
+      "source_sha256": "0fba7db400943c46548236ba4112e2359d91953875540fdae847c2df24e32d3f",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000199_t007283ms",
+      "source_sha256": "d749bcf4d0320bfc6485edf77866cc6f2a85b0d693ee5adb2bfa06de5bf86367",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000114_t004417ms",
+      "source_sha256": "84c0318743a2a35068df706665a572f7acc7cdfba551cb93bae4c7808beeccf1",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000189_t007017ms",
+      "source_sha256": "1ff21c6b555ec79d95b5bdd17a0b736161a4f5f6ae951cb92bba9baf2b88e25b",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000086_t003450ms",
+      "source_sha256": "993f7b75d2bd2be41df7942d99a39c7885b97ae812fd4fecbab7459270ba70d2",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000036_t001300ms",
+      "source_sha256": "67914f554445a7c5289535174ae77127602eda72b7e70c7a96e7e5d88a93ed01",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000104_t003783ms",
+      "source_sha256": "0550b13280900005ab0970c6e324ab7dad04b656a0da80cb70eaa57dbae9ef6f",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000108_t003983ms",
+      "source_sha256": "d661d63ae1a735740c3975ed96262cea64b085cde56f0fa96f85dbe31e089d69",
+      "priority_review": true,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000068_t002533ms",
+      "source_sha256": "2be4f090771d5fec24b619179ebfa50901815fadb63ec68542212984a53550cc",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000051_t001900ms",
+      "source_sha256": "8cf7f3a1ec33cee5b5c7dfd7d98ee9dc372e016da0aba65ff460ac2ddb294ccc",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000136_t005033ms",
+      "source_sha256": "0c1dfaf62adcb25c7835e73d7c84fe6f31530a7c316a4e1be0872577a142b9d8",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000340_t013167ms",
+      "source_sha256": "4cd4465ded7291041271cbdcbfc811ed6f7d9edd5e7c3a7f4d1e33a8f8b296f2",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000053_t002017ms",
+      "source_sha256": "e41d2766ba9bb2a2286f64187c228c5978219303d661d3a296fe7db48b645f40",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000178_t006950ms",
+      "source_sha256": "45a6d23d585da95541c4ca5e4815a515d24b340e59039cdf0e71f0acec6d2e04",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000278_t010517ms",
+      "source_sha256": "9aebfc74197bdde6ee4b92dca7746a1ca04fc294123ccee50aa40519e124c39d",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000265_t009933ms",
+      "source_sha256": "63bcdf7c9053bf37e981f17f69f22d9030ad4231ee9b054077ff08f10025312b",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000223_t008433ms",
+      "source_sha256": "f464c75e39364ce100ddf948980b5fc0be6c0ddc3d569c259bc0af6848ea92b9",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000228_t008350ms",
+      "source_sha256": "8dbc21966dc15e850177a955ab2e716f32e58b72f3af34be254d40cc2b3ab4b2",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000263_t010817ms",
+      "source_sha256": "d698d8591e87bae8fdd1a90e021d032d9dd58f05de265878f6a447c163987622",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000292_t011667ms",
+      "source_sha256": "8db505e0898cc19a6574fd50550f498bf05b56c8b7b42b22dabb81e07f4794b0",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000344_t013333ms",
+      "source_sha256": "d83e81a28d0c896224409e8b51579cf99b6a9723cbe912b1a9e9a9c5dd0f6a3c",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000315_t012033ms",
+      "source_sha256": "3add9d0382bd8f3ba350e46d84aa7525429d3db122165d18b2d334e380c271be",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000133_t004800ms",
+      "source_sha256": "3493f1b7e9df3fb046ffcdac655b0fa7490f4918d9eb28e27250c82fa2a796f5",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000288_t011017ms",
+      "source_sha256": "0ddda6e9fb9fa6e53608741ee505873ccecc61a89b4ba77dedd13fba9f3887d7",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000307_t012367ms",
+      "source_sha256": "490e2b0862ed4edf1df28e2de4ce40ea642abfd990c64cc0a2020c1bc4279ada",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000079_t003200ms",
+      "source_sha256": "aa33a804d2bc05eee5caf64a117413f4f3d582a4a9110a0d7b5eee3b01b8a6a9",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000300_t011483ms",
+      "source_sha256": "12fc3ac892db4d883e433da8245372d323c3dccf0afef728080237ebfc6feb45",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000069_t002583ms",
+      "source_sha256": "9c4d267c987dce1058c8565f4ddb0c4585a2024523818a8bee4e883e3f8dfc9b",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000251_t009233ms",
+      "source_sha256": "451ab7ae1d55f99859ce77fcd8d564d511d0478ddbdf25ba665014d215cc1c08",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000269_t010117ms",
+      "source_sha256": "58656305fc6c2592f444114c51704f88a9febf4a9a80a4f7e443e9b7445e1a95",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000237_t008650ms",
+      "source_sha256": "e8da90057f5f0cd6d62269c792680cd8e3bb877659d400f797b64f0dd043e514",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000255_t009983ms",
+      "source_sha256": "a11e224ba57ec1d1cce2784222929fc9d76a7df4a3c3f090c1807f1fab45b997",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000081_t003000ms",
+      "source_sha256": "d081f4b5d7df977e9db4e56eacd603a1db1ccb0a61acb5e6340067951c2879b0",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000245_t009017ms",
+      "source_sha256": "821d7b1421ca7b0f371d658737bfe667fdc8ee8185964b20eb3495ef2c5d5202",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000269_t010617ms",
+      "source_sha256": "49b71047ac45bdc5daae3d9bd9519eb9f350f0b0ad5147214959e54a127bfd3b",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000248_t009117ms",
+      "source_sha256": "79059aff0c2dcbeca974041842c0ef57b35a36c0a3ef96b34c97ca95aa34d823",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000055_t002317ms",
+      "source_sha256": "75cdac11bd4b1ffc932ac60fa2b20862d6089f879aa8a43601bf5aebccb2b03f",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000101_t003683ms",
+      "source_sha256": "be82adc3d9ca82efeedb4c0b2a18e6ae8be855d071800b6d8ebcdc03183e66a1",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000147_t005417ms",
+      "source_sha256": "9e5dc21816a7ce985bc746fffc8eaa3b05e3eb77eea27ce1c7b10cfff669eeaf",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000238_t009200ms",
+      "source_sha256": "457a1c3d699c3859c21aa456cade5f4d5568bddc76261f5c7aa5e22770e96fbb",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000322_t012433ms",
+      "source_sha256": "4a45b5a74c7e1882896b3373569d3b055663a1b9f55b678ae7d122ee54aac4a8",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000290_t011567ms",
+      "source_sha256": "8698d7d2cff589e2bf494a1754266ec26eeaaaa3a33e2a113d6929c82bcffd4b",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000051_t001917ms",
+      "source_sha256": "cc0b87368c952e4c8de8ae82ce59a3df09c1376172822536c0e22aa1ea090b43",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000208_t007600ms",
+      "source_sha256": "1ccacf991604bc1f6f2e7b7a9f8e11a22f9435849a6fef1f947937814eee9de4",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000206_t007567ms",
+      "source_sha256": "f28117cf5cf5f1c577b543d659fef218049bb8c8be26c9a324895f943fce66e2",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V01_f000351_t013767ms",
+      "source_sha256": "70b67b09e11c85dfc5f463d28f35268cdccc7ba3351ee2e6878bbf3ec64fa165",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000013_t000483ms",
+      "source_sha256": "e185d7f4d1dfd5e95267183b5db83b625e6baa8514ee516ffd2dd28be0d8eb1a",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000141_t005100ms",
+      "source_sha256": "f3405d82d9a3d31803e246dcd55d8d1f134a3e6260ed9eb4599757d086271476",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000167_t006100ms",
+      "source_sha256": "4a08e0b07c1c681ac4988d0db1804daf4fde5e27d8e4ead1c1ef9e06ff7975de",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V02_f000368_t014450ms",
+      "source_sha256": "0e3f4bd2ea93a05a829565f8b37c00bbf627a72997876f273f1c123cfb20c56d",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000020_t000700ms",
+      "source_sha256": "f88a9a2b0bd7750fe6dd197ca542b4784fcddf88638d1aa6a514aa67a48af240",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000073_t002733ms",
+      "source_sha256": "f6f59544e09da73d5d25167f8c64dc6d6bdb4c3e724f4d1b46aebd184cfa616f",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000158_t005800ms",
+      "source_sha256": "13ff2e38283fd414dd69dd1419363f19c42a09df37563e117ecd33913319e7d4",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V03_f000328_t013300ms",
+      "source_sha256": "297f92f64f50c09d2625969d068e8c6972b59da36cb860c344f9a117cba18448",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000013_t000450ms",
+      "source_sha256": "bf18e16c2fc08ea1d11ba86b2bee518bccd5d9ba6cbd598883f7ce116ebb6ee3",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000129_t004950ms",
+      "source_sha256": "09beb136fbb2e050fe90c3ee588daa11189c9418c61421d9b8c01fa6b6995388",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000145_t005617ms",
+      "source_sha256": "167e30336daf893c3c319fcdfc8ec26d6e3529eb3870f20c494f00663fbe135e",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    },
+    {
+      "id": "V04_f000283_t011533ms",
+      "source_sha256": "6e2a536c6076a7eaf7e7ffe2d3f205e50b0d1a8aa0def899168dd94b14441561",
+      "priority_review": false,
+      "review_status": "pending",
+      "final_angle_deg": null,
+      "include_in_secondary_training": false
+    }
+  ]
+}
