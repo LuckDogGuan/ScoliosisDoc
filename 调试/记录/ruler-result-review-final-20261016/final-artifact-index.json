@@ -1,0 +1,22 @@
+{
+  "导入核验.json": {
+    "bytes": 49658,
+    "sha256": "4cac5c2bfb898d863eab5a7abfd24ddf5b30c02c6146a59ec527de01d6a71ffa"
+  },
+  "最终复核说明.md": {
+    "bytes": 2220,
+    "sha256": "7c039e41b641253f1b5e0722f82f88f4b784bc5cd2bb81a2852aef7f7d898f12"
+  },
+  "最终读数.csv": {
+    "bytes": 7221,
+    "sha256": "48daf403d2c389aef322f5b2b6b064d703f329dff3e10ec372c155434ab52390"
+  },
+  "最终读数.json": {
+    "bytes": 54255,
+    "sha256": "116737c67804be2943a8f192f684c7f7ee21143be15a8f13d1205c5f8cf70d04"
+  },
+  "用户导出原件.json": {
+    "bytes": 28651,
+    "sha256": "5797583f42c9122cde58d9c37f27c08e952470a47f7691ab7de73261f73c3eae"
+  }
+}
