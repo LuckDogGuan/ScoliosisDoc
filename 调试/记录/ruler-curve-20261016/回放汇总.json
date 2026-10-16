@@ -1,0 +1,30 @@
+[
+  {
+    "video_id": "V01",
+    "samples": 187,
+    "measured_valid": 179,
+    "estimated": 1,
+    "remaining_gaps": 7
+  },
+  {
+    "video_id": "V02",
+    "samples": 187,
+    "measured_valid": 185,
+    "estimated": 2,
+    "remaining_gaps": 0
+  },
+  {
+    "video_id": "V03",
+    "samples": 167,
+    "measured_valid": 161,
+    "estimated": 1,
+    "remaining_gaps": 5
+  },
+  {
+    "video_id": "V04",
+    "samples": 143,
+    "measured_valid": 130,
+    "estimated": 3,
+    "remaining_gaps": 10
+  }
+]

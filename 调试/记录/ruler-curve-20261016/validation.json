@@ -1,0 +1,45 @@
+{
+  "version": "3.3.20+20261016",
+  "source_commit": "3b4a29d0fe3d15ce9d140ff11f193135294e1a68",
+  "full_tests": {
+    "command": "flutter test --no-pub --concurrency=1",
+    "passed": 162,
+    "failed": 0,
+    "elapsed_seconds": 104
+  },
+  "recorded_data_review": {
+    "command": "flutter test --no-pub tool/ruler_curve_review_test.dart",
+    "passed": 1,
+    "failed": 0,
+    "samples": 684,
+    "measured_valid": 655,
+    "estimated_display_only": 7,
+    "remaining_gaps": 22
+  },
+  "static_analysis": "No issues found in all changed Dart sources and review tool",
+  "range_deg": [
+    -10,
+    10
+  ],
+  "fill_max_consecutive_missing": 2,
+  "out_of_range_values_never_filled": true,
+  "raw_database_samples_unchanged": true,
+  "estimates_in_statistics_or_exports": false,
+  "source_model_and_dll_unchanged": true,
+  "real_board_updated": false,
+  "installed_app_updated": false,
+  "limitations": [
+    "Curve interpolation is an estimate, not improved recognition accuracy",
+    "No clean-machine or new cross-instrument accuracy acceptance"
+  ],
+  "release_checks": {
+    "windows_build": "passed",
+    "archive_files": 45,
+    "complete_zip_readback": true,
+    "installer_sha256": "9f80691c95359b4fbd83c20f3c8d5ce9a7a4640930fed9cda9dafa6449f62d70",
+    "zip_sha256": "27e62e9383301a83f7cb14a12f7dd3369d8af2fdfe96eeaf3f2546f1f891c3bb",
+    "source_model_dll_hashes_unchanged": true,
+    "final_directory_verified": true
+  },
+  "packaging_note": "Initial final-directory rename encountered transient Windows access denial; artifact hashes rechecked, explicit rename succeeded, final ZIP fully reverified."
+}
