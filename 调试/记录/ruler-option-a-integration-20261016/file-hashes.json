@@ -1,0 +1,22 @@
+{
+  ".gitattributes": "95c6c0f60250971304e9d8edd2215f0f16d86c60766dbe5a1710d13633aab18c",
+  "backup.json": "59f55a5b8e906be78746b3757e9aeef9846ac71d1ddadde1708f0ca79d18ec4d",
+  "beautified.json": "994c036285682e86445f09a1e82dae2d02baf88dfe37b6fdb2bdbd0766e5ee66",
+  "option-a-analyze.log": "d07aefbd1b6bd6a15f5e44521e4e6029a74560bb26abf0d040c9649c6ce2addc",
+  "option-a-full-tests-release.log": "277d64bd92f3e2b830e364ba1fca698636b82b1c9f69c495ce748eef248bb3db",
+  "option-a-isolation-test.log": "4cfcd622c6a6ce7ffe5d5f0e44cbb5cf7cc1dc18e4bb1316d63f7f1d9aa8fb22",
+  "option-a-validation-final.log": "d4479de83596f58ec11ad9fd6d4c9d23477c75706271cca81f7415933edf82ac",
+  "option-a-windows-build.log": "ad15f018bbebd862f6edd89ab82441c5c073f5f63ceb0a810094540c1e69c9a0",
+  "README.md": "bbd5dda5ed00d7db79dd1c7d1803f697f7d9250f7746213f2d05246910acd7b8",
+  "release-index.json": "196965aefd8ead5e11db865037b4076a240ecc0ed85baf4664d44195361cde15",
+  "release-SHA256SUMS": "521774d5531470ce797cced81d4ba8d89f3840a9e0268cacebe7d7d6cc9e0ec5",
+  "results.json": "56aa4e1bf4c2eb72d3e1b610c6df4da2a9c9232977830c9c154c165ea5d148f8",
+  "source-verification.json": "503282510c143d28039a971edd4dbf52edc40b52552c18f40b62c809c25a8cc2",
+  "V01_方案A.png": "55bc300f085f5877956bef9193ca5bb3d7d6fb1df521818c5b3162bf9aa754ec",
+  "V02_方案A.png": "04f04b51267ed1c20273d11cb49053398d4c138177e9596478c5f04d133a5073",
+  "V03_方案A.png": "333b360eca0c6c92a8f997fa3a624eeab6e8031321f7ab2174038302cf799626",
+  "V04_方案A.png": "726e65a1948ffc566048652e461ee516d50780d9f1f76ed70d23c44f414c2059",
+  "V05_方案A.png": "2d8c5bae844b3e7b4b42e607498cc4405315c93fbdfe699183a604c00ab43806",
+  "接入结果.html": "055ecf2217cd0e2169b5ded2523f04ff50c0536085da6b9c4fa57e55ac1bf15a",
+  "最近五条_方案A.xlsx": "aabbf4f9387a5b1be5ca5566a5ab6810f022f0348ef142e847f9d6920fc2010a"
+}

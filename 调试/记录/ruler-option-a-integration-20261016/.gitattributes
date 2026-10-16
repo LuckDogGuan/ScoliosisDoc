@@ -1,0 +1,8 @@
+*.md text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.log text eol=lf
+*.png binary
+*.xlsx binary
+.gitattributes text eol=lf
+release-SHA256SUMS text eol=lf

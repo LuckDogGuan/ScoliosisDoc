@@ -1,0 +1,4367 @@
+[
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 1,
+    "pts_ms": 33,
+    "angle_deg": -1.5000000000000002,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 3,
+    "pts_ms": 100,
+    "angle_deg": -1.5000000000000002,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 5,
+    "pts_ms": 167,
+    "angle_deg": -1.5000000000000002,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 7,
+    "pts_ms": 233,
+    "angle_deg": -1.5000000000000002,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 9,
+    "pts_ms": 317,
+    "angle_deg": -1.5,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 11,
+    "pts_ms": 400,
+    "angle_deg": -1.526151989998107,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 13,
+    "pts_ms": 467,
+    "angle_deg": -1.6075302042774264,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 15,
+    "pts_ms": 533,
+    "angle_deg": -1.7408480389417387,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 17,
+    "pts_ms": 600,
+    "angle_deg": -1.8892810010207184,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 19,
+    "pts_ms": 683,
+    "angle_deg": -1.9839307764119463,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 21,
+    "pts_ms": 750,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 23,
+    "pts_ms": 817,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 25,
+    "pts_ms": 883,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 27,
+    "pts_ms": 967,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 29,
+    "pts_ms": 1033,
+    "angle_deg": -2.023274911914526,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 31,
+    "pts_ms": 1117,
+    "angle_deg": -2.3122347797694083,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 33,
+    "pts_ms": 1200,
+    "angle_deg": -3.0212045529261777,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 35,
+    "pts_ms": 1267,
+    "angle_deg": -3.591133918653562,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 37,
+    "pts_ms": 1333,
+    "angle_deg": -4.0532921126205945,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 39,
+    "pts_ms": 1433,
+    "angle_deg": -4.7975796028497095,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 41,
+    "pts_ms": 1533,
+    "angle_deg": -5.234761748082834,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 43,
+    "pts_ms": 1633,
+    "angle_deg": -5.347039905831831,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 45,
+    "pts_ms": 1750,
+    "angle_deg": -5.369372527697871,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 47,
+    "pts_ms": 1833,
+    "angle_deg": -5.369396377630212,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 49,
+    "pts_ms": 1917,
+    "angle_deg": -5.369421212480407,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 51,
+    "pts_ms": 2000,
+    "angle_deg": -5.3438457273519235,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 53,
+    "pts_ms": 2067,
+    "angle_deg": -5.215615847543101,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 55,
+    "pts_ms": 2150,
+    "angle_deg": -4.884299022760852,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 57,
+    "pts_ms": 2217,
+    "angle_deg": -4.496890788201048,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 59,
+    "pts_ms": 2317,
+    "angle_deg": -4.087283644475519,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 61,
+    "pts_ms": 2400,
+    "angle_deg": -3.960757282875405,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 63,
+    "pts_ms": 2483,
+    "angle_deg": -3.7732386750950013,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 65,
+    "pts_ms": 2550,
+    "angle_deg": -3.4290900227437295,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 67,
+    "pts_ms": 2633,
+    "angle_deg": -2.929900381555498,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 69,
+    "pts_ms": 2700,
+    "angle_deg": -2.6106361192444587,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 71,
+    "pts_ms": 2783,
+    "angle_deg": -2.232590694487074,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 73,
+    "pts_ms": 2867,
+    "angle_deg": -2.0077813791570156,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 75,
+    "pts_ms": 2950,
+    "angle_deg": -1.8625,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 77,
+    "pts_ms": 3033,
+    "angle_deg": -1.6434108527131783,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 79,
+    "pts_ms": 3117,
+    "angle_deg": -1.518413597733711,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 81,
+    "pts_ms": 3233,
+    "angle_deg": -1.5,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 83,
+    "pts_ms": 3317,
+    "angle_deg": -1.5,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 85,
+    "pts_ms": 3383,
+    "angle_deg": -1.5000000000000002,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 87,
+    "pts_ms": 3450,
+    "angle_deg": -1.5,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 89,
+    "pts_ms": 3533,
+    "angle_deg": -1.5,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 91,
+    "pts_ms": 3600,
+    "angle_deg": -1.4513457556935816,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 93,
+    "pts_ms": 3667,
+    "angle_deg": -1.2449999999999999,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 95,
+    "pts_ms": 3733,
+    "angle_deg": -0.8674242424242424,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 97,
+    "pts_ms": 3800,
+    "angle_deg": -0.38296296296296295,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 99,
+    "pts_ms": 3883,
+    "angle_deg": 0.05624483043837883,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 101,
+    "pts_ms": 3967,
+    "angle_deg": 0.4480578139114725,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 103,
+    "pts_ms": 4067,
+    "angle_deg": 0.9869281045751633,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 105,
+    "pts_ms": 4167,
+    "angle_deg": 1.6949579831932773,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 107,
+    "pts_ms": 4267,
+    "angle_deg": 2.655373728438744,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 109,
+    "pts_ms": 4367,
+    "angle_deg": 3.43094009533638,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 111,
+    "pts_ms": 4467,
+    "angle_deg": 3.9932640242581763,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 113,
+    "pts_ms": 4583,
+    "angle_deg": 4.554183813443073,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 115,
+    "pts_ms": 4683,
+    "angle_deg": 5.10409982174688,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 117,
+    "pts_ms": 4783,
+    "angle_deg": 5.745989304812834,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 119,
+    "pts_ms": 4883,
+    "angle_deg": 6.049231693707615,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 121,
+    "pts_ms": 4983,
+    "angle_deg": 5.967346495986115,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 123,
+    "pts_ms": 5050,
+    "angle_deg": 5.796450023621517,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 125,
+    "pts_ms": 5117,
+    "angle_deg": 5.570701278843481,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 127,
+    "pts_ms": 5200,
+    "angle_deg": 5.1656265356265365,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 129,
+    "pts_ms": 5317,
+    "angle_deg": 4.708978328173374,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 131,
+    "pts_ms": 5417,
+    "angle_deg": 4.379876160990712,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 133,
+    "pts_ms": 5517,
+    "angle_deg": 3.7708978328173375,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 135,
+    "pts_ms": 5617,
+    "angle_deg": 3.08282836471232,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 137,
+    "pts_ms": 5700,
+    "angle_deg": 2.6247899159663866,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 139,
+    "pts_ms": 5783,
+    "angle_deg": 2.0148633038120907,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 141,
+    "pts_ms": 5883,
+    "angle_deg": 1.3153471915081825,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 143,
+    "pts_ms": 6000,
+    "angle_deg": 0.9213106295149639,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 145,
+    "pts_ms": 6100,
+    "angle_deg": 0.5547385620915032,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 147,
+    "pts_ms": 6200,
+    "angle_deg": 0.125696936586896,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 149,
+    "pts_ms": 6300,
+    "angle_deg": -0.5452711966003213,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 151,
+    "pts_ms": 6400,
+    "angle_deg": -1.4657056545090208,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 153,
+    "pts_ms": 6467,
+    "angle_deg": -1.803362697972905,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 155,
+    "pts_ms": 6533,
+    "angle_deg": -1.8387096774193554,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 157,
+    "pts_ms": 6633,
+    "angle_deg": -1.6174999999999997,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 159,
+    "pts_ms": 6700,
+    "angle_deg": -1.5162907268170425,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 161,
+    "pts_ms": 6800,
+    "angle_deg": -1.536057692307692,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 163,
+    "pts_ms": 6867,
+    "angle_deg": -1.633093525179856,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 165,
+    "pts_ms": 6950,
+    "angle_deg": -1.8477218225419665,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 167,
+    "pts_ms": 7033,
+    "angle_deg": -1.9832134292565948,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 169,
+    "pts_ms": 7117,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 171,
+    "pts_ms": 7183,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 173,
+    "pts_ms": 7250,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 175,
+    "pts_ms": 7333,
+    "angle_deg": -2.0308593401231434,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 177,
+    "pts_ms": 7400,
+    "angle_deg": -2.215927349755143,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 179,
+    "pts_ms": 7467,
+    "angle_deg": -2.6351060672882296,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 181,
+    "pts_ms": 7533,
+    "angle_deg": -3.272246919861982,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 183,
+    "pts_ms": 7600,
+    "angle_deg": -3.9456665934735176,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 185,
+    "pts_ms": 7683,
+    "angle_deg": -4.789879302069423,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 187,
+    "pts_ms": 7767,
+    "angle_deg": -5.501544215368642,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 189,
+    "pts_ms": 7850,
+    "angle_deg": -6.3588187166459464,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 191,
+    "pts_ms": 7950,
+    "angle_deg": -7.406471434895875,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 193,
+    "pts_ms": 8067,
+    "angle_deg": -7.933588083300483,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 195,
+    "pts_ms": 8150,
+    "angle_deg": -8.112044817927172,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 197,
+    "pts_ms": 8250,
+    "angle_deg": -8.410240054142998,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 199,
+    "pts_ms": 8333,
+    "angle_deg": -8.62231708264504,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 201,
+    "pts_ms": 8433,
+    "angle_deg": -8.771699857500792,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 203,
+    "pts_ms": 8517,
+    "angle_deg": -8.732125649466065,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 205,
+    "pts_ms": 8583,
+    "angle_deg": -8.599019072090366,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 207,
+    "pts_ms": 8650,
+    "angle_deg": -8.39217597970267,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 209,
+    "pts_ms": 8733,
+    "angle_deg": -7.914903975876949,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 211,
+    "pts_ms": 8800,
+    "angle_deg": -7.372558456589593,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 213,
+    "pts_ms": 8867,
+    "angle_deg": -6.629583133783491,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 215,
+    "pts_ms": 8950,
+    "angle_deg": -5.503277846575501,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 217,
+    "pts_ms": 9033,
+    "angle_deg": -4.546364890162977,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 219,
+    "pts_ms": 9133,
+    "angle_deg": -3.731705096137137,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 221,
+    "pts_ms": 9217,
+    "angle_deg": -2.9390866517875605,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 223,
+    "pts_ms": 9317,
+    "angle_deg": -2.096453838184323,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 225,
+    "pts_ms": 9433,
+    "angle_deg": -1.4753086419753088,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 227,
+    "pts_ms": 9533,
+    "angle_deg": -1.1176470588235292,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+    "video_id": "V01",
+    "frame_index": 229,
+    "pts_ms": 9633,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 1,
+    "pts_ms": 33,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 3,
+    "pts_ms": 100,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 5,
+    "pts_ms": 183,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 7,
+    "pts_ms": 250,
+    "angle_deg": -2.0214047354263123,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 9,
+    "pts_ms": 317,
+    "angle_deg": -2.20125388106469,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 11,
+    "pts_ms": 417,
+    "angle_deg": -3.0192180228228933,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 13,
+    "pts_ms": 483,
+    "angle_deg": -3.846592073908628,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 15,
+    "pts_ms": 583,
+    "angle_deg": -5.4954983270812985,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 17,
+    "pts_ms": 683,
+    "angle_deg": -7.338436038942687,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 19,
+    "pts_ms": 783,
+    "angle_deg": -8.307672162781577,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 21,
+    "pts_ms": 883,
+    "angle_deg": -8.500000000000002,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 23,
+    "pts_ms": 983,
+    "angle_deg": -8.368271954674222,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 25,
+    "pts_ms": 1083,
+    "angle_deg": -8.099255583126553,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 27,
+    "pts_ms": 1150,
+    "angle_deg": -8.01501154734411,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 29,
+    "pts_ms": 1233,
+    "angle_deg": -8.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 31,
+    "pts_ms": 1300,
+    "angle_deg": -8.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 33,
+    "pts_ms": 1367,
+    "angle_deg": -8.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 35,
+    "pts_ms": 1433,
+    "angle_deg": -8.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 37,
+    "pts_ms": 1500,
+    "angle_deg": -8.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 39,
+    "pts_ms": 1567,
+    "angle_deg": -7.970463053075282,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 41,
+    "pts_ms": 1633,
+    "angle_deg": -7.823075457976164,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 43,
+    "pts_ms": 1700,
+    "angle_deg": -7.3541643258813885,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 45,
+    "pts_ms": 1783,
+    "angle_deg": -6.393139620883356,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 47,
+    "pts_ms": 1850,
+    "angle_deg": -5.478690503839622,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 49,
+    "pts_ms": 1950,
+    "angle_deg": -4.0314996479647025,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 51,
+    "pts_ms": 2033,
+    "angle_deg": -2.9418214058272434,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 53,
+    "pts_ms": 2133,
+    "angle_deg": -1.950627767163825,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 55,
+    "pts_ms": 2233,
+    "angle_deg": -0.9934640522875817,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 57,
+    "pts_ms": 2333,
+    "angle_deg": -0.18885448916408668,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 59,
+    "pts_ms": 2450,
+    "angle_deg": 0.38810941043083896,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 61,
+    "pts_ms": 2550,
+    "angle_deg": 0.9138025331030515,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 63,
+    "pts_ms": 2617,
+    "angle_deg": 1.411660087178222,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 65,
+    "pts_ms": 2717,
+    "angle_deg": 2.578136204533998,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 67,
+    "pts_ms": 2817,
+    "angle_deg": 3.7297361049683033,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 69,
+    "pts_ms": 2917,
+    "angle_deg": 4.813931888544891,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 71,
+    "pts_ms": 3017,
+    "angle_deg": 5.885784313725491,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 73,
+    "pts_ms": 3117,
+    "angle_deg": 6.483737024221453,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 75,
+    "pts_ms": 3217,
+    "angle_deg": 6.862003624979403,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 77,
+    "pts_ms": 3300,
+    "angle_deg": 7.197160432800572,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 79,
+    "pts_ms": 3400,
+    "angle_deg": 7.507612456747404,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 81,
+    "pts_ms": 3500,
+    "angle_deg": 7.693540945790081,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 83,
+    "pts_ms": 3600,
+    "angle_deg": 7.794787905719416,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 85,
+    "pts_ms": 3700,
+    "angle_deg": 7.838278224605303,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 87,
+    "pts_ms": 3767,
+    "angle_deg": 7.840600600600601,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 89,
+    "pts_ms": 3883,
+    "angle_deg": 7.5909450627097685,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 91,
+    "pts_ms": 3967,
+    "angle_deg": 7.1733543417366965,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 93,
+    "pts_ms": 4033,
+    "angle_deg": 6.832184873949581,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 95,
+    "pts_ms": 4117,
+    "angle_deg": 6.089774459006401,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 97,
+    "pts_ms": 4217,
+    "angle_deg": 4.565266106442577,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 99,
+    "pts_ms": 4317,
+    "angle_deg": 2.9840336134453787,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 101,
+    "pts_ms": 4417,
+    "angle_deg": 1.6988536155202822,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 103,
+    "pts_ms": 4533,
+    "angle_deg": 0.7059082892416225,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 105,
+    "pts_ms": 4633,
+    "angle_deg": -0.1764705882352941,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 107,
+    "pts_ms": 4733,
+    "angle_deg": -1.1470588235294117,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 109,
+    "pts_ms": 4833,
+    "angle_deg": -1.3523035230352305,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 111,
+    "pts_ms": 4917,
+    "angle_deg": -1.1240310077519384,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 113,
+    "pts_ms": 5000,
+    "angle_deg": -1.0875299760191846,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 115,
+    "pts_ms": 5083,
+    "angle_deg": -1.3096502555613598,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 117,
+    "pts_ms": 5150,
+    "angle_deg": -1.692867441406176,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 119,
+    "pts_ms": 5250,
+    "angle_deg": -2.7297409625255864,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 121,
+    "pts_ms": 5333,
+    "angle_deg": -3.8170135407395267,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 123,
+    "pts_ms": 5400,
+    "angle_deg": -4.440258340356143,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 125,
+    "pts_ms": 5467,
+    "angle_deg": -5.412663001299891,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 127,
+    "pts_ms": 5567,
+    "angle_deg": -7.4476976485755575,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 129,
+    "pts_ms": 5650,
+    "angle_deg": -8.404580135722977,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 131,
+    "pts_ms": 5750,
+    "angle_deg": -8.518869422814515,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 133,
+    "pts_ms": 5850,
+    "angle_deg": -8.500000000000002,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 135,
+    "pts_ms": 5967,
+    "angle_deg": -8.500000000000002,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 137,
+    "pts_ms": 6067,
+    "angle_deg": -8.500000000000002,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 139,
+    "pts_ms": 6150,
+    "angle_deg": -8.436506936098404,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 141,
+    "pts_ms": 6233,
+    "angle_deg": -8.167334181186153,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 143,
+    "pts_ms": 6300,
+    "angle_deg": -7.475192936946911,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 145,
+    "pts_ms": 6400,
+    "angle_deg": -5.634969325550352,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 147,
+    "pts_ms": 6500,
+    "angle_deg": -3.816105131466102,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 149,
+    "pts_ms": 6583,
+    "angle_deg": -2.6277024396706308,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 151,
+    "pts_ms": 6700,
+    "angle_deg": -1.47983592786743,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+    "video_id": "V02",
+    "frame_index": 153,
+    "pts_ms": 6767,
+    "angle_deg": -1.1928327645051195,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 1,
+    "pts_ms": 33,
+    "angle_deg": 0.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 3,
+    "pts_ms": 117,
+    "angle_deg": 0.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 5,
+    "pts_ms": 183,
+    "angle_deg": -0.019109244574445197,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 7,
+    "pts_ms": 250,
+    "angle_deg": -0.048654761132144266,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 9,
+    "pts_ms": 317,
+    "angle_deg": -0.0834098666182481,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 11,
+    "pts_ms": 417,
+    "angle_deg": -0.06284649840679164,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 13,
+    "pts_ms": 483,
+    "angle_deg": -0.08134971661372702,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 15,
+    "pts_ms": 567,
+    "angle_deg": -0.11370024202410188,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 17,
+    "pts_ms": 633,
+    "angle_deg": 0.05433432844629475,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 19,
+    "pts_ms": 700,
+    "angle_deg": 0.35788489050885985,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 21,
+    "pts_ms": 767,
+    "angle_deg": 1.05738391324373,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 23,
+    "pts_ms": 867,
+    "angle_deg": 3.1585656776502167,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 25,
+    "pts_ms": 967,
+    "angle_deg": 5.635853113175095,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 27,
+    "pts_ms": 1083,
+    "angle_deg": 7.637900427660775,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 29,
+    "pts_ms": 1183,
+    "angle_deg": 8.489644629371053,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 31,
+    "pts_ms": 1267,
+    "angle_deg": 8.652697659496035,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 33,
+    "pts_ms": 1333,
+    "angle_deg": 8.612104034629926,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 35,
+    "pts_ms": 1433,
+    "angle_deg": 8.53080048616251,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 37,
+    "pts_ms": 1533,
+    "angle_deg": 8.446863244512496,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 39,
+    "pts_ms": 1617,
+    "angle_deg": 8.004718958986277,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 41,
+    "pts_ms": 1717,
+    "angle_deg": 6.640177058477712,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 43,
+    "pts_ms": 1833,
+    "angle_deg": 4.518120828578345,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 45,
+    "pts_ms": 1933,
+    "angle_deg": 2.8142857142857145,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 47,
+    "pts_ms": 2033,
+    "angle_deg": 1.1112401600206476,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 49,
+    "pts_ms": 2117,
+    "angle_deg": 0.06434316353887404,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 51,
+    "pts_ms": 2200,
+    "angle_deg": -0.8473723723723724,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 53,
+    "pts_ms": 2300,
+    "angle_deg": -1.7647058823529413,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 55,
+    "pts_ms": 2400,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 57,
+    "pts_ms": 2483,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 59,
+    "pts_ms": 2567,
+    "angle_deg": -1.9928220456145638,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 61,
+    "pts_ms": 2650,
+    "angle_deg": -1.9163232904839147,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 63,
+    "pts_ms": 2733,
+    "angle_deg": -1.7501954055708728,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 65,
+    "pts_ms": 2800,
+    "angle_deg": -1.6073899145679849,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 67,
+    "pts_ms": 2883,
+    "angle_deg": -1.5529943725991702,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 69,
+    "pts_ms": 2950,
+    "angle_deg": -1.6411111111111112,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 71,
+    "pts_ms": 3033,
+    "angle_deg": -1.8973512031597786,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 73,
+    "pts_ms": 3100,
+    "angle_deg": -2.2537212592965705,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 75,
+    "pts_ms": 3200,
+    "angle_deg": -3.302893552243864,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 77,
+    "pts_ms": 3283,
+    "angle_deg": -4.302905092867831,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 79,
+    "pts_ms": 3383,
+    "angle_deg": -5.760756096728243,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 81,
+    "pts_ms": 3483,
+    "angle_deg": -7.514574854430999,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 83,
+    "pts_ms": 3583,
+    "angle_deg": -8.382352941176471,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 85,
+    "pts_ms": 3683,
+    "angle_deg": -8.500000000000002,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 87,
+    "pts_ms": 3783,
+    "angle_deg": -8.500000000000002,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 89,
+    "pts_ms": 3900,
+    "angle_deg": -8.500000000000002,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 91,
+    "pts_ms": 3983,
+    "angle_deg": -8.500000000000004,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 93,
+    "pts_ms": 4050,
+    "angle_deg": -8.5085458787868,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 95,
+    "pts_ms": 4117,
+    "angle_deg": -8.466236265389396,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 97,
+    "pts_ms": 4183,
+    "angle_deg": -8.34344431602471,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 99,
+    "pts_ms": 4267,
+    "angle_deg": -7.472348710052568,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 101,
+    "pts_ms": 4367,
+    "angle_deg": -5.659348659457801,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 103,
+    "pts_ms": 4467,
+    "angle_deg": -4.3831620193318965,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 105,
+    "pts_ms": 4583,
+    "angle_deg": -3.2541819782384644,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 107,
+    "pts_ms": 4683,
+    "angle_deg": -2.1070953441740636,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 109,
+    "pts_ms": 4783,
+    "angle_deg": -0.9204305931948209,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 111,
+    "pts_ms": 4867,
+    "angle_deg": -0.24009474590869948,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 113,
+    "pts_ms": 4950,
+    "angle_deg": -0.010724753530508915,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 115,
+    "pts_ms": 5033,
+    "angle_deg": 0.026913580246913576,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 117,
+    "pts_ms": 5100,
+    "angle_deg": 0.02777777777777778,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 119,
+    "pts_ms": 5167,
+    "angle_deg": 0.02777777777777778,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 121,
+    "pts_ms": 5250,
+    "angle_deg": 0.024982155603140616,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 123,
+    "pts_ms": 5317,
+    "angle_deg": 0.021235078053259873,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 125,
+    "pts_ms": 5383,
+    "angle_deg": 0.015222222222222222,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 127,
+    "pts_ms": 5450,
+    "angle_deg": 0.013054980446284795,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 129,
+    "pts_ms": 5517,
+    "angle_deg": 0.0085240820219361,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 131,
+    "pts_ms": 5600,
+    "angle_deg": 0.04764453961456103,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 133,
+    "pts_ms": 5667,
+    "angle_deg": 0.18135005608239013,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 135,
+    "pts_ms": 5733,
+    "angle_deg": 0.42633758308815517,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 137,
+    "pts_ms": 5817,
+    "angle_deg": 1.31378107430739,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 139,
+    "pts_ms": 5933,
+    "angle_deg": 3.9252543122512162,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 141,
+    "pts_ms": 6017,
+    "angle_deg": 5.885348905972798,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 143,
+    "pts_ms": 6117,
+    "angle_deg": 7.65119825708061,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 145,
+    "pts_ms": 6217,
+    "angle_deg": 8.531204960616725,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 147,
+    "pts_ms": 6317,
+    "angle_deg": 8.749287749287749,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 149,
+    "pts_ms": 6417,
+    "angle_deg": 8.738143620663001,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 151,
+    "pts_ms": 6500,
+    "angle_deg": 8.730621478512296,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 153,
+    "pts_ms": 6567,
+    "angle_deg": 8.725366270068504,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 155,
+    "pts_ms": 6667,
+    "angle_deg": 8.715000726374663,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 157,
+    "pts_ms": 6767,
+    "angle_deg": 8.704415954415953,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 159,
+    "pts_ms": 6867,
+    "angle_deg": 8.414360847405831,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 161,
+    "pts_ms": 6967,
+    "angle_deg": 7.403600013980637,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 163,
+    "pts_ms": 7067,
+    "angle_deg": 5.721385407526365,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 165,
+    "pts_ms": 7167,
+    "angle_deg": 3.6017852116923326,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 167,
+    "pts_ms": 7267,
+    "angle_deg": 1.7664918469012039,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 169,
+    "pts_ms": 7383,
+    "angle_deg": 0.27380952380952384,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 171,
+    "pts_ms": 7483,
+    "angle_deg": -0.9019607843137255,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 173,
+    "pts_ms": 7583,
+    "angle_deg": -1.7647058823529413,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 175,
+    "pts_ms": 7683,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 177,
+    "pts_ms": 7783,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 179,
+    "pts_ms": 7867,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 181,
+    "pts_ms": 7933,
+    "angle_deg": -2.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 183,
+    "pts_ms": 8017,
+    "angle_deg": -2.027784420547849,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 185,
+    "pts_ms": 8100,
+    "angle_deg": -2.336391234453572,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 187,
+    "pts_ms": 8183,
+    "angle_deg": -3.075764557683735,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 189,
+    "pts_ms": 8250,
+    "angle_deg": -4.249682005332871,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 191,
+    "pts_ms": 8350,
+    "angle_deg": -6.844888866665078,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 193,
+    "pts_ms": 8450,
+    "angle_deg": -8.21471128102672,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 195,
+    "pts_ms": 8550,
+    "angle_deg": -8.123704914494937,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 197,
+    "pts_ms": 8650,
+    "angle_deg": -7.9873998835225155,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 199,
+    "pts_ms": 8767,
+    "angle_deg": -8.353209966645084,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 201,
+    "pts_ms": 8867,
+    "angle_deg": -8.266956711415023,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 203,
+    "pts_ms": 8950,
+    "angle_deg": -7.995156690426955,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 205,
+    "pts_ms": 9017,
+    "angle_deg": -7.979645176287626,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 207,
+    "pts_ms": 9117,
+    "angle_deg": -8.199882669622733,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 209,
+    "pts_ms": 9217,
+    "angle_deg": -7.390221205221722,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 211,
+    "pts_ms": 9300,
+    "angle_deg": -6.049579911806252,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 213,
+    "pts_ms": 9367,
+    "angle_deg": -5.011898876507458,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 215,
+    "pts_ms": 9483,
+    "angle_deg": -2.945698781999702,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 217,
+    "pts_ms": 9583,
+    "angle_deg": -1.5731368960039946,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 219,
+    "pts_ms": 9683,
+    "angle_deg": -0.38583327345812946,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 221,
+    "pts_ms": 9783,
+    "angle_deg": 0.0784313725490196,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+    "video_id": "V03",
+    "frame_index": 223,
+    "pts_ms": 9883,
+    "angle_deg": 0.09188034188034187,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 1,
+    "pts_ms": 33,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 3,
+    "pts_ms": 117,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 5,
+    "pts_ms": 183,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 7,
+    "pts_ms": 267,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 9,
+    "pts_ms": 333,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 11,
+    "pts_ms": 417,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 13,
+    "pts_ms": 483,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 15,
+    "pts_ms": 550,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 17,
+    "pts_ms": 617,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 19,
+    "pts_ms": 683,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 21,
+    "pts_ms": 750,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 23,
+    "pts_ms": 817,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 25,
+    "pts_ms": 883,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 27,
+    "pts_ms": 950,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 29,
+    "pts_ms": 1017,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 31,
+    "pts_ms": 1100,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 33,
+    "pts_ms": 1167,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 35,
+    "pts_ms": 1250,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 37,
+    "pts_ms": 1317,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 39,
+    "pts_ms": 1383,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 41,
+    "pts_ms": 1450,
+    "angle_deg": -1.047,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 43,
+    "pts_ms": 1517,
+    "angle_deg": -1.208,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 45,
+    "pts_ms": 1583,
+    "angle_deg": -1.4980000000000002,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 47,
+    "pts_ms": 1650,
+    "angle_deg": -1.7715231788079469,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 49,
+    "pts_ms": 1717,
+    "angle_deg": -2.0730441616881237,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 51,
+    "pts_ms": 1833,
+    "angle_deg": -3.035349835731963,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 53,
+    "pts_ms": 1917,
+    "angle_deg": -3.6961265301353103,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 55,
+    "pts_ms": 2000,
+    "angle_deg": -4.018097606406367,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 57,
+    "pts_ms": 2100,
+    "angle_deg": -4.195756015428824,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 59,
+    "pts_ms": 2167,
+    "angle_deg": -4.243653086355788,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 61,
+    "pts_ms": 2250,
+    "angle_deg": -4.243769533240905,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 63,
+    "pts_ms": 2317,
+    "angle_deg": -4.198612692222049,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 65,
+    "pts_ms": 2400,
+    "angle_deg": -4.078829329124207,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 67,
+    "pts_ms": 2483,
+    "angle_deg": -3.93267379280592,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 69,
+    "pts_ms": 2550,
+    "angle_deg": -3.693504504341068,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 71,
+    "pts_ms": 2633,
+    "angle_deg": -3.032200278026727,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 73,
+    "pts_ms": 2717,
+    "angle_deg": -2.2498763361491703,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 75,
+    "pts_ms": 2817,
+    "angle_deg": -1.6010862006558066,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 77,
+    "pts_ms": 2900,
+    "angle_deg": -1.0933968633876425,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 79,
+    "pts_ms": 3000,
+    "angle_deg": -0.7406863381904398,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 81,
+    "pts_ms": 3100,
+    "angle_deg": -0.898746316376399,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 83,
+    "pts_ms": 3183,
+    "angle_deg": -1.0527522935779816,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 85,
+    "pts_ms": 3250,
+    "angle_deg": -1.1212446351931329,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 87,
+    "pts_ms": 3317,
+    "angle_deg": -1.1931330472103003,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 89,
+    "pts_ms": 3400,
+    "angle_deg": -1.1038543897216273,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 91,
+    "pts_ms": 3467,
+    "angle_deg": -1.03099173553719,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 93,
+    "pts_ms": 3533,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 95,
+    "pts_ms": 3600,
+    "angle_deg": -0.9344375431331954,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 97,
+    "pts_ms": 3667,
+    "angle_deg": -0.728395061728395,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 99,
+    "pts_ms": 3750,
+    "angle_deg": -0.15247801758593124,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 101,
+    "pts_ms": 3833,
+    "angle_deg": 0.4607579365079365,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 103,
+    "pts_ms": 3917,
+    "angle_deg": 0.9954313677111605,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 105,
+    "pts_ms": 4000,
+    "angle_deg": 1.723906048906049,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 107,
+    "pts_ms": 4100,
+    "angle_deg": 2.749270234409553,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 109,
+    "pts_ms": 4200,
+    "angle_deg": 3.5148262813897486,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 111,
+    "pts_ms": 4300,
+    "angle_deg": 4.019951840385277,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 113,
+    "pts_ms": 4400,
+    "angle_deg": 4.048618277720444,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 115,
+    "pts_ms": 4483,
+    "angle_deg": 3.7739594083247336,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 117,
+    "pts_ms": 4600,
+    "angle_deg": 3.2149215105753046,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 119,
+    "pts_ms": 4683,
+    "angle_deg": 2.794167801638091,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 121,
+    "pts_ms": 4767,
+    "angle_deg": 2.2424143499626665,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 123,
+    "pts_ms": 4833,
+    "angle_deg": 1.7354081632653064,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 125,
+    "pts_ms": 4917,
+    "angle_deg": 1.1212065136935603,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 127,
+    "pts_ms": 5017,
+    "angle_deg": 0.5,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 129,
+    "pts_ms": 5117,
+    "angle_deg": -0.17283950617283947,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 131,
+    "pts_ms": 5233,
+    "angle_deg": -1.3271604938271604,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 133,
+    "pts_ms": 5333,
+    "angle_deg": -1.8876404494382022,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 135,
+    "pts_ms": 5417,
+    "angle_deg": -1.9933404303833595,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 137,
+    "pts_ms": 5517,
+    "angle_deg": -1.8965217769884806,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 139,
+    "pts_ms": 5583,
+    "angle_deg": -1.7619260727335182,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 141,
+    "pts_ms": 5650,
+    "angle_deg": -1.6555107060526855,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 143,
+    "pts_ms": 5717,
+    "angle_deg": -1.6682486396573846,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 145,
+    "pts_ms": 5800,
+    "angle_deg": -1.8797357377699713,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 147,
+    "pts_ms": 5867,
+    "angle_deg": -2.199787116095148,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 149,
+    "pts_ms": 5967,
+    "angle_deg": -3.070024608336385,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 151,
+    "pts_ms": 6033,
+    "angle_deg": -3.6143403442119784,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 153,
+    "pts_ms": 6117,
+    "angle_deg": -4.1796927400730315,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 155,
+    "pts_ms": 6217,
+    "angle_deg": -5.026501795481941,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 157,
+    "pts_ms": 6317,
+    "angle_deg": -5.419332853692358,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 159,
+    "pts_ms": 6417,
+    "angle_deg": -5.44644017785954,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 161,
+    "pts_ms": 6517,
+    "angle_deg": -5.426296359496329,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 163,
+    "pts_ms": 6617,
+    "angle_deg": -5.3817639327426265,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 165,
+    "pts_ms": 6683,
+    "angle_deg": -5.221676207486661,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 167,
+    "pts_ms": 6767,
+    "angle_deg": -4.759381076460112,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 169,
+    "pts_ms": 6833,
+    "angle_deg": -3.9908309050553874,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 171,
+    "pts_ms": 6933,
+    "angle_deg": -2.416216216216216,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 173,
+    "pts_ms": 7017,
+    "angle_deg": -1.297752808988764,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 175,
+    "pts_ms": 7117,
+    "angle_deg": -0.29956573824498356,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 177,
+    "pts_ms": 7200,
+    "angle_deg": 0.05451574569221628,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 179,
+    "pts_ms": 7283,
+    "angle_deg": 0.03663438187633836,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 181,
+    "pts_ms": 7383,
+    "angle_deg": -0.18248573352502576,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 183,
+    "pts_ms": 7450,
+    "angle_deg": -0.47412071883135254,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 185,
+    "pts_ms": 7517,
+    "angle_deg": -0.8475688150920673,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 187,
+    "pts_ms": 7600,
+    "angle_deg": -1.2915026505682754,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+    "video_id": "V04",
+    "frame_index": 189,
+    "pts_ms": 7683,
+    "angle_deg": -1.4759450171821304,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 1,
+    "pts_ms": 33,
+    "angle_deg": -1.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 3,
+    "pts_ms": 133,
+    "angle_deg": -1.0548926014319808,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 5,
+    "pts_ms": 200,
+    "angle_deg": -1.198233538009562,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 7,
+    "pts_ms": 267,
+    "angle_deg": -1.4286136502013111,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 9,
+    "pts_ms": 333,
+    "angle_deg": -1.6645323125878595,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 11,
+    "pts_ms": 417,
+    "angle_deg": -1.915223067173968,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 13,
+    "pts_ms": 517,
+    "angle_deg": -2.1332230033992197,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 15,
+    "pts_ms": 583,
+    "angle_deg": -2.3548040123411407,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 17,
+    "pts_ms": 667,
+    "angle_deg": -2.8857541766180588,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 19,
+    "pts_ms": 750,
+    "angle_deg": -3.614267062593388,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 21,
+    "pts_ms": 850,
+    "angle_deg": -4.060267489999204,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 23,
+    "pts_ms": 950,
+    "angle_deg": -4.3377852317318615,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 25,
+    "pts_ms": 1067,
+    "angle_deg": -4.910125998184509,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 27,
+    "pts_ms": 1167,
+    "angle_deg": -5.247078719020811,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 29,
+    "pts_ms": 1250,
+    "angle_deg": -5.469247871418228,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 31,
+    "pts_ms": 1333,
+    "angle_deg": -5.835566540375382,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 33,
+    "pts_ms": 1400,
+    "angle_deg": -6.436699657355342,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 35,
+    "pts_ms": 1483,
+    "angle_deg": -7.196622336479605,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 37,
+    "pts_ms": 1550,
+    "angle_deg": -7.503043807774789,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 39,
+    "pts_ms": 1633,
+    "angle_deg": -7.576288092842137,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 41,
+    "pts_ms": 1717,
+    "angle_deg": -7.576004712945188,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 43,
+    "pts_ms": 1800,
+    "angle_deg": -7.578627384084818,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 45,
+    "pts_ms": 1867,
+    "angle_deg": -7.583175609776533,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 47,
+    "pts_ms": 1933,
+    "angle_deg": -7.592969832791496,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 49,
+    "pts_ms": 2000,
+    "angle_deg": -7.612240445338474,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 51,
+    "pts_ms": 2067,
+    "angle_deg": -7.559946786799613,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 53,
+    "pts_ms": 2133,
+    "angle_deg": -7.340830424011166,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 55,
+    "pts_ms": 2200,
+    "angle_deg": -6.845894336922664,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 57,
+    "pts_ms": 2267,
+    "angle_deg": -6.2276361586265265,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 59,
+    "pts_ms": 2333,
+    "angle_deg": -5.685635682728432,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 61,
+    "pts_ms": 2400,
+    "angle_deg": -5.302010891619991,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 63,
+    "pts_ms": 2483,
+    "angle_deg": -4.844578728779695,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 65,
+    "pts_ms": 2567,
+    "angle_deg": -4.356822355102491,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 67,
+    "pts_ms": 2633,
+    "angle_deg": -4.020688882836112,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 69,
+    "pts_ms": 2733,
+    "angle_deg": -3.2210318878412085,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 71,
+    "pts_ms": 2817,
+    "angle_deg": -2.331667745710356,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 73,
+    "pts_ms": 2917,
+    "angle_deg": -1.222958940712093,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 75,
+    "pts_ms": 3000,
+    "angle_deg": -0.16479925303454723,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 77,
+    "pts_ms": 3100,
+    "angle_deg": 0.9852769177846578,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 79,
+    "pts_ms": 3217,
+    "angle_deg": 2.258057100956726,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 81,
+    "pts_ms": 3317,
+    "angle_deg": 3.3419725785050862,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 83,
+    "pts_ms": 3417,
+    "angle_deg": 4.642930856553148,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 85,
+    "pts_ms": 3517,
+    "angle_deg": 6.0030853517877745,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 87,
+    "pts_ms": 3617,
+    "angle_deg": 6.945790080738178,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 89,
+    "pts_ms": 3717,
+    "angle_deg": 7.686101694346502,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 91,
+    "pts_ms": 3800,
+    "angle_deg": 8.120485669015082,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 93,
+    "pts_ms": 3883,
+    "angle_deg": 8.448613072063207,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 95,
+    "pts_ms": 3983,
+    "angle_deg": 8.69074074074074,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 97,
+    "pts_ms": 4083,
+    "angle_deg": 8.761111111111111,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 99,
+    "pts_ms": 4183,
+    "angle_deg": 8.83148148148148,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 101,
+    "pts_ms": 4283,
+    "angle_deg": 8.901851851851852,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 103,
+    "pts_ms": 4383,
+    "angle_deg": 8.868518518518519,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 105,
+    "pts_ms": 4483,
+    "angle_deg": 8.55452356381149,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 107,
+    "pts_ms": 4600,
+    "angle_deg": 7.683952528379772,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 109,
+    "pts_ms": 4700,
+    "angle_deg": 6.356209150326797,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 111,
+    "pts_ms": 4800,
+    "angle_deg": 4.5739495798319325,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 113,
+    "pts_ms": 4900,
+    "angle_deg": 2.6598506069094303,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 115,
+    "pts_ms": 5000,
+    "angle_deg": 0.44159663865546206,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 117,
+    "pts_ms": 5100,
+    "angle_deg": -1.8888888888888888,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 119,
+    "pts_ms": 5200,
+    "angle_deg": -3.58983532349008,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 121,
+    "pts_ms": 5300,
+    "angle_deg": -4.54504311384747,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 123,
+    "pts_ms": 5383,
+    "angle_deg": -5.295953086126293,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 125,
+    "pts_ms": 5467,
+    "angle_deg": -6.2890947046578995,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 127,
+    "pts_ms": 5567,
+    "angle_deg": -7.430957190315009,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 129,
+    "pts_ms": 5667,
+    "angle_deg": -8.035654755107052,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 131,
+    "pts_ms": 5767,
+    "angle_deg": -8.392183288409704,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 133,
+    "pts_ms": 5850,
+    "angle_deg": -8.462871287128714,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 135,
+    "pts_ms": 5933,
+    "angle_deg": -8.293646084017587,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 137,
+    "pts_ms": 6000,
+    "angle_deg": -8.058487840906805,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 139,
+    "pts_ms": 6067,
+    "angle_deg": -7.771322236569131,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 141,
+    "pts_ms": 6150,
+    "angle_deg": -7.278134586598625,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 143,
+    "pts_ms": 6217,
+    "angle_deg": -6.66750521074887,
+    "was_inferred": true,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 145,
+    "pts_ms": 6300,
+    "angle_deg": -5.834708610464914,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 147,
+    "pts_ms": 6383,
+    "angle_deg": -5.206120624637121,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 149,
+    "pts_ms": 6467,
+    "angle_deg": -4.740436230486905,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 151,
+    "pts_ms": 6533,
+    "angle_deg": -4.316065250614706,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 153,
+    "pts_ms": 6617,
+    "angle_deg": -3.793995504731293,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 155,
+    "pts_ms": 6700,
+    "angle_deg": -3.0007365258625804,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 157,
+    "pts_ms": 6800,
+    "angle_deg": -2.1964346595675224,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 159,
+    "pts_ms": 6900,
+    "angle_deg": -1.96576611684956,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 161,
+    "pts_ms": 7000,
+    "angle_deg": -1.684692800263286,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 163,
+    "pts_ms": 7083,
+    "angle_deg": -1.3169208538606199,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 165,
+    "pts_ms": 7150,
+    "angle_deg": -0.9551881846816521,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 167,
+    "pts_ms": 7250,
+    "angle_deg": -0.27528826395419864,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 169,
+    "pts_ms": 7350,
+    "angle_deg": 0.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  },
+  {
+    "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+    "video_id": "V05",
+    "frame_index": 171,
+    "pts_ms": 7450,
+    "angle_deg": 0.0,
+    "was_inferred": false,
+    "processing_version": "ruler-beautify-A-v1"
+  }
+]

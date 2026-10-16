@@ -1,0 +1,10 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart: option A interpolates long gaps in time, smooths numbers, preserves raw
+00:00 +1: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart: zero anchors and endpoints work, all rejected stays blank, range stays hidden
+00:00 +2: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart: atomic dual persistence, cache, raw refresh and cancellation/deletion guards
+00:00 +3: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart: v4 additive tables backfill history, reopen unchanged and allow old-version access
+00:00 +4: loading D:/code/Scoliosis/ScoliosisFlutter/tool/ruler_option_a_review_test.dart
+00:01 +4: D:/code/Scoliosis/ScoliosisFlutter/tool/ruler_option_a_review_test.dart: option A: latest five DB migration, controller, XLSX and actual widget
+Shell: {"samples":485,"inferred":39,"remaining_gaps":0,"max_delta_degrees":1.9539925233402755e-14,"raw_unchanged":true,"export_values_verified":485,"dataset_sha256":"ba44c40a629a3442c4b87ac444f21116d473bdb62f151298d194371841b2dab4","captures":[{"video_id":"V01","count":115,"inferred":6,"peak_abs":8.771699857500792,"quality":"含推断值，请复核"},{"video_id":"V02","count":77,"inferred":4,"peak_abs":8.518869422814515,"quality":"含推断值，请复核"},{"video_id":"V03","count":112,"inferred":18,"peak_abs":8.749287749287749,"quality":"含推断值，请复核"},{"video_id":"V04","count":95,"inferred":2,"peak_abs":5.44644017785954,"quality":"含推断值，请复核"},{"video_id":"V05","count":86,"inferred":9,"peak_abs":8.901851851851852,"quality":"含推断值，请复核"}]}
+00:02 +5: All tests passed!

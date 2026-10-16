@@ -1,0 +1,8 @@
+{
+  "source_user_version": 4,
+  "source_has_beautification_tables": false,
+  "all_original_rows_unchanged": true,
+  "total_original_rows": 1416,
+  "beautification_validation_on_copy": true,
+  "test_isolation_repair": "Existing sidebar fixture now uses temporary workspace/global directories; only its newly created empty auxiliary tables were reverted."
+}
