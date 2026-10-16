@@ -1,0 +1,43 @@
+{
+  "version": "3.3.18",
+  "source_commit": "7323966ce2a6e5130cf89c7cc3cdbf0cc453f5cd",
+  "archive_sha256": "ae971494eb9ae8a18d4c564b64ce8d6f396516be461ca3ed0c9873a7e26ab480",
+  "installer_sha256": "1126e4211db09bc6e34e074b72f9b2100bc6fcc1d5195188aece2ef7d565bc9c",
+  "file_count": 45,
+  "complete_zip_readback": true,
+  "training_photos_and_python_environment_absent": true,
+  "native_files_from_zip": true,
+  "system_only_path": "C:\\Windows\\System32",
+  "native_manifest": {
+    "model.bin": "6f42f81bba1f3bf17d033c69394f27f836b36cf5757821e715ea05dedfb38be7",
+    "ruler_signed.dll": "62c51528b7199dcff3593c5aa496f10d89e7c56bc3a031fa775a0044d7370566"
+  },
+  "runtime_manifest_sha256": "6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18",
+  "probe_sha256": "5efe7d415f07db6140a731fa9163f4eefc6ff689ae7bd7ebacb90c8a8b3eea06",
+  "outputs": [
+    {
+      "sample_id": "V01_f000245_t009017ms",
+      "output": {
+        "angle_deg": 0.5,
+        "reason": 0,
+        "branch": 1,
+        "processing_ms": 26.495800018310547,
+        "manifest_sha256": "6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+      }
+    },
+    {
+      "sample_id": "V04_f000114_t004417ms",
+      "output": {
+        "angle_deg": null,
+        "reason": 8,
+        "branch": 2,
+        "processing_ms": 27.47510001063347,
+        "manifest_sha256": "6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+      }
+    }
+  ],
+  "limitations": [
+    "No clean virtual machine tested",
+    "Installer compiled, not installed over current application"
+  ]
+}

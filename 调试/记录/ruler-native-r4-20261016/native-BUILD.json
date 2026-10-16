@@ -1,0 +1,11 @@
+{
+  "algorithm_version": "ruler-signed-r4-native-v1",
+  "abi_version": 1,
+  "source_git_commit": "a48517ab4095769ff316e29ee94104c5ee733739",
+  "source_sha256": {
+    "tools/ruler-signed/ruler_signed.c": "de30abe3e921f32ab8968858d2406d375099f6150331e742ad72dc437fb8d483",
+    "tools/ruler-signed/ruler_signed.h": "aa0e48098d72bdb140a3a61cebb5e3a596d4dfdb783705a844d524ab4fe6e7ec"
+  },
+  "binary_sha256": "62c51528b7199dcff3593c5aa496f10d89e7c56bc3a031fa775a0044d7370566",
+  "runtime": "C11 /MT; Windows system WIC; no Python/OpenCV/NumPy"
+}

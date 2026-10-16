@@ -1,0 +1,633 @@
+{
+  "summary": {
+    "changed_count": 63,
+    "affected_count": 11,
+    "changed_files": 3,
+    "risk_level": "high"
+  },
+  "changed_symbols": [
+    {
+      "id": "Struct:ruler_signed.c:rs_context",
+      "name": "rs_context",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:now_ms",
+      "name": "now_ms",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:finish",
+      "name": "finish",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:reset",
+      "name": "reset",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:rd~shape:FILE:none:pointer:1|void:none:pointer:1|size_t:none:value:0",
+      "name": "rd",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:u32~shape:FILE:none:pointer:1|uint32_t:none:pointer:1",
+      "name": "u32",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:little_endian",
+      "name": "little_endian",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:rs_free",
+      "name": "rs_free",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:rs_load_w",
+      "name": "rs_load_w",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:hist_median",
+      "name": "hist_median",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:cmp_double",
+      "name": "cmp_double",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:sum32",
+      "name": "sum32",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:right",
+      "name": "right",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:left_feature",
+      "name": "left_feature",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:rs_analyze_gray8",
+      "name": "rs_analyze_gray8",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.c:rs_analyze_png_w",
+      "name": "rs_analyze_png_w",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:_CRT_SECURE_NO_WARNINGS",
+      "name": "_CRT_SECURE_NO_WARNINGS",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:COBJMACROS",
+      "name": "COBJMACROS",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:RW",
+      "name": "RW",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:RH",
+      "name": "RH",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:RN",
+      "name": "RN",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:LW",
+      "name": "LW",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:LH",
+      "name": "LH",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:LN",
+      "name": "LN",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:IW",
+      "name": "IW",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:IH",
+      "name": "IH",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:MAX_REFS",
+      "name": "MAX_REFS",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.c:MAX_ANCHORS",
+      "name": "MAX_ANCHORS",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:start",
+      "name": "start",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:end",
+      "name": "end",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:b",
+      "name": "b",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:second",
+      "name": "second",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:sx",
+      "name": "sx",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:xx",
+      "name": "xx",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:best_right",
+      "name": "best_right",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:best_count",
+      "name": "best_count",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:tail",
+      "name": "tail",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:maxx",
+      "name": "maxx",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:high",
+      "name": "high",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:d1",
+      "name": "d1",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:w1",
+      "name": "w1",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:status",
+      "name": "status",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:w",
+      "name": "w",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:ruler_signed.c:h",
+      "name": "h",
+      "filePath": "ruler_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.h:rs_load_w",
+      "name": "rs_load_w",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.h:rs_analyze_gray8",
+      "name": "rs_analyze_gray8",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.h:rs_analyze_png_w",
+      "name": "rs_analyze_png_w",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:ruler_signed.h:rs_free",
+      "name": "rs_free",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.h:RULER_SIGNED_H",
+      "name": "RULER_SIGNED_H",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Macro:ruler_signed.h:RS_API",
+      "name": "RS_API",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Typedef:ruler_signed.h:rs_context",
+      "name": "rs_context",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:ruler_signed.h:rs_context",
+      "name": "rs_context",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:ruler_signed.h:rs_result",
+      "name": "rs_result",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:ruler_signed.h:status",
+      "name": "status",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:ruler_signed.h:reason",
+      "name": "reason",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:ruler_signed.h:branch",
+      "name": "branch",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:ruler_signed.h:reserved",
+      "name": "reserved",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:ruler_signed.h:angle_deg",
+      "name": "angle_deg",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:ruler_signed.h:point_x",
+      "name": "point_x",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:ruler_signed.h:point_y",
+      "name": "point_y",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:ruler_signed.h:elapsed_ms",
+      "name": "elapsed_ms",
+      "filePath": "ruler_signed.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:test_signed.c:main",
+      "name": "main",
+      "filePath": "test_signed.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:test_signed.c:status",
+      "name": "status",
+      "filePath": "test_signed.c",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_0_main",
+      "name": "Main → Rd",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "rs_load_w",
+          "step": 2
+        },
+        {
+          "symbol": "u32",
+          "step": 3
+        },
+        {
+          "symbol": "rd",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_1_main",
+      "name": "Main → Hist_median",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "rs_analyze_gray8",
+          "step": 2
+        },
+        {
+          "symbol": "right",
+          "step": 3
+        },
+        {
+          "symbol": "hist_median",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_2_main",
+      "name": "Main → Finish",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "rs_analyze_gray8",
+          "step": 2
+        },
+        {
+          "symbol": "right",
+          "step": 3
+        },
+        {
+          "symbol": "finish",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_3_rs_analyze_png_w",
+      "name": "Rs_analyze_png_w → Hist_median",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "rs_analyze_png_w",
+          "step": 1
+        },
+        {
+          "symbol": "rs_analyze_gray8",
+          "step": 2
+        },
+        {
+          "symbol": "right",
+          "step": 3
+        },
+        {
+          "symbol": "hist_median",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_4_rs_analyze_png_w",
+      "name": "Rs_analyze_png_w → Finish",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "rs_analyze_png_w",
+          "step": 1
+        },
+        {
+          "symbol": "rs_analyze_gray8",
+          "step": 2
+        },
+        {
+          "symbol": "right",
+          "step": 3
+        },
+        {
+          "symbol": "finish",
+          "step": 4
+        }
+      ]
+    },
+    {
+      "id": "proc_5_main",
+      "name": "Main → Little_endian",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "rs_load_w",
+          "step": 2
+        },
+        {
+          "symbol": "little_endian",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_6_main",
+      "name": "Main → Rs_free",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "rs_load_w",
+          "step": 2
+        },
+        {
+          "symbol": "rs_free",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_7_main",
+      "name": "Main → Reset",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "rs_analyze_gray8",
+          "step": 2
+        },
+        {
+          "symbol": "reset",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_8_main",
+      "name": "Main → Now_ms",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "main",
+          "step": 1
+        },
+        {
+          "symbol": "rs_analyze_gray8",
+          "step": 2
+        },
+        {
+          "symbol": "now_ms",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_9_rs_analyze_png_w",
+      "name": "Rs_analyze_png_w → Reset",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "rs_analyze_png_w",
+          "step": 1
+        },
+        {
+          "symbol": "rs_analyze_gray8",
+          "step": 2
+        },
+        {
+          "symbol": "reset",
+          "step": 3
+        }
+      ]
+    },
+    {
+      "id": "proc_10_rs_analyze_png_w",
+      "name": "Rs_analyze_png_w → Now_ms",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "rs_analyze_png_w",
+          "step": 1
+        },
+        {
+          "symbol": "rs_analyze_gray8",
+          "step": 2
+        },
+        {
+          "symbol": "now_ms",
+          "step": 3
+        }
+      ]
+    }
+  ]
+}
+
+---
+**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/scoliosis-ruler-signed-20261016/process/{name} for full execution traces.

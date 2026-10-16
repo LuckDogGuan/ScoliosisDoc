@@ -1,0 +1,11 @@
+{
+  "runtime_directory": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\signed-system-path-1792137789793",
+  "path": "C:\\Windows\\System32",
+  "exit_code": 0,
+  "output": "{\"angle_deg\":null,\"reason\":8,\"branch\":2,\"processing_ms\":28.00799998641014,\"manifest_sha256\":\"6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18\"}",
+  "dll_sha256": "62c51528b7199dcff3593c5aa496f10d89e7c56bc3a031fa775a0044d7370566",
+  "claim": "AOT Dart FFI isolate probe with isolated runtime and System32-only PATH; dependency audit, not clean-VM acceptance",
+  "valid_sample_id": "V01_f000245_t009017ms",
+  "valid_sample_output": "{\"angle_deg\":0.5,\"reason\":0,\"branch\":1,\"processing_ms\":27.404599994421005,\"manifest_sha256\":\"6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18\"}",
+  "valid_sample_exit_code": 0
+}

@@ -1,0 +1,26 @@
+{
+  "version": "3.3.18+20261016",
+  "algorithm_version": "ruler-signed-r4-native-v1",
+  "flutter_integration_commit": "e88d2ec6fe05b9a56af07c69a9f458de47f29831",
+  "flutter_release_source_commit": "7323966ce2a6e5130cf89c7cc3cdbf0cc453f5cd",
+  "native_source_repository": "WSL /home/guanjx/luckfox/Scoliosis",
+  "native_source_commit": "a48517ab4095769ff316e29ee94104c5ee733739",
+  "export_verification_tools_commit": "004f0d3",
+  "release_directory": "D:\\code\\Scoliosis\\ScoliosisFlutter\\releases\\windows-3.3.18-7323966",
+  "archive": "scoliosis-windows-3.3.18.zip",
+  "archive_sha256": "ae971494eb9ae8a18d4c564b64ce8d6f396516be461ca3ed0c9873a7e26ab480",
+  "installer": "Scoliosis-3.3.18-Setup.exe",
+  "installer_sha256": "1126e4211db09bc6e34e074b72f9b2100bc6fcc1d5195188aece2ef7d565bc9c",
+  "dll_sha256": "62c51528b7199dcff3593c5aa496f10d89e7c56bc3a031fa775a0044d7370566",
+  "model_sha256": "6f42f81bba1f3bf17d033c69394f27f836b36cf5757821e715ea05dedfb38be7",
+  "native_manifest_sha256": "6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18",
+  "release_verification": "final-release-verification.json",
+  "numeric_verification": "crossmatrix-verification.json",
+  "scope": "Formal recorded-video analysis only; realtime preview unchanged; completed history retained",
+  "deployment": "Local release archive only; existing application and board not updated",
+  "remaining_acceptance": [
+    "Installation and analysis on a clean PC or clean VM without Python/OpenCV",
+    "Actual installed-app UI acceptance",
+    "Independent cross-instrument accuracy validation"
+  ]
+}

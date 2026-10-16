@@ -1,0 +1,13 @@
+{
+  "dll_sha256": "62c51528b7199dcff3593c5aa496f10d89e7c56bc3a031fa775a0044d7370566",
+  "model_sha256": "6f42f81bba1f3bf17d033c69394f27f836b36cf5757821e715ea05dedfb38be7",
+  "dll_module_load_ms": 2.2339999850373715,
+  "model_context_load": {
+    "count": 20,
+    "first_ms": 2.5110999995376915,
+    "p50_ms": 2.478249996784143,
+    "p95_ms": 2.724204985133838,
+    "max_ms": 2.8876999858766794
+  },
+  "scope": "C model parameter load and validation, excludes Dart manifest hashing, per-image decode and UI; OS filesystem cache state not controlled"
+}

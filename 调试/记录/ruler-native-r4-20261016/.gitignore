@@ -1,0 +1,17 @@
+# Local export/invalid-input fixtures are reproducible, not release artifacts.
+*.bin
+*.dll
+*.exe
+*.png
+*.jpg
+*.pdb
+*.lib
+*.exp
+# Earlier local iterations and reproducible export fixtures.
+native-verification-01/
+native-verification-02/
+reference-export/
+reference-export-native/
+native-performance-01.json
+native-performance-02.json
+*-before-lf-normalization.json

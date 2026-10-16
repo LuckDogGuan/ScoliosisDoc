@@ -1,0 +1,23 @@
+DLL SHA256: 62c51528b7199dcff3593c5aa496f10d89e7c56bc3a031fa775a0044d7370566
+Microsoft (R) COFF/PE Dumper Version 14.29.30159.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file thirdPartyLibrary\ruler-signed\ruler_signed.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    WindowsCodecs.dll
+    ole32.dll
+    KERNEL32.dll
+
+  Summary
+
+        2000 .data
+        2000 .pdata
+        A000 .rdata
+        1000 .reloc
+       11000 .text
+        1000 _RDATA

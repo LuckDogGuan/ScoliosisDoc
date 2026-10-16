@@ -1,0 +1,189 @@
+{
+  "summary": {
+    "changed_count": 21,
+    "affected_count": 4,
+    "changed_files": 24,
+    "risk_level": "medium"
+  },
+  "changed_symbols": [
+    {
+      "id": "Property:lib/analysis/angle_analysis.dart:AngleAnalyzer.fixtureRoot",
+      "name": "fixtureRoot",
+      "filePath": "lib/analysis/angle_analysis.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/analysis/angle_analysis.dart:AngleAnalyzer",
+      "name": "AngleAnalyzer",
+      "filePath": "lib/analysis/angle_analysis.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/analysis/angle_analysis.dart:AngleAnalyzer._run#2",
+      "name": "_run",
+      "filePath": "lib/analysis/angle_analysis.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/app/app_controller.dart:AppController",
+      "name": "AppController",
+      "filePath": "lib/app/app_controller.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/db/app_database.dart:AppDatabase",
+      "name": "AppDatabase",
+      "filePath": "lib/db/app_database.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/capture_results.dart:_SpineResultsState",
+      "name": "_SpineResultsState",
+      "filePath": "lib/ui/capture_results.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:lib/ui/capture_results.dart:deleteCaptureDialog",
+      "name": "deleteCaptureDialog",
+      "filePath": "lib/ui/capture_results.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/record_detail.dart:RecordCurvePreview.controller",
+      "name": "controller",
+      "filePath": "lib/ui/record_detail.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/record_detail.dart:RecordCurvePreview.row",
+      "name": "row",
+      "filePath": "lib/ui/record_detail.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/record_detail.dart:RecordCurvePreview.build#1",
+      "name": "build",
+      "filePath": "lib/ui/record_detail.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/record_detail.dart:RecordRowsTable",
+      "name": "RecordRowsTable",
+      "filePath": "lib/ui/record_detail.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/record_detail.dart:RecordCurvePreview",
+      "name": "RecordCurvePreview",
+      "filePath": "lib/ui/record_detail.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/widgets.dart:JumpBanner.message",
+      "name": "message",
+      "filePath": "lib/ui/widgets.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/widgets.dart:JumpBanner.action",
+      "name": "action",
+      "filePath": "lib/ui/widgets.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Property:lib/ui/widgets.dart:JumpBanner.onPressed",
+      "name": "onPressed",
+      "filePath": "lib/ui/widgets.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:lib/ui/widgets.dart:JumpBanner.build#1",
+      "name": "build",
+      "filePath": "lib/ui/widgets.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:lib/ui/widgets.dart:JumpBanner",
+      "name": "JumpBanner",
+      "filePath": "lib/ui/widgets.dart",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/package_windows_release.py:publish",
+      "name": "publish",
+      "filePath": "tool/package_windows_release.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tool/test_package_windows_release.py:PackagingTests.fake_compile",
+      "name": "fake_compile",
+      "filePath": "tool/test_package_windows_release.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Method:tool/test_package_windows_release.py:PackagingTests.test_missing_compiler_and_repeated_publication_leave_original_unchanged#0",
+      "name": "test_missing_compiler_and_repeated_publication_leave_original_unchanged",
+      "filePath": "tool/test_package_windows_release.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Class:tool/test_package_windows_release.py:PackagingTests",
+      "name": "PackagingTests",
+      "filePath": "tool/test_package_windows_release.py",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_97_build",
+      "name": "Build → Cancel",
+      "process_type": "intra_community",
+      "step_count": 5,
+      "changed_steps": [
+        {
+          "symbol": "deleteCaptureDialog",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_234_build",
+      "name": "Build → CancelUpload",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "deleteCaptureDialog",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_235_build",
+      "name": "Build → Write",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "deleteCaptureDialog",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_236_build",
+      "name": "Build → CanDeleteRecord",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "deleteCaptureDialog",
+          "step": 2
+        }
+      ]
+    }
+  ]
+}
+
+---
+**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/ScoliosisFlutter/process/{name} for full execution traces.

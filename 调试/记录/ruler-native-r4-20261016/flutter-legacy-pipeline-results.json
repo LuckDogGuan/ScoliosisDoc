@@ -1,0 +1,19 @@
+{
+  "algorithm_version": "thirdPartyLibrary-ruler-video-v1",
+  "manifest_sha256": "4fa5f1e1ef5177fd6d2f783c899b70308f950c589a6ccb56be67d59092982c9e",
+  "videos": [
+    {
+      "video_id": "V01",
+      "analysis_status": "done",
+      "analysis_error": null,
+      "stopped_at_60_seconds": false,
+      "source_sha256": "c1da99a193d7fd5fc7bee79a7a6720dad16838cb1d31d9a82449e1ae59af31b1",
+      "wall_ms": 46162.415,
+      "samples": 75,
+      "valid": 0,
+      "last_pts_ms": 14517,
+      "includes": "video hash, ffprobe, PNG extraction, reader load/decode/compute, per-frame SQLite persistence"
+    }
+  ],
+  "original_videos_modified": false
+}

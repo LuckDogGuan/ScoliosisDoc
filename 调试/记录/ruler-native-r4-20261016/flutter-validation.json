@@ -1,0 +1,30 @@
+{
+  "version": "3.3.18+20261016",
+  "full_flutter_tests": {
+    "command": "flutter test --no-pub --concurrency=1",
+    "passed": 156,
+    "failed": 0,
+    "elapsed_seconds": 104
+  },
+  "native_smoke": {
+    "command": "flutter test --no-pub --concurrency=1 tool/signed_native_smoke_test.dart",
+    "passed": 3,
+    "failed": 0,
+    "dll_sha256": "62c51528b7199dcff3593c5aa496f10d89e7c56bc3a031fa775a0044d7370566"
+  },
+  "packaging_unit_tests": {
+    "command": "python -m unittest test_package_windows_release.py",
+    "passed": 4,
+    "failed": 0
+  },
+  "static_analysis": "dart analyze lib and new signed tools/tests: No issues found",
+  "scope": "formal recorded video only; live preview source unchanged; completed history unchanged",
+  "limitations": [
+    "No clean virtual-machine acceptance performed",
+    "No installation over the current user workspace",
+    "Final packaged DLL/model hashes recorded separately after native verification"
+  ],
+  "final_manifest_sha256": "6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18",
+  "final_source_commit": "7323966ce2a6e5130cf89c7cc3cdbf0cc453f5cd",
+  "final_build": "flutter build windows --release --no-pub passed; 3.3.18+20261016"
+}

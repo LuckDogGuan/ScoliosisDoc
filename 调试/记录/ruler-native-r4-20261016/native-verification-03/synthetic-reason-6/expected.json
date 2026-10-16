@@ -1,0 +1,32 @@
+{
+  "source_id": "V04_f000221_t008883ms",
+  "anchors": [
+    [
+      100.0,
+      0.0,
+      "start"
+    ],
+    [
+      500.0,
+      2.0,
+      "peak"
+    ],
+    [
+      1100.0,
+      0.0,
+      "end"
+    ]
+  ],
+  "expected": {
+    "angle_deg": null,
+    "reason": "nonmonotonic_calibration",
+    "point": {
+      "x": 932,
+      "y": 180.0,
+      "area": 13253,
+      "edge_gradient": 34.29538345336914
+    },
+    "branch": "right_edge_rejected"
+  },
+  "purpose": "Diagnostic branch equivalence only; not training or accuracy data"
+}
