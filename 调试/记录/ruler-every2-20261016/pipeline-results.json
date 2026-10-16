@@ -1,0 +1,55 @@
+{
+  "algorithm_version": "ruler-signed-r4-native-v1",
+  "manifest_sha256": "6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18",
+  "videos": [
+    {
+      "video_id": "V01",
+      "analysis_status": "done",
+      "analysis_error": null,
+      "stopped_at_60_seconds": false,
+      "source_sha256": "c1da99a193d7fd5fc7bee79a7a6720dad16838cb1d31d9a82449e1ae59af31b1",
+      "wall_ms": 15787.797,
+      "samples": 187,
+      "valid": 179,
+      "last_pts_ms": 14567,
+      "includes": "video hash, ffprobe, PNG extraction, reader load/decode/compute, per-frame SQLite persistence"
+    },
+    {
+      "video_id": "V02",
+      "analysis_status": "done",
+      "analysis_error": null,
+      "stopped_at_60_seconds": false,
+      "source_sha256": "a7c0ab0d00b64bcead679f29f3e41a889e684021ad6e4796a3bfdc037f60ddfd",
+      "wall_ms": 15088.383,
+      "samples": 187,
+      "valid": 185,
+      "last_pts_ms": 14633,
+      "includes": "video hash, ffprobe, PNG extraction, reader load/decode/compute, per-frame SQLite persistence"
+    },
+    {
+      "video_id": "V03",
+      "analysis_status": "done",
+      "analysis_error": null,
+      "stopped_at_60_seconds": false,
+      "source_sha256": "0354ea53fe787cf8744e311ba00fa137bcb739e98afa9794a19ed1ba563ed3fa",
+      "wall_ms": 12879.196,
+      "samples": 167,
+      "valid": 161,
+      "last_pts_ms": 13467,
+      "includes": "video hash, ffprobe, PNG extraction, reader load/decode/compute, per-frame SQLite persistence"
+    },
+    {
+      "video_id": "V04",
+      "analysis_status": "done",
+      "analysis_error": null,
+      "stopped_at_60_seconds": false,
+      "source_sha256": "6715d8574c2fc230c22b8c1d134656dbd6acdc901c59454b856a169f58aee986",
+      "wall_ms": 13470.529,
+      "samples": 143,
+      "valid": 130,
+      "last_pts_ms": 11617,
+      "includes": "video hash, ffprobe, PNG extraction, reader load/decode/compute, per-frame SQLite persistence"
+    }
+  ],
+  "original_videos_modified": false
+}
