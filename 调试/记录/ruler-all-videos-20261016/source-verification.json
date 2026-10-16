@@ -1,0 +1,11 @@
+{
+  "source_videos_verified_unchanged": 10,
+  "source_original_angles_sha256": "b678632a3b1e129498e73c47c779ab6685a2dfcbbd814491e7391fb336ef7b28",
+  "source_original_angle_rows": 1416,
+  "source_existing_record_states_unchanged": true,
+  "source_db_user_version": 4,
+  "backup_path": "D:/code/Scoliosis/ScoliosisFlutter/build/all-videos-source-backup-20261016.sqlite3",
+  "tested_release": "3.3.21-d696b78",
+  "sampling": "every second frame; original size and PTS",
+  "missing_video_files": 10
+}

@@ -1,0 +1,9 @@
+{
+  "videos": 10,
+  "completed": 4,
+  "failed": 6,
+  "samples": 1413,
+  "raw_valid": 655,
+  "inferred": 29,
+  "wall_seconds": 94.80114900000001
+}

@@ -1,0 +1,3 @@
+# Unused extraction frames; reviewed strips and video posters are retained.
+/frames/*_0.png
+/frames/*_2.png
