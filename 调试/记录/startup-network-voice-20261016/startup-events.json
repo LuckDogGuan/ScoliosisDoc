@@ -1,0 +1,205 @@
+[
+  {
+    "monotonic_ms": 2153,
+    "utc_ms": 1792114384471,
+    "event": "application_started",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "{\"system_boot_id\":\"9588dbc6-0aaf-4e62-9b85-78de00ac8268\",\"pid\":162,\"version\":\"3.3.14\"}",
+    "system_boot_id": "9588dbc6-0aaf-4e62-9b85-78de00ac8268",
+    "pid": 162,
+    "version": "3.3.14"
+  },
+  {
+    "monotonic_ms": 2497,
+    "utc_ms": 1792114384815,
+    "event": "status_light",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "unavailable"
+  },
+  {
+    "monotonic_ms": 2497,
+    "utc_ms": 1792114384815,
+    "event": "slow_loop",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "{\"total_ms\":343,\"control_ms\":1,\"workers_ms\":0,\"udp_ms\":0,\"maintenance_ms\":0,\"lights_ms\":342}",
+    "total_ms": 343,
+    "control_ms": 1,
+    "workers_ms": 0,
+    "udp_ms": 0,
+    "maintenance_ms": 0,
+    "lights_ms": 342
+  },
+  {
+    "monotonic_ms": 2508,
+    "utc_ms": 1792114384826,
+    "event": "buttons",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "{\"key_mask\":0}",
+    "key_mask": 0
+  },
+  {
+    "monotonic_ms": 2508,
+    "utc_ms": 1792114384826,
+    "event": "network_snapshot",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "gateway=0 wifi=0 failures=1 state=unknown initial=1"
+  },
+  {
+    "monotonic_ms": 2509,
+    "utc_ms": 1792114384827,
+    "event": "status_light",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "unavailable"
+  },
+  {
+    "monotonic_ms": 4604,
+    "utc_ms": 1792114386922,
+    "event": "prompt_complete",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "success"
+  },
+  {
+    "monotonic_ms": 7538,
+    "utc_ms": 1792114389856,
+    "event": "status_light",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "slow"
+  },
+  {
+    "monotonic_ms": 7539,
+    "utc_ms": 1792114389857,
+    "event": "slow_loop",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "{\"total_ms\":381,\"control_ms\":0,\"workers_ms\":0,\"udp_ms\":0,\"maintenance_ms\":0,\"lights_ms\":381}",
+    "total_ms": 381,
+    "control_ms": 0,
+    "workers_ms": 0,
+    "udp_ms": 0,
+    "maintenance_ms": 0,
+    "lights_ms": 381
+  },
+  {
+    "monotonic_ms": 12374,
+    "utc_ms": 1792114394692,
+    "event": "network_snapshot",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "gateway=1 wifi=1 failures=0 state=available initial=1"
+  },
+  {
+    "monotonic_ms": 14527,
+    "utc_ms": 1792114396845,
+    "event": "udp_exchange",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "{\"op\":\"hello_query\",\"device_id\":\"CAM-211ec7045815bf02\",\"host_id\":\"usb-flash-tool\",\"sequence\":0,\"nonce\":\"78b657fd351140d28bdbceef9460117e\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:54772\",\"ok\":true}",
+    "op": "hello_query",
+    "device_id": "CAM-211ec7045815bf02",
+    "host_id": "usb-flash-tool",
+    "sequence": 0,
+    "nonce": "78b657fd351140d28bdbceef9460117e",
+    "direction": "pc_to_board",
+    "source_endpoint": "127.0.0.1:54772",
+    "ok": true
+  },
+  {
+    "monotonic_ms": 14766,
+    "utc_ms": 1792114397084,
+    "event": "prompt_complete",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "success"
+  },
+  {
+    "monotonic_ms": 14917,
+    "utc_ms": 1792114397235,
+    "event": "udp_exchange",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "{\"op\":\"hello_query\",\"device_id\":\"CAM-211ec7045815bf02\",\"host_id\":\"usb-flash-tool\",\"sequence\":0,\"nonce\":\"e2a641ab95e94d0c90364c6fa5e0a74d\",\"direction\":\"pc_to_board\",\"source_endpoint\":\"127.0.0.1:36678\",\"ok\":true}",
+    "op": "hello_query",
+    "device_id": "CAM-211ec7045815bf02",
+    "host_id": "usb-flash-tool",
+    "sequence": 0,
+    "nonce": "e2a641ab95e94d0c90364c6fa5e0a74d",
+    "direction": "pc_to_board",
+    "source_endpoint": "127.0.0.1:36678",
+    "ok": true
+  },
+  {
+    "monotonic_ms": 22423,
+    "utc_ms": 1792114404741,
+    "event": "network_snapshot",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "gateway=1 wifi=1 failures=0 state=available initial=0"
+  },
+  {
+    "monotonic_ms": 32473,
+    "utc_ms": 1792114414791,
+    "event": "network_snapshot",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "gateway=1 wifi=1 failures=0 state=available initial=0"
+  },
+  {
+    "monotonic_ms": 42511,
+    "utc_ms": 1792114424829,
+    "event": "network_snapshot",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "gateway=1 wifi=1 failures=0 state=available initial=0"
+  },
+  {
+    "monotonic_ms": 52551,
+    "utc_ms": 1792114434869,
+    "event": "network_snapshot",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "gateway=1 wifi=1 failures=0 state=available initial=0"
+  },
+  {
+    "monotonic_ms": 62579,
+    "utc_ms": 1792114444897,
+    "event": "network_snapshot",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "gateway=1 wifi=1 failures=0 state=available initial=0"
+  },
+  {
+    "monotonic_ms": 72621,
+    "utc_ms": 1792114454939,
+    "event": "network_snapshot",
+    "capture_id": "",
+    "gate_id": "",
+    "boot_id": "CAM-211ec7045815bf02-6144fcf7",
+    "detail": "gateway=1 wifi=1 failures=0 state=available initial=0"
+  }
+]

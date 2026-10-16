@@ -1,0 +1,15 @@
+{
+  "version": "3.3.14",
+  "build": "version=3.3.14\nrelease_tag=instrument-v3.3.14\nsource_commit=dff5e1e54e9478f059f2c33bf9f22710216a0b6c\nbuild_utc=2026-10-16T01:31:29Z\n",
+  "package_sha256": "247f134701a12f83f8fe05ba6556c1449f25f010d241092813efd8a177a967f8",
+  "app_sha256": "b0b9e61f703e8af1ec18acc722148a3038240a01678adad84ae69ce30669b1eb",
+  "source_commit": "dff5e1e54e9478f059f2c33bf9f22710216a0b6c",
+  "archive_commit": "242eee0",
+  "tag": "instrument-v3.3.14",
+  "voice_source_commit": "46ec53f",
+  "package_path": "\\\\wsl.localhost\\Luckfox-Ubuntu-22.04\\home\\guanjx\\luckfox\\Scoliosis\\releases\\3.3.14\\instrument-v3.3.14.tar.gz",
+  "preflight_report": "调试/工具/一键烧录/release/记录/20261016-093201-211ec7045815bf02-21a6ab",
+  "install_report": "调试/工具/一键烧录/release/记录/20261016-093236-211ec7045815bf02-0d30c6",
+  "backup": "/opt/instrument/backups/bundle-20261016T013249Z-2157",
+  "backup_audit_sha256": "19c65d19ff2a426b6be949a096f54dc1b2c063c994e364eeb36e33b78344fb7b"
+}

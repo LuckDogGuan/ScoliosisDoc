@@ -1,0 +1,1 @@
+frames=175 packets=1117 span=2.97s fps=58.6

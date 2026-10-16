@@ -1,0 +1,15 @@
+{
+  "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\tool\\wifi_camera_board_test.dart",
+  "source_sha256": "982468e6a229022fec8133f4842aab5b0c9b46611eb6fb8fec63a466d53420da",
+  "fixture": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\voice_acceptance_20261016_test.dart",
+  "fixture_sha256": "3ee49223d95435f255c31f463b2a2f45fae0d361d67d15d8f51b5f74e8c05ab1",
+  "adaptations": [
+    "serverPort=18080",
+    "firmware discovery seed 3.3.14",
+    "temporary independent host identity",
+    "unpair test host on exit"
+  ],
+  "root": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\wifi-camera-acceptance-20261016-voice",
+  "native_ui_left_running": true,
+  "button_input": "existing file input on real board; physical buttons not manually accepted"
+}

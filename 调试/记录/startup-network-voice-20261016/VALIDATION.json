@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-16",
+  "device": "CAM-211ec7045815bf02",
+  "serial": "211ec7045815bf02",
+  "install_transport": "USB/ADB",
+  "business_transport": "Wi-Fi 192.168.101.7",
+  "firmware": "3.3.14",
+  "build": "dff5e1e54e94",
+  "package_sha256": "247f134701a12f83f8fe05ba6556c1449f25f010d241092813efd8a177a967f8",
+  "install_verification": "PASS",
+  "software_reboot_verified": true,
+  "installed_files_verified": true,
+  "install_config_pairing_wifi_retained": true,
+  "final_config_wifi_hashes_match_baseline": true,
+  "volume": 20,
+  "host_tests": [
+    "test_startup_network_prompts.py",
+    "test_boot_audio_isolation.py",
+    "test_capture_audio_failure.py",
+    "test_speech_focus.py"
+  ],
+  "arm_build": "PASS -Wall -Wextra -Werror",
+  "startup_audio": {
+    "observed_wavs": [
+      "boot_ready.wav",
+      "wifi_connected.wav"
+    ],
+    "successful_completions": 2
+  },
+  "network_audio": {
+    "observed_wavs": [
+      "wifi_disconnected.wav",
+      "wifi_restored.wav"
+    ],
+    "successful_completions": 2,
+    "duplicate_disconnects": 0,
+    "final_state": "available"
+  },
+  "camera": {
+    "first_frame_ms": 566,
+    "preview_ms": 30065,
+    "decoded_preview_frames": 30,
+    "captures": 5,
+    "duration_ms": [
+      4841,
+      5192,
+      6539,
+      7968,
+      9852
+    ],
+    "decoded_video_frames": [
+      128,
+      137,
+      174,
+      209,
+      263
+    ],
+    "uploads_and_anonymous_student_associations": "PASS",
+    "diagnostic_build": "dff5e1e54e94",
+    "final_normal_runtime_rtsp": "PASS - RTP marker probe only; full decoding evidence is the five MP4s"
+  },
+  "final_state": {
+    "normal_gpio_input": true,
+    "phase": "idle",
+    "wifi_state": "available",
+    "paired_host_id": "",
+    "capture_gate": false,
+    "writing_empty": true,
+    "pending_video_empty": true,
+    "old_pending_metadata_retained": 3,
+    "mount_path": "/",
+    "old_failed_videos_retained": true
+  },
+  "pairing_note": "Installer preserved original pairing exactly. After the interrupted interval live pairing was observed empty. Camera acceptance used an independent test identity and normal pair/unpair; final device remains unpaired.",
+  "limitations": [
+    "Speaker audibility and physical button feel need on-site confirmation.",
+    "No cold power cycle was performed.",
+    "Real camera and Wi-Fi were used; gestures used the existing input-file mode, removed afterward.",
+    "Isolated controller fixture used port 18080; native 3.3.17 UI stayed open. This is not automated GUI acceptance."
+  ],
+  "auxiliary_failure": "First network monitor file was missing; repeated with verified monitor and scheduled recovery. Only the complete repeated run supports the audio verdict.",
+  "rollback": "/opt/instrument/backups/bundle-20261016T013249Z-2157",
+  "gitnexus": "Version macro impact LOW. Precommit version/archive reports LOW; binary scope checked manually against four staged release files and hashes."
+}
