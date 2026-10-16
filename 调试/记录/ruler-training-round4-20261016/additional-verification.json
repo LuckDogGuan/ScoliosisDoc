@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "cli_saved_model_matches": true,
+  "csv_json_counts_match": true,
+  "historical_input_hashes_match": 156,
+  "artifact_hashes_match": 9,
+  "total": 62,
+  "readings": 60,
+  "rejected": 2,
+  "within_half_degree": 59,
+  "latest_reviewed_labels": 12,
+  "previous_human_values_not_rereviewed": 50,
+  "overview_image_visually_checked": true,
+  "production_deployed": false
+}

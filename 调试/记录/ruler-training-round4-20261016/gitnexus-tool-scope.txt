@@ -1,0 +1,32 @@
+{
+  "summary": {
+    "changed_count": 3,
+    "affected_count": 0,
+    "changed_files": 1,
+    "risk_level": "low"
+  },
+  "changed_symbols": [
+    {
+      "id": "Function:调试/工具/ruler_train_reviewed.py:sha",
+      "name": "sha",
+      "filePath": "调试/工具/ruler_train_reviewed.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_train_reviewed.py:dump",
+      "name": "dump",
+      "filePath": "调试/工具/ruler_train_reviewed.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:调试/工具/ruler_train_reviewed.py:main",
+      "name": "main",
+      "filePath": "调试/工具/ruler_train_reviewed.py",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": []
+}
+
+---
+**Next:** Review affected processes. Use context() on high-risk changed symbols. READ gitnexus://repo/Luckfox/process/{name} for full execution traces.

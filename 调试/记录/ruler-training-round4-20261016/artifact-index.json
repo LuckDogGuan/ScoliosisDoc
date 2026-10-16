@@ -1,0 +1,38 @@
+{
+  "62张预测总览.jpg": {
+    "bytes": 867626,
+    "sha256": "772da60d7c6fece4764da5e55ffd568189c340856fffefd7bcef2abb94149820"
+  },
+  "labels.json": {
+    "bytes": 69656,
+    "sha256": "fd4f8d4fbde6afda546701f4176a085ecc0eec11409a279de635dc5b90246636"
+  },
+  "predict.py": {
+    "bytes": 846,
+    "sha256": "d6ad8ea10ad54e47598efa58da461084e94c7a56d7a63b398e3c56c2f822f954"
+  },
+  "signed-model.json": {
+    "bytes": 53009,
+    "sha256": "617d6fbc32afe9fa9293ed2e0d964eeeab5a8f41dc0a813b02c14587d8969b4e"
+  },
+  "signed-model.npz": {
+    "bytes": 580999,
+    "sha256": "8ceb1cfca644b2525477d37b178f562db09d7b3af9f2f8f4d42feabc1cda346e"
+  },
+  "training-results.json": {
+    "bytes": 275193,
+    "sha256": "ecca6f388754f40621be15ff1067b26abcc04721524d5f84a32b259babce2494"
+  },
+  "verification.json": {
+    "bytes": 35049,
+    "sha256": "771a90cda69a8bf1d44b4edec87e3a3c0e0af12c34ca85a1be89d6dc5e2738c9"
+  },
+  "第四轮训练结果与简单原理.md": {
+    "bytes": 3771,
+    "sha256": "32f416a8bba3ff591c9c0f6d7ab5a6aa181b3194f239dc78c376b5f9a25584e4"
+  },
+  "逐图验证结果.csv": {
+    "bytes": 5832,
+    "sha256": "18a54277dedd56bbcb40745039306c139b18353751b081575aaa4525ac30d6d0"
+  }
+}
