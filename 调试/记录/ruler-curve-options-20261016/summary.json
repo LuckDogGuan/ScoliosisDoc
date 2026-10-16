@@ -1,0 +1,406 @@
+{
+  "source_workspace": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace",
+  "raw_dataset_sha256": "ba44c40a629a3442c4b87ac444f21116d473bdb62f151298d194371841b2dab4",
+  "stored_source_readings_unchanged": true,
+  "source_connection": "SQLite mode=ro plus query_only=ON; one read transaction",
+  "source_videos_present": 0,
+  "total_samples": 485,
+  "total_original_valid": 446,
+  "total_missing": 39,
+  "right_calibration_rejections": 14,
+  "methods": {
+    "A": {
+      "name": "轻度平滑",
+      "short": "直线补点＋局部加权平均",
+      "color": "#238465",
+      "detail": "缺口按时间直线连接，再做半径 0.18 秒的三角加权平均。变化小，保留更多原始起伏。",
+      "parameters": {
+        "gap": "linear",
+        "triangular_radius_seconds": 0.18
+      }
+    },
+    "B": {
+      "name": "均衡平滑",
+      "short": "保形补点＋局部多项式",
+      "color": "#2867ad",
+      "detail": "缺口用保形插值推断，再做约 0.55 秒窗口的三阶局部多项式平滑。尽量兼顾圆滑与峰值。",
+      "parameters": {
+        "gap": "pchip",
+        "grid_seconds": 0.02,
+        "smoothing_window_seconds": 0.55,
+        "polynomial_order": 3
+      }
+    },
+    "C": {
+      "name": "较强平滑",
+      "short": "双向卡尔曼推断",
+      "color": "#8451a3",
+      "detail": "将角度和变化速度一起估计，缺失时预测，再用整段前后信息校正。更顺滑，峰值和急转弯改变可能更大。",
+      "parameters": {
+        "process_noise_density": 6.0,
+        "measurement_std_degrees": 0.35,
+        "backward_smoothing": true
+      }
+    }
+  },
+  "captures": [
+    {
+      "review_id": "V01",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+      "local_time": "2026-10-16 16:57:13",
+      "sample_count": 115,
+      "valid_count": 109,
+      "missing_count": 6,
+      "max_missing_run": 4,
+      "gap_runs": [
+        {
+          "start_index": 22,
+          "end_index": 25,
+          "count": 4,
+          "first_time_s": 1.75,
+          "last_time_s": 2.0,
+          "bounded_span_s": 0.43400000000000016
+        },
+        {
+          "start_index": 94,
+          "end_index": 94,
+          "count": 1,
+          "first_time_s": 7.85,
+          "last_time_s": 7.85,
+          "bounded_span_s": 0.18299999999999983
+        },
+        {
+          "start_index": 106,
+          "end_index": 106,
+          "count": 1,
+          "first_time_s": 8.867,
+          "last_time_s": 8.867,
+          "bounded_span_s": 0.14999999999999858
+        }
+      ],
+      "raw_peak_abs_deg": 8.861300563877057,
+      "methods": {
+        "A": {
+          "peak_abs_deg": 8.771699857500792,
+          "minimum_deg": -8.771699857500792,
+          "maximum_deg": 6.049231693707613,
+          "inferred_count": 6,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.10008023830897228,
+          "maximum_change_at_measured_deg": 0.40886608134643865,
+          "peak_change_deg": -0.08960070637626494
+        },
+        "B": {
+          "peak_abs_deg": 8.803585721262865,
+          "minimum_deg": -8.803585721262865,
+          "maximum_deg": 6.116244767462547,
+          "inferred_count": 6,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.10837919401214545,
+          "maximum_change_at_measured_deg": 0.4749726987748928,
+          "peak_change_deg": -0.05771484261419246
+        },
+        "C": {
+          "peak_abs_deg": 8.702331228702144,
+          "minimum_deg": -8.702331228702144,
+          "maximum_deg": 5.738546683720442,
+          "inferred_count": 6,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.2509023855638578,
+          "maximum_change_at_measured_deg": 0.8470726976280818,
+          "peak_change_deg": -0.15896933517491263
+        }
+      }
+    },
+    {
+      "review_id": "V02",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+      "local_time": "2026-10-16 16:56:15",
+      "sample_count": 77,
+      "valid_count": 73,
+      "missing_count": 4,
+      "max_missing_run": 3,
+      "gap_runs": [
+        {
+          "start_index": 22,
+          "end_index": 22,
+          "count": 1,
+          "first_time_s": 1.783,
+          "last_time_s": 1.783,
+          "bounded_span_s": 0.15000000000000013
+        },
+        {
+          "start_index": 66,
+          "end_index": 68,
+          "count": 3,
+          "first_time_s": 5.85,
+          "last_time_s": 6.067,
+          "bounded_span_s": 0.40000000000000036
+        }
+      ],
+      "raw_peak_abs_deg": 8.580195046961679,
+      "methods": {
+        "A": {
+          "peak_abs_deg": 8.518869422814513,
+          "minimum_deg": -8.518869422814513,
+          "maximum_deg": 7.840600600600602,
+          "inferred_count": 4,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.1359900288103991,
+          "maximum_change_at_measured_deg": 0.5523023514244434,
+          "peak_change_deg": -0.061325624147166025
+        },
+        "B": {
+          "peak_abs_deg": 8.580195046961679,
+          "minimum_deg": -8.580195046961679,
+          "maximum_deg": 7.855555555555555,
+          "inferred_count": 4,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.16071826780687667,
+          "maximum_change_at_measured_deg": 0.569215128647536,
+          "peak_change_deg": 0.0
+        },
+        "C": {
+          "peak_abs_deg": 8.580195046961679,
+          "minimum_deg": -8.580195046961679,
+          "maximum_deg": 7.855555555555555,
+          "inferred_count": 4,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.5019577130860347,
+          "maximum_change_at_measured_deg": 1.2548587107399882,
+          "peak_change_deg": 0.0
+        }
+      }
+    },
+    {
+      "review_id": "V03",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+      "local_time": "2026-10-16 16:40:13",
+      "sample_count": 112,
+      "valid_count": 94,
+      "missing_count": 18,
+      "max_missing_run": 6,
+      "gap_runs": [
+        {
+          "start_index": 15,
+          "end_index": 18,
+          "count": 4,
+          "first_time_s": 1.267,
+          "last_time_s": 1.533,
+          "bounded_span_s": 0.43399999999999994
+        },
+        {
+          "start_index": 42,
+          "end_index": 46,
+          "count": 5,
+          "first_time_s": 3.683,
+          "last_time_s": 4.05,
+          "bounded_span_s": 0.5339999999999998
+        },
+        {
+          "start_index": 73,
+          "end_index": 78,
+          "count": 6,
+          "first_time_s": 6.317,
+          "last_time_s": 6.767,
+          "bounded_span_s": 0.6500000000000004
+        },
+        {
+          "start_index": 97,
+          "end_index": 97,
+          "count": 1,
+          "first_time_s": 8.55,
+          "last_time_s": 8.55,
+          "bounded_span_s": 0.20000000000000107
+        },
+        {
+          "start_index": 102,
+          "end_index": 103,
+          "count": 2,
+          "first_time_s": 9.017,
+          "last_time_s": 9.117,
+          "bounded_span_s": 0.26700000000000124
+        }
+      ],
+      "raw_peak_abs_deg": 8.75925925925926,
+      "methods": {
+        "A": {
+          "peak_abs_deg": 8.749287749287749,
+          "minimum_deg": -8.508545878786798,
+          "maximum_deg": 8.749287749287749,
+          "inferred_count": 18,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.1524500250462421,
+          "maximum_change_at_measured_deg": 1.1097787947782738,
+          "peak_change_deg": -0.009971509971510528
+        },
+        "B": {
+          "peak_abs_deg": 8.75925925925926,
+          "minimum_deg": -8.587822541574957,
+          "maximum_deg": 8.75925925925926,
+          "inferred_count": 18,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.17342538400600319,
+          "maximum_change_at_measured_deg": 0.9983800776438763,
+          "peak_change_deg": 0.0
+        },
+        "C": {
+          "peak_abs_deg": 8.75925925925926,
+          "minimum_deg": -8.587822541574957,
+          "maximum_deg": 8.75925925925926,
+          "inferred_count": 18,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.6877819866578797,
+          "maximum_change_at_measured_deg": 2.0364111166712657,
+          "peak_change_deg": 0.0
+        }
+      }
+    },
+    {
+      "review_id": "V04",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+      "local_time": "2026-10-16 16:39:50",
+      "sample_count": 95,
+      "valid_count": 93,
+      "missing_count": 2,
+      "max_missing_run": 2,
+      "gap_runs": [
+        {
+          "start_index": 79,
+          "end_index": 80,
+          "count": 2,
+          "first_time_s": 6.417,
+          "last_time_s": 6.517,
+          "bounded_span_s": 0.2999999999999998
+        }
+      ],
+      "raw_peak_abs_deg": 5.465907047987929,
+      "methods": {
+        "A": {
+          "peak_abs_deg": 5.4464401778595395,
+          "minimum_deg": -5.4464401778595395,
+          "maximum_deg": 4.048618277720443,
+          "inferred_count": 2,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.10456466033578234,
+          "maximum_change_at_measured_deg": 0.4162162162162226,
+          "peak_change_deg": -0.019466870128389324
+        },
+        "B": {
+          "peak_abs_deg": 5.465907047987929,
+          "minimum_deg": -5.465907047987929,
+          "maximum_deg": 4.073708040931619,
+          "inferred_count": 2,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.12713657000438403,
+          "maximum_change_at_measured_deg": 0.45586478072683523,
+          "peak_change_deg": 0.0
+        },
+        "C": {
+          "peak_abs_deg": 5.10439998034575,
+          "minimum_deg": -5.10439998034575,
+          "maximum_deg": 3.534916560756539,
+          "inferred_count": 2,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.34341810634364206,
+          "maximum_change_at_measured_deg": 1.2458641585510741,
+          "peak_change_deg": -0.36150706764217855
+        }
+      }
+    },
+    {
+      "review_id": "V05",
+      "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+      "local_time": "2026-10-16 16:33:02",
+      "sample_count": 86,
+      "valid_count": 77,
+      "missing_count": 9,
+      "max_missing_run": 4,
+      "gap_runs": [
+        {
+          "start_index": 16,
+          "end_index": 16,
+          "count": 1,
+          "first_time_s": 1.4,
+          "last_time_s": 1.4,
+          "bounded_span_s": 0.15000000000000013
+        },
+        {
+          "start_index": 27,
+          "end_index": 28,
+          "count": 2,
+          "first_time_s": 2.2,
+          "last_time_s": 2.267,
+          "bounded_span_s": 0.20000000000000018
+        },
+        {
+          "start_index": 47,
+          "end_index": 50,
+          "count": 4,
+          "first_time_s": 3.983,
+          "last_time_s": 4.283,
+          "bounded_span_s": 0.5
+        },
+        {
+          "start_index": 62,
+          "end_index": 62,
+          "count": 1,
+          "first_time_s": 5.467,
+          "last_time_s": 5.467,
+          "bounded_span_s": 0.18400000000000016
+        },
+        {
+          "start_index": 71,
+          "end_index": 71,
+          "count": 1,
+          "first_time_s": 6.217,
+          "last_time_s": 6.217,
+          "bounded_span_s": 0.14999999999999947
+        }
+      ],
+      "raw_peak_abs_deg": 8.972222222222221,
+      "methods": {
+        "A": {
+          "peak_abs_deg": 8.90185185185185,
+          "minimum_deg": -8.462871287128712,
+          "maximum_deg": 8.90185185185185,
+          "inferred_count": 9,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.12923516640062363,
+          "maximum_change_at_measured_deg": 0.4256226979867632,
+          "peak_change_deg": -0.0703703703703713
+        },
+        "B": {
+          "peak_abs_deg": 8.972222222222221,
+          "minimum_deg": -8.482051234302967,
+          "maximum_deg": 8.972222222222221,
+          "inferred_count": 9,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.15807665193904985,
+          "maximum_change_at_measured_deg": 0.5204749707485057,
+          "peak_change_deg": 0.0
+        },
+        "C": {
+          "peak_abs_deg": 8.972222222222221,
+          "minimum_deg": -8.269208192547822,
+          "maximum_deg": 8.972222222222221,
+          "inferred_count": 9,
+          "remaining_missing": 0,
+          "average_change_at_measured_deg": 0.27614351872400056,
+          "maximum_change_at_measured_deg": 1.1207026923016064,
+          "peak_change_deg": 0.0
+        }
+      }
+    }
+  ],
+  "self_checks": "constant signed values, true zero, all-invalid, long gaps, numeric out-of-range masking passed",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "script_sha256": "d6d590156a0a77c213a46a2e6cd33653447f0a4adafcd66c35e4f618668d4acc",
+  "scope": "Independent proposal comparison only; no production change, no DB write, no retraining or installation",
+  "responsive_figures": {
+    "script_sha256": "73c27d503f9f69b8e97de0a9ccd7b7615e089673b3ebdca53e1c3db065cffc32",
+    "panels": 20,
+    "uses_saved_beautified_values": true
+  }
+}

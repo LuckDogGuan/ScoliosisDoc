@@ -1,0 +1,3957 @@
+{
+  "source_workspace": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace",
+  "selection": "Latest five completed captures, by captured_at descending",
+  "dataset_sha256": "ba44c40a629a3442c4b87ac444f21116d473bdb62f151298d194371841b2dab4",
+  "captures": [
+    {
+      "metadata": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+        "captured_at": "2026-10-16T08:57:13.213Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792140982127764-963174005.mp4",
+        "video_sha256": "163c4239ca17583b6dacdac2e7e15f5796afccdfaa81160face7ac9c8e9e4782",
+        "analysis_status": "done",
+        "review_id": "V01",
+        "video_exists": false,
+        "local_time": "2026-10-16 16:57:13"
+      },
+      "samples": [
+        {
+          "frame_index": 1,
+          "pts_ms": 33,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/1@33ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 3,
+          "pts_ms": 100,
+          "angle_deg": -1.5000000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/3@100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 5,
+          "pts_ms": 167,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/5@167ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 7,
+          "pts_ms": 233,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/7@233ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 9,
+          "pts_ms": 317,
+          "angle_deg": -1.5000000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/9@317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 11,
+          "pts_ms": 400,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/11@400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 13,
+          "pts_ms": 467,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/13@467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 15,
+          "pts_ms": 533,
+          "angle_deg": -1.7503913935988977,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/15@533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 17,
+          "pts_ms": 600,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/17@600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 19,
+          "pts_ms": 683,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/19@683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 21,
+          "pts_ms": 750,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/21@750ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 23,
+          "pts_ms": 817,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/23@817ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 25,
+          "pts_ms": 883,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/25@883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 27,
+          "pts_ms": 967,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/27@967ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 29,
+          "pts_ms": 1033,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/29@1033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 31,
+          "pts_ms": 1117,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/31@1117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 33,
+          "pts_ms": 1200,
+          "angle_deg": -2.775233604537667,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/33@1200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 35,
+          "pts_ms": 1267,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/35@1267ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 37,
+          "pts_ms": 1333,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/37@1333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 39,
+          "pts_ms": 1433,
+          "angle_deg": -5.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/39@1433ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 41,
+          "pts_ms": 1533,
+          "angle_deg": -5.279289742609966,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/41@1533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 43,
+          "pts_ms": 1633,
+          "angle_deg": -5.36933550847962,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/43@1633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 45,
+          "pts_ms": 1750,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/45@1750ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 47,
+          "pts_ms": 1833,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/47@1833ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 49,
+          "pts_ms": 1917,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/49@1917ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 51,
+          "pts_ms": 2000,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/51@2000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 53,
+          "pts_ms": 2067,
+          "angle_deg": -5.369463960605787,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/53@2067ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 55,
+          "pts_ms": 2150,
+          "angle_deg": -5.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/55@2150ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 57,
+          "pts_ms": 2217,
+          "angle_deg": -4.256461493482493,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/57@2217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 59,
+          "pts_ms": 2317,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/59@2317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 61,
+          "pts_ms": 2400,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/61@2400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 63,
+          "pts_ms": 2483,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/63@2483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 65,
+          "pts_ms": 2550,
+          "angle_deg": -3.471531409388777,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/65@2550ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 67,
+          "pts_ms": 2633,
+          "angle_deg": -2.7100845243432903,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/67@2633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 69,
+          "pts_ms": 2700,
+          "angle_deg": -2.7778885894466403,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/69@2700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 71,
+          "pts_ms": 2783,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/71@2783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 73,
+          "pts_ms": 2867,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/73@2867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 75,
+          "pts_ms": 2950,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/75@2950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 77,
+          "pts_ms": 3033,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/77@3033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 79,
+          "pts_ms": 3117,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/79@3117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 81,
+          "pts_ms": 3233,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/81@3233ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 83,
+          "pts_ms": 3317,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/83@3317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 85,
+          "pts_ms": 3383,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/85@3383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 87,
+          "pts_ms": 3450,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/87@3450ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 89,
+          "pts_ms": 3533,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/89@3533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 91,
+          "pts_ms": 3600,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/91@3600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 93,
+          "pts_ms": 3667,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/93@3667ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 95,
+          "pts_ms": 3733,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/95@3733ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 97,
+          "pts_ms": 3800,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/97@3800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 99,
+          "pts_ms": 3883,
+          "angle_deg": 0.05555555555555555,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/99@3883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 101,
+          "pts_ms": 3967,
+          "angle_deg": 0.4444444444444444,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/101@3967ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 103,
+          "pts_ms": 4067,
+          "angle_deg": 1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/103@4067ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 105,
+          "pts_ms": 4167,
+          "angle_deg": 1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/105@4167ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 107,
+          "pts_ms": 4267,
+          "angle_deg": 2.8285714285714283,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/107@4267ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 109,
+          "pts_ms": 4367,
+          "angle_deg": 3.4210526315789473,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/109@4367ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 111,
+          "pts_ms": 4467,
+          "angle_deg": 4.055555555555555,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/111@4467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 113,
+          "pts_ms": 4583,
+          "angle_deg": 4.533333333333333,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/113@4583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 115,
+          "pts_ms": 4683,
+          "angle_deg": 5.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/115@4683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 117,
+          "pts_ms": 4783,
+          "angle_deg": 5.909090909090909,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/117@4783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 119,
+          "pts_ms": 4883,
+          "angle_deg": 6.125,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/119@4883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 121,
+          "pts_ms": 4983,
+          "angle_deg": 6.041666666666667,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/121@4983ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 123,
+          "pts_ms": 5050,
+          "angle_deg": 5.909090909090909,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/123@5050ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 125,
+          "pts_ms": 5117,
+          "angle_deg": 5.545454545454545,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/125@5117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 127,
+          "pts_ms": 5200,
+          "angle_deg": 5.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/127@5200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 129,
+          "pts_ms": 5317,
+          "angle_deg": 4.7,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/129@5317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 131,
+          "pts_ms": 5417,
+          "angle_deg": 4.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/131@5417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 133,
+          "pts_ms": 5517,
+          "angle_deg": 3.7894736842105265,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/133@5517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 135,
+          "pts_ms": 5617,
+          "angle_deg": 3.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/135@5617ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 137,
+          "pts_ms": 5700,
+          "angle_deg": 2.8285714285714283,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/137@5700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 139,
+          "pts_ms": 5783,
+          "angle_deg": 1.8714285714285714,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/139@5783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 141,
+          "pts_ms": 5883,
+          "angle_deg": 1.1785714285714286,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/141@5883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 143,
+          "pts_ms": 6000,
+          "angle_deg": 1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/143@6000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 145,
+          "pts_ms": 6100,
+          "angle_deg": 0.5416666666666666,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/145@6100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 147,
+          "pts_ms": 6200,
+          "angle_deg": 0.1388888888888889,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/147@6200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 149,
+          "pts_ms": 6300,
+          "angle_deg": -0.31995468617235856,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/149@6300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 151,
+          "pts_ms": 6400,
+          "angle_deg": -1.5000000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/151@6400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 153,
+          "pts_ms": 6467,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/153@6467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 155,
+          "pts_ms": 6533,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/155@6533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 157,
+          "pts_ms": 6633,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/157@6633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 159,
+          "pts_ms": 6700,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/159@6700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 161,
+          "pts_ms": 6800,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/161@6800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 163,
+          "pts_ms": 6867,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/163@6867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 165,
+          "pts_ms": 6950,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/165@6950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 167,
+          "pts_ms": 7033,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/167@7033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 169,
+          "pts_ms": 7117,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/169@7117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 171,
+          "pts_ms": 7183,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/171@7183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 173,
+          "pts_ms": 7250,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/173@7250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 175,
+          "pts_ms": 7333,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/175@7333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 177,
+          "pts_ms": 7400,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/177@7400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 179,
+          "pts_ms": 7467,
+          "angle_deg": -2.312618532551844,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/179@7467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 181,
+          "pts_ms": 7533,
+          "angle_deg": -3.467383313901605,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/181@7533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 183,
+          "pts_ms": 7600,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/183@7600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 185,
+          "pts_ms": 7683,
+          "angle_deg": -4.999999999999999,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/185@7683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 187,
+          "pts_ms": 7767,
+          "angle_deg": -5.38789088940502,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/187@7767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 189,
+          "pts_ms": 7850,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/189@7850ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 191,
+          "pts_ms": 7950,
+          "angle_deg": -7.641586481304197,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/191@7950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 193,
+          "pts_ms": 8067,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/193@8067ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 195,
+          "pts_ms": 8150,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/195@8150ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 197,
+          "pts_ms": 8250,
+          "angle_deg": -8.500000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/197@8250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 199,
+          "pts_ms": 8333,
+          "angle_deg": -8.582017518856189,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/199@8333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 201,
+          "pts_ms": 8433,
+          "angle_deg": -8.861300563877057,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/201@8433ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 203,
+          "pts_ms": 8517,
+          "angle_deg": -8.823118965765701,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/203@8517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 205,
+          "pts_ms": 8583,
+          "angle_deg": -8.57537404251444,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/205@8583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 207,
+          "pts_ms": 8650,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/207@8650ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 209,
+          "pts_ms": 8733,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/209@8733ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 211,
+          "pts_ms": 8800,
+          "angle_deg": -7.648077477534228,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/211@8800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 213,
+          "pts_ms": 8867,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/213@8867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 215,
+          "pts_ms": 8950,
+          "angle_deg": -5.24086037282701,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/215@8950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 217,
+          "pts_ms": 9033,
+          "angle_deg": -4.25732202423445,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/217@9033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 219,
+          "pts_ms": 9133,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/219@9133ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 221,
+          "pts_ms": 9217,
+          "angle_deg": -2.7906380446465087,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/221@9217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 223,
+          "pts_ms": 9317,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/223@9317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 225,
+          "pts_ms": 9433,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/225@9433ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 227,
+          "pts_ms": 9533,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/227@9533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 229,
+          "pts_ms": 9633,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/229@9633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+        "captured_at": "2026-10-16T08:56:15.151Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792140970488966-1123874023.mp4",
+        "video_sha256": "d79f5639c1a21c81caf75211c26562fff7f8b5c87e338e0fe85f43a106c5e4c9",
+        "analysis_status": "done",
+        "review_id": "V02",
+        "video_exists": false,
+        "local_time": "2026-10-16 16:56:15"
+      },
+      "samples": [
+        {
+          "frame_index": 1,
+          "pts_ms": 33,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/1@33ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 3,
+          "pts_ms": 100,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/3@100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 5,
+          "pts_ms": 183,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/5@183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 7,
+          "pts_ms": 250,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/7@250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 9,
+          "pts_ms": 317,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/9@317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 11,
+          "pts_ms": 417,
+          "angle_deg": -2.7392866312626327,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/11@417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 13,
+          "pts_ms": 483,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/13@483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 15,
+          "pts_ms": 583,
+          "angle_deg": -5.402488108907593,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/15@583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 17,
+          "pts_ms": 683,
+          "angle_deg": -7.682606691821699,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/17@683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 19,
+          "pts_ms": 783,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/19@783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 21,
+          "pts_ms": 883,
+          "angle_deg": -8.500000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/21@883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 23,
+          "pts_ms": 983,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/23@983ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 25,
+          "pts_ms": 1083,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/25@1083ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 27,
+          "pts_ms": 1150,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/27@1150ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 29,
+          "pts_ms": 1233,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/29@1233ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 31,
+          "pts_ms": 1300,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/31@1300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 33,
+          "pts_ms": 1367,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/33@1367ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 35,
+          "pts_ms": 1433,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/35@1433ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 37,
+          "pts_ms": 1500,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/37@1500ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 39,
+          "pts_ms": 1567,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/39@1567ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 41,
+          "pts_ms": 1633,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/41@1633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 43,
+          "pts_ms": 1700,
+          "angle_deg": -7.685777160375339,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/43@1700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 45,
+          "pts_ms": 1783,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/45@1783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 47,
+          "pts_ms": 1850,
+          "angle_deg": -5.234113770422894,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/47@1850ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 49,
+          "pts_ms": 1950,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/49@1950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 51,
+          "pts_ms": 2033,
+          "angle_deg": -2.7901680104462554,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/51@2033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 53,
+          "pts_ms": 2133,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/53@2133ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 55,
+          "pts_ms": 2233,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/55@2233ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 57,
+          "pts_ms": 2333,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/57@2333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 59,
+          "pts_ms": 2450,
+          "angle_deg": 0.2222222222222222,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/59@2450ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 61,
+          "pts_ms": 2550,
+          "angle_deg": 0.9166666666666667,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/61@2550ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 63,
+          "pts_ms": 2617,
+          "angle_deg": 1.1785714285714286,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/63@2617ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 65,
+          "pts_ms": 2717,
+          "angle_deg": 2.8285714285714283,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/65@2717ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 67,
+          "pts_ms": 2817,
+          "angle_deg": 3.6842105263157894,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/67@2817ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 69,
+          "pts_ms": 2917,
+          "angle_deg": 4.733333333333333,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/69@2917ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 71,
+          "pts_ms": 3017,
+          "angle_deg": 6.125,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/71@3017ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 73,
+          "pts_ms": 3117,
+          "angle_deg": 6.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/73@3117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 75,
+          "pts_ms": 3217,
+          "angle_deg": 6.805882352941176,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/75@3217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 77,
+          "pts_ms": 3300,
+          "angle_deg": 7.264705882352941,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/77@3300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 79,
+          "pts_ms": 3400,
+          "angle_deg": 7.519607843137255,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/79@3400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 81,
+          "pts_ms": 3500,
+          "angle_deg": 7.723529411764706,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/81@3500ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 83,
+          "pts_ms": 3600,
+          "angle_deg": 7.8,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/83@3600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 85,
+          "pts_ms": 3700,
+          "angle_deg": 7.844444444444444,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/85@3700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 87,
+          "pts_ms": 3767,
+          "angle_deg": 7.855555555555555,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/87@3767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 89,
+          "pts_ms": 3883,
+          "angle_deg": 7.8,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/89@3883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 91,
+          "pts_ms": 3967,
+          "angle_deg": 7.315686274509804,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/91@3967ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 93,
+          "pts_ms": 4033,
+          "angle_deg": 6.652941176470589,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/93@4033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 95,
+          "pts_ms": 4117,
+          "angle_deg": 6.291666666666667,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/95@4117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 97,
+          "pts_ms": 4217,
+          "angle_deg": 4.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/97@4217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 99,
+          "pts_ms": 4317,
+          "angle_deg": 2.9857142857142858,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/99@4317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 101,
+          "pts_ms": 4417,
+          "angle_deg": 1.4642857142857144,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/101@4417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 103,
+          "pts_ms": 4533,
+          "angle_deg": 0.75,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/103@4533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 105,
+          "pts_ms": 4633,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/105@4633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 107,
+          "pts_ms": 4733,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/107@4733ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 109,
+          "pts_ms": 4833,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/109@4833ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 111,
+          "pts_ms": 4917,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/111@4917ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 113,
+          "pts_ms": 5000,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/113@5000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 115,
+          "pts_ms": 5083,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/115@5083ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 117,
+          "pts_ms": 5150,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/117@5150ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 119,
+          "pts_ms": 5250,
+          "angle_deg": -2.2403197360836122,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/119@5250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 121,
+          "pts_ms": 5333,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/121@5333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 123,
+          "pts_ms": 5400,
+          "angle_deg": -4.254627750506142,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/123@5400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 125,
+          "pts_ms": 5467,
+          "angle_deg": -5.350738120763668,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/125@5467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 127,
+          "pts_ms": 5567,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/127@5567ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 129,
+          "pts_ms": 5650,
+          "angle_deg": -8.580195046961679,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/129@5650ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 131,
+          "pts_ms": 5750,
+          "angle_deg": -8.500000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/131@5750ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 133,
+          "pts_ms": 5850,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/133@5850ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 135,
+          "pts_ms": 5967,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/135@5967ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 137,
+          "pts_ms": 6067,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/137@6067ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 139,
+          "pts_ms": 6150,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/139@6150ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 141,
+          "pts_ms": 6233,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/141@6233ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 143,
+          "pts_ms": 6300,
+          "angle_deg": -7.644960072791811,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/143@6300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 145,
+          "pts_ms": 6400,
+          "angle_deg": -5.261374256088495,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/145@6400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 147,
+          "pts_ms": 6500,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/147@6500ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 149,
+          "pts_ms": 6583,
+          "angle_deg": -2.282882386044525,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/149@6583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 151,
+          "pts_ms": 6700,
+          "angle_deg": -1.5000000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/151@6700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 153,
+          "pts_ms": 6767,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/153@6767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+        "captured_at": "2026-10-16T08:40:13.593Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792139998924000-2142595549.mp4",
+        "video_sha256": "3d9fb2a5b62c35f02abd20db3a8c6dc2d2b6db44c1708cb182ec927a10c2480d",
+        "analysis_status": "done",
+        "review_id": "V03",
+        "video_exists": false,
+        "local_time": "2026-10-16 16:40:13"
+      },
+      "samples": [
+        {
+          "frame_index": 1,
+          "pts_ms": 33,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/1@33ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 3,
+          "pts_ms": 117,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/3@117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 5,
+          "pts_ms": 183,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/5@183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 7,
+          "pts_ms": 250,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/7@250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 9,
+          "pts_ms": 317,
+          "angle_deg": -0.20064706803167456,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/9@317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 11,
+          "pts_ms": 417,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/11@417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 13,
+          "pts_ms": 483,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/13@483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 15,
+          "pts_ms": 567,
+          "angle_deg": -0.33850747976993834,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/15@567ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 17,
+          "pts_ms": 633,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/17@633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 19,
+          "pts_ms": 700,
+          "angle_deg": 0.16666666666666666,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/19@700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 21,
+          "pts_ms": 767,
+          "angle_deg": 1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/21@767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 23,
+          "pts_ms": 867,
+          "angle_deg": 3.0526315789473686,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/23@867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 25,
+          "pts_ms": 967,
+          "angle_deg": 6.041666666666667,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/25@967ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 27,
+          "pts_ms": 1083,
+          "angle_deg": 7.723529411764706,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/27@1083ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 29,
+          "pts_ms": 1183,
+          "angle_deg": 8.722222222222221,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/29@1183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 31,
+          "pts_ms": 1267,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/31@1267ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 33,
+          "pts_ms": 1333,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/33@1333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 35,
+          "pts_ms": 1433,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/35@1433ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 37,
+          "pts_ms": 1533,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/37@1533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 39,
+          "pts_ms": 1617,
+          "angle_deg": 8.380952380952381,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/39@1617ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 41,
+          "pts_ms": 1717,
+          "angle_deg": 6.627450980392156,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/41@1717ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 43,
+          "pts_ms": 1833,
+          "angle_deg": 4.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/43@1833ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 45,
+          "pts_ms": 1933,
+          "angle_deg": 2.8714285714285714,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/45@1933ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 47,
+          "pts_ms": 2033,
+          "angle_deg": 1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/47@2033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 49,
+          "pts_ms": 2117,
+          "angle_deg": 0.1388888888888889,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/49@2117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 51,
+          "pts_ms": 2200,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/51@2200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 53,
+          "pts_ms": 2300,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/53@2300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 55,
+          "pts_ms": 2400,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/55@2400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 57,
+          "pts_ms": 2483,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/57@2483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 59,
+          "pts_ms": 2567,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/59@2567ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 61,
+          "pts_ms": 2650,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/61@2650ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 63,
+          "pts_ms": 2733,
+          "angle_deg": -1.7949155889875494,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/63@2733ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 65,
+          "pts_ms": 2800,
+          "angle_deg": -1.5000000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/65@2800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 67,
+          "pts_ms": 2883,
+          "angle_deg": -1.5000000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/67@2883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 69,
+          "pts_ms": 2950,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/69@2950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 71,
+          "pts_ms": 3033,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/71@3033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 73,
+          "pts_ms": 3100,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/73@3100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 75,
+          "pts_ms": 3200,
+          "angle_deg": -3.465620843706475,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/75@3200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 77,
+          "pts_ms": 3283,
+          "angle_deg": -4.250091365598599,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/77@3283ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 79,
+          "pts_ms": 3383,
+          "angle_deg": -5.4369431313317484,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/79@3383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 81,
+          "pts_ms": 3483,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/81@3483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 83,
+          "pts_ms": 3583,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/83@3583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 85,
+          "pts_ms": 3683,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/85@3683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 87,
+          "pts_ms": 3783,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/87@3783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 89,
+          "pts_ms": 3900,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/89@3900ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 91,
+          "pts_ms": 3983,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/91@3983ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 93,
+          "pts_ms": 4050,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/93@4050ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 95,
+          "pts_ms": 4117,
+          "angle_deg": -8.500000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/95@4117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 97,
+          "pts_ms": 4183,
+          "angle_deg": -8.587822541574957,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/97@4183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 99,
+          "pts_ms": 4267,
+          "angle_deg": -7.622678214784437,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/99@4267ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 101,
+          "pts_ms": 4367,
+          "angle_deg": -5.410169492848709,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/101@4367ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 103,
+          "pts_ms": 4467,
+          "angle_deg": -4.256672229001626,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/103@4467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 105,
+          "pts_ms": 4583,
+          "angle_deg": -3.455155212739769,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/105@4583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 107,
+          "pts_ms": 4683,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/107@4683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 109,
+          "pts_ms": 4783,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/109@4783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 111,
+          "pts_ms": 4867,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/111@4867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 113,
+          "pts_ms": 4950,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/113@4950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 115,
+          "pts_ms": 5033,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/115@5033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 117,
+          "pts_ms": 5100,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/117@5100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 119,
+          "pts_ms": 5167,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/119@5167ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 121,
+          "pts_ms": 5250,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/121@5250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 123,
+          "pts_ms": 5317,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/123@5317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 125,
+          "pts_ms": 5383,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/125@5383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 127,
+          "pts_ms": 5450,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/127@5450ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 129,
+          "pts_ms": 5517,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/129@5517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 131,
+          "pts_ms": 5600,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/131@5600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 133,
+          "pts_ms": 5667,
+          "angle_deg": 0.027777777777777776,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/133@5667ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 135,
+          "pts_ms": 5733,
+          "angle_deg": 0.3888888888888889,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/135@5733ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 137,
+          "pts_ms": 5817,
+          "angle_deg": 1.1785714285714286,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/137@5817ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 139,
+          "pts_ms": 5933,
+          "angle_deg": 3.6842105263157894,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/139@5933ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 141,
+          "pts_ms": 6017,
+          "angle_deg": 6.208333333333333,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/141@6017ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 143,
+          "pts_ms": 6117,
+          "angle_deg": 7.8,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/143@6117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 145,
+          "pts_ms": 6217,
+          "angle_deg": 8.75925925925926,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/145@6217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 147,
+          "pts_ms": 6317,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/147@6317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 149,
+          "pts_ms": 6417,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/149@6417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 151,
+          "pts_ms": 6500,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/151@6500ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 153,
+          "pts_ms": 6567,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/153@6567ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 155,
+          "pts_ms": 6667,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/155@6667ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 157,
+          "pts_ms": 6767,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/157@6767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 159,
+          "pts_ms": 6867,
+          "angle_deg": 8.694444444444445,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/159@6867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 161,
+          "pts_ms": 6967,
+          "angle_deg": 7.4941176470588236,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/161@6967ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 163,
+          "pts_ms": 7067,
+          "angle_deg": 5.909090909090909,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/163@7067ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 165,
+          "pts_ms": 7167,
+          "angle_deg": 3.526315789473684,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/165@7167ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 167,
+          "pts_ms": 7267,
+          "angle_deg": 1.4642857142857144,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/167@7267ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 169,
+          "pts_ms": 7383,
+          "angle_deg": 0.4166666666666667,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/169@7383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 171,
+          "pts_ms": 7483,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/171@7483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 173,
+          "pts_ms": 7583,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/173@7583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 175,
+          "pts_ms": 7683,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/175@7683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 177,
+          "pts_ms": 7783,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/177@7783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 179,
+          "pts_ms": 7867,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/179@7867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 181,
+          "pts_ms": 7933,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/181@7933ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 183,
+          "pts_ms": 8017,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/183@8017ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 185,
+          "pts_ms": 8100,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/185@8100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 187,
+          "pts_ms": 8183,
+          "angle_deg": -2.827578812032364,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/187@8183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 189,
+          "pts_ms": 8250,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/189@8250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 191,
+          "pts_ms": 8350,
+          "angle_deg": -7.66381802986862,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/191@8350ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 193,
+          "pts_ms": 8450,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/193@8450ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 195,
+          "pts_ms": 8550,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/195@8550ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 197,
+          "pts_ms": 8650,
+          "angle_deg": -7.747409828989874,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/197@8650ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 199,
+          "pts_ms": 8767,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/199@8767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 201,
+          "pts_ms": 8867,
+          "angle_deg": -8.500000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/201@8867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 203,
+          "pts_ms": 8950,
+          "angle_deg": -7.745113327496258,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/203@8950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 205,
+          "pts_ms": 9017,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/205@9017ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 207,
+          "pts_ms": 9117,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/207@9117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 209,
+          "pts_ms": 9217,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/209@9217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 211,
+          "pts_ms": 9300,
+          "angle_deg": -5.387978697802434,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/211@9300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 213,
+          "pts_ms": 9367,
+          "angle_deg": -5.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/213@9367ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 215,
+          "pts_ms": 9483,
+          "angle_deg": -2.7463011305736145,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/215@9483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 217,
+          "pts_ms": 9583,
+          "angle_deg": -1.7509025233081614,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/217@9583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 219,
+          "pts_ms": 9683,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/219@9683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 221,
+          "pts_ms": 9783,
+          "angle_deg": 0.1111111111111111,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/221@9783ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 223,
+          "pts_ms": 9883,
+          "angle_deg": 0.08333333333333333,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/223@9883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+        "captured_at": "2026-10-16T08:39:50.970Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792139590408757-3531452624.mp4",
+        "video_sha256": "de9824bed9922322670de72b9f1964bbcfa9d43f542b013306a3a121463ecbe9",
+        "analysis_status": "done",
+        "review_id": "V04",
+        "video_exists": false,
+        "local_time": "2026-10-16 16:39:50"
+      },
+      "samples": [
+        {
+          "frame_index": 1,
+          "pts_ms": 33,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/1@33ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 3,
+          "pts_ms": 117,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/3@117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 5,
+          "pts_ms": 183,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/5@183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 7,
+          "pts_ms": 267,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/7@267ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 9,
+          "pts_ms": 333,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/9@333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 11,
+          "pts_ms": 417,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/11@417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 13,
+          "pts_ms": 483,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/13@483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 15,
+          "pts_ms": 550,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/15@550ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 17,
+          "pts_ms": 617,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/17@617ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 19,
+          "pts_ms": 683,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/19@683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 21,
+          "pts_ms": 750,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/21@750ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 23,
+          "pts_ms": 817,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/23@817ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 25,
+          "pts_ms": 883,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/25@883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 27,
+          "pts_ms": 950,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/27@950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 29,
+          "pts_ms": 1017,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/29@1017ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 31,
+          "pts_ms": 1100,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/31@1100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 33,
+          "pts_ms": 1167,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/33@1167ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 35,
+          "pts_ms": 1250,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/35@1250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 37,
+          "pts_ms": 1317,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/37@1317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 39,
+          "pts_ms": 1383,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/39@1383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 41,
+          "pts_ms": 1450,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/41@1450ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 43,
+          "pts_ms": 1517,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/43@1517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 45,
+          "pts_ms": 1583,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/45@1583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 47,
+          "pts_ms": 1650,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/47@1650ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 49,
+          "pts_ms": 1717,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/49@1717ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 51,
+          "pts_ms": 1833,
+          "angle_deg": -2.819324955629904,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/51@1833ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 53,
+          "pts_ms": 1917,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/53@1917ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 55,
+          "pts_ms": 2000,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/55@2000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 57,
+          "pts_ms": 2100,
+          "angle_deg": -4.23820735581024,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/57@2100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 59,
+          "pts_ms": 2167,
+          "angle_deg": -4.247966951202324,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/59@2167ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 61,
+          "pts_ms": 2250,
+          "angle_deg": -4.266402822870338,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/61@2250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 63,
+          "pts_ms": 2317,
+          "angle_deg": -4.270307671688617,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/63@2317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 65,
+          "pts_ms": 2400,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/65@2400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 67,
+          "pts_ms": 2483,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/67@2483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 69,
+          "pts_ms": 2550,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/69@2550ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 71,
+          "pts_ms": 2633,
+          "angle_deg": -2.8998706224709503,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/71@2633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 73,
+          "pts_ms": 2717,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/73@2717ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 75,
+          "pts_ms": 2817,
+          "angle_deg": -1.7477098535229054,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/75@2817ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 77,
+          "pts_ms": 2900,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/77@2900ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 79,
+          "pts_ms": 3000,
+          "angle_deg": -0.5101853054708307,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/79@3000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 81,
+          "pts_ms": 3100,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/81@3100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 83,
+          "pts_ms": 3183,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/83@3183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 85,
+          "pts_ms": 3250,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/85@3250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 87,
+          "pts_ms": 3317,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/87@3317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 89,
+          "pts_ms": 3400,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/89@3400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 91,
+          "pts_ms": 3467,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/91@3467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 93,
+          "pts_ms": 3533,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/93@3533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 95,
+          "pts_ms": 3600,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/95@3600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 97,
+          "pts_ms": 3667,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/97@3667ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 99,
+          "pts_ms": 3750,
+          "angle_deg": 0.05555555555555555,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/99@3750ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 101,
+          "pts_ms": 3833,
+          "angle_deg": 0.4166666666666667,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/101@3833ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 103,
+          "pts_ms": 3917,
+          "angle_deg": 1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/103@3917ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 105,
+          "pts_ms": 4000,
+          "angle_deg": 1.6857142857142857,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/105@4000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 107,
+          "pts_ms": 4100,
+          "angle_deg": 2.9,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/107@4100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 109,
+          "pts_ms": 4200,
+          "angle_deg": 3.473684210526316,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/109@4200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 111,
+          "pts_ms": 4300,
+          "angle_deg": 4.222222222222222,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/111@4300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 113,
+          "pts_ms": 4400,
+          "angle_deg": 4.111111111111111,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/113@4400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 115,
+          "pts_ms": 4483,
+          "angle_deg": 3.7894736842105265,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/115@4483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 117,
+          "pts_ms": 4600,
+          "angle_deg": 3.2105263157894735,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/117@4600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 119,
+          "pts_ms": 4683,
+          "angle_deg": 2.9428571428571426,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/119@4683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 121,
+          "pts_ms": 4767,
+          "angle_deg": 2.5214285714285714,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/121@4767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 123,
+          "pts_ms": 4833,
+          "angle_deg": 1.4285714285714286,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/123@4833ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 125,
+          "pts_ms": 4917,
+          "angle_deg": 1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/125@4917ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 127,
+          "pts_ms": 5017,
+          "angle_deg": 0.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/127@5017ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 129,
+          "pts_ms": 5117,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/129@5117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 131,
+          "pts_ms": 5233,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/131@5233ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 133,
+          "pts_ms": 5333,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/133@5333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 135,
+          "pts_ms": 5417,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/135@5417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 137,
+          "pts_ms": 5517,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/137@5517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 139,
+          "pts_ms": 5583,
+          "angle_deg": -1.8239970887030725,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/139@5583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 141,
+          "pts_ms": 5650,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/141@5650ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 143,
+          "pts_ms": 5717,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/143@5717ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 145,
+          "pts_ms": 5800,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/145@5800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 147,
+          "pts_ms": 5867,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/147@5867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 149,
+          "pts_ms": 5967,
+          "angle_deg": -2.878890342645957,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/149@5967ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 151,
+          "pts_ms": 6033,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/151@6033ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 153,
+          "pts_ms": 6117,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/153@6117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 155,
+          "pts_ms": 6217,
+          "angle_deg": -5.287433592360143,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/155@6217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 157,
+          "pts_ms": 6317,
+          "angle_deg": -5.465907047987929,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/157@6317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 159,
+          "pts_ms": 6417,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/159@6417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 161,
+          "pts_ms": 6517,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/161@6517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 163,
+          "pts_ms": 6617,
+          "angle_deg": -5.407506437602762,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/163@6617ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 165,
+          "pts_ms": 6683,
+          "angle_deg": -5.409856188079223,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/165@6683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 167,
+          "pts_ms": 6767,
+          "angle_deg": -5.000000000000001,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/167@6767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 169,
+          "pts_ms": 6833,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/169@6833ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 171,
+          "pts_ms": 6933,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/171@6933ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 173,
+          "pts_ms": 7017,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/173@7017ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 175,
+          "pts_ms": 7117,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/175@7117ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 177,
+          "pts_ms": 7200,
+          "angle_deg": 0.08333333333333333,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/177@7200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 179,
+          "pts_ms": 7283,
+          "angle_deg": 0.05555555555555555,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/179@7283ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 181,
+          "pts_ms": 7383,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/181@7383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 183,
+          "pts_ms": 7450,
+          "angle_deg": -0.3089023609861083,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/183@7450ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 185,
+          "pts_ms": 7517,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/185@7517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 187,
+          "pts_ms": 7600,
+          "angle_deg": -1.5000000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/187@7600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 189,
+          "pts_ms": 7683,
+          "angle_deg": -1.4999999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/189@7683ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+        "captured_at": "2026-10-16T08:33:02.690Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792139518185701-3890505040.mp4",
+        "video_sha256": "be1bac0e669c5559449e02ed1ba195b5b97fb48ab71e2148ef2b1059523512dd",
+        "analysis_status": "done",
+        "review_id": "V05",
+        "video_exists": false,
+        "local_time": "2026-10-16 16:33:02"
+      },
+      "samples": [
+        {
+          "frame_index": 1,
+          "pts_ms": 33,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/1@33ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 3,
+          "pts_ms": 133,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/3@133ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 5,
+          "pts_ms": 200,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/5@200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 7,
+          "pts_ms": 267,
+          "angle_deg": -1.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/7@267ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 9,
+          "pts_ms": 333,
+          "angle_deg": -1.763336781116081,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/9@333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 11,
+          "pts_ms": 417,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/11@417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 13,
+          "pts_ms": 517,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/13@517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 15,
+          "pts_ms": 583,
+          "angle_deg": -2.2720639916031113,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/15@583ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 17,
+          "pts_ms": 667,
+          "angle_deg": -2.7602266110176625,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/17@667ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 19,
+          "pts_ms": 750,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/19@750ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 21,
+          "pts_ms": 850,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/21@850ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 23,
+          "pts_ms": 950,
+          "angle_deg": -4.256136832496617,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/23@950ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 25,
+          "pts_ms": 1067,
+          "angle_deg": -5.000000000000001,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/25@1067ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 27,
+          "pts_ms": 1167,
+          "angle_deg": -5.222925962078865,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/27@1167ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 29,
+          "pts_ms": 1250,
+          "angle_deg": -5.470102062782656,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/29@1250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 31,
+          "pts_ms": 1333,
+          "angle_deg": -5.424259392329109,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/31@1333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 33,
+          "pts_ms": 1400,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/33@1400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 35,
+          "pts_ms": 1483,
+          "angle_deg": -7.622245034466366,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/35@1483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 37,
+          "pts_ms": 1550,
+          "angle_deg": -7.567598933430739,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/37@1550ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 39,
+          "pts_ms": 1633,
+          "angle_deg": -7.574164388446845,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/39@1633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 41,
+          "pts_ms": 1717,
+          "angle_deg": -7.573979753876524,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/41@1717ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 43,
+          "pts_ms": 1800,
+          "angle_deg": -7.5815194425367185,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/43@1800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 45,
+          "pts_ms": 1867,
+          "angle_deg": -7.579855051195508,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/45@1867ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 47,
+          "pts_ms": 1933,
+          "angle_deg": -7.575426153630535,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/47@1933ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 49,
+          "pts_ms": 2000,
+          "angle_deg": -7.624540739996257,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/49@2000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 51,
+          "pts_ms": 2067,
+          "angle_deg": -7.628265554068721,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/51@2067ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 53,
+          "pts_ms": 2133,
+          "angle_deg": -7.647500831780979,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/53@2133ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 55,
+          "pts_ms": 2200,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/55@2200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 57,
+          "pts_ms": 2267,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/57@2267ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 59,
+          "pts_ms": 2333,
+          "angle_deg": -5.46237876535466,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/59@2333ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 61,
+          "pts_ms": 2400,
+          "angle_deg": -5.209524151588573,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/61@2400ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 63,
+          "pts_ms": 2483,
+          "angle_deg": -4.999999999999999,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/63@2483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 65,
+          "pts_ms": 2567,
+          "angle_deg": -4.255285248925799,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/65@2567ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 67,
+          "pts_ms": 2633,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/67@2633ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 69,
+          "pts_ms": 2733,
+          "angle_deg": -3.3656973786031035,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/69@2733ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 71,
+          "pts_ms": 2817,
+          "angle_deg": -2.1498153840388263,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/71@2817ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 73,
+          "pts_ms": 2917,
+          "angle_deg": -1.5000000000000002,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/73@2917ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 75,
+          "pts_ms": 3000,
+          "angle_deg": 0.05555555555555555,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/75@3000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 77,
+          "pts_ms": 3100,
+          "angle_deg": 0.9583333333333333,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/77@3100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 79,
+          "pts_ms": 3217,
+          "angle_deg": 2.242857142857143,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/79@3217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 81,
+          "pts_ms": 3317,
+          "angle_deg": 3.3157894736842106,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/81@3317ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 83,
+          "pts_ms": 3417,
+          "angle_deg": 4.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/83@3417ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 85,
+          "pts_ms": 3517,
+          "angle_deg": 6.291666666666667,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/85@3517ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 87,
+          "pts_ms": 3617,
+          "angle_deg": 6.856862745098039,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/87@3617ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 89,
+          "pts_ms": 3717,
+          "angle_deg": 7.8,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/89@3717ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 91,
+          "pts_ms": 3800,
+          "angle_deg": 8.023809523809524,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/91@3800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 93,
+          "pts_ms": 3883,
+          "angle_deg": 8.62037037037037,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/93@3883ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 95,
+          "pts_ms": 3983,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/95@3983ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 97,
+          "pts_ms": 4083,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/97@4083ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 99,
+          "pts_ms": 4183,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/99@4183ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 101,
+          "pts_ms": 4283,
+          "angle_deg": null,
+          "error": "超出右侧标定范围",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/101@4283ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 103,
+          "pts_ms": 4383,
+          "angle_deg": 8.972222222222221,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/103@4383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 105,
+          "pts_ms": 4483,
+          "angle_deg": 8.601851851851851,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/105@4483ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 107,
+          "pts_ms": 4600,
+          "angle_deg": 7.888888888888888,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/107@4600ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 109,
+          "pts_ms": 4700,
+          "angle_deg": 6.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/109@4700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 111,
+          "pts_ms": 4800,
+          "angle_deg": 4.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/111@4800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 113,
+          "pts_ms": 4900,
+          "angle_deg": 2.814285714285714,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/113@4900ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 115,
+          "pts_ms": 5000,
+          "angle_deg": 0.4722222222222222,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/115@5000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 117,
+          "pts_ms": 5100,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/117@5100ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 119,
+          "pts_ms": 5200,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/119@5200ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 121,
+          "pts_ms": 5300,
+          "angle_deg": -4.256800124832837,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/121@5300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 123,
+          "pts_ms": 5383,
+          "angle_deg": -5.28545233642262,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/123@5383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 125,
+          "pts_ms": 5467,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/125@5467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 127,
+          "pts_ms": 5567,
+          "angle_deg": -7.65153270920497,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/127@5567ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 129,
+          "pts_ms": 5667,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/129@5667ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 131,
+          "pts_ms": 5767,
+          "angle_deg": -8.499999999999998,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/131@5767ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 133,
+          "pts_ms": 5850,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/133@5850ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 135,
+          "pts_ms": 5933,
+          "angle_deg": -8.5,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/135@5933ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 137,
+          "pts_ms": 6000,
+          "angle_deg": -8.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/137@6000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 139,
+          "pts_ms": 6067,
+          "angle_deg": -7.70958125669379,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/139@6067ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 141,
+          "pts_ms": 6150,
+          "angle_deg": -7.619088395205744,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/141@6150ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 143,
+          "pts_ms": 6217,
+          "angle_deg": null,
+          "error": "左侧相似参考角度不一致",
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/143@6217ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 145,
+          "pts_ms": 6300,
+          "angle_deg": -5.46142495081788,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/145@6300ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 147,
+          "pts_ms": 6383,
+          "angle_deg": -5.266774619168725,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/147@6383ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 149,
+          "pts_ms": 6467,
+          "angle_deg": -5.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/149@6467ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 151,
+          "pts_ms": 6533,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/151@6533ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 153,
+          "pts_ms": 6617,
+          "angle_deg": -4.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/153@6617ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 155,
+          "pts_ms": 6700,
+          "angle_deg": -2.83484730316197,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/155@6700ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 157,
+          "pts_ms": 6800,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/157@6800ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 159,
+          "pts_ms": 6900,
+          "angle_deg": -2.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/159@6900ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 161,
+          "pts_ms": 7000,
+          "angle_deg": -1.8545059966106305,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/161@7000ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 163,
+          "pts_ms": 7083,
+          "angle_deg": -1.3212890135255484,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/163@7083ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 165,
+          "pts_ms": 7150,
+          "angle_deg": -1.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/165@7150ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 167,
+          "pts_ms": 7250,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/167@7250ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 169,
+          "pts_ms": 7350,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/169@7350ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        },
+        {
+          "frame_index": 171,
+          "pts_ms": 7450,
+          "angle_deg": 0.0,
+          "error": null,
+          "model_version": "ruler-signed-r4-native-v1",
+          "input_image": "video-frame/171@7450ms#manifest-sha256=6868785c79908c54d7ef82dfcde4dee02bf52cc24f7fc56eee63f1fa59af4e18"
+        }
+      ]
+    }
+  ]
+}
