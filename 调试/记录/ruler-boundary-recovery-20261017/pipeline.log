@@ -1,0 +1,58 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/tool/ruler_all_video_validation_test.dart
+00:00 +0: all existing videos: released DLL, actual queue, dual persistence and exports
+Shell: START V01 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V01.mp4
+Shell: PROGRESS V01 0/0
+Shell: PROGRESS V01 50/126
+Shell: PROGRESS V01 100/126
+Shell: RESULT {"video_id":"V01","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V01.mp4","relative":"筛查/20261014_向阳实验中学/视频/CAM-41eda5f2c5b00de1-v3-1791959298102482-2773095793.mp4","source_sha256":"8a873ce1f6f0458b1d04708c71afff02d741a74e317830c8248d1257c47fdfc6","captured_at":"2026-10-14T06:28:26.826Z","analysis_status":"failed","analysis_error":"Bad state: 本段录像没有有效读数，请查看拍摄详情","samples":126,"raw_valid":0,"raw_computed":0,"reference_estimated":0,"raw_rejected":126,"inferred":0,"beautified_valid":0,"raw_valid_rate":0.0,"longest_rejected_run":126,"longest_gap_anchor_ms":8867,"reasons":{"亮度或画面发生变化":126},"peak_raw_abs":null,"peak_beautified_abs":null,"quality":"分析失败，请复核","decision":"待复核","pipeline_wall_ms":8353.711,"duration_s":"8.900000"}
+Shell: START V02 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V02.mp4
+Shell: PROGRESS V02 0/0
+Shell: PROGRESS V02 50/170
+Shell: PROGRESS V02 100/170
+Shell: PROGRESS V02 150/170
+Shell: RESULT {"video_id":"V02","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V02.mp4","relative":"筛查/20261014_向阳实验中学/视频/CAM-41eda5f2c5b00de1-v3-1791959316003053-2512671705.mp4","source_sha256":"b77caa8bf0c8e0befd673530e9b223a24a9afa26735fe8d1a6e45e28f2567d9f","captured_at":"2026-10-14T06:29:21.385Z","analysis_status":"failed","analysis_error":"Bad state: 本段录像没有有效读数，请查看拍摄详情","samples":170,"raw_valid":0,"raw_computed":0,"reference_estimated":0,"raw_rejected":170,"inferred":0,"beautified_valid":0,"raw_valid_rate":0.0,"longest_rejected_run":170,"longest_gap_anchor_ms":11917,"reasons":{"亮度或画面发生变化":170},"peak_raw_abs":null,"peak_beautified_abs":null,"quality":"分析失败，请复核","decision":"待复核","pipeline_wall_ms":11287.015,"duration_s":"11.950000"}
+Shell: START V03 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V03.mp4
+Shell: PROGRESS V03 0/0
+Shell: PROGRESS V03 50/129
+Shell: PROGRESS V03 100/129
+Shell: RESULT {"video_id":"V03","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V03.mp4","relative":"筛查/20261014_向阳实验中学/视频/CAM-41eda5f2c5b00de1-v3-1791959373642369-3273093350.mp4","source_sha256":"e75ed34086af9da6f3ede6ac3353ec3b97e90754987d1a2e2fb21d3c0e94c88a","captured_at":"2026-10-14T06:30:37.264Z","analysis_status":"failed","analysis_error":"Bad state: 本段录像没有有效读数，请查看拍摄详情","samples":129,"raw_valid":0,"raw_computed":0,"reference_estimated":0,"raw_rejected":129,"inferred":0,"beautified_valid":0,"raw_valid_rate":0.0,"longest_rejected_run":129,"longest_gap_anchor_ms":8967,"reasons":{"亮度或画面发生变化":129},"peak_raw_abs":null,"peak_beautified_abs":null,"quality":"分析失败，请复核","decision":"待复核","pipeline_wall_ms":7224.734,"duration_s":"9.000000"}
+Shell: START V04 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V04.mp4
+Shell: PROGRESS V04 0/0
+Shell: PROGRESS V04 50/154
+Shell: PROGRESS V04 100/154
+Shell: PROGRESS V04 150/154
+Shell: RESULT {"video_id":"V04","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V04.mp4","relative":"筛查/20261014_向阳实验中学/视频/CAM-41eda5f2c5b00de1-v3-1791959446553397-1000842064.mp4","source_sha256":"dd7b143314ba8df263c0e4fcf7298bef9f96d3b20b9659c2cabb33bc87e3fb9d","captured_at":"2026-10-14T06:31:04.229Z","analysis_status":"failed","analysis_error":"Bad state: 本段录像没有有效读数，请查看拍摄详情","samples":154,"raw_valid":0,"raw_computed":0,"reference_estimated":0,"raw_rejected":154,"inferred":0,"beautified_valid":0,"raw_valid_rate":0.0,"longest_rejected_run":154,"longest_gap_anchor_ms":10683,"reasons":{"亮度或画面发生变化":154},"peak_raw_abs":null,"peak_beautified_abs":null,"quality":"分析失败，请复核","decision":"待复核","pipeline_wall_ms":8659.026,"duration_s":"10.750000"}
+Shell: START V05 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V05.mp4
+Shell: PROGRESS V05 0/0
+Shell: PROGRESS V05 50/187
+Shell: PROGRESS V05 100/187
+Shell: PROGRESS V05 150/187
+Shell: RESULT {"video_id":"V05","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V05.mp4","relative":"筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792118519994652-3218650117.mp4","source_sha256":"c1da99a193d7fd5fc7bee79a7a6720dad16838cb1d31d9a82449e1ae59af31b1","captured_at":"2026-10-16T02:42:06.110Z","analysis_status":"done","analysis_error":null,"samples":187,"raw_valid":179,"raw_computed":179,"reference_estimated":0,"raw_rejected":8,"inferred":8,"beautified_valid":187,"raw_valid_rate":0.9572192513368984,"longest_rejected_run":7,"longest_gap_anchor_ms":567,"reasons":{"左侧相似参考角度不一致":8},"peak_raw_abs":7.661804655718761,"peak_beautified_abs":7.626920520876193,"quality":"含推断值，请复核","decision":"超阈值","pipeline_wall_ms":13642.428,"duration_s":"14.634000"}
+Shell: START V06 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V06.mp4
+Shell: PROGRESS V06 0/0
+Shell: PROGRESS V06 50/187
+Shell: PROGRESS V06 100/187
+Shell: PROGRESS V06 150/187
+Shell: RESULT {"video_id":"V06","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V06.mp4","relative":"筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792118541043274-3808826473.mp4","source_sha256":"a7c0ab0d00b64bcead679f29f3e41a889e684021ad6e4796a3bfdc037f60ddfd","captured_at":"2026-10-16T02:42:39.214Z","analysis_status":"done","analysis_error":null,"samples":187,"raw_valid":185,"raw_computed":185,"reference_estimated":0,"raw_rejected":2,"inferred":2,"beautified_valid":187,"raw_valid_rate":0.9893048128342246,"longest_rejected_run":1,"longest_gap_anchor_ms":133,"reasons":{"左侧相似参考角度不一致":2},"peak_raw_abs":8.649963997765528,"peak_beautified_abs":8.626606450764783,"quality":"含推断值，请复核","decision":"超阈值","pipeline_wall_ms":14226.084,"duration_s":"14.700000"}
+Shell: START V07 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V07.mp4
+Shell: PROGRESS V07 0/0
+Shell: PROGRESS V07 50/167
+Shell: PROGRESS V07 100/167
+Shell: PROGRESS V07 150/167
+Shell: RESULT {"video_id":"V07","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V07.mp4","relative":"筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792118574178786-1653672749.mp4","source_sha256":"0354ea53fe787cf8744e311ba00fa137bcb739e98afa9794a19ed1ba563ed3fa","captured_at":"2026-10-16T02:43:04.088Z","analysis_status":"done","analysis_error":null,"samples":167,"raw_valid":161,"raw_computed":161,"reference_estimated":0,"raw_rejected":6,"inferred":6,"beautified_valid":167,"raw_valid_rate":0.9640718562874252,"longest_rejected_run":5,"longest_gap_anchor_ms":483,"reasons":{"左侧相似参考角度不一致":6},"peak_raw_abs":8.930351757880585,"peak_beautified_abs":8.785387139398955,"quality":"含推断值，请复核","decision":"超阈值","pipeline_wall_ms":14634.54,"duration_s":"13.500000"}
+Shell: START V08 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V08.mp4
+Shell: PROGRESS V08 0/0
+Shell: PROGRESS V08 50/143
+Shell: PROGRESS V08 100/143
+Shell: RESULT {"video_id":"V08","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V08.mp4","relative":"筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792118597868476-1794554868.mp4","source_sha256":"6715d8574c2fc230c22b8c1d134656dbd6acdc901c59454b856a169f58aee986","captured_at":"2026-10-16T02:43:25.327Z","analysis_status":"done","analysis_error":null,"samples":143,"raw_valid":130,"raw_computed":130,"reference_estimated":0,"raw_rejected":13,"inferred":13,"beautified_valid":143,"raw_valid_rate":0.9090909090909091,"longest_rejected_run":10,"longest_gap_anchor_ms":766,"reasons":{"左侧相似参考角度不一致":13},"peak_raw_abs":9.0,"peak_beautified_abs":8.981710105166895,"quality":"含推断值，请复核","decision":"超阈值","pipeline_wall_ms":12767.533,"duration_s":"11.684000"}
+Shell: START V09 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V09.mp4
+Shell: PROGRESS V09 0/0
+Shell: PROGRESS V09 50/68
+Shell: RESULT {"video_id":"V09","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V09.mp4","relative":"筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792142219183933-1521334818.mp4","source_sha256":"70a91dd68714fb3fc554e83c5b90812c3a613d6e877213defa45d5657bf2e2f6","captured_at":"2026-10-16T09:17:10.320Z","analysis_status":"done","analysis_error":null,"samples":68,"raw_valid":0,"raw_computed":53,"reference_estimated":53,"raw_rejected":15,"inferred":68,"beautified_valid":68,"raw_valid_rate":0.0,"longest_rejected_run":10,"longest_gap_anchor_ms":884,"reasons":{"左侧相似参考角度不一致":5,"左侧阴影超出参考外观":10},"peak_raw_abs":8.575226392540376,"peak_beautified_abs":8.575027193733662,"quality":"含推断值，请复核","decision":"待复核","pipeline_wall_ms":5392.084,"duration_s":"5.617000"}
+Shell: START V10 D:\code\Scoliosis\ScoliosisFlutter\build\all-videos-validation-1792147482129280\videos\V10.mp4
+Shell: PROGRESS V10 0/0
+Shell: PROGRESS V10 50/82
+Shell: RESULT {"video_id":"V10","source":"D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V10.mp4","relative":"筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792142236148426-2524623847.mp4","source_sha256":"e4ceb38bc3c22ffec644dffac3bd5c0fd90524e92e6c38992ca710059cdfa091","captured_at":"2026-10-16T09:17:40.814Z","analysis_status":"done","analysis_error":null,"samples":82,"raw_valid":0,"raw_computed":81,"reference_estimated":81,"raw_rejected":1,"inferred":82,"beautified_valid":82,"raw_valid_rate":0.0,"longest_rejected_run":1,"longest_gap_anchor_ms":133,"reasons":{"左侧相似参考角度不一致":1},"peak_raw_abs":8.0,"peak_beautified_abs":7.976191982827179,"quality":"含推断值，请复核","decision":"待复核","pipeline_wall_ms":6309.075,"duration_s":"6.684000"}
+Shell: COMPLETE 10 videos; 834 exported numeric values verified.
+01:44 +1: All tests passed!

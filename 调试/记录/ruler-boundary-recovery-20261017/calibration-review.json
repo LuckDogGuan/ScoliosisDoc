@@ -1,0 +1,9 @@
+{
+  "reported_at": "2026-10-17",
+  "reported_by": "user",
+  "suggested_add_deg": 1,
+  "applied_add_deg": 0,
+  "status": "pending_label_and_zero_reference_review",
+  "labels_changed": false,
+  "model_parameters_changed": false
+}

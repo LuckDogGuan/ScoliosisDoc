@@ -1,0 +1,16 @@
+{
+  "cases": 124,
+  "previous_valid": 121,
+  "max_previous_valid_angle_delta": 0.0,
+  "intentional_estimate_recoveries": [
+    {
+      "model": "fold-V04",
+      "id": "V04_f000221_t008883ms",
+      "old_reason": 4,
+      "new_reason": 10,
+      "estimated_angle": 9.785714285714286
+    }
+  ],
+  "model_parameters_unchanged": true,
+  "global_plus_one_applied": false
+}

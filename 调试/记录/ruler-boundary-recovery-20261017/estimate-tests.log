@@ -1,0 +1,11 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/ruler_boundary_estimates_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_boundary_estimates_test.dart: reference estimates remain marked after smoothing and do not become screening decisions
+00:00 +1: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_boundary_estimates_test.dart: estimate provenance survives raw persistence, cache and restart
+00:00 +2: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_boundary_estimates_test.dart: estimate-only completion preserves the original video for review
+00:00 +3: loading D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart
+00:00 +3: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart: option A interpolates long gaps in time, smooths numbers, preserves raw
+00:00 +4: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart: zero anchors and endpoints work, all rejected stays blank, range stays hidden
+00:00 +5: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart: atomic dual persistence, cache, raw refresh and cancellation/deletion guards
+00:01 +6: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_beautification_test.dart: v4 additive tables backfill history, reopen unchanged and allow old-version access
+00:01 +7: All tests passed!

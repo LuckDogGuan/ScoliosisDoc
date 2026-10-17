@@ -1,0 +1,418 @@
+{
+  "source_workspace": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace",
+  "videos": [
+    {
+      "video_id": "V01",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V01.mp4",
+      "relative": "筛查/20261014_向阳实验中学/视频/CAM-41eda5f2c5b00de1-v3-1791959298102482-2773095793.mp4",
+      "sha256": "8a873ce1f6f0458b1d04708c71afff02d741a74e317830c8248d1257c47fdfc6",
+      "bytes": 4191229,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "2520/89",
+            "nb_frames": "252"
+          }
+        ],
+        "format": {
+          "duration": "8.900000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-41eda5f2c5b00de1-v3-1791959298102482-2773095793",
+        "captured_at": "2026-10-14T06:28:26.826Z",
+        "video_path": "筛查\\20261014_向阳实验中学\\视频\\CAM-41eda5f2c5b00de1-v3-1791959298102482-2773095793.mp4",
+        "analysis_status": "done",
+        "analysis_error": null
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261014_向阳实验中学\\视频\\CAM-41eda5f2c5b00de1-v3-1791959298102482-2773095793.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V02",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V02.mp4",
+      "relative": "筛查/20261014_向阳实验中学/视频/CAM-41eda5f2c5b00de1-v3-1791959316003053-2512671705.mp4",
+      "sha256": "b77caa8bf0c8e0befd673530e9b223a24a9afa26735fe8d1a6e45e28f2567d9f",
+      "bytes": 5649123,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "6800/239",
+            "nb_frames": "340"
+          }
+        ],
+        "format": {
+          "duration": "11.950000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-41eda5f2c5b00de1-v3-1791959316003053-2512671705",
+        "captured_at": "2026-10-14T06:29:21.385Z",
+        "video_path": "筛查\\20261014_向阳实验中学\\视频\\CAM-41eda5f2c5b00de1-v3-1791959316003053-2512671705.mp4",
+        "analysis_status": "done",
+        "analysis_error": null
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261014_向阳实验中学\\视频\\CAM-41eda5f2c5b00de1-v3-1791959316003053-2512671705.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V03",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V03.mp4",
+      "relative": "筛查/20261014_向阳实验中学/视频/CAM-41eda5f2c5b00de1-v3-1791959373642369-3273093350.mp4",
+      "sha256": "e75ed34086af9da6f3ede6ac3353ec3b97e90754987d1a2e2fb21d3c0e94c88a",
+      "bytes": 4230513,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "86/3",
+            "nb_frames": "258"
+          }
+        ],
+        "format": {
+          "duration": "9.000000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-41eda5f2c5b00de1-v3-1791959373642369-3273093350",
+        "captured_at": "2026-10-14T06:30:37.264Z",
+        "video_path": "筛查\\20261014_向阳实验中学\\视频\\CAM-41eda5f2c5b00de1-v3-1791959373642369-3273093350.mp4",
+        "analysis_status": "done",
+        "analysis_error": null
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261014_向阳实验中学\\视频\\CAM-41eda5f2c5b00de1-v3-1791959373642369-3273093350.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V04",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V04.mp4",
+      "relative": "筛查/20261014_向阳实验中学/视频/CAM-41eda5f2c5b00de1-v3-1791959446553397-1000842064.mp4",
+      "sha256": "dd7b143314ba8df263c0e4fcf7298bef9f96d3b20b9659c2cabb33bc87e3fb9d",
+      "bytes": 5146131,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "1236/43",
+            "nb_frames": "309"
+          }
+        ],
+        "format": {
+          "duration": "10.750000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-41eda5f2c5b00de1-v3-1791959446553397-1000842064",
+        "captured_at": "2026-10-14T06:31:04.229Z",
+        "video_path": "筛查\\20261014_向阳实验中学\\视频\\CAM-41eda5f2c5b00de1-v3-1791959446553397-1000842064.mp4",
+        "analysis_status": "done",
+        "analysis_error": null
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261014_向阳实验中学\\视频\\CAM-41eda5f2c5b00de1-v3-1791959446553397-1000842064.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V05",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V05.mp4",
+      "relative": "筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792118519994652-3218650117.mp4",
+      "sha256": "c1da99a193d7fd5fc7bee79a7a6720dad16838cb1d31d9a82449e1ae59af31b1",
+      "bytes": 6138895,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "11250/439",
+            "nb_frames": "375"
+          }
+        ],
+        "format": {
+          "duration": "14.634000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792118519994652-3218650117",
+        "captured_at": "2026-10-16T02:42:06.110Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792118519994652-3218650117.mp4",
+        "analysis_status": "done",
+        "analysis_error": null
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792118519994652-3218650117.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V06",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V06.mp4",
+      "relative": "筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792118541043274-3808826473.mp4",
+      "sha256": "a7c0ab0d00b64bcead679f29f3e41a889e684021ad6e4796a3bfdc037f60ddfd",
+      "bytes": 5903825,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "1250/49",
+            "nb_frames": "375"
+          }
+        ],
+        "format": {
+          "duration": "14.700000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792118541043274-3808826473",
+        "captured_at": "2026-10-16T02:42:39.214Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792118541043274-3808826473.mp4",
+        "analysis_status": "done",
+        "analysis_error": null
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792118541043274-3808826473.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V07",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V07.mp4",
+      "relative": "筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792118574178786-1653672749.mp4",
+      "sha256": "0354ea53fe787cf8744e311ba00fa137bcb739e98afa9794a19ed1ba563ed3fa",
+      "bytes": 5133347,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "668/27",
+            "nb_frames": "334"
+          }
+        ],
+        "format": {
+          "duration": "13.500000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792118574178786-1653672749",
+        "captured_at": "2026-10-16T02:43:04.088Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792118574178786-1653672749.mp4",
+        "analysis_status": "done",
+        "analysis_error": null
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792118574178786-1653672749.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V08",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V08.mp4",
+      "relative": "筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792118597868476-1794554868.mp4",
+      "sha256": "6715d8574c2fc230c22b8c1d134656dbd6acdc901c59454b856a169f58aee986",
+      "bytes": 4343515,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "17220/701",
+            "nb_frames": "287"
+          }
+        ],
+        "format": {
+          "duration": "11.684000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792118597868476-1794554868",
+        "captured_at": "2026-10-16T02:43:25.327Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792118597868476-1794554868.mp4",
+        "analysis_status": "done",
+        "analysis_error": null
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792118597868476-1794554868.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V09",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V09.mp4",
+      "relative": "筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792142219183933-1521334818.mp4",
+      "sha256": "70a91dd68714fb3fc554e83c5b90812c3a613d6e877213defa45d5657bf2e2f6",
+      "bytes": 2229049,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "8220/337",
+            "nb_frames": "137"
+          }
+        ],
+        "format": {
+          "duration": "5.617000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792142219183933-1521334818",
+        "captured_at": "2026-10-16T09:17:10.320Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792142219183933-1521334818.mp4",
+        "analysis_status": "failed",
+        "analysis_error": "Bad state: 本段录像没有有效读数，请查看拍摄详情"
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792142219183933-1521334818.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    },
+    {
+      "video_id": "V10",
+      "source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\all-videos-validation-1792147482129280\\videos\\V10.mp4",
+      "relative": "筛查/20261016_向阳实验中学/视频/CAM-211ec7045815bf02-v3-1792142236148426-2524623847.mp4",
+      "sha256": "e4ceb38bc3c22ffec644dffac3bd5c0fd90524e92e6c38992ca710059cdfa091",
+      "bytes": 2741812,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 1080,
+            "avg_frame_rate": "9900/401",
+            "nb_frames": "165"
+          }
+        ],
+        "format": {
+          "duration": "6.684000"
+        }
+      },
+      "probe_error": "",
+      "record": {
+        "capture_id": "CAM-211ec7045815bf02-v3-1792142236148426-2524623847",
+        "captured_at": "2026-10-16T09:17:40.814Z",
+        "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792142236148426-2524623847.mp4",
+        "analysis_status": "failed",
+        "analysis_error": "Bad state: 本段录像没有有效读数，请查看拍摄详情"
+      },
+      "original_source": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\ui-review-workspace\\筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792142236148426-2524623847.mp4",
+      "original_exists_at_retest": false,
+      "source_type": "verified identical copy from previous isolated test"
+    }
+  ],
+  "missing_record_videos": [
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792138919176410-3802010140",
+      "captured_at": "2026-10-16T08:22:08.602Z",
+      "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792138919176410-3802010140.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792138955371683-418537377",
+      "captured_at": "2026-10-16T08:22:39.670Z",
+      "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792138955371683-418537377.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792139498954428-2117054735",
+      "captured_at": "2026-10-16T08:31:50.689Z",
+      "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792139498954428-2117054735.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792139518185701-3890505040",
+      "captured_at": "2026-10-16T08:33:02.690Z",
+      "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792139518185701-3890505040.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792139590408757-3531452624",
+      "captured_at": "2026-10-16T08:39:50.970Z",
+      "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792139590408757-3531452624.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792139998924000-2142595549",
+      "captured_at": "2026-10-16T08:40:13.593Z",
+      "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792139998924000-2142595549.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792140970488966-1123874023",
+      "captured_at": "2026-10-16T08:56:15.151Z",
+      "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792140970488966-1123874023.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792140982127764-963174005",
+      "captured_at": "2026-10-16T08:57:13.213Z",
+      "video_path": "筛查\\20261016_向阳实验中学\\视频\\CAM-211ec7045815bf02-v3-1792140982127764-963174005.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792142533511726-1809974981",
+      "captured_at": "2026-10-16T09:22:16.592Z",
+      "video_path": "筛查\\20261016_光明初级中学\\视频\\CAM-211ec7045815bf02-v3-1792142533511726-1809974981.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    },
+    {
+      "capture_id": "CAM-211ec7045815bf02-v3-1792142542290245-1732950715",
+      "captured_at": "2026-10-16T09:22:41.667Z",
+      "video_path": "筛查\\20261016_光明初级中学\\视频\\CAM-211ec7045815bf02-v3-1792142542290245-1732950715.mp4",
+      "analysis_status": "done",
+      "analysis_error": null
+    }
+  ],
+  "original_angle_rows_sha256": "b678632a3b1e129498e73c47c779ab6685a2dfcbbd814491e7391fb336ef7b28"
+}
