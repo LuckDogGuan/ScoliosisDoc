@@ -1,0 +1,7 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/global_diagnostic_logs_test.dart
+00:00 +0: analysis success and failure export capture context, counts and timing
+00:00 +1: controllers send workspace A and B diagnostics to one global log across restart
+00:04 +2: settings export uses ZIP, handles cancellation/failure and restores button
+00:06 +3: record table removes complete rate column while keeping width alignment
+00:06 +4: All tests passed!

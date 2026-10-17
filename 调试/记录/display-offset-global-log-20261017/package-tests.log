@@ -1,0 +1,15 @@
+{
+  "version": "1.2.3",
+  "source_commit": "source",
+  "archive": "scoliosis-windows-1.2.3.zip",
+  "archive_sha256": "7d5495b276120e3f827ecc205dcb3b31acc054ff74bd72fb7f2d984e5432fa85",
+  "installer": "Scoliosis-1.2.3-Setup.exe",
+  "installer_sha256": "b97d800ba8d0420dc6a0342045a15a97d785bd61d4cf9902d0c334ba32ec188b",
+  "verification": "runtime manifest and complete archive readback passed",
+  "expanded_directory": "local only, excluded from Git"
+}
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.166s
+
+OK
