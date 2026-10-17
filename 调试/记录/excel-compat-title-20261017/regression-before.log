@@ -1,0 +1,25 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/record_export_excel_structure_test.dart
+00:00 +0: all worksheet element orders are Excel compatible, unshotOnly=false
+00:00 +0 -1: all worksheet element orders are Excel compatible, unshotOnly=false [E]
+  Expected: a value greater than <1>
+    Actual: <0>
+     Which: is not a value greater than <1>
+  xl/worksheets/sheet5.xml
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\record_export_excel_structure_test.dart 31:9   main.<fn>
+  
+00:00 +0 -1: all worksheet element orders are Excel compatible, unshotOnly=true
+00:00 +0 -2: all worksheet element orders are Excel compatible, unshotOnly=true [E]
+  Expected: a value greater than <1>
+    Actual: <0>
+     Which: is not a value greater than <1>
+  xl/worksheets/sheet2.xml
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\record_export_excel_structure_test.dart 31:9   main.<fn>
+  
+00:00 +0 -2: Some tests failed.

@@ -1,0 +1,90 @@
+{
+  "Path": "build/excel-compat-20261017/original-093022.xlsx",
+  "ErrorCount": 14,
+  "Errors": [
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet3.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet7.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet8.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet9.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet10.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet11.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet12.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet13.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet14.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet15.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet16.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet17.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet18.xml"
+    },
+    {
+      "Id": "Sch_UnexpectedElementContentExpectingComplex",
+      "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/spreadsheetml/2006/main:dimension'. List of possible elements expected: <http://schemas.openxmlformats.org/spreadsheetml/2006/main:sheetData>.",
+      "XPath": "/x:worksheet[1]",
+      "Part": "/xl/worksheets/sheet19.xml"
+    }
+  ]
+}

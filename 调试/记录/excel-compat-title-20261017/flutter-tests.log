@@ -1,0 +1,26 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/record_export_excel_structure_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/record_export_excel_structure_test.dart: all worksheet element orders are Excel compatible, unshotOnly=false
+00:00 +1: D:/code/Scoliosis/ScoliosisFlutter/test/record_export_excel_structure_test.dart: all worksheet element orders are Excel compatible, unshotOnly=true
+00:00 +2: loading D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart
+00:01 +2: D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart: class sheets match identities, hidden curves preserve signed values and gaps
+00:01 +3: D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart: unshot classes export and final duration uses persisted completion events
+00:01 +4: D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart: no school disables exports and record maximum is explicit
+00:02 +5: D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart: mixed schools rejected and missing real values explained
+00:02 +6: loading D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart
+00:03 +6: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: (setUpAll)
+00:03 +6: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: all threshold boundaries, source proof and partial-read policy
+00:03 +7: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: thresholds persist globally and failures leave the previous rule
+00:03 +8: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: ten charts have serialized row heights, separated anchors and all threshold/peak lines
+00:04 +9: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: A to B to A keeps ownership and old HTTP events cannot enter B
+00:04 +10: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: switch drains partial upload; delayed ownership=false
+00:04 +11: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: switch drains partial upload; delayed ownership=true
+00:04 +12: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: failed/short count is separate and unconfirmed recording permits a bounded switch
+00:04 +13: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: empty curve exists before readings; first point appears without a second click
+00:04 +14: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: one click shows identity and curve together; returning keeps page and scrollbar
+00:06 +15: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: decimal filter is displayed without rounding or hiding the predicate
+00:06 +16: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: rapid same-target dialogs and notices do not accumulate
+00:06 +17: D:/code/Scoliosis/ScoliosisFlutter/test/ruler_complete_flow_test.dart: (tearDownAll)
+00:06 +17: loading D:/code/Scoliosis/ScoliosisFlutter/test/records_export_provenance_test.dart
+00:07 +17: D:/code/Scoliosis/ScoliosisFlutter/test/records_export_provenance_test.dart: export uses all stored readings and preserves gaps without source labels
+00:07 +18: All tests passed!
