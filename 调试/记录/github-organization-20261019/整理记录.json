@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-19",
+  "remote": "git@github.com:LuckDogGuan/ScoliosisDoc.git",
+  "main_before": "c56714b2e80f1f2af7e5be7d85d88f38b857cab8",
+  "work_branch": "codex/capture-stability-20261013",
+  "work_head_before": "71c8308b6a474267d37dc35fca9803b21ca9f416",
+  "main_ancestor_of_work_head": true,
+  "remote_initial_refs": [],
+  "user_confirmation": "保留完整的历史，然后发布即可。",
+  "history_rewritten": false,
+  "existing_tags_moved": false,
+  "local_files_deleted": false,
+  "firmware_or_flutter_repository_modified": false,
+  "existing_sensitive_configuration_preserved_by_user_confirmation": true,
+  "new_evidence_directories": [
+    "backlight-school-export-20261013",
+    "backlight-sweep-20261016",
+    "delivery-3310-20261013"
+  ],
+  "resource_files_indexed": 42,
+  "source_links_checked_on": "2026-10-19",
+  "test_scope": "documentation links, JSON parsing, file SHA256, staged Git bytes, GitNexus staged change scope; no hardware or application acceptance rerun",
+  "evidence_commits": [
+    "fe3315f9eebbb40a7a892b5f43fb766251b8a5e2 docs(evidence): archive 3.3.10 delivery audit",
+    "fb3b01757be3d9454478ccf9259c24430aee8d9f docs(evidence): archive fixed-focus backlight sweep",
+    "d98213ef1c5329c82e69e79f289d8d66e6847d4e docs(evidence): archive backlight and school export records"
+  ],
+  "validation": {
+    "markdown_local_links": 131,
+    "missing_links": 0,
+    "evidence_files_workspace_and_index_sha256_verified": 162,
+    "resource_files_sha256_recorded": 42,
+    "resource_payloads_all_ignored": true,
+    "git_connectivity_check": "PASS",
+    "historical_binary_and_unindexed_symbol_scope": "supplemented by explicit staged paths and SHA256; GitNexus graph is not complete binary coverage"
+  }
+}

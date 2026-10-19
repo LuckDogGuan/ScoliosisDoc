@@ -1,0 +1,303 @@
+{
+  "recorded_on": "2026-10-19",
+  "local_workspace": "D:/code/Scoliosis/Luckfox",
+  "source_guide": "资料来源与下载.md",
+  "hash_scope": "local_bytes_only_not_upstream_authenticity",
+  "selection": "SDK files, drawings, DTS examples, original tool archives, example archives at depth <=2, original system image; extracted software installations omitted",
+  "files": [
+    {
+      "path": "2. SDK相关工具/dl/dl.tar.bz2",
+      "bytes": 382002677,
+      "sha256": "70f2334a589209097d9cfe62ff21df9818d72b51cdd5f80ecd68d5a77a89a5e5",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "2. SDK相关工具/dl/dl.tar.bz2.sha256",
+      "bytes": 77,
+      "sha256": "51d143c94e6f8e9e832b0f59d18abc7122ba40f9387d4aa9c9f02c8e2fc32574",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "2. SDK相关工具/Luckfox-SDK-VMware.zip",
+      "bytes": 6833885546,
+      "sha256": "cfba8b78c1fcccc8d507f57b27e5bc803a5bcc3e474291a87c15331ddb6223e8",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "2. SDK相关工具/luckfox_pico_docker.tar",
+      "bytes": 765898240,
+      "sha256": "e46ddddad32c4ee278d371f9a78b4951ed206ba58033e009378f6576da325f10",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "2. SDK相关工具/ubuntu-22.04.2-desktop-amd64.iso",
+      "bytes": 4927586304,
+      "sha256": "b98dac940a82b110e6265ca78d1320f1f7103861e922aa1a54e4202686e9bbd3",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "2. SDK相关工具/Ubuntu2204-WSL.zip",
+      "bytes": 1116834851,
+      "sha256": "6ad6d88763451a50f98f2469ce80464d666204c08d07f8f6a89e0d5ca05b097a",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/3D Models/Luckfox-Pico-Step.zip",
+      "bytes": 36135056,
+      "sha256": "054229900bb088811a6282c6c10816a35cf325698a797386f2f7aee3bd718a34",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/3D Models/Luckfox-POE.zip",
+      "bytes": 243168,
+      "sha256": "f3d4d931fac230bae2eb20f1b62efa832e3b2ce8a5486879e9fac7c1917ef4cb",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/CAD/Luckfox-Pico-CAD.zip",
+      "bytes": 1166770,
+      "sha256": "1ec6b29e57f3ff3015c4e1acec2f3474a32ab80cf488bc38ee6ca62b336f2205",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/86-Panel-Bottom-Board.pdf",
+      "bytes": 442252,
+      "sha256": "0914c9bf46a4719a21fee4b3fb90fe3b138bac7a3a8dfbce612c5e5a8d979be8",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Core1106-Footprint.zip",
+      "bytes": 2062405,
+      "sha256": "eb4bc7a04835e4335b961c1c5b6f8b063861d35bce0b82737ae40a0f379c63ac",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Core1106.pdf",
+      "bytes": 2036092,
+      "sha256": "96c7d4fabfbe92368cfa47adff624070d3965546be90905e5ada968e941fb892",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Core1106.xls",
+      "bytes": 39424,
+      "sha256": "66456a91172c1d025d3d602fb6417319f24fcd78e740815f5f52191749d4922d",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Core1106_Power_Consumption_Reference_V1.0.xlsx",
+      "bytes": 11493,
+      "sha256": "d31a8326c360ffc882fe7b81363fcf2f2a15be7175223a802bd4a2c155b5547a",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox Pico 系列做位号图.rar",
+      "bytes": 916803,
+      "sha256": "00c4b8e17a6d384463dcc078b9dc0d6e62400a27426ce196f4c3ff59ddf65a5e",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico-86-Panel.pdf",
+      "bytes": 726310,
+      "sha256": "a002cb2fdb8736567be1ef54bcc5d8355766a578bb08ed748c4d6500bf597cd5",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico-Bitmap.rar",
+      "bytes": 916803,
+      "sha256": "00c4b8e17a6d384463dcc078b9dc0d6e62400a27426ce196f4c3ff59ddf65a5e",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico-Mini.pdf",
+      "bytes": 777428,
+      "sha256": "1568b63fed745d8862a664c5f17ef00050481985488f6e1451845af0147f6c45",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico-Pi.pdf",
+      "bytes": 3787138,
+      "sha256": "8f5d2144b96656062d88c7025d3dff9b1ff79290ff6cd7cb2b19ad11cebbb0b6",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico-Plus.pdf",
+      "bytes": 921335,
+      "sha256": "d8ba5f69360d764fbcc8a6c7d8005ccba2c72ef406ea4ee70683ac728ec573a6",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico-Pro-Max.pdf",
+      "bytes": 1208824,
+      "sha256": "104607be125d631d426405552a9ed110c10501db6cc997951f0bb4fb151a5717",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico-Ultra-W.pdf",
+      "bytes": 1732230,
+      "sha256": "09f99cec95946c6cccc4397df5f6222b3bf68660016107e9858f8c13e89eff8c",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico-Zero.pdf",
+      "bytes": 1824140,
+      "sha256": "faa5576083a301e233d083c11e47f2946c76b7fe102f9e3b6f07d2e6d2d1926b",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/Luckfox-Pico.pdf",
+      "bytes": 846940,
+      "sha256": "f38b3a6ec13bc8fc6793494bde3e8cc3004e004802ce7500fbf36aed79f6a254",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/引脚定义1.png",
+      "bytes": 670797,
+      "sha256": "83b703fa53162dd33e01f549b832f9d85cac0d26981b5c07bc528e79ec0f2166",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "3. 图纸/Schematic/引脚定义2.png",
+      "bytes": 609014,
+      "sha256": "e8f4c2a8b6f739557a0757d99de282cd1869ff596ff9cf5269575da5bb264a26",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "4. 设备树文件/DHT11/rv1103g-luckfox-pico-plus.dts",
+      "bytes": 5328,
+      "sha256": "6decee4472b7a6885ba23ab54a092c4dc9d0c9fb480f2d8b30b1201be9af6b5f",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "4. 设备树文件/DHT11/rv1103g-luckfox-pico.dts",
+      "bytes": 4943,
+      "sha256": "2b8f41c0b97ad458211e827e4d2c9991bbc54e86c11731645d20ebefef484594",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "4. 设备树文件/DHT11/rv1106g-luckfox-pico-pro-max.dts",
+      "bytes": 4096,
+      "sha256": "94197e50088976a3a2e983171cb36a1293d7135a71db526720a36b146b21cd6d",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "4. 设备树文件/OLED_1in5/rv1103g-luckfox-pico-plus.dts",
+      "bytes": 5812,
+      "sha256": "e881ca3a1512fa2aad27925e82fb92d735252f1f33d33a166c5cf8fb19232634",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "4. 设备树文件/OLED_1in5/rv1103g-luckfox-pico.dts",
+      "bytes": 5452,
+      "sha256": "87c65378801407fcd868bf56b6aa3dab76e7b7480d35df08ffaef64c02a2e4a4",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "5. 常用软件工具/adb_fastboot.zip",
+      "bytes": 23800752,
+      "sha256": "7e77b6baba5e7115b70bcbc76a0d1c0cbb7f146c81bcba646b88824a15e12477",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "5. 常用软件工具/DriverAssitant_v5.13.zip",
+      "bytes": 9775583,
+      "sha256": "b2cabce5ab23551d8649c1201ef741fd73c8326044b78edac5439f013f034ff9",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "5. 常用软件工具/MobaXterm_Portable_v22.0.zip",
+      "bytes": 27617655,
+      "sha256": "f7aebc4a40443c25cca7d01b6d853ec045cf2e6e087e5065803e23c286656da2",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "5. 常用软件工具/SDCardFormatter.zip",
+      "bytes": 6424321,
+      "sha256": "df18843616643f53a613fd536eb4ff05a068de16b2902f48234706a2cfedc374",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "5. 常用软件工具/SocToolKit_V2.2.zip",
+      "bytes": 41355660,
+      "sha256": "92484ec262948a89e93a25f8a6de6c9560735b11b9ba4f96845aaa5c46fa7020",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "示例程序/LVGL示例程序/LVGL.zip",
+      "bytes": 367546570,
+      "sha256": "a721e53ef1ba064cecfce4ea941b6997f77139bac275143d029ad0af5024a5d0",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "示例程序/RKNN示例程序/luckfox_rknn.zip",
+      "bytes": 1669787865,
+      "sha256": "167ed24134c84b6f93921a280dfa2982e7ca4a90f491c591a97089201d347282",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "示例程序/RKNN示例程序/mark.zip",
+      "bytes": 1869244,
+      "sha256": "e2a4735ee1af841cc34a404f10a2dbb3e8736957d583c7702c3c198e03dd30b5",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "示例程序/RKNN示例程序/RKNN.zip",
+      "bytes": 8639768,
+      "sha256": "911c83259e1a74cdcf6a7b4ec82714c483b78b28b9d5e6e74bf2c6e484cf9672",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "示例程序/外设与接口/Code.zip",
+      "bytes": 9916,
+      "sha256": "b9227502eade07bf3e6ddf4f1199607015e3f0327bd10347ff5da50ff189828a",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    },
+    {
+      "path": "Luckfox_Pico_Zero_eMMC_260604.zip",
+      "bytes": 179048821,
+      "sha256": "c4250f1ea3a6766049681ba0a8dafc53f897b7b7f05001c7b25112c858d74cdb",
+      "git_payload": "excluded_local_only",
+      "upstream_exact_version_verified": false
+    }
+  ]
+}

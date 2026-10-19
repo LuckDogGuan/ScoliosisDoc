@@ -6,6 +6,10 @@
 flash_ready/
 Luckfox_Pico_Zero_eMMC_260604.zip
 
+# Rebuildable local code-intelligence caches; shared skills remain tracked.
+/.gitnexus/
+/.cursor/
+
 调试/工具/测试工具/
 # Local evidence and exact WSL source snapshots
 调试/记录/capture-upgrade-*/firmware-source-*/
