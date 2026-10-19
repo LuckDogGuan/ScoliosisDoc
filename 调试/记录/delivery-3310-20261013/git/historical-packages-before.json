@@ -1,0 +1,58 @@
+[
+  {
+    "directory": "windows-3.3.2-2446f62-20261008",
+    "archive": "scoliosis-windows-3.3.2-20261008.zip",
+    "bytes": 151067770,
+    "sha256": "3d26e34e12e6e37aca57a2c1efdd3429d2a6f1a952a5b8bbcb18fc26684bba9b",
+    "zip_integrity": null
+  },
+  {
+    "directory": "windows-3.3.3-d321f4c-20261009",
+    "archive": "scoliosis-windows-3.3.3-20261009.zip",
+    "bytes": 151072220,
+    "sha256": "952411ef4500184e414c6d96aa199eb2856aca2e8b51132cb9c4535a9bfe1815",
+    "zip_integrity": null
+  },
+  {
+    "directory": "windows-3.3.4-5852c50-20261009",
+    "archive": "scoliosis-windows-3.3.4-20261009.zip",
+    "bytes": 151083053,
+    "sha256": "7ce72b3320179a8b224f35968a89a150e7e3d015c03d1a985ce2c7c02750f340",
+    "zip_integrity": null
+  },
+  {
+    "directory": "windows-3.3.5-956dc97-20261009",
+    "archive": "scoliosis-windows-3.3.5-20261009.zip",
+    "bytes": 151083338,
+    "sha256": "220d2302576471e828df92b2ed36f5002eb636c04b667e9b95e02afbc1e752b0",
+    "zip_integrity": null
+  },
+  {
+    "directory": "windows-3.3.6-5165f96-20261013",
+    "archive": "scoliosis-windows-3.3.6-20261013.zip",
+    "bytes": 151090617,
+    "sha256": "f1a45848287a5f618197ea321ac75851760446fa052e1feaf5f4e78e1cc39733",
+    "zip_integrity": null
+  },
+  {
+    "directory": "windows-3.3.7-318c63f-20261013",
+    "archive": "scoliosis-windows-3.3.7-20261013.zip",
+    "bytes": 151090393,
+    "sha256": "7f09ac47594438b3a075c2bbd9863961f90ef01dc6c70ac867a450db80753d97",
+    "zip_integrity": null
+  },
+  {
+    "directory": "windows-3.3.8-346f510-20261013",
+    "archive": "scoliosis-windows-3.3.8-20261013.zip",
+    "bytes": 151090391,
+    "sha256": "a23f572a3db992c219f150c341a31b3d5e402c6cc5dc6b2bcc1c774521f470cb",
+    "zip_integrity": null
+  },
+  {
+    "directory": "windows-3.3.9-ae13512-20261013",
+    "archive": "scoliosis-windows-3.3.9-20261013.zip",
+    "bytes": 151090583,
+    "sha256": "3ad0f9698aad4cf64ebd3d3f462604a0461a8a134ab29d21b64c4e166e0670bc",
+    "zip_integrity": null
+  }
+]

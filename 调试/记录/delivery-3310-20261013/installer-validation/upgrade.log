@@ -1,0 +1,665 @@
+﻿2026-10-13 16:45:25.742   Log opened. (Time zone: UTC+08:00)
+2026-10-13 16:45:25.742   Setup version: Inno Setup version 6.7.3
+2026-10-13 16:45:25.742   Original Setup EXE: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.10-94c1e25\Scoliosis-3.3.10-Setup.exe
+2026-10-13 16:45:25.742   Setup command line: /SL5="$761218,134929221,932864,D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.10-94c1e25\Scoliosis-3.3.10-Setup.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /DIR=D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310 /LOG=D:\code\Scoliosis\Luckfox\调试\记录\delivery-3310-20261013\installer-validation\upgrade.log
+2026-10-13 16:45:25.742   Windows version: 10.0.26200
+2026-10-13 16:45:25.742   Windows architecture: x64 (64-bit)
+2026-10-13 16:45:25.742   Machine types supported by system: x86 x64
+2026-10-13 16:45:25.742   User privileges: None
+2026-10-13 16:45:25.745   Administrative install mode: No
+2026-10-13 16:45:25.745   Install mode root key: HKEY_CURRENT_USER
+2026-10-13 16:45:25.745   64-bit install mode: Yes
+2026-10-13 16:45:25.745   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-10-13 16:45:25.747   Created temporary directory: C:\Users\31186\AppData\Local\Temp\is-QTQFRMPGYX.tmp
+2026-10-13 16:45:25.964   Found 17 files to register with RestartManager.
+2026-10-13 16:45:25.964   Calling RestartManager's RmGetList.
+2026-10-13 16:45:26.022   RmGetList finished successfully.
+2026-10-13 16:45:26.022   RestartManager found no applications using one of our files.
+2026-10-13 16:45:26.029   Starting the installation process.
+2026-10-13 16:45:26.035   Directory for uninstall files: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310
+2026-10-13 16:45:26.035   Will append to existing uninstall log: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\unins000.dat
+2026-10-13 16:45:26.039   -- File entry --
+2026-10-13 16:45:26.039   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\unins000.exe
+2026-10-13 16:45:26.039   Non-default bitness: 32-bit
+2026-10-13 16:45:26.042   Time stamp of our file: 2026-10-13 16:45:25.466
+2026-10-13 16:45:26.042   Dest file exists.
+2026-10-13 16:45:26.042   Time stamp of existing file: 2026-10-13 16:45:17.074
+2026-10-13 16:45:26.042   Version of our file: 51.1054.0.0
+2026-10-13 16:45:26.044   Version of existing file: 51.1054.0.0
+2026-10-13 16:45:26.044   Installing the file.
+2026-10-13 16:45:26.056   Leaving temporary file in place for now.
+2026-10-13 16:45:26.057   -- File entry --
+2026-10-13 16:45:26.057   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\flutter_tts_plugin.dll
+2026-10-13 16:45:26.057   Time stamp of our file: 2026-10-08 12:35:14.000
+2026-10-13 16:45:26.057   Dest file exists.
+2026-10-13 16:45:26.057   Time stamp of existing file: 2026-10-08 12:35:14.000
+2026-10-13 16:45:26.057   Installing the file.
+2026-10-13 16:45:26.062   Successfully installed the file.
+2026-10-13 16:45:26.062   -- File entry --
+2026-10-13 16:45:26.062   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\flutter_windows.dll
+2026-10-13 16:45:26.062   Time stamp of our file: 2026-05-01 01:02:18.000
+2026-10-13 16:45:26.062   Dest file exists.
+2026-10-13 16:45:26.063   Time stamp of existing file: 2026-05-01 01:02:18.000
+2026-10-13 16:45:26.063   Installing the file.
+2026-10-13 16:45:26.512   Successfully installed the file.
+2026-10-13 16:45:26.512   -- File entry --
+2026-10-13 16:45:26.512   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\native_assets.json
+2026-10-13 16:45:26.513   Time stamp of our file: 2026-10-13 16:34:18.000
+2026-10-13 16:45:26.513   Dest file exists.
+2026-10-13 16:45:26.513   Time stamp of existing file: 2026-10-13 16:34:18.000
+2026-10-13 16:45:26.513   Installing the file.
+2026-10-13 16:45:26.514   Successfully installed the file.
+2026-10-13 16:45:26.514   -- File entry --
+2026-10-13 16:45:26.514   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\scoliosis_flutter.exe
+2026-10-13 16:45:26.515   Time stamp of our file: 2026-10-13 16:42:18.000
+2026-10-13 16:45:26.515   Dest file exists.
+2026-10-13 16:45:26.515   Time stamp of existing file: 2026-10-13 16:42:18.000
+2026-10-13 16:45:26.515   Installing the file.
+2026-10-13 16:45:26.521   Successfully installed the file.
+2026-10-13 16:45:26.521   -- File entry --
+2026-10-13 16:45:26.521   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\sqlite3.dll
+2026-10-13 16:45:26.521   Time stamp of our file: 2026-10-08 12:34:22.000
+2026-10-13 16:45:26.521   Dest file exists.
+2026-10-13 16:45:26.522   Time stamp of existing file: 2026-10-08 12:34:22.000
+2026-10-13 16:45:26.522   Installing the file.
+2026-10-13 16:45:26.566   Successfully installed the file.
+2026-10-13 16:45:26.566   -- File entry --
+2026-10-13 16:45:26.566   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\video_player_win_plugin.dll
+2026-10-13 16:45:26.567   Time stamp of our file: 2026-10-08 12:35:24.000
+2026-10-13 16:45:26.567   Dest file exists.
+2026-10-13 16:45:26.567   Time stamp of existing file: 2026-10-08 12:35:24.000
+2026-10-13 16:45:26.567   Installing the file.
+2026-10-13 16:45:26.571   Successfully installed the file.
+2026-10-13 16:45:26.572   -- File entry --
+2026-10-13 16:45:26.572   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\app.so
+2026-10-13 16:45:26.572   Time stamp of our file: 2026-10-13 16:27:22.000
+2026-10-13 16:45:26.572   Dest file exists.
+2026-10-13 16:45:26.572   Time stamp of existing file: 2026-10-13 16:27:22.000
+2026-10-13 16:45:26.572   Installing the file.
+2026-10-13 16:45:26.786   Successfully installed the file.
+2026-10-13 16:45:26.786   -- File entry --
+2026-10-13 16:45:26.786   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\icudtl.dat
+2026-10-13 16:45:26.787   Time stamp of our file: 2026-05-01 01:01:06.000
+2026-10-13 16:45:26.787   Dest file exists.
+2026-10-13 16:45:26.787   Time stamp of existing file: 2026-05-01 01:01:06.000
+2026-10-13 16:45:26.787   Installing the file.
+2026-10-13 16:45:26.819   Successfully installed the file.
+2026-10-13 16:45:26.819   -- File entry --
+2026-10-13 16:45:26.819   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\AssetManifest.bin
+2026-10-13 16:45:26.819   Time stamp of our file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.819   Dest file exists.
+2026-10-13 16:45:26.819   Time stamp of existing file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.819   Installing the file.
+2026-10-13 16:45:26.821   Successfully installed the file.
+2026-10-13 16:45:26.821   -- File entry --
+2026-10-13 16:45:26.821   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\FontManifest.json
+2026-10-13 16:45:26.821   Time stamp of our file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.821   Dest file exists.
+2026-10-13 16:45:26.821   Time stamp of existing file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.822   Installing the file.
+2026-10-13 16:45:26.823   Successfully installed the file.
+2026-10-13 16:45:26.823   -- File entry --
+2026-10-13 16:45:26.823   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\NativeAssetsManifest.json
+2026-10-13 16:45:26.824   Time stamp of our file: 2026-10-13 16:26:38.000
+2026-10-13 16:45:26.824   Dest file exists.
+2026-10-13 16:45:26.824   Time stamp of existing file: 2026-10-13 16:26:38.000
+2026-10-13 16:45:26.824   Installing the file.
+2026-10-13 16:45:26.825   Successfully installed the file.
+2026-10-13 16:45:26.825   -- File entry --
+2026-10-13 16:45:26.826   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\NOTICES.Z
+2026-10-13 16:45:26.826   Time stamp of our file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.826   Dest file exists.
+2026-10-13 16:45:26.826   Time stamp of existing file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.826   Installing the file.
+2026-10-13 16:45:26.833   Successfully installed the file.
+2026-10-13 16:45:26.833   -- File entry --
+2026-10-13 16:45:26.833   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\assets\branding\app-icon.png
+2026-10-13 16:45:26.834   Time stamp of our file: 2026-10-13 15:53:58.000
+2026-10-13 16:45:26.834   Dest file exists.
+2026-10-13 16:45:26.834   Time stamp of existing file: 2026-10-13 15:53:58.000
+2026-10-13 16:45:26.834   Installing the file.
+2026-10-13 16:45:26.879   Successfully installed the file.
+2026-10-13 16:45:26.880   -- File entry --
+2026-10-13 16:45:26.880   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\fonts\MaterialIcons-Regular.otf
+2026-10-13 16:45:26.880   Time stamp of our file: 2026-05-01 01:01:04.000
+2026-10-13 16:45:26.880   Dest file exists.
+2026-10-13 16:45:26.880   Time stamp of existing file: 2026-05-01 01:01:04.000
+2026-10-13 16:45:26.880   Installing the file.
+2026-10-13 16:45:26.911   Successfully installed the file.
+2026-10-13 16:45:26.911   -- File entry --
+2026-10-13 16:45:26.911   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\packages\cupertino_icons\assets\CupertinoIcons.ttf
+2026-10-13 16:45:26.911   Time stamp of our file: 2026-05-18 15:54:48.000
+2026-10-13 16:45:26.911   Dest file exists.
+2026-10-13 16:45:26.911   Time stamp of existing file: 2026-05-18 15:54:48.000
+2026-10-13 16:45:26.911   Installing the file.
+2026-10-13 16:45:26.920   Successfully installed the file.
+2026-10-13 16:45:26.920   -- File entry --
+2026-10-13 16:45:26.920   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\shaders\ink_sparkle.frag
+2026-10-13 16:45:26.920   Time stamp of our file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.920   Dest file exists.
+2026-10-13 16:45:26.921   Time stamp of existing file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.921   Installing the file.
+2026-10-13 16:45:26.922   Successfully installed the file.
+2026-10-13 16:45:26.922   -- File entry --
+2026-10-13 16:45:26.922   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\data\flutter_assets\shaders\stretch_effect.frag
+2026-10-13 16:45:26.923   Time stamp of our file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.923   Dest file exists.
+2026-10-13 16:45:26.923   Time stamp of existing file: 2026-10-13 16:27:24.000
+2026-10-13 16:45:26.923   Installing the file.
+2026-10-13 16:45:26.924   Successfully installed the file.
+2026-10-13 16:45:26.924   -- File entry --
+2026-10-13 16:45:26.924   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ball.onnx
+2026-10-13 16:45:26.924   Time stamp of our file: 2026-09-28 19:04:00.000
+2026-10-13 16:45:26.924   Dest file exists.
+2026-10-13 16:45:26.924   Time stamp of existing file: 2026-09-28 19:04:00.000
+2026-10-13 16:45:26.925   Installing the file.
+2026-10-13 16:45:28.409   Successfully installed the file.
+2026-10-13 16:45:28.409   -- File entry --
+2026-10-13 16:45:28.409   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\digit.onnx
+2026-10-13 16:45:28.410   Time stamp of our file: 2026-09-28 19:04:24.000
+2026-10-13 16:45:28.410   Dest file exists.
+2026-10-13 16:45:28.410   Time stamp of existing file: 2026-09-28 19:04:24.000
+2026-10-13 16:45:28.410   Installing the file.
+2026-10-13 16:45:29.875   Successfully installed the file.
+2026-10-13 16:45:29.875   -- File entry --
+2026-10-13 16:45:29.875   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\example_read.exe
+2026-10-13 16:45:29.876   Time stamp of our file: 2026-09-29 12:06:00.000
+2026-10-13 16:45:29.876   Dest file exists.
+2026-10-13 16:45:29.876   Time stamp of existing file: 2026-09-29 12:06:00.000
+2026-10-13 16:45:29.876   Installing the file.
+2026-10-13 16:45:29.883   Successfully installed the file.
+2026-10-13 16:45:29.883   -- File entry --
+2026-10-13 16:45:29.883   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\onnxruntime.dll
+2026-10-13 16:45:29.883   Time stamp of our file: 2026-05-08 14:30:42.000
+2026-10-13 16:45:29.883   Dest file exists.
+2026-10-13 16:45:29.884   Time stamp of existing file: 2026-05-08 14:30:42.000
+2026-10-13 16:45:29.884   Installing the file.
+2026-10-13 16:45:30.148   Successfully installed the file.
+2026-10-13 16:45:30.148   -- File entry --
+2026-10-13 16:45:30.148   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\runtime-manifest.json
+2026-10-13 16:45:30.149   Time stamp of our file: 2026-10-08 16:30:38.000
+2026-10-13 16:45:30.149   Dest file exists.
+2026-10-13 16:45:30.149   Time stamp of existing file: 2026-10-08 16:30:38.000
+2026-10-13 16:45:30.149   Installing the file.
+2026-10-13 16:45:30.150   Successfully installed the file.
+2026-10-13 16:45:30.150   -- File entry --
+2026-10-13 16:45:30.151   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\runtime-readme.md
+2026-10-13 16:45:30.151   Time stamp of our file: 2026-10-08 16:25:46.000
+2026-10-13 16:45:30.151   Dest file exists.
+2026-10-13 16:45:30.151   Time stamp of existing file: 2026-10-08 16:25:46.000
+2026-10-13 16:45:30.151   Installing the file.
+2026-10-13 16:45:30.152   Successfully installed the file.
+2026-10-13 16:45:30.153   -- File entry --
+2026-10-13 16:45:30.153   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\scale.onnx
+2026-10-13 16:45:30.153   Time stamp of our file: 2026-09-28 19:03:38.000
+2026-10-13 16:45:30.153   Dest file exists.
+2026-10-13 16:45:30.153   Time stamp of existing file: 2026-09-28 19:03:38.000
+2026-10-13 16:45:30.153   Installing the file.
+2026-10-13 16:45:31.716   Successfully installed the file.
+2026-10-13 16:45:31.716   -- File entry --
+2026-10-13 16:45:31.716   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\avcodec-58.dll
+2026-10-13 16:45:31.717   Time stamp of our file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:31.717   Dest file exists.
+2026-10-13 16:45:31.717   Time stamp of existing file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:31.717   Installing the file.
+2026-10-13 16:45:32.575   Successfully installed the file.
+2026-10-13 16:45:32.575   -- File entry --
+2026-10-13 16:45:32.575   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\avdevice-58.dll
+2026-10-13 16:45:32.575   Time stamp of our file: 2019-10-22 04:28:48.000
+2026-10-13 16:45:32.575   Dest file exists.
+2026-10-13 16:45:32.575   Time stamp of existing file: 2019-10-22 04:28:48.000
+2026-10-13 16:45:32.575   Installing the file.
+2026-10-13 16:45:32.617   Successfully installed the file.
+2026-10-13 16:45:32.617   -- File entry --
+2026-10-13 16:45:32.617   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\avfilter-7.dll
+2026-10-13 16:45:32.618   Time stamp of our file: 2019-10-22 04:28:48.000
+2026-10-13 16:45:32.618   Dest file exists.
+2026-10-13 16:45:32.618   Time stamp of existing file: 2019-10-22 04:28:48.000
+2026-10-13 16:45:32.618   Installing the file.
+2026-10-13 16:45:32.789   Successfully installed the file.
+2026-10-13 16:45:32.790   -- File entry --
+2026-10-13 16:45:32.790   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\avformat-58.dll
+2026-10-13 16:45:32.790   Time stamp of our file: 2019-10-22 04:28:48.000
+2026-10-13 16:45:32.790   Dest file exists.
+2026-10-13 16:45:32.790   Time stamp of existing file: 2019-10-22 04:28:48.000
+2026-10-13 16:45:32.790   Installing the file.
+2026-10-13 16:45:33.020   Successfully installed the file.
+2026-10-13 16:45:33.020   -- File entry --
+2026-10-13 16:45:33.020   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\avutil-56.dll
+2026-10-13 16:45:33.020   Time stamp of our file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:33.020   Dest file exists.
+2026-10-13 16:45:33.020   Time stamp of existing file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:33.020   Installing the file.
+2026-10-13 16:45:33.041   Successfully installed the file.
+2026-10-13 16:45:33.041   -- File entry --
+2026-10-13 16:45:33.041   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\ffmpeg.exe
+2026-10-13 16:45:33.041   Time stamp of our file: 2026-04-27 16:05:00.000
+2026-10-13 16:45:33.041   Dest file exists.
+2026-10-13 16:45:33.042   Time stamp of existing file: 2026-04-27 16:05:00.000
+2026-10-13 16:45:33.042   Installing the file.
+2026-10-13 16:45:33.051   Successfully installed the file.
+2026-10-13 16:45:33.052   -- File entry --
+2026-10-13 16:45:33.052   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\ffprobe.exe
+2026-10-13 16:45:33.052   Time stamp of our file: 2026-04-27 16:05:08.000
+2026-10-13 16:45:33.052   Dest file exists.
+2026-10-13 16:45:33.052   Time stamp of existing file: 2026-04-27 16:05:08.000
+2026-10-13 16:45:33.052   Installing the file.
+2026-10-13 16:45:33.060   Successfully installed the file.
+2026-10-13 16:45:33.060   -- File entry --
+2026-10-13 16:45:33.060   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\postproc-55.dll
+2026-10-13 16:45:33.060   Time stamp of our file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:33.061   Dest file exists.
+2026-10-13 16:45:33.061   Time stamp of existing file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:33.061   Installing the file.
+2026-10-13 16:45:33.066   Successfully installed the file.
+2026-10-13 16:45:33.066   -- File entry --
+2026-10-13 16:45:33.066   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\swresample-3.dll
+2026-10-13 16:45:33.067   Time stamp of our file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:33.067   Dest file exists.
+2026-10-13 16:45:33.067   Time stamp of existing file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:33.067   Installing the file.
+2026-10-13 16:45:33.081   Successfully installed the file.
+2026-10-13 16:45:33.082   -- File entry --
+2026-10-13 16:45:33.082   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\ffmpeg\swscale-5.dll
+2026-10-13 16:45:33.082   Time stamp of our file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:33.082   Dest file exists.
+2026-10-13 16:45:33.082   Time stamp of existing file: 2019-10-22 04:28:52.000
+2026-10-13 16:45:33.082   Installing the file.
+2026-10-13 16:45:33.097   Successfully installed the file.
+2026-10-13 16:45:33.097   -- File entry --
+2026-10-13 16:45:33.097   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\licenses\FFmpeg-GPL-3.txt
+2026-10-13 16:45:33.098   Time stamp of our file: 2026-10-02 17:38:38.000
+2026-10-13 16:45:33.098   Dest file exists.
+2026-10-13 16:45:33.098   Time stamp of existing file: 2026-10-02 17:38:38.000
+2026-10-13 16:45:33.098   Installing the file.
+2026-10-13 16:45:33.101   Successfully installed the file.
+2026-10-13 16:45:33.102   -- File entry --
+2026-10-13 16:45:33.102   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\licenses\FFmpeg-NOTICE.txt
+2026-10-13 16:45:33.103   Time stamp of our file: 2026-10-02 17:38:38.000
+2026-10-13 16:45:33.103   Dest file exists.
+2026-10-13 16:45:33.103   Time stamp of existing file: 2026-10-02 17:38:38.000
+2026-10-13 16:45:33.103   Installing the file.
+2026-10-13 16:45:33.106   Successfully installed the file.
+2026-10-13 16:45:33.106   -- File entry --
+2026-10-13 16:45:33.106   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\licenses\LICENSE
+2026-10-13 16:45:33.107   Time stamp of our file: 2026-10-02 17:38:38.000
+2026-10-13 16:45:33.107   Dest file exists.
+2026-10-13 16:45:33.107   Time stamp of existing file: 2026-10-02 17:38:38.000
+2026-10-13 16:45:33.107   Installing the file.
+2026-10-13 16:45:33.110   Successfully installed the file.
+2026-10-13 16:45:33.110   -- File entry --
+2026-10-13 16:45:33.110   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\licenses\ThirdPartyNotices.txt
+2026-10-13 16:45:33.110   Time stamp of our file: 2026-10-02 17:38:38.000
+2026-10-13 16:45:33.110   Dest file exists.
+2026-10-13 16:45:33.111   Time stamp of existing file: 2026-10-02 17:38:38.000
+2026-10-13 16:45:33.111   Installing the file.
+2026-10-13 16:45:33.120   Successfully installed the file.
+2026-10-13 16:45:33.120   -- File entry --
+2026-10-13 16:45:33.120   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000000.jpg
+2026-10-13 16:45:33.120   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.120   Dest file exists.
+2026-10-13 16:45:33.121   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.121   Installing the file.
+2026-10-13 16:45:33.125   Successfully installed the file.
+2026-10-13 16:45:33.125   -- File entry --
+2026-10-13 16:45:33.126   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000005.jpg
+2026-10-13 16:45:33.126   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.126   Dest file exists.
+2026-10-13 16:45:33.126   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.126   Installing the file.
+2026-10-13 16:45:33.132   Successfully installed the file.
+2026-10-13 16:45:33.133   -- File entry --
+2026-10-13 16:45:33.133   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000010.jpg
+2026-10-13 16:45:33.133   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.133   Dest file exists.
+2026-10-13 16:45:33.134   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.134   Installing the file.
+2026-10-13 16:45:33.139   Successfully installed the file.
+2026-10-13 16:45:33.139   -- File entry --
+2026-10-13 16:45:33.139   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000015.jpg
+2026-10-13 16:45:33.139   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.139   Dest file exists.
+2026-10-13 16:45:33.140   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.140   Installing the file.
+2026-10-13 16:45:33.145   Successfully installed the file.
+2026-10-13 16:45:33.145   -- File entry --
+2026-10-13 16:45:33.146   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000020.jpg
+2026-10-13 16:45:33.146   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.146   Dest file exists.
+2026-10-13 16:45:33.146   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.146   Installing the file.
+2026-10-13 16:45:33.152   Successfully installed the file.
+2026-10-13 16:45:33.152   -- File entry --
+2026-10-13 16:45:33.153   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000025.jpg
+2026-10-13 16:45:33.153   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.153   Dest file exists.
+2026-10-13 16:45:33.153   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.153   Installing the file.
+2026-10-13 16:45:33.158   Successfully installed the file.
+2026-10-13 16:45:33.158   -- File entry --
+2026-10-13 16:45:33.158   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000030.jpg
+2026-10-13 16:45:33.159   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.159   Dest file exists.
+2026-10-13 16:45:33.159   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.159   Installing the file.
+2026-10-13 16:45:33.165   Successfully installed the file.
+2026-10-13 16:45:33.165   -- File entry --
+2026-10-13 16:45:33.165   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000035.jpg
+2026-10-13 16:45:33.165   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.166   Dest file exists.
+2026-10-13 16:45:33.166   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.166   Installing the file.
+2026-10-13 16:45:33.173   Successfully installed the file.
+2026-10-13 16:45:33.173   -- File entry --
+2026-10-13 16:45:33.173   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000040.jpg
+2026-10-13 16:45:33.174   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.174   Dest file exists.
+2026-10-13 16:45:33.174   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.174   Installing the file.
+2026-10-13 16:45:33.180   Successfully installed the file.
+2026-10-13 16:45:33.180   -- File entry --
+2026-10-13 16:45:33.180   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000045.jpg
+2026-10-13 16:45:33.181   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.181   Dest file exists.
+2026-10-13 16:45:33.181   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.181   Installing the file.
+2026-10-13 16:45:33.188   Successfully installed the file.
+2026-10-13 16:45:33.188   -- File entry --
+2026-10-13 16:45:33.188   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000050.jpg
+2026-10-13 16:45:33.188   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.188   Dest file exists.
+2026-10-13 16:45:33.189   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.189   Installing the file.
+2026-10-13 16:45:33.195   Successfully installed the file.
+2026-10-13 16:45:33.196   -- File entry --
+2026-10-13 16:45:33.196   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000055.jpg
+2026-10-13 16:45:33.197   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.197   Dest file exists.
+2026-10-13 16:45:33.197   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.197   Installing the file.
+2026-10-13 16:45:33.204   Successfully installed the file.
+2026-10-13 16:45:33.204   -- File entry --
+2026-10-13 16:45:33.205   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000060.jpg
+2026-10-13 16:45:33.205   Time stamp of our file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.205   Dest file exists.
+2026-10-13 16:45:33.205   Time stamp of existing file: 2025-11-26 14:57:46.000
+2026-10-13 16:45:33.205   Installing the file.
+2026-10-13 16:45:33.212   Successfully installed the file.
+2026-10-13 16:45:33.212   -- File entry --
+2026-10-13 16:45:33.212   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000065.jpg
+2026-10-13 16:45:33.213   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.213   Dest file exists.
+2026-10-13 16:45:33.213   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.213   Installing the file.
+2026-10-13 16:45:33.220   Successfully installed the file.
+2026-10-13 16:45:33.220   -- File entry --
+2026-10-13 16:45:33.220   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000070.jpg
+2026-10-13 16:45:33.221   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.221   Dest file exists.
+2026-10-13 16:45:33.221   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.221   Installing the file.
+2026-10-13 16:45:33.228   Successfully installed the file.
+2026-10-13 16:45:33.228   -- File entry --
+2026-10-13 16:45:33.228   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000075.jpg
+2026-10-13 16:45:33.228   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.228   Dest file exists.
+2026-10-13 16:45:33.229   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.229   Installing the file.
+2026-10-13 16:45:33.235   Successfully installed the file.
+2026-10-13 16:45:33.235   -- File entry --
+2026-10-13 16:45:33.236   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000080.jpg
+2026-10-13 16:45:33.236   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.236   Dest file exists.
+2026-10-13 16:45:33.236   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.236   Installing the file.
+2026-10-13 16:45:33.247   Successfully installed the file.
+2026-10-13 16:45:33.247   -- File entry --
+2026-10-13 16:45:33.247   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000085.jpg
+2026-10-13 16:45:33.247   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.247   Dest file exists.
+2026-10-13 16:45:33.247   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.247   Installing the file.
+2026-10-13 16:45:33.255   Successfully installed the file.
+2026-10-13 16:45:33.255   -- File entry --
+2026-10-13 16:45:33.256   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000090.jpg
+2026-10-13 16:45:33.256   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.256   Dest file exists.
+2026-10-13 16:45:33.257   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.257   Installing the file.
+2026-10-13 16:45:33.263   Successfully installed the file.
+2026-10-13 16:45:33.264   -- File entry --
+2026-10-13 16:45:33.264   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000095.jpg
+2026-10-13 16:45:33.265   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.265   Dest file exists.
+2026-10-13 16:45:33.265   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.265   Installing the file.
+2026-10-13 16:45:33.273   Successfully installed the file.
+2026-10-13 16:45:33.273   -- File entry --
+2026-10-13 16:45:33.273   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000100.jpg
+2026-10-13 16:45:33.274   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.274   Dest file exists.
+2026-10-13 16:45:33.274   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.274   Installing the file.
+2026-10-13 16:45:33.282   Successfully installed the file.
+2026-10-13 16:45:33.283   -- File entry --
+2026-10-13 16:45:33.283   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000105.jpg
+2026-10-13 16:45:33.283   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.283   Dest file exists.
+2026-10-13 16:45:33.283   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.283   Installing the file.
+2026-10-13 16:45:33.293   Successfully installed the file.
+2026-10-13 16:45:33.294   -- File entry --
+2026-10-13 16:45:33.294   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000110.jpg
+2026-10-13 16:45:33.294   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.294   Dest file exists.
+2026-10-13 16:45:33.294   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.294   Installing the file.
+2026-10-13 16:45:33.301   Successfully installed the file.
+2026-10-13 16:45:33.301   -- File entry --
+2026-10-13 16:45:33.301   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000115.jpg
+2026-10-13 16:45:33.302   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.302   Dest file exists.
+2026-10-13 16:45:33.302   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.302   Installing the file.
+2026-10-13 16:45:33.311   Successfully installed the file.
+2026-10-13 16:45:33.311   -- File entry --
+2026-10-13 16:45:33.312   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000120.jpg
+2026-10-13 16:45:33.312   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.312   Dest file exists.
+2026-10-13 16:45:33.312   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.312   Installing the file.
+2026-10-13 16:45:33.321   Successfully installed the file.
+2026-10-13 16:45:33.322   -- File entry --
+2026-10-13 16:45:33.322   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000125.jpg
+2026-10-13 16:45:33.322   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.322   Dest file exists.
+2026-10-13 16:45:33.323   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.323   Installing the file.
+2026-10-13 16:45:33.328   Successfully installed the file.
+2026-10-13 16:45:33.328   -- File entry --
+2026-10-13 16:45:33.328   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000130.jpg
+2026-10-13 16:45:33.329   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.329   Dest file exists.
+2026-10-13 16:45:33.329   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.329   Installing the file.
+2026-10-13 16:45:33.335   Successfully installed the file.
+2026-10-13 16:45:33.335   -- File entry --
+2026-10-13 16:45:33.335   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000135.jpg
+2026-10-13 16:45:33.335   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.335   Dest file exists.
+2026-10-13 16:45:33.335   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.336   Installing the file.
+2026-10-13 16:45:33.341   Successfully installed the file.
+2026-10-13 16:45:33.341   -- File entry --
+2026-10-13 16:45:33.341   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000140.jpg
+2026-10-13 16:45:33.341   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.341   Dest file exists.
+2026-10-13 16:45:33.342   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.342   Installing the file.
+2026-10-13 16:45:33.350   Successfully installed the file.
+2026-10-13 16:45:33.350   -- File entry --
+2026-10-13 16:45:33.350   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000145.jpg
+2026-10-13 16:45:33.350   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.351   Dest file exists.
+2026-10-13 16:45:33.351   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.351   Installing the file.
+2026-10-13 16:45:33.355   Successfully installed the file.
+2026-10-13 16:45:33.357   -- File entry --
+2026-10-13 16:45:33.357   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000150.jpg
+2026-10-13 16:45:33.357   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.357   Dest file exists.
+2026-10-13 16:45:33.358   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.358   Installing the file.
+2026-10-13 16:45:33.363   Successfully installed the file.
+2026-10-13 16:45:33.363   -- File entry --
+2026-10-13 16:45:33.363   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000155.jpg
+2026-10-13 16:45:33.364   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.364   Dest file exists.
+2026-10-13 16:45:33.364   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.364   Installing the file.
+2026-10-13 16:45:33.371   Successfully installed the file.
+2026-10-13 16:45:33.371   -- File entry --
+2026-10-13 16:45:33.371   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000160.jpg
+2026-10-13 16:45:33.371   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.371   Dest file exists.
+2026-10-13 16:45:33.371   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.371   Installing the file.
+2026-10-13 16:45:33.380   Successfully installed the file.
+2026-10-13 16:45:33.380   -- File entry --
+2026-10-13 16:45:33.380   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000165.jpg
+2026-10-13 16:45:33.380   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.380   Dest file exists.
+2026-10-13 16:45:33.380   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.381   Installing the file.
+2026-10-13 16:45:33.387   Successfully installed the file.
+2026-10-13 16:45:33.389   -- File entry --
+2026-10-13 16:45:33.389   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000170.jpg
+2026-10-13 16:45:33.389   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.389   Dest file exists.
+2026-10-13 16:45:33.389   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.389   Installing the file.
+2026-10-13 16:45:33.398   Successfully installed the file.
+2026-10-13 16:45:33.398   -- File entry --
+2026-10-13 16:45:33.398   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000175.jpg
+2026-10-13 16:45:33.398   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.398   Dest file exists.
+2026-10-13 16:45:33.398   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.398   Installing the file.
+2026-10-13 16:45:33.404   Successfully installed the file.
+2026-10-13 16:45:33.404   -- File entry --
+2026-10-13 16:45:33.405   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000180.jpg
+2026-10-13 16:45:33.405   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.405   Dest file exists.
+2026-10-13 16:45:33.405   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.405   Installing the file.
+2026-10-13 16:45:33.413   Successfully installed the file.
+2026-10-13 16:45:33.413   -- File entry --
+2026-10-13 16:45:33.413   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000185.jpg
+2026-10-13 16:45:33.413   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.415   Dest file exists.
+2026-10-13 16:45:33.415   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.415   Installing the file.
+2026-10-13 16:45:33.422   Successfully installed the file.
+2026-10-13 16:45:33.422   -- File entry --
+2026-10-13 16:45:33.422   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000190.jpg
+2026-10-13 16:45:33.423   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.423   Dest file exists.
+2026-10-13 16:45:33.423   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.423   Installing the file.
+2026-10-13 16:45:33.430   Successfully installed the file.
+2026-10-13 16:45:33.430   -- File entry --
+2026-10-13 16:45:33.430   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000195.jpg
+2026-10-13 16:45:33.430   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.430   Dest file exists.
+2026-10-13 16:45:33.431   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.431   Installing the file.
+2026-10-13 16:45:33.438   Successfully installed the file.
+2026-10-13 16:45:33.438   -- File entry --
+2026-10-13 16:45:33.438   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000200.jpg
+2026-10-13 16:45:33.438   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.438   Dest file exists.
+2026-10-13 16:45:33.439   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.439   Installing the file.
+2026-10-13 16:45:33.446   Successfully installed the file.
+2026-10-13 16:45:33.447   -- File entry --
+2026-10-13 16:45:33.447   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000205.jpg
+2026-10-13 16:45:33.447   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.447   Dest file exists.
+2026-10-13 16:45:33.447   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.447   Installing the file.
+2026-10-13 16:45:33.454   Successfully installed the file.
+2026-10-13 16:45:33.454   -- File entry --
+2026-10-13 16:45:33.455   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000210.jpg
+2026-10-13 16:45:33.455   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.455   Dest file exists.
+2026-10-13 16:45:33.455   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.455   Installing the file.
+2026-10-13 16:45:33.463   Successfully installed the file.
+2026-10-13 16:45:33.463   -- File entry --
+2026-10-13 16:45:33.463   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000215.jpg
+2026-10-13 16:45:33.463   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.463   Dest file exists.
+2026-10-13 16:45:33.463   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.463   Installing the file.
+2026-10-13 16:45:33.471   Successfully installed the file.
+2026-10-13 16:45:33.471   -- File entry --
+2026-10-13 16:45:33.472   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000220.jpg
+2026-10-13 16:45:33.473   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.473   Dest file exists.
+2026-10-13 16:45:33.473   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.473   Installing the file.
+2026-10-13 16:45:33.480   Successfully installed the file.
+2026-10-13 16:45:33.480   -- File entry --
+2026-10-13 16:45:33.480   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000225.jpg
+2026-10-13 16:45:33.480   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.480   Dest file exists.
+2026-10-13 16:45:33.481   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.481   Installing the file.
+2026-10-13 16:45:33.489   Successfully installed the file.
+2026-10-13 16:45:33.489   -- File entry --
+2026-10-13 16:45:33.489   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000230.jpg
+2026-10-13 16:45:33.489   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.489   Dest file exists.
+2026-10-13 16:45:33.489   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.489   Installing the file.
+2026-10-13 16:45:33.497   Successfully installed the file.
+2026-10-13 16:45:33.497   -- File entry --
+2026-10-13 16:45:33.497   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000235.jpg
+2026-10-13 16:45:33.498   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.498   Dest file exists.
+2026-10-13 16:45:33.498   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.498   Installing the file.
+2026-10-13 16:45:33.505   Successfully installed the file.
+2026-10-13 16:45:33.505   -- File entry --
+2026-10-13 16:45:33.506   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000240.jpg
+2026-10-13 16:45:33.506   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.506   Dest file exists.
+2026-10-13 16:45:33.506   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.507   Installing the file.
+2026-10-13 16:45:33.514   Successfully installed the file.
+2026-10-13 16:45:33.514   -- File entry --
+2026-10-13 16:45:33.514   Dest filename: D:\code\Scoliosis\ScoliosisFlutter\build\installer-validation-3310\thirdPartyLibrary\test-ruler-v1\frame_000245.jpg
+2026-10-13 16:45:33.515   Time stamp of our file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.515   Dest file exists.
+2026-10-13 16:45:33.515   Time stamp of existing file: 2025-11-26 14:57:48.000
+2026-10-13 16:45:33.515   Installing the file.
+2026-10-13 16:45:33.520   Successfully installed the file.
+2026-10-13 16:45:33.521   -- Icon entry --
+2026-10-13 16:45:33.521   Dest filename: C:\Users\31186\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\青少年脊柱侧弯诊断平台\青少年脊柱侧弯诊断平台.lnk
+2026-10-13 16:45:33.524   Creating the icon.
+2026-10-13 16:45:33.597   Successfully created the icon.
+2026-10-13 16:45:33.677   -- Icon entry --
+2026-10-13 16:45:33.677   Dest filename: C:\Users\31186\Desktop\青少年脊柱侧弯诊断平台.lnk
+2026-10-13 16:45:33.678   Creating the icon.
+2026-10-13 16:45:33.682   Successfully created the icon.
+2026-10-13 16:45:33.815   Saving uninstall information.
+2026-10-13 16:45:33.815   Renaming uninstaller.
+2026-10-13 16:45:33.816   Deleting uninstall key left over from previous non administrative install.
+2026-10-13 16:45:33.817   Creating new uninstall key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\{EC2E08ED-9176-4D9A-87F5-407A81F5BD2A}_is1
+2026-10-13 16:45:33.817   Writing uninstall key values.
+2026-10-13 16:45:33.818   Detected previous administrative 64-bit install? No
+2026-10-13 16:45:33.818   Detected previous administrative 32-bit install? No
+2026-10-13 16:45:33.822   Installation process succeeded.
+2026-10-13 16:45:33.822   Need to restart Windows? No
+2026-10-13 16:45:33.829   Deinitializing Setup.
+2026-10-13 16:45:33.839   Log closed.

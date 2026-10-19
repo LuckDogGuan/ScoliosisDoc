@@ -1,0 +1,174 @@
+{
+  "summary": {
+    "changed_count": 15,
+    "affected_count": 6,
+    "changed_files": 7,
+    "risk_level": "high"
+  },
+  "changed_symbols": [
+    {
+      "id": "Macro:include/app.h:INSTRUMENT_VERSION",
+      "name": "INSTRUMENT_VERSION",
+      "filePath": "include/app.h",
+      "change_type": "touched"
+    },
+    {
+      "id": "Struct:src/app/runtime_v3.c:Runtime",
+      "name": "Runtime",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:local_unpair~shape:Runtime:none:pointer:1",
+      "name": "local_unpair",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:completed~shape:Runtime:none:pointer:1|WorkerResult:const:pointer:1",
+      "name": "completed",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:maintenance~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+      "name": "maintenance",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:begin_audio~shape:Runtime:none:pointer:1|cJSON:const:pointer:1|int:none:value:0",
+      "name": "begin_audio",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:hello_reply~shape:Runtime:none:pointer:1|cJSON:none:pointer:1|uint64_t:none:value:0",
+      "name": "hello_reply",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:speech_focus~shape:Runtime:none:pointer:1|cJSON:const:pointer:1|uint64_t:none:value:0",
+      "name": "speech_focus",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:src/app/runtime_v3.c:receive_udp~shape:Runtime:none:pointer:1|uint64_t:none:value:0",
+      "name": "receive_udp",
+      "filePath": "src/app/runtime_v3.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tests/test_speech_focus.c:request",
+      "name": "request",
+      "filePath": "tests/test_speech_focus.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tests/test_speech_focus.c:focus~shape:Runtime:none:pointer:1|char:const:pointer:1|char:const:pointer:1|int:none:value:0|uint64_t:none:value:0",
+      "name": "focus",
+      "filePath": "tests/test_speech_focus.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Function:tests/test_speech_focus.c:main",
+      "name": "main",
+      "filePath": "tests/test_speech_focus.c",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tests/test_speech_focus.py:root",
+      "name": "root",
+      "filePath": "tests/test_speech_focus.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tests/test_speech_focus.py:evidence",
+      "name": "evidence",
+      "filePath": "tests/test_speech_focus.py",
+      "change_type": "touched"
+    },
+    {
+      "id": "Variable:tests/test_speech_focus.py:sources",
+      "name": "sources",
+      "filePath": "tests/test_speech_focus.py",
+      "change_type": "touched"
+    }
+  ],
+  "affected_processes": [
+    {
+      "id": "proc_13_maintenance",
+      "name": "Maintenance → Monotonic_ms",
+      "process_type": "cross_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "maintenance",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_22_worker_watchdog",
+      "name": "Worker_watchdog → Queue_sound",
+      "process_type": "intra_community",
+      "step_count": 4,
+      "changed_steps": [
+        {
+          "symbol": "completed",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_43_maintenance",
+      "name": "Maintenance → V3_now",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "maintenance",
+          "step": 1
+        }
+      ]
+    },
+    {
+      "id": "proc_49_worker_watchdog",
+      "name": "Worker_watchdog → V3_now",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "completed",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_50_worker_watchdog",
+      "name": "Worker_watchdog → Storage_capture_id",
+      "process_type": "cross_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "completed",
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "proc_51_worker_watchdog",
+      "name": "Worker_watchdog → V3_save_json",
+      "process_type": "intra_community",
+      "step_count": 3,
+      "changed_steps": [
+        {
+          "symbol": "completed",
+          "step": 2
+        }
+      ]
+    }
+  ]
+}

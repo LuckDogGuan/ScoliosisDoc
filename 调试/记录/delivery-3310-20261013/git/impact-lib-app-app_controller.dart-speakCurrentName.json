@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"target\": {\n    \"id\": \"Method:lib/app/app_controller.dart:AppController.speakCurrentName#0\",\n    \"name\": \"speakCurrentName\",\n    \"type\": \"Method\",\n    \"filePath\": \"lib/app/app_controller.dart\"\n  },\n  \"direction\": \"upstream\",\n  \"impactedCount\": 2,\n  \"risk\": \"LOW\",\n  \"epistemic\": \"exact\",\n  \"summary\": {\n    \"direct\": 2,\n    \"processes_affected\": 2,\n    \"modules_affected\": 2\n  },\n  \"byDepthCounts\": {\n    \"1\": 2\n  },\n  \"affected_processes\": [\n    {\n      \"name\": \"build\",\n      \"type\": \"Function\",\n      \"filePath\": \"lib/ui/pages/capture_page.dart\",\n      \"affected_process_count\": 7,\n      \"total_hits\": 7,\n      \"earliest_broken_step\": 1\n    },\n    {\n      \"name\": \"main\",\n      \"type\": \"Function\",\n      \"filePath\": \"test/name_announce_test.dart\",\n      \"affected_process_count\": 4,\n      \"total_hits\": 4,\n      \"earliest_broken_step\": 1\n    }\n  ],\n  \"affected_modules\": [\n    {\n      \"name\": \"Test\",\n      \"hits\": 1,\n      \"impact\": \"direct\"\n    },\n    {\n      \"name\": \"App\",\n      \"hits\": 1,\n      \"impact\": \"direct\"\n    }\n  ]\n}\n\n---\n**Next:** Review d=1 items first (WILL BREAK). To check affected execution flows, READ gitnexus://repo/ScoliosisFlutter/processes."
+    }
+  ]
+}

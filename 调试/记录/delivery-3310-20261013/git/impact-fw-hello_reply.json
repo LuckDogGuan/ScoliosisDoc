@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"target\": {\n    \"id\": \"Function:src/app/runtime_v3.c:hello_reply~shape:Runtime:none:pointer:1|cJSON:none:pointer:1|uint64_t:none:value:0\",\n    \"name\": \"hello_reply\",\n    \"type\": \"Function\",\n    \"filePath\": \"src/app/runtime_v3.c\"\n  },\n  \"direction\": \"upstream\",\n  \"impactedCount\": 3,\n  \"risk\": \"LOW\",\n  \"epistemic\": \"exact\",\n  \"summary\": {\n    \"direct\": 1,\n    \"processes_affected\": 1,\n    \"modules_affected\": 1\n  },\n  \"byDepthCounts\": {\n    \"1\": 1,\n    \"2\": 1,\n    \"3\": 1\n  },\n  \"affected_processes\": [\n    {\n      \"name\": \"main\",\n      \"type\": \"Function\",\n      \"filePath\": \"src/app/app_controller.c\",\n      \"affected_process_count\": 2,\n      \"total_hits\": 2,\n      \"earliest_broken_step\": 1\n    }\n  ],\n  \"affected_modules\": [\n    {\n      \"name\": \"App\",\n      \"hits\": 3,\n      \"impact\": \"direct\"\n    }\n  ]\n}\n\n---\n**Next:** Review d=1 items first (WILL BREAK). To check affected execution flows, READ gitnexus://repo/scoliosis-firmware-index-20261008/processes."
+    }
+  ]
+}

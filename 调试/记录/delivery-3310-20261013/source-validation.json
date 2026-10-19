@@ -1,0 +1,40 @@
+{
+  "flutter_tests": {
+    "command": "flutter test --no-pub --concurrency=1",
+    "passed": 92,
+    "exit": 0
+  },
+  "flutter_analyze": {
+    "command": "flutter analyze --no-pub",
+    "exit": 0,
+    "issues": 0
+  },
+  "windows_packaging_tests": {
+    "command": "python test_package_windows_release.py (cwd tool)",
+    "passed": 2,
+    "exit": 0
+  },
+  "adc_tests": {
+    "passed": 3,
+    "exit": 0
+  },
+  "flash_regression_tests": {
+    "passed": 9,
+    "exit": 0
+  },
+  "firmware_host_and_arm": {
+    "check_host": "PASS",
+    "arm_build": "PASS",
+    "speech_focus": "PASS",
+    "stability_runtime": "PASS",
+    "capture_audio_failure": "PASS",
+    "boot_audio_isolation": "PASS"
+  },
+  "voice_change": {
+    "initial": "Yunxi HTTP403",
+    "selected_by_user": "Microsoft Kangkang",
+    "files": 22,
+    "rate": -1,
+    "format": "16000Hz mono PCM16"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "archived_on": "2026-10-19",
+  "kind": "existing_historical_evidence",
+  "reran_tests": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 121,
+      "sha256": "7ac3b953ac97ad367164b02138a708e04bae725b4770982360a8d74b30a80437"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1115,
+      "sha256": "c221fcebd5cdbf183be643525c3f8a11470c5c01d0d99ddca8877c550b3faa19"
+    },
+    {
+      "path": "before-display1-fix.json",
+      "bytes": 492,
+      "sha256": "2b85c346e48b5204a9e7f4921df299bdf8513af2ec0c69794f96076ec350a81f"
+    },
+    {
+      "path": "cleanup.json",
+      "bytes": 3054,
+      "sha256": "a5be258fe6bb329cb9a96a1f922097c9f22fa77c68d2a28150a0cef55a189cea"
+    },
+    {
+      "path": "database-backup-index.json",
+      "bytes": 714,
+      "sha256": "52d179a668690ab1367a80386d6a672eac0d38c40dc7ff2b4ff42daf08edf59b"
+    },
+    {
+      "path": "first-build-not-accepted.json",
+      "bytes": 484,
+      "sha256": "94e2370bdcafd16fcb94dd3f31da13236302ff797b2ef28181e879c7bb873bc4"
+    },
+    {
+      "path": "flash-install.json",
+      "bytes": 848,
+      "sha256": "d33aac6aeac751e19f2f234841a610312ded00c67d0ebeb90134518130c02199"
+    },
+    {
+      "path": "git/detect-branding.json",
+      "bytes": 1215,
+      "sha256": "4bb68f5daf2c44be1e891c62c6a8c8c5d4f6f7e7c2f80b55e5e47370171b5843"
+    },
+    {
+      "path": "git/detect-notes.json",
+      "bytes": 441,
+      "sha256": "7efec203881a05f250b25e69d891fc0b3b2d88ddb1602f875f9cbeb270551de5"
+    },
+    {
+      "path": "git/detect-package.json",
+      "bytes": 441,
+      "sha256": "79abeee863d7bb13e0ec504804ab40661e6b0757dfeac2e40bf4ec2d1fdc11d5"
+    },
+    {
+      "path": "git/detect-speech.json",
+      "bytes": 2215,
+      "sha256": "c2059beaee4ea473305c0a761bbc4a0c91aa8139f21a68692d59127a0811c3f8"
+    },
+    {
+      "path": "git/firmware-release-detect.json",
+      "bytes": 183,
+      "sha256": "0a9244b30189466a30a38b4c12b018907fa5a6b4bdefe207f0db9d6b0e0db974"
+    },
+    {
+      "path": "git/firmware-source-detect.json",
+      "bytes": 5049,
+      "sha256": "0a550a4f7a4b7b7c6dfa994efac2c03a254376de975c59ffa540a59c2ac7a73d"
+    },
+    {
+      "path": "git/historical-packages-before.json",
+      "bytes": 2035,
+      "sha256": "f22ffc3324c8804976542a4f3e2067fa1ccbc97295c08dd43bb5428e90d56c17"
+    },
+    {
+      "path": "git/impact-fw-Runtime.json",
+      "bytes": 703,
+      "sha256": "a0b33325a34ab3d7e0c233f02b8f97b16e93aace628345bab17886f37bd04d4d"
+    },
+    {
+      "path": "git/impact-fw-audio_messages.json",
+      "bytes": 1109,
+      "sha256": "d602b837746fcfcea47d9ed25f0715f4c324b2840d462668a6e2f340b0ccaa40"
+    },
+    {
+      "path": "git/impact-fw-begin_audio.json",
+      "bytes": 1157,
+      "sha256": "51546e17b5367a969dc433d1481a2ab1642b9dbc7f301199e0e9667791ebf493"
+    },
+    {
+      "path": "git/impact-fw-completed.json",
+      "bytes": 1589,
+      "sha256": "5f911d841e41efbe139442e2ab384e22343398f11fdaa6348114f16737c2aea2"
+    },
+    {
+      "path": "git/impact-fw-hello_reply.json",
+      "bytes": 1161,
+      "sha256": "15cfc0492065e9e79fed02652f7f0f8fdf53cd811ebfb146a38e046e3b06093c"
+    },
+    {
+      "path": "git/impact-fw-local_unpair.json",
+      "bytes": 1566,
+      "sha256": "306ae590c5768d19a766d032fc8d0934636e991f6a8f2c07817ea51a186c803d"
+    },
+    {
+      "path": "git/impact-fw-maintenance.json",
+      "bytes": 1125,
+      "sha256": "0ca76089b371d258fc4ef9b626cd18159341c8b35b2419529d550bf4056c680e"
+    },
+    {
+      "path": "git/impact-fw-receive_udp.json",
+      "bytes": 1125,
+      "sha256": "8c6626d622185dd28ef1d78ecb381ad066371b5706fec181b3bc4473da1dc78a"
+    },
+    {
+      "path": "git/impact-lib-app-app_controller.dart-_announce.json",
+      "bytes": 3278,
+      "sha256": "a7a3ff9d30bf843184d827dc1cbeb7b0fa36a4274116edd91267cf129dcabe91"
+    },
+    {
+      "path": "git/impact-lib-app-app_controller.dart-_control.json",
+      "bytes": 8183,
+      "sha256": "b01560c60c341512eb5889247fc12ca1e187eb391b050eb81129a79fa366a884"
+    },
+    {
+      "path": "git/impact-lib-app-app_controller.dart-selectStudent.json",
+      "bytes": 2802,
+      "sha256": "4bf37ad24155eb713d1e0bc4c3cd02eed18e100b097078f82de1e31cd394932f"
+    },
+    {
+      "path": "git/impact-lib-app-app_controller.dart-setAnnounceNextName.json",
+      "bytes": 2013,
+      "sha256": "33d70bcaf5f2986643dec115b7c256de3cfc14b0fe26580861701a6aec3a9bb9"
+    },
+    {
+      "path": "git/impact-lib-app-app_controller.dart-shutdown.json",
+      "bytes": 6517,
+      "sha256": "a5000b95cf2e6f5f02957042195fe96ed3e32ac31ddc8c9536e07b7d82e5af54"
+    },
+    {
+      "path": "git/impact-lib-app-app_controller.dart-speakCurrentName.json",
+      "bytes": 1404,
+      "sha256": "4e491d95dfc3a07dc58f3e41514606196301aece0c22cf2041b1717e6c77b330"
+    },
+    {
+      "path": "git/preserved-external-validator-change.patch",
+      "bytes": 3700,
+      "sha256": "2a6c5df12c239a5f714a03b73232205e97763478203ce945365227e7255c58b6"
+    },
+    {
+      "path": "git/preserved-validator-sha256.txt",
+      "bytes": 66,
+      "sha256": "59c24bfba650864890f722530d6b9e89aa3068cc2894a0ffb1162670a07dc5bb"
+    },
+    {
+      "path": "icon-validation.json",
+      "bytes": 161,
+      "sha256": "f2e6538bd777da4a598ccce3679ff1ed28f6e89512a0f974d461f9aaf88baf9a"
+    },
+    {
+      "path": "installer-validation/app-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "installer-validation/app-stdout.log",
+      "bytes": 25,
+      "sha256": "9daa5d3299dad3b44f26b9e2a8f18dd2cda52c9cd646422f306cbaa6435b0269"
+    },
+    {
+      "path": "installer-validation/install.log",
+      "bytes": 48324,
+      "sha256": "c3c626bc0c3b61b9ffe73eea36d4e99e0184fc95cc2daf69af877f6813ec5eae"
+    },
+    {
+      "path": "installer-validation/installed-window-display1.png",
+      "bytes": 10566,
+      "sha256": "a6532690f0bbf9ce1e6560a2312dbad3a33c386e5d417f29c71b34d802bd8d8c"
+    },
+    {
+      "path": "installer-validation/probe-pid.txt",
+      "bytes": 7,
+      "sha256": "6eef444a68f2081deb15fe1ae9e705b953afd3302932080e20610b0d89190118"
+    },
+    {
+      "path": "installer-validation/result.json",
+      "bytes": 592,
+      "sha256": "b40d999d1312de201d525ac06a0d5469522f644ddf431b128c056b833d095361"
+    },
+    {
+      "path": "installer-validation/uninstall.log",
+      "bytes": 18858,
+      "sha256": "9d5f27746eea3462b4f5884e2e282e39d78e7881e4630f9d111ab852b0b0e841"
+    },
+    {
+      "path": "installer-validation/upgrade.log",
+      "bytes": 48324,
+      "sha256": "45a8a9c3f803261cdbd013ab994ba8f9d2a426852ae9ae56fa2e098565fec97a"
+    },
+    {
+      "path": "installer-validation/visible-app-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "installer-validation/visible-app-stdout.log",
+      "bytes": 25,
+      "sha256": "e45c014a70e54492600ca66b966c9e9541e920b409a3c21e6c1f8c556113bbdc"
+    },
+    {
+      "path": "installer-validation/window-display1.json",
+      "bytes": 246,
+      "sha256": "5c2c2390c5dac883dcacd699ed770adf6fa263afd4550ed5e8b0718c912c6422"
+    },
+    {
+      "path": "source-validation.json",
+      "bytes": 902,
+      "sha256": "291c97b547043b2513d9dd6d1d96a5c2e3d02a295a9ec6b71520e14f96d57bd4"
+    },
+    {
+      "path": "speech-focus-board.json",
+      "bytes": 2088,
+      "sha256": "020888549e2868a2990d7e3d4a7fd38805eabd2c073db54b20f5a9b422cabec1"
+    },
+    {
+      "path": "speech-runtime.json",
+      "bytes": 372,
+      "sha256": "ea9e4b119cfdbd6ed3755a5e015be7e55b47822ee81bca17b509fba16b12470d"
+    },
+    {
+      "path": "tests/build-failure-retains-old-output.log",
+      "bytes": 530,
+      "sha256": "b05991498a81069d5215681169c2622d33a0fc542c6c4d463f42cd0e81e7fb0e"
+    },
+    {
+      "path": "tests/build-failure.json",
+      "bytes": 194,
+      "sha256": "3578cc91b0d07954c73007984ebe98e410c95be665a1265f56272380bd3eae4d"
+    },
+    {
+      "path": "tests/flash-exe-3310.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/flash-final-verification-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/flash-final-verification-stdout.log",
+      "bytes": 149,
+      "sha256": "9abe4b3c2becceade625cd575a2e549e624c6750de01f9311dbb38bc9509de17"
+    },
+    {
+      "path": "tests/package-missing-compiler.log",
+      "bytes": 467,
+      "sha256": "bd8ee4aab0f9782dd90221fc3b9f080f68a34de168648f3c5030c065f318b769"
+    },
+    {
+      "path": "tests/package-repeat.log",
+      "bytes": 472,
+      "sha256": "69060139fbd47267248832b46443ac7f34689b6a3c25be75bfda951a66d569b3"
+    },
+    {
+      "path": "tests/speech-runtime.log",
+      "bytes": 316,
+      "sha256": "52f7104fafc9ace3e6cb417ae267181ab9e393a8f7bba1407c1a525db5dde3a5"
+    },
+    {
+      "path": "tests/windows-build-package.log",
+      "bytes": 17605,
+      "sha256": "5188da5946418aae2927e890604190386d04330bfb0df9e8549e5a1c8aefdca6"
+    },
+    {
+      "path": "tests/windows-display1-build-package.log",
+      "bytes": 17605,
+      "sha256": "8e29700466e1decccf304d7f5efb187109e520a2fb2d0b08a9e8b943c4174a98"
+    },
+    {
+      "path": "tests/windows-final-build-package.log",
+      "bytes": 17605,
+      "sha256": "6c063198dc5d5481ef9783320efb89ae9186f9c625c50012d482d4d81b42c80f"
+    }
+  ]
+}

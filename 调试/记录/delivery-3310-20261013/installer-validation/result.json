@@ -1,0 +1,15 @@
+{
+  "sentinel_sha256": "7067E7D4874F2C8B1772B56C730FD053607BE9D09965702CC93896F75A436F91",
+  "uninstall_exit": 0,
+  "user_data_preserved": true,
+  "result": "PASS",
+  "isolated_profile": "D:/code/Scoliosis/ScoliosisFlutter/build/installer-validation-profile-3310",
+  "file_version": "3.3.10+20261013",
+  "window_title": "青少年脊柱侧弯诊断平台",
+  "upgrade_exit": 0,
+  "display": "DISPLAY1 only",
+  "external_script_modification_preserved": true,
+  "product": "青少年脊柱侧弯诊断平台",
+  "install_exit": 0,
+  "company": "厦门迷迈科技有限公司"
+}

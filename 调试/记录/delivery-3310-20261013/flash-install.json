@@ -1,0 +1,22 @@
+{
+  "serial": "41eda5f2c5b00de1",
+  "version": "3.3.10",
+  "method": "final packaged 1.1.1 EXE actual installation",
+  "raw_local_record": "调试\\工具\\一键烧录\\release\\记录\\20261013-162706-41eda5f2c5b00de1-9a3c13\\operations.jsonl",
+  "verification": "PASS",
+  "backup": "/opt/instrument/backups/bundle-20261013T082723Z-1204",
+  "rollback_sha256": "13ede701028de829d0b273e9820a89a0ec85b88155d5b54f5ddce08c86b14728",
+  "state": {
+    "device_id": "CAM-41eda5f2c5b00de1",
+    "boot_id": "CAM-41eda5f2c5b00de1-3a01bae8",
+    "phase": "idle",
+    "audio_busy": false,
+    "gate_enabled": false,
+    "camera_fault": false,
+    "volume": 30,
+    "saved_volume": 30
+  },
+  "final_exe_verification_exit": 0,
+  "tool_version": "1.1.1",
+  "exe_sha256": "342a5628fade9aefd0f47cd17fd109f465b064953d9b6243ee4d92e0bb52f80c"
+}

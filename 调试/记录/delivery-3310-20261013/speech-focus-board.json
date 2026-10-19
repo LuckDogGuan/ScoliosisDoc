@@ -1,0 +1,95 @@
+{
+  "serial": "41eda5f2c5b00de1",
+  "device_id": "CAM-41eda5f2c5b00de1",
+  "version": "3.3.10",
+  "boot_id": "CAM-41eda5f2c5b00de1-3a01bae8",
+  "events": [
+    {
+      "op": "hello_query",
+      "action": null,
+      "ok": true,
+      "audio_busy": false,
+      "speech_focus_active": false
+    },
+    {
+      "op": "speech_focus",
+      "action": "acquire",
+      "ok": true,
+      "audio_busy": null,
+      "speech_focus_active": null
+    },
+    {
+      "op": "hello_query",
+      "action": null,
+      "ok": true,
+      "audio_busy": true,
+      "speech_focus_active": true
+    },
+    {
+      "op": "speech_focus",
+      "action": "release",
+      "ok": false,
+      "audio_busy": null,
+      "speech_focus_active": null
+    },
+    {
+      "op": "speech_focus",
+      "action": "renew",
+      "ok": false,
+      "audio_busy": null,
+      "speech_focus_active": null
+    },
+    {
+      "op": "speech_focus",
+      "action": "renew",
+      "ok": true,
+      "audio_busy": null,
+      "speech_focus_active": null
+    },
+    {
+      "op": "speech_focus",
+      "action": "release",
+      "ok": true,
+      "audio_busy": null,
+      "speech_focus_active": null
+    },
+    {
+      "op": "hello_query",
+      "action": null,
+      "ok": true,
+      "audio_busy": false,
+      "speech_focus_active": false
+    },
+    {
+      "op": "speech_focus",
+      "action": "acquire",
+      "ok": true,
+      "audio_busy": null,
+      "speech_focus_active": null
+    },
+    {
+      "op": "hello_query",
+      "action": null,
+      "ok": true,
+      "audio_busy": false,
+      "speech_focus_active": false
+    },
+    {
+      "op": "speech_focus",
+      "action": "renew",
+      "ok": false,
+      "audio_busy": null,
+      "speech_focus_active": null
+    },
+    {
+      "op": "hello_query",
+      "action": null,
+      "ok": true,
+      "audio_busy": false,
+      "speech_focus_active": false
+    }
+  ],
+  "result": "PASS",
+  "physical_voice_listening": "not verified",
+  "capture_or_pairing_changed": false
+}

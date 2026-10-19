@@ -1,0 +1,56 @@
+diff --git a/tool/verify_windows_delivery.ps1 b/tool/verify_windows_delivery.ps1
+index f877d71..6492576 100644
+--- a/tool/verify_windows_delivery.ps1
++++ b/tool/verify_windows_delivery.ps1
+@@ -24,40 +24,24 @@ $upgrade=Start-Process -FilePath $setup -ArgumentList @('/VERYSILENT','/SUPPRESS
+ if ($upgrade.ExitCode -ne 0 -or (Get-FileHash -LiteralPath $sentinel).Hash -ne $before) { throw 'Upgrade or user data retention failed.' }
+ $previousLocalData=$env:LOCALAPPDATA
+ $appProcess=$null
+-Add-Type -AssemblyName System.Drawing
+-Add-Type @'
+-using System;using System.Text;
++try {
++  [IO.Directory]::CreateDirectory($profile) | Out-Null
++  $env:LOCALAPPDATA=$profile
++  $appProcess=Start-Process -FilePath $exe -WorkingDirectory $target -WindowStyle Hidden -PassThru
++  $deadline=[DateTime]::UtcNow.AddSeconds(20)
++  do { Start-Sleep -Milliseconds 200; $appProcess.Refresh() } while (-not $appProcess.HasExited -and $appProcess.MainWindowHandle -eq 0 -and [DateTime]::UtcNow -lt $deadline)
++  if ($appProcess.HasExited -or $appProcess.MainWindowHandle -eq 0) { throw 'Installed application did not open its window.' }
++  if ($appProcess.MainWindowTitle -ne '青少年脊柱侧弯诊断平台') { throw 'Window title mismatch.' }
++  Add-Type -AssemblyName System.Drawing
++  Add-Type @'
++using System;
+ using System.Runtime.InteropServices;
+ public static class DeliveryWindowCapture {
+- public delegate bool EnumProc(IntPtr h,IntPtr p);
+  [StructLayout(LayoutKind.Sequential)] public struct RECT {public int Left,Top,Right,Bottom;}
+  [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr hwnd,out RECT rect);
+  [DllImport("user32.dll")] public static extern bool PrintWindow(IntPtr hwnd,IntPtr dc,uint flags);
+- [DllImport("user32.dll")] public static extern bool EnumWindows(EnumProc callback,IntPtr p);
+- [DllImport("user32.dll")] public static extern uint GetWindowThreadProcessId(IntPtr h,out uint pid);
+- [DllImport("user32.dll",CharSet=CharSet.Unicode)] public static extern int GetWindowText(IntPtr h,StringBuilder text,int n);
+- [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr h,int command);
+- public static IntPtr Find(uint pid,string title) {
+-  IntPtr found=IntPtr.Zero;
+-  EnumWindows((h,p)=>{uint owner;GetWindowThreadProcessId(h,out owner);if(owner==pid){var text=new StringBuilder(512);GetWindowText(h,text,512);if(text.ToString()==title){found=h;return false;}}return true;},IntPtr.Zero);
+-  return found;
+- }
+ }
+ '@
+-try {
+-  [IO.Directory]::CreateDirectory($profile) | Out-Null
+-  $env:LOCALAPPDATA=$profile
+-  $appProcess=Start-Process -FilePath $exe -WorkingDirectory $target -WindowStyle Hidden -PassThru
+-  $deadline=[DateTime]::UtcNow.AddSeconds(20)
+-  do {
+-    Start-Sleep -Milliseconds 200; $appProcess.Refresh()
+-    $ownedWindow=[DeliveryWindowCapture]::Find($appProcess.Id,'青少年脊柱侧弯诊断平台')
+-  } while (-not $appProcess.HasExited -and $ownedWindow -eq [IntPtr]::Zero -and [DateTime]::UtcNow -lt $deadline)
+-  if ($appProcess.HasExited -or $ownedWindow -eq [IntPtr]::Zero) { throw 'Installed application window or title unavailable.' }
+-  # The user closed the old app and authorized opening the new app for visual verification.
+-  [DeliveryWindowCapture]::ShowWindow($ownedWindow,5) | Out-Null
+-  Start-Sleep -Seconds 2; $appProcess.Refresh()
+-  if ($appProcess.MainWindowTitle -ne '青少年脊柱侧弯诊断平台') { throw 'Window title mismatch.' }
+   Start-Sleep -Seconds 2
+   $rect=[DeliveryWindowCapture+RECT]::new()
+   if (-not [DeliveryWindowCapture]::GetWindowRect($appProcess.MainWindowHandle,[ref]$rect)) { throw 'Window bounds unavailable.' }

@@ -1,0 +1,8 @@
+D:\code\Scoliosis\ScoliosisFlutter\build_release_latest.ps1 : Inno Setup 6 compiler missing. Install Inno Setup before 
+packaging.
+At D:\code\Scoliosis\ScoliosisFlutter\build_release_latest.ps1:33 char:11
++ } catch { Write-Error $_; exit 1 }
++           ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,build_release_latest.ps1
+ 

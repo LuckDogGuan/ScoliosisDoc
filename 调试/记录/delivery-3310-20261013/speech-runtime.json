@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "serial": "41eda5f2c5b00de1",
+  "version": "3.3.10",
+  "pc_voice": "unchanged WindowsSapiSpeaker Huihui selection",
+  "board_voice": "Microsoft Kangkang",
+  "measured_handover_ms": 602,
+  "volume_preserved": true,
+  "capture_or_pairing_changed": false,
+  "physical_speaker_listening": "requires user listening; not inferred from process success"
+}

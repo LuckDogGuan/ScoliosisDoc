@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "mode": "explicit individual files only",
+  "files": [
+    {
+      "path": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\generate_yunxi_sounds.py",
+      "bytes": 1848,
+      "sha256": "ef5786cdc832066766adc86d7484d8096decd4418db284d8ec66289bac3dd5e3",
+      "reason": "abandoned after user selected local Kangkang; preserve generator source in cleanup JSON",
+      "source_before_cleanup": "\"\"\"Generate temporary Yunxi PCM assets; import verified assets into firmware using WSL.\"\"\"\nimport argparse\nimport asyncio\nimport hashlib\nimport json\nfrom pathlib import Path\nimport re\nimport subprocess\nimport wave\nimport edge_tts\n\n\nasync def generate(args):\n    phrases = dict(re.findall(r\"^\\s*(\\w+)='([^']+)'\", Path(__file__).with_name('generate_stability_sounds.ps1').read_text(encoding='utf-8'), re.M))\n    if len(phrases) != 22:\n        raise ValueError('Expected exactly 22 current firmware phrases')\n    out = Path(args.output)\n    out.mkdir(parents=True, exist_ok=False)\n    rows = []\n    for name, text in phrases.items():\n        mp3, wav = out / (name + '.mp3'), out / (name + '.wav')\n        await edge_tts.Communicate(text, 'zh-CN-YunxiNeural', rate='-8%', pitch='+0Hz').save(str(mp3))\n        subprocess.run([args.ffmpeg, '-nostdin', '-v', 'error', '-i', str(mp3), '-ar', '16000', '-ac', '1', '-c:a', 'pcm_s16le', str(wav)], check=True)\n        with wave.open(str(wav)) as sound:\n            assert (sound.getframerate(), sound.getnchannels(), sound.getsampwidth()) == (16000, 1, 2)\n            seconds = sound.getnframes() / 16000\n            assert 0 < seconds < 8, name\n        rows.append(dict(file=wav.name, phrase=text, seconds=seconds, sample_rate=16000, channels=1, bits=16, sha256=hashlib.sha256(wav.read_bytes()).hexdigest()))\n        print('Generated', wav.name, round(seconds, 3), flush=True)\n    (out / 'stability-voice-manifest.json').write_text(json.dumps(dict(voice='zh-CN-YunxiNeural', rate='-8%', pitch='+0Hz', generator='edge-tts', files=rows), ensure_ascii=False, indent=2)+'\\n', encoding='utf-8')\n\n\nif __name__ == '__main__':\n    parser = argparse.ArgumentParser()\n    parser.add_argument('--output', required=True)\n    parser.add_argument('--ffmpeg', required=True)\n    asyncio.run(generate(parser.parse_args()))\n",
+      "deleted": true
+    },
+    {
+      "path": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\__pycache__\\flash_tool.cpython-312.pyc",
+      "bytes": 43436,
+      "sha256": "ec7d43c24e00a4d430f097ae95d355047a6203d3edfe8fbbb8abe087c1dd1bc2",
+      "reason": "python import regenerates from tracked flash_tool.py",
+      "deleted": true
+    },
+    {
+      "path": "D:\\code\\Scoliosis\\Luckfox\\调试\\工具\\一键烧录\\__pycache__\\test_flash_tool.cpython-312.pyc",
+      "bytes": 17506,
+      "sha256": "7dc82ba81ee600af363412236f14b5ac45079d9c74f368166398f58feb3e1655",
+      "reason": "python unittest regenerates from tracked test_flash_tool.py",
+      "deleted": true
+    }
+  ]
+}

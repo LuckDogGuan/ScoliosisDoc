@@ -1,0 +1,16 @@
+[
+  {
+    "kind": "global",
+    "source": "C:\\Users\\31186\\AppData\\Local\\ScoliosisScreening\\screening.sqlite3",
+    "backup": "\u8c03\u8bd5\\\u8bb0\u5f55\\delivery-3310-20261013\\backups\\global-before-persistent-launch.sqlite3",
+    "sha256": "aa72dbf84004556468fabf0d999fb3af4364fb3f0030450c94959277fd5b2744",
+    "integrity": "ok"
+  },
+  {
+    "kind": "workspace",
+    "source": "D:\\code\\Scoliosis\\\u5de5\u4f5c\u7a7a\u95f4\\test202610\\screening.sqlite3",
+    "backup": "\u8c03\u8bd5\\\u8bb0\u5f55\\delivery-3310-20261013\\backups\\workspace-before-persistent-launch.sqlite3",
+    "sha256": "315c7d493584db46c92428fedf77e347a409f80a6549e9d4e414095f7ed7f779",
+    "integrity": "ok"
+  }
+]
