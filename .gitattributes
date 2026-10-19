@@ -7,3 +7,8 @@
 
 # Preserve original device transcript bytes; hashes are indexed separately.
 调试/记录/usb-uvc-tool-20261002/board-*.txt -text whitespace=-blank-at-eol,-blank-at-eof
+
+# Newly archived acceptance inputs retain their original bytes for SHA256 audits.
+调试/记录/backlight-school-export-20261013/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+调试/记录/backlight-sweep-20261016/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+调试/记录/delivery-3310-20261013/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

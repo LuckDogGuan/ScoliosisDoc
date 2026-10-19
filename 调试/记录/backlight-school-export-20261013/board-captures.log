@@ -1,0 +1,13 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/tool/capture_stability_board_test.dart
+00:00 +0: real controller twenty captures and timed soak with decoded videos
+00:01 +0 -1: real controller twenty captures and timed soak with decoded videos [E]
+  Expected: not null
+    Actual: <null>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  tool\capture_stability_board_test.dart 70:5         main.<fn>
+  
+00:01 +0 -1: Some tests failed.
+{"command": ["D:\\SoftWare\\Flutter\\flutter_windows_3.41.9-stable\\flutter\\bin\\flutter.bat", "test", "--no-pub", "tool/capture_stability_board_test.dart", "--reporter", "expanded"], "target": {"serial": "41eda5f2c5b00de1", "device": "CAM-41eda5f2c5b00de1", "address": "192.168.101.4"}, "rounds": 20, "soak_minutes": 0, "data_root": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\backlight-board-emmc-20261013", "dry_run": false}

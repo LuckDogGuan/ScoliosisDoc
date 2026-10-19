@@ -1,0 +1,132 @@
+{
+  "archived_on": "2026-10-19",
+  "kind": "existing_historical_evidence",
+  "reran_tests": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 841,
+      "sha256": "8a92596c02aeea693cd942305bf01f0ca19545b46bc1d841416b01d96122e24b"
+    },
+    {
+      "path": "board-before-test.json",
+      "bytes": 2549,
+      "sha256": "4fe4e6e985ec66971a8680d280d7efa3cd353888964dd4bb5ada257bcc40ee51"
+    },
+    {
+      "path": "board-captures.log",
+      "bytes": 1065,
+      "sha256": "f7022412346cd74378cc11ebc1a3d1f0258da23deda6a1a2a3791ae13909bab6"
+    },
+    {
+      "path": "board-install.log",
+      "bytes": 351,
+      "sha256": "d99bd5c5077ffd8c6a4a79a576b9500dc475e39884610807597874dd7cd113b2"
+    },
+    {
+      "path": "board-test-runtime.jsonl",
+      "bytes": 118529,
+      "sha256": "3c48c4e5fb8d69c89c213cba8eba4739518733b5b404cf09cb9a8f5334e009f7"
+    },
+    {
+      "path": "board_validation.py",
+      "bytes": 6172,
+      "sha256": "03d1dbe5fec232114b0ca375ba1b9548477cce3200a55ae1a3e351c319a3a2b4"
+    },
+    {
+      "path": "firmware-package.log",
+      "bytes": 3568,
+      "sha256": "d5770fe5623676b8057d69918e256e10cae3c4c22da8895ea042a0e59bf8270b"
+    },
+    {
+      "path": "firmware-tests.log",
+      "bytes": 4080,
+      "sha256": "89f5ca86dfd03063a977d36bfdf506e5b9216354a6958f20cc0f58685ad4dae4"
+    },
+    {
+      "path": "flutter-analyze.log",
+      "bytes": 202,
+      "sha256": "b6a3e90244cf02eb67e044c2631ff45a69c62fbc7f944343a81f16137aa7c37d"
+    },
+    {
+      "path": "flutter-network-regression.log",
+      "bytes": 1485,
+      "sha256": "ba4a5d46945989199bf1b8191f655823d5dc12e1a83d6a99433c7922b0181832"
+    },
+    {
+      "path": "flutter-tests-serial.log",
+      "bytes": 17857,
+      "sha256": "e03033e6c9f252a4aa077203a13e9ab227d6f7211836911b12771fce34e5bfb8"
+    },
+    {
+      "path": "flutter-tests.log",
+      "bytes": 17583,
+      "sha256": "06b6515d5a6a19b13d026dbe72121be43db6bcf57c16dd5a036b7c87f1eeb6d2"
+    },
+    {
+      "path": "ram-attempt-board-before-test.json",
+      "bytes": 2549,
+      "sha256": "4fe4e6e985ec66971a8680d280d7efa3cd353888964dd4bb5ada257bcc40ee51"
+    },
+    {
+      "path": "ram-attempt-board-captures.log",
+      "bytes": 1249,
+      "sha256": "c93eea97acc45216090b7c6454521f115130e1531f7b88b10e85b2a8f2d7a78a"
+    },
+    {
+      "path": "ram-attempt-board-test-runtime.jsonl",
+      "bytes": 118529,
+      "sha256": "3c48c4e5fb8d69c89c213cba8eba4739518733b5b404cf09cb9a8f5334e009f7"
+    },
+    {
+      "path": "records-combined-class-print.png",
+      "bytes": 46298,
+      "sha256": "ab724fc520f237291fa3a3348f46fcff2ab343fd01fa647e28ffea49c956dfb7"
+    },
+    {
+      "path": "records-combined-class-wps.pdf",
+      "bytes": 133722,
+      "sha256": "0f893fb95016fc5690eec54a4a108677e0f6f63bf91b5e399745d70f6c0412f4"
+    },
+    {
+      "path": "records-combined-wps.pdf",
+      "bytes": 131930,
+      "sha256": "9cba79bd4da0fa06a8f8e2b20822721f12da4d2f847bb1f2802dc0d111e277e0"
+    },
+    {
+      "path": "records-separate-class-print.png",
+      "bytes": 39864,
+      "sha256": "8a0fbd0e07eab76a60ac72014292845af775840e91a95ab57095a75b154b9fd1"
+    },
+    {
+      "path": "records-separate-class-wps.pdf",
+      "bytes": 133348,
+      "sha256": "a3afdbf1ba400766c9a83824596c3e8d5ed53aa3c72ba69ed9174160156e4496"
+    },
+    {
+      "path": "records-separate-print.png",
+      "bytes": 31794,
+      "sha256": "34c82e4e891be6023018ccbf9c8d23c16673b99059a8f963085faabdf421567b"
+    },
+    {
+      "path": "records-separate-wps.pdf",
+      "bytes": 430497,
+      "sha256": "07c05fdb684e069d633993733a4e293f3e2e719276e74f749e888e12703d3aa2"
+    },
+    {
+      "path": "windows-build.log",
+      "bytes": 244,
+      "sha256": "ae6e2fe816478fa4f64bdf6767c7aaa459f6dc8c88660ef2509093213b42c50a"
+    },
+    {
+      "path": "windows-package.log",
+      "bytes": 15681,
+      "sha256": "022473e2c458148d7a33f81de084e5d8bc5df7fd5cb888f496897274b4883790"
+    },
+    {
+      "path": "wps-validation.json",
+      "bytes": 393,
+      "sha256": "16a34e806e386ad7c4fa4ba0e50d89d6e96808f5e410d331bfd7cd4a3e094959"
+    }
+  ]
+}

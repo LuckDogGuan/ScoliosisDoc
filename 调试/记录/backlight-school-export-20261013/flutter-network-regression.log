@@ -1,0 +1,12 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: pending grants exclude short, old success below 3s and failed files; diagnostics uses confirmed brightness
+00:00 +1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: HTTP completion requires three seconds for success
+00:00 +2: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: UTC capture time displays UTC+8 once, including midnight
+00:00 +3: loading D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart
+00:00 +3: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: gender selection persists and prepared records never enter history
+00:00 +4: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:07 +5: loading D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart
+00:07 +5: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:18 +6: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: active partial body is cancelled during server shutdown
+00:18 +7: All tests passed!

@@ -1,0 +1,25 @@
+make CC=gcc TARGET=instrument_app_host
+make[1]: Entering directory '/home/guanjx/luckfox/Scoliosis'
+gcc -std=c11 -D_POSIX_C_SOURCE=200809L -D_DEFAULT_SOURCE -Wall -Wextra -Werror -O2 -Iinclude -Ithird_party/cjson -Ithird_party/lwbtn/include src/app/app_controller.c src/app/policy.c src/middleware/legacy.c src/platform/process.c src/platform/trace.c src/platform/luckfox_gpio.c src/platform/luckfox_camera.c src/app/runtime_v3.c src/middleware/persistence.c src/platform/clock.c src/middleware/buttons.c third_party/lwbtn/lwbtn.c src/config/config.c src/platform/luckfox_wifi.c src/middleware/upload.c src/middleware/discover.c src/storage/storage.c src/platform/luckfox_audio.c src/middleware/capture.c src/platform/luckfox_battery.c src/platform/luckfox_button.c src/platform/luckfox_light.c src/platform/light_test.c third_party/cjson/cJSON.c -o instrument_app_host
+make[1]: Leaving directory '/home/guanjx/luckfox/Scoliosis'
+./instrument_app_host --check-config config.example.json
+config OK
+python3 tests/test_upload.py
+upload response: HTTP/1.0 500 Internal Server Error
+binary upload, hello volume sync, save-volume, and invalid config OK
+python3 tests/test_pending_upload.py
+upload response: HTTP/1.0 500 Internal Server Error
+pending receipt, hash mismatch, retry, rejection, and async worker OK
+python3 tests/test_capture_discard.py
+capture_discard: mismatch, busy, exact proof, duplicate receipt passed
+evidence: /tmp/scoliosis-discard-hh2u68w3
+gcc -std=c11 -D_POSIX_C_SOURCE=200809L -D_DEFAULT_SOURCE -Wall -Wextra -Werror -O2 -Iinclude -Ithird_party/cjson -Ithird_party/lwbtn/include tests/test_buttons.c src/middleware/buttons.c src/platform/luckfox_gpio.c third_party/lwbtn/lwbtn.c -o tests/.buttons_check
+./tests/.buttons_check
+buttons: boot hold, bounce, staggered, three keys, error, gap, wrap PASS; lwbtn=24 button=24
+PASS: GPIO55 500ms hold / 1000ms release, short/invalid/gap/gate, rehold, shutdown
+gcc -std=c11 -D_POSIX_C_SOURCE=200809L -D_DEFAULT_SOURCE -Wall -Wextra -Werror -O2 -Iinclude -Ithird_party/cjson -Ithird_party/lwbtn/include -DINSTRUMENT_ROOT='"/tmp/diagnostics-backlight-8fff1o0r/state"' -DDISCOVER_PORT=37024 src/app/app_controller.c src/app/policy.c src/middleware/legacy.c src/platform/process.c src/platform/trace.c src/platform/luckfox_gpio.c src/platform/luckfox_camera.c src/app/runtime_v3.c src/middleware/persistence.c src/platform/clock.c src/middleware/buttons.c third_party/lwbtn/lwbtn.c src/config/config.c src/platform/luckfox_wifi.c src/middleware/upload.c src/middleware/discover.c src/storage/storage.c src/platform/luckfox_audio.c src/middleware/capture.c src/platform/luckfox_battery.c src/platform/luckfox_button.c src/platform/luckfox_light.c src/platform/light_test.c third_party/cjson/cJSON.c -o /tmp/diagnostics-backlight-8fff1o0r/app
+PASS: actual UDP brightness range/token/lease/end/expiry and persistence
+evidence: /tmp/diagnostics-backlight-8fff1o0r
+PASS: normal steady, 3-second pairing breath, return steady, shutdown off
+/home/guanjx/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc -std=c11 -D_POSIX_C_SOURCE=200809L -D_DEFAULT_SOURCE -Wall -Wextra -Werror -O2 -Iinclude -Ithird_party/cjson -Ithird_party/lwbtn/include src/app/app_controller.c src/app/policy.c src/middleware/legacy.c src/platform/process.c src/platform/trace.c src/platform/luckfox_gpio.c src/platform/luckfox_camera.c src/app/runtime_v3.c src/middleware/persistence.c src/platform/clock.c src/middleware/buttons.c third_party/lwbtn/lwbtn.c src/config/config.c src/platform/luckfox_wifi.c src/middleware/upload.c src/middleware/discover.c src/storage/storage.c src/platform/luckfox_audio.c src/middleware/capture.c src/platform/luckfox_battery.c src/platform/luckfox_button.c src/platform/luckfox_light.c src/platform/light_test.c third_party/cjson/cJSON.c -o instrument_app
+/home/guanjx/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc -shared -fPIC -Wall -Wextra -Werror -O2 src/platform/luckfox_mux_adapter.c -pthread -o luckfox_mux_adapter.so

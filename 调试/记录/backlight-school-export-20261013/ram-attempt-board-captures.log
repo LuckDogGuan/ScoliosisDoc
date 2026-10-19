@@ -1,0 +1,10 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/tool/capture_stability_board_test.dart
+00:00 +0: real controller twenty captures and timed soak with decoded videos
+Shell: STABILITY {"check":"preflight","device_id":"CAM-41eda5f2c5b00de1","serial":"41eda5f2c5b00de1","firmware_sha256":"0bf506caa0746689e635993aae299fb8084f0fa29f23a8df3a6622f4e34cfd04","app_boot":"CAM-41eda5f2c5b00de1-df0ec82a","kernel_boot":"38328ed0-6298-4296-922d-773f90b0ab58","volume":10,"time":"2026-10-13T17:40:35.824707"}
+01:37 +0 -1: real controller twenty captures and timed soak with decoded videos [E]
+  TimeoutException: recording 0
+  tool\capture_stability_board_test.dart 39:43  waitUntil
+  
+01:37 +0 -1: Some tests failed.
+{"command": ["D:\\SoftWare\\Flutter\\flutter_windows_3.41.9-stable\\flutter\\bin\\flutter.bat", "test", "--no-pub", "tool/capture_stability_board_test.dart", "--reporter", "expanded"], "target": {"serial": "41eda5f2c5b00de1", "device": "CAM-41eda5f2c5b00de1", "address": "192.168.101.4"}, "rounds": 20, "soak_minutes": 0, "data_root": "D:\\code\\Scoliosis\\ScoliosisFlutter\\build\\backlight-board-20261013", "dry_run": false}

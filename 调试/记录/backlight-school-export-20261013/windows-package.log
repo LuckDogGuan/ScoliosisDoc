@@ -1,0 +1,159 @@
+Inno Setup 6 Command-Line Compiler
+Copyright (C) 1997-2026 Jordan Russell. All rights reserved.
+Portions Copyright (C) 2000-2026 Martijn Laan. All rights reserved.
+Portions Copyright (C) 2001-2004 Alex Yackimoff. All rights reserved.
+https://www.innosetup.com
+
+Compiler engine version: Inno Setup 6.7.3
+Non-commercial use only
+
+Preprocessing
+   Reading file: C:\Users\31186\AppData\Local\Programs\Inno Setup 6\ISPPBuiltins.iss
+Parsing [Setup] section, line 11
+Parsing [Setup] section, line 12
+Parsing [Setup] section, line 13
+Parsing [Setup] section, line 14
+Parsing [Setup] section, line 15
+Parsing [Setup] section, line 16
+Parsing [Setup] section, line 17
+Parsing [Setup] section, line 18
+Parsing [Setup] section, line 19
+Parsing [Setup] section, line 20
+Parsing [Setup] section, line 21
+Parsing [Setup] section, line 22
+Parsing [Setup] section, line 23
+Parsing [Setup] section, line 24
+Parsing [Setup] section, line 25
+Parsing [Setup] section, line 26
+Parsing [Setup] section, line 27
+Parsing [Setup] section, line 28
+Parsing [Setup] section, line 29
+Parsing [Setup] section, line 30
+Parsing [Setup] section, line 31
+Reading file (WizardImageFile)
+Reading file (WizardSmallImageFile)
+Preparing Setup program executable
+   Verification successful
+   Updating icons (Setup.e32)
+   Updating version info (Setup.e32)
+Determining language code pages
+Parsing [Languages] section, line 33
+   Reading file: D:\code\Scoliosis\ScoliosisFlutter\installer\ChineseSimplified.isl
+   Messages in script file
+Reading default messages from Default.isl
+Parsing [Languages] section, line 33
+   Reading file: D:\code\Scoliosis\ScoliosisFlutter\installer\ChineseSimplified.isl
+Parsing [LangOptions], [Messages], and [CustomMessages] sections
+   Messages in script file
+Reading [Code] section
+Parsing [Icons] section, line 37
+Parsing [Icons] section, line 38
+Parsing [Files] section, line 35
+Creating setup files
+   Verification successful
+   Updating icons (Setup.exe)
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\flutter_tts_plugin.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\flutter_windows.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\native_assets.json
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\scoliosis_flutter.exe
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\sqlite3.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\video_player_win_plugin.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\app.so
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\icudtl.dat
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\AssetManifest.bin
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\FontManifest.json
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\NativeAssetsManifest.json
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\NOTICES.Z
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\assets\branding\app-icon.png
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\fonts\MaterialIcons-Regular.otf
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\packages\cupertino_icons\assets\CupertinoIcons.ttf
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\shaders\ink_sparkle.frag
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\data\flutter_assets\shaders\stretch_effect.frag
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ball.onnx
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\digit.onnx
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\example_read.exe
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\onnxruntime.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\runtime-manifest.json
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\runtime-readme.md
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\scale.onnx
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\avcodec-58.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\avdevice-58.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\avfilter-7.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\avformat-58.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\avutil-56.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\ffmpeg.exe
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\ffprobe.exe
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\postproc-55.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\swresample-3.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\ffmpeg\swscale-5.dll
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\licenses\FFmpeg-GPL-3.txt
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\licenses\FFmpeg-NOTICE.txt
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\licenses\LICENSE
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\licenses\ThirdPartyNotices.txt
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000000.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000005.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000010.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000015.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000020.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000025.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000030.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000035.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000040.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000045.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000050.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000055.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000060.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000065.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000070.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000075.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000080.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000085.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000090.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000095.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000100.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000105.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000110.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000115.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000120.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000125.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000130.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000135.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000140.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000145.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000150.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000155.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000160.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000165.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000170.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000175.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000180.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000185.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000190.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000195.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000200.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000205.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000210.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000215.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000220.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000225.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000230.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000235.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000240.jpg
+   Compressing: D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Release\thirdPartyLibrary\test-ruler-v1\frame_000245.jpg
+   Compressing Setup program executable
+   Updating version info (Setup.exe)
+   Updating manifest (Setup.exe)
+
+
+Successful compile (47.641 sec). Resulting Setup program filename is:
+D:\code\Scoliosis\ScoliosisFlutter\releases\windows-3.3.11-b0b6ae4.incomplete\Scoliosis-3.3.11-Setup.exe
+{
+  "version": "3.3.11",
+  "source_commit": "b0b6ae4eb543ebf49f3c478aaff9c0d726ecb031",
+  "archive": "scoliosis-windows-3.3.11.zip",
+  "archive_sha256": "6d9d35406fa3404bedc889d74e07d14e38ae7b684b001cfa4827d700d72f3ea5",
+  "installer": "Scoliosis-3.3.11-Setup.exe",
+  "installer_sha256": "218c6e471db3e2755001fac62334d70c0535ed49712daa13e502cfe8c8445f27",
+  "verification": "runtime manifest and complete archive readback passed",
+  "expanded_directory": "local only, excluded from Git"
+}

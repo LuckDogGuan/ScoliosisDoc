@@ -1,0 +1,127 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart
+00:00 +0: D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart: selects third frame in five-frame groups with original PTS
+00:00 +1: D:/code/Scoliosis/ScoliosisFlutter/test/angle_analysis_test.dart: accepts machine line and legacy reader without inventing failed angle
+00:00 +2: D:/code/Scoliosis/ScoliosisFlutter/test/backlight_school_export_test.dart: angle hints preserve missing, errors, partial results and 5 degree boundaries
+00:00 +3: D:/code/Scoliosis/ScoliosisFlutter/test/backlight_school_export_test.dart: whole school ignores all browser filters and both print modes preserve captures and charts
+00:00 +4: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +5: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +6: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +7: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +8: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +9: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +10: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +11: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:01 +12: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:02 +13: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:02 +14: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:02 +15: D:/code/Scoliosis/ScoliosisFlutter/test/busy_controls_test.dart: roster, capture and records controls stay enabled during a shot
+00:02 +16: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:02 +17: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +18: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +19: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +20: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +21: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:03 +22: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +23: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +24: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +25: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +26: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +27: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:04 +28: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +29: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +30: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +31: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +32: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +32 -1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +33 -1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +33 -1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_three_seconds_test.dart: pending grants exclude short, old success below 3s and failed files; diagnostics uses confirmed brightness [E]
+  Expected: ['CAM-3000']
+    Actual: []
+     Which: at location [0] is [] which shorter than expected
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\capture_three_seconds_test.dart 89:7           main.<fn>
+  
+00:05 +34 -1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +35 -1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:05 +36 -1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:06 +37 -1: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion
+00:06 +37 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:06 +37 -2: D:/code/Scoliosis/ScoliosisFlutter/test/capture_fixes_test.dart: fixed queue, skipped restore positions, zero timer, duplicate events and class completion [E]
+  Expected: <200>
+    Actual: <409>
+  {ok: false, error: 拍摄号重复或当前学生正在拍摄}
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\capture_fixes_test.dart 214:9                  main.<fn>.post
+  
+00:06 +38 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:06 +39 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:06 +40 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:06 +41 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +42 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +43 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +44 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +45 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +46 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +47 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +48 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +49 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +50 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:07 +51 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:08 +52 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:08 +53 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:08 +54 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:08 +55 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +56 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +57 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +58 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +59 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +60 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +61 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +62 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +63 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +64 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:09 +65 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:10 +66 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:10 +67 -2: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate
+00:10 +67 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:10 +67 -3: D:/code/Scoliosis/ScoliosisFlutter/test/connection_stability_test.dart: renew outruns congested controls; query and lost receipt advance once; reboot pauses gate [E]
+  Expected: a value less than <-1>
+    Actual: <0>
+     Which: is not a value less than <-1>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\connection_stability_test.dart 126:7           main.<fn>
+  
+00:10 +68 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:10 +69 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:10 +70 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:10 +71 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:11 +72 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:11 +73 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:11 +74 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:11 +75 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:11 +76 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:11 +77 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: all three capture regions show together in both modes at desktop sizes
+00:11 +78 -3: D:/code/Scoliosis/ScoliosisFlutter/test/school_curve_export_test.dart: no school disables exports and record maximum is explicit
+00:11 +79 -3: D:/code/Scoliosis/ScoliosisFlutter/test/survey_test.dart: HTTP allocation, unassigned upload and duplicate protection
+00:11 +80 -3: D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart: filtered roster export contains only current matches across all pages
+00:11 +81 -3: D:/code/Scoliosis/ScoliosisFlutter/test/todo_20261008_test.dart: filtered roster export contains only current matches across all pages
+00:11 +82 -3: D:/code/Scoliosis/ScoliosisFlutter/test/system_upgrade_test.dart: gender sheets use one A4 page and single mode clears selection
+00:12 +83 -3: D:/code/Scoliosis/ScoliosisFlutter/test/system_upgrade_test.dart: gender sheets use one A4 page and single mode clears selection
+00:12 +84 -3: D:/code/Scoliosis/ScoliosisFlutter/test/system_upgrade_test.dart: gender sheets use one A4 page and single mode clears selection
+00:12 +85 -3: D:/code/Scoliosis/ScoliosisFlutter/test/system_upgrade_test.dart: gender sheets use one A4 page and single mode clears selection
+00:12 +86 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: records fill available rows, page navigation resize filtering and deletion clamp
+00:12 +87 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: records fill available rows, page navigation resize filtering and deletion clamp
+00:12 +88 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: records fill available rows, page navigation resize filtering and deletion clamp
+00:13 +89 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: records fill available rows, page navigation resize filtering and deletion clamp
+00:13 +90 -3: D:/code/Scoliosis/ScoliosisFlutter/test/records_pagination_layout_test.dart: records fill available rows, page navigation resize filtering and deletion clamp
+00:13 +91 -3: D:/code/Scoliosis/ScoliosisFlutter/test/volume_upgrade_test.dart: audio rejection stays in dialog and produces no unhandled exception
+00:13 +92 -3: D:/code/Scoliosis/ScoliosisFlutter/test/window_close_test.dart: close blocks capture, deduplicates requests, cancels and confirms
+00:13 +93 -3: D:/code/Scoliosis/ScoliosisFlutter/test/window_close_test.dart: close blocks capture, deduplicates requests, cancels and confirms
+00:17 +94 -3: Some tests failed.
