@@ -1,0 +1,11 @@
+{
+  "device": "CAM-211ec7045815bf02",
+  "address": "192.168.101.7",
+  "firmware": "3.3.15",
+  "saved_brightness": 70,
+  "ssh_host_key": "SHA256:QLjOSdI3DrGRFdzX72pAcNRo4l6QPngLFHBNr6SYKgk",
+  "phase": "idle",
+  "preserved_sha256": "37aa5e94fd167cf35b598b4ff0079f973bca3cb975646539812148df831170ee  /opt/instrument/config.json\n6f707a6e00366728792127bb3eaf85b59555b85e04c9e4e601683d3ffaf1094f  /opt/instrument/state/pair-v3.json\n40486aaf5a0c609e26656febebfc9396fc8791d7e19a7902c8138387a5a74ffd  /opt/instrument/bin/instrument_app\nc68543cf76129cf97e6d4de610ca3e908beddded5bc0dc63a0d53f81c6640f7f  /userdata/rkipc.ini",
+  "source": "existing RTSP /live/0, decoded original-size PNG; not original sensor JPEG",
+  "note": "Direct diagnostic lease; desktop diagnostic-image pushes may be rejected because GUI test is closed. No business capture is created."
+}

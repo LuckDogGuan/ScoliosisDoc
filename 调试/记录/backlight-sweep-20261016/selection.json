@@ -1,0 +1,16 @@
+{
+  "device": "CAM-211ec7045815bf02",
+  "selected_brightness": 65,
+  "recommended_range": [
+    60,
+    70
+  ],
+  "initial_brightness": 70,
+  "phase": "idle",
+  "diagnostics_active": false,
+  "gate_enabled": false,
+  "camera_fault": false,
+  "preserved_match": true,
+  "stored_at": "2026-10-16T10:34:40+0800",
+  "note": "Normal test exit turns lamp off. Next formal capture reuses saved brightness 65. Fixed-pose recommendation only."
+}
